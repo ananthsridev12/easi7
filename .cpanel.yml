@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - /bin/mkdir -p /home1/de2shrnx/public_html/user/config
+    - /bin/mkdir -p /home1/de2shrnx/public_html/user/pages
+    - /bin/cp -R config/. /home1/de2shrnx/public_html/user/config/
+    - /bin/cp -R pages/. /home1/de2shrnx/public_html/user/pages/
+    - /bin/rm -rf /home1/de2shrnx/public_html/cache/*
