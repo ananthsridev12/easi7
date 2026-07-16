@@ -1,0 +1,72 @@
+---
+title: 'Tech Stack'
+menu: 'Tech Stack'
+metadata:
+    description: 'Marketing technologies and tools I use: GA4, GTM, Google Ads, SEMrush, Ahrefs, WordPress, and more.'
+sitemap:
+    changefreq: monthly
+    priority: !!float 0.5
+---
+
+## My Tech Stack
+
+The marketing and analytics tools I use to build scalable, data-driven growth systems.
+
+This isn't just a list of tools&mdash;it's my growth infrastructure. Each tool solves a specific problem in the marketing and analytics workflow. From tracking user behavior to optimizing campaign performance to automating lead nurturing, this stack helps me build systems that drive measurable, scalable growth.
+
+### Analytics & Tracking
+
+* Google Analytics 4 (GA4)
+* Google Tag Manager (GTM)
+* PostHog
+* Google Search Console
+* UTM Tagging & Attribution
+* Mobile Measurement Partners
+
+### Performance Marketing
+
+* Google Ads (Search, Display, Shopping)
+* Meta Ads Manager
+* LinkedIn Campaign Manager
+* Facebook Merchandise
+* Campaign Optimization Tools
+
+### SEO & Research
+
+* Ahrefs
+* SEMrush
+* Screaming Frog
+* Schema Markup & Structured Data
+* AI-Assisted Keyword Research
+* NLP Content Optimization
+
+### CMS & Development
+
+* WordPress
+* Magento
+* Grav CMS
+* HTML/CSS/JavaScript
+* Landing Page Builders
+
+### Automation & CRM
+
+* CRM Integration & Management
+* Email Marketing Platforms
+* WhatsApp API Integration
+* Marketing Automation Workflows
+* Lead Nurturing Sequences
+
+### Data & Reporting
+
+* SQL for Data Analysis
+* Excel (Advanced)
+* Looker Studio
+* Custom Dashboards
+* Data Layer Architecture
+
+### How This Stack Drives Growth
+
+* **Accurate Tracking** &mdash; GA4 and GTM ensure every click, conversion, and user journey is captured accurately.
+* **Performance Optimization** &mdash; Real-time dashboards enable continuous campaign optimization and ROI improvement.
+* **Automation at Scale** &mdash; CRM workflows run on autopilot, nurturing leads while freeing time for strategy.
+* **SEO Foundation** &mdash; Technical SEO tools build long-term organic visibility and sustainable growth.
