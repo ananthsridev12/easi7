@@ -11,21 +11,38 @@
 </section>
 
 <section class="block" style="border-bottom:none;">
-  <div class="wrap">
-    {% if page.header.metrics %}
-    <div class="metric-band">
-      {% for m in page.header.metrics %}
-      <div class="metric"><span class="v">{{ m.value }}</span><span class="k">{{ m.label }}</span></div>
-      {% endfor %}
-    </div>
-    {% endif %}
+  <div class="wrap with-sidebar">
+    <div>
+      {% if page.header.metrics %}
+      <div class="metric-band">
+        {% for m in page.header.metrics %}
+        <div class="metric"><span class="v">{{ m.value }}</span><span class="k">{{ m.label }}</span></div>
+        {% endfor %}
+      </div>
+      {% endif %}
 
-    {{ page.content|raw }}
+      {{ page.content|raw }}
 
-    <div class="hero-ctas" style="margin-top:2em;">
-      {% if page.header.service_url %}<a class="btn ghost" href="{{ url(page.header.service_url) }}">See this service &rarr;</a>{% endif %}
-      <a class="btn brass" href="{{ url('/contact') }}">Start a similar project &rarr;</a>
+      <div class="hero-ctas" style="margin-top:2em;">
+        {% if page.header.service_url %}<a class="btn ghost" href="{{ url(page.header.service_url) }}">See this service &rarr;</a>{% endif %}
+        <a class="btn brass" href="{{ url('/contact') }}">Start a similar project &rarr;</a>
+      </div>
     </div>
+    {% include 'partials/sidebar.html.twig' with {
+      links_title: 'Explore',
+      links: [
+        { label: 'All Portfolio', url: '/portfolio' },
+        { label: 'Case Studies', url: '/case-studies' },
+        { label: Services, url: '/services' },
+        { label: Industries, url: '/industries' }
+      ],
+      cta: {
+        heading: 'Ready for similar results?',
+        body: "Tell us what's not working and we'll tell you honestly whether we can fix it.",
+        button_label: 'Start a project',
+        button_url: '/contact'
+      }
+    } %}
   </div>
 </section>
 {% endblock %}

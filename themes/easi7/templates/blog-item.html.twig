@@ -15,8 +15,27 @@
 </section>
 
 <section class="block" style="border-bottom:none;">
-  <div class="wrap">
-    {{ page.content|raw }}
+  <div class="wrap with-sidebar">
+    <div>
+      {{ page.content|raw }}
+    </div>
+    {% include 'partials/sidebar.html.twig' with {
+      links_title: 'Explore',
+      links: [
+        { label: 'All Articles', url: '/blog' },
+        { label: 'Knowledge Hub', url: '/knowledge-hub' },
+        { label: Services, url: '/services' },
+        { label: 'Case Studies', url: '/case-studies' }
+      ],
+      recent_title: 'Recent Posts',
+      recent: page.parent.collection()|slice(0, 5),
+      cta: {
+        heading: 'Have a project in mind?',
+        body: "Tell us what's not working — we'll tell you honestly if we can help.",
+        button_label: 'Start a conversation',
+        button_url: '/contact'
+      }
+    } %}
   </div>
 </section>
 

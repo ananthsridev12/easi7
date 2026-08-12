@@ -11,12 +11,31 @@
 </section>
 
 <section class="block" style="border-bottom:none;">
-  <div class="wrap">
-    {{ page.content|raw }}
-    <div class="hero-ctas" style="margin-top:2em;">
-      <a class="btn ghost" href="{{ url('/knowledge-hub') }}">&larr; Back to Knowledge Hub</a>
-      {% if page.header.service_url %}<a class="btn brass" href="{{ url(page.header.service_url) }}">See related service &rarr;</a>{% endif %}
+  <div class="wrap with-sidebar">
+    <div>
+      {{ page.content|raw }}
+      <div class="hero-ctas" style="margin-top:2em;">
+        <a class="btn ghost" href="{{ url('/knowledge-hub') }}">&larr; Back to Knowledge Hub</a>
+        {% if page.header.service_url %}<a class="btn brass" href="{{ url(page.header.service_url) }}">See related service &rarr;</a>{% endif %}
+      </div>
     </div>
+    {% include 'partials/sidebar.html.twig' with {
+      links_title: 'Explore',
+      links: [
+        { label: 'Knowledge Hub', url: '/knowledge-hub' },
+        { label: Blog, url: '/blog' },
+        { label: 'Tools We Use', url: '/tech-stack' },
+        { label: Services, url: '/services' }
+      ],
+      recent_title: 'Glossary Terms',
+      recent: page.parent.collection()|slice(0, 6),
+      cta: {
+        heading: 'Need something specific explained?',
+        body: "If it's not here yet, just ask us directly.",
+        button_label: 'Get in touch',
+        button_url: '/contact'
+      }
+    } %}
   </div>
 </section>
 {% endblock %}

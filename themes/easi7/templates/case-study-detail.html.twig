@@ -14,22 +14,39 @@
 </section>
 
 <section class="block" style="border-bottom:none;">
-  <div class="wrap">
-    {% if page.header.metrics %}
-    <div class="metric-band">
-      {% for m in page.header.metrics %}
-      <div class="metric"><span class="v">{{ m.value }}</span><span class="k">{{ m.label }}</span></div>
-      {% endfor %}
-    </div>
-    {% endif %}
+  <div class="wrap with-sidebar">
+    <div>
+      {% if page.header.metrics %}
+      <div class="metric-band">
+        {% for m in page.header.metrics %}
+        <div class="metric"><span class="v">{{ m.value }}</span><span class="k">{{ m.label }}</span></div>
+        {% endfor %}
+      </div>
+      {% endif %}
 
-    {{ page.content|raw }}
+      {{ page.content|raw }}
 
-    <div class="hero-ctas" style="margin-top:2em;">
-      {% if page.header.portfolio_url %}<a class="btn ghost" href="{{ url(page.header.portfolio_url) }}">View project details &rarr;</a>{% endif %}
-      {% if page.header.service_url %}<a class="btn ghost" href="{{ url(page.header.service_url) }}">See this service &rarr;</a>{% endif %}
-      <a class="btn brass" href="{{ url('/contact') }}">Start a similar project &rarr;</a>
+      <div class="hero-ctas" style="margin-top:2em;">
+        {% if page.header.portfolio_url %}<a class="btn ghost" href="{{ url(page.header.portfolio_url) }}">View project details &rarr;</a>{% endif %}
+        {% if page.header.service_url %}<a class="btn ghost" href="{{ url(page.header.service_url) }}">See this service &rarr;</a>{% endif %}
+        <a class="btn brass" href="{{ url('/contact') }}">Start a similar project &rarr;</a>
+      </div>
     </div>
+    {% include 'partials/sidebar.html.twig' with {
+      links_title: 'Explore',
+      links: [
+        { label: 'All Case Studies', url: '/case-studies' },
+        { label: Portfolio, url: '/portfolio' },
+        { label: Services, url: '/services' },
+        { label: Industries, url: '/industries' }
+      ],
+      cta: {
+        heading: 'Want results like these?',
+        body: "We'll tell you what's realistic for your stack and budget before we start.",
+        button_label: 'Start a conversation',
+        button_url: '/contact'
+      }
+    } %}
   </div>
 </section>
 {% endblock %}

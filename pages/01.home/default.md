@@ -47,13 +47,6 @@ featured_case_studies:
     - /case-studies/giri-trading-ecommerce-growth
     - /case-studies/peppers-media-b2b-leadgen
 
-clients:
-    - { name: '<b>Dhan</b>LAP' }
-    - { name: 'Ark Neo Financial Services' }
-    - { name: '<b>Giri</b> Trading Agency' }
-    - { name: '<b>Peppers</b> Media' }
-    - { name: '+ more on request', muted: true }
-
 resources_preview:
     - { route: /knowledge-hub/what-is-ga4, kind: Guide, meta: 'Knowledge Hub · Analytics' }
     - { route: /knowledge-hub/what-is-answer-engine-optimization, kind: Glossary, meta: 'Knowledge Hub · SEO' }

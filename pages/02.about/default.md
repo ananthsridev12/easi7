@@ -14,21 +14,7 @@ founder:
     initials: AS
     name: 'Ananth Sridev'
     role: 'Founder & Principal Strategist'
-    bio: "Ananth started in digital marketing in 2013, managing Facebook pages and supporting local TV campaigns at a regional ad agency. What began as content publishing became a deeper interest in how marketing actually performs — the data behind it, the tracking that makes decisions possible, and the systems that make growth repeatable. He founded EASI7 to run that same discipline for other businesses."
-
-timeline:
-    - role: 'Digital Marketing Specialist'
-      company: 'Ark Neo Financial Services Pvt Ltd (DhanLAP)'
-      period: 'Mar 2022 – Present'
-      summary: 'Full marketing stack ownership: Google Ads Search targeting high-intent financial audiences (-40% CPL), Meta and LinkedIn Ads across the funnel, AEO via schema and structured data, GA4/GTM implementation, full CRM setup with automation flows, and SQL-based Looker Studio dashboards.'
-    - role: 'Executive – Digital Marketing'
-      company: 'Peppers Media Pvt Ltd'
-      period: 'Jan 2021 – Mar 2022'
-      summary: 'Managed PPC and Facebook lead-generation campaigns targeting the US B2B market, plus client pitch decks and presentations for agency business development.'
-    - role: 'Executive – Digital Marketing'
-      company: 'Giri Trading Agency Pvt Ltd'
-      period: 'Oct 2015 – Dec 2020'
-      summary: 'Built the full digital marketing function from scratch — SEO, PPC, Google Shopping, and Facebook campaigns across Indian, US, and Canadian markets, scaling ad spend from ₹0.5L to ₹3L/month while maintaining profitability.'
+    bio: "Ananth founded EASI7 after years of hands-on digital marketing work — running analytics, performance campaigns, SEO, and CRM automation end to end. That experience shaped a simple approach: fix the data infrastructure first, then execute."
 
 cta:
     heading: "Let's build your marketing infrastructure."
@@ -55,5 +41,3 @@ Our approach is **data infrastructure first, then execution**. Clean tracking be
 * Certified in Digital Marketing
 * SEO Essentials &mdash; Semrush Certification
 * Google Ads &amp; Analytics Certification
-
-[Download Ananth's full CV (PDF)](/resume/Ananth_Sridev_Digital_Marketing.pdf)

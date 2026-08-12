@@ -321,7 +321,6 @@ nav:
         items:
           - { label: 'Case Studies', url: /case-studies }
           - { label: Portfolio, url: /portfolio }
-          - { label: Clients, url: /clients }
 
   - label: Resources
     url: /knowledge-hub
