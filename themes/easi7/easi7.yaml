@@ -159,6 +159,60 @@ nav:
           - { label: 'Website Security', url: /services/web-optimization/website-security }
           - { label: 'Website Maintenance & Support', url: /services/web-optimization/website-maintenance-support }
 
+  - label: Design
+    url: /services
+    columns:
+      - category: 'UI/UX Design'
+        url: /services/ui-ux-design
+        items:
+          - { label: 'UX Research', url: /services/ui-ux-design/ux-research }
+          - { label: 'User Experience Design', url: /services/ui-ux-design/user-experience-design }
+          - { label: 'User Interface Design', url: /services/ui-ux-design/user-interface-design }
+          - { label: Wireframing, url: /services/ui-ux-design/wireframing }
+          - { label: Prototyping, url: /services/ui-ux-design/prototyping }
+          - { label: 'Design Systems', url: /services/ui-ux-design/design-systems }
+      - category: 'Website Design'
+        url: /services/website-design
+        items:
+          - { label: 'Corporate Website Design', url: /services/website-design/corporate-website-design }
+          - { label: 'B2B Website Design', url: /services/website-design/b2b-website-design }
+          - { label: 'Landing Page Design', url: /services/website-design/landing-page-design }
+          - { label: 'E-commerce Design', url: /services/website-design/ecommerce-design }
+          - { label: 'Responsive Design', url: /services/website-design/responsive-design }
+      - category: Branding
+        url: /services/branding
+        items:
+          - { label: 'Brand Strategy', url: /services/branding/brand-strategy }
+          - { label: 'Brand Identity', url: /services/branding/brand-identity }
+          - { label: 'Logo Design', url: /services/branding/logo-design }
+          - { label: 'Brand Guidelines', url: /services/branding/brand-guidelines }
+          - { label: 'Visual Identity', url: /services/branding/visual-identity }
+      - category: 'Graphic Design'
+        url: /services/graphic-design
+        items:
+          - { label: 'Marketing Creatives', url: /services/graphic-design/marketing-creatives }
+          - { label: 'Social Media Creatives', url: /services/graphic-design/social-media-creatives }
+          - { label: Infographics, url: /services/graphic-design/infographics }
+          - { label: Brochures, url: /services/graphic-design/brochures }
+          - { label: 'Case Study Design', url: /services/graphic-design/case-study-design }
+      - category: 'Presentation Design'
+        url: /services/presentation-design
+        items:
+          - { label: 'Business Presentations', url: /services/presentation-design/business-presentations }
+          - { label: 'Sales Decks', url: /services/presentation-design/sales-decks }
+          - { label: 'Pitch Decks', url: /services/presentation-design/pitch-decks }
+          - { label: 'Investor Presentations', url: /services/presentation-design/investor-presentations }
+          - { label: 'Corporate Presentations', url: /services/presentation-design/corporate-presentations }
+      - category: 'Video & Motion'
+        url: /services/video-motion
+        items:
+          - { label: 'Explainer Videos', url: /services/video-motion/explainer-videos }
+          - { label: 'Product Videos', url: /services/video-motion/product-videos }
+          - { label: 'Social Media Videos', url: /services/video-motion/social-media-videos }
+          - { label: 'Motion Graphics', url: /services/video-motion/motion-graphics }
+          - { label: 'Video Editing', url: /services/video-motion/video-editing }
+          - { label: Animation, url: /services/video-motion/animation }
+
   - label: 'Strategy & Consulting'
     url: /services/strategy-consulting
 
