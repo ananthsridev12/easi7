@@ -132,10 +132,22 @@
     }
   }
 
+  function initTransparentHeader() {
+    if (!document.body.classList.contains('header-transparent')) return;
+    var header = document.querySelector('header.site');
+    if (!header) return;
+    function update() {
+      header.classList.toggle('is-scrolled', window.scrollY > 40);
+    }
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     initNavToggle();
     initMegaMenu();
     initAccordion();
     initStatCounters();
+    initTransparentHeader();
   });
 })();

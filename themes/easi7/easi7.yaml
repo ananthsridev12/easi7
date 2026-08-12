@@ -4,6 +4,30 @@ assets:
 
 google_fonts_url: 'https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap'
 
+appearance:
+  theme_mode: auto
+  accent_color: '#2454E0'
+  header_fixed: true
+  header_transparent: false
+  footer_sticky: false
+
+seo:
+  title_separator: '·'
+  default_description: 'EASI7 is a full-service digital agency covering marketing, development, design, AI & automation, and strategy.'
+  default_og_image: ''
+  twitter_handle: ''
+  organization_schema: true
+  google_site_verification: ''
+  robots_index: true
+
+analytics:
+  ga4_id: ''
+  gtm_id: ''
+
+icons:
+  fontawesome_enabled: false
+  fontawesome_local: false
+
 company:
   name: EASI7
   legal_name: EASI7

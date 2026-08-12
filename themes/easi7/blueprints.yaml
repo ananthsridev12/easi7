@@ -1,0 +1,186 @@
+title: EASI7 Theme
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 0
+      fields:
+
+        appearance:
+          type: tab
+          title: Appearance
+          fields:
+            appearance.theme_mode:
+              type: select
+              size: small
+              label: Theme Mode
+              description: 'Default appearance before a visitor''s browser/OS preference is checked. "Light"/"Dark" force that theme for every visitor regardless of their OS setting.'
+              default: auto
+              options:
+                auto: 'Auto (follows OS)'
+                light: Light
+                dark: Dark
+
+            appearance.accent_color:
+              type: color
+              label: Accent Color
+              description: 'Tints buttons, links, and highlights sitewide. Derived hover/on-dark shades are computed automatically.'
+              default: '#2454E0'
+
+            appearance.header_fixed:
+              type: toggle
+              label: Header Fixed
+              highlight: 1
+              default: 1
+              options:
+                1: Enabled
+                0: Disabled
+
+            appearance.header_transparent:
+              type: toggle
+              label: 'Header Transparent (home page hero)'
+              description: 'Header starts transparent over the homepage hero, then solidifies once the visitor scrolls.'
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+
+            appearance.footer_sticky:
+              type: toggle
+              label: Sticky Footer
+              description: 'Pins the footer to the bottom of the viewport on short pages instead of leaving a gap above it.'
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+
+        seo:
+          type: tab
+          title: SEO
+          fields:
+            seo.title_separator:
+              type: text
+              size: small
+              label: 'Title Separator'
+              default: '·'
+
+            seo.default_description:
+              type: textarea
+              label: 'Default Meta Description'
+              description: 'Used on pages that don''t set their own metadata.description.'
+
+            seo.default_og_image:
+              type: filepicker
+              preview_images: true
+              label: 'Default Social Share Image'
+              description: 'Fallback og:image / twitter:image when a page has no image of its own. Recommended 1200x630.'
+              destination: 'theme://images'
+
+            seo.twitter_handle:
+              type: text
+              size: small
+              label: 'Twitter / X Handle'
+              placeholder: '@yourhandle'
+
+            seo.organization_schema:
+              type: toggle
+              label: 'Organization Schema (JSON-LD)'
+              description: 'Emits a schema.org Organization block using the Company settings below, for search/AI-answer entity clarity.'
+              highlight: 1
+              default: 1
+              options:
+                1: Enabled
+                0: Disabled
+
+            seo.google_site_verification:
+              type: text
+              label: 'Google Site Verification Code'
+              description: 'Content value only, from Google Search Console''s HTML tag verification method.'
+
+            seo.robots_index:
+              type: toggle
+              label: 'Allow Search Engines to Index'
+              highlight: 1
+              default: 1
+              options:
+                1: Enabled
+                0: Disabled
+
+        analytics:
+          type: tab
+          title: Analytics
+          fields:
+            analytics.ga4_id:
+              type: text
+              size: small
+              label: 'GA4 Measurement ID'
+              placeholder: 'G-XXXXXXXXXX'
+
+            analytics.gtm_id:
+              type: text
+              size: small
+              label: 'GTM Container ID'
+              placeholder: 'GTM-XXXXXXX'
+
+        icons:
+          type: tab
+          title: Icons
+          fields:
+            icons.fontawesome_enabled:
+              type: toggle
+              label: 'Font Awesome 7'
+              description: 'Load the Font Awesome 7 free icon set.'
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+
+            icons.fontawesome_local:
+              type: toggle
+              label: 'Serve Font Awesome Locally'
+              description: 'When enabled, expects css/fontawesome/all.min.css to exist in the theme. Otherwise uses the official CDN.'
+              highlight: 1
+              default: 0
+              options:
+                1: Enabled
+                0: Disabled
+
+        company:
+          type: tab
+          title: Company
+          fields:
+            company.name:
+              type: text
+              size: small
+              label: Name
+            company.legal_name:
+              type: text
+              size: small
+              label: 'Legal Name'
+            company.tagline:
+              type: text
+              label: Tagline
+            company.email:
+              type: text
+              size: small
+              label: Email
+            company.phone:
+              type: text
+              size: small
+              label: Phone
+            company.phone_href:
+              type: text
+              size: small
+              label: 'Phone (tel: link value)'
+            company.location:
+              type: text
+              size: small
+              label: Location
+            company.founder:
+              type: text
+              size: small
+              label: Founder
