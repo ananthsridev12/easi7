@@ -1,28 +1,29 @@
 ---
 title: 'Marketing Automation'
-template: service-detail
+template: services
 eyebrow: 'Marketing Automation'
 headline: 'Leads nurtured while you sleep'
-summary: 'CRM workflows, email sequences, and WhatsApp automation that move MQLs to SQLs on their own.'
-tools: [CRM, Email, WhatsApp, 'Lead Scoring']
+summary: 'CRM workflows, lead scoring, and campaign automation that move MQLs to SQLs without manual follow-up.'
+tools: [CRM, 'Lead Scoring', Workflows]
 taxonomy:
     service: ['Marketing Automation']
 metadata:
-    description: 'CRM integration, email workflows, and WhatsApp automation services to improve MQL-to-SQL conversion without manual follow-up.'
+    description: 'Marketing automation services covering CRM automation, lead scoring, lead routing, campaign automation, and workflow automation.'
+content:
+    items: '@self.children'
+    order:
+        by: default
+        dir: asc
 sitemap:
     changefreq: monthly
-    priority: !!float 0.7
+    priority: !!float 0.8
+
+cta:
+    heading: 'Still following up on leads manually?'
+    body: 'A scoring model and a handful of workflows usually fix most of the manual work in a single build.'
+    button_label: 'Talk to us'
+    button_url: /contact
 ---
-
-Lead nurturing workflows, email sequences, and CRM integrations that convert MQLs to SQLs without manual follow-up at every stage.
-
-* CRM integration and setup, matched to your sales process
-* Email marketing workflows and lifecycle sequences
-* WhatsApp automation for high-response-rate markets
-* Lead lifecycle tracking and point-based lead scoring
-* MQL-to-SQL conversion optimisation
-* Marketing automation platform implementation
-* Lead nurturing campaign design end-to-end
 
 ### The 30-40% problem
 

@@ -3,7 +3,32 @@
     <a class="logo" href="{{ url('/') }}">EASI<em>7</em></a>
     <nav class="primary">
       {% for item in config.themes.easi7.nav %}
-        <a href="{{ url(item.url) }}"{% if page.url == url(item.url) %} aria-current="page"{% endif %}>{{ item.label }}</a>
+        {% if item.columns is defined and item.columns|length %}
+        <div class="nav-item has-mega">
+          <button class="nav-link mega-trigger" type="button" aria-haspopup="true" aria-expanded="false">
+            {{ item.label }}
+            <svg class="chev" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1l5 5 5-5" stroke="currentColor" fill="none" stroke-width="1.6"/></svg>
+          </button>
+          <div class="mega-panel">
+            <div class="wrap mega-inner">
+              {% for col in item.columns %}
+              <div class="mega-col">
+                {% if col.category %}<a class="mega-col-title" href="{{ url(col.url) }}">{{ col.category }}</a>{% endif %}
+                {% if col.items|length %}
+                <ul>
+                  {% for leaf in col.items %}
+                  <li><a href="{{ url(leaf.url) }}">{{ leaf.label }}</a></li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        {% else %}
+        <a href="{{ url(item.url) }}" class="nav-link"{% if page.url == url(item.url) %} aria-current="page"{% endif %}>{{ item.label }}</a>
+        {% endif %}
       {% endfor %}
     </nav>
     <div class="nav-right">

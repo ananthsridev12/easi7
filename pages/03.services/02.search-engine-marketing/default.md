@@ -1,14 +1,14 @@
 ---
-title: 'Search Engine Marketing'
+title: 'Paid Marketing'
 template: services
-eyebrow: 'Search Engine Marketing'
+eyebrow: 'Paid Marketing'
 headline: 'Capture demand that already exists'
-summary: 'Paid search campaigns built around high-intent keywords and disciplined bidding, not broad-match guesswork.'
-tools: ['Google Ads', 'Merchant Center', 'Google Analytics']
+summary: 'Search, social, and display campaigns built around high-intent targeting and disciplined bidding, not broad-match guesswork.'
+tools: ['Google Ads', 'Meta Ads Manager', 'LinkedIn Campaign Manager']
 taxonomy:
-    service: ['Search Engine Marketing']
+    service: ['Search Engine Marketing', 'Paid Marketing']
 metadata:
-    description: 'Search Engine Marketing (SEM) services centred on Google Ads — search, shopping, and display campaigns built for qualified traffic.'
+    description: 'Paid marketing services spanning Google Ads, Meta Ads, LinkedIn Ads, PPC management, display, and retargeting.'
 content:
     items: '@self.children'
     order:

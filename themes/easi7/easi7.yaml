@@ -15,13 +15,130 @@ company:
   founder: 'Ananth Sridev'
 
 nav:
-  - { label: Services, url: /services }
-  - { label: Portfolio, url: /portfolio }
-  - { label: 'Case Studies', url: /case-studies }
-  - { label: Clients, url: /clients }
-  - { label: 'Knowledge Hub', url: /knowledge-hub }
-  - { label: Blog, url: /blog }
-  - { label: About, url: /about }
+  - label: 'Digital Marketing'
+    url: /services
+    columns:
+      - category: SEO
+        url: /services/seo
+        items:
+          - { label: 'Technical SEO', url: /services/seo/technical-seo }
+          - { label: 'AI SEO', url: /services/seo/ai-seo }
+          - { label: 'On-Page SEO', url: /services/seo/on-page-seo }
+          - { label: 'Off-Page SEO', url: /services/seo/off-page-seo }
+          - { label: 'Local SEO', url: /services/seo/local-seo }
+          - { label: 'Programmatic SEO', url: /services/seo/programmatic-seo }
+          - { label: 'E-E-A-T & Content Strategy', url: /services/seo/eeat-content-strategy }
+          - { label: 'SEO Audits', url: /services/seo/seo-audits }
+          - { label: 'SEO Consulting', url: /services/seo/seo-consulting }
+      - category: 'Paid Marketing'
+        url: /services/search-engine-marketing
+        items:
+          - { label: 'Google Ads', url: /services/search-engine-marketing/google-ads }
+          - { label: 'Meta Ads', url: /services/search-engine-marketing/meta-ads }
+          - { label: 'LinkedIn Ads', url: /services/search-engine-marketing/linkedin-ads }
+          - { label: 'PPC Management', url: /services/search-engine-marketing/ppc-management }
+          - { label: 'Display Advertising', url: /services/search-engine-marketing/display-advertising }
+          - { label: Retargeting, url: /services/search-engine-marketing/retargeting }
+      - category: 'Social Media Marketing'
+        url: /services/social-media-marketing
+        items:
+          - { label: 'Facebook & Instagram Ads', url: /services/social-media-marketing/facebook-ads }
+          - { label: 'LinkedIn Marketing', url: /services/social-media-marketing/linkedin-marketing }
+          - { label: 'Instagram Marketing', url: /services/social-media-marketing/instagram-marketing }
+          - { label: 'Social Media Management', url: /services/social-media-marketing/social-media-management }
+          - { label: 'Social Media Advertising', url: /services/social-media-marketing/social-media-advertising }
+          - { label: 'Social Media Strategy', url: /services/social-media-marketing/social-media-strategy }
+      - category: 'Content Marketing'
+        url: /services/content-marketing
+        items:
+          - { label: 'Content Strategy', url: /services/content-marketing/content-strategy }
+          - { label: 'Blog & Article Writing', url: /services/content-marketing/blog-article-writing }
+          - { label: 'Lead Magnets', url: /services/content-marketing/lead-magnets }
+          - { label: 'Whitepapers & Guides', url: /services/content-marketing/whitepapers-guides }
+          - { label: 'Thought Leadership', url: /services/content-marketing/thought-leadership }
+          - { label: 'Content Distribution', url: /services/content-marketing/content-distribution }
+      - category: 'B2B Marketing & Lead Gen'
+        url: /services/b2b-marketing-lead-generation
+        items:
+          - { label: 'B2B Lead Generation', url: /services/b2b-marketing-lead-generation/b2b-lead-generation }
+          - { label: 'Account-Based Marketing (ABM)', url: /services/b2b-marketing-lead-generation/account-based-marketing }
+          - { label: 'Demand Generation', url: /services/b2b-marketing-lead-generation/demand-generation }
+          - { label: 'LinkedIn Lead Generation', url: /services/b2b-marketing-lead-generation/linkedin-lead-generation }
+          - { label: 'Lead Nurturing', url: /services/b2b-marketing-lead-generation/lead-nurturing }
+          - { label: 'Sales Enablement', url: /services/b2b-marketing-lead-generation/sales-enablement }
+      - category: 'Email Marketing'
+        url: /services/email-marketing
+        items:
+          - { label: 'Email Campaigns', url: /services/email-marketing/email-campaigns }
+          - { label: 'Email Automation', url: /services/email-marketing/email-automation }
+          - { label: 'Drip Campaigns', url: /services/email-marketing/drip-campaigns }
+          - { label: 'Newsletter Marketing', url: /services/email-marketing/newsletter-marketing }
+          - { label: 'Cold Email', url: /services/email-marketing/cold-email }
+      - category: 'Marketing Automation'
+        url: /services/marketing-automation
+        items:
+          - { label: 'CRM Automation', url: /services/marketing-automation/crm-automation }
+          - { label: 'Lead Scoring', url: /services/marketing-automation/lead-scoring }
+          - { label: 'Lead Routing', url: /services/marketing-automation/lead-routing }
+          - { label: 'Campaign Automation', url: /services/marketing-automation/campaign-automation }
+          - { label: 'Workflow Automation', url: /services/marketing-automation/workflow-automation }
+      - category: 'Analytics & Tracking'
+        url: /services/analytics-tracking
+        items:
+          - { label: GA4, url: /services/analytics-tracking/ga4 }
+          - { label: 'Google Tag Manager', url: /services/analytics-tracking/google-tag-manager }
+          - { label: 'Conversion Tracking', url: /services/analytics-tracking/conversion-tracking }
+          - { label: 'Marketing Attribution', url: /services/analytics-tracking/marketing-attribution }
+          - { label: 'UTM Management', url: /services/analytics-tracking/utm-management }
+          - { label: 'Marketing Dashboards', url: /services/analytics-tracking/marketing-dashboards }
+          - { label: 'Reporting & Insights', url: /services/analytics-tracking/reporting-insights }
+      - category: 'Conversion Optimization'
+        url: /services/conversion-optimization
+        items:
+          - { label: 'Conversion Rate Optimization', url: /services/conversion-optimization/conversion-rate-optimization }
+          - { label: 'Landing Page Optimization', url: /services/conversion-optimization/landing-page-optimization }
+          - { label: 'Funnel Optimization', url: /services/conversion-optimization/funnel-optimization }
+          - { label: 'A/B Testing', url: /services/conversion-optimization/ab-testing }
+          - { label: 'Lead Conversion Optimization', url: /services/conversion-optimization/lead-conversion-optimization }
+
+  - label: Development
+    url: /services/web-development
+    columns:
+      - category: 'Web Development'
+        url: /services/web-development
+        items:
+          - { label: 'CMS Development', url: /services/web-development/cms-development }
+          - { label: 'App Development', url: /services/web-development/app-development }
+
+  - label: 'Strategy & Consulting'
+    url: /services/strategy-consulting
+
+  - label: Industries
+    url: /industries
+
+  - label: Work
+    url: /portfolio
+    columns:
+      - category: null
+        items:
+          - { label: 'Case Studies', url: /case-studies }
+          - { label: Portfolio, url: /portfolio }
+          - { label: Clients, url: /clients }
+
+  - label: Resources
+    url: /knowledge-hub
+    columns:
+      - category: null
+        items:
+          - { label: Blog, url: /blog }
+          - { label: 'Knowledge Hub', url: /knowledge-hub }
+          - { label: 'Tools We Use', url: /tech-stack }
+
+  - label: About
+    url: /about
+
+  - label: Contact
+    url: /contact
 
 socials:
   - { label: LinkedIn, url: 'https://www.linkedin.com/in/ananthsridev/' }

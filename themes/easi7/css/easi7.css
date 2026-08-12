@@ -102,10 +102,59 @@ header.site{
   text-decoration:none;color:var(--ink);letter-spacing:-0.01em;flex:none;
 }
 .logo em{font-style:normal;font-family:'Inter',sans-serif;color:var(--brass);font-size:1.5rem;font-weight:500;}
-nav.primary{display:flex;gap:1.9rem;align-items:center;}
+nav.primary{display:flex;gap:1.6rem;align-items:center;}
 nav.primary a{text-decoration:none;color:var(--ink-soft);font-size:0.92rem;font-weight:500;white-space:nowrap;}
 nav.primary a:hover,nav.primary a[aria-current="page"]{color:var(--ink);}
 .nav-right{display:flex;align-items:center;gap:18px;}
+
+/* ---------- Mega menu ---------- */
+.nav-item{position:relative;}
+.nav-link.mega-trigger{
+  display:inline-flex;align-items:center;gap:5px;
+  background:none;border:none;cursor:pointer;font-family:inherit;
+  color:var(--ink-soft);font-size:0.92rem;font-weight:500;padding:0;white-space:nowrap;
+}
+.nav-link.mega-trigger:hover{color:var(--ink);}
+.nav-link.mega-trigger .chev{transition:transform .15s ease;flex:none;}
+.nav-item.has-mega:hover .mega-trigger .chev,
+.nav-item.has-mega.open .mega-trigger .chev{transform:rotate(180deg);}
+
+.mega-panel{
+  position:absolute;top:100%;left:50%;transform:translate(-50%,-6px);
+  width:max-content;max-width:min(920px,90vw);
+  background:var(--paper-raised);border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:0 24px 48px -20px rgba(20,20,30,0.25);
+  opacity:0;visibility:hidden;pointer-events:none;
+  transition:opacity .15s ease,transform .15s ease;
+  z-index:50;
+}
+.nav-item.has-mega:hover .mega-panel,
+.nav-item.has-mega:focus-within .mega-panel,
+.nav-item.has-mega.open .mega-panel{
+  opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0);
+}
+.mega-inner{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+  gap:24px 28px;padding:28px;max-width:none;
+}
+.mega-col-title{
+  display:block;font-family:'Poppins',sans-serif;font-weight:600;font-size:0.88rem;
+  color:var(--ink);text-decoration:none;margin-bottom:10px;padding-bottom:8px;
+  border-bottom:2px solid var(--brass);
+}
+.mega-col-title:hover{color:var(--brass-ink);}
+.mega-col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px;}
+.mega-col ul a{
+  text-decoration:none;color:var(--ink-soft);font-size:0.84rem;line-height:1.3;
+}
+.mega-col ul a:hover{color:var(--teal);}
+
+@media (max-width:1150px){
+  .mega-panel{left:0;transform:translateY(-6px);max-width:min(760px,94vw);}
+  .nav-item.has-mega:hover .mega-panel,
+  .nav-item.has-mega:focus-within .mega-panel,
+  .nav-item.has-mega.open .mega-panel{transform:translateY(0);}
+}
 
 .btn{
   display:inline-flex;align-items:center;gap:0.5em;
@@ -130,12 +179,27 @@ nav.primary a:hover,nav.primary a[aria-current="page"]{color:var(--ink);}
 @media (max-width:900px){
   nav.primary{
     display:none;position:absolute;top:76px;left:0;right:0;background:var(--paper);
-    flex-direction:column;align-items:flex-start;gap:0;border-bottom:1px solid var(--line);
-    padding:8px 28px 20px;
+    flex-direction:column;align-items:stretch;gap:0;border-bottom:1px solid var(--line);
+    padding:8px 28px 20px;max-height:calc(100vh - 76px);overflow-y:auto;
   }
   nav.primary.open{display:flex;}
-  nav.primary a{padding:12px 0;width:100%;border-bottom:1px solid var(--line);}
-  nav.primary a:last-child{border-bottom:none;}
+  nav.primary > a{padding:12px 0;width:100%;border-bottom:1px solid var(--line);}
+  nav.primary > a:last-child{border-bottom:none;}
+  .nav-item{border-bottom:1px solid var(--line);}
+  .nav-item:last-child{border-bottom:none;}
+  .nav-link.mega-trigger{width:100%;justify-content:space-between;padding:12px 0;}
+  .mega-panel{
+    position:static;transform:none;width:auto;max-width:none;max-height:0;overflow:hidden;
+    border:none;box-shadow:none;border-radius:0;background:transparent;
+    opacity:1;visibility:visible;pointer-events:auto;transition:max-height .2s ease;
+  }
+  .nav-item.open .mega-panel{max-height:2000px;}
+  .nav-item.has-mega:hover .mega-panel,
+  .nav-item.has-mega:focus-within .mega-panel{max-height:0;}
+  .nav-item.has-mega.open .mega-panel{max-height:2000px;}
+  .mega-inner{display:block;padding:0 0 10px;}
+  .mega-col{margin-bottom:16px;}
+  .mega-col-title{border-bottom:none;margin-bottom:8px;}
   .nav-toggle{display:flex;}
   .nav-right .btn:not(.nav-toggle){display:none;}
 }

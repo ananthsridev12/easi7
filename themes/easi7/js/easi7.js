@@ -1,6 +1,14 @@
 (function () {
   'use strict';
 
+  function closeAllMega() {
+    document.querySelectorAll('.nav-item.has-mega.open').forEach(function (item) {
+      item.classList.remove('open');
+      var t = item.querySelector('.mega-trigger');
+      if (t) t.setAttribute('aria-expanded', 'false');
+    });
+  }
+
   function initNavToggle() {
     var toggle = document.querySelector('.nav-toggle');
     var nav = document.querySelector('nav.primary');
@@ -8,12 +16,43 @@
     toggle.addEventListener('click', function () {
       var open = nav.classList.toggle('open');
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (!open) closeAllMega();
     });
     nav.querySelectorAll('a').forEach(function (link) {
       link.addEventListener('click', function () {
         nav.classList.remove('open');
         toggle.setAttribute('aria-expanded', 'false');
+        closeAllMega();
       });
+    });
+  }
+
+  function initMegaMenu() {
+    var items = document.querySelectorAll('.nav-item.has-mega');
+    if (!items.length) return;
+
+    items.forEach(function (item) {
+      var trigger = item.querySelector('.mega-trigger');
+      if (!trigger) return;
+      trigger.addEventListener('click', function (e) {
+        e.preventDefault();
+        var isOpen = item.classList.contains('open');
+        closeAllMega();
+        item.classList.toggle('open', !isOpen);
+        trigger.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
+      });
+    });
+
+    document.addEventListener('click', function (e) {
+      var withinAny = false;
+      items.forEach(function (item) {
+        if (item.contains(e.target)) withinAny = true;
+      });
+      if (!withinAny) closeAllMega();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeAllMega();
     });
   }
 
@@ -74,6 +113,7 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     initNavToggle();
+    initMegaMenu();
     initAccordion();
     initStatCounters();
   });

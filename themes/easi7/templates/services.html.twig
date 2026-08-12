@@ -4,8 +4,8 @@
 {% include 'partials/breadcrumbs.html.twig' %}
 <section class="page-hero">
   <div class="wrap">
-    <span class="eyebrow">Services</span>
-    <h1>{{ page.title }}</h1>
+    <span class="eyebrow">{{ page.header.eyebrow ?? 'Services' }}</span>
+    <h1>{{ page.header.headline ?? page.title }}</h1>
     {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
     {% if page.route == '/services' %}
     <div class="hero-ctas">
@@ -14,6 +14,14 @@
     {% endif %}
   </div>
 </section>
+
+{% if page.content|trim %}
+<section class="block">
+  <div class="wrap">
+    {{ page.content|raw }}
+  </div>
+</section>
+{% endif %}
 
 <section class="block" style="border-bottom:none;">
   <div class="wrap" style="padding:0;">
