@@ -23,6 +23,20 @@ cta:
     body: "That's almost always fixable with a proper integration. We'll scope it before recommending anything expensive."
     button_label: 'Talk to us'
     button_url: /contact
+industries:
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas }
+    - { label: 'E-Commerce', url: /industries/ecommerce }
+related_services:
+    - { label: 'Marketing Automation', url: /services/marketing-automation }
+    - { label: 'Web Application Development', url: /services/web-application-development }
+    - { label: 'Analytics & Tracking', url: /services/analytics-tracking }
+faqs:
+    - q: 'What if the tool we use has no existing integration?'
+      a: "We build a custom API connector rather than forcing a platform migration, as long as the tool exposes an API - most modern SaaS tools do, even if a pre-built connector doesn't exist yet."
+    - q: 'Can you integrate with tools that already have a Zapier connection?'
+      a: "Yes, and often we start there since it's the fastest path - custom integration work usually makes sense once volume or complexity outgrows what Zapier or Make can handle cost-effectively."
+    - q: 'How do you handle failures if an integration breaks?'
+      a: 'Every integration ships with error handling and monitoring, so a failure gets flagged and addressed quickly rather than silently dropping data.'
 ---
 
 Most "integration problems" turn out to be no integration at all - two systems that were never actually connected, with someone manually exporting from one and importing into the other on a recurring, forgettable schedule. That manual step is where data goes stale, leads go missing, and reports stop matching each other.

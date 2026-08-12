@@ -23,6 +23,20 @@ cta:
     body: "Half our job is talking clients out of frameworks they don't need. We'll tell you honestly."
     button_label: 'Talk to us'
     button_url: /contact
+industries:
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas }
+    - { label: Technology, url: /industries/technology }
+related_services:
+    - { label: 'Web Application Development', url: /services/web-application-development }
+    - { label: 'UI/UX Design', url: /services/ui-ux-design }
+    - { label: 'Web Optimization', url: /services/web-optimization }
+faqs:
+    - q: 'Do we need React for our website?'
+      a: "Probably not, unless the interface is genuinely interactive and stateful - dashboards, calculators, portals. Most marketing sites are better served by simpler, faster-loading approaches."
+    - q: "What's the advantage of Next.js over plain React?"
+      a: 'Server-side rendering and static generation, which improve both SEO and initial load performance - both weak points for a pure client-side React app.'
+    - q: 'Can you improve the performance of our existing frontend without a full rewrite?'
+      a: "Often, yes - code splitting, lazy loading, and removing unnecessary dependencies can meaningfully improve performance without touching the underlying framework choice."
 ---
 
 Reaching for React by default is one of the most common ways a simple site becomes an expensive, slow-to-load one. Frontend framework choice should follow from what the interface actually needs to do, not from what's currently popular.

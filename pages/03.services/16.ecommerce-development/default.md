@@ -23,6 +23,19 @@ cta:
     body: "Before rebuilding, we audit the product pages and checkout flow - that's usually where the revenue is being lost."
     button_label: 'Get a store audit'
     button_url: /contact
+industries:
+    - { label: 'E-Commerce', url: /industries/ecommerce }
+related_services:
+    - { label: 'Conversion Optimization', url: /services/conversion-optimization }
+    - { label: 'Search Engine Marketing', url: /services/search-engine-marketing }
+    - { label: 'E-commerce Design', url: /services/website-design }
+faqs:
+    - q: 'Should we choose Shopify or Magento?'
+      a: "Shopify suits most catalogues without heavy customisation needs and launches fast. Magento earns its extra complexity for larger catalogues with genuine multi-store or advanced pricing-rule requirements."
+    - q: 'Can you migrate our existing store without losing sales during the switch?'
+      a: "Yes - migrations are planned with a staged rollout and full product/order data mapping specifically to avoid downtime or lost transactions during the switch."
+    - q: 'Do you handle ongoing store maintenance after launch?'
+      a: 'Yes, through our Web Optimization service - security, speed, and Core Web Vitals monitoring continue after launch rather than stopping once the store goes live.'
 ---
 
 The platform matters less than most e-commerce owners think - Shopify, Magento, and custom builds all fail in the same predictable ways when the product data, checkout flow, or performance basics are ignored. Picking the right platform for your catalogue size and complexity is step one; building it properly is where most of the value actually sits.

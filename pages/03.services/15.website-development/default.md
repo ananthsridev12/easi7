@@ -23,6 +23,20 @@ cta:
     body: "Tell us who needs to be convinced and we'll build around that, not a generic template."
     button_label: 'Start a build'
     button_url: /contact
+industries:
+    - { label: 'Professional Services', url: /industries/professional-services }
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas }
+related_services:
+    - { label: 'CMS Development', url: /services/cms-development }
+    - { label: 'Website Design', url: /services/website-design }
+    - { label: 'Web Optimization', url: /services/web-optimization }
+faqs:
+    - q: 'How long does a new website take to build?'
+      a: "A standard business or corporate site typically takes four to eight weeks depending on page count and content readiness; a single landing page can be much faster."
+    - q: "Do you write the content, or do we provide it?"
+      a: "Either - we can write conversion-focused copy as part of the build, or work with content you provide. We'll flag early if provided copy needs restructuring for the page to convert well."
+    - q: 'Will the new site be easy for us to update ourselves?'
+      a: "Yes - that's a deliberate design goal, not an afterthought. We build so content updates don't require a developer for routine changes."
 ---
 
 A website's job changes depending on who's looking at it, and most site builds get treated identically regardless of audience. A corporate site convincing a skeptical enterprise buyer needs a different structure than a landing page built for a single paid campaign, and both need something different again from a standard business site that just needs to be fast, findable, and easy to update.
