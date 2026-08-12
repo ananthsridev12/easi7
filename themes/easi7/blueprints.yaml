@@ -1,4 +1,15 @@
-title: EASI7 Theme
+name: EASI7
+slug: easi7
+type: theme
+version: 1.0.0
+description: 'Custom digital-agency theme for EASI7 - marketing, development, design, AI & automation, and strategy services, built on Grav CMS.'
+icon: rocket
+author:
+  name: EASI7
+  email: hello@easi7.in
+homepage: 'https://easi7.in'
+keywords: [agency, marketing, business, services, portfolio]
+license: proprietary
 
 form:
   fields:
