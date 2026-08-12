@@ -1,8 +1,11 @@
 {#
   Design B: Service / Capability-led
   Best suited to clearly defined implementation services.
-  Expects (frontmatter): eyebrow, headline, summary, overview, capabilities[], included[],
-  how_we_work[{title,body}], use_cases[], benefits[], why_choose_us[], faqs[{q,a}], cta
+  Expects (frontmatter): eyebrow, headline, summary, overview, overview_answer,
+  capabilities[{title,items[],related_label,related_url}], included[{a,b}],
+  how_we_work[{title,body}], comparison{headers,rows[{a,b}],note}, use_cases[],
+  who_needs_this[{title,body,items[]}], benefits[], why_choose_us[],
+  faqs[{q,a}] (5+), cta, primary_intent, entities[]
 #}
 {% extends 'partials/base.html.twig' %}
 
@@ -19,41 +22,49 @@
   </div>
 </section>
 
+{% set sc = 0 %}
+
 {% if page.header.overview %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Overview</span>
     <div>{{ page.header.overview|raw }}</div>
+    {% if page.header.overview_answer %}
+    <div class="answer-box">
+      <span class="answer-label">In simple terms</span>
+      <p>{{ page.header.overview_answer }}</p>
+    </div>
+    {% endif %}
   </div>
 </section>
 {% endif %}
 
 {% if page.header.capabilities %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Capabilities</span>
     <h2>What we bring to this</h2>
-    <ul>
-      {% for c in page.header.capabilities %}<li>{{ c }}</li>{% endfor %}
-    </ul>
+    {% include 'partials/framework-grid.html.twig' with { items: page.header.capabilities } %}
   </div>
 </section>
 {% endif %}
 
 {% if page.header.included %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">What's included</span>
     <h2>Scope of work</h2>
-    <ul>
-      {% for i in page.header.included %}<li>{{ i }}</li>{% endfor %}
-    </ul>
+    {% include 'partials/data-table.html.twig' with { headers: ['Area', "What's included"], rows: page.header.included } %}
   </div>
 </section>
 {% endif %}
 
 {% if page.header.how_we_work %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">How we work</span>
     <h2>The engagement, step by step</h2>
@@ -67,8 +78,20 @@
 </section>
 {% endif %}
 
+{% if page.header.comparison %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">In context</span>
+    <h2>{{ page.header.comparison.heading ?? 'How this compares' }}</h2>
+    {% include 'partials/data-table.html.twig' with { headers: page.header.comparison.headers, rows: page.header.comparison.rows, note: page.header.comparison.note ?? null } %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.header.use_cases %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Use cases</span>
     <h2>Where this fits</h2>
@@ -79,8 +102,20 @@
 </section>
 {% endif %}
 
+{% if page.header.who_needs_this %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">Who this is for</span>
+    <h2>Who needs this</h2>
+    {% include 'partials/persona-grid.html.twig' with { items: page.header.who_needs_this } %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.header.benefits %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Benefits</span>
     <h2>What changes for you</h2>
@@ -92,7 +127,8 @@
 {% endif %}
 
 {% if page.header.why_choose_us %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Why us</span>
     <h2>Why work with EASI7 on this</h2>
@@ -103,7 +139,8 @@
 </section>
 {% endif %}
 
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Related services</span>
     <h2>Other services in this area</h2>
@@ -112,7 +149,8 @@
 </section>
 
 {% if page.header.faqs %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">FAQs</span>
     <h2>Common questions</h2>
@@ -124,4 +162,6 @@
 {% if page.header.cta %}
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}
+
+{% include 'partials/page-metadata.html.twig' with { page: page } %}
 {% endblock %}

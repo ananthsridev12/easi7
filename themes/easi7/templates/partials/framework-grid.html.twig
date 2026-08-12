@@ -1,0 +1,15 @@
+{# Numbered capability cards. Expects items:[{title, items:[bullets], related_label, related_url}] #}
+{% if items is defined and items|length %}
+<div class="framework-grid">
+  {% for f in items %}
+  <div class="framework-card">
+    <span class="number">{{ '%02d'|format(loop.index) }}</span>
+    <h3>{{ f.title }}</h3>
+    {% if f.items %}<ul>{% for i in f.items %}<li>{{ i }}</li>{% endfor %}</ul>{% endif %}
+    {% if f.related_label and f.related_url %}
+    <div class="related">Related: <a href="{{ url(f.related_url) }}">{{ f.related_label }}</a></div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

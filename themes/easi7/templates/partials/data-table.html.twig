@@ -1,0 +1,12 @@
+{# Generic 2-column table. Expects: headers:[h1,h2], rows:[{a,b}], note (optional) #}
+{% if headers is defined and rows is defined and rows|length %}
+<div class="table-wrap">
+  <table class="compare">
+    <thead><tr><th>{{ headers[0] }}</th><th>{{ headers[1] }}</th></tr></thead>
+    <tbody>
+      {% for r in rows %}<tr><td>{{ r.a }}</td><td>{{ r.b }}</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</div>
+{% if note is defined and note %}<p style="font-size:0.85rem;color:var(--ink-soft);margin-top:0.8em;">{{ note }}</p>{% endif %}
+{% endif %}

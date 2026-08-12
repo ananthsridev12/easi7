@@ -26,6 +26,7 @@ cta:
 industries:
     - { label: 'B2B & SaaS', url: /industries/b2b-saas }
     - { label: 'E-Commerce', url: /industries/ecommerce }
+    - { label: 'Technology', url: /industries/technology }
 related_services:
     - { label: 'Marketing Automation', url: /services/marketing-automation }
     - { label: 'Web Application Development', url: /services/web-application-development }
@@ -37,6 +38,10 @@ faqs:
       a: "Yes, and often we start there since it's the fastest path - custom integration work usually makes sense once volume or complexity outgrows what Zapier or Make can handle cost-effectively."
     - q: 'How do you handle failures if an integration breaks?'
       a: 'Every integration ships with error handling and monitoring, so a failure gets flagged and addressed quickly rather than silently dropping data.'
+    - q: 'How long does a typical integration project take?'
+      a: "A single connector between two well-documented systems is often two to four weeks including testing. Projects spanning multiple systems, legacy platforms, or heavy data migration take longer, and we scope that specifically rather than quoting a generic timeline upfront."
+    - q: 'Can you guarantee an integration will work with any tool we already use?'
+      a: "Only if the tool exposes an API in the first place. A small number of legacy or deliberately closed platforms don't allow any external connection, and no integration approach, custom or otherwise, can work around that. We check this during scoping so it's clear before any work starts."
 ---
 
 Most "integration problems" turn out to be no integration at all - two systems that were never actually connected, with someone manually exporting from one and importing into the other on a recurring, forgettable schedule. That manual step is where data goes stale, leads go missing, and reports stop matching each other.

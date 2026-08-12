@@ -37,6 +37,12 @@ faqs:
       a: "It varies enormously by starting point and industry - a poorly optimised page has much more room to improve than one that's already been tested repeatedly. We'll give an honest read after the initial audit rather than a generic percentage."
     - q: 'Do you redesign the whole page or just test small changes?'
       a: 'Usually neither extreme - we prioritise based on diagnostic data, which sometimes means a full redesign and sometimes means one specific, well-evidenced change.'
+    - q: 'How long does a CRO engagement take to show results?'
+      a: "The diagnostic phase usually takes one to two weeks. After that, each test needs to run long enough to reach significance and capture a full weekly traffic cycle, which is typically two to four weeks per test. A programme with a real testing cadence tends to show its first validated win within six to eight weeks, not the first few days."
+    - q: "Is conversion optimisation a one-off project or an ongoing programme?"
+      a: "It works best as an ongoing programme. A single redesign can fix the most obvious problems, but conversion rates drift as traffic sources, offers, and competitors change, and a testing backlog run continuously catches issues a one-time project would miss entirely."
+    - q: 'What do you need from us before starting?'
+      a: "Working analytics and enough traffic to eventually reach test significance are the minimums. If tracking is broken or incomplete, we'll fix that first - testing on top of bad data just produces confident wrong answers faster."
 ---
 
 More traffic is the expensive way to grow revenue when the actual constraint is conversion, not volume. Most sites we audit are losing more to a confusing checkout flow or a landing page trying to do five things at once than they'd ever gain from another 20% of ad spend.

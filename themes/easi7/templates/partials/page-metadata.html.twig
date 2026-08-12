@@ -1,0 +1,53 @@
+{# Dynamic LLMO / page-optimization summary. Reuses existing frontmatter - no per-page authoring required beyond optional primary_intent / entities. #}
+{% set p1 = page.parent %}
+{% set p2 = p1 ? p1.parent : null %}
+{% set p3 = p2 ? p2.parent : null %}
+{% set entities = page.header.entities ?? page.header.taxonomy.service ?? [] %}
+<section class="page-meta">
+  <div class="wrap">
+    <h2>Page Optimization Data</h2>
+    <dl class="meta-grid">
+      <div class="meta-field">
+        <dt>Primary Topic</dt>
+        <dd>{{ page.header.eyebrow ?? page.title }}</dd>
+      </div>
+      {% if page.header.primary_intent %}
+      <div class="meta-field">
+        <dt>Primary Intent</dt>
+        <dd>{{ page.header.primary_intent }}</dd>
+      </div>
+      {% endif %}
+      {% if p1 and p1.route and p1.route != '/' %}
+      <div class="meta-field">
+        <dt>Parent</dt>
+        <dd><a href="{{ p1.url }}">{{ p1.menu ?? p1.title }}</a></dd>
+      </div>
+      {% endif %}
+      <div class="meta-field">
+        <dt>Suggested URL</dt>
+        <dd><code>{{ page.route }}</code></dd>
+      </div>
+      <div class="meta-field">
+        <dt>Breadcrumb</dt>
+        <dd>
+          <code>Home{% if p3 and p3.route and p3.route != '/' %} / {{ p3.menu ?? p3.title }}{% endif %}{% if p2 and p2.route and p2.route != '/' %} / {{ p2.menu ?? p2.title }}{% endif %}{% if p1 and p1.route and p1.route != '/' %} / {{ p1.menu ?? p1.title }}{% endif %} / {{ page.menu ?? page.title }}</code>
+        </dd>
+      </div>
+      {% if entities|length %}
+      <div class="meta-field">
+        <dt>Key Entities</dt>
+        <dd class="entity-pills">{% for e in entities %}<span class="tag">{{ e }}</span>{% endfor %}</dd>
+      </div>
+      {% endif %}
+      {% if p1 or page.header.related_services %}
+      <div class="meta-field meta-links">
+        <dt>Internal Linking</dt>
+        <dd>
+          {% if p1 and p1.route and p1.route != '/' %}Parent: <a href="{{ p1.url }}">{{ p1.menu ?? p1.title }}</a><br>{% endif %}
+          {% if page.header.related_services %}Related: {% for r in page.header.related_services %}<a href="{{ url(r.url) }}">{{ r.label }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
+        </dd>
+      </div>
+      {% endif %}
+    </dl>
+  </div>
+</section>

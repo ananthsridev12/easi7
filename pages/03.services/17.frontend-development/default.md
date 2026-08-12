@@ -37,6 +37,10 @@ faqs:
       a: 'Server-side rendering and static generation, which improve both SEO and initial load performance - both weak points for a pure client-side React app.'
     - q: 'Can you improve the performance of our existing frontend without a full rewrite?'
       a: "Often, yes - code splitting, lazy loading, and removing unnecessary dependencies can meaningfully improve performance without touching the underlying framework choice."
+    - q: 'How do you decide which of these approaches - React, Next.js, plain JavaScript - to use for a project?'
+      a: "By how stateful the interface actually needs to be and whether SEO or fast initial load matters alongside interactivity. We'd rather talk you out of a framework you don't need than build with one by default."
+    - q: 'Can you guarantee a specific page load time or Core Web Vitals score?'
+      a: "No - final performance depends on hosting, third-party scripts, images, and content decisions well beyond frontend code, so we won't promise a specific number. What we can guarantee is that the frontend itself won't be the bottleneck, and we test under real conditions to prove it."
 ---
 
 Reaching for React by default is one of the most common ways a simple site becomes an expensive, slow-to-load one. Frontend framework choice should follow from what the interface actually needs to do, not from what's currently popular.

@@ -25,6 +25,8 @@ cta:
     button_url: /contact
 industries:
     - { label: 'E-Commerce', url: /industries/ecommerce }
+    - { label: 'Manufacturing', url: /industries/manufacturing }
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas }
 related_services:
     - { label: 'Conversion Optimization', url: /services/conversion-optimization }
     - { label: 'Search Engine Marketing', url: /services/search-engine-marketing }
@@ -36,6 +38,12 @@ faqs:
       a: "Yes - migrations are planned with a staged rollout and full product/order data mapping specifically to avoid downtime or lost transactions during the switch."
     - q: 'Do you handle ongoing store maintenance after launch?'
       a: 'Yes, through our Web Optimization service - security, speed, and Core Web Vitals monitoring continue after launch rather than stopping once the store goes live.'
+    - q: 'How long does a typical e-commerce build take?'
+      a: "A Shopify build usually runs four to eight weeks, Magento eight to twelve, and a custom or headless build three to six months - the range depends far more on catalogue complexity and integrations than on the platform name alone."
+    - q: "What if our business model doesn't fit Shopify or Magento at all?"
+      a: "That's what our custom e-commerce work covers - subscription billing, marketplace dynamics, or negotiated B2B pricing that a standard platform can't accommodate without heavy workarounds."
+    - q: 'Can you guarantee our new store will convert better than the old one?'
+      a: "No - a rebuild removes structural friction (speed, checkout steps, catalogue structure), but conversion also depends on traffic quality, pricing, and product fit, which are outside the build itself. We won't promise a specific outcome we don't control."
 ---
 
 The platform matters less than most e-commerce owners think - Shopify, Magento, and custom builds all fail in the same predictable ways when the product data, checkout flow, or performance basics are ignored. Picking the right platform for your catalogue size and complexity is step one; building it properly is where most of the value actually sits.

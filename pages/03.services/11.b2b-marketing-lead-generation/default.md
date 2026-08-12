@@ -38,6 +38,12 @@ faqs:
       a: "No - ABM works for any business with a short, identifiable list of target accounts worth coordinated attention, which can be a handful of named companies even for a small team."
     - q: 'How is B2B lead generation different from general lead generation?'
       a: 'B2B sales cycles typically involve multiple stakeholders and longer consideration periods, so the content, targeting, and nurture sequences need to account for a buying committee, not a single decision-maker.'
+    - q: 'How long before B2B lead generation produces sales-ready pipeline?'
+      a: "Expect a few weeks to get ICP definition, channel mix, and scoring set up correctly, and a full quarter or more before the trend in qualified pipeline is clear enough to judge. Anyone promising results in the first two weeks is measuring lead count, not pipeline."
+    - q: 'Can you guarantee a specific number of qualified leads per month?'
+      a: "No - lead volume depends on budget, market size, and how tightly the ICP is defined, so any fixed number quoted before campaigns have run is a guess. What we commit to is the scoring model and reporting that show clearly whether the volume coming in is trending toward qualified pipeline or not."
+    - q: 'Do you handle sales and marketing alignment, or just run campaigns?'
+      a: "Both, because campaigns fail without it. Lead scoring thresholds, MQL/SQL definitions, and handoff rules get agreed with sales before launch - a lead generation program built without that agreement just moves the argument about lead quality downstream instead of resolving it."
 ---
 
 B2B lead generation fails most often on quality, not volume - a campaign generating plenty of form fills that sales won't touch because none of them match the actual buying pattern. Fixing that starts with defining the ICP properly: not a job title and company size guess, but a pattern pulled from your last twenty closed-won deals and your last ten churned accounts.

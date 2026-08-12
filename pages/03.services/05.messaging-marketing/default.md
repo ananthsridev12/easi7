@@ -36,6 +36,12 @@ faqs:
       a: 'SMS reaches anyone with a phone number and no app required, which suits transactional alerts. WhatsApp allows richer, conversational messaging but requires the recipient to have the app and to have opted in.'
     - q: 'How do you avoid annoying customers with SMS or WhatsApp?'
       a: 'Frequency capping and a strict rule that only genuinely time-sensitive or transactional messages go out on these channels - promotional volume is deliberately kept low.'
+    - q: 'Which channel should we start with, SMS or WhatsApp?'
+      a: "It depends on where your customers already are. If your audience is broad and you mostly need transactional alerts, SMS works everywhere with no app dependency. If a large share of your customers already treat WhatsApp as their main inbox - common across India and similar markets - WhatsApp's richer, conversational format usually wins."
+    - q: 'How long does it take to launch a messaging marketing program?'
+      a: "SMS can typically go live within a couple of weeks once the gateway and opt-in tracking are set up. WhatsApp takes longer because Meta has to approve the Business API connection and message templates first, which is a review process outside our control."
+    - q: 'Can you guarantee a specific response or open rate?'
+      a: "No - open and response rates depend on your list quality, message relevance, and industry, none of which an agency controls outright. What we can commit to is the discipline that keeps these channels performing: narrow use cases, frequency caps, and consent management done properly from the start."
 ---
 
 SMS and WhatsApp get the highest open rates of any marketing channel, and get burned through the fastest when that's treated as licence to send anything. Both work because they interrupt - which means the bar for what's worth interrupting someone over needs to be genuinely high.

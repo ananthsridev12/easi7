@@ -1,8 +1,9 @@
 {#
   Level 1 pillar / service-ecosystem page.
-  Expects (frontmatter): eyebrow, headline, summary, overview, challenges[], capabilities[],
-  methodology[{title,body}], categories[{route,name,blurb}], industries[{label,url}],
-  use_cases[], featured_case_studies[route], faqs[{q,a}], cta
+  Expects (frontmatter): eyebrow, headline, summary, overview, overview_answer, challenges[],
+  capabilities[{title,items[],related_label,related_url}], methodology[{title,body}],
+  categories[{route,name,blurb}], industries[{label,url}], use_cases[],
+  featured_case_studies[route], faqs[{q,a}] (5+), cta, primary_intent, entities[]
 #}
 {% extends 'partials/base.html.twig' %}
 
@@ -20,16 +21,26 @@
   </div>
 </section>
 
+{% set sc = 0 %}
+
 {% if page.header.overview %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <div>{{ page.header.overview|raw }}</div>
+    {% if page.header.overview_answer %}
+    <div class="answer-box">
+      <span class="answer-label">In simple terms</span>
+      <p>{{ page.header.overview_answer }}</p>
+    </div>
+    {% endif %}
   </div>
 </section>
 {% endif %}
 
 {% if page.header.challenges %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">The challenges</span>
     <h2>What usually goes wrong here</h2>
@@ -41,19 +52,23 @@
 {% endif %}
 
 {% if page.header.capabilities %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Capabilities</span>
     <h2>What we cover end to end</h2>
-    <ul>
-      {% for c in page.header.capabilities %}<li>{{ c }}</li>{% endfor %}
-    </ul>
+    {% if page.header.capabilities[0].title is defined %}
+      {% include 'partials/framework-grid.html.twig' with { items: page.header.capabilities } %}
+    {% else %}
+      <ul>{% for c in page.header.capabilities %}<li>{{ c }}</li>{% endfor %}</ul>
+    {% endif %}
   </div>
 </section>
 {% endif %}
 
 {% if page.header.methodology %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Methodology</span>
     <h2>How we structure the work</h2>
@@ -68,7 +83,8 @@
 {% endif %}
 
 {% if page.header.categories %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Service categories</span>
     <h2>The disciplines inside {{ page.title }}</h2>
@@ -85,7 +101,8 @@
 {% endif %}
 
 {% if page.header.use_cases %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Use cases</span>
     <h2>Where this shows up in practice</h2>
@@ -97,7 +114,8 @@
 {% endif %}
 
 {% if page.header.industries %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Relevant industries</span>
     <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
@@ -108,7 +126,8 @@
 {% endif %}
 
 {% if page.header.featured_case_studies %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Proof</span>
     <h2>Related case studies</h2>
@@ -123,7 +142,8 @@
 {% endif %}
 
 {% if page.header.faqs %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">FAQs</span>
     <h2>Common questions</h2>
@@ -135,4 +155,6 @@
 {% if page.header.cta %}
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}
+
+{% include 'partials/page-metadata.html.twig' with { page: page } %}
 {% endblock %}

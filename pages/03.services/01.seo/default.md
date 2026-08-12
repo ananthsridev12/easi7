@@ -33,6 +33,10 @@ faqs:
       a: "Technical SEO first, almost always. AI SEO and AEO depend on a crawlable, well-structured site underneath them - optimising for AI citations on a technically broken site wastes the effort."
     - q: 'How is AI SEO different from regular SEO?'
       a: "Regular SEO optimises for a ranking position in a list of links. AI SEO optimises for being the source an AI-generated answer cites directly, which relies more on clear, structured, directly-stated information than on traditional ranking factors."
+    - q: 'Can you guarantee a first-page ranking or an AI citation?'
+      a: "No agency can guarantee a specific ranking or AI citation - both are controlled by third-party algorithms that change without notice. We can guarantee the work that reliably improves the odds: correct technical foundations, content that matches intent and demonstrates real expertise, and structure that makes information easy for both crawlers and AI systems to extract."
+    - q: 'What does an SEO engagement actually include month to month?'
+      a: "It depends on which layers your site needs, but a typical engagement includes ongoing technical monitoring, a content or optimisation queue tied to priority pages, link or citation building where relevant, and a reporting cadence that ties activity back to organic performance - not just a list of tasks completed."
 cta:
     heading: 'Not sure if you need technical SEO or AI SEO?'
     body: "Most sites need both, in a specific order. We'll tell you which comes first for your site."

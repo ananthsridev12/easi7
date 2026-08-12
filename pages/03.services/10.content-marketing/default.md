@@ -37,6 +37,12 @@ faqs:
       a: 'Both - strategy and production are handled as one connected process, since a plan without execution behind it does not move rankings or leads on its own.'
     - q: 'How is a lead magnet different from a regular blog post?'
       a: "A lead magnet solves one narrow, specific problem completely enough to be worth an email address in exchange - a blog post is usually broader and doesn't require that exchange."
+    - q: 'How long before a content programme shows results?'
+      a: "Meaningful organic movement usually takes three to six months, since search engines need to crawl, index, and evaluate new content against competitors before rankings settle. Distribution and lead-gen formats like lead magnets can show engagement faster, but treating month-one traffic as a verdict on the whole programme is a mistake either way."
+    - q: 'Can you guarantee our content will rank or get cited by AI search tools?'
+      a: "No - no legitimate agency can guarantee a ranking position or an AI citation, since both are controlled by third-party systems that change without notice. What we can guarantee is content built on real keyword and intent research, structured so it has a genuine, evidence-based chance - which is a different promise than an outcome we don't control."
+    - q: 'Does the content marketing scope include distribution and promotion?'
+      a: "Distribution is its own service line within this category rather than an automatic add-on to writing - some clients want it bundled from the start, others already have channels handling it. We'll flag it as a gap if writing without any distribution plan looks likely to waste the output."
 ---
 
 Most content programmes fail quietly - not because the writing is bad, but because there was never a plan connecting topics to keywords, funnel stage, or a distribution plan beyond hitting publish. A blog with forty posts and no strategy behind them is a cost centre, not an asset.

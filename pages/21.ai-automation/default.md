@@ -14,13 +14,15 @@ challenges:
     - 'Automation built around fixed rules that never adapt as patterns shift'
     - 'The same manual handoffs repeated in finance and operations that marketing automated years ago'
     - 'Reporting that shows what happened without ever explaining why or what to do next'
+primary_intent: 'informational - service ecosystem overview'
+entities: ['AI Strategy', 'AI Agents', 'AI Chatbots', 'Marketing Automation', 'Business Automation', 'Predictive Analytics']
 capabilities:
-    - 'AI strategy and consulting, including honest build-vs-buy guidance'
-    - 'Narrowly scoped AI agents for marketing, sales, research, and support'
-    - 'Chatbots grounded in real documentation, not general model knowledge'
-    - 'AI-enhanced lead scoring, enrichment, and personalisation'
-    - 'Business-wide workflow, process, and data automation'
-    - 'AI-powered reporting and predictive analytics'
+    - { title: 'AI Solutions & Strategy', items: ['AI strategy and consulting', 'Build-vs-buy guidance', 'Generative AI solutions'], related_label: 'AI solutions services', related_url: /services/ai-solutions }
+    - { title: 'AI Agents', items: ['Narrowly scoped agents for marketing, sales, research, and support', 'Custom AI agents'], related_label: 'AI agent services', related_url: /services/ai-agents }
+    - { title: 'AI Chatbots', items: ['Chatbots grounded in real documentation', 'Lead generation and support chatbots'], related_label: 'AI chatbot services', related_url: /services/ai-chatbots }
+    - { title: 'AI Marketing Automation', items: ['Lead scoring, enrichment, and personalisation', 'Content automation'], related_label: 'AI marketing automation services', related_url: /services/ai-marketing-automation }
+    - { title: 'Business Automation', items: ['Workflow and process automation', 'Data and document automation'], related_label: 'Business automation services', related_url: /services/business-automation }
+    - { title: 'AI Analytics', items: ['AI-powered reporting', 'Predictive analytics and customer insights'], related_label: 'AI analytics services', related_url: /services/ai-analytics }
 methodology:
     - { title: Assess, body: 'An honest read on where AI genuinely fits - and where it doesn''t yet.' }
     - { title: Scope, body: 'Narrow the use case to something specific and measurable before building anything.' }
@@ -48,6 +50,10 @@ faqs:
       a: "No - the aim is removing repetitive work around decisions, not the decisions themselves. Every build we've done keeps a human in the loop where judgment actually matters."
     - q: 'How do we know if AI is actually worth it for our business?'
       a: "That's the first conversation, before any build - an honest assessment of where it fits. We'll tell you plainly if the answer is 'not yet.'"
+    - q: 'Can you guarantee an AI agent or chatbot will never make a mistake?'
+      a: "No - and treat any vendor who claims that with suspicion. What we build in are confidence thresholds and escalation paths, so a wrong or uncertain answer gets routed to a human instead of shipped to the customer."
+    - q: 'Do we need our own data infrastructure before starting an AI project?'
+      a: "Some is usually needed - even a narrow use case needs a reliable source of truth to ground it in. Part of scoping is identifying what data actually exists versus what needs to be organised first."
 taxonomy:
     service: ['AI & Automation']
 sitemap:

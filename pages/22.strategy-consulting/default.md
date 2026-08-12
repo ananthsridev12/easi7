@@ -14,12 +14,14 @@ challenges:
     - '"Growth hacking" tactics tried without a hypothesis or a way to measure whether they worked'
     - 'Attribution models left at whatever a platform defaults to, never chosen deliberately'
     - 'Roadmaps where everything is marked high priority, which means nothing actually is'
+primary_intent: 'informational - service ecosystem overview'
+entities: ['Digital Strategy', 'Marketing Strategy', 'Growth Strategy', 'MarTech Consulting', 'Analytics Consulting']
 capabilities:
-    - 'Digital transformation and technology strategy'
-    - 'Go-to-market, B2B, and demand generation strategy'
-    - 'Growth marketing, funnel strategy, and customer acquisition planning'
-    - 'Marketing technology stack audits and CRM strategy'
-    - 'Measurement strategy, attribution modelling, and tracking architecture'
+    - { title: 'Digital Strategy', items: ['Digital transformation roadmaps', 'Technology strategy'], related_label: 'Digital strategy services', related_url: /services/digital-strategy }
+    - { title: 'Marketing Strategy', items: ['Go-to-market and B2B strategy', 'Demand generation strategy'], related_label: 'Marketing strategy services', related_url: /services/marketing-strategy }
+    - { title: 'Growth Strategy', items: ['Growth marketing and funnel strategy', 'Customer acquisition and revenue growth planning'], related_label: 'Growth strategy services', related_url: /services/growth-strategy }
+    - { title: 'MarTech Consulting', items: ['Marketing technology stack audits', 'CRM strategy and platform selection'], related_label: 'MarTech consulting services', related_url: /services/martech-consulting }
+    - { title: 'Analytics Consulting', items: ['Measurement and attribution strategy', 'Tracking architecture and data strategy'], related_label: 'Analytics consulting services', related_url: /services/analytics-consulting }
 methodology:
     - { title: Audit, body: 'An honest read on the current stack, funnel, and measurement setup.' }
     - { title: Frame, body: 'A framework or model chosen deliberately for your actual sales cycle, not a default.' }
@@ -46,6 +48,10 @@ faqs:
       a: "Usually one to two weeks depending on how many tools and data sources are involved - enough time to actually validate findings, not just skim the surface."
     - q: "What if we disagree with the strategy you recommend?"
       a: "That's a normal part of the process - we'll walk through the reasoning and the evidence behind it, and adjust where your context changes the calculus. The goal is a plan you actually trust enough to execute."
+    - q: 'Can you guarantee the growth targets in a strategy will be hit?'
+      a: "No - a strategy improves the odds and gives you a way to measure progress honestly, but no consultant controls your market, your team's execution, or external conditions. We're direct about that distinction upfront."
+    - q: 'Do you work with businesses that already have an internal strategy team?'
+      a: "Yes - often as a second opinion or a specific audit (stack, attribution, growth model) rather than a full strategy replacement, which is a common way for an internal team to bring in an outside check."
 taxonomy:
     service: ['Strategy & Consulting']
 sitemap:

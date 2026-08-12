@@ -281,6 +281,64 @@ section.block:last-of-type{border-bottom:none;}
 .step h3{font-size:1.05rem;margin-bottom:0.35em;}
 .step p{font-size:0.9rem;max-width:none;}
 
+/* ---------- Alternating section backgrounds ---------- */
+section.block.alt{background:var(--paper-raised);}
+
+/* ---------- Answer box (direct-answer / definition callout) ---------- */
+.answer-box{
+  background:var(--paper-raised);border-left:4px solid var(--brass);
+  border-radius:0 var(--radius) var(--radius) 0;padding:22px 26px;margin:1.6em 0;
+}
+section.block.alt .answer-box{background:var(--paper);}
+.answer-box .answer-label{
+  font-family:'Inter',sans-serif;font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;
+  color:var(--brass);font-weight:700;display:block;margin-bottom:8px;
+}
+.answer-box p{margin:0;color:var(--ink);font-size:1.03rem;max-width:none;}
+
+/* ---------- Framework grid (numbered capability cards) ---------- */
+.framework-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-top:1.6em;}
+.framework-card{background:var(--paper);padding:28px 26px;display:flex;flex-direction:column;gap:10px;}
+section.block.alt .framework-card{background:var(--paper-raised);}
+.framework-card .number{font-family:'Inter',sans-serif;font-size:0.78rem;font-weight:700;color:var(--brass);letter-spacing:0.05em;}
+.framework-card h3{font-size:1.08rem;margin:0;}
+.framework-card ul{margin:0;padding-left:1.1em;font-size:0.88rem;}
+.framework-card .related{font-size:0.82rem;margin-top:auto;padding-top:12px;border-top:1px dashed var(--line);color:var(--ink-soft);}
+.framework-card .related a{font-weight:600;}
+
+/* ---------- Comparison / deliverables tables ---------- */
+.table-wrap{overflow-x:auto;margin:1.6em 0;}
+table.compare{width:100%;border-collapse:collapse;font-size:0.92rem;min-width:480px;}
+table.compare th{background:var(--ink);color:var(--paper);text-align:left;padding:12px 16px;font-family:'Poppins',sans-serif;font-weight:600;font-size:0.85rem;}
+table.compare td{padding:12px 16px;border-bottom:1px solid var(--line);color:var(--ink-soft);vertical-align:top;}
+table.compare tbody tr:nth-child(even) td{background:var(--paper-raised);}
+section.block.alt table.compare tbody tr:nth-child(even) td{background:var(--paper);}
+table.compare td:first-child{color:var(--ink);font-weight:600;}
+
+/* ---------- Framework / entity diagram ---------- */
+.diagram{background:var(--ink);color:#C9CEDA;border-radius:var(--radius);padding:26px 30px;margin:1.6em 0;overflow-x:auto;}
+.diagram pre{margin:0;font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:0.82rem;line-height:1.55;color:#C9CEDA;white-space:pre;}
+
+/* ---------- Persona / audience grid ---------- */
+.persona-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:1.6em;}
+.persona-card{border:1px solid var(--line);border-radius:var(--radius);padding:22px;background:var(--paper-raised);}
+section.block.alt .persona-card{background:var(--paper);}
+.persona-card h3{font-size:1rem;margin:0 0 8px;}
+.persona-card p,.persona-card ul{font-size:0.88rem;margin:0;max-width:none;}
+
+/* ---------- Page metadata / LLMO block ---------- */
+.page-meta{background:#0A0C11;color:#9BA1AF;padding:52px 0;}
+.page-meta h2{color:var(--paper);font-size:0.95rem;text-transform:uppercase;letter-spacing:0.09em;margin-bottom:28px;}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px;}
+.meta-field dt{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.06em;color:#6B7284;margin-bottom:6px;}
+.meta-field dd{margin:0;color:#D7DAE2;font-size:0.9rem;}
+.meta-field dd + dd{margin-top:4px;}
+.meta-field code{background:#171A21;color:#8EB4FF;padding:2px 6px;border-radius:4px;font-size:0.82rem;}
+.entity-pills{display:flex;flex-wrap:wrap;gap:8px;}
+.entity-pills .tag{background:#171A21;border-color:#282C36;color:#B9BECF;}
+.meta-links a{color:#8EB4FF;}
+.meta-links a:hover{color:var(--paper);}
+
 /* ---------- Case study / portfolio cards ---------- */
 .cs-grid,.pf-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
 @media (max-width:900px){.cs-grid,.pf-grid{grid-template-columns:1fr 1fr;}}

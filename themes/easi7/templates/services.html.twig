@@ -15,17 +15,45 @@
   </div>
 </section>
 
+{% set sc = 0 %}
+
 {% if page.content|trim %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     {{ page.content|raw }}
+    {% if page.header.overview_answer %}
+    <div class="answer-box">
+      <span class="answer-label">In simple terms</span>
+      <p>{{ page.header.overview_answer }}</p>
+    </div>
+    {% endif %}
   </div>
 </section>
 {% endif %}
 
-<section class="block" style="border-bottom:none;">
-  <div class="wrap" style="padding:0;">
-    <div class="card-grid">
+{% if page.header.methodology %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">Methodology</span>
+    <h2>How we approach {{ page.title }}</h2>
+    <div class="process-line"></div>
+    <div class="process">
+      {% for step in page.header.methodology %}
+      <div class="step"><h3>{{ step.title }}</h3><p>{{ step.body }}</p></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}" style="border-bottom:none;">
+  <div class="wrap">
+    <span class="eyebrow">Services in this category</span>
+    <h2>{{ page.header.services_heading ?? ('Every ' ~ page.title ~ ' service, broken down') }}</h2>
+    <div class="card-grid" style="margin-top:1.5em;">
       {% for item in page.collection() %}
         {% include 'partials/cards/service-card.html.twig' with { item: item } %}
       {% endfor %}
@@ -34,7 +62,8 @@
 </section>
 
 {% if page.header.industries %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Relevant industries</span>
     <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
@@ -45,7 +74,8 @@
 {% endif %}
 
 {% if page.header.related_services %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">Related services</span>
     <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
@@ -56,7 +86,8 @@
 {% endif %}
 
 {% if page.header.faqs %}
-<section class="block">
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <span class="eyebrow">FAQs</span>
     <h2>Common questions</h2>
@@ -68,4 +99,6 @@
 {% if page.header.cta %}
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}
+
+{% include 'partials/page-metadata.html.twig' with { page: page } %}
 {% endblock %}

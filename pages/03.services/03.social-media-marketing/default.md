@@ -38,6 +38,12 @@ faqs:
       a: "No - the strongest results come from letting organic performance inform what gets paid amplification, rather than running two disconnected strategies with different teams and different creative."
     - q: 'Which platform matters most for our business?'
       a: "It depends on where your audience actually spends attention - B2B skews LinkedIn, visual and consumer brands skew Instagram. We'll help identify this from your existing audience data rather than assume."
+    - q: 'How soon will we see results from social media marketing?'
+      a: "Paid social can show signal within the first two to four weeks once creative and audiences settle. Organic growth is slower and more honest about it - three to six months before a following and engagement pattern are stable enough to draw conclusions from. Anyone promising faster organic traction is describing a fluke, not a system."
+    - q: 'Can you guarantee our posts will go viral or our follower count will grow by a set amount?'
+      a: "No - virality is not a deliverable any agency can promise, and follower count is a vanity metric that doesn't reliably track revenue anyway. What we commit to is a consistent content and amplification system, and we report on the metrics that actually correlate with pipeline: engagement quality, click-through, and conversion from social traffic."
+    - q: 'Does this include creative production - photography, video, design?'
+      a: "Strategy, copywriting, and campaign management are included. Original photography or video production is scoped separately depending on volume and complexity, since a single shoot for a quarter of content is a very different job from weekly video production."
 ---
 
 Social media marketing gets treated as two unrelated jobs at most businesses - someone posts content, someone else runs ads - and neither informs the other. That's backwards. The organic content that resonates should shape what gets amplified with budget, and the audiences ads uncover should shape what gets created next.

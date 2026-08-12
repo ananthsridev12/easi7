@@ -26,6 +26,7 @@ cta:
 industries:
     - { label: 'B2B & SaaS', url: /industries/b2b-saas }
     - { label: 'Financial Services', url: /industries/financial-services }
+    - { label: 'Manufacturing', url: /industries/manufacturing }
 related_services:
     - { label: 'Frontend Development', url: /services/frontend-development }
     - { label: Integrations, url: /services/integrations }
@@ -37,10 +38,14 @@ faqs:
       a: "Yes, and it's built in from the start rather than retrofitted - the same tracking and CRM integration used across our other work carries into custom apps."
     - q: 'How long does a typical web application take to build?'
       a: 'It depends heavily on scope, but a focused tool like a calculator or simple portal usually takes two to six weeks; more complex multi-feature applications take longer.'
+    - q: 'Do you handle hosting and maintenance after launch, or just the build?'
+      a: "Both are available. Some clients want us to hand off a deployed, documented build to their own team; others keep us on for ongoing maintenance and iteration. We scope it either way rather than assuming a retainer is required."
+    - q: 'Can you guarantee the app will scale as usage grows?'
+      a: "Not as a blanket guarantee, and we're wary of anyone who offers one. We architect for the load the business actually expects now, in a way that can be extended later - but a tool built for a few hundred users needs deliberate re-engineering before it holds up at a few hundred thousand, and we'll flag that trajectory honestly rather than over-build for a scale that may never arrive."
 ---
 
-Most agencies hand you a marketing site and a separate developer builds the app - and the two never share data. We build with the same tracking and CRM integration used across the rest of your stack, so the app is a lead-generation asset, not an island.
+Most agencies hand you a marketing site, then a separate developer builds the app on top of it - and the two never share data. Leads captured in a calculator or portal sit in a different system from the CRM and analytics tracking everything else, which means the app becomes a reporting blind spot instead of a source of qualified pipeline.
 
-### Where this fits
+We build web applications with the same tracking and CRM integration used across the rest of your marketing stack, wired in from the first sprint rather than bolted on after launch. That applies whether the build is a customer-facing tool like an account portal, an internal dashboard nobody outside the company ever sees, or a purpose-built calculator meant to qualify leads before they ever talk to sales.
 
-This isn't enterprise software development - it's app work sized for marketing and lead-generation use cases. If you need a large-scale engineering team, we'll tell you that honestly instead of taking the project anyway.
+This isn't enterprise software development, and we won't pretend it is to win a bigger project. It's app work sized for marketing, operational, and lead-generation use cases - a scope where a small, focused team that understands both development and the surrounding marketing system usually outperforms a large engineering org solving a problem that doesn't require one.

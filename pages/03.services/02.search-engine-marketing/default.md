@@ -38,6 +38,10 @@ faqs:
       a: "Google Search for capturing existing demand, Meta for broader reach and retargeting, LinkedIn for precise B2B targeting at a higher cost per click. Most businesses start with one or two, not all three at once."
     - q: 'How soon will I see results from paid campaigns?'
       a: "Initial data within one to two weeks, but reliable optimisation decisions need enough conversion volume to trust - usually three to four weeks before we'd recommend major budget changes."
+    - q: 'Do you create the ad creative and landing pages, or just manage the media buy?'
+      a: "Media management is the core of this service - account structure, targeting, bidding, and optimisation. Ad creative production and landing page builds are typically scoped separately, though we flag it clearly when a landing page is actively holding back conversion rate, since that affects paid performance directly."
+    - q: 'Can you guarantee a lower cost per lead or higher ROAS?'
+      a: "No - final CPL and ROAS depend on your offer, pricing, market competition, and your own site's conversion rate, none of which media buying controls on its own. What we control is account structure, targeting precision, and bid strategy, and we report honestly when something outside the media plan is setting the ceiling."
 ---
 
 Paid marketing spend gets wasted in predictable ways: broad targeting turned on before there's enough conversion data to support it, budget spread evenly across channels regardless of which one is actually working, and campaigns left running unreviewed for months because nobody owns the weekly optimisation.

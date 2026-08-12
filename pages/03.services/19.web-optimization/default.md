@@ -37,6 +37,12 @@ faqs:
       a: "This is common - added plugins, images, and tracking scripts accumulate over time without anyone reviewing the cumulative impact. Regular audits catch this before it affects rankings or conversion."
     - q: 'Do Core Web Vitals actually affect search rankings?'
       a: "They're a confirmed, if modest, ranking factor - but the bigger impact is usually on conversion, since slow or unstable pages lose visitors before they ever see your offer."
+    - q: 'Can you guarantee our site will rank higher or convert better after optimization?'
+      a: "No - rankings and conversion depend on factors beyond technical performance, including content, offer, and competition, none of which this work directly controls. What we can guarantee is that the specific technical issues we find get fixed, and that removes a real barrier without us promising an outcome we don't own."
+    - q: 'What is not included in web optimization work?'
+      a: "This covers the technical health of an existing site - speed, Core Web Vitals, mobile performance, security, and maintenance. It does not include content strategy, new feature development, or a redesign, though we'll flag when an issue actually needs one of those instead of a technical fix."
+    - q: 'Do we need all five services, or can we start with one?'
+      a: "Most sites benefit from starting wherever the pain is most visible - often speed or security - and expanding from there. The five areas overlap in practice, but there's no requirement to take all of them at once."
 ---
 
 A launched site is not a finished site. Platforms release updates, plugins go unmaintained, content ages, and Core Web Vitals scores drift as pages accumulate more scripts and images over time - all quietly, without anyone noticing until traffic or conversions start slipping.
