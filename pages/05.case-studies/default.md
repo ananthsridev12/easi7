@@ -4,7 +4,7 @@ menu: 'Case Studies'
 template: case-studies
 metadata:
     description: 'Selected case studies showcasing SEO, performance marketing, analytics, and automation outcomes delivered by EASI7.'
-summary: 'Real projects. Real impact. Deep-dives into the strategy, execution, and measurable outcomes behind the numbers. Results summary: 40% avg. CPL reduction &middot; 180%+ avg. traffic growth &middot; 6&times; max budget scaled &middot; 250+ B2B leads generated.'
+summary: 'Real projects. Real impact. Deep-dives into the strategy, execution, and measurable outcomes behind the numbers. Results summary: 40% avg. CPL reduction · 180%+ avg. traffic growth · 6× max budget scaled · 250+ B2B leads generated.'
 content:
     items: '@self.children'
     order:

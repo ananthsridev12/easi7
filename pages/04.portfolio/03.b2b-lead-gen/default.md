@@ -7,8 +7,8 @@ service_url: /services/performance-marketing
 summary: 'Multi-channel PPC strategy targeting the US market with Facebook, LinkedIn, and Google Ads working together.'
 metrics:
     - { value: '250+', label: 'Qualified leads' }
-    - { value: '&minus;60%', label: CPL }
-    - { value: '15%', label: 'Lead &rarr; client' }
+    - { value: '−60%', label: CPL }
+    - { value: '15%', label: 'Lead → client' }
 taxonomy:
     industry: [B2B]
     service: ['Performance Marketing']

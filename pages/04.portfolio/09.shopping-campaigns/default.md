@@ -7,7 +7,7 @@ service_url: /services/performance-marketing
 summary: 'Restructured the product feed, implemented smart bidding, and optimised Shopping campaigns for an e-commerce client.'
 metrics:
     - { value: '+220%', label: ROAS }
-    - { value: '&minus;38%', label: CPA }
+    - { value: '−38%', label: CPA }
 taxonomy:
     industry: [E-Commerce]
     service: ['Performance Marketing']

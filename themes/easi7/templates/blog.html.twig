@@ -15,7 +15,7 @@
     <div class="blog-grid">
       {% for item in page.collection() %}
         {% set cat = item.taxonomy.category[0] ?? 'Strategy' %}
-        {% include 'partials/cards/kb-card.html.twig' with { item: item, kind: 'Article', meta: cat ~ ' &middot; ' ~ item.date|date('M Y') } %}
+        {% include 'partials/cards/kb-card.html.twig' with { item: item, kind: 'Article', meta: cat ~ ' · ' ~ item.date|date('M Y') } %}
       {% endfor %}
     </div>
   </div>

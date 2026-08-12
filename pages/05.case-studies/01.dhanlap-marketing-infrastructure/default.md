@@ -7,9 +7,9 @@ portfolio_url: /portfolio/dhanlap-infrastructure
 service_url: /services/analytics-tracking
 summary: 'Ark Neo Financial Services (DhanLAP) — fintech lender. Zero tracking to a compounding pipeline: GA4/GTM from scratch, high-intent Search campaigns, and CRM automation.'
 metrics:
-    - { value: '&minus;35%', label: 'Cost per lead' }
+    - { value: '−35%', label: 'Cost per lead' }
     - { value: '+40%', label: 'Qualified traffic' }
-    - { value: '+25%', label: 'MQL &rarr; SQL' }
+    - { value: '+25%', label: 'MQL → SQL' }
 taxonomy:
     industry: [Fintech]
     service: ['Analytics & Tracking', 'Performance Marketing', 'Marketing Automation']

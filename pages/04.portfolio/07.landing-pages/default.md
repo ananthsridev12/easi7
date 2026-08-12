@@ -7,7 +7,7 @@ service_url: /services/web-cms
 summary: 'Designed and developed 10+ landing pages for PPC campaigns with A/B testing and conversion optimisation built in.'
 metrics:
     - { value: '8.5%', label: 'Avg. conversion rate' }
-    - { value: '&minus;42%', label: 'Bounce rate' }
+    - { value: '−42%', label: 'Bounce rate' }
     - { value: '10+', label: 'Pages shipped' }
 taxonomy:
     industry: ['Various']

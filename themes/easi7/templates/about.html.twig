@@ -23,7 +23,7 @@
     </div>
     {% endif %}
 
-    {{ page.content }}
+    {{ page.content|raw }}
 
     {% if page.header.timeline %}
     <h2>Where we've delivered</h2>

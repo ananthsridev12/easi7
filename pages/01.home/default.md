@@ -11,21 +11,21 @@ sitemap:
     priority: !!float 1
 
 hero:
-    eyebrow: 'Data-driven digital marketing studio &middot; Chennai, India'
+    eyebrow: 'Data-driven digital marketing studio · Chennai, India'
     headline: 'Marketing infrastructure that compounds.'
     lede: 'EASI7 runs analytics, paid media, SEO, and automation as one connected system instead of five disconnected vendors — so every campaign makes the next one cheaper.'
     readout:
         label: 'LIVE ACCOUNT SNAPSHOT'
-        tag: 'DHANLAP &middot; FINTECH'
+        tag: 'DHANLAP · FINTECH'
         rows:
-            - { label: 'COST PER LEAD', value: '&minus;35%', delta: '&darr; QoQ' }
-            - { label: 'QUALIFIED TRAFFIC', value: '+40%', delta: '&uarr; QoQ' }
-            - { label: 'MQL &rarr; SQL RATE', value: '+25%', delta: '&uarr; QoQ' }
+            - { label: 'COST PER LEAD', value: '−35%', delta: '↓ QoQ' }
+            - { label: 'QUALIFIED TRAFFIC', value: '+40%', delta: '↑ QoQ' }
+            - { label: 'MQL → SQL RATE', value: '+25%', delta: '↑ QoQ' }
 
 stats:
     - { num: '8+', label: 'Years in market' }
     - { num: '15+', label: 'Engagements delivered' }
-    - { num: '3&times;', label: 'Avg. traffic growth' }
+    - { num: '3×', label: 'Avg. traffic growth' }
     - { num: '40%', label: 'Avg. CPL reduction' }
 
 services_teaser:
@@ -55,9 +55,9 @@ clients:
     - { name: '+ more on request', muted: true }
 
 resources_preview:
-    - { route: /knowledge-hub/what-is-ga4, kind: Guide, meta: 'Knowledge Hub &middot; Analytics' }
-    - { route: /knowledge-hub/what-is-answer-engine-optimization, kind: Glossary, meta: 'Knowledge Hub &middot; SEO' }
-    - { route: /blog/b2b-lead-generation-strategy, kind: Article, meta: 'Blog &middot; Strategy &middot; 12 min read' }
+    - { route: /knowledge-hub/what-is-ga4, kind: Guide, meta: 'Knowledge Hub · Analytics' }
+    - { route: /knowledge-hub/what-is-answer-engine-optimization, kind: Glossary, meta: 'Knowledge Hub · SEO' }
+    - { route: /blog/b2b-lead-generation-strategy, kind: Article, meta: 'Blog · Strategy · 12 min read' }
 
 cta:
     heading: 'Your stack is probably leaking budget somewhere.'

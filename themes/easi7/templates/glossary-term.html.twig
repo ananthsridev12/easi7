@@ -12,7 +12,7 @@
 
 <section class="block" style="border-bottom:none;">
   <div class="wrap">
-    {{ page.content }}
+    {{ page.content|raw }}
     <div class="hero-ctas" style="margin-top:2em;">
       <a class="btn ghost" href="{{ url('/knowledge-hub') }}">&larr; Back to Knowledge Hub</a>
       {% if page.header.service_url %}<a class="btn brass" href="{{ url(page.header.service_url) }}">See related service &rarr;</a>{% endif %}

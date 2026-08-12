@@ -6,7 +6,7 @@ industry: 'B2B / SaaS'
 service_url: /services/technical-seo
 summary: 'Developed a data-driven content strategy resulting in 5x organic traffic growth over six months.'
 metrics:
-    - { value: '5&times;', label: 'Organic traffic' }
+    - { value: '5×', label: 'Organic traffic' }
     - { value: '200+', label: 'Keywords ranked' }
     - { value: '6 mo.', label: Timeframe }
 taxonomy:

@@ -7,7 +7,7 @@ service_url: /services/technical-seo
 summary: 'Complete technical SEO audit and implementation for a 10,000+ product e-commerce site, including schema markup and site speed work.'
 metrics:
     - { value: '+180%', label: 'Organic traffic' }
-    - { value: '6&times;', label: 'Budget scaled' }
+    - { value: '6×', label: 'Budget scaled' }
     - { value: '+45%', label: ROI }
 taxonomy:
     industry: [E-Commerce]

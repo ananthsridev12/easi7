@@ -8,7 +8,7 @@ summary: 'Built end-to-end tracking with GA4, GTM, CRM integration, and automate
 metrics:
     - { value: '+40%', label: Traffic }
     - { value: '+25%', label: Conversions }
-    - { value: '&minus;35%', label: CPL }
+    - { value: '−35%', label: CPL }
 taxonomy:
     industry: [Fintech]
     service: ['Analytics & Tracking', 'Marketing Automation']

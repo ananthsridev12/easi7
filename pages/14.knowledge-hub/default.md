@@ -12,9 +12,9 @@ content:
         dir: asc
 
 guides:
-    - { route: /blog/ga4-migration-guide, meta: 'Guide &middot; Analytics' }
-    - { route: /blog/technical-seo-checklist, meta: 'Guide &middot; SEO' }
-    - { route: /blog/gtm-data-layer-guide, meta: 'Guide &middot; Analytics' }
+    - { route: /blog/ga4-migration-guide, meta: 'Guide · Analytics' }
+    - { route: /blog/technical-seo-checklist, meta: 'Guide · SEO' }
+    - { route: /blog/gtm-data-layer-guide, meta: 'Guide · Analytics' }
 
 sitemap:
     changefreq: monthly

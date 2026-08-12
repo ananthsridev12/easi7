@@ -23,7 +23,7 @@
     </div>
     {% endif %}
 
-    {{ page.content }}
+    {{ page.content|raw }}
 
     <div class="hero-ctas" style="margin-top:2em;">
       {% if page.header.portfolio_url %}<a class="btn ghost" href="{{ url(page.header.portfolio_url) }}">View project details &rarr;</a>{% endif %}

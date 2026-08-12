@@ -8,8 +8,8 @@ service_url: /services/performance-marketing
 summary: 'Peppers Media — B2B, PPC, lead generation. 250+ qualified leads in six months through audience-segmented Facebook and Google campaigns, with lead scoring before sales handoff.'
 metrics:
     - { value: '250+', label: 'Qualified leads' }
-    - { value: '&minus;60%', label: 'Lower CPL' }
-    - { value: '15%', label: 'Lead &rarr; client' }
+    - { value: '−60%', label: 'Lower CPL' }
+    - { value: '15%', label: 'Lead → client' }
 taxonomy:
     industry: [B2B]
     service: ['Performance Marketing']
