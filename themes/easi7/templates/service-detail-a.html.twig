@@ -1,0 +1,123 @@
+{#
+  Design A: Problem -> Solution -> Proof
+  Best suited to services where the buyer is problem-aware.
+  Expects (frontmatter): eyebrow, headline, summary, problem, solution, approach,
+  capabilities[], process[{title,body}], tools[], outcomes[], faqs[{q,a}], cta
+#}
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">{{ page.header.eyebrow ?? 'Service' }}</span>
+    <h1>{{ page.header.headline ?? page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+    <div class="hero-ctas">
+      <a class="btn brass" href="{{ url('/contact') }}">Talk to us about this &rarr;</a>
+    </div>
+  </div>
+</section>
+
+{% if page.header.problem %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">The challenge</span>
+    <h2>Where this usually breaks down</h2>
+    <div>{{ page.header.problem|raw }}</div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.solution %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">What we fix</span>
+    <h2>What this service actually solves</h2>
+    <div>{{ page.header.solution|raw }}</div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.approach %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Our approach</span>
+    <h2>How we run it</h2>
+    <div>{{ page.header.approach|raw }}</div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.capabilities %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">What's included</span>
+    <h2>Capabilities &amp; deliverables</h2>
+    <ul>
+      {% for c in page.header.capabilities %}<li>{{ c }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.process %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Process</span>
+    <h2>How an engagement runs</h2>
+    <div class="process-line"></div>
+    <div class="process">
+      {% for step in page.header.process %}
+      <div class="step"><h3>{{ step.title }}</h3><p>{{ step.body }}</p></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.tools %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Tools &amp; technologies</span>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
+      {% for t in page.header.tools %}<span class="tag">{{ t }}</span>{% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.outcomes %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Outcomes</span>
+    <h2>What this changes for the business</h2>
+    <ul>
+      {% for o in page.header.outcomes %}<li>{{ o }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Proof</span>
+    <h2>Related work</h2>
+    {% include 'partials/related-work.html.twig' with { page: page } %}
+  </div>
+</section>
+
+{% if page.header.faqs %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">FAQs</span>
+    <h2>Common questions</h2>
+    {% include 'partials/faq.html.twig' with { faqs: page.header.faqs } %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.cta %}
+{% include 'partials/cta-band.html.twig' with page.header.cta %}
+{% endif %}
+{% endblock %}

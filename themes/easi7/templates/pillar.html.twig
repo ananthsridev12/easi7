@@ -1,0 +1,138 @@
+{#
+  Level 1 pillar / service-ecosystem page.
+  Expects (frontmatter): eyebrow, headline, summary, overview, challenges[], capabilities[],
+  methodology[{title,body}], categories[{route,name,blurb}], industries[{label,url}],
+  use_cases[], featured_case_studies[route], faqs[{q,a}], cta
+#}
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">{{ page.header.eyebrow ?? 'Service Ecosystem' }}</span>
+    <h1>{{ page.header.headline ?? page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+    <div class="hero-ctas">
+      <a class="btn brass" href="{{ url('/contact') }}">Talk to us &rarr;</a>
+      <a class="btn ghost" href="{{ url('/services') }}">See all services</a>
+    </div>
+  </div>
+</section>
+
+{% if page.header.overview %}
+<section class="block">
+  <div class="wrap">
+    <div>{{ page.header.overview|raw }}</div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.challenges %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">The challenges</span>
+    <h2>What usually goes wrong here</h2>
+    <ul>
+      {% for c in page.header.challenges %}<li>{{ c }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.capabilities %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Capabilities</span>
+    <h2>What we cover end to end</h2>
+    <ul>
+      {% for c in page.header.capabilities %}<li>{{ c }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.methodology %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Methodology</span>
+    <h2>How we structure the work</h2>
+    <div class="process-line"></div>
+    <div class="process">
+      {% for step in page.header.methodology %}
+      <div class="step"><h3>{{ step.title }}</h3><p>{{ step.body }}</p></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.categories %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Service categories</span>
+    <h2>The disciplines inside {{ page.title }}</h2>
+  </div>
+  <div class="wrap" style="padding:0;">
+    <div class="card-grid">
+      {% for cat in page.header.categories %}
+        {% set item = page.find(cat.route) %}
+        {% if item %}{% include 'partials/cards/service-card.html.twig' with { item: item } %}{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.use_cases %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Use cases</span>
+    <h2>Where this shows up in practice</h2>
+    <ul>
+      {% for u in page.header.use_cases %}<li>{{ u }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.industries %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Relevant industries</span>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
+      {% for ind in page.header.industries %}<a class="tag" href="{{ url(ind.url) }}">{{ ind.label }}</a>{% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.featured_case_studies %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Proof</span>
+    <h2>Related case studies</h2>
+    <div class="cs-grid">
+      {% for route in page.header.featured_case_studies %}
+        {% set item = page.find(route) %}
+        {% if item %}{% include 'partials/cards/case-study-card.html.twig' with { item: item } %}{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.faqs %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">FAQs</span>
+    <h2>Common questions</h2>
+    {% include 'partials/faq.html.twig' with { faqs: page.header.faqs } %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.cta %}
+{% include 'partials/cta-band.html.twig' with page.header.cta %}
+{% endif %}
+{% endblock %}

@@ -1,0 +1,122 @@
+{#
+  Design C: Authority / Framework-led
+  Best suited to strategic, technical, analytical, or emerging services.
+  Expects (frontmatter): eyebrow, headline, summary, why_it_matters, challenges[],
+  framework, methodology[{title,body}], key_metrics[], use_cases[], expert_insight, faqs[{q,a}], cta
+#}
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">{{ page.header.eyebrow ?? 'Service' }}</span>
+    <h1>{{ page.header.headline ?? page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+    <div class="hero-ctas">
+      <a class="btn brass" href="{{ url('/contact') }}">Talk to us about this &rarr;</a>
+    </div>
+  </div>
+</section>
+
+{% if page.header.why_it_matters %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Why it matters</span>
+    <div>{{ page.header.why_it_matters|raw }}</div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.challenges %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">The landscape</span>
+    <h2>What makes this hard to get right</h2>
+    <ul>
+      {% for c in page.header.challenges %}<li>{{ c }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.framework %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Our framework</span>
+    <h2>How we think about this</h2>
+    <div>{{ page.header.framework|raw }}</div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.methodology %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Methodology</span>
+    <h2>How it actually runs</h2>
+    <div class="process-line"></div>
+    <div class="process">
+      {% for step in page.header.methodology %}
+      <div class="step"><h3>{{ step.title }}</h3><p>{{ step.body }}</p></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.key_metrics %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Evaluation criteria</span>
+    <h2>What we measure this against</h2>
+    <ul>
+      {% for k in page.header.key_metrics %}<li>{{ k }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.use_cases %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Use cases</span>
+    <h2>Where this applies</h2>
+    <ul>
+      {% for u in page.header.use_cases %}<li>{{ u }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.expert_insight %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">A closer look</span>
+    <blockquote>{{ page.header.expert_insight }}</blockquote>
+  </div>
+</section>
+{% endif %}
+
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Related services</span>
+    <h2>Other services in this area</h2>
+    {% include 'partials/related-services.html.twig' with { page: page } %}
+  </div>
+</section>
+
+{% if page.header.faqs %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">FAQs</span>
+    <h2>Common questions</h2>
+    {% include 'partials/faq.html.twig' with { faqs: page.header.faqs } %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.cta %}
+{% include 'partials/cta-band.html.twig' with page.header.cta %}
+{% endif %}
+{% endblock %}

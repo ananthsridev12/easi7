@@ -1,0 +1,16 @@
+{#
+  Expects: page (current page, must have taxonomy.service), heading, eyebrow_text, limit (optional, default 3)
+  Renders a grid of case studies/portfolio items sharing a service taxonomy value.
+#}
+{% set related = page.taxonomy.service ? grav.pages.evaluate({'@taxonomy.service': page.taxonomy.service}) : [] %}
+{% if related and related|length > 1 %}
+<div class="cs-grid">
+  {% for item in related|slice(0, (limit ?? 3) + 1) %}
+    {% if item.route != page.route %}
+      {% include 'partials/cards/case-study-card.html.twig' with { item: item } %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% else %}
+<p>{{ empty_text ?? "We're still building out published proof for this specific service — ask us directly and we'll walk through relevant examples." }}</p>
+{% endif %}

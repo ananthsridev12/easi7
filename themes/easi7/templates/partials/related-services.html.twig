@@ -1,0 +1,13 @@
+{#
+  Expects: page (current L3 page). Shows sibling services (same L2 parent) as related.
+#}
+{% set siblings = page.parent ? page.parent.collection() : [] %}
+{% if siblings and siblings|length > 1 %}
+<div class="card-grid">
+  {% for item in siblings %}
+    {% if item.route != page.route %}
+      {% include 'partials/cards/service-card.html.twig' with { item: item } %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
