@@ -22,4 +22,4 @@ B2B and SaaS buyers rarely decide alone, and the sales cycle is measured in mont
 * Sales and marketing alignment on lead scoring and handoff
 * Analytics built around pipeline, not just traffic
 
-See our [B2B Marketing & Lead Generation](/services/b2b-marketing-lead-generation) services, or the [DhanLAP case study](/case-studies/dhanlap-marketing-infrastructure) for a related build in a considered-purchase category.
+See our [B2B Marketing & Lead Generation](/services/b2b-marketing-lead-generation) services, or the [Peppers Media case study](/case-studies/peppers-media-b2b-leadgen) for a related build in a considered-purchase category.

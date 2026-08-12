@@ -13,14 +13,29 @@
         <a class="btn ghost" href="{{ url('/case-studies') }}">See the case studies</a>
       </div>
     </div>
-    {% if hero.readout %}
-    <div class="readout">
-      <div class="readout-head"><span><span class="readout-dot"></span>{{ hero.readout.label }}</span><span>{{ hero.readout.tag }}</span></div>
-      <div class="readout-rows">
-        {% for row in hero.readout.rows %}
-        <div class="readout-row"><span class="readout-label">{{ row.label }}</span><span class="readout-val">{{ row.value }} <small>{{ row.delta }}</small></span></div>
+    {% if hero.slides %}
+    <div class="hero-slider" data-hero-slider>
+      <div class="hero-slider-frame">
+        {% for slide in hero.slides %}
+        <div class="hero-slide{% if loop.first %} active{% endif %}">
+          {% if slide.image %}
+            <img src="{{ url(slide.image) }}" alt="{{ slide.caption ?? '' }}">
+          {% else %}
+            <div class="hero-slide-placeholder hs-{{ loop.index0 % 4 }}">
+              {% if slide.tag %}<span class="hero-slide-tag">{{ slide.tag }}</span>{% endif %}
+            </div>
+          {% endif %}
+          {% if slide.caption %}<p class="hero-slide-caption">{{ slide.caption }}</p>{% endif %}
+        </div>
         {% endfor %}
       </div>
+      {% if hero.slides|length > 1 %}
+      <div class="hero-slider-dots">
+        {% for slide in hero.slides %}
+        <button type="button" class="hero-slider-dot{% if loop.first %} active{% endif %}" data-index="{{ loop.index0 }}" aria-label="Show slide {{ loop.index }}"></button>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
     {% endif %}
   </div>

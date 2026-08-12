@@ -26,4 +26,4 @@ Skipping straight to execution feels faster in week one and costs more in every 
 
 We'd rather have an honest conversation about a four-week infrastructure phase up front than deliver a campaign report six months in that turns out to be built on a tracking bug.
 
-[See how we work with clients](/about) &middot; [Read the DhanLAP case study](/case-studies/dhanlap-marketing-infrastructure)
+[See how we work with clients](/about) &middot; [Read our case studies](/case-studies)

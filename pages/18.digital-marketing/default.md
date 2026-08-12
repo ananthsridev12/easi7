@@ -51,7 +51,6 @@ industries:
     - { label: 'Financial Services', url: /industries/financial-services }
     - { label: 'E-Commerce', url: /industries/ecommerce }
 featured_case_studies:
-    - /case-studies/dhanlap-marketing-infrastructure
     - /case-studies/giri-trading-ecommerce-growth
     - /case-studies/peppers-media-b2b-leadgen
 faqs:

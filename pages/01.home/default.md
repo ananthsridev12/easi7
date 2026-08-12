@@ -14,13 +14,11 @@ hero:
     eyebrow: 'Data-driven digital marketing studio · Chennai, India'
     headline: 'Marketing infrastructure that compounds.'
     lede: 'EASI7 runs analytics, paid media, SEO, and automation as one connected system instead of five disconnected vendors - so every campaign makes the next one cheaper.'
-    readout:
-        label: 'LIVE ACCOUNT SNAPSHOT'
-        tag: 'DHANLAP · FINTECH'
-        rows:
-            - { label: 'COST PER LEAD', value: '−35%', delta: '↓ QoQ' }
-            - { label: 'QUALIFIED TRAFFIC', value: '+40%', delta: '↑ QoQ' }
-            - { label: 'MQL → SQL RATE', value: '+25%', delta: '↑ QoQ' }
+    slides:
+        - { tag: 'Analytics & Tracking', caption: 'GA4, GTM, and dashboards built from a clean baseline' }
+        - { tag: 'Paid & Organic Search', caption: 'Campaigns and SEO working from the same data' }
+        - { tag: 'Brand & Web Design', caption: 'Identity and interfaces designed to convert' }
+        - { tag: 'Automation & CRM', caption: 'Leads scored, routed, and nurtured automatically' }
 
 stats:
     - { num: '8+', label: 'Years in market' }
@@ -43,7 +41,6 @@ process:
     - { title: Compounding, body: "Report honestly, cut what doesn't work, and scale what does." }
 
 featured_case_studies:
-    - /case-studies/dhanlap-marketing-infrastructure
     - /case-studies/giri-trading-ecommerce-growth
     - /case-studies/peppers-media-b2b-leadgen
 
