@@ -18,6 +18,21 @@ sitemap:
     changefreq: monthly
     priority: !!float 0.8
 
+industries:
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas }
+    - { label: 'E-Commerce', url: /industries/ecommerce }
+    - { label: 'Professional Services', url: /industries/professional-services }
+related_services:
+    - { label: 'Content Marketing', url: /services/content-marketing }
+    - { label: 'Analytics & Tracking', url: /services/analytics-tracking }
+    - { label: 'Conversion Optimization', url: /services/conversion-optimization }
+faqs:
+    - q: 'How long does SEO take to show results?'
+      a: "Technical fixes can show up in weeks once re-crawled. Content and authority-driven ranking improvements typically take three to six months, longer in competitive categories - anyone promising faster is either overstating it or working on branded, low-competition terms."
+    - q: 'Do I need technical SEO or AI SEO first?'
+      a: "Technical SEO first, almost always. AI SEO and AEO depend on a crawlable, well-structured site underneath them - optimising for AI citations on a technically broken site wastes the effort."
+    - q: 'How is AI SEO different from regular SEO?'
+      a: "Regular SEO optimises for a ranking position in a list of links. AI SEO optimises for being the source an AI-generated answer cites directly, which relies more on clear, structured, directly-stated information than on traditional ranking factors."
 cta:
     heading: 'Not sure if you need technical SEO or AI SEO?'
     body: "Most sites need both, in a specific order. We'll tell you which comes first for your site."

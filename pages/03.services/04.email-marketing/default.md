@@ -23,6 +23,20 @@ cta:
     body: "Most lists are under-used, not over-emailed. We'll find the sequences you're missing."
     button_label: 'Talk to us'
     button_url: /contact
+industries:
+    - { label: 'E-Commerce', url: /industries/ecommerce }
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas }
+related_services:
+    - { label: 'Messaging Marketing', url: /services/messaging-marketing }
+    - { label: 'Marketing Automation', url: /services/marketing-automation }
+    - { label: 'B2B Marketing & Lead Gen', url: /services/b2b-marketing-lead-generation }
+faqs:
+    - q: 'How big does our email list need to be before this is worth doing?'
+      a: "There's no strict minimum, but automation flows pay off fastest with at least a few hundred active subscribers. Below that, the priority is usually list growth first."
+    - q: 'Will automated emails feel impersonal?'
+      a: "Not if they're triggered by real behaviour and timed sensibly - a welcome email the moment someone signs up feels more relevant than a manual one sent three days later, not less personal."
+    - q: 'Is cold email different from regular email marketing?'
+      a: "Yes, entirely - cold email is about reaching people who haven't opted in, which means deliverability fundamentals (domain warming, SPF/DKIM/DMARC) matter far more than for a list that already knows you."
 ---
 
 Email is the channel most businesses already own and most underuse. The list exists, the platform is paid for, and yet most sends are one-off broadcasts with no lifecycle logic behind them - no welcome flow, no abandonment recovery, no re-engagement sequence for people who've gone quiet.

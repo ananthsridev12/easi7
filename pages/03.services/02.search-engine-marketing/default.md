@@ -23,6 +23,21 @@ cta:
     body: "We'll audit your account structure and targeting before touching your budget."
     button_label: 'Get an account audit'
     button_url: /contact
+industries:
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas }
+    - { label: 'E-Commerce', url: /industries/ecommerce }
+    - { label: 'Financial Services', url: /industries/financial-services }
+related_services:
+    - { label: 'Social Media Marketing', url: /services/social-media-marketing }
+    - { label: 'Conversion Optimization', url: /services/conversion-optimization }
+    - { label: 'Analytics & Tracking', url: /services/analytics-tracking }
+faqs:
+    - q: 'How much budget do I need to start with paid marketing?'
+      a: "It depends on the channel and competitiveness of your keywords, but we generally want enough monthly spend to reach statistical significance for testing within a few weeks - for Google Search in most categories, that's a minimum of roughly ₹50,000-1,00,000/month."
+    - q: 'Which platform should I start with - Google, Meta, or LinkedIn?'
+      a: "Google Search for capturing existing demand, Meta for broader reach and retargeting, LinkedIn for precise B2B targeting at a higher cost per click. Most businesses start with one or two, not all three at once."
+    - q: 'How soon will I see results from paid campaigns?'
+      a: "Initial data within one to two weeks, but reliable optimisation decisions need enough conversion volume to trust - usually three to four weeks before we'd recommend major budget changes."
 ---
 
 Paid marketing spend gets wasted in predictable ways: broad targeting turned on before there's enough conversion data to support it, budget spread evenly across channels regardless of which one is actually working, and campaigns left running unreviewed for months because nobody owns the weekly optimisation.

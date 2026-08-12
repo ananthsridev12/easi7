@@ -23,6 +23,20 @@ cta:
     body: "We'll run a diagnostic before recommending a single test."
     button_label: 'Get a CRO audit'
     button_url: /contact
+industries:
+    - { label: 'E-Commerce', url: /industries/ecommerce }
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas }
+related_services:
+    - { label: 'Website Design', url: /services/website-design }
+    - { label: 'Analytics & Tracking', url: /services/analytics-tracking }
+    - { label: 'UI/UX Design', url: /services/ui-ux-design }
+faqs:
+    - q: 'How much traffic do we need before A/B testing is worthwhile?'
+      a: "Enough to reach statistical significance within a reasonable time - as a rough guide, a page converting at a few percent typically needs a few thousand visitors per variant. Below that, qualitative methods like session recordings are more useful than formal A/B tests."
+    - q: "What's a realistic conversion rate improvement to expect?"
+      a: "It varies enormously by starting point and industry - a poorly optimised page has much more room to improve than one that's already been tested repeatedly. We'll give an honest read after the initial audit rather than a generic percentage."
+    - q: 'Do you redesign the whole page or just test small changes?'
+      a: 'Usually neither extreme - we prioritise based on diagnostic data, which sometimes means a full redesign and sometimes means one specific, well-evidenced change.'
 ---
 
 More traffic is the expensive way to grow revenue when the actual constraint is conversion, not volume. Most sites we audit are losing more to a confusing checkout flow or a landing page trying to do five things at once than they'd ever gain from another 20% of ad spend.

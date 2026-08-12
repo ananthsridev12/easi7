@@ -33,6 +33,38 @@
   </div>
 </section>
 
+{% if page.header.industries %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Relevant industries</span>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
+      {% for ind in page.header.industries %}<a class="tag" href="{{ url(ind.url) }}">{{ ind.label }}</a>{% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.related_services %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Related services</span>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
+      {% for rs in page.header.related_services %}<a class="tag" href="{{ url(rs.url) }}">{{ rs.label }}</a>{% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.faqs %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">FAQs</span>
+    <h2>Common questions</h2>
+    {% include 'partials/faq.html.twig' with { faqs: page.header.faqs } %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.header.cta %}
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}

@@ -23,6 +23,21 @@ cta:
     body: "That's usually an ICP or scoring problem, not a volume problem. We'll help you find out which."
     button_label: 'Talk to us'
     button_url: /contact
+industries:
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas }
+    - { label: Manufacturing, url: /industries/manufacturing }
+    - { label: Technology, url: /industries/technology }
+related_services:
+    - { label: 'Search Engine Marketing', url: /services/search-engine-marketing }
+    - { label: 'Marketing Automation', url: /services/marketing-automation }
+    - { label: 'Content Marketing', url: /services/content-marketing }
+faqs:
+    - q: 'What counts as a qualified B2B lead?'
+      a: "One that matches your ICP on fit (company size, industry, role) and shows genuine intent signals (pricing page visits, demo requests) - not just anyone who filled out a form."
+    - q: 'Is ABM only for large enterprise sales teams?'
+      a: "No - ABM works for any business with a short, identifiable list of target accounts worth coordinated attention, which can be a handful of named companies even for a small team."
+    - q: 'How is B2B lead generation different from general lead generation?'
+      a: 'B2B sales cycles typically involve multiple stakeholders and longer consideration periods, so the content, targeting, and nurture sequences need to account for a buying committee, not a single decision-maker.'
 ---
 
 B2B lead generation fails most often on quality, not volume - a campaign generating plenty of form fills that sales won't touch because none of them match the actual buying pattern. Fixing that starts with defining the ICP properly: not a job title and company size guess, but a pattern pulled from your last twenty closed-won deals and your last ten churned accounts.
