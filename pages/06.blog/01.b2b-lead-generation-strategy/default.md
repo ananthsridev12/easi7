@@ -8,7 +8,7 @@ summary: 'A three-layer B2B lead gen system combining ICP targeting, LinkedIn + 
 taxonomy:
     category: [Strategy]
     tag: [B2B, 'Lead Generation']
-    service: ['Performance Marketing']
+    service: ['Search Engine Marketing', 'Facebook Ads']
 metadata:
     description: "A modern B2B lead gen system that combines content authority, AI-informed targeting, and automation."
 ---

@@ -12,7 +12,7 @@ metrics:
     - { value: '+25%', label: 'MQL → SQL' }
 taxonomy:
     industry: [Fintech]
-    service: ['Analytics & Tracking', 'Performance Marketing', 'Marketing Automation']
+    service: ['Analytics & Tracking', 'Google Ads', 'Marketing Automation']
 metadata:
     description: 'How EASI7 built GA4/GTM tracking, high-intent Search campaigns, and CRM automation for DhanLAP, improving MQL-to-SQL conversion by 25%.'
 sitemap:

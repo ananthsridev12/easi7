@@ -8,7 +8,7 @@ summary: 'Seven email automation workflows that convert, from welcome sequences 
 taxonomy:
     category: [Automation]
     tag: [Email, Automation]
-    service: ['Marketing Automation']
+    service: ['Marketing Automation', 'Email Marketing']
 metadata:
     description: "Email automation sequences that convert in the AI era: triggers, timing, and intent-based personalization."
 ---

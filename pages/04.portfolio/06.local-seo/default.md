@@ -3,7 +3,7 @@ title: 'Local SEO for Multi-Location Business'
 template: portfolio-detail
 client: 'Multi-location retailer'
 industry: Retail
-service_url: /services/technical-seo
+service_url: /services/seo/technical-seo
 summary: 'Optimised 15 location pages with schema markup, Google Business Profile optimisation, and a local link-building strategy.'
 metrics:
     - { value: '+320%', label: 'Local traffic' }

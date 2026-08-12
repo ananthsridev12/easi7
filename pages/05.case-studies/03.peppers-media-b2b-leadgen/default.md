@@ -4,7 +4,7 @@ template: case-study-detail
 client: 'Peppers Media'
 industry: B2B
 portfolio_url: /portfolio/b2b-lead-gen
-service_url: /services/performance-marketing
+service_url: /services/social-media-marketing/facebook-ads
 summary: 'Peppers Media — B2B, PPC, lead generation. 250+ qualified leads in six months through audience-segmented Facebook and Google campaigns, with lead scoring before sales handoff.'
 metrics:
     - { value: '250+', label: 'Qualified leads' }
@@ -12,7 +12,7 @@ metrics:
     - { value: '15%', label: 'Lead → client' }
 taxonomy:
     industry: [B2B]
-    service: ['Performance Marketing']
+    service: ['Facebook Ads', 'Search Engine Marketing']
 metadata:
     description: 'How EASI7 generated 250+ qualified B2B leads for Peppers Media''s US-market clients through segmented Facebook and Google campaigns.'
 sitemap:

@@ -3,7 +3,7 @@ title: 'E-Commerce SEO Overhaul'
 template: portfolio-detail
 client: 'Giri Trading Agency'
 industry: E-Commerce
-service_url: /services/technical-seo
+service_url: /services/seo/technical-seo
 summary: 'Complete technical SEO audit and implementation for a 10,000+ product e-commerce site, including schema markup and site speed work.'
 metrics:
     - { value: '+180%', label: 'Organic traffic' }

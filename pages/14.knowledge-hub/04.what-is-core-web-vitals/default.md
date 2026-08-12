@@ -2,7 +2,7 @@
 title: 'What Are Core Web Vitals?'
 template: glossary-term
 summary: 'Core Web Vitals are the three page-experience metrics Google uses to measure loading, responsiveness, and visual stability.'
-service_url: /services/technical-seo
+service_url: /services/seo/technical-seo
 taxonomy:
     topic: [SEO]
 metadata:

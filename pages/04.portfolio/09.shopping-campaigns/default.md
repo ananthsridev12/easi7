@@ -3,14 +3,14 @@ title: 'Google Shopping Campaign Optimisation'
 template: portfolio-detail
 client: 'Giri Trading Agency'
 industry: E-Commerce
-service_url: /services/performance-marketing
+service_url: /services/search-engine-marketing/google-ads
 summary: 'Restructured the product feed, implemented smart bidding, and optimised Shopping campaigns for an e-commerce client.'
 metrics:
     - { value: '+220%', label: ROAS }
     - { value: '−38%', label: CPA }
 taxonomy:
     industry: [E-Commerce]
-    service: ['Performance Marketing']
+    service: ['Google Ads']
 metadata:
     description: 'Google Shopping feed restructuring and smart bidding optimisation that improved ROAS by 220%.'
 sitemap:

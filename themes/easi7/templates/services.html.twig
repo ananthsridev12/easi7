@@ -7,6 +7,11 @@
     <span class="eyebrow">Services</span>
     <h1>{{ page.title }}</h1>
     {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+    {% if page.route == '/services' %}
+    <div class="hero-ctas">
+      <a class="btn ghost" href="{{ url('/tech-stack') }}">See our full tool stack &rarr;</a>
+    </div>
+    {% endif %}
   </div>
 </section>
 

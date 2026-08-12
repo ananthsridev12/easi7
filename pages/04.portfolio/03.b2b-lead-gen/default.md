@@ -3,7 +3,7 @@ title: 'B2B Lead Generation Campaign'
 template: portfolio-detail
 client: 'Peppers Media'
 industry: B2B
-service_url: /services/performance-marketing
+service_url: /services/search-engine-marketing
 summary: 'Multi-channel PPC strategy targeting the US market with Facebook, LinkedIn, and Google Ads working together.'
 metrics:
     - { value: '250+', label: 'Qualified leads' }
@@ -11,7 +11,7 @@ metrics:
     - { value: '15%', label: 'Lead → client' }
 taxonomy:
     industry: [B2B]
-    service: ['Performance Marketing']
+    service: ['Search Engine Marketing', 'Facebook Ads']
 metadata:
     description: 'Multi-channel PPC strategy across Facebook, LinkedIn, and Google Ads for US B2B lead generation.'
 sitemap:

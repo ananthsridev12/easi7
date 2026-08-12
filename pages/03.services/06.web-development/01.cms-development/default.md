@@ -1,12 +1,13 @@
 ---
-title: 'Web & CMS'
+title: 'CMS Development'
 template: service-detail
-eyebrow: 'Web & CMS'
+eyebrow: 'CMS Development'
 headline: 'Pages that are built to convert'
 summary: 'Landing pages and CMS builds on WordPress, Magento, and Grav, tested against real conversion data.'
 tools: [WordPress, Magento, Grav, 'A/B Testing']
+service_url: /services/web-development/cms-development
 taxonomy:
-    service: ['Web & CMS']
+    service: ['Web Development']
 metadata:
     description: 'WordPress, Magento, and Grav web development services — landing pages and CMS builds tested for speed and conversion.'
 sitemap:

@@ -4,7 +4,7 @@ template: case-study-detail
 client: 'Giri Trading Agency'
 industry: E-Commerce
 portfolio_url: /portfolio/ecommerce-seo
-service_url: /services/performance-marketing
+service_url: /services/search-engine-marketing/google-ads
 summary: 'Giri Trading Agency — e-commerce, PPC, SEO. Scaled monthly ad spend from ₹0.5L to ₹3L across India, the US, and Canada while protecting margin.'
 metrics:
     - { value: '6×', label: 'Budget scaled' }
@@ -12,7 +12,7 @@ metrics:
     - { value: '+45%', label: 'Better ROI' }
 taxonomy:
     industry: [E-Commerce]
-    service: ['Performance Marketing', 'Technical SEO']
+    service: ['Google Ads', 'Facebook Ads', 'Technical SEO']
 metadata:
     description: 'How EASI7 scaled Giri Trading Agency''s ad spend 6x across three countries while growing organic traffic 180% and improving ROI 45%.'
 sitemap:

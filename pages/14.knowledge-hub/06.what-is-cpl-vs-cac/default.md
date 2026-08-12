@@ -2,7 +2,7 @@
 title: "CPL vs CAC: What's the Difference?"
 template: glossary-term
 summary: 'CPL measures the cost of a lead; CAC measures the fully-loaded cost of acquiring a paying customer. Optimising for the wrong one hides real performance.'
-service_url: /services/performance-marketing
+service_url: /services/search-engine-marketing
 taxonomy:
     topic: [Strategy]
 metadata:

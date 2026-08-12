@@ -3,8 +3,8 @@ title: Services
 menu: Services
 template: services
 metadata:
-    description: 'Analytics, performance marketing, technical SEO, marketing automation, web/CMS, and strategy consulting — EASI7''s six service pillars.'
-summary: "From data infrastructure to paid campaigns — we cover the full stack so you don't need five different specialists."
+    description: 'SEO, AI SEO, search engine marketing, social media marketing, email and messaging marketing, analytics, automation, web development, and strategy consulting.'
+summary: "Every discipline a modern marketing stack needs, run as one connected system instead of nine disconnected vendors."
 content:
     items: '@self.children'
     order:

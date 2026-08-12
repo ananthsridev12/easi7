@@ -8,7 +8,7 @@ summary: 'When Google Ads automation helps and when manual control still wins.'
 taxonomy:
     category: [PPC]
     tag: ['Google Ads', Automation]
-    service: ['Performance Marketing']
+    service: ['Google Ads']
 metadata:
     description: "When automation helps and when manual control wins in Google Ads, plus the AI-era checklist for clean signals."
 ---

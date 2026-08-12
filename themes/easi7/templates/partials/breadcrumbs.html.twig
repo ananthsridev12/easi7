@@ -1,18 +1,25 @@
-{% if page.parent and page.parent.route and page.parent.route != '/' %}
+{% set p1 = page.parent %}
+{% set p2 = p1 ? p1.parent : null %}
+{% set p3 = p2 ? p2.parent : null %}
+{% if p1 and p1.route and p1.route != '/' %}
 <nav class="breadcrumbs" aria-label="Breadcrumb">
   <div class="wrap">
     <a href="{{ url('/') }}">Home</a>
-    {% if page.parent.parent and page.parent.parent.route and page.parent.parent.route != '/' %}
+    {% if p3 and p3.route and p3.route != '/' %}
       <span aria-hidden="true">/</span>
-      <a href="{{ page.parent.parent.url }}">{{ page.parent.parent.menu ?? page.parent.parent.title }}</a>
+      <a href="{{ p3.url }}">{{ p3.menu ?? p3.title }}</a>
+    {% endif %}
+    {% if p2 and p2.route and p2.route != '/' %}
+      <span aria-hidden="true">/</span>
+      <a href="{{ p2.url }}">{{ p2.menu ?? p2.title }}</a>
     {% endif %}
     <span aria-hidden="true">/</span>
-    <a href="{{ page.parent.url }}">{{ page.parent.menu ?? page.parent.title }}</a>
+    <a href="{{ p1.url }}">{{ p1.menu ?? p1.title }}</a>
     <span aria-hidden="true">/</span>
     <span>{{ page.menu ?? page.title }}</span>
   </div>
 </nav>
-{% elseif page.parent and page.route != '/' %}
+{% elseif page.route != '/' %}
 <nav class="breadcrumbs" aria-label="Breadcrumb">
   <div class="wrap">
     <a href="{{ url('/') }}">Home</a>

@@ -14,8 +14,9 @@
   <div class="wrap">
     <div class="blog-grid">
       {% for item in page.collection() %}
-        {% set cat = item.taxonomy.category[0] ?? 'Strategy' %}
-        {% include 'partials/cards/kb-card.html.twig' with { item: item, kind: 'Article', meta: cat ~ ' · ' ~ item.date|date('M Y') } %}
+        {% set cat = (item.taxonomy.category is defined ? item.taxonomy.category|first : null)|default('Strategy') %}
+        {% set item_date = item.date ? item.date|date('M Y') : '' %}
+        {% include 'partials/cards/kb-card.html.twig' with { item: item, kind: 'Article', meta: cat ~ ' · ' ~ item_date } %}
       {% endfor %}
     </div>
   </div>

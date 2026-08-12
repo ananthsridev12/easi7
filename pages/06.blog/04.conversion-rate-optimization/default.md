@@ -8,7 +8,7 @@ summary: 'A data-driven CRO framework: diagnostics, prioritisation, hypotheses, 
 taxonomy:
     category: [Analytics]
     tag: [CRO, 'Landing Pages']
-    service: ['Web & CMS']
+    service: ['Web Development']
 metadata:
     description: "A CRO system built for AI-era analytics: diagnostics, prioritization, hypotheses, and clean experiments."
 ---

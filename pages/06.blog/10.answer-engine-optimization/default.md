@@ -8,7 +8,7 @@ summary: 'How to structure content, entities, and schema so LLMs surface your br
 taxonomy:
     category: [SEO]
     tag: [AEO, 'AI Search']
-    service: ['Technical SEO']
+    service: ['AI SEO']
 metadata:
     description: "AEO for AI search: how to structure content, entities, and schema so LLMs surface your brand in answers and summaries."
 ---

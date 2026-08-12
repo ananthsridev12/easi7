@@ -3,7 +3,7 @@ title: 'Content Strategy & Optimisation'
 template: portfolio-detail
 client: 'B2B SaaS client'
 industry: 'B2B / SaaS'
-service_url: /services/technical-seo
+service_url: /services/seo/technical-seo
 summary: 'Developed a data-driven content strategy resulting in 5x organic traffic growth over six months.'
 metrics:
     - { value: '5×', label: 'Organic traffic' }

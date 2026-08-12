@@ -29,12 +29,12 @@ stats:
     - { num: '40%', label: 'Avg. CPL reduction' }
 
 services_teaser:
+    - /services/seo
+    - /services/search-engine-marketing
+    - /services/social-media-marketing
     - /services/analytics-tracking
-    - /services/performance-marketing
-    - /services/technical-seo
-    - /services/marketing-automation
-    - /services/web-cms
-    - /services/strategy-consulting
+    - /services/web-development
+    - /services/messaging-marketing
 
 process:
     - { title: Audit, body: 'Map the current stack, find where budget and data are leaking.' }

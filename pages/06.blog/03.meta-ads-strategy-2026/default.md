@@ -8,7 +8,7 @@ summary: "What's actually working on Meta Ads in 2026 — first-party data, CAPI
 taxonomy:
     category: [PPC]
     tag: ['Meta Ads', 'Paid Social']
-    service: ['Performance Marketing']
+    service: ['Facebook Ads']
 metadata:
     description: "Meta Ads in 2026: first-party data, CAPI, creative testing, and AI-friendly measurement that holds up."
 ---

@@ -2,7 +2,7 @@
 title: 'What Is Answer Engine Optimisation (AEO)?'
 template: glossary-term
 summary: 'AEO is the practice of structuring content so AI-generated answers and featured snippets cite your business instead of skipping it.'
-service_url: /services/technical-seo
+service_url: /services/seo/ai-seo
 taxonomy:
     topic: [SEO]
 metadata:
