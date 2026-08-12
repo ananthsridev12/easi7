@@ -1,9 +1,14 @@
 ---
 title: "The Complete GA4 Migration Guide for 2026"
 date: '02-10-2026 00:00'
+template: blog-item
+author: 'Ananth Sridev, Founder'
+read_time: '10 min read'
+summary: 'A practical GA4 migration guide with clean tracking, reporting, and conversion integrity.'
 taxonomy:
-    category: [SEO]
-    tag: [blog]
+    category: [Analytics]
+    tag: [GA4, Migration]
+    service: ['Analytics & Tracking']
 metadata:
     description: "Universal Analytics is gone. Here is my practical GA4 migration guide with clean tracking, AI-ready reporting, and conversion integrity."
 ---

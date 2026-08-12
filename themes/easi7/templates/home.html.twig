@@ -1,0 +1,136 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% set hero = page.header.hero %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">{{ hero.eyebrow }}</span>
+      <h1 style="margin-top:0.5em;">{{ hero.headline }}</h1>
+      <p class="lede">{{ hero.lede }}</p>
+      <div class="hero-ctas">
+        <a class="btn brass" href="{{ url('/contact') }}">Start a project &rarr;</a>
+        <a class="btn ghost" href="{{ url('/case-studies') }}">See the case studies</a>
+      </div>
+    </div>
+    {% if hero.readout %}
+    <div class="readout">
+      <div class="readout-head"><span><span class="readout-dot"></span>{{ hero.readout.label }}</span><span>{{ hero.readout.tag }}</span></div>
+      <div class="readout-rows">
+        {% for row in hero.readout.rows %}
+        <div class="readout-row"><span class="readout-label">{{ row.label }}</span><span class="readout-val">{{ row.value }} <small>{{ row.delta }}</small></span></div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+{% if page.header.stats %}
+<section class="stat-strip">
+  <div class="wrap stat-grid">
+    {% for stat in page.header.stats %}
+    <div class="stat"><span class="num mono">{{ stat.num }}</span><span class="lbl">{{ stat.label }}</span></div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.services_teaser %}
+<section class="block">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">What we do</span>
+        <h2>Six disciplines, one accountable team.</h2>
+      </div>
+      <p class="lede">From data infrastructure to paid campaigns &mdash; we cover the full stack so nothing falls through the cracks between vendors.</p>
+    </div>
+  </div>
+  <div class="wrap" style="padding:0;">
+    <div class="card-grid">
+      {% for route in page.header.services_teaser %}
+        {% set item = page.find(route) %}
+        {% if item %}{% include 'partials/cards/service-card.html.twig' with { item: item } %}{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.process %}
+<section class="block">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">How we work</span>
+        <h2>An engagement built in four stages.</h2>
+      </div>
+    </div>
+    <div class="process-line"></div>
+    <div class="process">
+      {% for step in page.header.process %}
+      <div class="step"><h3>{{ step.title }}</h3><p>{{ step.body }}</p></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.featured_case_studies %}
+<section class="block">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Selected work</span>
+        <h2>Case studies with real numbers attached.</h2>
+      </div>
+      <a class="btn ghost" href="{{ url('/case-studies') }}">View all case studies</a>
+    </div>
+    <div class="cs-grid">
+      {% for route in page.header.featured_case_studies %}
+        {% set item = page.find(route) %}
+        {% if item %}{% include 'partials/cards/case-study-card.html.twig' with { item: item } %}{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.clients %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Who we've worked with</span>
+    <div class="client-strip" style="margin-top:28px;">
+      {% for client in page.header.clients %}
+        <span class="client-name"{% if client.muted %} style="opacity:0.4;"{% endif %}>{{ client.name|raw }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.resources_preview %}
+<section class="block">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Knowledge Hub &amp; Blog</span>
+        <h2>Guides we wish someone had handed us.</h2>
+      </div>
+      <a class="btn ghost" href="{{ url('/knowledge-hub') }}">Visit the Knowledge Hub</a>
+    </div>
+    <div class="kb-grid">
+      {% for res in page.header.resources_preview %}
+        {% set item = page.find(res.route) %}
+        {% if item %}{% include 'partials/cards/kb-card.html.twig' with { item: item, kind: res.kind, meta: res.meta } %}{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.cta %}
+{% include 'partials/cta-band.html.twig' with page.header.cta %}
+{% endif %}
+{% endblock %}

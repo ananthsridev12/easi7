@@ -1,68 +1,65 @@
 ---
-title: 'Let''s Connect'
+title: "Let's Talk"
 menu: Contact
+template: contact
 metadata:
-    description: 'Get in touch for SEO, performance marketing, analytics, and automation projects.'
+    description: 'Get in touch with EASI7 for SEO, performance marketing, analytics, and automation projects.'
+summary: "Tell us about your stack and your goals — we'll tell you honestly whether we're a fit."
 sitemap:
     changefreq: monthly
     priority: !!float 0.7
 ---
 
-## Let&rsquo;s Connect
+### Send us a message
 
-Looking to scale your marketing with data-driven strategies? Let&rsquo;s talk about how I can help.
-
-* **Email:** [m.ananthsridev@gmail.com](mailto:m.ananthsridev@gmail.com)
-* **Phone:** [+91 9790777702](tel:+919790777702)
-* **Location:** Chennai, India
-* **LinkedIn:** [linkedin.com/in/ananthsridev](https://www.linkedin.com/in/ananthsridev/)
-* **Twitter:** [twitter.com/ananthsridev](https://twitter.com/ananthsridev)
-* **Instagram:** [instagram.com/ananthsridev](https://www.instagram.com/ananthsridev)
-
-**Currently Available** &mdash; open to new projects and consulting engagements.
-
-### Send Me a Message
-
-<form id="contact-form" action="https://formsubmit.co/m.ananthsridev@gmail.com" method="POST">
-    <input type="hidden" name="_subject" value="New Contact Form Submission - Portfolio Website">
+<form id="contact-form" class="contact-form" action="https://formsubmit.co/m.ananthsridev@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="New Contact Form Submission - EASI7 Website">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_next" value="https://ananth.easi7.in/thank-you">
+    <input type="hidden" name="_next" value="https://easi7.in/thank-you">
 
-    <p>
-        <label for="name">Your Name *</label><br>
-        <input type="text" id="name" name="name" placeholder="John Doe" required>
-    </p>
-    <p>
-        <label for="email">Email Address *</label><br>
-        <input type="email" id="email" name="email" placeholder="john@company.com" required>
-    </p>
-    <p>
-        <label for="phone">Phone Number</label><br>
-        <input type="tel" id="phone" name="phone" placeholder="+91 99999 99999">
-    </p>
-    <p>
-        <label for="service">Service Interested In</label><br>
-        <select id="service" name="service">
-            <option value="">-- Select a service --</option>
-            <option>SEO &amp; Technical SEO</option>
-            <option>Google Ads / Performance Marketing</option>
-            <option>Analytics &amp; Tracking (GA4 / GTM)</option>
-            <option>Marketing Automation &amp; CRM</option>
-            <option>Social Media Advertising</option>
-            <option>Marketing Strategy &amp; Consulting</option>
-            <option>Other</option>
-        </select>
-    </p>
-    <p>
-        <label for="subject">Subject *</label><br>
+    <div class="form-row">
+        <div>
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+        </div>
+        <div>
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="jane@company.com" required>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 99999 99999">
+        </div>
+        <div>
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+                <option value="">-- Select a service --</option>
+                <option>Analytics &amp; Tracking</option>
+                <option>Performance Marketing</option>
+                <option>Technical SEO</option>
+                <option>Marketing Automation</option>
+                <option>Web &amp; CMS</option>
+                <option>Strategy &amp; Consulting</option>
+                <option>Other</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <label for="subject">Subject *</label>
         <input type="text" id="subject" name="subject" placeholder="Let's discuss your project" required>
-    </p>
-    <p>
-        <label for="message">Message *</label><br>
-        <textarea id="message" name="message" placeholder="Tell me about your marketing goals, current challenges, and how I can help..." required></textarea>
-    </p>
-    <button type="submit">Send Message &rarr;</button>
+    </div>
+
+    <div>
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" placeholder="Tell us about your goals, current stack, and where it's falling short..." required></textarea>
+    </div>
+
+    <button class="btn brass" type="submit">Send Message &rarr;</button>
 </form>
 
-Your message goes directly to my inbox. I typically respond within 24 hours.
+Your message goes directly to our inbox. We typically respond within 24 hours.

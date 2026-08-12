@@ -1,0 +1,31 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Contact</span>
+    <h1>{{ page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="block" style="border-bottom:none;">
+  <div class="wrap contact-grid">
+    <div>
+      <h3>Reach us directly</h3>
+      <p><a href="mailto:{{ config.themes.easi7.company.email }}">{{ config.themes.easi7.company.email }}</a></p>
+      <p><a href="tel:{{ config.themes.easi7.company.phone_href }}">{{ config.themes.easi7.company.phone }}</a></p>
+      <p>{{ config.themes.easi7.company.location }}</p>
+      <div class="socials" style="margin-top:1.5em;">
+        {% for social in config.themes.easi7.socials %}
+          <a href="{{ social.url }}" rel="noopener" target="_blank">{{ social.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <div>
+      {{ page.content }}
+    </div>
+  </div>
+</section>
+{% endblock %}

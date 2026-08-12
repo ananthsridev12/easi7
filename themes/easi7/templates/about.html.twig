@@ -1,0 +1,46 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">About EASI7</span>
+    <h1>{{ page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    {% if page.header.founder %}
+    <div class="founder">
+      <div class="founder-photo">{{ page.header.founder.initials ?? 'AS' }}</div>
+      <div>
+        <h2 style="margin-top:0;">{{ page.header.founder.name }}</h2>
+        <p class="eyebrow" style="margin-bottom:0.8em;">{{ page.header.founder.role }}</p>
+        <p>{{ page.header.founder.bio }}</p>
+      </div>
+    </div>
+    {% endif %}
+
+    {{ page.content }}
+
+    {% if page.header.timeline %}
+    <h2>Where we've delivered</h2>
+    <div class="timeline">
+      {% for role in page.header.timeline %}
+      <div class="timeline-item">
+        <div class="role">{{ role.role }} &middot; {{ role.company }}</div>
+        <div class="period mono">{{ role.period }}</div>
+        {% if role.summary %}<p style="margin-top:0.5em;">{{ role.summary }}</p>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+{% if page.header.cta %}
+{% include 'partials/cta-band.html.twig' with page.header.cta %}
+{% endif %}
+{% endblock %}

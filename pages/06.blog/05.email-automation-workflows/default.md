@@ -1,9 +1,14 @@
 ---
 title: "7 Email Automation Workflows That Convert"
 date: '01-20-2026 00:00'
+template: blog-item
+author: 'Ananth Sridev, Founder'
+read_time: '8 min read'
+summary: 'Seven email automation workflows that convert, from welcome sequences to win-back campaigns.'
 taxonomy:
     category: [Automation]
-    tag: [blog]
+    tag: [Email, Automation]
+    service: ['Marketing Automation']
 metadata:
     description: "Email automation sequences that convert in the AI era: triggers, timing, and intent-based personalization."
 ---

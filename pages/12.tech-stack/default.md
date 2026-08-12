@@ -1,18 +1,16 @@
 ---
-title: 'Tech Stack'
-menu: 'Tech Stack'
+title: 'Tools We Use'
+menu: false
+template: default
 metadata:
-    description: 'Marketing technologies and tools I use: GA4, GTM, Google Ads, SEMrush, Ahrefs, WordPress, and more.'
+    description: 'Marketing technologies and tools EASI7 uses: GA4, GTM, Google Ads, SEMrush, Ahrefs, WordPress, and more.'
+summary: "The marketing and analytics tools we use to build scalable, data-driven growth systems."
 sitemap:
     changefreq: monthly
     priority: !!float 0.5
 ---
 
-## My Tech Stack
-
-The marketing and analytics tools I use to build scalable, data-driven growth systems.
-
-This isn't just a list of tools&mdash;it's my growth infrastructure. Each tool solves a specific problem in the marketing and analytics workflow. From tracking user behavior to optimizing campaign performance to automating lead nurturing, this stack helps me build systems that drive measurable, scalable growth.
+This isn't just a list of tools&mdash;it's our growth infrastructure. Each tool solves a specific problem in the marketing and analytics workflow. From tracking user behaviour to optimising campaign performance to automating lead nurturing, this stack is how we build systems that drive measurable, scalable growth.
 
 ### Analytics & Tracking
 

@@ -1,0 +1,16 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <h1>{{ page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+  </div>
+</section>
+<section class="block" style="border-bottom:none;">
+  <div class="wrap">
+    {{ page.content }}
+  </div>
+</section>
+{% endblock %}

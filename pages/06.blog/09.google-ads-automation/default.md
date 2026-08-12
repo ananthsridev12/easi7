@@ -1,9 +1,14 @@
 ---
 title: "Google Ads Automation: When to Use It (and When Not To)"
 date: '02-05-2026 00:00'
+template: blog-item
+author: 'Ananth Sridev, Founder'
+read_time: '8 min read'
+summary: 'When Google Ads automation helps and when manual control still wins.'
 taxonomy:
     category: [PPC]
-    tag: [blog]
+    tag: ['Google Ads', Automation]
+    service: ['Performance Marketing']
 metadata:
     description: "When automation helps and when manual control wins in Google Ads, plus the AI-era checklist for clean signals."
 ---

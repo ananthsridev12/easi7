@@ -1,15 +1,16 @@
 ---
-title: 'Digital Marketing Blog'
+title: Blog
 menu: Blog
+template: blog
 metadata:
-    description: 'Insights on SEO, performance marketing, analytics, and AI-driven growth from a data-driven marketing specialist.'
+    description: 'Practical playbooks on SEO, performance marketing, analytics, and automation from the EASI7 team.'
+summary: 'Strategy notes and playbooks from campaigns we''ve actually run — not theory.'
 content:
-    items: '@self.modules'
+    items: '@self.children'
+    order:
+        by: date
+        dir: desc
 sitemap:
     changefreq: weekly
-    priority: !!float 0.9
+    priority: !!float 0.8
 ---
-
-## Digital Marketing Blog
-
-Practical SEO, PPC, analytics, and AI-era growth systems based on real implementations.

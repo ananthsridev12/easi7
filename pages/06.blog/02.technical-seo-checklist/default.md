@@ -1,9 +1,14 @@
 ---
 title: "Technical SEO Checklist: 50 Points to Audit Your Site"
 date: '01-05-2026 00:00'
+template: blog-item
+author: 'Ananth Sridev, Founder'
+read_time: '9 min read'
+summary: 'A 50-point technical SEO audit checklist covering crawlability, speed, and AI readiness.'
 taxonomy:
     category: [SEO]
-    tag: [blog]
+    tag: ['Technical SEO', Audits]
+    service: ['Technical SEO']
 metadata:
     description: "A modern technical SEO checklist for performance, crawlability, and AI readiness."
 ---

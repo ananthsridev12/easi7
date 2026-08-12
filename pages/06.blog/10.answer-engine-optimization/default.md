@@ -1,9 +1,14 @@
 ---
 title: "Answer Engine Optimization: SEO's New Frontier"
 date: '02-08-2026 00:00'
+template: blog-item
+author: 'Ananth Sridev, Founder'
+read_time: '9 min read'
+summary: 'How to structure content, entities, and schema so LLMs surface your brand in AI-generated answers.'
 taxonomy:
     category: [SEO]
-    tag: [blog]
+    tag: [AEO, 'AI Search']
+    service: ['Technical SEO']
 metadata:
     description: "AEO for AI search: how to structure content, entities, and schema so LLMs surface your brand in answers and summaries."
 ---

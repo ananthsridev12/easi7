@@ -1,18 +1,19 @@
 ---
-title: Resume
-menu: Resume
+title: 'Ananth Sridev — CV'
+template: default
 metadata:
-    description: 'Resume of Ananth Sridev, Digital Marketing Specialist with 8+ years across SEO, analytics, performance marketing, and automation.'
+    description: 'CV of Ananth Sridev, founder of EASI7, Digital Marketing Specialist with 8+ years across SEO, analytics, performance marketing, and automation.'
+summary: "Founder of EASI7. Not in the main menu — linked from the About page for anyone who wants the full CV."
 sitemap:
     changefreq: monthly
-    priority: !!float 0.6
+    priority: !!float 0.4
 ---
 
-## Resume
+## CV
 
-Digital Marketing Specialist | Chennai, India
+Founder, EASI7 | Chennai, India
 
-[Download PDF Resume &rarr;](Ananth_Sridev_Digital_Marketing.pdf)
+[Download PDF &rarr;](Ananth_Sridev_Digital_Marketing.pdf)
 
 ### Professional Summary
 

@@ -1,9 +1,14 @@
 ---
 title: "Mastering Google Tag Manager: Data Layer Best Practices"
 date: '02-01-2026 00:00'
+template: blog-item
+author: 'Ananth Sridev, Founder'
+read_time: '11 min read'
+summary: 'How to design a clean data layer for GA4, ads, and reporting — naming, parameters, and governance.'
 taxonomy:
     category: [Analytics]
-    tag: [blog]
+    tag: [GTM, 'Data Layer']
+    service: ['Analytics & Tracking']
 metadata:
     description: "How to design a clean data layer for GA4, ads, and AI analytics. Naming, parameters, QA, and governance."
 ---

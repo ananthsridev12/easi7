@@ -1,9 +1,14 @@
 ---
 title: "B2B Lead Generation: A Practical 2026 Playbook"
 date: '12-30-2025 00:00'
+template: blog-item
+author: 'Ananth Sridev, Founder'
+read_time: '10 min read'
+summary: 'A three-layer B2B lead gen system combining ICP targeting, LinkedIn + Google, lead scoring, and follow-up sequencing.'
 taxonomy:
     category: [Strategy]
-    tag: [blog]
+    tag: [B2B, 'Lead Generation']
+    service: ['Performance Marketing']
 metadata:
     description: "A modern B2B lead gen system that combines content authority, AI-informed targeting, and automation."
 ---

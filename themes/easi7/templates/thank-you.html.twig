@@ -1,0 +1,16 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<section class="page-hero" style="text-align:center;border-bottom:none;padding:110px 0;">
+  <div class="wrap">
+    <span class="eyebrow" style="justify-content:center;">Message received</span>
+    <h1>{{ page.title }}</h1>
+    {% if page.header.summary %}<p class="lede" style="margin-left:auto;margin-right:auto;">{{ page.header.summary }}</p>{% endif %}
+    {{ page.content }}
+    <div class="hero-ctas" style="justify-content:center;margin-top:1.6em;">
+      <a class="btn brass" href="{{ url('/') }}">Back to home</a>
+      <a class="btn ghost" href="{{ url('/case-studies') }}">Browse case studies</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

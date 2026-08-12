@@ -1,9 +1,14 @@
 ---
 title: "Conversion Rate Optimization: A Data-Driven Framework"
 date: '01-15-2026 00:00'
+template: blog-item
+author: 'Ananth Sridev, Founder'
+read_time: '9 min read'
+summary: 'A data-driven CRO framework: diagnostics, prioritisation, hypotheses, and clean experiments.'
 taxonomy:
     category: [Analytics]
-    tag: [blog]
+    tag: [CRO, 'Landing Pages']
+    service: ['Web & CMS']
 metadata:
     description: "A CRO system built for AI-era analytics: diagnostics, prioritization, hypotheses, and clean experiments."
 ---

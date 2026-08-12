@@ -1,0 +1,26 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Case Studies</span>
+    <h1>{{ page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="block" style="border-bottom:none;">
+  <div class="wrap">
+    <div class="cs-grid">
+      {% for item in page.collection() %}
+        {% include 'partials/cards/case-study-card.html.twig' with { item: item } %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if page.header.cta %}
+{% include 'partials/cta-band.html.twig' with page.header.cta %}
+{% endif %}
+{% endblock %}

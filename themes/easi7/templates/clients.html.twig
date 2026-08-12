@@ -1,0 +1,32 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Clients</span>
+    <h1>{{ page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="block" style="border-bottom:none;">
+  <div class="wrap">
+    <div class="client-grid">
+      {% for client in page.header.clients %}
+      <div class="client-card">
+        {% if client.industry %}<span class="tag industry">{{ client.industry }}</span>{% endif %}
+        <h3>{{ client.name }}</h3>
+        <p>{{ client.description }}</p>
+        {% if client.quote %}<p class="client-quote">&ldquo;{{ client.quote }}&rdquo;</p>{% endif %}
+        {% if client.case_study_url %}<a class="cs-link" href="{{ url(client.case_study_url) }}">Read the case study &rarr;</a>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if page.header.cta %}
+{% include 'partials/cta-band.html.twig' with page.header.cta %}
+{% endif %}
+{% endblock %}

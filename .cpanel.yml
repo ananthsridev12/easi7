@@ -3,6 +3,8 @@ deployment:
   tasks:
     - /bin/mkdir -p /home1/de2shrnx/public_html/user/config
     - /bin/mkdir -p /home1/de2shrnx/public_html/user/pages
+    - /bin/mkdir -p /home1/de2shrnx/public_html/user/themes/easi7
     - /bin/cp -R config/. /home1/de2shrnx/public_html/user/config/
     - /bin/cp -R pages/. /home1/de2shrnx/public_html/user/pages/
+    - /bin/cp -R themes/easi7/. /home1/de2shrnx/public_html/user/themes/easi7/
     - /bin/rm -rf /home1/de2shrnx/public_html/cache/*

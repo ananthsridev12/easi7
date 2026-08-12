@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% block head %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{% if page.title and page.route != '/' %}{{ page.title }} · {{ config.site.title }}{% else %}{{ config.site.title }}{% endif %}{% endblock %}</title>
+  <meta name="description" content="{{ (page.header.metadata.description ?? config.site.metadata.description)|e }}">
+  <link rel="canonical" href="{{ page.url(true) }}">
+  <link rel="icon" type="image/svg+xml" href="{{ url('theme://images/favicon.svg') }}">
+  <meta property="og:title" content="{{ page.title ?? config.site.title }}">
+  <meta property="og:description" content="{{ (page.header.metadata.description ?? config.site.metadata.description)|e }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url(true) }}">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="{{ config.themes.easi7.google_fonts_url }}">
+  <link rel="stylesheet" href="{{ url('theme://css/easi7.css') }}">
+  {% block stylesheets %}{% endblock %}
+{% endblock %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include 'partials/header.html.twig' %}
+  <main id="main">
+    {% block content %}{% endblock %}
+  </main>
+  {% include 'partials/footer.html.twig' %}
+  <script src="{{ url('theme://js/easi7.js') }}" defer></script>
+  {% block javascripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,9 @@
+{#
+  Expects: item (Page with header.eyebrow / header.headline / header.summary / header.tools)
+#}
+<a class="svc-card" href="{{ item.url }}">
+  <span class="svc-tag">{{ item.header.eyebrow ?? item.title }}</span>
+  <h3>{{ item.header.headline ?? item.title }}</h3>
+  {% if item.header.summary %}<p>{{ item.header.summary }}</p>{% endif %}
+  {% if item.header.tools %}<span class="tools">{{ item.header.tools|join(' &middot; ')|upper }}</span>{% endif %}
+</a>

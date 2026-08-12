@@ -1,9 +1,14 @@
 ---
 title: "Marketing Attribution Models: Which One Is Right for You?"
 date: '01-28-2026 00:00'
+template: blog-item
+author: 'Ananth Sridev, Founder'
+read_time: '9 min read'
+summary: 'A practical framework for choosing the right attribution model for your funnel.'
 taxonomy:
     category: [Strategy]
-    tag: [blog]
+    tag: [Attribution, Analytics]
+    service: ['Analytics & Tracking']
 metadata:
     description: "How to choose attribution models for AI-era funnels, with a practical decision framework."
 ---

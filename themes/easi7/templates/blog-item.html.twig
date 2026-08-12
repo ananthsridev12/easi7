@@ -1,0 +1,26 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <div style="display:flex;gap:10px;align-items:center;margin-bottom:0.8em;flex-wrap:wrap;">
+      {% for cat in page.taxonomy.category %}<span class="tag">{{ cat }}</span>{% endfor %}
+    </div>
+    <h1>{{ page.title }}</h1>
+    <p class="mono" style="color:var(--ink-soft);font-size:0.85rem;">
+      {{ page.date|date('F j, Y') }} &middot; {{ page.header.author ?? 'EASI7 Team' }}{% if page.header.read_time %} &middot; {{ page.header.read_time }}{% endif %}
+    </p>
+  </div>
+</section>
+
+<section class="block" style="border-bottom:none;">
+  <div class="wrap">
+    {{ page.content }}
+  </div>
+</section>
+
+{% if page.header.cta %}
+{% include 'partials/cta-band.html.twig' with page.header.cta %}
+{% endif %}
+{% endblock %}

@@ -1,0 +1,7 @@
+pages:
+    theme: easi7
+    dateformat:
+        short: 'jS M Y'
+    order:
+        by: default
+        dir: asc

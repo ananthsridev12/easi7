@@ -1,0 +1,16 @@
+<header class="site">
+  <div class="wrap nav-row">
+    <a class="logo" href="{{ url('/') }}">EASI<em>7</em></a>
+    <nav class="primary">
+      {% for item in config.themes.easi7.nav %}
+        <a href="{{ url(item.url) }}"{% if page.url == url(item.url) %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+    <div class="nav-right">
+      <a class="btn brass small" href="{{ url('/contact') }}">Start a project</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>

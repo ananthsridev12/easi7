@@ -1,0 +1,35 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <div style="display:flex;gap:10px;align-items:center;margin-bottom:0.8em;flex-wrap:wrap;">
+      {% if page.header.industry %}<span class="tag">{{ page.header.industry }}</span>{% endif %}
+      {% if page.header.client %}<span class="tag">{{ page.header.client }}</span>{% endif %}
+    </div>
+    <h1>{{ page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="block" style="border-bottom:none;">
+  <div class="wrap">
+    {% if page.header.metrics %}
+    <div class="metric-band">
+      {% for m in page.header.metrics %}
+      <div class="metric"><span class="v">{{ m.value }}</span><span class="k">{{ m.label }}</span></div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {{ page.content }}
+
+    <div class="hero-ctas" style="margin-top:2em;">
+      {% if page.header.portfolio_url %}<a class="btn ghost" href="{{ url(page.header.portfolio_url) }}">View project details &rarr;</a>{% endif %}
+      {% if page.header.service_url %}<a class="btn ghost" href="{{ url(page.header.service_url) }}">See this service &rarr;</a>{% endif %}
+      <a class="btn brass" href="{{ url('/contact') }}">Start a similar project &rarr;</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

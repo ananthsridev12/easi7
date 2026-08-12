@@ -1,0 +1,23 @@
+{% if page.parent and page.parent.route and page.parent.route != '/' %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <div class="wrap">
+    <a href="{{ url('/') }}">Home</a>
+    {% if page.parent.parent and page.parent.parent.route and page.parent.parent.route != '/' %}
+      <span aria-hidden="true">/</span>
+      <a href="{{ page.parent.parent.url }}">{{ page.parent.parent.menu ?? page.parent.parent.title }}</a>
+    {% endif %}
+    <span aria-hidden="true">/</span>
+    <a href="{{ page.parent.url }}">{{ page.parent.menu ?? page.parent.title }}</a>
+    <span aria-hidden="true">/</span>
+    <span>{{ page.menu ?? page.title }}</span>
+  </div>
+</nav>
+{% elseif page.parent and page.route != '/' %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <div class="wrap">
+    <a href="{{ url('/') }}">Home</a>
+    <span aria-hidden="true">/</span>
+    <span>{{ page.menu ?? page.title }}</span>
+  </div>
+</nav>
+{% endif %}

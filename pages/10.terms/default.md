@@ -1,24 +1,23 @@
 ---
 title: 'Terms of Service'
 menu: false
+template: legal
 metadata:
-    description: 'Terms of service for ananth.easi7.in'
+    description: 'Terms of service for easi7.in'
 sitemap:
     changefreq: yearly
     priority: !!float 0.2
 ---
 
-## Terms of Service
-
-Last updated: March 2026
+Last updated: August 2026
 
 ### Use of This Website
 
-This website is a personal portfolio belonging to Ananth Sridev. By accessing this site you agree not to misuse any content, contact form, or information presented here.
+This website belongs to EASI7, a digital marketing studio founded by Ananth Sridev. By accessing this site you agree not to misuse any content, contact form, or information presented here.
 
 ### Intellectual Property
 
-All content on this site&mdash;including text, case studies, and blog articles&mdash;is the property of Ananth Sridev. You may not reproduce or distribute this content without prior written permission.
+All content on this site&mdash;including text, case studies, and blog articles&mdash;is the property of EASI7. You may not reproduce or distribute this content without prior written permission.
 
 ### Disclaimer
 
@@ -30,4 +29,4 @@ These terms may be updated from time to time. Continued use of the site constitu
 
 ### Contact
 
-For questions, reach me at [m.ananthsridev@gmail.com](mailto:m.ananthsridev@gmail.com).
+For questions, reach us at [hello@easi7.in](mailto:hello@easi7.in).

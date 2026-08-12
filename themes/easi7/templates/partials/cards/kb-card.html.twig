@@ -1,0 +1,12 @@
+{#
+  Expects: item (Page), kind (string label override), meta (string override)
+#}
+<a class="kb-card" href="{{ item.url }}">
+  <div class="kb-media"></div>
+  <div class="kb-body">
+    <span class="kb-kind">{{ kind ?? (item.header.kind ?? 'Article') }}</span>
+    <h3>{{ item.title }}</h3>
+    {% if item.header.summary %}<p>{{ item.header.summary }}</p>{% endif %}
+    <span class="kb-meta">{{ meta ?? '' }}</span>
+  </div>
+</a>

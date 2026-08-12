@@ -1,15 +1,22 @@
 ---
 title: Portfolio
 menu: Portfolio
+template: portfolio
 metadata:
-    description: 'Digital marketing portfolio featuring SEO, PPC, analytics, and automation projects.'
+    description: 'Digital marketing portfolio featuring SEO, PPC, analytics, and automation projects delivered by EASI7.'
+summary: "Real projects, real results. A selection of the campaigns and implementations we've led."
 content:
-    items: '@self.modules'
+    items: '@self.children'
+    order:
+        by: default
+        dir: asc
 sitemap:
     changefreq: monthly
-    priority: !!float 0.7
+    priority: !!float 0.8
+
+cta:
+    heading: 'Ready for similar results?'
+    body: "Tell us what's not working and we'll tell you honestly whether we can fix it."
+    button_label: 'Start a project'
+    button_url: /contact
 ---
-
-## Portfolio
-
-Real projects, real results. Here's a selection of digital marketing campaigns and implementations I've led.

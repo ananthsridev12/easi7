@@ -1,0 +1,12 @@
+{#
+  Expects: heading, body, button_label, button_url
+#}
+<section class="block cta-band">
+  <div class="wrap cta-inner">
+    <h2>{{ heading }}</h2>
+    <div class="cta-copy">
+      <p>{{ body }}</p>
+      <a class="btn brass" href="{{ url(button_url) }}">{{ button_label }} &rarr;</a>
+    </div>
+  </div>
+</section>

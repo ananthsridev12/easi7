@@ -1,0 +1,42 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">{{ page.header.eyebrow ?? 'Service' }}</span>
+    <h1>{{ page.header.headline ?? page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+    <div class="hero-ctas">
+      <a class="btn brass" href="{{ url('/contact') }}">Talk to us about this &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    {{ page.content }}
+  </div>
+</section>
+
+{% set related = page.taxonomy.service ? grav.pages.evaluate({'@taxonomy.service': page.taxonomy.service}) : [] %}
+{% if related and related|length > 1 %}
+<section class="block" style="border-bottom:none;">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Related work</span>
+        <h2>Case studies &amp; portfolio in this discipline</h2>
+      </div>
+    </div>
+    <div class="cs-grid">
+      {% for item in related|slice(0, 4) %}
+        {% if item.route != page.route %}
+          {% include 'partials/cards/case-study-card.html.twig' with { item: item } %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endblock %}

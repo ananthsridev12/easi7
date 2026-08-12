@@ -1,0 +1,29 @@
+assets:
+  css_pipeline: false
+  js_pipeline: false
+
+google_fonts_url: 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap'
+
+company:
+  name: EASI7
+  legal_name: EASI7
+  tagline: 'Data-driven digital marketing studio'
+  email: hello@easi7.in
+  phone: '+91 97907 77702'
+  phone_href: '+919790777702'
+  location: 'Chennai, India'
+  founder: 'Ananth Sridev'
+
+nav:
+  - { label: Services, url: /services }
+  - { label: Portfolio, url: /portfolio }
+  - { label: 'Case Studies', url: /case-studies }
+  - { label: Clients, url: /clients }
+  - { label: 'Knowledge Hub', url: /knowledge-hub }
+  - { label: Blog, url: /blog }
+  - { label: About, url: /about }
+
+socials:
+  - { label: LinkedIn, url: 'https://www.linkedin.com/in/ananthsridev/' }
+  - { label: Twitter, url: 'https://twitter.com/ananthsridev' }
+  - { label: Instagram, url: 'https://www.instagram.com/ananthsridev' }
