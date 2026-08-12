@@ -1,0 +1,39 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <div style="display:flex;gap:10px;align-items:center;margin-bottom:0.8em;flex-wrap:wrap;">
+      {% for cat in page.taxonomy.category %}<span class="tag">{{ cat }}</span>{% endfor %}
+    </div>
+    <h1>{{ page.title }}</h1>
+    <p class="mono" style="color:var(--ink-soft);font-size:0.85rem;">
+      {{ page.date|date('F j, Y') }} &middot; {{ page.header.author ?? 'EASI7 Team' }}
+    </p>
+  </div>
+</section>
+
+<section class="block" style="border-bottom:none;">
+  <div class="wrap with-sidebar">
+    <div>
+      {{ page.content|raw }}
+    </div>
+    {% include 'partials/sidebar.html.twig' with {
+      links_title: 'Explore',
+      links: [
+        { label: 'All News', url: '/news' },
+        { label: Blog, url: '/blog' },
+        { label: 'Knowledge Hub', url: '/knowledge-hub' },
+        { label: 'Apps & Tools', url: '/apps' }
+      ],
+      cta: {
+        heading: 'Have a project in mind?',
+        body: "Tell us what's not working — we'll tell you honestly if we can help.",
+        button_label: 'Start a conversation',
+        button_url: '/contact'
+      }
+    } %}
+  </div>
+</section>
+{% endblock %}

@@ -329,6 +329,7 @@ nav:
         items:
           - { label: Blog, url: /blog }
           - { label: 'Knowledge Hub', url: /knowledge-hub }
+          - { label: News, url: /news }
           - { label: 'Tools We Use', url: /tech-stack }
 
   - label: About
