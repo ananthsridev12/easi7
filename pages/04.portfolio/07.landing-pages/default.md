@@ -3,7 +3,7 @@ title: 'High-Converting Landing Pages'
 template: portfolio-detail
 client: 'Multiple PPC clients'
 industry: 'Various'
-service_url: /services/web-development/cms-development
+service_url: /services/cms-development
 summary: 'Designed and developed 10+ landing pages for PPC campaigns with A/B testing and conversion optimisation built in.'
 metrics:
     - { value: '8.5%', label: 'Avg. conversion rate' }

@@ -33,7 +33,7 @@ services_teaser:
     - /services/search-engine-marketing
     - /services/social-media-marketing
     - /services/analytics-tracking
-    - /services/web-development
+    - /services/cms-development
     - /services/messaging-marketing
 
 process:

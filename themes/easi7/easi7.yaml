@@ -102,13 +102,62 @@ nav:
           - { label: 'Lead Conversion Optimization', url: /services/conversion-optimization/lead-conversion-optimization }
 
   - label: Development
-    url: /services/web-development
+    url: /services
     columns:
-      - category: 'Web Development'
-        url: /services/web-development
+      - category: 'Website Development'
+        url: /services/website-development
         items:
-          - { label: 'CMS Development', url: /services/web-development/cms-development }
-          - { label: 'App Development', url: /services/web-development/app-development }
+          - { label: 'Corporate Website Development', url: /services/website-development/corporate-website-development }
+          - { label: 'B2B Website Development', url: /services/website-development/b2b-website-development }
+          - { label: 'Business Websites', url: /services/website-development/business-websites }
+          - { label: 'Landing Page Development', url: /services/website-development/landing-page-development }
+          - { label: 'Custom Website Development', url: /services/website-development/custom-website-development }
+      - category: 'Web Application Development'
+        url: /services/web-application-development
+        items:
+          - { label: 'Web Applications', url: /services/web-application-development/web-applications }
+          - { label: 'Custom Applications', url: /services/web-application-development/custom-applications }
+          - { label: 'Customer Portals', url: /services/web-application-development/customer-portals }
+          - { label: 'Business Portals', url: /services/web-application-development/business-portals }
+          - { label: 'Internal Tools', url: /services/web-application-development/internal-tools }
+      - category: 'E-commerce Development'
+        url: /services/ecommerce-development
+        items:
+          - { label: 'Shopify Development', url: /services/ecommerce-development/shopify-development }
+          - { label: 'Magento Development', url: /services/ecommerce-development/magento-development }
+          - { label: 'Custom E-commerce', url: /services/ecommerce-development/custom-ecommerce }
+          - { label: 'E-commerce Optimization', url: /services/ecommerce-development/ecommerce-optimization }
+      - category: 'CMS Development'
+        url: /services/cms-development
+        items:
+          - { label: WordPress, url: /services/cms-development/wordpress }
+          - { label: 'Headless CMS', url: /services/cms-development/headless-cms }
+          - { label: Jekyll, url: /services/cms-development/jekyll }
+          - { label: 'Custom CMS', url: /services/cms-development/custom-cms }
+          - { label: 'CMS Migration', url: /services/cms-development/cms-migration }
+      - category: 'Frontend Development'
+        url: /services/frontend-development
+        items:
+          - { label: 'React Development', url: /services/frontend-development/react-development }
+          - { label: 'Next.js Development', url: /services/frontend-development/nextjs-development }
+          - { label: 'JavaScript Development', url: /services/frontend-development/javascript-development }
+          - { label: 'Responsive Web Development', url: /services/frontend-development/responsive-web-development }
+      - category: Integrations
+        url: /services/integrations
+        items:
+          - { label: 'API Integration', url: /services/integrations/api-integration }
+          - { label: 'CRM Integration', url: /services/integrations/crm-integration }
+          - { label: 'Marketing Platform Integration', url: /services/integrations/marketing-platform-integration }
+          - { label: 'Payment Gateway Integration', url: /services/integrations/payment-gateway-integration }
+          - { label: 'Third-party Integrations', url: /services/integrations/third-party-integrations }
+      - category: 'Web Optimization'
+        url: /services/web-optimization
+        items:
+          - { label: 'Website Speed Optimization', url: /services/web-optimization/website-speed-optimization }
+          - { label: 'Core Web Vitals', url: /services/web-optimization/core-web-vitals }
+          - { label: 'Mobile Optimization', url: /services/web-optimization/mobile-optimization }
+          - { label: 'Website Security', url: /services/web-optimization/website-security }
+          - { label: 'Website Maintenance & Support', url: /services/web-optimization/website-maintenance-support }
 
   - label: 'Strategy & Consulting'
     url: /services/strategy-consulting
