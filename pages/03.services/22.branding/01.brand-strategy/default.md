@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Logos and colour palettes are downstream decisions. Brand strategy is the upstream one — what you stand for, and why anyone should care.
+Logos and colour palettes are downstream decisions. Brand strategy is the upstream one - what you stand for, and why anyone should care.
 
 * Positioning and differentiation development
 * Brand voice and tone definition

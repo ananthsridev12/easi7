@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Dashboards without a strategy behind them become noise. We build the practice around them — who owns what, and how often it gets reviewed.
+Dashboards without a strategy behind them become noise. We build the practice around them - who owns what, and how often it gets reviewed.
 
 * Analytics tooling and platform strategy
 * Team structure and ownership model

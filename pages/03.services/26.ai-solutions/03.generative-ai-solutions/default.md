@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-"Add AI" is not a use case. We scope generative AI work against a specific, measurable outcome — hours saved, output increased, cost reduced.
+"Add AI" is not a use case. We scope generative AI work against a specific, measurable outcome - hours saved, output increased, cost reduced.
 
 * Generative AI use case scoping
 * LLM-powered content and workflow tools

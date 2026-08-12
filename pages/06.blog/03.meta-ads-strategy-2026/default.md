@@ -4,7 +4,7 @@ date: '01-10-2026 00:00'
 template: blog-item
 author: 'Ananth Sridev, Founder'
 read_time: '8 min read'
-summary: "What's actually working on Meta Ads in 2026 — first-party data, CAPI, and creative testing."
+summary: "What's actually working on Meta Ads in 2026 - first-party data, CAPI, and creative testing."
 taxonomy:
     category: [PPC]
     tag: ['Meta Ads', 'Paid Social']
@@ -17,7 +17,7 @@ metadata:
 
 <h2>The Advantage+ Era: What It Means for Campaign Structure</h2>
 
-<p>Meta's Advantage+ campaign type — which uses machine learning to automate audience selection, placements, and bidding — is now the dominant structure for most direct-response objectives. But "automated" doesn't mean "hands-off." How you use Advantage+ determines whether it works or wastes budget.</p>
+<p>Meta's Advantage+ campaign type - which uses machine learning to automate audience selection, placements, and bidding - is now the dominant structure for most direct-response objectives. But "automated" doesn't mean "hands-off." How you use Advantage+ determines whether it works or wastes budget.</p>
 
 <p>For most accounts, I recommend a hybrid structure: one Advantage+ Shopping Campaign (ASC) or Advantage+ App Campaign for your primary conversion objective, and one manual campaign for specific audience or creative tests you want to control. The ASC ingests your entire product catalogue and creative library, then optimises delivery across cold and warm audiences simultaneously. This works well when you have enough conversion data (50+ purchase events per week is a solid floor) and a diverse creative library.</p>
 
@@ -25,23 +25,23 @@ metadata:
 
 <h2>Broad Targeting vs Custom Audiences in 2026</h2>
 
-<p>The counterintuitive truth about Meta targeting in 2026 is that broader is often better — but only when your creative is strong. Meta's algorithm has access to behavioural signals that advertisers can't replicate manually: which users engage with similar content, which users have shown purchase intent for adjacent products, which users are in the right life stage. When you over-narrow with stacked interest AND conditions, you restrict the algorithm from finding these high-value users.</p>
+<p>The counterintuitive truth about Meta targeting in 2026 is that broader is often better - but only when your creative is strong. Meta's algorithm has access to behavioural signals that advertisers can't replicate manually: which users engage with similar content, which users have shown purchase intent for adjacent products, which users are in the right life stage. When you over-narrow with stacked interest AND conditions, you restrict the algorithm from finding these high-value users.</p>
 
-<p>The practical approach: run prospecting campaigns with broad or open targeting (no interest or behaviour layers, just location and demographics that reflect your actual market) alongside campaigns using your first-party data — CRM uploads, website custom audiences, and lookalikes built from your best customers. Compare cost per qualified lead (not just cost per click) across these approaches and allocate budget based on what produces pipeline, not what produces cheap impressions.</p>
+<p>The practical approach: run prospecting campaigns with broad or open targeting (no interest or behaviour layers, just location and demographics that reflect your actual market) alongside campaigns using your first-party data - CRM uploads, website custom audiences, and lookalikes built from your best customers. Compare cost per qualified lead (not just cost per click) across these approaches and allocate budget based on what produces pipeline, not what produces cheap impressions.</p>
 
-<p>For retargeting, custom audiences built from your own data outperform interest-based retargeting because they're grounded in actual behaviour. Website visitors, video viewers, lead form openers, and Instagram engagers are all worth segmenting — but segment them by recency and intent. Someone who visited your pricing page last week needs a different message than someone who saw a top-of-funnel video 30 days ago.</p>
+<p>For retargeting, custom audiences built from your own data outperform interest-based retargeting because they're grounded in actual behaviour. Website visitors, video viewers, lead form openers, and Instagram engagers are all worth segmenting - but segment them by recency and intent. Someone who visited your pricing page last week needs a different message than someone who saw a top-of-funnel video 30 days ago.</p>
 
 <h2>Creative Fatigue and Rotation</h2>
 
-<p>Creative fatigue is the single biggest cause of declining Meta campaign performance, and most advertisers underestimate how quickly it sets in. For a cold audience, a strong creative can hold frequency for 2-3 weeks before performance metrics start to degrade. For warm retargeting audiences, frequency caps are essential — seeing the same ad more than 3-4 times per week actively damages brand perception.</p>
+<p>Creative fatigue is the single biggest cause of declining Meta campaign performance, and most advertisers underestimate how quickly it sets in. For a cold audience, a strong creative can hold frequency for 2-3 weeks before performance metrics start to degrade. For warm retargeting audiences, frequency caps are essential - seeing the same ad more than 3-4 times per week actively damages brand perception.</p>
 
 <p>The solution is treating creative as an ongoing production process, not a one-time launch. Structure your creative library around hooks (the first 2-3 seconds), formats (static, carousel, video, Stories), and messages (problem-aware, solution-aware, testimonial, comparison). For every campaign, have at least 4-6 active creatives in rotation, retire underperformers when frequency exceeds 2.5 and CTR drops by 30%+ from its peak, and always have new creative in the testing phase before you need it.</p>
 
 <h2>Video vs Static: The Honest Comparison</h2>
 
-<p>Video gets more press, but static ads still drive a significant share of Meta conversions for most B2B and considered-purchase advertisers. The correct answer isn't video vs static — it's understanding which format serves which stage of the funnel.</p>
+<p>Video gets more press, but static ads still drive a significant share of Meta conversions for most B2B and considered-purchase advertisers. The correct answer isn't video vs static - it's understanding which format serves which stage of the funnel.</p>
 
-<p>For cold audiences, video has the advantage of storytelling and brand-building at low CPM. A 15-30 second video that opens with a clear hook (a bold claim, a surprising statistic, or a direct question to the target audience) and delivers one compelling message performs well in awareness and consideration. For conversion-focused campaigns where the audience already has some familiarity with your brand, high-quality static ads with a strong visual and clear headline often match or outperform video on cost per conversion — because they load faster, are more scannable, and don't require sound.</p>
+<p>For cold audiences, video has the advantage of storytelling and brand-building at low CPM. A 15-30 second video that opens with a clear hook (a bold claim, a surprising statistic, or a direct question to the target audience) and delivers one compelling message performs well in awareness and consideration. For conversion-focused campaigns where the audience already has some familiarity with your brand, high-quality static ads with a strong visual and clear headline often match or outperform video on cost per conversion - because they load faster, are more scannable, and don't require sound.</p>
 
 <p>Test both. In my experience, the best-performing format varies by account, audience, and offer. The only way to know is to run controlled creative tests with equivalent budgets.</p>
 
@@ -57,18 +57,18 @@ metadata:
 
 <p>CPL benchmarks vary significantly by industry, offer, and audience temperature, but here are the ranges I see consistently across the accounts I manage in India. For B2B SaaS targeting SMBs, a reasonable lead gen form CPL is Rs 400-800; landing page CPL runs Rs 800-1,800. For professional services targeting decision-makers, expect Rs 1,500-4,000 for landing page leads. E-commerce cost per purchase varies too widely to generalise, but a 3-5x return on ad spend at scale is a reasonable expectation for a well-optimised catalogue campaign.</p>
 
-<p>On budget allocation, I use a 70/20/10 split as a starting framework: 70% to proven campaigns and audiences that are delivering at or below target CPL, 20% to retargeting and nurture campaigns for warm audiences, and 10% to testing — new creatives, new audience hypotheses, new offers. The testing budget is non-negotiable; without it, your account stagnates as your winning creatives age out.</p>
+<p>On budget allocation, I use a 70/20/10 split as a starting framework: 70% to proven campaigns and audiences that are delivering at or below target CPL, 20% to retargeting and nurture campaigns for warm audiences, and 10% to testing - new creatives, new audience hypotheses, new offers. The testing budget is non-negotiable; without it, your account stagnates as your winning creatives age out.</p>
 
 <h2>Retargeting in a Post-iOS World</h2>
 
-<p>Third-party pixel tracking after iOS 14.5 is unreliable. Meta's own estimates suggest that 30-40% of iOS conversions are unattributed in the Events Manager. This doesn't mean retargeting is dead — it means you have to build retargeting audiences differently.</p>
+<p>Third-party pixel tracking after iOS 14.5 is unreliable. Meta's own estimates suggest that 30-40% of iOS conversions are unattributed in the Events Manager. This doesn't mean retargeting is dead - it means you have to build retargeting audiences differently.</p>
 
 <p>The foundation is the Conversions API (CAPI). CAPI sends conversion data directly from your server to Meta, bypassing browser-based tracking limitations. When implemented correctly alongside the pixel, CAPI recovers a significant portion of the events lost to iOS restrictions. Pair this with first-party data uploads: CRM lists, customer email lists, and offline conversion imports give Meta the data it needs to find similar users and attribute conversions accurately.</p>
 
-<p>For retargeting audience construction, shift toward engagement-based audiences — video viewers, Instagram and Facebook page engagers, lead form openers — rather than relying solely on website visitor audiences, which have shrunk due to cookie limitations. These engagement audiences are built on platform-native signals that iOS restrictions don't affect.</p>
+<p>For retargeting audience construction, shift toward engagement-based audiences - video viewers, Instagram and Facebook page engagers, lead form openers - rather than relying solely on website visitor audiences, which have shrunk due to cookie limitations. These engagement audiences are built on platform-native signals that iOS restrictions don't affect.</p>
 
 <h2>Measurement That Holds Up</h2>
 
-<p>The biggest mistake in Meta advertising is optimising for platform-reported ROAS. Meta's attribution model is self-serving — it uses view-through attribution windows that credit conversions that would have happened anyway, and it doesn't account for the same conversion being claimed by Google Ads, email, and Meta simultaneously.</p>
+<p>The biggest mistake in Meta advertising is optimising for platform-reported ROAS. Meta's attribution model is self-serving - it uses view-through attribution windows that credit conversions that would have happened anyway, and it doesn't account for the same conversion being claimed by Google Ads, email, and Meta simultaneously.</p>
 
 <p>The metrics I use to evaluate Meta campaign health: cost per sales-qualified lead (verified in CRM, not just in Ads Manager), branded search lift (are more people searching for your brand name after exposure to your ads?), and blended CAC (total ad spend divided by total new customers acquired across all channels). These metrics are harder to collect but far more reliable as decision inputs than platform ROAS.</p>

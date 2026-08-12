@@ -17,7 +17,7 @@ sitemap:
 
 The best article with zero distribution plan reaches nobody. We treat distribution as half the job, not an afterthought.
 
-* Owned channel distribution — email, social
+* Owned channel distribution - email, social
 * Syndication to relevant publications
 * Paid amplification of top-performing content
 * Influencer and community seeding

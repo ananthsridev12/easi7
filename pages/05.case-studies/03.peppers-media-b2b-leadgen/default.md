@@ -5,7 +5,7 @@ client: 'Peppers Media'
 industry: B2B
 portfolio_url: /portfolio/b2b-lead-gen
 service_url: /services/social-media-marketing/facebook-ads
-summary: 'Peppers Media — B2B, PPC, lead generation. 250+ qualified leads in six months through audience-segmented Facebook and Google campaigns, with lead scoring before sales handoff.'
+summary: 'Peppers Media - B2B, PPC, lead generation. 250+ qualified leads in six months through audience-segmented Facebook and Google campaigns, with lead scoring before sales handoff.'
 metrics:
     - { value: '250+', label: 'Qualified leads' }
     - { value: '−60%', label: 'Lower CPL' }
@@ -22,13 +22,13 @@ sitemap:
 
 ## The challenge
 
-Peppers Media needed to generate qualified B2B leads for US-market clients, but early campaigns were producing volume without quality — plenty of form fills, very few that turned into real sales conversations.
+Peppers Media needed to generate qualified B2B leads for US-market clients, but early campaigns were producing volume without quality - plenty of form fills, very few that turned into real sales conversations.
 
 ## What we did
 
 We rebuilt targeting around audience segmentation rather than broad reach: Google Search captured active demand from problem-aware and competitor-comparison searches, while Facebook and LinkedIn built awareness among audiences segmented by job function, seniority, and company size.
 
-The key addition was a lead-scoring layer sitting between ad platform and sales team. Every lead was scored on ICP fit (company size, industry, title) and intent signals (pricing page visits, demo requests) before it ever reached a salesperson — so sales time went to the leads most likely to close, not the first ones to arrive.
+The key addition was a lead-scoring layer sitting between ad platform and sales team. Every lead was scored on ICP fit (company size, industry, title) and intent signals (pricing page visits, demo requests) before it ever reached a salesperson - so sales time went to the leads most likely to close, not the first ones to arrive.
 
 Follow-up sequences were restructured around a 14-day window: an immediate acknowledgement, a relevant case study on day two, a direct ask on day four, and a value-add touch before a final, low-pressure close-out email.
 

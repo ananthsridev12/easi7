@@ -13,15 +13,15 @@ metadata:
     description: "A CRO system built for AI-era analytics: diagnostics, prioritization, hypotheses, and clean experiments."
 ---
 
-<p>Conversion rate optimisation gets misunderstood more than almost any other discipline in digital marketing. Most teams treat it as "running A/B tests" — they change a button colour, call it a CRO programme, and wonder why nothing moves. Real CRO is a systematic process: diagnose problems with evidence, form hypotheses based on that evidence, test one thing at a time, and use what you learn to inform the next round. When done correctly, it compounds — each test cycle generates insights that make the next one more targeted and more likely to produce a meaningful result.</p>
+<p>Conversion rate optimisation gets misunderstood more than almost any other discipline in digital marketing. Most teams treat it as "running A/B tests" - they change a button colour, call it a CRO programme, and wonder why nothing moves. Real CRO is a systematic process: diagnose problems with evidence, form hypotheses based on that evidence, test one thing at a time, and use what you learn to inform the next round. When done correctly, it compounds - each test cycle generates insights that make the next one more targeted and more likely to produce a meaningful result.</p>
 
-<h2>Phase 1: The Audit — Finding Where and Why Users Drop Off</h2>
+<h2>Phase 1: The Audit - Finding Where and Why Users Drop Off</h2>
 
 <p>Every CRO project starts with evidence gathering, not assumptions. Before forming a single hypothesis, spend time understanding what's actually happening on your site. Use quantitative data to identify where users drop off, and qualitative data to understand why.</p>
 
 <p>Start with funnel analysis in GA4. Map the path from landing page to conversion and identify the steps with the largest drop-off percentages. A 60% drop-off from landing page to form initiation tells you the page isn't creating enough desire or trust. A 40% drop from form initiation to form submission points to friction in the form itself. These are very different problems requiring very different fixes.</p>
 
-<p>Layer heatmaps and scroll maps on top of the funnel data. Hotjar or Microsoft Clarity (free and surprisingly capable) will show you where users click, how far they scroll, and whether the elements you think are important are actually receiving attention. A common finding: the CTA button that looks prominent in your design mockup is actually sitting below the point where 70% of mobile users stop scrolling. That's not a messaging problem — it's a layout problem.</p>
+<p>Layer heatmaps and scroll maps on top of the funnel data. Hotjar or Microsoft Clarity (free and surprisingly capable) will show you where users click, how far they scroll, and whether the elements you think are important are actually receiving attention. A common finding: the CTA button that looks prominent in your design mockup is actually sitting below the point where 70% of mobile users stop scrolling. That's not a messaging problem - it's a layout problem.</p>
 
 <p>Session recordings are the most time-intensive but often the most revealing tool. Watch 20-30 recordings of users who visited your key landing page but didn't convert. Look for patterns: repeated hovering over the same area (indicating confusion), rage clicks (indicating a broken element or unclear link), exits from specific sections (indicating a point of friction or doubt), and rapid scroll-ups (indicating the user is searching for something they couldn't find). These patterns translate directly into hypotheses.</p>
 
@@ -41,7 +41,7 @@ metadata:
 
 <p>Most conversion problems trace back to landing page structure. A page that converts well against a specific traffic source follows a predictable anatomy that addresses the user's journey through awareness to action.</p>
 
-<p>The headline is the most important element on the page — it should immediately confirm that the user is in the right place and communicate a specific outcome. Not "Powerful Marketing Software" but "Reduce Your Campaign Setup Time by 60%." The specificity signals credibility and filters out poor-fit visitors, which actually improves overall conversion quality even if it reduces raw conversion rate.</p>
+<p>The headline is the most important element on the page - it should immediately confirm that the user is in the right place and communicate a specific outcome. Not "Powerful Marketing Software" but "Reduce Your Campaign Setup Time by 60%." The specificity signals credibility and filters out poor-fit visitors, which actually improves overall conversion quality even if it reduces raw conversion rate.</p>
 
 <p>The subheadline or introductory paragraph should address the user's primary objection or add specificity to the headline promise. "Used by 300+ marketing teams in India to manage campaigns across 5+ channels from one dashboard" adds proof, specificity, and social validation in two lines.</p>
 
@@ -49,29 +49,29 @@ metadata:
 
 <p>The CTA should describe what happens next, not just express desire. "Get Started" is ambiguous. "Book a 30-Minute Strategy Call" tells the user exactly what they're committing to. For high-consideration offers, removing ambiguity about the next step is often one of the highest-impact changes you can make.</p>
 
-<h2>Phase 4: A/B Testing — Running Clean Experiments</h2>
+<h2>Phase 4: A/B Testing - Running Clean Experiments</h2>
 
 <p>The discipline of running clean experiments is what separates CRO practitioners from marketers who happen to run tests. Clean testing means: one major variable per test, adequate sample size before reading results, and sufficient duration to capture weekly traffic patterns.</p>
 
-<p>On sample size: before you launch a test, calculate the minimum detectable effect (MDE) based on your current conversion rate and expected traffic. If your landing page converts at 3% and you want to detect a 0.5 percentage point improvement (17% relative uplift), you need roughly 8,000 visitors per variant to reach 80% statistical power at 95% confidence. If you only get 500 visitors per week, that test needs to run for 16 weeks — which is almost certainly too long to be useful. Adjust either your traffic allocation or your MDE based on what's realistic.</p>
+<p>On sample size: before you launch a test, calculate the minimum detectable effect (MDE) based on your current conversion rate and expected traffic. If your landing page converts at 3% and you want to detect a 0.5 percentage point improvement (17% relative uplift), you need roughly 8,000 visitors per variant to reach 80% statistical power at 95% confidence. If you only get 500 visitors per week, that test needs to run for 16 weeks - which is almost certainly too long to be useful. Adjust either your traffic allocation or your MDE based on what's realistic.</p>
 
 <p>On duration: run tests for a minimum of two weeks, regardless of sample size, to capture weekly cyclicality. B2B traffic typically converts better mid-week; e-commerce sees weekend spikes. A test that runs for 5 days may catch a skewed traffic period and produce misleading results.</p>
 
-<p>Statistical significance is necessary but not sufficient. A result that reaches 95% significance but is based on a tiny sample size is still unreliable. And statistical significance only tells you that the difference isn't random — it doesn't tell you whether the winning variant will sustain its performance long-term. Always validate high-impact wins with a follow-up test.</p>
+<p>Statistical significance is necessary but not sufficient. A result that reaches 95% significance but is based on a tiny sample size is still unreliable. And statistical significance only tells you that the difference isn't random - it doesn't tell you whether the winning variant will sustain its performance long-term. Always validate high-impact wins with a follow-up test.</p>
 
 <h2>Phase 5: CTA Psychology and Trust Signals</h2>
 
 <p>Two elements consistently move conversion rates more than any cosmetic change: the phrasing of your CTA and the trust signals surrounding your conversion point. Understanding the psychology behind both is more valuable than running endless colour tests.</p>
 
-<p>On CTAs: users convert when the perceived value of taking action outweighs the perceived risk. Every word on your CTA influences this calculation. First-person CTAs often outperform second-person — "Start My Free Trial" vs "Start Your Free Trial" — because they create a sense of ownership. Benefit-oriented CTAs outperform action-oriented ones — "Get My Free Audit" vs "Submit Form" — because they orient the user toward the outcome, not the process.</p>
+<p>On CTAs: users convert when the perceived value of taking action outweighs the perceived risk. Every word on your CTA influences this calculation. First-person CTAs often outperform second-person - "Start My Free Trial" vs "Start Your Free Trial" - because they create a sense of ownership. Benefit-oriented CTAs outperform action-oriented ones - "Get My Free Audit" vs "Submit Form" - because they orient the user toward the outcome, not the process.</p>
 
 <p>On trust signals: the closer they are to your CTA, the more they reduce conversion friction. A row of client logos, a data security statement, or a "no credit card required" note placed directly adjacent to your form submission button can lift conversion rates meaningfully because it addresses anxiety at the exact moment the user is deciding whether to act.</p>
 
 <h2>Phase 6: Page Speed and Its Direct Impact on Conversion</h2>
 
-<p>Every additional second of load time reduces conversion rate — this is not theoretical. Google's data consistently shows that a 1-second delay in mobile load time reduces conversions by up to 20%. For landing pages specifically, where you're paying for every click, the cost of slow page speed is directly calculable: if your page converts at 4% with a 2-second load time and drops to 3.2% at 4 seconds, that's a 20% efficiency loss on every ad rupee you spend.</p>
+<p>Every additional second of load time reduces conversion rate - this is not theoretical. Google's data consistently shows that a 1-second delay in mobile load time reduces conversions by up to 20%. For landing pages specifically, where you're paying for every click, the cost of slow page speed is directly calculable: if your page converts at 4% with a 2-second load time and drops to 3.2% at 4 seconds, that's a 20% efficiency loss on every ad rupee you spend.</p>
 
-<p>Audit your landing page load time specifically (not just your homepage) using PageSpeed Insights and WebPageTest. Landing pages built in some drag-and-drop tools are notoriously slow on mobile. If your landing page takes more than 3 seconds to load on a mid-range Android device on a 4G connection — which represents a significant share of Indian mobile traffic — speed optimisation should be prioritised above any other CRO initiative.</p>
+<p>Audit your landing page load time specifically (not just your homepage) using PageSpeed Insights and WebPageTest. Landing pages built in some drag-and-drop tools are notoriously slow on mobile. If your landing page takes more than 3 seconds to load on a mid-range Android device on a 4G connection - which represents a significant share of Indian mobile traffic - speed optimisation should be prioritised above any other CRO initiative.</p>
 
 <h2>The Compounding Effect of Documentation</h2>
 

@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Most reporting problems trace back to a data problem no one addressed — inconsistent collection, no ownership, no governance. Strategy has to start there.
+Most reporting problems trace back to a data problem no one addressed - inconsistent collection, no ownership, no governance. Strategy has to start there.
 
 * Data collection and storage strategy
 * Data governance and quality ownership

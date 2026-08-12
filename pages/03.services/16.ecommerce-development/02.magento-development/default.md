@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Magento earns its complexity when the catalogue and business rules genuinely need it — multi-store, complex pricing, deep customisation. We manage that complexity so it doesn't manage you.
+Magento earns its complexity when the catalogue and business rules genuinely need it - multi-store, complex pricing, deep customisation. We manage that complexity so it doesn't manage you.
 
 * Magento store setup and customisation
 * Multi-store and multi-currency configuration

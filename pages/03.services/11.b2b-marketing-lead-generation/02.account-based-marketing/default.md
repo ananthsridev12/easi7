@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-ABM works when marketing and sales agree on the same account list before the first campaign launches — not after.
+ABM works when marketing and sales agree on the same account list before the first campaign launches - not after.
 
 * Target account list building
 * Multi-channel account-level campaigns

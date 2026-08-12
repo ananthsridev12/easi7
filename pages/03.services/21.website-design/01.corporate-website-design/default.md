@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A corporate site's design should reduce risk in a buyer's mind, not just look current — credibility cues matter as much as aesthetics here.
+A corporate site's design should reduce risk in a buyer's mind, not just look current - credibility cues matter as much as aesthetics here.
 
 * Visual design aligned to brand guidelines
 * Credibility-focused layout and hierarchy

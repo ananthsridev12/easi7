@@ -3,7 +3,7 @@ title: SEO
 template: services
 eyebrow: SEO
 headline: 'Organic visibility that compounds'
-summary: 'Technical foundations and AI-era search readiness — traffic that keeps paying off long after a campaign ends.'
+summary: 'Technical foundations and AI-era search readiness - traffic that keeps paying off long after a campaign ends.'
 tools: [Ahrefs, SEMrush, 'Screaming Frog']
 taxonomy:
     service: [SEO]

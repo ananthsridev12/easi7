@@ -3,7 +3,7 @@ title: 'Conversion Rate Optimization'
 template: service-detail
 eyebrow: 'Conversion Optimization'
 headline: 'Evidence first, redesign second'
-summary: 'A systematic CRO process — diagnose with data, form hypotheses, test, and iterate.'
+summary: 'A systematic CRO process - diagnose with data, form hypotheses, test, and iterate.'
 tools: ['CRO Process', 'Hypothesis Testing']
 service_url: /services/conversion-optimization/conversion-rate-optimization
 taxonomy:

@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A predictive model is only as good as the historical data behind it — we spend real time validating data quality before trusting any forecast.
+A predictive model is only as good as the historical data behind it - we spend real time validating data quality before trusting any forecast.
 
 * Revenue and pipeline forecasting models
 * Churn prediction modelling

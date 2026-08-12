@@ -17,7 +17,7 @@ This website belongs to EASI7, a digital marketing studio founded by Ananth Srid
 
 ### Intellectual Property
 
-All content on this site&mdash;including text, case studies, and blog articles&mdash;is the property of EASI7. You may not reproduce or distribute this content without prior written permission.
+All content on this site - including text, case studies, and blog articles - is the property of EASI7. You may not reproduce or distribute this content without prior written permission.
 
 ### Disclaimer
 

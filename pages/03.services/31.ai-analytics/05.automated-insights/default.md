@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-The last mile of analytics — turning a number into a decision — is where automation adds the most leverage, closing the gap between data and action.
+The last mile of analytics - turning a number into a decision - is where automation adds the most leverage, closing the gap between data and action.
 
 * Automated change detection in key metrics
 * Root-cause surfacing for significant shifts

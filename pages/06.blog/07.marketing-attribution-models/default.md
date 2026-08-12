@@ -19,21 +19,21 @@ metadata:
 
 <h2>Last-Click Attribution</h2>
 
-<p>Last-click attribution gives 100% of the conversion credit to the final touchpoint before conversion. If a user saw a Facebook ad, read a blog post, searched for your brand on Google, clicked a Google Search ad, and then converted — the Google Search ad gets all the credit.</p>
+<p>Last-click attribution gives 100% of the conversion credit to the final touchpoint before conversion. If a user saw a Facebook ad, read a blog post, searched for your brand on Google, clicked a Google Search ad, and then converted - the Google Search ad gets all the credit.</p>
 
-<p>Last-click is simple, easy to explain to stakeholders, and favours channels that operate at the bottom of the funnel — branded search, retargeting, and direct traffic. Its fatal flaw is that it completely ignores all the touchpoints that created the demand in the first place. If you use last-click as your primary attribution model, you will systematically over-invest in branded search and retargeting (which capture existing demand) and under-invest in top-of-funnel channels (which create it).</p>
+<p>Last-click is simple, easy to explain to stakeholders, and favours channels that operate at the bottom of the funnel - branded search, retargeting, and direct traffic. Its fatal flaw is that it completely ignores all the touchpoints that created the demand in the first place. If you use last-click as your primary attribution model, you will systematically over-invest in branded search and retargeting (which capture existing demand) and under-invest in top-of-funnel channels (which create it).</p>
 
 <p>When to use it: last-click is acceptable as a cross-check metric when your funnel is very short (one or two touchpoints to conversion) and you have limited data infrastructure. For most businesses with any funnel complexity, it should not be your primary decision-making model.</p>
 
 <h2>First-Click Attribution</h2>
 
-<p>First-click gives all conversion credit to the first touchpoint — the channel or campaign that introduced the user to your brand. This model is the mirror image of last-click: it tells you which channels are most effective at generating new demand and introducing prospects to your funnel.</p>
+<p>First-click gives all conversion credit to the first touchpoint - the channel or campaign that introduced the user to your brand. This model is the mirror image of last-click: it tells you which channels are most effective at generating new demand and introducing prospects to your funnel.</p>
 
 <p>First-click is valuable in the early stages of a business when your primary question is "where are our new customers coming from?" It's also useful as a supplementary view when you want to evaluate the top-of-funnel impact of awareness campaigns that don't produce direct last-click conversions. Its limitation: it ignores everything that happened after the first touch, including the nurturing and closing touchpoints that moved the prospect to conversion.</p>
 
 <h2>Linear Attribution</h2>
 
-<p>Linear attribution distributes conversion credit equally across all touchpoints in the path. A five-touchpoint journey gives 20% credit to each interaction. This model treats every touchpoint as equally important — which is rarely true in practice, but avoids the extreme bias of first-click and last-click.</p>
+<p>Linear attribution distributes conversion credit equally across all touchpoints in the path. A five-touchpoint journey gives 20% credit to each interaction. This model treats every touchpoint as equally important - which is rarely true in practice, but avoids the extreme bias of first-click and last-click.</p>
 
 <p>Linear is a reasonable model for businesses with moderate funnel complexity and limited conversion volume, because it doesn't require statistical analysis to implement and it gives some credit to every channel that participated in the conversion. The downside: equal credit for unequal contributions doesn't reflect the reality of how your funnel actually works.</p>
 
@@ -41,7 +41,7 @@ metadata:
 
 <p>Time decay attribution gives more credit to touchpoints that occurred closer to the conversion, with credit decreasing exponentially as you go further back in time. A touchpoint that happened 1 day before conversion receives far more credit than one that happened 30 days before.</p>
 
-<p>This model makes intuitive sense for funnels with long consideration cycles — if a lead researches your product for 6 weeks before converting, the touchpoints that accelerated the final decision are arguably more valuable than the initial awareness touchpoint. Time decay is a good choice when your sales cycle is 30+ days and you want to weight recency without ignoring the full path.</p>
+<p>This model makes intuitive sense for funnels with long consideration cycles - if a lead researches your product for 6 weeks before converting, the touchpoints that accelerated the final decision are arguably more valuable than the initial awareness touchpoint. Time decay is a good choice when your sales cycle is 30+ days and you want to weight recency without ignoring the full path.</p>
 
 <p>Its weakness: it can under-credit awareness and top-of-funnel campaigns that initiated the journey, leading to the same bias as last-click if the decay rate is set too aggressively.</p>
 
@@ -49,19 +49,19 @@ metadata:
 
 <p>Position-based attribution gives the most credit to the first and last touchpoints (typically 40% each) and distributes the remaining 20% across middle touchpoints. This model reflects a common view of funnel dynamics: the channel that introduced the brand matters, and the channel that closed the deal matters, while middle-funnel touchpoints play a supporting role.</p>
 
-<p>Position-based is a practical middle ground for many B2B businesses with multi-touch funnels. It prevents the extremes of first-click or last-click while giving appropriate weight to the touchpoints that are most strategically important. The limitation: the 40/40/20 split is arbitrary — it's not derived from your actual data, just a reasonable approximation.</p>
+<p>Position-based is a practical middle ground for many B2B businesses with multi-touch funnels. It prevents the extremes of first-click or last-click while giving appropriate weight to the touchpoints that are most strategically important. The limitation: the 40/40/20 split is arbitrary - it's not derived from your actual data, just a reasonable approximation.</p>
 
 <h2>Data-Driven Attribution</h2>
 
 <p>Data-driven attribution uses machine learning to analyse all the conversion paths in your account and assign credit based on the actual impact of each touchpoint on conversion probability. Rather than applying a fixed rule, it looks at paths that converted versus paths that didn't and identifies which touchpoints meaningfully increase the likelihood of conversion.</p>
 
-<p>This is the most accurate model when it's applicable — but it requires conversion volume. Google's data-driven attribution in GA4 requires a minimum of 400 conversions within a 30-day window to generate a reliable model. Accounts with fewer conversions than this threshold don't have enough data for the algorithm to produce trustworthy attribution weights. When used on low-volume data, data-driven attribution can produce seemingly sophisticated outputs that are statistically meaningless.</p>
+<p>This is the most accurate model when it's applicable - but it requires conversion volume. Google's data-driven attribution in GA4 requires a minimum of 400 conversions within a 30-day window to generate a reliable model. Accounts with fewer conversions than this threshold don't have enough data for the algorithm to produce trustworthy attribution weights. When used on low-volume data, data-driven attribution can produce seemingly sophisticated outputs that are statistically meaningless.</p>
 
 <p>When conversion volume permits, data-driven attribution is the model to use. It removes the arbitrary weighting of rule-based models and reflects the actual dynamics of your funnel.</p>
 
 <h2>GA4 Attribution Settings</h2>
 
-<p>In GA4, your attribution model setting affects how conversions are credited in standard reports. GA4 defaults to data-driven attribution for accounts with sufficient volume, and falls back to last-click for those that don't. You can change this in Admin > Attribution Settings — but understand that changing the model doesn't retroactively change historical data; it changes how new conversions are credited going forward.</p>
+<p>In GA4, your attribution model setting affects how conversions are credited in standard reports. GA4 defaults to data-driven attribution for accounts with sufficient volume, and falls back to last-click for those that don't. You can change this in Admin > Attribution Settings - but understand that changing the model doesn't retroactively change historical data; it changes how new conversions are credited going forward.</p>
 
 <p>GA4 also provides a Model Comparison tool under Advertising > Attribution > Model Comparison, which lets you see how different attribution models would allocate credit across your channels for the same conversion data. Use this to understand how your channel mix looks under different assumptions before committing to a model for budgeting decisions.</p>
 
@@ -73,13 +73,13 @@ metadata:
 
 <h2>UTM Structure Best Practices</h2>
 
-<p>Any attribution model is only as reliable as your UTM tagging. Inconsistent UTMs break attribution — a campaign that uses "facebook" as the source in some links and "Facebook" in others will show up as two separate sources in GA4, splitting the data and obscuring the actual performance of that channel.</p>
+<p>Any attribution model is only as reliable as your UTM tagging. Inconsistent UTMs break attribution - a campaign that uses "facebook" as the source in some links and "Facebook" in others will show up as two separate sources in GA4, splitting the data and obscuring the actual performance of that channel.</p>
 
-<p>Establish a UTM naming convention and document it. I use lowercase for all values, underscores instead of spaces, and a consistent structure: utm_source identifies the platform (google, meta, linkedin, email), utm_medium identifies the channel type (cpc, organic_social, email, affiliate), utm_campaign identifies the specific campaign using a standardised naming pattern (including date and objective where relevant), and utm_content differentiates between ad variants or creative types. Auto-tag Google Ads but use manual UTMs for Meta, LinkedIn, and email — verify that auto-tagging isn't being stripped by your landing page platform.</p>
+<p>Establish a UTM naming convention and document it. I use lowercase for all values, underscores instead of spaces, and a consistent structure: utm_source identifies the platform (google, meta, linkedin, email), utm_medium identifies the channel type (cpc, organic_social, email, affiliate), utm_campaign identifies the specific campaign using a standardised naming pattern (including date and objective where relevant), and utm_content differentiates between ad variants or creative types. Auto-tag Google Ads but use manual UTMs for Meta, LinkedIn, and email - verify that auto-tagging isn't being stripped by your landing page platform.</p>
 
 <h2>Offline Attribution</h2>
 
-<p>For businesses where deals close offline — in person, on a call, or through a sales team — connecting online marketing activity to offline revenue is essential for accurate attribution. The mechanism is offline conversion import: you collect a unique identifier at the point of lead capture (email address or phone number), match it to a CRM record when the deal closes, and import that offline conversion back into Google Ads or GA4 with the associated revenue value.</p>
+<p>For businesses where deals close offline - in person, on a call, or through a sales team - connecting online marketing activity to offline revenue is essential for accurate attribution. The mechanism is offline conversion import: you collect a unique identifier at the point of lead capture (email address or phone number), match it to a CRM record when the deal closes, and import that offline conversion back into Google Ads or GA4 with the associated revenue value.</p>
 
 <p>This is particularly important for smart bidding. If Google Ads is optimising for form submissions (the online event) rather than qualified pipeline or revenue (the offline event), it will optimise for the wrong outcome. Offline conversion imports allow smart bidding to optimise for revenue-aligned signals rather than lead volume.</p>
 

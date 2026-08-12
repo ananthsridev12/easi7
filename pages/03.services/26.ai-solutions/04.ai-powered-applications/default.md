@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A chatbot icon in the corner of an app isn't an AI product — it's a widget. We build applications where AI does load-bearing work in the actual workflow.
+A chatbot icon in the corner of an app isn't an AI product - it's a widget. We build applications where AI does load-bearing work in the actual workflow.
 
 * AI feature scoping within a product
 * Model selection and integration

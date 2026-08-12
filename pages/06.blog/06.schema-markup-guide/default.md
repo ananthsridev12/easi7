@@ -4,7 +4,7 @@ date: '01-25-2026 00:00'
 template: blog-item
 author: 'Ananth Sridev, Founder'
 read_time: '10 min read'
-summary: 'A complete implementation guide to schema markup — entity types, JSON-LD structure, and QA steps.'
+summary: 'A complete implementation guide to schema markup - entity types, JSON-LD structure, and QA steps.'
 taxonomy:
     category: [SEO]
     tag: [Schema, 'Structured Data']
@@ -13,13 +13,13 @@ metadata:
     description: "Schema markup that actually improves AI visibility and rich results: entity types, JSON-LD structure, and QA steps."
 ---
 
-<p>Schema markup is one of those technical SEO topics that gets oversimplified in most guides — "just add FAQ schema to every page and you'll get rich results." That's not how it works. Schema markup is about communicating structured meaning to search engines and, increasingly, to the large language models that power AI search. Done correctly, it improves your eligibility for rich results in Google, helps AI systems understand your content accurately, and builds your entity presence across the web. Done carelessly, it can trigger a manual action from Google for misleading structured data.</p>
+<p>Schema markup is one of those technical SEO topics that gets oversimplified in most guides - "just add FAQ schema to every page and you'll get rich results." That's not how it works. Schema markup is about communicating structured meaning to search engines and, increasingly, to the large language models that power AI search. Done correctly, it improves your eligibility for rich results in Google, helps AI systems understand your content accurately, and builds your entity presence across the web. Done carelessly, it can trigger a manual action from Google for misleading structured data.</p>
 
 <h2>What Schema Markup Actually Does</h2>
 
 <p>Search engines parse HTML to understand what a page is about, but HTML alone is ambiguous. The word "Apple" on a page could refer to a fruit, the technology company, or a music record label. Schema markup, built on the Schema.org vocabulary, provides machine-readable context that removes this ambiguity. It tells the search engine: "This page is an Article, authored by Ananth Sridev, published on January 25 2026, about the topic of schema markup, which is a sub-topic of SEO."</p>
 
-<p>For AI-powered search — Google's AI Overviews, Perplexity, ChatGPT's web browsing — schema is even more valuable. LLMs that crawl and index the web use structured data to understand entity relationships, authorship, publication context, and the factual claims on a page. A page with well-implemented schema is easier for an AI system to extract, attribute, and cite accurately. A page without it requires the model to infer meaning from unstructured text — which introduces error.</p>
+<p>For AI-powered search - Google's AI Overviews, Perplexity, ChatGPT's web browsing - schema is even more valuable. LLMs that crawl and index the web use structured data to understand entity relationships, authorship, publication context, and the factual claims on a page. A page with well-implemented schema is easier for an AI system to extract, attribute, and cite accurately. A page without it requires the model to infer meaning from unstructured text - which introduces error.</p>
 
 <h2>The Schema Types That Matter Most</h2>
 
@@ -31,27 +31,27 @@ metadata:
 
 <h3>FAQPage</h3>
 
-<p>FAQ schema can produce an expanded rich result in Google where the questions appear directly in the SERP, taking up significantly more real estate than a standard blue link. This is valuable — but only when the FAQ content actually exists on the page as visible HTML content.</p>
+<p>FAQ schema can produce an expanded rich result in Google where the questions appear directly in the SERP, taking up significantly more real estate than a standard blue link. This is valuable - but only when the FAQ content actually exists on the page as visible HTML content.</p>
 
-<p>The rule: only apply FAQPage schema to content where the questions and answers are genuinely present and readable on the page. Applying it to questions that are hidden, collapsed behind JavaScript, or simply not present on the page is a violation of Google's structured data guidelines and can result in a manual action. Additionally, don't use FAQ schema on every page mechanically — reserve it for pages where there are at least 3-5 genuine Q&A pairs that address real user questions about the topic.</p>
+<p>The rule: only apply FAQPage schema to content where the questions and answers are genuinely present and readable on the page. Applying it to questions that are hidden, collapsed behind JavaScript, or simply not present on the page is a violation of Google's structured data guidelines and can result in a manual action. Additionally, don't use FAQ schema on every page mechanically - reserve it for pages where there are at least 3-5 genuine Q&A pairs that address real user questions about the topic.</p>
 
 <h3>HowTo</h3>
 
-<p>HowTo schema is for instructional content that walks users through a process in numbered steps. When implemented correctly, it can produce a rich result that shows the steps directly in the SERP — extremely useful for how-to queries where the user is trying to accomplish something specific.</p>
+<p>HowTo schema is for instructional content that walks users through a process in numbered steps. When implemented correctly, it can produce a rich result that shows the steps directly in the SERP - extremely useful for how-to queries where the user is trying to accomplish something specific.</p>
 
-<p>Each step requires a name (the step title) and a text (the explanation). Optionally, you can include images for each step, which can trigger image-rich HowTo results. Only use HowTo schema on genuine instructional content — applying it to a pricing page or a product description to game rich results is exactly the kind of misuse Google penalises.</p>
+<p>Each step requires a name (the step title) and a text (the explanation). Optionally, you can include images for each step, which can trigger image-rich HowTo results. Only use HowTo schema on genuine instructional content - applying it to a pricing page or a product description to game rich results is exactly the kind of misuse Google penalises.</p>
 
 <h3>LocalBusiness</h3>
 
 <p>For any business that serves customers at a physical location or within a specific geographic area, LocalBusiness schema (or its more specific subtypes like ProfessionalService, MarketingAgency, or Dentist) is foundational. Include name, address (with streetAddress, addressLocality, addressRegion, postalCode, and addressCountry), telephone, url, geo coordinates (latitude and longitude), and openingHours. The sameAs field should list all authoritative external profiles: Google Business Profile, LinkedIn, Facebook, JustDial, and any relevant directories.</p>
 
-<p>This entity graph — your business connected to external authoritative sources — is how search engines and AI systems build confidence in the legitimacy and identity of your business.</p>
+<p>This entity graph - your business connected to external authoritative sources - is how search engines and AI systems build confidence in the legitimacy and identity of your business.</p>
 
 <h3>Organization and Person</h3>
 
 <p>On your homepage, implement Organization schema with name, url, logo (must be a logoObject with a URL and dimensions), contactPoint, and sameAs. On your about page or author pages, implement Person schema with name, jobTitle, worksFor (referencing the Organization), url, sameAs (linking to LinkedIn, Twitter/X, and other profiles), and knowsAbout (an array of topics the person has expertise in).</p>
 
-<p>These two schema types are foundational for entity SEO — they help search engines understand who you are, what you do, and how you're connected to the broader web of entities and organisations in your field. This is increasingly important for appearing in AI-generated summaries that mention individuals and companies by name.</p>
+<p>These two schema types are foundational for entity SEO - they help search engines understand who you are, what you do, and how you're connected to the broader web of entities and organisations in your field. This is increasingly important for appearing in AI-generated summaries that mention individuals and companies by name.</p>
 
 <h3>Product and Offer</h3>
 
@@ -63,15 +63,15 @@ metadata:
 
 <h2>JSON-LD Implementation</h2>
 
-<p>Always use JSON-LD format. Google recommends it, and for good reason — it lives in a script tag in the page's head or body, entirely separate from the HTML structure. This means you can add, update, or remove schema without touching the page design, and it's far easier to manage programmatically (through a CMS or template system) than microdata, which requires adding attributes throughout the HTML.</p>
+<p>Always use JSON-LD format. Google recommends it, and for good reason - it lives in a script tag in the page's head or body, entirely separate from the HTML structure. This means you can add, update, or remove schema without touching the page design, and it's far easier to manage programmatically (through a CMS or template system) than microdata, which requires adding attributes throughout the HTML.</p>
 
-<p>For a blog post, the JSON-LD implementation looks like this: a single script tag of type "application/ld+json" containing an object with "@context": "https://schema.org", "@type": "BlogPosting", and all required fields. The entire block should be placed in the document head or at the end of the body — Google parses it either way.</p>
+<p>For a blog post, the JSON-LD implementation looks like this: a single script tag of type "application/ld+json" containing an object with "@context": "https://schema.org", "@type": "BlogPosting", and all required fields. The entire block should be placed in the document head or at the end of the body - Google parses it either way.</p>
 
-<p>For pages that need multiple schema types — for example, an article page that also has FAQ content — you have two options: a single JSON-LD block with an "@graph" array containing all your schema objects, or separate JSON-LD blocks for each type. Both work; the @graph approach is cleaner and easier to manage.</p>
+<p>For pages that need multiple schema types - for example, an article page that also has FAQ content - you have two options: a single JSON-LD block with an "@graph" array containing all your schema objects, or separate JSON-LD blocks for each type. Both work; the @graph approach is cleaner and easier to manage.</p>
 
 <h2>Validation and Quality Assurance</h2>
 
-<p>Every schema implementation must be validated before going to production. Use Google's Rich Results Test (search.google.com/test/rich-results) to test individual URLs — it shows you which rich result types your page is eligible for, any errors that would prevent eligibility, and warnings that might affect performance. Also use Schema.org's validator (validator.schema.org) for a more comprehensive check of schema validity beyond Google's specific requirements.</p>
+<p>Every schema implementation must be validated before going to production. Use Google's Rich Results Test (search.google.com/test/rich-results) to test individual URLs - it shows you which rich result types your page is eligible for, any errors that would prevent eligibility, and warnings that might affect performance. Also use Schema.org's validator (validator.schema.org) for a more comprehensive check of schema validity beyond Google's specific requirements.</p>
 
 <p>After deploying schema, monitor the Enhancements reports in Google Search Console. These reports show which schema types Google has detected across your site, how many pages have errors or warnings, and how your rich results are performing in terms of impressions and clicks. Make it a monthly habit to review these reports and fix any new errors that appear.</p>
 
@@ -79,9 +79,9 @@ metadata:
 
 <ul>
   <li><strong>Applying schema to content not visible on the page.</strong> If the content marked up with schema is hidden from users, it violates Google's guidelines. Schema must mark up content that's genuinely present and visible.</li>
-  <li><strong>Using outdated schema types or properties.</strong> Schema.org is a living vocabulary — types and properties get added and deprecated. Check Schema.org directly for the current specification before implementing a new type.</li>
+  <li><strong>Using outdated schema types or properties.</strong> Schema.org is a living vocabulary - types and properties get added and deprecated. Check Schema.org directly for the current specification before implementing a new type.</li>
   <li><strong>Ignoring the dateModified field.</strong> For content that you update regularly, keeping dateModified current signals freshness. An article with a 2023 publication date and no modification date may be treated as stale even if the content was updated recently.</li>
-  <li><strong>Adding FAQ schema to pages with only one or two Q&A pairs.</strong> Google's guidelines suggest a minimum of two Q&A pairs for FAQ schema to make sense — but practically, pages with 4-6 genuine questions tend to see the best rich result performance.</li>
+  <li><strong>Adding FAQ schema to pages with only one or two Q&A pairs.</strong> Google's guidelines suggest a minimum of two Q&A pairs for FAQ schema to make sense - but practically, pages with 4-6 genuine questions tend to see the best rich result performance.</li>
   <li><strong>Failing to nest entities correctly.</strong> The author in an Article schema should reference a Person object, not just be a plain string. The brand in a Product schema should reference an Organization object. Correct nesting is how schema builds an entity graph rather than just adding isolated tags.</li>
 </ul>
 

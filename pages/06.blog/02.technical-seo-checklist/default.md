@@ -13,7 +13,7 @@ metadata:
     description: "A modern technical SEO checklist for performance, crawlability, and AI readiness."
 ---
 
-<p>A technical SEO audit without a structured checklist is how small issues get missed and compound into ranking problems over months. This is the actual list I work through when auditing a new client's site — 50 checkpoints across crawlability, Core Web Vitals, structured data, site architecture, and AI readiness. I've grouped them into categories so you can prioritise by impact and work through them systematically.</p>
+<p>A technical SEO audit without a structured checklist is how small issues get missed and compound into ranking problems over months. This is the actual list I work through when auditing a new client's site - 50 checkpoints across crawlability, Core Web Vitals, structured data, site architecture, and AI readiness. I've grouped them into categories so you can prioritise by impact and work through them systematically.</p>
 
 <h2>Crawlability and Indexation</h2>
 
@@ -26,9 +26,9 @@ metadata:
   <li><strong>No important pages are returning 4xx or 5xx errors.</strong> Run a crawl with Screaming Frog or Sitebulb and filter for non-200 status codes. Cross-reference with Search Console's Coverage report.</li>
   <li><strong>Crawl budget is not being wasted on low-value pages.</strong> Session-based URLs, infinite scroll parameters, and filter combinations can bloat crawl budget. Noindex or block these patterns in robots.txt.</li>
   <li><strong>Pagination is handled correctly.</strong> For paginated content, use self-referencing canonicals on each page and ensure that page 2+ isn't noindexed accidentally.</li>
-  <li><strong>Hreflang is implemented correctly for multilingual sites.</strong> Hreflang errors are common — bidirectional tagging must be present, and the return tag must exist on the alternate page.</li>
+  <li><strong>Hreflang is implemented correctly for multilingual sites.</strong> Hreflang errors are common - bidirectional tagging must be present, and the return tag must exist on the alternate page.</li>
   <li><strong>No orphan pages exist.</strong> Pages with no internal links pointing to them are invisible to crawlers even if they're in the sitemap. Run a crawl and cross-reference with your sitemap to find them.</li>
-  <li><strong>Google Search Console shows no manual actions or security issues.</strong> Check the Security and Manual Actions reports — these override any ranking work you do.</li>
+  <li><strong>Google Search Console shows no manual actions or security issues.</strong> Check the Security and Manual Actions reports - these override any ranking work you do.</li>
   <li><strong>JavaScript rendering is not hiding critical content.</strong> If your site is heavily JS-rendered, use Search Console's URL Inspection tool to see the rendered HTML. Content that only appears after JS execution may not be indexed.</li>
 </ul>
 
@@ -45,7 +45,7 @@ metadata:
   <li><strong>Images are lazy-loaded below the fold.</strong> Use the native loading="lazy" attribute on all images that aren't in the initial viewport.</li>
   <li><strong>Render-blocking resources are eliminated or deferred.</strong> CSS should be inlined for critical above-the-fold styles; non-critical CSS and JS should be deferred or loaded asynchronously.</li>
   <li><strong>Font loading is optimised.</strong> Use font-display: swap, preload your primary font file, and subset fonts to include only the characters you use.</li>
-  <li><strong>Third-party scripts are audited and non-essential ones removed.</strong> Every third-party tag adds latency. Run PageSpeed Insights and review the third-party summary — eliminate any tag that isn't actively driving value.</li>
+  <li><strong>Third-party scripts are audited and non-essential ones removed.</strong> Every third-party tag adds latency. Run PageSpeed Insights and review the third-party summary - eliminate any tag that isn't actively driving value.</li>
   <li><strong>Field data in CrUX matches lab data in PageSpeed Insights.</strong> Lab data shows potential; field data shows reality. Gaps between the two indicate conditions (devices, network speeds) you're not testing for locally.</li>
 </ul>
 
@@ -54,13 +54,13 @@ metadata:
 <ul>
   <li><strong>Article or BlogPosting schema is on all blog posts.</strong> Include author, datePublished, dateModified, headline, and image fields at minimum.</li>
   <li><strong>Organization schema is on the homepage.</strong> Include name, url, logo, contactPoint, and sameAs (linking to all social profiles) to help search engines understand your entity.</li>
-  <li><strong>FAQ schema is used on appropriate pages.</strong> Only apply FAQ schema where genuine Q&A content exists on the page — Google penalises schema that misrepresents page content.</li>
+  <li><strong>FAQ schema is used on appropriate pages.</strong> Only apply FAQ schema where genuine Q&A content exists on the page - Google penalises schema that misrepresents page content.</li>
   <li><strong>BreadcrumbList schema is implemented site-wide.</strong> This helps search engines understand site hierarchy and often produces breadcrumb rich results in the SERP.</li>
   <li><strong>LocalBusiness schema is implemented for location-based businesses.</strong> Include address, geo coordinates, openingHours, and telephone.</li>
-  <li><strong>All schema is implemented in JSON-LD format.</strong> JSON-LD is Google's preferred format — it's easier to manage than microdata and doesn't require changes to the HTML structure.</li>
+  <li><strong>All schema is implemented in JSON-LD format.</strong> JSON-LD is Google's preferred format - it's easier to manage than microdata and doesn't require changes to the HTML structure.</li>
   <li><strong>All schema is validated in Google's Rich Results Test.</strong> Test both the live URL and the code snippet. Fix all errors before errors reach production.</li>
   <li><strong>No schema is applied to content that isn't visible on the page.</strong> Schema that marks up hidden or non-existent content violates Google's guidelines and can result in a manual action.</li>
-  <li><strong>dateModified is updated when content is updated.</strong> Freshness signals matter for news and informational content — outdated modification dates can suppress rankings on time-sensitive queries.</li>
+  <li><strong>dateModified is updated when content is updated.</strong> Freshness signals matter for news and informational content - outdated modification dates can suppress rankings on time-sensitive queries.</li>
   <li><strong>HowTo schema is implemented where step-by-step content exists.</strong> HowTo schema can trigger rich results with steps directly in the SERP, increasing click-through rate.</li>
 </ul>
 
@@ -68,12 +68,12 @@ metadata:
 
 <ul>
   <li><strong>No important page is more than 3 clicks from the homepage.</strong> Deep pages receive less crawl budget and less PageRank. If something is important, it should be accessible shallowly.</li>
-  <li><strong>Internal links use descriptive anchor text.</strong> "Click here" and "read more" are wasted opportunities. Anchor text sends relevance signals — use natural, descriptive phrases that include your target keyword where appropriate.</li>
+  <li><strong>Internal links use descriptive anchor text.</strong> "Click here" and "read more" are wasted opportunities. Anchor text sends relevance signals - use natural, descriptive phrases that include your target keyword where appropriate.</li>
   <li><strong>Redirect chains are eliminated.</strong> A → B → C should be cleaned to A → C. Every redirect in a chain costs crawl budget and dilutes link equity.</li>
   <li><strong>No redirect loops exist.</strong> Page A redirecting to Page B which redirects back to Page A causes crawl errors. Run a crawl to detect these.</li>
   <li><strong>All internal links point to canonical URLs.</strong> Linking to non-canonical versions of pages creates crawl confusion. Audit internal links and update them to point directly to the canonical destination.</li>
   <li><strong>Pillar pages are well-linked from cluster content.</strong> Topic clusters work when the supporting pages consistently link back to the pillar, passing authority and signalling topical depth.</li>
-  <li><strong>Navigation includes keyword-relevant anchor text.</strong> Global navigation links are crawled on every page — the anchor text in navigation carries significant weight for the linked pages.</li>
+  <li><strong>Navigation includes keyword-relevant anchor text.</strong> Global navigation links are crawled on every page - the anchor text in navigation carries significant weight for the linked pages.</li>
   <li><strong>Broken internal links are fixed.</strong> Internal 404s are both a user experience problem and a crawl efficiency problem. Run a monthly crawl to catch these.</li>
 </ul>
 
@@ -104,7 +104,7 @@ metadata:
   <li><strong>Publication date and last modified date are displayed on content pages.</strong> Freshness is a ranking signal for informational queries. Displaying dates also helps LLMs assess whether your content is current.</li>
   <li><strong>External links point to authoritative sources.</strong> Citing reputable sources improves E-E-A-T and provides AI systems with context about the reliability of your claims.</li>
   <li><strong>FAQ sections exist on informational pages where natural Q&A applies.</strong> AI Overviews frequently pull from clearly structured Q&A content. FAQ sections with concise, direct answers are a strong signal.</li>
-  <li><strong>Site speed on mobile passes Core Web Vitals thresholds in the field data.</strong> Field data from CrUX (Chrome User Experience Report) is what Google uses for ranking — not lab scores. Check your domain in the CrUX dashboard directly.</li>
+  <li><strong>Site speed on mobile passes Core Web Vitals thresholds in the field data.</strong> Field data from CrUX (Chrome User Experience Report) is what Google uses for ranking - not lab scores. Check your domain in the CrUX dashboard directly.</li>
   <li><strong>HTTPS is enforced site-wide with no mixed content errors.</strong> HTTPS is a baseline ranking signal and a trust indicator. Mixed content (HTTP resources on HTTPS pages) is flagged by browsers and creates security warnings.</li>
   <li><strong>Canonical tags, OG tags, and meta descriptions are present and accurate on all key pages.</strong> These are basic on-page hygiene items that affect how your pages appear in SERPs and when shared socially.</li>
 </ul>

@@ -15,10 +15,10 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Testing only in a desktop browser's mobile emulator misses real-world conditions — actual devices, actual mobile networks, actual thumbs.
+Testing only in a desktop browser's mobile emulator misses real-world conditions - actual devices, actual mobile networks, actual thumbs.
 
 * Mobile-specific performance audits
 * Touch target and layout testing
 * Real-device and real-network testing
 * Mobile-specific Core Web Vitals tuning
-* App-like experience improvements — PWA features
+* App-like experience improvements - PWA features

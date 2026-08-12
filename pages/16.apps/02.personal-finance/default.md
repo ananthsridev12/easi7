@@ -19,4 +19,4 @@ Most budgeting tools are either too basic to be useful or too complex to keep up
 * Savings goal planning and progress
 * A simple, honest view of where money actually goes
 
-More detail on features and access is coming soon — [get in touch](/contact) if you'd like to hear about it as it develops.
+More detail on features and access is coming soon - [get in touch](/contact) if you'd like to hear about it as it develops.

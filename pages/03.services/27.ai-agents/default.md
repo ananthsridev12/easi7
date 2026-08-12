@@ -20,7 +20,7 @@ sitemap:
 
 cta:
     heading: 'Considering an AI agent for a specific task?'
-    body: "We scope it narrow first — a reliable agent that does one thing beats a broad one that needs constant supervision."
+    body: "We scope it narrow first - a reliable agent that does one thing beats a broad one that needs constant supervision."
     button_label: 'Talk to us'
     button_url: /contact
 ---

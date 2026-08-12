@@ -19,4 +19,4 @@ Two of the most common tracking failures are the same across almost every accoun
 * Tagging templates to prevent inconsistent campaign links
 * Built from the same process behind our [Analytics & Tracking](/services/analytics-tracking) and [UTM Management](/services/analytics-tracking/utm-management) client work
 
-More detail on features and access is coming soon — [get in touch](/contact) if you'd like to hear about it as it develops.
+More detail on features and access is coming soon - [get in touch](/contact) if you'd like to hear about it as it develops.

@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A B2B buyer rarely decides alone — the site needs to arm a champion with what they need to convince other people who never visit it directly.
+A B2B buyer rarely decides alone - the site needs to arm a champion with what they need to convince other people who never visit it directly.
 
 * Content structured for multiple stakeholder roles
 * Case study and proof-point placement

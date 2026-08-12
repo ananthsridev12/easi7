@@ -19,6 +19,6 @@ Design opinions are cheap; research is what separates a design that looks right 
 
 * User interviews and contextual inquiry
 * Usability testing on existing or prototype interfaces
-* Behavioural analytics review — heatmaps, session recordings
+* Behavioural analytics review - heatmaps, session recordings
 * Persona and user journey development
 * Research synthesis into actionable design direction

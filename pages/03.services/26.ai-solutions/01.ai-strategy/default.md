@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Most businesses don't have an AI strategy problem — they have a use-case problem. We start by finding the two or three places AI genuinely saves time or money, not a long wish list.
+Most businesses don't have an AI strategy problem - they have a use-case problem. We start by finding the two or three places AI genuinely saves time or money, not a long wish list.
 
 * AI readiness and opportunity assessment
 * Use case identification and prioritisation

@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-For consultancies, agencies, and other expertise-led businesses, the marketing and the product are closely related — the content itself is often the first proof of competence a prospect sees.
+For consultancies, agencies, and other expertise-led businesses, the marketing and the product are closely related - the content itself is often the first proof of competence a prospect sees.
 
 * Thought leadership content that demonstrates real expertise
 * SEO built around the specific problems your expertise solves

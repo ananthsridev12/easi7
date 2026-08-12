@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Most sites don't need a fully custom build — but when the design or functionality genuinely requires it, a templated approach just becomes a constant fight against the template.
+Most sites don't need a fully custom build - but when the design or functionality genuinely requires it, a templated approach just becomes a constant fight against the template.
 
 * Fully custom design and development
 * Bespoke functionality beyond CMS templates

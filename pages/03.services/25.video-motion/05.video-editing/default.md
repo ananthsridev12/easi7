@@ -3,7 +3,7 @@ title: 'Video Editing'
 template: service-detail
 eyebrow: 'Video & Motion'
 headline: 'Raw footage, turned into something worth publishing'
-summary: 'Video editing services for raw footage — pacing, colour, sound, and structure.'
+summary: 'Video editing services for raw footage - pacing, colour, sound, and structure.'
 tools: ['Video Editing', 'Post-production']
 service_url: /services/video-motion/video-editing
 taxonomy:

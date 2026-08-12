@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Speed isn't a nice-to-have metric — it's directly correlated with bounce rate and conversion. We treat every second like it costs money, because it does.
+Speed isn't a nice-to-have metric - it's directly correlated with bounce rate and conversion. We treat every second like it costs money, because it does.
 
 * Image and asset compression
 * Code splitting and lazy loading

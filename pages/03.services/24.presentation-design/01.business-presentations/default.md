@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-The best slide design disappears behind the message — we design decks that make the speaker look prepared, not the slides look busy.
+The best slide design disappears behind the message - we design decks that make the speaker look prepared, not the slides look busy.
 
 * Slide layout and visual hierarchy
 * Data and chart visualisation on slides

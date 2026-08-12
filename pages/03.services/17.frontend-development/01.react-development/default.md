@@ -15,10 +15,10 @@ sitemap:
     priority: !!float 0.6
 ---
 
-React earns its complexity on interactive, stateful interfaces — dashboards, calculators, portals. We reach for it when the interface genuinely needs it.
+React earns its complexity on interactive, stateful interfaces - dashboards, calculators, portals. We reach for it when the interface genuinely needs it.
 
 * Component-based front-end architecture
 * State management for complex interfaces
 * API integration and data fetching
-* Performance optimisation — code splitting, lazy loading
+* Performance optimisation - code splitting, lazy loading
 * Component library and design system alignment

@@ -14,7 +14,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Healthcare marketing operates under real constraints — regulatory, ethical, and reputational — that generic playbooks ignore. We build campaigns that respect those constraints from the start, not retrofit compliance after the fact.
+Healthcare marketing operates under real constraints - regulatory, ethical, and reputational - that generic playbooks ignore. We build campaigns that respect those constraints from the start, not retrofit compliance after the fact.
 
 * Content and campaigns built with regulatory considerations in mind
 * Trust and credibility signal design for a sceptical audience

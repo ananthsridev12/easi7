@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-The majority of traffic on most sites we build is mobile — building desktop-first and adapting down produces worse mobile experiences than starting mobile-first.
+The majority of traffic on most sites we build is mobile - building desktop-first and adapting down produces worse mobile experiences than starting mobile-first.
 
 * Mobile-first layout and design implementation
 * Cross-device and cross-browser testing

@@ -3,7 +3,7 @@ title: 'SMS Marketing'
 template: service-detail
 eyebrow: 'SMS Marketing'
 headline: 'Short, timely, and impossible to miss'
-summary: 'SMS campaigns for order updates, abandoned-cart recovery, and time-sensitive offers — used sparingly enough that people keep opting in.'
+summary: 'SMS campaigns for order updates, abandoned-cart recovery, and time-sensitive offers - used sparingly enough that people keep opting in.'
 tools: [Transactional, 'Abandoned Cart', 'Opt-in Compliance']
 service_url: /services/messaging-marketing/sms-marketing
 taxonomy:
@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.7
 ---
 
-SMS gets read within minutes, which makes it the right channel for a narrow set of messages — not a replacement for email. We use it for what it's actually good at.
+SMS gets read within minutes, which makes it the right channel for a narrow set of messages - not a replacement for email. We use it for what it's actually good at.
 
 * Order and delivery status updates that reduce support tickets
 * Abandoned-cart recovery sequences timed for the first hour after drop-off

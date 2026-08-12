@@ -18,7 +18,7 @@ sitemap:
 A corporate website has one job in the first five seconds: convince a skeptical visitor this is a real, credible business. Everything else comes after that.
 
 * Information architecture for corporate audiences
-* Trust signal placement — credentials, clients, certifications
+* Trust signal placement - credentials, clients, certifications
 * Multi-department and multi-page site structure
 * Brand-consistent design implementation
 * CMS setup for ongoing internal updates

@@ -20,7 +20,7 @@ sitemap:
 
 cta:
     heading: 'Store built, but not converting?'
-    body: "Before rebuilding, we audit the product pages and checkout flow — that's usually where the revenue is being lost."
+    body: "Before rebuilding, we audit the product pages and checkout flow - that's usually where the revenue is being lost."
     button_label: 'Get a store audit'
     button_url: /contact
 ---

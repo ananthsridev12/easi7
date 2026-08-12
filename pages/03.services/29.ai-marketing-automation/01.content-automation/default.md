@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-AI-generated first drafts save real time on repetitive content — the judgment on what to publish still belongs to a person.
+AI-generated first drafts save real time on repetitive content - the judgment on what to publish still belongs to a person.
 
 * AI-assisted first-draft generation
 * Content variation for A/B testing

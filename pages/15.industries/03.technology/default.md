@@ -14,7 +14,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Technology categories move fast — a differentiator this quarter can be table stakes next quarter. We build positioning and content strategy designed to be revisited, not set once and left alone.
+Technology categories move fast - a differentiator this quarter can be table stakes next quarter. We build positioning and content strategy designed to be revisited, not set once and left alone.
 
 * Competitive positioning reviewed on a real cadence, not just at launch
 * Content strategy built around category education and differentiation

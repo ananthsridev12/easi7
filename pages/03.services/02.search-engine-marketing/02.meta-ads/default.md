@@ -18,7 +18,7 @@ sitemap:
 Meta rewards accounts that test fast and react faster. We treat the ad account like a live experiment, not a set-and-forget budget line.
 
 * Campaign structure and budget allocation
-* Bid strategy selection — cost cap, ROAS target, and more
+* Bid strategy selection - cost cap, ROAS target, and more
 * Creative testing velocity and iteration cycles
 * Conversions API and pixel accuracy
 * Ad account health and policy compliance

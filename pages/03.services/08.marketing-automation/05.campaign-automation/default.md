@@ -19,6 +19,6 @@ Building the same campaign logic manually every month wastes the one advantage a
 
 * Multi-channel campaign workflow design
 * Trigger-based campaign launches
-* Cross-platform automation — email, ads, CRM
+* Cross-platform automation - email, ads, CRM
 * Campaign performance dashboards
 * Ongoing workflow maintenance

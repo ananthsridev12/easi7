@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Cross-channel patterns — a creative that fatigues faster on one platform, a keyword cluster underperforming for a specific segment — are easy to miss manually and fast for a model to surface.
+Cross-channel patterns - a creative that fatigues faster on one platform, a keyword cluster underperforming for a specific segment - are easy to miss manually and fast for a model to surface.
 
 * Cross-channel data aggregation
 * AI-assisted pattern and trend detection

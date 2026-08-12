@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Being on every platform is not a strategy — it's a way to be mediocre everywhere. We help decide where to actually show up, and why.
+Being on every platform is not a strategy - it's a way to be mediocre everywhere. We help decide where to actually show up, and why.
 
 * Platform prioritisation based on audience fit
 * Brand voice and positioning framework

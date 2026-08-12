@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-On-page SEO is the layer most sites get half right — a keyword in the title, nothing else aligned to how the page is actually meant to rank. We work page by page, matching structure to intent.
+On-page SEO is the layer most sites get half right - a keyword in the title, nothing else aligned to how the page is actually meant to rank. We work page by page, matching structure to intent.
 
 * Title tag and meta description optimisation at scale
 * Header structure and keyword placement

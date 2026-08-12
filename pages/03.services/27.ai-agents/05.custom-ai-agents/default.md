@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Off-the-shelf agent tools cover common patterns well — when the workflow is specific enough, a custom-built agent is the more reliable option.
+Off-the-shelf agent tools cover common patterns well - when the workflow is specific enough, a custom-built agent is the more reliable option.
 
 * Workflow-specific agent design
 * Tool and API access scoping for agents

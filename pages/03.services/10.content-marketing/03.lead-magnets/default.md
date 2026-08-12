@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A vague ebook gets ignored. A checklist that solves one specific, named problem gets downloaded and used — that's the difference we design for.
+A vague ebook gets ignored. A checklist that solves one specific, named problem gets downloaded and used - that's the difference we design for.
 
 * Checklist and template design
 * Gated guide and ebook creation

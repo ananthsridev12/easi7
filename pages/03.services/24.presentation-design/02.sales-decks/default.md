@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A sales deck's job is to move a specific deal to the next stage — every slide should earn its place against that goal.
+A sales deck's job is to move a specific deal to the next stage - every slide should earn its place against that goal.
 
 * Narrative structure aligned to sales process
 * Objection-handling slide design

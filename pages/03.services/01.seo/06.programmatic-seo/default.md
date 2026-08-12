@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Programmatic SEO works when the template genuinely varies with the data behind it. It fails, often badly, when it's just the same paragraph with a word swapped — we build the former.
+Programmatic SEO works when the template genuinely varies with the data behind it. It fails, often badly, when it's just the same paragraph with a word swapped - we build the former.
 
 * Keyword-to-template mapping for scalable page generation
 * Data-driven content variation, not spun text

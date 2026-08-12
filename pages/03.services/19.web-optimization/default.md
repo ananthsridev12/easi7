@@ -3,7 +3,7 @@ title: 'Web Optimization'
 template: services
 eyebrow: 'Web Optimization'
 headline: 'A site that stays fast, secure, and online'
-summary: 'Speed, Core Web Vitals, security, and ongoing maintenance — the unglamorous work that keeps a site performing after launch.'
+summary: 'Speed, Core Web Vitals, security, and ongoing maintenance - the unglamorous work that keeps a site performing after launch.'
 tools: ['Core Web Vitals', Security, Maintenance]
 taxonomy:
     service: ['Web Optimization']

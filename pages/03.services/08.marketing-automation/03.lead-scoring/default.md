@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A scoring model is only as good as its calibration against actual closed deals — we build it, then keep tuning it against real outcomes.
+A scoring model is only as good as its calibration against actual closed deals - we build it, then keep tuning it against real outcomes.
 
 * ICP fit scoring criteria
 * Behavioural intent scoring

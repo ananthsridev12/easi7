@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Investors read design discipline as a proxy for operational discipline — a cluttered deck raises questions the numbers alone can't answer.
+Investors read design discipline as a proxy for operational discipline - a cluttered deck raises questions the numbers alone can't answer.
 
 * Financial and metric visualisation
 * Board-ready slide structure

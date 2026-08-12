@@ -21,4 +21,4 @@ sitemap:
 
 A 10,000+ SKU catalogue with no consistent schema, slow product pages, and years of accumulated crawl issues. We ran a full technical audit, implemented product and breadcrumb schema across the catalogue, and fixed Core Web Vitals bottlenecks page-type by page-type.
 
-Organic growth ran in parallel with paid scaling — see the [full case study](/case-studies/giri-trading-ecommerce-growth) for how both worked together across India, the US, and Canada.
+Organic growth ran in parallel with paid scaling - see the [full case study](/case-studies/giri-trading-ecommerce-growth) for how both worked together across India, the US, and Canada.

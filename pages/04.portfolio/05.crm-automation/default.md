@@ -19,6 +19,6 @@ sitemap:
     priority: !!float 0.5
 ---
 
-Leads were arriving faster than sales could follow up manually. We built a 14-day automated nurture sequence — acknowledgement, content, direct ask, value-add, and a final break-up email — wired directly into the CRM with point-based lead scoring so only qualified leads triggered a sales alert.
+Leads were arriving faster than sales could follow up manually. We built a 14-day automated nurture sequence - acknowledgement, content, direct ask, value-add, and a final break-up email - wired directly into the CRM with point-based lead scoring so only qualified leads triggered a sales alert.
 
 **Tags:** CRM, Email Marketing, Workflow Automation.

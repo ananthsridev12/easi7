@@ -15,10 +15,10 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Most marketing ops friction isn't the campaigns — it's the manual handoffs between tools and teams around them. We automate those first.
+Most marketing ops friction isn't the campaigns - it's the manual handoffs between tools and teams around them. We automate those first.
 
 * Marketing ops workflow mapping
 * Approval and asset-request automation
-* Cross-tool workflow builds — Zapier, Make, native integrations
+* Cross-tool workflow builds - Zapier, Make, native integrations
 * Handoff automation between teams
 * Documentation of every automated workflow

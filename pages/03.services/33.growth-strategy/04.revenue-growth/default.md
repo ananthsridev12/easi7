@@ -19,6 +19,6 @@ Traffic and lead growth that never translates to revenue is a vanity win. We bui
 
 * Revenue-attributed marketing planning
 * Pipeline velocity analysis
-* Cross-functional revenue alignment — marketing, sales, success
+* Cross-functional revenue alignment - marketing, sales, success
 * Expansion and upsell revenue strategy
 * Revenue forecasting tied to marketing input

@@ -3,7 +3,7 @@ title: 'Business Websites'
 template: service-detail
 eyebrow: 'Website Development'
 headline: 'A professional web presence, done right the first time'
-summary: 'Small and mid-sized business website builds — professional, fast, and easy to update.'
+summary: 'Small and mid-sized business website builds - professional, fast, and easy to update.'
 tools: ['Business Websites', 'SMB']
 service_url: /services/website-development/business-websites
 taxonomy:
@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Most small business websites fail on the basics — slow, hard to update, and not built with any conversion goal in mind. We fix all three.
+Most small business websites fail on the basics - slow, hard to update, and not built with any conversion goal in mind. We fix all three.
 
 * Professional design suited to the business
 * Fast, mobile-first build

@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Every element on a landing page should either support the conversion goal or get removed — we design by subtraction as much as addition.
+Every element on a landing page should either support the conversion goal or get removed - we design by subtraction as much as addition.
 
 * Single-goal page layout design
 * Above-the-fold hierarchy and clarity

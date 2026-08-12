@@ -9,13 +9,13 @@ service_url: /services/cms-development/jekyll
 taxonomy:
     service: ['Jekyll']
 metadata:
-    description: 'Jekyll static site development services — fast, secure builds for content that doesn''t need a full CMS backend.'
+    description: 'Jekyll static site development services - fast, secure builds for content that doesn''t need a full CMS backend.'
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
 ---
 
-Not every site needs a database. A static site built right is faster, harder to hack, and cheaper to host — Jekyll is one of the cleanest ways to get there.
+Not every site needs a database. A static site built right is faster, harder to hack, and cheaper to host - Jekyll is one of the cleanest ways to get there.
 
 * Jekyll site architecture and setup
 * Markdown-based content workflows

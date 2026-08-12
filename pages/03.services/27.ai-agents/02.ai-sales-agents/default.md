@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-An AI agent that qualifies and books meetings while a rep sleeps is a real productivity gain — the key is knowing exactly when to hand off to a human.
+An AI agent that qualifies and books meetings while a rep sleeps is a real productivity gain - the key is knowing exactly when to hand off to a human.
 
 * Lead qualification conversation flows
 * Automated follow-up sequencing

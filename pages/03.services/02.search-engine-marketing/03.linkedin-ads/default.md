@@ -3,7 +3,7 @@ title: 'LinkedIn Ads'
 template: service-detail
 eyebrow: 'LinkedIn Ads'
 headline: 'The highest-CPC platform, spent with precision'
-summary: 'LinkedIn campaign management for B2B — targeting precise enough to justify the cost per click.'
+summary: 'LinkedIn campaign management for B2B - targeting precise enough to justify the cost per click.'
 tools: ['LinkedIn Campaign Manager', 'ABM Targeting']
 service_url: /services/search-engine-marketing/linkedin-ads
 taxonomy:

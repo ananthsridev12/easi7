@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A launched site isn't a finished site — platforms update, links break, and content ages. Ongoing maintenance is what keeps it from quietly degrading.
+A launched site isn't a finished site - platforms update, links break, and content ages. Ongoing maintenance is what keeps it from quietly degrading.
 
 * Regular CMS and plugin updates
 * Uptime and error monitoring

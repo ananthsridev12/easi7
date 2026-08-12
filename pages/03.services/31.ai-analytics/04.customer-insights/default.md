@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Most businesses already have enough data to understand their customers better — the gap is usually analysis time, which AI-assisted tools close.
+Most businesses already have enough data to understand their customers better - the gap is usually analysis time, which AI-assisted tools close.
 
 * Behavioural and transactional data analysis
 * AI-assisted customer segmentation

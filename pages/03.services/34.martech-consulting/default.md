@@ -20,7 +20,7 @@ sitemap:
 
 cta:
     heading: 'About to buy new marketing software?'
-    body: "Let us audit what you already have first — there's often more overlap than anyone realises."
+    body: "Let us audit what you already have first - there's often more overlap than anyone realises."
     button_label: 'Get a stack audit'
     button_url: /contact
 ---

@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A campaign landing page should be treated as disposable and testable, not precious — built fast, measured, and rebuilt when the data says to.
+A campaign landing page should be treated as disposable and testable, not precious - built fast, measured, and rebuilt when the data says to.
 
 * Campaign-specific landing page builds
 * A/B test-ready page architecture

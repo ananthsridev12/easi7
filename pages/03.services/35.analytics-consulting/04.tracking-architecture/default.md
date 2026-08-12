@@ -18,7 +18,7 @@ sitemap:
 Tracking added incrementally over years without an architecture behind it becomes fragile and hard to trust. We design the foundation first.
 
 * Data layer architecture design
-* Tool integration planning — GA4, GTM, CRM, ads
+* Tool integration planning - GA4, GTM, CRM, ads
 * Naming convention and governance standards
 * Cross-domain and cross-platform tracking design
 * Architecture documentation for long-term maintenance

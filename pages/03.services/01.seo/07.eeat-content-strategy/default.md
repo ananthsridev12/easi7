@@ -2,7 +2,7 @@
 title: 'E-E-A-T & Content Strategy'
 template: service-detail
 eyebrow: 'E-E-A-T & Content Strategy'
-headline: 'Experience, Expertise, Authority, Trust — demonstrated, not claimed'
+headline: 'Experience, Expertise, Authority, Trust - demonstrated, not claimed'
 summary: 'Content and site signals built to satisfy Google''s E-E-A-T framework for competitive, expertise-driven niches.'
 tools: ['Author Signals', 'Trust Signals', 'Content Depth']
 service_url: /services/seo/eeat-content-strategy
@@ -15,10 +15,10 @@ sitemap:
     priority: !!float 0.6
 ---
 
-E-E-A-T isn't a checkbox — it's the difference between content that reads as genuinely informed and content that reads as generated to rank. We build the signals that make the difference visible.
+E-E-A-T isn't a checkbox - it's the difference between content that reads as genuinely informed and content that reads as generated to rank. We build the signals that make the difference visible.
 
 * Author bios and credential signals
 * First-hand experience signals in content
 * Citations and source transparency
-* Trust signals — reviews, credentials, security
+* Trust signals - reviews, credentials, security
 * Content depth benchmarking against top-ranking pages

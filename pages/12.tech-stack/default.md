@@ -10,7 +10,7 @@ sitemap:
     priority: !!float 0.5
 ---
 
-This isn't just a list of tools&mdash;it's our growth infrastructure. Each tool solves a specific problem in the marketing and analytics workflow. From tracking user behaviour to optimising campaign performance to automating lead nurturing, this stack is how we build systems that drive measurable, scalable growth.
+This isn't just a list of tools - it's our growth infrastructure. Each tool solves a specific problem in the marketing and analytics workflow. From tracking user behaviour to optimising campaign performance to automating lead nurturing, this stack is how we build systems that drive measurable, scalable growth.
 
 ### Analytics & Tracking
 
@@ -64,7 +64,7 @@ This isn't just a list of tools&mdash;it's our growth infrastructure. Each tool 
 
 ### How This Stack Drives Growth
 
-* **Accurate Tracking** &mdash; GA4 and GTM ensure every click, conversion, and user journey is captured accurately.
-* **Performance Optimization** &mdash; Real-time dashboards enable continuous campaign optimization and ROI improvement.
-* **Automation at Scale** &mdash; CRM workflows run on autopilot, nurturing leads while freeing time for strategy.
-* **SEO Foundation** &mdash; Technical SEO tools build long-term organic visibility and sustainable growth.
+* **Accurate Tracking** - GA4 and GTM ensure every click, conversion, and user journey is captured accurately.
+* **Performance Optimization** - Real-time dashboards enable continuous campaign optimization and ROI improvement.
+* **Automation at Scale** - CRM workflows run on autopilot, nurturing leads while freeing time for strategy.
+* **SEO Foundation** - Technical SEO tools build long-term organic visibility and sustainable growth.

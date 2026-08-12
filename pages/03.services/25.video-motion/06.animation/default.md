@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Some ideas — an abstract process, a future product, an internal system — are easier to animate clearly than to film convincingly.
+Some ideas - an abstract process, a future product, an internal system - are easier to animate clearly than to film convincingly.
 
 * 2D character and concept animation
 * Illustrated explainer sequences

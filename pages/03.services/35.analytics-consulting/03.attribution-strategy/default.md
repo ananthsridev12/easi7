@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-There's no universally correct attribution model — the right one depends on your funnel length and channel mix. We help pick the one that's actually defensible for yours.
+There's no universally correct attribution model - the right one depends on your funnel length and channel mix. We help pick the one that's actually defensible for yours.
 
 * Attribution model selection and rationale
 * Multi-touch attribution implementation planning

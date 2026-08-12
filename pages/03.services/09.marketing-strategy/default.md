@@ -29,4 +29,4 @@ Marketing stack audits, growth roadmaps, and KPI frameworks for businesses that 
 
 ### Where most audits start
 
-We pull the last 20 closed-won deals and the last 10 churned accounts, and look for the pattern in between. That intersection — fits your offer and likely to succeed as a customer — is the real ICP, and it's usually different from the one currently being targeted.
+We pull the last 20 closed-won deals and the last 10 churned accounts, and look for the pattern in between. That intersection - fits your offer and likely to succeed as a customer - is the real ICP, and it's usually different from the one currently being targeted.

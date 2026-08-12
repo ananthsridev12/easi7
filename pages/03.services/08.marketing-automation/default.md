@@ -27,4 +27,4 @@ cta:
 
 ### The 30-40% problem
 
-Most teams we work with are surprised to find that 30-40% of their "leads" were never real opportunities — they just looked like leads because no scoring system existed. We build the minimum viable scoring model first: ICP fit, intent signals, and recency, then automate the follow-through.
+Most teams we work with are surprised to find that 30-40% of their "leads" were never real opportunities - they just looked like leads because no scoring system existed. We build the minimum viable scoring model first: ICP fit, intent signals, and recency, then automate the follow-through.

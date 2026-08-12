@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-An infographic that needs a paragraph of explanation has failed at the one thing it's supposed to do — make information instantly scannable.
+An infographic that needs a paragraph of explanation has failed at the one thing it's supposed to do - make information instantly scannable.
 
 * Data visualisation design
 * Process and workflow infographics

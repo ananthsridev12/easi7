@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A headless setup makes sense the moment content needs to power more than one front end — a website, an app, a kiosk — without duplicating the CMS.
+A headless setup makes sense the moment content needs to power more than one front end - a website, an app, a kiosk - without duplicating the CMS.
 
 * Headless CMS platform selection and setup
 * Content modelling for multi-channel delivery

@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Shopify makes launching fast — the differentiator is everything after that: theme customisation, app choices, and checkout optimisation that actually move revenue.
+Shopify makes launching fast - the differentiator is everything after that: theme customisation, app choices, and checkout optimisation that actually move revenue.
 
 * Shopify store setup and theme customisation
 * App selection and integration

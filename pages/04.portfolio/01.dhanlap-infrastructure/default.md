@@ -19,7 +19,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-DhanLAP (Ark Neo Financial Services) had campaigns running before it had measurement. We rebuilt the foundation first: GA4 and GTM implemented from scratch with a proper data layer, then CRM automation layered on top so leads didn't just arrive — they got scored, routed, and nurtured automatically.
+DhanLAP (Ark Neo Financial Services) had campaigns running before it had measurement. We rebuilt the foundation first: GA4 and GTM implemented from scratch with a proper data layer, then CRM automation layered on top so leads didn't just arrive - they got scored, routed, and nurtured automatically.
 
 The result was a marketing stack where every number in the dashboard was one the team could actually trust, and act on.
 

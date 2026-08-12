@@ -4,7 +4,7 @@ menu: Contact
 template: contact
 metadata:
     description: 'Get in touch with EASI7 for SEO, performance marketing, analytics, and automation projects.'
-summary: "Tell us about your stack and your goals — we'll tell you honestly whether we're a fit."
+summary: "Tell us about your stack and your goals - we'll tell you honestly whether we're a fit."
 sitemap:
     changefreq: monthly
     priority: !!float 0.7

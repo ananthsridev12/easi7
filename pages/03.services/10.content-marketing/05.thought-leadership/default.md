@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Summarising industry news doesn't build authority — having an actual opinion about it does. We help find and sharpen that opinion.
+Summarising industry news doesn't build authority - having an actual opinion about it does. We help find and sharpen that opinion.
 
 * Founder-voice op-eds and LinkedIn posts
 * Original point-of-view development

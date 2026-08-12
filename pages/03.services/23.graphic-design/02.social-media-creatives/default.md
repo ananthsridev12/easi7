@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A LinkedIn carousel and an Instagram Reel cover need fundamentally different design treatments — we design natively for each platform, not one asset stretched everywhere.
+A LinkedIn carousel and an Instagram Reel cover need fundamentally different design treatments - we design natively for each platform, not one asset stretched everywhere.
 
 * Platform-specific creative templates
 * Carousel and multi-slide design

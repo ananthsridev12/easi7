@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Off-page SEO fails when it's treated as a numbers game — a hundred low-relevance links move the needle less than five well-placed, editorially earned ones.
+Off-page SEO fails when it's treated as a numbers game - a hundred low-relevance links move the needle less than five well-placed, editorially earned ones.
 
 * Digital PR and earned media outreach
 * Relevant, editorially placed backlinks

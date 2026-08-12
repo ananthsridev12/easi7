@@ -4,7 +4,7 @@ menu: Home
 template: home
 
 metadata:
-    description: 'EASI7 is a data-driven digital marketing studio in Chennai, India — analytics, performance marketing, SEO, and automation run as one system.'
+    description: 'EASI7 is a data-driven digital marketing studio in Chennai, India - analytics, performance marketing, SEO, and automation run as one system.'
 
 sitemap:
     changefreq: weekly
@@ -13,7 +13,7 @@ sitemap:
 hero:
     eyebrow: 'Data-driven digital marketing studio · Chennai, India'
     headline: 'Marketing infrastructure that compounds.'
-    lede: 'EASI7 runs analytics, paid media, SEO, and automation as one connected system instead of five disconnected vendors — so every campaign makes the next one cheaper.'
+    lede: 'EASI7 runs analytics, paid media, SEO, and automation as one connected system instead of five disconnected vendors - so every campaign makes the next one cheaper.'
     readout:
         label: 'LIVE ACCOUNT SNAPSHOT'
         tag: 'DHANLAP · FINTECH'
@@ -54,7 +54,7 @@ resources_preview:
 
 cta:
     heading: 'Your stack is probably leaking budget somewhere.'
-    body: "A 30-minute audit call, no deck, no pitch — just where the money's going."
+    body: "A 30-minute audit call, no deck, no pitch - just where the money's going."
     button_label: 'Book a strategy call'
     button_url: /contact
 ---

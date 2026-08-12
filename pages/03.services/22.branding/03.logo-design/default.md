@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A logo that only works at billboard size on a colour background isn't finished — we test every mark in black and white, at favicon size, before calling it done.
+A logo that only works at billboard size on a colour background isn't finished - we test every mark in black and white, at favicon size, before calling it done.
 
 * Concept development and exploration
 * Legibility testing at multiple sizes

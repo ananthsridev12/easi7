@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Sometimes the content model is unusual enough that forcing it into WordPress creates more workarounds than it solves. We build flat-file and custom CMS solutions — like the one running this site — when that's genuinely the better fit.
+Sometimes the content model is unusual enough that forcing it into WordPress creates more workarounds than it solves. We build flat-file and custom CMS solutions - like the one running this site - when that's genuinely the better fit.
 
 * Custom content model design
 * Grav and other flat-file CMS builds

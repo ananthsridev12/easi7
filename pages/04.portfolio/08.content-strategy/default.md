@@ -19,4 +19,4 @@ sitemap:
     priority: !!float 0.5
 ---
 
-Content built from keyword clusters, not a random topic calendar — every piece mapped to a specific stage of the buying journey and a specific set of target keywords, with existing pages refreshed before any new ones were written.
+Content built from keyword clusters, not a random topic calendar - every piece mapped to a specific stage of the buying journey and a specific set of target keywords, with existing pages refreshed before any new ones were written.

@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Marketing often knows the competitive landscape better than sales does — sales enablement is how that knowledge actually reaches the sales call.
+Marketing often knows the competitive landscape better than sales does - sales enablement is how that knowledge actually reaches the sales call.
 
 * Sales battle cards and objection-handling docs
 * Case study and proof-point libraries

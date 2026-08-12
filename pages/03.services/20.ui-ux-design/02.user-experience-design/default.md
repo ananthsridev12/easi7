@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Good UX is often invisible — it's the absence of confusion, not a clever interaction. We design for that absence deliberately.
+Good UX is often invisible - it's the absence of confusion, not a clever interaction. We design for that absence deliberately.
 
 * Information architecture and site mapping
 * User flow and task completion design

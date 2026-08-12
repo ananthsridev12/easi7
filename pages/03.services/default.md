@@ -16,7 +16,7 @@ sitemap:
 
 cta:
     heading: 'Not sure which service you need?'
-    body: "Most engagements start with a stack audit — we'll tell you what's actually broken before recommending anything."
+    body: "Most engagements start with a stack audit - we'll tell you what's actually broken before recommending anything."
     button_label: 'Book an audit call'
     button_url: /contact
 ---

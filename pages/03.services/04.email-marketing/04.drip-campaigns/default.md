@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Drip sequences work because they respect pacing — too fast feels like spam, too slow loses momentum. We tune the cadence to the actual decision cycle.
+Drip sequences work because they respect pacing - too fast feels like spam, too slow loses momentum. We tune the cadence to the actual decision cycle.
 
 * Multi-email drip sequence design
 * Timing and cadence optimisation

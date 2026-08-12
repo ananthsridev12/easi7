@@ -13,13 +13,13 @@ metadata:
     description: "AEO for AI search: how to structure content, entities, and schema so LLMs surface your brand in answers and summaries."
 ---
 
-<p>The way people find information is changing faster than it has at any point in the last decade. A growing share of informational queries are now answered directly by AI systems — Google's AI Overviews, Perplexity's answer summaries, ChatGPT's web-browsing responses, and similar AI-powered interfaces — without the user ever clicking through to a website. For marketers and businesses that rely on organic search for traffic and brand visibility, this shift is significant. Answer Engine Optimization (AEO) is how you adapt.</p>
+<p>The way people find information is changing faster than it has at any point in the last decade. A growing share of informational queries are now answered directly by AI systems - Google's AI Overviews, Perplexity's answer summaries, ChatGPT's web-browsing responses, and similar AI-powered interfaces - without the user ever clicking through to a website. For marketers and businesses that rely on organic search for traffic and brand visibility, this shift is significant. Answer Engine Optimization (AEO) is how you adapt.</p>
 
 <h2>What AEO Actually Is</h2>
 
 <p>AEO is the practice of optimising content so that it gets cited, quoted, or referenced in AI-generated answers. Traditional SEO aims to rank your page in position one on a search results page. AEO aims to make your content the source that an AI system draws on when it generates an answer to a relevant query.</p>
 
-<p>These goals are related but not identical. A page can rank in position one on Google Search and not appear in AI Overviews because the content structure is poor for extraction. Conversely, a page that isn't in the top 10 for traditional search can be cited repeatedly in AI answers because it provides a uniquely clear and well-structured response to a specific question. Both things have happened to pages I've tracked — which tells you that AEO requires specific optimisation choices, not just general SEO hygiene.</p>
+<p>These goals are related but not identical. A page can rank in position one on Google Search and not appear in AI Overviews because the content structure is poor for extraction. Conversely, a page that isn't in the top 10 for traditional search can be cited repeatedly in AI answers because it provides a uniquely clear and well-structured response to a specific question. Both things have happened to pages I've tracked - which tells you that AEO requires specific optimisation choices, not just general SEO hygiene.</p>
 
 <h2>How AI Search Engines Process Content</h2>
 
@@ -35,24 +35,24 @@ metadata:
 <ul>
   <li>Traditional SEO rewards comprehensive, long-form content that covers a topic from multiple angles. AEO rewards content that leads with a direct, concise answer and adds context second.</li>
   <li>Traditional SEO benefits from keyword density and semantic relevance throughout the page. AEO benefits from matching the exact phrasing of a query in a heading and answering it in the following paragraph.</li>
-  <li>Traditional SEO focuses on link equity flowing to the page. AEO focuses on entity authority — whether your brand, organisation, or author is established as a trustworthy entity on the topic in question.</li>
+  <li>Traditional SEO focuses on link equity flowing to the page. AEO focuses on entity authority - whether your brand, organisation, or author is established as a trustworthy entity on the topic in question.</li>
 </ul>
 
-<p>These aren't in conflict — a page optimised for AEO will generally perform well for traditional SEO too. But the priorities differ when you're making content structure decisions.</p>
+<p>These aren't in conflict - a page optimised for AEO will generally perform well for traditional SEO too. But the priorities differ when you're making content structure decisions.</p>
 
 <h2>Content Strategies for AEO</h2>
 
 <h3>Lead With the Direct Answer</h3>
 
-<p>For any informational query, the most important AEO technique is simple: answer the question directly in the first paragraph, before any preamble. If someone asks "What is answer engine optimization?", the page should begin with a definition in 2-3 sentences — not with "In today's rapidly changing digital landscape..." followed by four paragraphs before getting to the point. AI systems extract the most relevant passage for the query; if the answer is buried in paragraph five, it may not be extracted at all.</p>
+<p>For any informational query, the most important AEO technique is simple: answer the question directly in the first paragraph, before any preamble. If someone asks "What is answer engine optimization?", the page should begin with a definition in 2-3 sentences - not with "In today's rapidly changing digital landscape..." followed by four paragraphs before getting to the point. AI systems extract the most relevant passage for the query; if the answer is buried in paragraph five, it may not be extracted at all.</p>
 
-<p>Structure the content hierarchy as: direct answer → supporting context → detail and nuance → examples and evidence. This is the inverse of how many content writers are trained — "build up to the point" — but it's the structure that serves both AI extraction and user experience simultaneously.</p>
+<p>Structure the content hierarchy as: direct answer → supporting context → detail and nuance → examples and evidence. This is the inverse of how many content writers are trained - "build up to the point" - but it's the structure that serves both AI extraction and user experience simultaneously.</p>
 
 <h3>Use Question-Phrased Headings</h3>
 
 <p>AI Overviews and featured snippets are frequently triggered by question-based queries. Headings phrased as questions signal to AI systems that the following section answers that specific question. "How does data-driven attribution work?" is a more AEO-friendly heading than "Understanding Data-Driven Attribution." The former matches query syntax directly; the latter is descriptive but not question-aligned.</p>
 
-<p>Identify the specific questions your target audience is asking — use Google's "People Also Ask" boxes, AnswerThePublic, and Google Search Console's query data — and structure your content around those exact phrasings.</p>
+<p>Identify the specific questions your target audience is asking - use Google's "People Also Ask" boxes, AnswerThePublic, and Google Search Console's query data - and structure your content around those exact phrasings.</p>
 
 <h3>FAQ Sections as AEO Assets</h3>
 
@@ -70,18 +70,18 @@ metadata:
 
 <p>Schema markup is a direct communication channel between your content and AI systems. The types most relevant for AEO:</p>
 <ul>
-  <li><strong>FAQPage</strong> — marks up question-answer pairs explicitly, making them easy for AI systems to extract</li>
-  <li><strong>HowTo</strong> — marks up step-by-step instructional content, which AI systems can extract as structured steps</li>
-  <li><strong>Article/BlogPosting</strong> — establishes authorship, publication date, and topic, supporting E-E-A-T evaluation</li>
-  <li><strong>Person and Organization</strong> — establishes the entity behind the content, connecting it to external authoritative profiles</li>
-  <li><strong>Speakable</strong> — an emerging schema type that marks specific sections of a page as appropriate for audio or voice response, used by Google Assistant and similar systems</li>
+  <li><strong>FAQPage</strong> - marks up question-answer pairs explicitly, making them easy for AI systems to extract</li>
+  <li><strong>HowTo</strong> - marks up step-by-step instructional content, which AI systems can extract as structured steps</li>
+  <li><strong>Article/BlogPosting</strong> - establishes authorship, publication date, and topic, supporting E-E-A-T evaluation</li>
+  <li><strong>Person and Organization</strong> - establishes the entity behind the content, connecting it to external authoritative profiles</li>
+  <li><strong>Speakable</strong> - an emerging schema type that marks specific sections of a page as appropriate for audio or voice response, used by Google Assistant and similar systems</li>
 </ul>
 
 <h2>E-E-A-T Signals for AEO</h2>
 
 <p>Google's E-E-A-T framework (Experience, Expertise, Authoritativeness, Trustworthiness) has always been important for content quality evaluation. For AEO specifically, these signals determine whether an AI system treats your content as a reliable source worth citing.</p>
 
-<p>Experience: demonstrate first-hand experience with the topic you're writing about. Personal case studies, specific examples from your own work, and genuine insights from doing the thing — not just describing it — signal experience that generic content lacks.</p>
+<p>Experience: demonstrate first-hand experience with the topic you're writing about. Personal case studies, specific examples from your own work, and genuine insights from doing the thing - not just describing it - signal experience that generic content lacks.</p>
 
 <p>Expertise: visible credentials matter. Display author names, job titles, years of experience, and relevant qualifications on every content page. Link author names to author pages that detail their background and link to their professional profiles.</p>
 
@@ -94,11 +94,11 @@ metadata:
 <p>Measuring AEO performance is less straightforward than traditional SEO because AI-generated answers don't always produce trackable clicks. The metrics and methods I use to track AEO visibility:</p>
 
 <ul>
-  <li><strong>Google Search Console AI Overviews appearance data</strong> — Search Console now includes data on impressions and clicks from AI Overview appearances, which gives a baseline measure of how often your content is surfaced in AI-generated results.</li>
-  <li><strong>Manual query testing</strong> — regularly test the specific queries you're targeting in Google, Perplexity, and ChatGPT and note whether your content appears as a cited source. Document this over time to track progress.</li>
-  <li><strong>Branded search volume</strong> — AEO success often manifests as increased branded search volume, as AI-generated answers expose your brand name to users who then search for you directly. Monitor branded search trends in Search Console.</li>
-  <li><strong>Direct traffic</strong> — users who encounter your brand in an AI-generated answer and then visit your site directly show up as direct traffic in GA4. An increase in direct traffic concurrent with AEO efforts is a soft signal of AEO impact.</li>
-  <li><strong>Brand mention monitoring</strong> — tools like Brand24 or Mention.com can track when your brand or content is referenced across the web, including in AI tool outputs that are publicly visible.</li>
+  <li><strong>Google Search Console AI Overviews appearance data</strong> - Search Console now includes data on impressions and clicks from AI Overview appearances, which gives a baseline measure of how often your content is surfaced in AI-generated results.</li>
+  <li><strong>Manual query testing</strong> - regularly test the specific queries you're targeting in Google, Perplexity, and ChatGPT and note whether your content appears as a cited source. Document this over time to track progress.</li>
+  <li><strong>Branded search volume</strong> - AEO success often manifests as increased branded search volume, as AI-generated answers expose your brand name to users who then search for you directly. Monitor branded search trends in Search Console.</li>
+  <li><strong>Direct traffic</strong> - users who encounter your brand in an AI-generated answer and then visit your site directly show up as direct traffic in GA4. An increase in direct traffic concurrent with AEO efforts is a soft signal of AEO impact.</li>
+  <li><strong>Brand mention monitoring</strong> - tools like Brand24 or Mention.com can track when your brand or content is referenced across the web, including in AI tool outputs that are publicly visible.</li>
 </ul>
 
-<p>AEO is not a replacement for traditional SEO — it's an extension of it, adapted for the reality that a growing share of content discovery is mediated by AI systems. The fundamentals remain the same: produce genuinely useful content, establish real authority on your topics, and make the content as accessible and parseable as possible. The structural choices — leading with direct answers, using question-phrased headings, implementing schema rigorously — are what differentiate a traditional content strategy from an AEO-ready one.</p>
+<p>AEO is not a replacement for traditional SEO - it's an extension of it, adapted for the reality that a growing share of content discovery is mediated by AI systems. The fundamentals remain the same: produce genuinely useful content, establish real authority on your topics, and make the content as accessible and parseable as possible. The structural choices - leading with direct answers, using question-phrased headings, implementing schema rigorously - are what differentiate a traditional content strategy from an AEO-ready one.</p>

@@ -20,7 +20,7 @@ sitemap:
 
 cta:
     heading: 'High-stakes presentation coming up?'
-    body: "We design the narrative structure first, then the slides — not the other way round."
+    body: "We design the narrative structure first, then the slides - not the other way round."
     button_label: 'Talk to us'
     button_url: /contact
 ---

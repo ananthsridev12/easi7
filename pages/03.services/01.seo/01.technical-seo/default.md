@@ -26,4 +26,4 @@ Technical SEO that fixes foundations, on-page optimisation that drives rankings,
 
 ### Why AEO matters now
 
-Search behaviour has changed — a growing share of queries never produce a click, answered directly by AI Overviews or assistants. We structure content and markup so your business is the source those answers cite, not the one they skip.
+Search behaviour has changed - a growing share of queries never produce a click, answered directly by AI Overviews or assistants. We structure content and markup so your business is the source those answers cite, not the one they skip.

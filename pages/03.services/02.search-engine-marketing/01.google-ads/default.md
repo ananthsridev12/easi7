@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.7
 ---
 
-Google Ads rewards structure and patience, not bigger budgets thrown at broad match. We build accounts around how buyers actually search, and let the data — not assumptions — decide where budget goes next.
+Google Ads rewards structure and patience, not bigger budgets thrown at broad match. We build accounts around how buyers actually search, and let the data - not assumptions - decide where budget goes next.
 
 * Search campaigns built around problem-aware, comparison, and category keywords
 * Google Shopping feed structuring by margin and demand tier
@@ -27,4 +27,4 @@ Google Ads rewards structure and patience, not bigger budgets thrown at broad ma
 
 ### The mistake we see most
 
-Campaigns handed to Smart Bidding before there's enough conversion data for it to learn from. We run manual or exact/phrase-match campaigns first, build a real conversion history, and only then hand over control — in that order, not the reverse.
+Campaigns handed to Smart Bidding before there's enough conversion data for it to learn from. We run manual or exact/phrase-match campaigns first, build a real conversion history, and only then hand over control - in that order, not the reverse.

@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Not every business wants to outsource SEO indefinitely. We also work as an advisor — building strategy, training your team, and stepping back once you don't need us for the basics.
+Not every business wants to outsource SEO indefinitely. We also work as an advisor - building strategy, training your team, and stepping back once you don't need us for the basics.
 
 * SEO strategy and roadmap development
 * In-house team training and workshops

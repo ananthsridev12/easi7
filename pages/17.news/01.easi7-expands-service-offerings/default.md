@@ -15,6 +15,6 @@ sitemap:
 
 <p>EASI7 has expanded from a digital marketing practice into a full-service studio. What started as analytics, performance marketing, and SEO now covers five disciplines: Digital Marketing, Development, Design, AI &amp; Automation, and Strategy &amp; Consulting.</p>
 
-<p>The reasoning is simple — the businesses we work with rarely need just one of these in isolation. A marketing campaign is only as good as the site it lands on; a website is only as good as the tracking behind it; and increasingly, automation and AI touch every one of those layers.</p>
+<p>The reasoning is simple - the businesses we work with rarely need just one of these in isolation. A marketing campaign is only as good as the site it lands on; a website is only as good as the tracking behind it; and increasingly, automation and AI touch every one of those layers.</p>
 
 <p>Browse the full breakdown on the <a href="/services">Services</a> page.</p>

@@ -19,7 +19,7 @@ sitemap:
     priority: !!float 0.8
 
 cta:
-    heading: 'Already have marketing automation — want it smarter?'
+    heading: 'Already have marketing automation - want it smarter?'
     body: "AI-enhanced scoring and personalisation usually layer on top of what you have, not replace it."
     button_label: 'Talk to us'
     button_url: /contact

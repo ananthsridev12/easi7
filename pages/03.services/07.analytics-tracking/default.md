@@ -20,11 +20,11 @@ sitemap:
 
 cta:
     heading: 'Not sure your tracking is actually accurate?'
-    body: "Every engagement starts with a measurement audit — we'll tell you if the numbers you're already reporting can be trusted."
+    body: "Every engagement starts with a measurement audit - we'll tell you if the numbers you're already reporting can be trusted."
     button_label: 'Get a tracking audit'
     button_url: /contact
 ---
 
 ### Why it comes first
 
-Every engagement starts with a measurement audit. We've seen too many accounts where the "traffic increase" or "lead volume" being reported was actually a tracking bug. Clean infrastructure isn't a nice-to-have — it's the only way to know if anything else we do is working.
+Every engagement starts with a measurement audit. We've seen too many accounts where the "traffic increase" or "lead volume" being reported was actually a tracking bug. Clean infrastructure isn't a nice-to-have - it's the only way to know if anything else we do is working.

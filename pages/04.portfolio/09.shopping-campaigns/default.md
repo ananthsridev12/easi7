@@ -18,4 +18,4 @@ sitemap:
     priority: !!float 0.5
 ---
 
-The product feed was the actual bottleneck, not the bidding strategy. We restructured feed segmentation by margin and demand tier first, then let Smart Bidding optimise within groups that made commercial sense — instead of one flat campaign treating a ₹200 item the same as a ₹20,000 one.
+The product feed was the actual bottleneck, not the bidding strategy. We restructured feed segmentation by margin and demand tier first, then let Smart Bidding optimise within groups that made commercial sense - instead of one flat campaign treating a ₹200 item the same as a ₹20,000 one.

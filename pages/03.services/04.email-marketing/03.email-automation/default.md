@@ -21,4 +21,4 @@ A welcome flow that fires the moment someone signs up outperforms a manually sen
 * Behaviour-triggered automation
 * Abandoned cart and browse-abandonment flows
 * Re-engagement and win-back sequences
-* Platform setup — Klaviyo, HubSpot, Mailchimp, and similar
+* Platform setup - Klaviyo, HubSpot, Mailchimp, and similar

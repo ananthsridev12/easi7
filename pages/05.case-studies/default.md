@@ -16,7 +16,7 @@ sitemap:
 
 cta:
     heading: 'Want results like these?'
-    body: "We'll tell you what's realistic for your stack and budget before we start — not after."
+    body: "We'll tell you what's realistic for your stack and budget before we start - not after."
     button_label: 'Start a conversation'
     button_url: /contact
 ---

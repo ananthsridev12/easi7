@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-LinkedIn's native lead gen forms convert well precisely because they remove friction — we build the targeting and follow-up around that advantage.
+LinkedIn's native lead gen forms convert well precisely because they remove friction - we build the targeting and follow-up around that advantage.
 
 * LinkedIn lead gen form campaigns
 * Sales Navigator-informed targeting

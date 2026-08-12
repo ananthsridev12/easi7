@@ -5,7 +5,7 @@ client: 'Giri Trading Agency'
 industry: E-Commerce
 portfolio_url: /portfolio/ecommerce-seo
 service_url: /services/search-engine-marketing/google-ads
-summary: 'Giri Trading Agency — e-commerce, PPC, SEO. Scaled monthly ad spend from ₹0.5L to ₹3L across India, the US, and Canada while protecting margin.'
+summary: 'Giri Trading Agency - e-commerce, PPC, SEO. Scaled monthly ad spend from ₹0.5L to ₹3L across India, the US, and Canada while protecting margin.'
 metrics:
     - { value: '6×', label: 'Budget scaled' }
     - { value: '+180%', label: 'Traffic growth' }
@@ -22,7 +22,7 @@ sitemap:
 
 ## The challenge
 
-Giri Trading Agency needed to grow paid and organic channels simultaneously across three very different markets — India, the US, and Canada — without paid growth cannibalising margin or organic growth stalling while attention went to ads.
+Giri Trading Agency needed to grow paid and organic channels simultaneously across three very different markets - India, the US, and Canada - without paid growth cannibalising margin or organic growth stalling while attention went to ads.
 
 ## What we did
 
@@ -34,9 +34,9 @@ On the organic side, a full technical SEO pass covered the 10,000+ product catal
 
 ## The results
 
-* **Ad spend scaled 6&times;** — from ₹0.5L to ₹3L per month — while maintaining profitability across all three markets
+* **Ad spend scaled 6&times;** - from ₹0.5L to ₹3L per month - while maintaining profitability across all three markets
 * **180% growth in organic traffic**, driven by technical SEO fixes and structured data at scale
 * **45% improvement in overall ROI**, from tighter Shopping feed segmentation and smart bidding by margin tier
 * A repeatable playbook for launching the same catalogue into a new market without starting SEO from zero
 
-Paid and organic weren't run as separate workstreams — Shopping campaign data informed which product categories got SEO investment first, and vice versa.
+Paid and organic weren't run as separate workstreams - Shopping campaign data informed which product categories got SEO investment first, and vice versa.

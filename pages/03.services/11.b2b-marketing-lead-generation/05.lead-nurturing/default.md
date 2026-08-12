@@ -2,7 +2,7 @@
 title: 'Lead Nurturing'
 template: service-detail
 eyebrow: 'B2B Marketing & Lead Generation'
-headline: 'Most leads aren''t ready yet — that''s fine'
+headline: 'Most leads aren''t ready yet - that''s fine'
 summary: 'Multi-touch nurture sequences that keep not-yet-ready leads warm until they are.'
 tools: ['Nurture Sequences', 'Lifecycle Stages']
 service_url: /services/b2b-marketing-lead-generation/lead-nurturing
@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Most leads that don't convert immediately aren't lost — they're just early. Nurturing is how you stay relevant until timing changes.
+Most leads that don't convert immediately aren't lost - they're just early. Nurturing is how you stay relevant until timing changes.
 
 * Lifecycle-stage nurture sequences
 * Behavioural trigger-based emails

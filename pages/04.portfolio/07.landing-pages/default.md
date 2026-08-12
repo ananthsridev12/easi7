@@ -19,4 +19,4 @@ sitemap:
     priority: !!float 0.5
 ---
 
-Every landing page shipped with a hypothesis and an A/B test attached — headline framing, form length, and proof placement were the three variables tested most often. The pages that won stayed; the ones that didn't got rebuilt within a week rather than left running on hope.
+Every landing page shipped with a hypothesis and an A/B test attached - headline framing, form length, and proof placement were the three variables tested most often. The pages that won stayed; the ones that didn't got rebuilt within a week rather than left running on hope.

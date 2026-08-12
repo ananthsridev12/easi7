@@ -3,7 +3,7 @@ title: 'CMS Development'
 template: services
 eyebrow: 'CMS Development'
 headline: 'A CMS chosen for the job, not out of habit'
-summary: 'WordPress, headless, and custom CMS builds — matched to what the site actually needs to do.'
+summary: 'WordPress, headless, and custom CMS builds - matched to what the site actually needs to do.'
 tools: [WordPress, Headless, 'Custom CMS']
 taxonomy:
     service: ['CMS Development']
@@ -25,4 +25,4 @@ cta:
     button_url: /contact
 ---
 
-Fast, conversion-optimised web properties built on the CMS that actually fits — not whatever the last developer happened to know.
+Fast, conversion-optimised web properties built on the CMS that actually fits - not whatever the last developer happened to know.

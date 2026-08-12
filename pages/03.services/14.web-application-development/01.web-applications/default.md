@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Off-the-shelf software is right most of the time — until the workflow is specific enough that forcing it into a generic tool costs more than building for it.
+Off-the-shelf software is right most of the time - until the workflow is specific enough that forcing it into a generic tool costs more than building for it.
 
 * Requirements and workflow mapping
 * Custom web application architecture

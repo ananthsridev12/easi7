@@ -20,5 +20,5 @@ A single retargeting audience of "all visitors" wastes budget on people who were
 * Segmented retargeting by page and behaviour
 * Dynamic product retargeting for e-commerce
 * Frequency capping to avoid ad fatigue
-* Cross-platform retargeting — Google, Meta, LinkedIn
+* Cross-platform retargeting - Google, Meta, LinkedIn
 * Sequential messaging by funnel stage

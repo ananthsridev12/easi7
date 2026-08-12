@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A lead missing company size, industry, or role costs a rep five minutes of manual lookup — enrichment removes that step before the lead ever reaches them.
+A lead missing company size, industry, or role costs a rep five minutes of manual lookup - enrichment removes that step before the lead ever reaches them.
 
 * Automated firmographic data append
 * Contact and role data enrichment

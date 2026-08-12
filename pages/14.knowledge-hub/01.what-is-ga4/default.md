@@ -12,8 +12,8 @@ sitemap:
     priority: !!float 0.4
 ---
 
-**GA4** is Google's current analytics platform, built entirely around events instead of the pageview-and-session model Universal Analytics used. Every interaction — a page view, a scroll, a form submission, a video play — is logged as an event with parameters attached, rather than being forced into a rigid pageview/goal structure.
+**GA4** is Google's current analytics platform, built entirely around events instead of the pageview-and-session model Universal Analytics used. Every interaction - a page view, a scroll, a form submission, a video play - is logged as an event with parameters attached, rather than being forced into a rigid pageview/goal structure.
 
-That shift matters for two reasons. First, it makes cross-platform measurement (web and app together) possible in one property. Second, it means most of the useful reporting comes from *configuring events properly*, not from GA4's default reports — a poorly configured GA4 property will look empty even on a busy site.
+That shift matters for two reasons. First, it makes cross-platform measurement (web and app together) possible in one property. Second, it means most of the useful reporting comes from *configuring events properly*, not from GA4's default reports - a poorly configured GA4 property will look empty even on a busy site.
 
 For most businesses, a proper GA4 setup means: key conversion events explicitly marked, a data layer feeding Google Tag Manager, and at least a handful of custom dimensions capturing whatever your business actually needs to segment by (plan type, lead source, product category).

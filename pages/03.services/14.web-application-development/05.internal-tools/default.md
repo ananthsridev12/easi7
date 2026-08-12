@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-An internal tool doesn't need to be pretty — it needs to save the specific ten people who use it every day real time, every single day.
+An internal tool doesn't need to be pretty - it needs to save the specific ten people who use it every day real time, every single day.
 
 * Operational workflow tools
 * Internal reporting and dashboard builds

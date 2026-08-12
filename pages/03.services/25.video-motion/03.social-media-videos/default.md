@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Most social video is watched sound-off in the first three seconds — we design for that reality, not for a cinema audience.
+Most social video is watched sound-off in the first three seconds - we design for that reality, not for a cinema audience.
 
 * Short-form vertical video production
 * Caption and text-overlay design for sound-off viewing

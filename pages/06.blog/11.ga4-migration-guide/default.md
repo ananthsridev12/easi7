@@ -13,21 +13,21 @@ metadata:
     description: "Universal Analytics is gone. Here is my practical GA4 migration guide with clean tracking, AI-ready reporting, and conversion integrity."
 ---
 
-<p>Universal Analytics stopped processing data in July 2023. If you haven't completed your GA4 migration, you're running your business on a measurement gap. If you migrated hastily — copied your UA event structure across, set up goals without thinking about conversion quality, and never connected GA4 to BigQuery — you may have GA4 in place but not a GA4 setup that's actually useful for decision-making. This guide covers both scenarios: a proper migration from scratch and an audit of existing GA4 implementations that aren't performing as they should.</p>
+<p>Universal Analytics stopped processing data in July 2023. If you haven't completed your GA4 migration, you're running your business on a measurement gap. If you migrated hastily - copied your UA event structure across, set up goals without thinking about conversion quality, and never connected GA4 to BigQuery - you may have GA4 in place but not a GA4 setup that's actually useful for decision-making. This guide covers both scenarios: a proper migration from scratch and an audit of existing GA4 implementations that aren't performing as they should.</p>
 
 <h2>UA vs GA4: The Fundamental Model Difference</h2>
 
 <p>Universal Analytics was built around sessions and pageviews. Every interaction was slotted into a session, and reports were structured around session-based dimensions: bounce rate (sessions with one interaction), sessions per user, pageviews per session. Goals in UA were event- or destination-based, and each hit type (pageview, event, social, transaction) was a separate entity.</p>
 
-<p>GA4 is built around events and parameters. Every interaction — page view, scroll, click, purchase, custom event — is an event with associated parameters. There are no separate hit types; everything is an event. Sessions still exist as a derived concept, but they're not the primary unit of analysis. Users are the primary unit, and their behaviour is described through event sequences rather than session metrics.</p>
+<p>GA4 is built around events and parameters. Every interaction - page view, scroll, click, purchase, custom event - is an event with associated parameters. There are no separate hit types; everything is an event. Sessions still exist as a derived concept, but they're not the primary unit of analysis. Users are the primary unit, and their behaviour is described through event sequences rather than session metrics.</p>
 
-<p>This shift has practical implications. Bounce rate in UA (single-page sessions) is replaced in GA4 by Engagement Rate (sessions with at least 10 seconds of engagement, a page view, or a conversion). Average session duration is replaced by Average Engagement Time. These are generally more meaningful metrics — a user who reads a long article and leaves without clicking anything was counted as a 100% bounce in UA but as an engaged session in GA4. But the transition requires recalibrating what "good performance" looks like in the new metrics framework.</p>
+<p>This shift has practical implications. Bounce rate in UA (single-page sessions) is replaced in GA4 by Engagement Rate (sessions with at least 10 seconds of engagement, a page view, or a conversion). Average session duration is replaced by Average Engagement Time. These are generally more meaningful metrics - a user who reads a long article and leaves without clicking anything was counted as a 100% bounce in UA but as an engaged session in GA4. But the transition requires recalibrating what "good performance" looks like in the new metrics framework.</p>
 
 <h2>Step 1: Build a Measurement Plan Before Implementing Anything</h2>
 
-<p>The most expensive mistake in any GA4 implementation is tracking everything without a measurement plan and ending up with a data lake full of events that nobody knows how to interpret. I've audited GA4 accounts with 200+ custom events where the marketing team could only meaningfully use 8 of them — and the 8 they needed were either missing or inconsistently configured.</p>
+<p>The most expensive mistake in any GA4 implementation is tracking everything without a measurement plan and ending up with a data lake full of events that nobody knows how to interpret. I've audited GA4 accounts with 200+ custom events where the marketing team could only meaningfully use 8 of them - and the 8 they needed were either missing or inconsistently configured.</p>
 
-<p>A measurement plan is a simple document that maps your business questions to the data you need to answer them. Start with three to five primary business objectives — for example, "increase qualified demo requests from paid search" or "improve free-to-paid trial conversion rate." For each objective, define the key events and parameters that measure progress toward that objective. For "increase qualified demo requests," you need a generate_lead event with source, medium, campaign, and lead_type parameters. That's it — not 15 different events for every micro-interaction on the page.</p>
+<p>A measurement plan is a simple document that maps your business questions to the data you need to answer them. Start with three to five primary business objectives - for example, "increase qualified demo requests from paid search" or "improve free-to-paid trial conversion rate." For each objective, define the key events and parameters that measure progress toward that objective. For "increase qualified demo requests," you need a generate_lead event with source, medium, campaign, and lead_type parameters. That's it - not 15 different events for every micro-interaction on the page.</p>
 
 <p>This scoping discipline is what separates GA4 setups that produce useful insight from those that produce overwhelming noise.</p>
 
@@ -41,23 +41,23 @@ metadata:
 
 <h2>Step 3: GTM Implementation and Configuration</h2>
 
-<p>Implement GA4 through GTM rather than directly in page code — this gives you the flexibility to add, modify, or remove tags without code deployments, and it centralises your measurement implementation in a way that's auditable and maintainable.</p>
+<p>Implement GA4 through GTM rather than directly in page code - this gives you the flexibility to add, modify, or remove tags without code deployments, and it centralises your measurement implementation in a way that's auditable and maintainable.</p>
 
 <p>The GTM setup for GA4 requires: one GA4 Configuration tag that fires on All Pages (this initialises the GA4 tracker and sends page_view events), and individual GA4 Event tags for each custom event in your measurement plan. Each Event tag is triggered by a Custom Event trigger that listens for the corresponding data layer event name.</p>
 
-<p>Configure Enhanced Measurement in the GA4 Data Stream settings — this enables automatic tracking of scrolls (90% scroll depth), outbound clicks, site search (if you have an internal search function), video engagement (for YouTube embeds), and file downloads. These are genuinely useful events that don't require custom implementation. However, review each Enhanced Measurement toggle and disable any that are causing problems — the outbound click event sometimes fires on form submission links and can create confusing data.</p>
+<p>Configure Enhanced Measurement in the GA4 Data Stream settings - this enables automatic tracking of scrolls (90% scroll depth), outbound clicks, site search (if you have an internal search function), video engagement (for YouTube embeds), and file downloads. These are genuinely useful events that don't require custom implementation. However, review each Enhanced Measurement toggle and disable any that are causing problems - the outbound click event sometimes fires on form submission links and can create confusing data.</p>
 
-<p>For cross-domain tracking (if your website spans multiple domains — for example, your marketing site on domain.com and your app on app.domain.com), configure cross-domain measurement in the GA4 Data Stream settings. Without this, GA4 treats a user crossing from one domain to another as a new session with direct traffic source, destroying attribution accuracy for any user who converts on a subdomain.</p>
+<p>For cross-domain tracking (if your website spans multiple domains - for example, your marketing site on domain.com and your app on app.domain.com), configure cross-domain measurement in the GA4 Data Stream settings. Without this, GA4 treats a user crossing from one domain to another as a new session with direct traffic source, destroying attribution accuracy for any user who converts on a subdomain.</p>
 
 <h2>Step 4: Conversion Configuration</h2>
 
-<p>This is where GA4 migrations most frequently go wrong. The UA goal structure (up to 20 goals, configured in the admin interface) has been replaced by GA4's conversion events, which are simply events that you've marked as conversions. Any event in GA4 can be marked as a conversion with a toggle — and this ease of setup leads to the mistake of marking too many events as conversions.</p>
+<p>This is where GA4 migrations most frequently go wrong. The UA goal structure (up to 20 goals, configured in the admin interface) has been replaced by GA4's conversion events, which are simply events that you've marked as conversions. Any event in GA4 can be marked as a conversion with a toggle - and this ease of setup leads to the mistake of marking too many events as conversions.</p>
 
 <p>The rule I follow: only mark 3-5 events as conversions, and those events should represent genuine business outcomes, not engagement signals. Generate_lead is a conversion event. Cta_click is not. Form_submit might be, if it's the last step before a lead enters your CRM. Scroll_depth is not. Session_start is emphatically not.</p>
 
-<p>Why does this matter? Because your conversion events feed Smart Bidding in Google Ads and Smart Campaigns in Meta. If you import GA4 conversions that include page_view or scroll events, you're telling the bidding algorithms to optimise for pageviews — which they will do very efficiently, while completely failing to drive actual business results.</p>
+<p>Why does this matter? Because your conversion events feed Smart Bidding in Google Ads and Smart Campaigns in Meta. If you import GA4 conversions that include page_view or scroll events, you're telling the bidding algorithms to optimise for pageviews - which they will do very efficiently, while completely failing to drive actual business results.</p>
 
-<p>For e-commerce: implement the standard GA4 purchase event with transaction_id, value, currency, and items parameters. The transaction_id must be unique per transaction and consistent — it's how GA4 deduplicates conversions if the same transaction is tracked from both the data layer and a server-side import.</p>
+<p>For e-commerce: implement the standard GA4 purchase event with transaction_id, value, currency, and items parameters. The transaction_id must be unique per transaction and consistent - it's how GA4 deduplicates conversions if the same transaction is tracked from both the data layer and a server-side import.</p>
 
 <h2>Step 5: BigQuery Export and Looker Studio</h2>
 
@@ -69,15 +69,15 @@ metadata:
 
 <h2>Consent Mode: A Requirement, Not an Option</h2>
 
-<p>Google's Consent Mode (v2, which became required for EEA/UK advertisers in March 2024) allows GA4 and Google Ads to use modelling to fill gaps in data when users decline cookies. Without Consent Mode, you lose conversion data for all users who don't consent to tracking — which, depending on your audience and cookie banner configuration, can be a significant proportion of your traffic.</p>
+<p>Google's Consent Mode (v2, which became required for EEA/UK advertisers in March 2024) allows GA4 and Google Ads to use modelling to fill gaps in data when users decline cookies. Without Consent Mode, you lose conversion data for all users who don't consent to tracking - which, depending on your audience and cookie banner configuration, can be a significant proportion of your traffic.</p>
 
-<p>Implement Consent Mode through GTM using a Consent Initialisation trigger and the appropriate consent commands (gtag('consent', 'default', {...})). Integrate with your cookie consent platform (CookieYes, Cookiebot, OneTrust) to update consent state based on user choices. Verify the implementation using GTM's Preview mode and GA4's DebugView — you should see consent_update events when users interact with your cookie banner.</p>
+<p>Implement Consent Mode through GTM using a Consent Initialisation trigger and the appropriate consent commands (gtag('consent', 'default', {...})). Integrate with your cookie consent platform (CookieYes, Cookiebot, OneTrust) to update consent state based on user choices. Verify the implementation using GTM's Preview mode and GA4's DebugView - you should see consent_update events when users interact with your cookie banner.</p>
 
-<p>In the Indian market, while there's no equivalent to GDPR yet, implementing Consent Mode is still good practice — it prepares you for upcoming privacy regulations and demonstrates data ethics to users who are increasingly privacy-aware.</p>
+<p>In the Indian market, while there's no equivalent to GDPR yet, implementing Consent Mode is still good practice - it prepares you for upcoming privacy regulations and demonstrates data ethics to users who are increasingly privacy-aware.</p>
 
 <h2>Preserving UA Data and the Parallel Tracking Period</h2>
 
-<p>UA data stopped processing in July 2023, but previously collected data remained accessible in the UA interface until July 2024. If you haven't exported your historical UA data, it's now gone from the interface — but your GA4 property should have data from whenever you set it up.</p>
+<p>UA data stopped processing in July 2023, but previously collected data remained accessible in the UA interface until July 2024. If you haven't exported your historical UA data, it's now gone from the interface - but your GA4 property should have data from whenever you set it up.</p>
 
 <p>For historical comparison purposes, export key UA reports (channel performance by month, goal completions by source/medium, landing page performance) to Google Sheets or BigQuery before the access window closed. If you still have access to a UA 360 property (which had an extended deadline), prioritise exporting conversion and channel data that will inform how you interpret GA4 trends.</p>
 
@@ -86,13 +86,13 @@ metadata:
 <ul>
   <li><strong>Copying UA event names directly to GA4.</strong> UA had categories, actions, and labels. GA4 has event names and parameters. Mapping "Category: Form, Action: Submit" to an event named "Form" with action "Submit" is not correct GA4 structure. The event name should be the action: form_submit.</li>
   <li><strong>Not filtering internal traffic.</strong> Traffic from your office IP addresses and your development team inflates engagement metrics and corrupts conversion data. Define internal traffic filters in GA4 Admin > Data Streams > Configure Tag Settings > Define Internal Traffic, and then create a filter that excludes this traffic in Admin > Data Filters.</li>
-  <li><strong>Failing to configure the reporting time zone and currency.</strong> GA4 defaults to US time zone and USD. Set your property to the correct time zone (Asia/Kolkata for Indian businesses) and currency (INR) immediately — changing these later affects how historical data is bucketed by day and how conversion values are reported.</li>
-  <li><strong>Ignoring the session timeout setting.</strong> GA4 defaults to 30-minute session timeout and 2-day engagement session timeout. For business types with longer browsing sessions — B2B SaaS, education, financial services — consider extending the session timeout in Data Stream settings to reduce session fragmentation that artificially inflates session counts.</li>
+  <li><strong>Failing to configure the reporting time zone and currency.</strong> GA4 defaults to US time zone and USD. Set your property to the correct time zone (Asia/Kolkata for Indian businesses) and currency (INR) immediately - changing these later affects how historical data is bucketed by day and how conversion values are reported.</li>
+  <li><strong>Ignoring the session timeout setting.</strong> GA4 defaults to 30-minute session timeout and 2-day engagement session timeout. For business types with longer browsing sessions - B2B SaaS, education, financial services - consider extending the session timeout in Data Stream settings to reduce session fragmentation that artificially inflates session counts.</li>
   <li><strong>Not linking GA4 to Google Ads.</strong> The GA4-Google Ads link enables audience sharing, conversion imports from GA4, and the ability to see GA4 sessions and engagement data within the Google Ads interface. Link the two properties in GA4 Admin > Google Ads Links as part of the initial setup.</li>
 </ul>
 
 <h2>Next Steps</h2>
 
-<p>A complete GA4 implementation isn't a one-time project — it's an ongoing measurement infrastructure that requires regular maintenance. Set a quarterly review cadence to check for new events firing unexpectedly (which can happen after site updates), validate that conversion counts are consistent with CRM data, review and update your measurement plan as business objectives evolve, and check that all GTM tags are functioning correctly after any site changes.</p>
+<p>A complete GA4 implementation isn't a one-time project - it's an ongoing measurement infrastructure that requires regular maintenance. Set a quarterly review cadence to check for new events firing unexpectedly (which can happen after site updates), validate that conversion counts are consistent with CRM data, review and update your measurement plan as business objectives evolve, and check that all GTM tags are functioning correctly after any site changes.</p>
 
 <p>For a deeper dive into the data layer design that underlies a clean GA4 implementation, read the companion guide on <a href="/blog/gtm-data-layer-guide">GTM Data Layer Best Practices</a>. And for understanding how to use GA4 data for budget allocation decisions, the <a href="/blog/marketing-attribution-models">Marketing Attribution Models</a> guide covers how to choose the right model for your funnel maturity.</p>

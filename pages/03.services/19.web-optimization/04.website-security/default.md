@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Most website compromises exploit known, unpatched vulnerabilities — not sophisticated attacks. Staying current is most of the battle.
+Most website compromises exploit known, unpatched vulnerabilities - not sophisticated attacks. Staying current is most of the battle.
 
 * SSL and HTTPS configuration
 * CMS and plugin update management

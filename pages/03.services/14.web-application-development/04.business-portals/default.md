@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Internal tools get neglected because nobody outside the company sees them — but they're used every day by the people who matter most to your operations.
+Internal tools get neglected because nobody outside the company sees them - but they're used every day by the people who matter most to your operations.
 
 * Partner and vendor portal design
 * Role-based dashboards

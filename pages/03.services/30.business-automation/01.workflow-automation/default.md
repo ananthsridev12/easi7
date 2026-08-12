@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Marketing automation gets the attention, but the same manual-handoff problems exist in finance, ops, and HR — often with even less tooling applied to them.
+Marketing automation gets the attention, but the same manual-handoff problems exist in finance, ops, and HR - often with even less tooling applied to them.
 
 * Cross-department workflow mapping
 * Tool integration for handoff automation

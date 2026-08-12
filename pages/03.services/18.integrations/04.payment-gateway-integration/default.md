@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A failed payment integration costs revenue silently — customers rarely report it, they just leave. We test every payment path before launch, not just the happy path.
+A failed payment integration costs revenue silently - customers rarely report it, they just leave. We test every payment path before launch, not just the happy path.
 
 * Payment gateway selection and setup
 * Multi-currency and multi-market configuration

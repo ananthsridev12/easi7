@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Most "integration problems" are really just systems that were never actually connected — just exporting and re-importing spreadsheets by hand.
+Most "integration problems" are really just systems that were never actually connected - just exporting and re-importing spreadsheets by hand.
 
 * Custom API integration development
 * Data mapping between systems

@@ -12,8 +12,8 @@ sitemap:
     priority: !!float 0.4
 ---
 
-**CPL (Cost Per Lead)** is simply ad spend divided by the number of leads generated. It's an early, easy-to-game metric — a broader targeting setting or a shorter form can drop CPL while quietly dropping lead quality along with it.
+**CPL (Cost Per Lead)** is simply ad spend divided by the number of leads generated. It's an early, easy-to-game metric - a broader targeting setting or a shorter form can drop CPL while quietly dropping lead quality along with it.
 
-**CAC (Customer Acquisition Cost)** is the fully-loaded cost of turning a stranger into a paying customer — ad spend, plus sales time, plus any tools or commissions involved, divided by the number of new customers.
+**CAC (Customer Acquisition Cost)** is the fully-loaded cost of turning a stranger into a paying customer - ad spend, plus sales time, plus any tools or commissions involved, divided by the number of new customers.
 
-A campaign can have an excellent CPL and a terrible CAC if the leads it produces rarely close. The fix isn't to ignore CPL — it's a useful early signal — but to always look one step further down the funnel: cost per *qualified* lead, then cost per customer, before declaring a campaign a win.
+A campaign can have an excellent CPL and a terrible CAC if the leads it produces rarely close. The fix isn't to ignore CPL - it's a useful early signal - but to always look one step further down the funnel: cost per *qualified* lead, then cost per customer, before declaring a campaign a win.

@@ -18,7 +18,7 @@ sitemap:
 A manual process executed slightly differently each time is a quality problem waiting to happen. Automation forces consistency by default.
 
 * Recurring process identification and mapping
-* Automation tool selection — Zapier, Make, custom
+* Automation tool selection - Zapier, Make, custom
 * Exception handling for edge cases
 * Process documentation and audit trails
 * Ongoing process optimisation

@@ -15,10 +15,10 @@ sitemap:
     priority: !!float 0.6
 ---
 
-Motion should make information easier to follow, not just look impressive — an animated chart should clarify the trend, not distract from it.
+Motion should make information easier to follow, not just look impressive - an animated chart should clarify the trend, not distract from it.
 
 * Animated data visualisation
-* Brand motion identity — logo animation, transitions
+* Brand motion identity - logo animation, transitions
 * Interface micro-interaction design
 * Kinetic typography for messaging
 * Motion style guide development

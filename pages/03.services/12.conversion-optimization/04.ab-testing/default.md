@@ -15,10 +15,10 @@ sitemap:
     priority: !!float 0.6
 ---
 
-A test called early because the number looked good is worse than no test at all — it creates false confidence. We wait for real significance.
+A test called early because the number looked good is worse than no test at all - it creates false confidence. We wait for real significance.
 
 * Test design and sample size calculation
 * Multivariate and sequential testing
 * Statistical significance validation
-* Testing tool setup — VWO, Optimizely, GA4
+* Testing tool setup - VWO, Optimizely, GA4
 * Test result documentation and knowledge base

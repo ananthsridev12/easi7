@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 ---
 
-The useful version of an AI marketing agent handles one narrow, repeatable task reliably — not a general assistant that needs constant correction.
+The useful version of an AI marketing agent handles one narrow, repeatable task reliably - not a general assistant that needs constant correction.
 
 * Task-specific agent scoping
 * Campaign monitoring and alerting agents
