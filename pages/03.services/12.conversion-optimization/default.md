@@ -2,6 +2,7 @@
 title: 'Conversion Optimization'
 template: services
 eyebrow: 'Conversion Optimization'
+icon: "📈"
 headline: 'Get more from the traffic you already have'
 summary: 'Systematic conversion testing across landing pages and funnels, not one-off redesigns.'
 tools: ['A/B Testing', 'Landing Pages', Funnels]

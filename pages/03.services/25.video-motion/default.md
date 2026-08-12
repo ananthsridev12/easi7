@@ -2,6 +2,7 @@
 title: 'Video & Motion'
 template: services
 eyebrow: 'Video & Motion'
+icon: "🎬"
 headline: 'Video built for how it will actually be watched'
 summary: 'Explainer videos, product videos, social content, and motion graphics - designed for the platform and attention span they land in.'
 tools: ['Video Production', 'Motion Design']

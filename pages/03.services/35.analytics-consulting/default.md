@@ -2,6 +2,7 @@
 title: 'Analytics Consulting'
 template: services
 eyebrow: 'Analytics Consulting'
+icon: "🧮"
 headline: 'Decide what to measure before deciding how'
 summary: 'Measurement strategy, attribution, tracking architecture, and data strategy built before implementation, not after.'
 tools: ['Measurement Strategy', 'Data Governance']

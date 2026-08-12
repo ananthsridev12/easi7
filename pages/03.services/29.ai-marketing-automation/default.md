@@ -2,6 +2,7 @@
 title: 'AI-Powered Marketing Automation'
 template: services
 eyebrow: 'AI-Powered Marketing Automation'
+icon: "🧠"
 headline: 'Automation that gets smarter with more data'
 summary: 'Content automation, AI-enhanced lead scoring, enrichment, and personalisation layered on top of your existing marketing automation.'
 tools: ['AI Automation', Personalisation]

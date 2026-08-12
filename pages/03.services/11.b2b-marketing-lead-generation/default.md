@@ -2,6 +2,7 @@
 title: 'B2B Marketing & Lead Generation'
 template: services
 eyebrow: 'B2B Marketing & Lead Generation'
+icon: "🎯"
 headline: 'Pipeline, not just leads'
 summary: 'B2B-specific demand generation and lead gen built around how enterprise buying committees actually decide.'
 tools: [ABM, 'Demand Gen', 'Lead Scoring']

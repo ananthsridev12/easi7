@@ -1,9 +1,26 @@
 {#
-  Expects: item (Page with header.eyebrow / header.headline / header.summary / header.tools)
+  Expects: item (Page with header.eyebrow / header.headline / header.summary / header.tools / header.icon)
+  Optional: variant ('alt' = icon chip + top accent bar; default = bordered hover-lift)
 #}
+{% if variant == 'alt' %}
+<a class="svc-card-alt" href="{{ item.url }}">
+  <div class="accent"></div>
+  <div class="body">
+    <div class="icon-chip">{{ item.header.icon ?? '•' }}</div>
+    <h3>{{ item.header.headline ?? item.title }}</h3>
+    {% if item.header.summary %}<p>{{ item.header.summary }}</p>{% endif %}
+    {% if item.header.tools %}
+    <div class="tools">{% for t in item.header.tools %}<span>{{ t }}</span>{% endfor %}</div>
+    {% endif %}
+  </div>
+</a>
+{% else %}
 <a class="svc-card" href="{{ item.url }}">
   <span class="svc-tag">{{ item.header.eyebrow ?? item.title }}</span>
   <h3>{{ item.header.headline ?? item.title }}</h3>
   {% if item.header.summary %}<p>{{ item.header.summary }}</p>{% endif %}
-  {% if item.header.tools %}<span class="tools">{{ item.header.tools|join(' &middot; ')|upper }}</span>{% endif %}
+  {% if item.header.tools %}
+  <div class="tools">{% for t in item.header.tools %}<span>{{ t }}</span>{% endfor %}</div>
+  {% endif %}
 </a>
+{% endif %}

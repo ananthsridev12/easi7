@@ -1,10 +1,13 @@
 {#
   Expects: item (Page), kind (string label override), meta (string override)
 #}
+{% set k = kind ?? (item.header.kind ?? 'Article') %}
+{% set icon = {'Guide': '&#128218;', 'Glossary': '&#128209;', 'Article': '&#9997;&#65039;', 'News': '&#128240;'}[k] ?? '&#128196;' %}
 <a class="kb-card" href="{{ item.url }}">
   <div class="kb-media"></div>
   <div class="kb-body">
-    <span class="kb-kind">{{ kind ?? (item.header.kind ?? 'Article') }}</span>
+    <div class="kb-icon">{{ icon|raw }}</div>
+    <span class="kb-kind">{{ k }}</span>
     <h3>{{ item.title }}</h3>
     {% if item.header.summary %}<p>{{ item.header.summary }}</p>{% endif %}
     <span class="kb-meta">{{ meta ?? '' }}</span>

@@ -2,6 +2,7 @@
 title: 'Social Media Marketing'
 template: services
 eyebrow: 'Social Media Marketing'
+icon: "💬"
 headline: 'Build demand before someone searches for you'
 summary: 'Paid and organic social built around where your buyers actually spend attention, not just Instagram trends.'
 tools: ['Meta Ads Manager', 'LinkedIn Campaign Manager']

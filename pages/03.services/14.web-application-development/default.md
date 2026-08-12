@@ -2,6 +2,7 @@
 title: 'Web Application Development'
 template: services
 eyebrow: 'Web Application Development'
+icon: "🧩"
 headline: 'Web apps built around the marketing funnel'
 summary: 'Custom web apps, portals, and internal tools built to plug directly into your tracking and CRM - not bolted on after launch.'
 tools: ['React', 'API Integration', PWA]

@@ -2,6 +2,7 @@
 title: 'AI Agents'
 template: services
 eyebrow: 'AI Agents'
+icon: "🕹️"
 headline: 'Agents that do one job reliably'
 summary: 'Marketing, sales, research, and support agents scoped narrowly enough to actually trust in production.'
 tools: ['AI Agents', 'Task Automation']

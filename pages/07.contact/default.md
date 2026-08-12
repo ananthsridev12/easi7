@@ -38,11 +38,10 @@ sitemap:
             <label for="service">Service Interested In</label>
             <select id="service" name="service">
                 <option value="">-- Select a service --</option>
-                <option>Analytics &amp; Tracking</option>
-                <option>Performance Marketing</option>
-                <option>Technical SEO</option>
-                <option>Marketing Automation</option>
-                <option>Web &amp; CMS</option>
+                <option>Digital Marketing</option>
+                <option>Development</option>
+                <option>Design</option>
+                <option>AI &amp; Automation</option>
                 <option>Strategy &amp; Consulting</option>
                 <option>Other</option>
             </select>

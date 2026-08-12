@@ -89,7 +89,7 @@
     <div class="card-grid">
       {% for cat in page.header.categories %}
         {% set item = page.find(cat.route) %}
-        {% if item %}{% include 'partials/cards/service-card.html.twig' with { item: item } %}{% endif %}
+        {% if item %}{% include 'partials/cards/service-card.html.twig' with { item: item, variant: 'alt' } %}{% endif %}
       {% endfor %}
     </div>
   </div>

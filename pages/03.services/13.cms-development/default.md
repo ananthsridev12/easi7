@@ -2,6 +2,7 @@
 title: 'CMS Development'
 template: services
 eyebrow: 'CMS Development'
+icon: "🗂️"
 headline: 'A CMS chosen for the job, not out of habit'
 summary: 'WordPress, headless, and custom CMS builds - matched to what the site actually needs to do.'
 tools: [WordPress, Headless, 'Custom CMS']

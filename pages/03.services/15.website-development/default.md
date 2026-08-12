@@ -2,6 +2,7 @@
 title: 'Website Development'
 template: services
 eyebrow: 'Website Development'
+icon: "🌐"
 headline: 'A site built for the audience actually visiting it'
 summary: 'Corporate, B2B, and business websites built for credibility and conversion, not just launch speed.'
 tools: [WordPress, 'Custom Builds', 'Landing Pages']

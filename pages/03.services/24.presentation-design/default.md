@@ -2,6 +2,7 @@
 title: 'Presentation Design'
 template: services
 eyebrow: 'Presentation Design'
+icon: "📽️"
 headline: 'Slides built to support the argument, not decorate it'
 summary: 'Sales decks, pitch decks, investor presentations, and corporate templates designed for clarity under pressure.'
 tools: ['Slide Design', Storytelling]

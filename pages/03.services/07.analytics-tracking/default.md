@@ -2,6 +2,7 @@
 title: 'Analytics & Tracking'
 template: services
 eyebrow: 'Analytics & Tracking'
+icon: "📊"
 headline: 'Clean data, before anything else'
 summary: 'GA4, GTM, and BigQuery implementations that make every downstream decision trustworthy.'
 tools: [GA4, GTM, PostHog, BigQuery, 'Looker Studio']

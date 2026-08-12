@@ -2,6 +2,7 @@
 title: 'Marketing Automation'
 template: services
 eyebrow: 'Marketing Automation'
+icon: "⚙️"
 headline: 'Leads nurtured while you sleep'
 summary: 'CRM workflows, lead scoring, and campaign automation that move MQLs to SQLs without manual follow-up.'
 tools: [CRM, 'Lead Scoring', Workflows]

@@ -2,6 +2,7 @@
 title: 'MarTech Consulting'
 template: services
 eyebrow: 'MarTech Consulting'
+icon: "🧰"
 headline: 'A stack chosen for your workflow, not a demo'
 summary: 'Marketing technology stack audits, CRM strategy, and platform selection based on actual requirements.'
 tools: ['Stack Audits', 'Platform Selection']

@@ -2,6 +2,7 @@
 title: 'AI Analytics'
 template: services
 eyebrow: 'AI Analytics'
+icon: "🔮"
 headline: 'Analysis that starts further along'
 summary: 'AI-powered reporting, marketing intelligence, predictive analytics, and automated insights that explain the number, not just show it.'
 tools: ['AI Reporting', 'Predictive Analytics']

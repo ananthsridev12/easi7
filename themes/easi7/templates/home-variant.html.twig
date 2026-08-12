@@ -1,0 +1,268 @@
+{#
+  Homepage hero A/B/C/D comparison variant. Reuses the exact same
+  below-the-fold sections as home.html.twig; only the hero markup changes
+  based on page.header.hero_variant (A|B|C|D).
+  Expects: page.header.hero { eyebrow, headline, lede, slides[{tag,caption}] }
+  plus the same stats/services_teaser/process/featured_case_studies/
+  clients/resources_preview/cta fields as the real home page.
+#}
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% set hero = page.header.hero %}
+{% set variant = page.header.hero_variant ?? 'C' %}
+
+{% if variant == 'A' %}
+<section class="hero-full" data-hero-slider>
+  <div class="hero-slider-frame">
+    {% for slide in hero.slides %}
+    <div class="hero-slide{% if loop.first %} active{% endif %}">
+      <div class="hero-slide-placeholder hs-{{ loop.index0 % 4 }}"></div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="scrim"></div>
+  <div class="content wrap">
+    <span class="eyebrow">{{ hero.eyebrow }}</span>
+    <h1 style="margin-top:0.5em;">{{ hero.headline }}</h1>
+    <p class="lede">{{ hero.lede }}</p>
+    <div class="hero-ctas">
+      <a class="btn brass" href="{{ url('/contact') }}">Start a project &rarr;</a>
+      <a class="btn ghost on-dark" href="{{ url('/case-studies') }}">See the case studies</a>
+    </div>
+  </div>
+  {% if hero.slides|length > 1 %}
+  <div class="hero-slider-dots">
+    {% for slide in hero.slides %}
+    <button type="button" class="hero-slider-dot{% if loop.first %} active{% endif %}" data-index="{{ loop.index0 }}" aria-label="Show slide {{ loop.index }}"></button>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+
+{% elseif variant == 'B' %}
+<section class="hero hero-split-top" style="border-bottom:none;">
+  <div class="wrap">
+    <span class="eyebrow">{{ hero.eyebrow }}</span>
+    <h1 style="margin-top:0.5em;max-width:24ch;">{{ hero.headline }}</h1>
+    <p class="lede">{{ hero.lede }}</p>
+    <div class="hero-split-grid">
+      <div class="hero-split-slider" data-hero-slider>
+        <div class="hero-slider-frame">
+          {% for slide in hero.slides %}
+          <div class="hero-slide{% if loop.first %} active{% endif %}">
+            <div class="hero-slide-placeholder hs-{{ loop.index0 % 4 }}">
+              {% if slide.tag %}<span class="hero-slide-tag">{{ slide.tag }}</span>{% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% if hero.slides|length > 1 %}
+        <div class="hero-slider-dots">
+          {% for slide in hero.slides %}
+          <button type="button" class="hero-slider-dot{% if loop.first %} active{% endif %}" data-index="{{ loop.index0 }}" aria-label="Show slide {{ loop.index }}"></button>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      <div class="hero-lead-form">
+        <h3>Get a free audit call</h3>
+        <form action="https://formsubmit.co/{{ config.themes.easi7.company.email }}" method="POST">
+          <input type="hidden" name="_subject" value="New Homepage Lead - EASI7 Website">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="{{ url('/thank-you', true) }}">
+          <div>
+            <label for="hf-name">Name *</label>
+            <input type="text" id="hf-name" name="name" placeholder="Your name" required>
+          </div>
+          <div>
+            <label for="hf-email">Work email *</label>
+            <input type="email" id="hf-email" name="email" placeholder="you@company.com" required>
+          </div>
+          <div>
+            <label for="hf-service">What are you looking for?</label>
+            <select id="hf-service" name="service">
+              <option value="">-- Select a service --</option>
+              <option>Digital Marketing</option>
+              <option>Development</option>
+              <option>Design</option>
+              <option>AI &amp; Automation</option>
+              <option>Strategy &amp; Consulting</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <button class="btn brass" type="submit">Book my call &rarr;</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% elseif variant == 'D' %}
+<section class="hero hero-centered" style="border-bottom:none;">
+  <div class="wrap">
+    <span class="eyebrow">{{ hero.eyebrow }}</span>
+    <h1 style="margin-top:0.5em;">{{ hero.headline }}</h1>
+    <p class="lede">{{ hero.lede }}</p>
+    <div class="hero-ctas">
+      <a class="btn brass" href="{{ url('/contact') }}">Start a project &rarr;</a>
+      <a class="btn ghost" href="{{ url('/case-studies') }}">See the case studies</a>
+    </div>
+    <div class="filmstrip">
+      {% for slide in hero.slides %}
+      <div class="hero-slide-placeholder hs-{{ loop.index0 % 4 }}">
+        {% if slide.tag %}<span class="hero-slide-tag">{{ slide.tag }}</span>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% else %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">{{ hero.eyebrow }}</span>
+      <h1 style="margin-top:0.5em;">{{ hero.headline }}</h1>
+      <p class="lede">{{ hero.lede }}</p>
+      <div class="hero-ctas">
+        <a class="btn brass" href="{{ url('/contact') }}">Start a project &rarr;</a>
+        <a class="btn ghost" href="{{ url('/case-studies') }}">See the case studies</a>
+      </div>
+    </div>
+    <div class="hero-refined-slider">
+      <div class="hero-slider" data-hero-slider>
+        <div class="hero-slider-frame">
+          {% for slide in hero.slides %}
+          <div class="hero-slide{% if loop.first %} active{% endif %}">
+            <div class="hero-slide-placeholder hs-{{ loop.index0 % 4 }}">
+              {% if slide.tag %}<span class="hero-slide-tag">{{ slide.tag }}</span>{% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% if hero.slides|length > 1 %}
+        <div class="hero-slider-dots">
+          {% for slide in hero.slides %}
+          <button type="button" class="hero-slider-dot{% if loop.first %} active{% endif %}" data-index="{{ loop.index0 }}" aria-label="Show slide {{ loop.index }}"></button>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% if page.header.badge %}
+      <div class="hero-badge"><span class="v">{{ page.header.badge.value }}</span><span class="k">{{ page.header.badge.label }}</span></div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.stats %}
+<section class="stat-strip">
+  <div class="wrap stat-grid">
+    {% for stat in page.header.stats %}
+    <div class="stat"><span class="num mono">{{ stat.num }}</span><span class="lbl">{{ stat.label }}</span></div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.services_teaser %}
+<section class="block">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">What we do</span>
+        <h2>Six disciplines, one accountable team.</h2>
+      </div>
+      <p class="lede">From data infrastructure to paid campaigns - we cover the full stack so nothing falls through the cracks between vendors.</p>
+    </div>
+  </div>
+  <div class="wrap" style="padding:0;">
+    <div class="card-grid">
+      {% for route in page.header.services_teaser %}
+        {% set item = page.find(route) %}
+        {% if item %}{% include 'partials/cards/service-card.html.twig' with { item: item, variant: 'alt' } %}{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.process %}
+<section class="block">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">How we work</span>
+        <h2>An engagement built in four stages.</h2>
+      </div>
+    </div>
+    <div class="process-line"></div>
+    <div class="process">
+      {% for step in page.header.process %}
+      <div class="step"><h3>{{ step.title }}</h3><p>{{ step.body }}</p></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.featured_case_studies %}
+<section class="block">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Selected work</span>
+        <h2>Case studies with real numbers attached.</h2>
+      </div>
+      <a class="btn ghost" href="{{ url('/case-studies') }}">View all case studies</a>
+    </div>
+    <div class="cs-grid">
+      {% for route in page.header.featured_case_studies %}
+        {% set item = page.find(route) %}
+        {% if item %}{% include 'partials/cards/case-study-card.html.twig' with { item: item } %}{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.clients %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Who we've worked with</span>
+    <div class="client-strip" style="margin-top:28px;">
+      {% for client in page.header.clients %}
+        <span class="client-name"{% if client.muted %} style="opacity:0.4;"{% endif %}>{{ client.name|raw }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.resources_preview %}
+<section class="block">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Knowledge Hub &amp; Blog</span>
+        <h2>Guides we wish someone had handed us.</h2>
+      </div>
+      <a class="btn ghost" href="{{ url('/knowledge-hub') }}">Visit the Knowledge Hub</a>
+    </div>
+    <div class="kb-grid">
+      {% for res in page.header.resources_preview %}
+        {% set item = page.find(res.route) %}
+        {% if item %}{% include 'partials/cards/kb-card.html.twig' with { item: item, kind: res.kind, meta: res.meta } %}{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.cta %}
+{% include 'partials/cta-band.html.twig' with page.header.cta %}
+{% endif %}
+{% endblock %}

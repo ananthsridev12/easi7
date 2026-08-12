@@ -2,6 +2,7 @@
 title: 'Graphic Design'
 template: services
 eyebrow: 'Graphic Design'
+icon: "🎨"
 headline: 'Creative that supports the campaign, not just the portfolio'
 summary: 'Marketing creatives, social assets, infographics, and print collateral designed to perform, not just look good.'
 tools: ['Marketing Creatives', 'Social Assets']

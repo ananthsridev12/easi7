@@ -2,6 +2,7 @@
 title: Branding
 template: services
 eyebrow: Branding
+icon: "🏷️"
 headline: 'Positioning first, visuals second'
 summary: 'Brand strategy, identity, logo design, and guidelines - built to stay consistent long after the first project ends.'
 tools: ['Brand Strategy', 'Visual Identity']
