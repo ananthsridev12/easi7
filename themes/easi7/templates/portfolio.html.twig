@@ -11,12 +11,29 @@
 </section>
 
 <section class="block" style="border-bottom:none;">
-  <div class="wrap">
-    <div class="pf-grid">
-      {% for item in page.collection() %}
-        {% include 'partials/cards/case-study-card.html.twig' with { item: item } %}
-      {% endfor %}
+  <div class="wrap with-sidebar">
+    <div>
+      <div class="pf-grid">
+        {% for item in page.collection() %}
+          {% include 'partials/cards/case-study-card.html.twig' with { item: item } %}
+        {% endfor %}
+      </div>
     </div>
+    {% include 'partials/sidebar.html.twig' with {
+      links_title: 'Explore',
+      links: [
+        { label: 'Case Studies', url: '/case-studies' },
+        { label: 'Clients', url: '/clients' },
+        { label: 'Services', url: '/services' },
+        { label: 'Industries', url: '/industries' }
+      ],
+      cta: {
+        heading: 'Ready for similar results?',
+        body: "Tell us what's not working and we'll tell you honestly whether we can fix it.",
+        button_label: 'Start a project',
+        button_url: '/contact'
+      }
+    } %}
   </div>
 </section>
 

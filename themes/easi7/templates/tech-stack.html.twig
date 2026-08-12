@@ -1,0 +1,33 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <h1>{{ page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+  </div>
+</section>
+<section class="block" style="border-bottom:none;">
+  <div class="wrap with-sidebar">
+    <div>
+      {{ page.content|raw }}
+    </div>
+    {% include 'partials/sidebar.html.twig' with {
+      links_title: 'Explore',
+      links: [
+        { label: Services, url: '/services' },
+        { label: 'Knowledge Hub', url: '/knowledge-hub' },
+        { label: 'Case Studies', url: '/case-studies' },
+        { label: Blog, url: '/blog' }
+      ],
+      cta: {
+        heading: 'Want this stack running for you?',
+        body: 'We set up and manage every tool on this list for clients directly.',
+        button_label: 'Talk to us',
+        button_url: '/contact'
+      }
+    } %}
+  </div>
+</section>
+{% endblock %}

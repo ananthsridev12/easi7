@@ -11,18 +11,35 @@
 </section>
 
 <section class="block" style="border-bottom:none;">
-  <div class="wrap">
-    <div class="client-grid">
-      {% for client in page.header.clients %}
-      <div class="client-card">
-        {% if client.industry %}<span class="tag industry">{{ client.industry }}</span>{% endif %}
-        <h3>{{ client.name }}</h3>
-        <p>{{ client.description }}</p>
-        {% if client.quote %}<p class="client-quote">&ldquo;{{ client.quote }}&rdquo;</p>{% endif %}
-        {% if client.case_study_url %}<a class="cs-link" href="{{ url(client.case_study_url) }}">Read the case study &rarr;</a>{% endif %}
+  <div class="wrap with-sidebar">
+    <div>
+      <div class="client-grid">
+        {% for client in page.header.clients %}
+        <div class="client-card">
+          {% if client.industry %}<span class="tag industry">{{ client.industry }}</span>{% endif %}
+          <h3>{{ client.name }}</h3>
+          <p>{{ client.description }}</p>
+          {% if client.quote %}<p class="client-quote">&ldquo;{{ client.quote }}&rdquo;</p>{% endif %}
+          {% if client.case_study_url %}<a class="cs-link" href="{{ url(client.case_study_url) }}">Read the case study &rarr;</a>{% endif %}
+        </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
+    {% include 'partials/sidebar.html.twig' with {
+      links_title: 'Explore',
+      links: [
+        { label: 'Case Studies', url: '/case-studies' },
+        { label: 'Portfolio', url: '/portfolio' },
+        { label: 'Industries', url: '/industries' },
+        { label: 'Services', url: '/services' }
+      ],
+      cta: {
+        heading: 'Want to be the next case study?',
+        body: 'We take on a limited number of engagements at a time.',
+        button_label: 'Start a conversation',
+        button_url: '/contact'
+      }
+    } %}
   </div>
 </section>
 

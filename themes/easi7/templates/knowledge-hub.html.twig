@@ -10,42 +10,55 @@
   </div>
 </section>
 
-{% if page.header.guides %}
-<section class="block">
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">Guides</span>
-        <h2>In-depth playbooks from the blog</h2>
-      </div>
-      <a class="btn ghost" href="{{ url('/blog') }}">All articles</a>
-    </div>
-    <div class="kb-grid">
-      {% for res in page.header.guides %}
-        {% set item = page.find(res.route) %}
-        {% if item %}{% include 'partials/cards/kb-card.html.twig' with { item: item, kind: 'Guide', meta: res.meta } %}{% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}
-
 <section class="block" style="border-bottom:none;">
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">Glossary</span>
-        <h2>Marketing &amp; analytics terms, explained plainly</h2>
+  <div class="wrap with-sidebar">
+    <div>
+      {% if page.header.guides %}
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Guides</span>
+          <h2>In-depth playbooks from the blog</h2>
+        </div>
+        <a class="btn ghost" href="{{ url('/blog') }}">All articles</a>
+      </div>
+      <div class="kb-grid" style="margin-bottom:56px;">
+        {% for res in page.header.guides %}
+          {% set item = page.find(res.route) %}
+          {% if item %}{% include 'partials/cards/kb-card.html.twig' with { item: item, kind: 'Guide', meta: res.meta } %}{% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Glossary</span>
+          <h2>Marketing &amp; analytics terms, explained plainly</h2>
+        </div>
+      </div>
+      <div class="glossary-list">
+        {% for item in page.collection() %}
+        <a class="glossary-item" href="{{ item.url }}">
+          <h3>{{ item.title }}</h3>
+          <span class="arrow">&rarr;</span>
+        </a>
+        {% endfor %}
       </div>
     </div>
-    <div class="glossary-list">
-      {% for item in page.collection() %}
-      <a class="glossary-item" href="{{ item.url }}">
-        <h3>{{ item.title }}</h3>
-        <span class="arrow">&rarr;</span>
-      </a>
-      {% endfor %}
-    </div>
+    {% include 'partials/sidebar.html.twig' with {
+      links_title: 'Explore',
+      links: [
+        { label: Blog, url: '/blog' },
+        { label: 'Tools We Use', url: '/tech-stack' },
+        { label: Services, url: '/services' },
+        { label: 'Case Studies', url: '/case-studies' }
+      ],
+      cta: {
+        heading: 'Need something specific explained?',
+        body: "If it's not here yet, just ask us directly.",
+        button_label: 'Get in touch',
+        button_url: '/contact'
+      }
+    } %}
   </div>
 </section>
 {% endblock %}

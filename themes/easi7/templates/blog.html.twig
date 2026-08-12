@@ -11,14 +11,33 @@
 </section>
 
 <section class="block" style="border-bottom:none;">
-  <div class="wrap">
-    <div class="blog-grid">
-      {% for item in page.collection() %}
-        {% set cat = (item.taxonomy.category is defined ? item.taxonomy.category|first : null)|default('Strategy') %}
-        {% set item_date = item.date ? item.date|date('M Y') : '' %}
-        {% include 'partials/cards/kb-card.html.twig' with { item: item, kind: 'Article', meta: cat ~ ' · ' ~ item_date } %}
-      {% endfor %}
+  <div class="wrap with-sidebar">
+    <div>
+      <div class="blog-grid">
+        {% for item in page.collection() %}
+          {% set cat = (item.taxonomy.category is defined ? item.taxonomy.category|first : null)|default('Strategy') %}
+          {% set item_date = item.date ? item.date|date('M Y') : '' %}
+          {% include 'partials/cards/kb-card.html.twig' with { item: item, kind: 'Article', meta: cat ~ ' · ' ~ item_date } %}
+        {% endfor %}
+      </div>
     </div>
+    {% include 'partials/sidebar.html.twig' with {
+      links_title: 'Explore',
+      links: [
+        { label: 'Knowledge Hub', url: '/knowledge-hub' },
+        { label: 'Case Studies', url: '/case-studies' },
+        { label: 'Tools We Use', url: '/tech-stack' },
+        { label: 'About EASI7', url: '/about' }
+      ],
+      recent_title: 'Recent Posts',
+      recent: page.collection()|slice(0, 5),
+      cta: {
+        heading: 'Have a project in mind?',
+        body: "Tell us what's not working — we'll tell you honestly if we can help.",
+        button_label: 'Start a conversation',
+        button_url: '/contact'
+      }
+    } %}
   </div>
 </section>
 {% endblock %}
