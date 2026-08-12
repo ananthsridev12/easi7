@@ -24,3 +24,9 @@ cta:
     button_label: 'Talk to us'
     button_url: /contact
 ---
+
+Most video briefs start with production values and skip the format decision entirely - and format is what actually determines whether the video gets watched. A cinema-style edit optimised for full-screen viewing with sound performs badly on a feed where most people scroll with sound off for the first three seconds.
+
+We plan for the platform first. Social video gets designed for sound-off, thumb-stopping viewing with captions and text overlay carrying the message. Explainer and product videos are scripted around one specific problem solved clearly, rather than a full feature tour nobody finishes watching. Motion graphics are built to clarify information - an animated chart should make a trend easier to follow, not just look impressive - and editing is where pacing and structure actually get decided, regardless of how good the raw footage is.
+
+Animation gets reached for specifically when live-action can't easily show the idea - an abstract process, a future product, an internal system - not as a default choice.

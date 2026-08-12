@@ -24,3 +24,9 @@ cta:
     button_label: 'Get a store audit'
     button_url: /contact
 ---
+
+The platform matters less than most e-commerce owners think - Shopify, Magento, and custom builds all fail in the same predictable ways when the product data, checkout flow, or performance basics are ignored. Picking the right platform for your catalogue size and complexity is step one; building it properly is where most of the value actually sits.
+
+Shopify suits most catalogues that don't need heavy customisation - fast to launch, with the real differentiation coming from theme customisation and app choices rather than the platform itself. Magento earns its complexity for larger catalogues with genuine multi-store or pricing-rule needs. Custom builds make sense when the commerce model - subscriptions, marketplace dynamics, unusual pricing logic - doesn't fit a standard platform at all.
+
+Whichever platform, the same optimisation work applies afterward: product pages, checkout flow, and site search are where revenue is actually won or lost, far more than the initial platform decision.

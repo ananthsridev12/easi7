@@ -24,3 +24,9 @@ cta:
     button_label: 'Get a stack audit'
     button_url: /contact
 ---
+
+Most marketing stacks accumulate tools over years without anyone reviewing what's actually used, which means overlap and redundant spend usually exist well before anyone considers buying something new. A stack audit is almost always the right first move, not another purchase.
+
+We evaluate the stack against actual workflow requirements rather than feature checklists - what's overlapping, what's underused, and what's genuinely missing. CRM strategy covers platform selection and data architecture, but just as importantly, adoption planning, because a CRM sales doesn't trust becomes a compliance exercise rather than a strategic asset. Automation strategy gets decided before automation tooling gets purchased, and platform selection for any new tool is evaluated against your specific requirements, not a vendor's polished demo.
+
+The recurring finding across most audits: the gap usually isn't a missing tool, it's an existing one nobody adopted properly.

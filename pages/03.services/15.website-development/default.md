@@ -24,3 +24,9 @@ cta:
     button_label: 'Start a build'
     button_url: /contact
 ---
+
+A website's job changes depending on who's looking at it, and most site builds get treated identically regardless of audience. A corporate site convincing a skeptical enterprise buyer needs a different structure than a landing page built for a single paid campaign, and both need something different again from a standard business site that just needs to be fast, findable, and easy to update.
+
+We build against the actual audience and goal rather than a generic template. That means corporate and B2B builds are structured around multi-stakeholder research and proof, landing pages are built lean and disposable enough to test and rebuild quickly, and standard business sites are built for speed and easy self-service updates rather than requiring a developer for every content change.
+
+Every build starts with tracking and conversion goals defined up front, not retrofitted after launch once someone asks why nothing is measurable.

@@ -24,3 +24,9 @@ cta:
     button_label: 'Talk to us'
     button_url: /contact
 ---
+
+Marketing automation gets most of the attention, but the same manual-handoff problems - a task tracked in someone's memory instead of a system, data re-entered by hand between tools - exist just as often in finance, operations, and HR, usually with even less tooling applied to fix them.
+
+We automate the workflow before automating the CRM specifically: process mapping to find where a task is repeated the same way every time, then the actual build - workflow automation, data pipelines that sync without manual export/import, scheduled reporting that generates itself, and document automation for the contracts and proposals that currently get rebuilt from scratch each time.
+
+The test we apply before recommending automation for anything: if a human is doing the exact same sequence of steps for the third time this month, that's a candidate. If it changes every time, it usually isn't - that's a process problem, not an automation one.

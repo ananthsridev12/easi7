@@ -24,3 +24,9 @@ cta:
     button_label: 'Get a site audit'
     button_url: /contact
 ---
+
+A launched site is not a finished site. Platforms release updates, plugins go unmaintained, content ages, and Core Web Vitals scores drift as pages accumulate more scripts and images over time - all quietly, without anyone noticing until traffic or conversions start slipping.
+
+We treat this as ongoing infrastructure rather than a one-time launch task. Speed and Core Web Vitals get monitored against the three metrics Google actually measures - not generic speed advice - because fixing the wrong bottleneck doesn't move the numbers that matter. Security and maintenance follow the same logic: most compromises exploit known, unpatched vulnerabilities, so staying current is most of the defence.
+
+If a site hasn't had a technical health check in the last six months, it's worth assuming something has quietly degraded - that's true more often than not.

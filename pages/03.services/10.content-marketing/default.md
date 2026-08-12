@@ -24,3 +24,9 @@ cta:
     button_label: 'Get a content audit'
     button_url: /contact
 ---
+
+Most content programmes fail quietly - not because the writing is bad, but because there was never a plan connecting topics to keywords, funnel stage, or a distribution plan beyond hitting publish. A blog with forty posts and no strategy behind them is a cost centre, not an asset.
+
+We start with the map: keyword clusters and funnel stages first, then a calendar built against that map rather than whatever topic seems interesting this week. Every format after that - articles, lead magnets, whitepapers, thought leadership - gets built to serve a specific stage of that map, and gets a distribution plan before it gets written, not after.
+
+The output compounds when it's structured this way. Content built without the map underneath it just accumulates.

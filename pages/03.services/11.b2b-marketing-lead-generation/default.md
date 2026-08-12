@@ -24,3 +24,9 @@ cta:
     button_label: 'Talk to us'
     button_url: /contact
 ---
+
+B2B lead generation fails most often on quality, not volume - a campaign generating plenty of form fills that sales won't touch because none of them match the actual buying pattern. Fixing that starts with defining the ICP properly: not a job title and company size guess, but a pattern pulled from your last twenty closed-won deals and your last ten churned accounts.
+
+From there, the channel mix matters less than the discipline behind it. Account-based marketing for a short list of named targets, demand generation for building category awareness ahead of direct response, and LinkedIn-specific tactics where your buyers actually spend time professionally. Every lead that comes through gets scored before it reaches sales, and every lead that isn't ready yet goes into a nurture sequence instead of getting written off.
+
+Sales enablement content closes the loop - battle cards and case studies built from what marketing already knows about the competitive landscape, handed to the team that's actually in the room when the deal gets decided.

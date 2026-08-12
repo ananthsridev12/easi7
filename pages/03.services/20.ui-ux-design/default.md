@@ -24,3 +24,9 @@ cta:
     button_label: 'Talk to us'
     button_url: /contact
 ---
+
+Good interfaces get built on evidence, not opinion - the difference between a design that looks right and one that actually works for the people using it usually comes down to whether anyone talked to a real user before the first screen got styled.
+
+Our process runs in order: research first, to understand what people actually do and where they get stuck; wireframes to agree on structure before a single pixel is styled, since debating colour choices before layout is settled wastes everyone's time; prototypes to test flows before development investment; and finally interface design, once the structure underneath it is already validated. Design systems tie it together for anything that needs to stay consistent as it scales - a documented system that doesn't rely on everyone remembering the last decision.
+
+Skipping straight to visual design without the research and structure steps is the single most common reason a "nice looking" interface still tests badly.
