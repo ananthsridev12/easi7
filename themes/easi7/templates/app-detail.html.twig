@@ -1,0 +1,22 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">{{ page.header.eyebrow ?? 'App' }}</span>
+    <h1>{{ page.header.headline ?? page.title }}</h1>
+    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+    <div class="hero-ctas">
+      {% if page.header.app_url %}<a class="btn brass" href="{{ page.header.app_url }}" rel="noopener" target="_blank">Open {{ page.title }} &rarr;</a>{% endif %}
+      <a class="btn ghost" href="{{ url('/contact') }}">Ask us about this &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="block" style="border-bottom:none;">
+  <div class="wrap">
+    {{ page.content|raw }}
+  </div>
+</section>
+{% endblock %}

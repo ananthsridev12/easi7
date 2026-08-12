@@ -343,6 +343,16 @@ nav:
           - { label: Careers, url: /about/careers }
           - { label: Partners, url: /about/partners }
 
+  - label: 'Apps & Tools'
+    url: /apps
+    columns:
+      - category: null
+        items:
+          - { label: 'Family Manager', url: /apps/family-manager }
+          - { label: 'Personal Finance', url: /apps/personal-finance }
+          - { label: 'Post Pilot', url: /apps/post-pilot }
+          - { label: 'IntegrateAI Tracking', url: /apps/integrateai-tracking }
+
   - label: Contact
     url: /contact
 

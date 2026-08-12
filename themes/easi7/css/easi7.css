@@ -120,18 +120,17 @@ nav.primary a:hover,nav.primary a[aria-current="page"]{color:var(--ink);}
 .nav-item.has-mega.open .mega-trigger .chev{transform:rotate(180deg);}
 
 .mega-panel{
+  display:none;
   position:absolute;top:100%;left:0;
   width:min(820px,92vw);
   background:var(--paper-raised);border:1px solid var(--line);border-radius:var(--radius);
   box-shadow:0 24px 48px -20px rgba(20,20,30,0.25);
-  max-height:0;overflow:hidden;opacity:0;pointer-events:none;
-  transition:opacity .15s ease,max-height .2s ease;
   z-index:50;
 }
 .nav-item.has-mega:hover .mega-panel,
 .nav-item.has-mega:focus-within .mega-panel,
 .nav-item.has-mega.open .mega-panel{
-  opacity:1;max-height:700px;pointer-events:auto;
+  display:block;
 }
 .mega-inner{
   display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
@@ -186,9 +185,9 @@ nav.primary a:hover,nav.primary a[aria-current="page"]{color:var(--ink);}
   .nav-item:last-child{border-bottom:none;}
   .nav-link.mega-trigger{width:100%;justify-content:space-between;padding:12px 0;}
   .mega-panel{
-    position:static;transform:none;width:auto;max-width:none;max-height:0;overflow:hidden;
+    display:block;position:static;width:auto;max-height:0;overflow:hidden;
     border:none;box-shadow:none;border-radius:0;background:transparent;
-    opacity:1;visibility:visible;pointer-events:auto;transition:max-height .2s ease;
+    transition:max-height .2s ease;
   }
   .nav-item.open .mega-panel{max-height:2000px;}
   .nav-item.has-mega:hover .mega-panel,
@@ -217,9 +216,10 @@ nav.primary a:hover,nav.primary a[aria-current="page"]{color:var(--ink);}
 .hero .lede{font-size:1.1rem;max-width:44ch;color:var(--ink-soft);}
 .hero-ctas{display:flex;gap:14px;margin-top:1.6em;flex-wrap:wrap;}
 
-.page-hero{padding:32px 0 8px;}
-.page-hero .lede{font-size:1.08rem;max-width:60ch;}
-.page-hero h1{font-size:clamp(1.8rem,3.4vw,2.6rem);}
+.page-hero{padding:24px 0 4px;}
+.page-hero .lede{font-size:1rem;max-width:62ch;}
+.page-hero h1{font-size:clamp(1.5rem,2.4vw,1.9rem);margin-bottom:0.3em;}
+.page-hero .eyebrow{margin-bottom:0.4em;}
 
 .readout{
   background:var(--paper-raised);color:var(--ink);border:1px solid var(--line);border-radius:var(--radius);
