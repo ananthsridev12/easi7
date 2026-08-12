@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="7" fill="#1B1F2A"/>
-  <rect x="8" y="26" width="16" height="2.5" rx="1.25" fill="#B9791E"/>
-  <text x="16" y="21"
+  <rect width="32" height="32" rx="7" fill="#2454E0"/>
+  <text x="16" y="22"
     text-anchor="middle"
-    font-family="'IBM Plex Mono', 'Courier New', monospace"
-    font-size="17"
-    font-weight="600"
-    fill="#F5F1E7"
+    font-family="'Poppins', 'Segoe UI', sans-serif"
+    font-size="18"
+    font-weight="700"
+    fill="#FFFFFF"
     letter-spacing="-0.5">7</text>
 </svg>
