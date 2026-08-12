@@ -303,6 +303,16 @@ nav:
 
   - label: Industries
     url: /industries
+    columns:
+      - category: null
+        items:
+          - { label: 'B2B & SaaS', url: /industries/b2b-saas }
+          - { label: Manufacturing, url: /industries/manufacturing }
+          - { label: Technology, url: /industries/technology }
+          - { label: Healthcare, url: /industries/healthcare }
+          - { label: 'Financial Services', url: /industries/financial-services }
+          - { label: 'E-Commerce', url: /industries/ecommerce }
+          - { label: 'Professional Services', url: /industries/professional-services }
 
   - label: Work
     url: /portfolio
@@ -324,6 +334,14 @@ nav:
 
   - label: About
     url: /about
+    columns:
+      - category: null
+        items:
+          - { label: 'About Us', url: /about }
+          - { label: 'Our Approach', url: /about/our-approach }
+          - { label: 'Our Team', url: /about/our-team }
+          - { label: Careers, url: /about/careers }
+          - { label: Partners, url: /about/partners }
 
   - label: Contact
     url: /contact
