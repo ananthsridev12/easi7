@@ -33,11 +33,11 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": {{ (theme.company.legal_name ?? theme.company.name ?? config.site.title)|json_encode|raw }},
-    "url": {{ url('/', true)|json_encode|raw }},
-    "email": {{ (theme.company.email ?? '')|json_encode|raw }},
-    "telephone": {{ (theme.company.phone ?? '')|json_encode|raw }}{% if social_urls|length %},
-    "sameAs": {{ social_urls|json_encode|raw }}{% endif %}
+    "name": {{ (theme.company.legal_name ?? theme.company.name ?? config.site.title)|json_encode(64)|raw }},
+    "url": {{ url('/', true)|json_encode(64)|raw }},
+    "email": {{ (theme.company.email ?? '')|json_encode(64)|raw }},
+    "telephone": {{ (theme.company.phone ?? '')|json_encode(64)|raw }}{% if social_urls|length %},
+    "sameAs": {{ social_urls|json_encode(64)|raw }}{% endif %}
   }
   </script>
   {% endif %}
