@@ -216,6 +216,56 @@ nav:
   - label: 'Strategy & Consulting'
     url: /services/strategy-consulting
 
+  - label: 'AI & Automation'
+    url: /services
+    columns:
+      - category: 'AI Solutions'
+        url: /services/ai-solutions
+        items:
+          - { label: 'AI Strategy', url: /services/ai-solutions/ai-strategy }
+          - { label: 'AI Consulting', url: /services/ai-solutions/ai-consulting }
+          - { label: 'Generative AI Solutions', url: /services/ai-solutions/generative-ai-solutions }
+          - { label: 'AI-Powered Applications', url: /services/ai-solutions/ai-powered-applications }
+      - category: 'AI Agents'
+        url: /services/ai-agents
+        items:
+          - { label: 'AI Marketing Agents', url: /services/ai-agents/ai-marketing-agents }
+          - { label: 'AI Sales Agents', url: /services/ai-agents/ai-sales-agents }
+          - { label: 'AI Research Agents', url: /services/ai-agents/ai-research-agents }
+          - { label: 'AI Customer Support Agents', url: /services/ai-agents/ai-customer-support-agents }
+          - { label: 'Custom AI Agents', url: /services/ai-agents/custom-ai-agents }
+      - category: 'AI Chatbots'
+        url: /services/ai-chatbots
+        items:
+          - { label: 'Website Chatbots', url: /services/ai-chatbots/website-chatbots }
+          - { label: 'Customer Support Chatbots', url: /services/ai-chatbots/customer-support-chatbots }
+          - { label: 'Lead Generation Chatbots', url: /services/ai-chatbots/lead-generation-chatbots }
+          - { label: 'Internal Knowledge Assistants', url: /services/ai-chatbots/internal-knowledge-assistants }
+      - category: 'AI-Powered Marketing Automation'
+        url: /services/ai-marketing-automation
+        items:
+          - { label: 'Content Automation', url: /services/ai-marketing-automation/content-automation }
+          - { label: 'Lead Qualification', url: /services/ai-marketing-automation/lead-qualification }
+          - { label: 'Lead Enrichment', url: /services/ai-marketing-automation/lead-enrichment }
+          - { label: Personalization, url: /services/ai-marketing-automation/personalization }
+      - category: 'Business Automation'
+        url: /services/business-automation
+        items:
+          - { label: 'Workflow Automation', url: /services/business-automation/workflow-automation }
+          - { label: 'Process Automation', url: /services/business-automation/process-automation }
+          - { label: 'CRM Automation', url: /services/business-automation/crm-automation }
+          - { label: 'Data Automation', url: /services/business-automation/data-automation }
+          - { label: 'Reporting Automation', url: /services/business-automation/reporting-automation }
+          - { label: 'Document Automation', url: /services/business-automation/document-automation }
+      - category: 'AI Analytics'
+        url: /services/ai-analytics
+        items:
+          - { label: 'AI-Powered Reporting', url: /services/ai-analytics/ai-powered-reporting }
+          - { label: 'Marketing Intelligence', url: /services/ai-analytics/marketing-intelligence }
+          - { label: 'Predictive Analytics', url: /services/ai-analytics/predictive-analytics }
+          - { label: 'Customer Insights', url: /services/ai-analytics/customer-insights }
+          - { label: 'Automated Insights', url: /services/ai-analytics/automated-insights }
+
   - label: Industries
     url: /industries
 
