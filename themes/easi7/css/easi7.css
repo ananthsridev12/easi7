@@ -11,6 +11,7 @@
   --line:#E4E7EC;
   --moss:#178A4C;
   --danger:#C0362C;
+  --brass-on-dark:#6C9BFF;
   --radius:8px;
   --wrap:1180px;
 }
@@ -120,7 +121,7 @@ nav.primary a:hover,nav.primary a[aria-current="page"]{color:var(--ink);}
 
 .mega-panel{
   position:absolute;top:100%;left:0;
-  width:max-content;max-width:min(760px,92vw);
+  width:min(820px,92vw);
   background:var(--paper-raised);border:1px solid var(--line);border-radius:var(--radius);
   box-shadow:0 24px 48px -20px rgba(20,20,30,0.25);
   max-height:0;overflow:hidden;opacity:0;pointer-events:none;
@@ -149,7 +150,7 @@ nav.primary a:hover,nav.primary a[aria-current="page"]{color:var(--ink);}
 .mega-col ul a:hover{color:var(--teal);}
 
 @media (max-width:1150px){
-  .mega-panel{max-width:min(620px,94vw);}
+  .mega-panel{width:min(600px,94vw);}
 }
 
 .btn{
@@ -163,7 +164,7 @@ nav.primary a:hover,nav.primary a[aria-current="page"]{color:var(--ink);}
 .btn:hover{background:var(--brass-ink);border-color:var(--brass-ink);}
 .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line);}
 .btn.ghost:hover{border-color:var(--ink);background:transparent;color:var(--ink);}
-.btn.brass{background:var(--brass);border-color:var(--brass);color:#1B1206;}
+.btn.brass{background:var(--brass);border-color:var(--brass);color:#FFFFFF;}
 .btn.brass:hover{background:var(--brass-ink);border-color:var(--brass-ink);}
 .btn.small{padding:0.55em 1em;font-size:0.82rem;}
 
@@ -305,7 +306,7 @@ section.block:last-of-type{border-bottom:none;}
   display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:24px;
   padding:28px;background:var(--ink);color:var(--paper);border-radius:var(--radius);margin:2em 0;
 }
-.metric-band .metric .v{font-family:'Inter',sans-serif;font-size:1.8rem;color:#F3C57E;font-weight:500;display:block;}
+.metric-band .metric .v{font-family:'Inter',sans-serif;font-size:1.8rem;color:var(--brass-on-dark);font-weight:600;display:block;}
 .metric-band .metric .k{font-size:0.75rem;color:#B9BECF;margin-top:4px;display:block;}
 
 /* ---------- Clients ---------- */
