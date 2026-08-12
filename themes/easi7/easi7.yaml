@@ -214,7 +214,42 @@ nav:
           - { label: Animation, url: /services/video-motion/animation }
 
   - label: 'Strategy & Consulting'
-    url: /services/strategy-consulting
+    url: /services
+    columns:
+      - category: 'Digital Strategy'
+        url: /services/digital-strategy
+        items:
+          - { label: 'Digital Transformation', url: /services/digital-strategy/digital-transformation }
+          - { label: 'Digital Roadmaps', url: /services/digital-strategy/digital-roadmaps }
+          - { label: 'Technology Strategy', url: /services/digital-strategy/technology-strategy }
+      - category: 'Marketing Strategy'
+        url: /services/marketing-strategy
+        items:
+          - { label: 'Go-to-Market Strategy', url: /services/marketing-strategy/gtm-strategy }
+          - { label: 'B2B Marketing Strategy', url: /services/marketing-strategy/b2b-marketing-strategy }
+          - { label: 'Demand Generation Strategy', url: /services/marketing-strategy/demand-generation-strategy }
+      - category: 'Growth Strategy'
+        url: /services/growth-strategy
+        items:
+          - { label: 'Growth Marketing', url: /services/growth-strategy/growth-marketing }
+          - { label: 'Funnel Strategy', url: /services/growth-strategy/funnel-strategy }
+          - { label: 'Customer Acquisition', url: /services/growth-strategy/customer-acquisition }
+          - { label: 'Revenue Growth', url: /services/growth-strategy/revenue-growth }
+      - category: 'MarTech Consulting'
+        url: /services/martech-consulting
+        items:
+          - { label: 'Marketing Technology Stack', url: /services/martech-consulting/marketing-technology-stack }
+          - { label: 'CRM Strategy', url: /services/martech-consulting/crm-strategy }
+          - { label: 'Marketing Automation Strategy', url: /services/martech-consulting/marketing-automation-strategy }
+          - { label: 'Platform Selection & Implementation', url: /services/martech-consulting/platform-selection-implementation }
+      - category: 'Analytics Consulting'
+        url: /services/analytics-consulting
+        items:
+          - { label: 'Measurement Strategy', url: /services/analytics-consulting/measurement-strategy }
+          - { label: 'Analytics Strategy', url: /services/analytics-consulting/analytics-strategy }
+          - { label: 'Attribution Strategy', url: /services/analytics-consulting/attribution-strategy }
+          - { label: 'Tracking Architecture', url: /services/analytics-consulting/tracking-architecture }
+          - { label: 'Data Strategy', url: /services/analytics-consulting/data-strategy }
 
   - label: 'AI & Automation'
     url: /services
