@@ -1,26 +1,36 @@
-title: Tech Stack Page
-extends@:
-  type: default
-context: blueprints://pages
+title: 'Tech Stack Page'
+
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
+
         content:
           type: tab
+          title: Content
           fields:
+            title:
+              type: text
+              label: Title
+              validate:
+                required: true
             menu:
               type: text
-              label: Menu Label (blank/false to hide from nav)
+              label: 'Menu Label (blank/false to hide from nav)'
             summary:
               type: textarea
               label: Summary
               rows: 3
-            metadata.description:
+
+        seo:
+          type: tab
+          title: SEO
+          fields:
+            'metadata.description':
               type: textarea
-              label: Meta Description
+              label: 'Meta Description'
               rows: 2
             sitemap.changefreq:
               type: select

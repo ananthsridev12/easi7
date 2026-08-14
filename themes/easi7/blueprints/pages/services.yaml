@@ -1,25 +1,30 @@
-title: Service / Listing Hub
-extends@:
-  type: default
-context: blueprints://pages
+title: 'Service / Listing Hub'
+
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
+
         content:
           type: tab
+          title: Content
           fields:
+            title:
+              type: text
+              label: Title
+              validate:
+                required: true
             menu:
               type: text
-              label: Menu Label (blank/false to hide from nav)
+              label: 'Menu Label (blank/false to hide from nav)'
             eyebrow:
               type: text
               label: Eyebrow
             icon:
               type: text
-              label: Icon (emoji)
+              label: 'Icon (emoji)'
             headline:
               type: text
               label: Headline
@@ -32,7 +37,7 @@ form:
               label: Tools
             industries:
               type: list
-              label: Related Industries
+              label: 'Related Industries'
               style: vertical
               collapsed: true
               fields:
@@ -44,7 +49,7 @@ form:
                   label: URL
             related_services:
               type: list
-              label: Related Services
+              label: 'Related Services'
               style: vertical
               collapsed: true
               fields:
@@ -80,12 +85,17 @@ form:
             cta.button_url:
               type: text
               label: 'CTA: Button URL'
+
+        seo:
+          type: tab
+          title: 'SEO & Taxonomy'
+          fields:
             taxonomy.service:
               type: array
               label: 'Taxonomy: Service'
-            metadata.description:
+            'metadata.description':
               type: textarea
-              label: Meta Description
+              label: 'Meta Description'
               rows: 2
             sitemap.changefreq:
               type: select

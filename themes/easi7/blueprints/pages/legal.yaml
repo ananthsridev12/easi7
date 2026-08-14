@@ -1,22 +1,32 @@
-title: Legal Page
-extends@:
-  type: default
-context: blueprints://pages
+title: 'Legal Page'
+
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
+
         content:
           type: tab
+          title: Content
           fields:
+            title:
+              type: text
+              label: Title
+              validate:
+                required: true
             menu:
               type: text
-              label: Menu Label (blank/false to hide from nav)
-            metadata.description:
+              label: 'Menu Label (blank/false to hide from nav)'
+
+        seo:
+          type: tab
+          title: SEO
+          fields:
+            'metadata.description':
               type: textarea
-              label: Meta Description
+              label: 'Meta Description'
               rows: 2
             sitemap.changefreq:
               type: select
