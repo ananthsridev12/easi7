@@ -1,32 +1,27 @@
-title: 'Homepage Variant (A/B Test)'
-
+title: Homepage Variant (A/B Test)
+extends@:
+  type: default
+context: blueprints://pages
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
-
         content:
           type: tab
-          title: Content
           fields:
-            title:
-              type: text
-              label: Title
-              validate:
-                required: true
             menu:
               type: text
-              label: 'Menu Label (blank/false to hide from nav)'
+              label: Menu Label (blank/false to hide from nav)
             hero_variant:
               type: select
-              label: 'Hero Variant'
+              label: Hero Variant
               options:
-                A: 'A - Full-bleed slider'
-                B: 'B - Split slider + lead form'
-                C: 'C - Split + floating stat badge'
-                D: 'D - Centered + filmstrip band'
+                A: A - Full-bleed slider
+                B: B - Split slider + lead form
+                C: C - Split + floating stat badge
+                D: D - Centered + filmstrip band
             hero.eyebrow:
               type: text
               label: 'Hero: Eyebrow'
@@ -69,7 +64,7 @@ form:
                   label: Label
             services_teaser:
               type: array
-              label: 'Services Teaser (routes)'
+              label: Services Teaser (routes)
             process:
               type: list
               label: Process
@@ -85,10 +80,10 @@ form:
                   rows: 2
             featured_case_studies:
               type: array
-              label: 'Featured Case Studies (routes)'
+              label: Featured Case Studies (routes)
             resources_preview:
               type: list
-              label: 'Resources Preview'
+              label: Resources Preview
               style: vertical
               collapsed: true
               fields:
@@ -114,15 +109,10 @@ form:
             cta.button_url:
               type: text
               label: 'CTA: Button URL'
-
-        seo:
-          type: tab
-          title: SEO
-          fields:
-            'metadata.description':
+            metadata.description:
               type: textarea
-              label: 'Meta Description'
+              label: Meta Description
               rows: 2
-            'metadata.robots':
+            metadata.robots:
               type: text
-              label: 'Meta Robots (e.g. noindex)'
+              label: Meta Robots (e.g. noindex)

@@ -1,21 +1,16 @@
-title: 'Service Page (Layout B)'
-
+title: Service Page (Layout B)
+extends@:
+  type: default
+context: blueprints://pages
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
-
         content:
           type: tab
-          title: Content
           fields:
-            title:
-              type: text
-              label: Title
-              validate:
-                required: true
             eyebrow:
               type: text
               label: Eyebrow
@@ -43,7 +38,7 @@ form:
               label: Overview
             overview_answer:
               type: textarea
-              label: 'Overview (short answer)'
+              label: Overview (short answer)
               rows: 2
             capabilities:
               type: list
@@ -71,7 +66,7 @@ form:
                   label: Description
             how_we_work:
               type: list
-              label: 'How We Work'
+              label: How We Work
               style: vertical
               collapsed: true
               fields:
@@ -87,7 +82,7 @@ form:
               label: Use Cases
             who_needs_this:
               type: list
-              label: 'Who Needs This'
+              label: Who Needs This
               style: vertical
               collapsed: true
               fields:
@@ -103,7 +98,7 @@ form:
               label: Benefits
             why_choose_us:
               type: array
-              label: 'Why Choose Us'
+              label: Why Choose Us
             comparison.headers:
               type: array
               label: 'Comparison: Column Headers (2)'
@@ -115,10 +110,10 @@ form:
               fields:
                 .a:
                   type: text
-                  label: 'Column A'
+                  label: Column A
                 .b:
                   type: text
-                  label: 'Column B'
+                  label: Column B
             comparison.note:
               type: textarea
               label: 'Comparison: Note'
@@ -149,17 +144,12 @@ form:
             cta.button_url:
               type: text
               label: 'CTA: Button URL'
-
-        seo:
-          type: tab
-          title: 'SEO & Taxonomy'
-          fields:
             taxonomy.service:
               type: array
               label: 'Taxonomy: Service'
-            'metadata.description':
+            metadata.description:
               type: textarea
-              label: 'Meta Description'
+              label: Meta Description
               rows: 2
             sitemap.changefreq:
               type: select

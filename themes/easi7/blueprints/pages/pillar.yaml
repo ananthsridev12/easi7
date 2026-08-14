@@ -1,24 +1,19 @@
-title: 'Pillar Hub Page'
-
+title: Pillar Hub Page
+extends@:
+  type: default
+context: blueprints://pages
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
-
         content:
           type: tab
-          title: Content
           fields:
-            title:
-              type: text
-              label: Title
-              validate:
-                required: true
             menu:
               type: text
-              label: 'Menu Label (blank/false to hide from nav)'
+              label: Menu Label (blank/false to hide from nav)
             eyebrow:
               type: text
               label: Eyebrow
@@ -55,10 +50,10 @@ form:
                   label: Items
                 .related_label:
                   type: text
-                  label: 'Related Link Label'
+                  label: Related Link Label
                 .related_url:
                   type: text
-                  label: 'Related Link URL'
+                  label: Related Link URL
             methodology:
               type: list
               label: Methodology
@@ -74,7 +69,7 @@ form:
                   rows: 2
             categories:
               type: list
-              label: 'Category Routes'
+              label: Category Routes
               style: vertical
               collapsed: true
               fields:
@@ -86,10 +81,10 @@ form:
               label: Use Cases
             featured_case_studies:
               type: array
-              label: 'Featured Case Studies (routes)'
+              label: Featured Case Studies (routes)
             industries:
               type: list
-              label: 'Related Industries'
+              label: Related Industries
               style: vertical
               collapsed: true
               fields:
@@ -125,17 +120,12 @@ form:
             cta.button_url:
               type: text
               label: 'CTA: Button URL'
-
-        seo:
-          type: tab
-          title: 'SEO & Taxonomy'
-          fields:
             taxonomy.service:
               type: array
               label: 'Taxonomy: Service'
-            'metadata.description':
+            metadata.description:
               type: textarea
-              label: 'Meta Description'
+              label: Meta Description
               rows: 2
             sitemap.changefreq:
               type: select

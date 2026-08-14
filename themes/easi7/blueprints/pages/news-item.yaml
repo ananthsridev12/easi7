@@ -1,41 +1,31 @@
-title: 'News Item'
-
+title: News Item
+extends@:
+  type: default
+context: blueprints://pages
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
-
         content:
           type: tab
-          title: Content
           fields:
-            title:
-              type: text
-              label: Title
-              validate:
-                required: true
             date:
               type: datetime
-              label: 'Publish Date'
+              label: Publish Date
             author:
               type: text
               label: Author
-
-        seo:
-          type: tab
-          title: 'SEO & Taxonomy'
-          fields:
             taxonomy.category:
               type: array
               label: 'Taxonomy: Category'
             taxonomy.tag:
               type: array
               label: 'Taxonomy: Tags'
-            'metadata.description':
+            metadata.description:
               type: textarea
-              label: 'Meta Description'
+              label: Meta Description
               rows: 2
             sitemap.changefreq:
               type: select

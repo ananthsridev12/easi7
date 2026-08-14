@@ -1,24 +1,19 @@
-title: 'About Page'
-
+title: About Page
+extends@:
+  type: default
+context: blueprints://pages
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
-
         content:
           type: tab
-          title: Content
           fields:
-            title:
-              type: text
-              label: Title
-              validate:
-                required: true
             menu:
               type: text
-              label: 'Menu Label'
+              label: Menu Label
             summary:
               type: textarea
               label: Summary
@@ -49,14 +44,9 @@ form:
             cta.button_url:
               type: text
               label: 'CTA: Button URL'
-
-        seo:
-          type: tab
-          title: SEO
-          fields:
-            'metadata.description':
+            metadata.description:
               type: textarea
-              label: 'Meta Description'
+              label: Meta Description
               rows: 2
             sitemap.changefreq:
               type: select

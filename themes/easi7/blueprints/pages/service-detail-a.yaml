@@ -1,21 +1,16 @@
-title: 'Service Page (Layout A)'
-
+title: Service Page (Layout A)
+extends@:
+  type: default
+context: blueprints://pages
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
-
         content:
           type: tab
-          title: Content
           fields:
-            title:
-              type: text
-              label: Title
-              validate:
-                required: true
             eyebrow:
               type: text
               label: Eyebrow
@@ -46,7 +41,7 @@ form:
               label: Solution
             solution_answer:
               type: textarea
-              label: 'Solution (short answer)'
+              label: Solution (short answer)
               rows: 2
             approach:
               type: editor
@@ -99,10 +94,10 @@ form:
               fields:
                 .a:
                   type: text
-                  label: 'Column A'
+                  label: Column A
                 .b:
                   type: text
-                  label: 'Column B'
+                  label: Column B
             comparison.note:
               type: textarea
               label: 'Comparison: Note'
@@ -112,7 +107,7 @@ form:
               label: Outcomes
             who_needs_this:
               type: list
-              label: 'Who Needs This'
+              label: Who Needs This
               style: vertical
               collapsed: true
               fields:
@@ -149,17 +144,12 @@ form:
             cta.button_url:
               type: text
               label: 'CTA: Button URL'
-
-        seo:
-          type: tab
-          title: 'SEO & Taxonomy'
-          fields:
             taxonomy.service:
               type: array
               label: 'Taxonomy: Service'
-            'metadata.description':
+            metadata.description:
               type: textarea
-              label: 'Meta Description'
+              label: Meta Description
               rows: 2
             sitemap.changefreq:
               type: select

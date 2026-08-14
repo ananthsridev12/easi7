@@ -1,24 +1,19 @@
 title: Homepage
-
+extends@:
+  type: default
+context: blueprints://pages
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
-
         content:
           type: tab
-          title: Content
           fields:
-            title:
-              type: text
-              label: Title
-              validate:
-                required: true
             menu:
               type: text
-              label: 'Menu Label'
+              label: Menu Label
             hero.eyebrow:
               type: text
               label: 'Hero: Eyebrow'
@@ -55,7 +50,7 @@ form:
                   label: Label
             services_teaser:
               type: array
-              label: 'Services Teaser (routes)'
+              label: Services Teaser (routes)
             process:
               type: list
               label: Process
@@ -71,10 +66,10 @@ form:
                   rows: 2
             featured_case_studies:
               type: array
-              label: 'Featured Case Studies (routes)'
+              label: Featured Case Studies (routes)
             resources_preview:
               type: list
-              label: 'Resources Preview'
+              label: Resources Preview
               style: vertical
               collapsed: true
               fields:
@@ -100,14 +95,9 @@ form:
             cta.button_url:
               type: text
               label: 'CTA: Button URL'
-
-        seo:
-          type: tab
-          title: SEO
-          fields:
-            'metadata.description':
+            metadata.description:
               type: textarea
-              label: 'Meta Description'
+              label: Meta Description
               rows: 2
             sitemap.changefreq:
               type: select

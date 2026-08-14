@@ -1,21 +1,16 @@
-title: 'Case Study'
-
+title: Case Study
+extends@:
+  type: default
+context: blueprints://pages
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
-
         content:
           type: tab
-          title: Content
           fields:
-            title:
-              type: text
-              label: Title
-              validate:
-                required: true
             client:
               type: text
               label: Client
@@ -24,10 +19,10 @@ form:
               label: Industry
             portfolio_url:
               type: text
-              label: 'Related Portfolio URL'
+              label: Related Portfolio URL
             service_url:
               type: text
-              label: 'Related Service URL'
+              label: Related Service URL
             summary:
               type: textarea
               label: Summary
@@ -44,20 +39,15 @@ form:
                 .label:
                   type: text
                   label: Label
-
-        seo:
-          type: tab
-          title: 'SEO & Taxonomy'
-          fields:
             taxonomy.industry:
               type: array
               label: 'Taxonomy: Industry'
             taxonomy.service:
               type: array
               label: 'Taxonomy: Service'
-            'metadata.description':
+            metadata.description:
               type: textarea
-              label: 'Meta Description'
+              label: Meta Description
               rows: 2
             sitemap.changefreq:
               type: select

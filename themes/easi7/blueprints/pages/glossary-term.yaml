@@ -1,39 +1,29 @@
-title: 'Glossary Term'
-
+title: Glossary Term
+extends@:
+  type: default
+context: blueprints://pages
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
-
         content:
           type: tab
-          title: Content
           fields:
-            title:
-              type: text
-              label: Title
-              validate:
-                required: true
             summary:
               type: textarea
               label: Summary
               rows: 3
             service_url:
               type: text
-              label: 'Related Service URL'
-
-        seo:
-          type: tab
-          title: 'SEO & Taxonomy'
-          fields:
+              label: Related Service URL
             taxonomy.topic:
               type: array
               label: 'Taxonomy: Topic'
-            'metadata.description':
+            metadata.description:
               type: textarea
-              label: 'Meta Description'
+              label: Meta Description
               rows: 2
             sitemap.changefreq:
               type: select

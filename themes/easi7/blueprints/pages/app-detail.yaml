@@ -1,21 +1,16 @@
-title: 'App Page'
-
+title: App Page
+extends@:
+  type: default
+context: blueprints://pages
 form:
   fields:
     tabs:
       type: tabs
       active: 1
       fields:
-
         content:
           type: tab
-          title: Content
           fields:
-            title:
-              type: text
-              label: Title
-              validate:
-                required: true
             eyebrow:
               type: text
               label: Eyebrow
@@ -28,15 +23,10 @@ form:
               rows: 3
             tools:
               type: array
-              label: 'Tags / Tools'
-
-        seo:
-          type: tab
-          title: SEO
-          fields:
-            'metadata.description':
+              label: Tags / Tools
+            metadata.description:
               type: textarea
-              label: 'Meta Description'
+              label: Meta Description
               rows: 2
             sitemap.changefreq:
               type: select
