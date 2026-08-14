@@ -1,0 +1,129 @@
+title: Homepage
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+
+        content:
+          type: tab
+          title: Content
+          fields:
+            title:
+              type: text
+              label: Title
+              validate:
+                required: true
+            menu:
+              type: text
+              label: 'Menu Label'
+            hero.eyebrow:
+              type: text
+              label: 'Hero: Eyebrow'
+            hero.headline:
+              type: text
+              label: 'Hero: Headline'
+            hero.lede:
+              type: textarea
+              label: 'Hero: Lede'
+              rows: 3
+            hero.slides:
+              type: list
+              label: 'Hero: Slides'
+              style: vertical
+              collapsed: true
+              fields:
+                .tag:
+                  type: text
+                  label: Tag
+                .caption:
+                  type: text
+                  label: Caption
+            stats:
+              type: list
+              label: Stats
+              style: vertical
+              collapsed: true
+              fields:
+                .num:
+                  type: text
+                  label: Number
+                .label:
+                  type: text
+                  label: Label
+            services_teaser:
+              type: array
+              label: 'Services Teaser (routes)'
+            process:
+              type: list
+              label: Process
+              style: vertical
+              collapsed: true
+              fields:
+                .title:
+                  type: text
+                  label: Title
+                .body:
+                  type: textarea
+                  label: Body
+                  rows: 2
+            featured_case_studies:
+              type: array
+              label: 'Featured Case Studies (routes)'
+            resources_preview:
+              type: list
+              label: 'Resources Preview'
+              style: vertical
+              collapsed: true
+              fields:
+                .route:
+                  type: text
+                  label: Route
+                .kind:
+                  type: text
+                  label: Kind
+                .meta:
+                  type: text
+                  label: Meta Label
+            cta.heading:
+              type: text
+              label: 'CTA: Heading'
+            cta.body:
+              type: textarea
+              label: 'CTA: Body'
+              rows: 2
+            cta.button_label:
+              type: text
+              label: 'CTA: Button Label'
+            cta.button_url:
+              type: text
+              label: 'CTA: Button URL'
+
+        seo:
+          type: tab
+          title: SEO
+          fields:
+            'metadata.description':
+              type: textarea
+              label: 'Meta Description'
+              rows: 2
+            sitemap.changefreq:
+              type: select
+              label: 'Sitemap: Change Frequency'
+              options:
+                always: always
+                hourly: hourly
+                daily: daily
+                weekly: weekly
+                monthly: monthly
+                yearly: yearly
+                never: never
+            sitemap.priority:
+              type: number
+              label: 'Sitemap: Priority'
+              validate:
+                min: 0
+                max: 1
+                step: 0.1

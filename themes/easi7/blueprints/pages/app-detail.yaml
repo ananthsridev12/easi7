@@ -1,0 +1,58 @@
+title: 'App Page'
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+
+        content:
+          type: tab
+          title: Content
+          fields:
+            title:
+              type: text
+              label: Title
+              validate:
+                required: true
+            eyebrow:
+              type: text
+              label: Eyebrow
+            headline:
+              type: text
+              label: Headline
+            summary:
+              type: textarea
+              label: Summary
+              rows: 3
+            tools:
+              type: array
+              label: 'Tags / Tools'
+
+        seo:
+          type: tab
+          title: SEO
+          fields:
+            'metadata.description':
+              type: textarea
+              label: 'Meta Description'
+              rows: 2
+            sitemap.changefreq:
+              type: select
+              label: 'Sitemap: Change Frequency'
+              options:
+                always: always
+                hourly: hourly
+                daily: daily
+                weekly: weekly
+                monthly: monthly
+                yearly: yearly
+                never: never
+            sitemap.priority:
+              type: number
+              label: 'Sitemap: Priority'
+              validate:
+                min: 0
+                max: 1
+                step: 0.1

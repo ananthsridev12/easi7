@@ -1,0 +1,52 @@
+title: 'Blog Post'
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+
+        content:
+          type: tab
+          title: Content
+          fields:
+            title:
+              type: text
+              label: Title
+              validate:
+                required: true
+            date:
+              type: datetime
+              label: 'Publish Date'
+            author:
+              type: text
+              label: Author
+            read_time:
+              type: text
+              label: 'Read Time'
+            summary:
+              type: textarea
+              label: Summary
+              rows: 3
+
+        seo:
+          type: tab
+          title: 'SEO & Taxonomy'
+          fields:
+            taxonomy.category:
+              type: array
+              label: 'Taxonomy: Category'
+            taxonomy.tag:
+              type: array
+              label: 'Taxonomy: Tags'
+            taxonomy.service:
+              type: array
+              label: 'Taxonomy: Related Service'
+            'metadata.description':
+              type: textarea
+              label: 'Meta Description'
+              rows: 2
+            'metadata.keywords':
+              type: text
+              label: 'Meta Keywords'

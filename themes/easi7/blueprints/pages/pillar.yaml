@@ -1,0 +1,157 @@
+title: 'Pillar Hub Page'
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+
+        content:
+          type: tab
+          title: Content
+          fields:
+            title:
+              type: text
+              label: Title
+              validate:
+                required: true
+            menu:
+              type: text
+              label: 'Menu Label (blank/false to hide from nav)'
+            eyebrow:
+              type: text
+              label: Eyebrow
+            headline:
+              type: text
+              label: Headline
+            summary:
+              type: textarea
+              label: Summary
+              rows: 3
+            primary_intent:
+              type: text
+              label: Primary Search Intent
+            entities:
+              type: array
+              label: Entities
+            overview:
+              type: editor
+              label: Overview
+            challenges:
+              type: array
+              label: Challenges
+            capabilities:
+              type: list
+              label: Capabilities
+              style: vertical
+              collapsed: true
+              fields:
+                .title:
+                  type: text
+                  label: Title
+                .items:
+                  type: array
+                  label: Items
+                .related_label:
+                  type: text
+                  label: 'Related Link Label'
+                .related_url:
+                  type: text
+                  label: 'Related Link URL'
+            methodology:
+              type: list
+              label: Methodology
+              style: vertical
+              collapsed: true
+              fields:
+                .title:
+                  type: text
+                  label: Title
+                .body:
+                  type: textarea
+                  label: Body
+                  rows: 2
+            categories:
+              type: list
+              label: 'Category Routes'
+              style: vertical
+              collapsed: true
+              fields:
+                .route:
+                  type: text
+                  label: Route
+            use_cases:
+              type: array
+              label: Use Cases
+            featured_case_studies:
+              type: array
+              label: 'Featured Case Studies (routes)'
+            industries:
+              type: list
+              label: 'Related Industries'
+              style: vertical
+              collapsed: true
+              fields:
+                .label:
+                  type: text
+                  label: Label
+                .url:
+                  type: text
+                  label: URL
+            faqs:
+              type: list
+              label: FAQs
+              style: vertical
+              collapsed: true
+              fields:
+                .q:
+                  type: text
+                  label: Question
+                .a:
+                  type: textarea
+                  label: Answer
+                  rows: 3
+            cta.heading:
+              type: text
+              label: 'CTA: Heading'
+            cta.body:
+              type: textarea
+              label: 'CTA: Body'
+              rows: 2
+            cta.button_label:
+              type: text
+              label: 'CTA: Button Label'
+            cta.button_url:
+              type: text
+              label: 'CTA: Button URL'
+
+        seo:
+          type: tab
+          title: 'SEO & Taxonomy'
+          fields:
+            taxonomy.service:
+              type: array
+              label: 'Taxonomy: Service'
+            'metadata.description':
+              type: textarea
+              label: 'Meta Description'
+              rows: 2
+            sitemap.changefreq:
+              type: select
+              label: 'Sitemap: Change Frequency'
+              options:
+                always: always
+                hourly: hourly
+                daily: daily
+                weekly: weekly
+                monthly: monthly
+                yearly: yearly
+                never: never
+            sitemap.priority:
+              type: number
+              label: 'Sitemap: Priority'
+              validate:
+                min: 0
+                max: 1
+                step: 0.1

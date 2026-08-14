@@ -1,0 +1,128 @@
+title: 'Homepage Variant (A/B Test)'
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+
+        content:
+          type: tab
+          title: Content
+          fields:
+            title:
+              type: text
+              label: Title
+              validate:
+                required: true
+            menu:
+              type: text
+              label: 'Menu Label (blank/false to hide from nav)'
+            hero_variant:
+              type: select
+              label: 'Hero Variant'
+              options:
+                A: 'A - Full-bleed slider'
+                B: 'B - Split slider + lead form'
+                C: 'C - Split + floating stat badge'
+                D: 'D - Centered + filmstrip band'
+            hero.eyebrow:
+              type: text
+              label: 'Hero: Eyebrow'
+            hero.headline:
+              type: text
+              label: 'Hero: Headline'
+            hero.lede:
+              type: textarea
+              label: 'Hero: Lede'
+              rows: 3
+            hero.slides:
+              type: list
+              label: 'Hero: Slides'
+              style: vertical
+              collapsed: true
+              fields:
+                .tag:
+                  type: text
+                  label: Tag
+                .caption:
+                  type: text
+                  label: Caption
+            badge.value:
+              type: text
+              label: 'Floating Stat Badge: Value (variant C)'
+            badge.label:
+              type: text
+              label: 'Floating Stat Badge: Label (variant C)'
+            stats:
+              type: list
+              label: Stats
+              style: vertical
+              collapsed: true
+              fields:
+                .num:
+                  type: text
+                  label: Number
+                .label:
+                  type: text
+                  label: Label
+            services_teaser:
+              type: array
+              label: 'Services Teaser (routes)'
+            process:
+              type: list
+              label: Process
+              style: vertical
+              collapsed: true
+              fields:
+                .title:
+                  type: text
+                  label: Title
+                .body:
+                  type: textarea
+                  label: Body
+                  rows: 2
+            featured_case_studies:
+              type: array
+              label: 'Featured Case Studies (routes)'
+            resources_preview:
+              type: list
+              label: 'Resources Preview'
+              style: vertical
+              collapsed: true
+              fields:
+                .route:
+                  type: text
+                  label: Route
+                .kind:
+                  type: text
+                  label: Kind
+                .meta:
+                  type: text
+                  label: Meta Label
+            cta.heading:
+              type: text
+              label: 'CTA: Heading'
+            cta.body:
+              type: textarea
+              label: 'CTA: Body'
+              rows: 2
+            cta.button_label:
+              type: text
+              label: 'CTA: Button Label'
+            cta.button_url:
+              type: text
+              label: 'CTA: Button URL'
+
+        seo:
+          type: tab
+          title: SEO
+          fields:
+            'metadata.description':
+              type: textarea
+              label: 'Meta Description'
+              rows: 2
+            'metadata.robots':
+              type: text
+              label: 'Meta Robots (e.g. noindex)'
