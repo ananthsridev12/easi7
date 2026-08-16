@@ -1,0 +1,26 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<section class="page-hero" style="text-align:center;border-bottom:none;padding:110px 0;">
+  <div class="wrap">
+    <span class="eyebrow" style="justify-content:center;">404</span>
+    <h1>That page didn't convert.</h1>
+    <p class="lede" style="margin-left:auto;margin-right:auto;">The link's broken, the page moved, or it never existed - either way, it's not here. Here's where you probably meant to go instead.</p>
+    <div class="hero-ctas" style="justify-content:center;margin-top:1.6em;">
+      <a class="btn brass" href="{{ url('/') }}">Back to home</a>
+      <a class="btn ghost" href="{{ url('/contact') }}">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<section class="block" style="border-top:none;">
+  <div class="wrap">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;max-width:900px;margin:0 auto;text-align:center;">
+      <a class="btn ghost" href="{{ url('/services') }}">Services</a>
+      <a class="btn ghost" href="{{ url('/case-studies') }}">Case Studies</a>
+      <a class="btn ghost" href="{{ url('/blog') }}">Blog</a>
+      <a class="btn ghost" href="{{ url('/apps') }}">Apps &amp; Tools</a>
+    </div>
+  </div>
+</section>
+{% endblock %}
