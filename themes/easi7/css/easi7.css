@@ -440,8 +440,8 @@ section.block.alt .persona-card{background:var(--paper);}
 .persona-card h3{font-size:1rem;margin:0 0 8px;}
 .persona-card p,.persona-card ul{font-size:0.88rem;margin:0;max-width:none;}
 
-/* ---------- Page metadata / LLMO block ---------- */
-.page-meta{background:#0A0C11;color:#9BA1AF;padding:40px 0;}
+/* ---------- Page metadata / LLMO block (kept in the HTML for crawlers, hidden from visual display) ---------- */
+.page-meta{display:none;background:#0A0C11;color:#9BA1AF;padding:40px 0;}
 .page-meta h2{color:var(--paper);font-size:0.95rem;text-transform:uppercase;letter-spacing:0.09em;margin-bottom:22px;}
 .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;}
 .meta-field dt{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.06em;color:#6B7284;margin-bottom:6px;}
