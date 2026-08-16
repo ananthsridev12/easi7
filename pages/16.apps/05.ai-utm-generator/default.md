@@ -66,4 +66,4 @@ sitemap:
 <li><strong>Clean URLs</strong> (<code>/campaigns/edit/3</code>, not <code>/index.php?r=...</code>)</li>
 </ul>
 
-<p>[Get in touch](/contact) if your team is still living in a UTM spreadsheet and you want to see what replacing it actually looks like.</p>
+<p><a href="/contact">Get in touch</a> if your team is still living in a UTM spreadsheet and you want to see what replacing it actually looks like.</p>
