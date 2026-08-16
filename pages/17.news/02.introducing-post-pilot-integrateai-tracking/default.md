@@ -7,13 +7,13 @@ taxonomy:
     category: [Product]
     tag: [Announcement]
 metadata:
-    description: 'EASI7 introduces its first internal tools: Post Pilot for LinkedIn content automation and IntegrateAI Tracking for GTM and UTM setup.'
+    description: 'EASI7 introduces its first internal tools: Post Pilot for LinkedIn content automation and AI UTM Generator for GTM and UTM setup.'
 sitemap:
     changefreq: yearly
     priority: !!float 0.4
 ---
 
-<p>We've started turning some of our own internal workflows into standalone tools, starting with two: <a href="/apps/post-pilot">Post Pilot</a>, which drafts and schedules LinkedIn content with generated images, and <a href="/apps/integrateai-tracking">IntegrateAI Tracking</a>, which helps keep Google Tag Manager setup and campaign URL tagging consistent.</p>
+<p>We've started turning some of our own internal workflows into standalone tools, starting with two: <a href="/apps/post-pilot">Post Pilot</a>, which drafts and schedules LinkedIn content with generated images, and <a href="/apps/ai-utm-generator">AI UTM Generator</a>, which replaces the team UTM spreadsheet with governed campaign link building and live tracking snippets.</p>
 
 <p>Both came out of the same place - repetitive parts of client work that were worth automating properly instead of redoing by hand every time. Two more tools, Family Manager and Personal Finance, are also live in early form.</p>
 

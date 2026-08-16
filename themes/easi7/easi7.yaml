@@ -317,7 +317,6 @@ nav:
           - { label: 'Personal Finance', url: /apps/personal-finance }
           - { label: 'Post Pilot', url: /apps/post-pilot }
           - { label: 'AI UTM Generator', url: /apps/ai-utm-generator }
-          - { label: 'IntegrateAI Tracking', url: /apps/integrateai-tracking }
 
   - label: Contact
     url: /contact
