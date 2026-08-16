@@ -3,7 +3,7 @@ title: 'Website Security'
 template: service-detail-a
 eyebrow: 'Web Optimization'
 headline: 'Prevention is cheaper than a breach'
-summary: 'Website security hardening covering SSL, updates, backups, and vulnerability monitoring - built around the fact that most compromises exploit known, unpatched holes.'
+tagline: 'Website security hardening covering SSL, updates, backups, and vulnerability monitoring - built around the fact that most compromises exploit known, unpatched holes.'
 service_url: /services/web-optimization/website-security
 taxonomy:
     service: ['Website Security']

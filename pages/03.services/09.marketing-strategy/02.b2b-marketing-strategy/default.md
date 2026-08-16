@@ -3,7 +3,7 @@ title: 'B2B Marketing Strategy'
 template: service-detail-b
 eyebrow: 'Marketing Strategy'
 headline: 'Strategy built around a buying committee, not a single buyer'
-summary: 'B2B marketing strategy accounting for multiple stakeholders and longer consideration cycles.'
+tagline: 'B2B marketing strategy accounting for multiple stakeholders and longer consideration cycles.'
 primary_intent: 'commercial - service research'
 entities: ['B2B Marketing Strategy', 'Buying Committee', 'Account-Based Strategy', 'Sales & Marketing Alignment', 'Multi-Stakeholder Messaging']
 tools: ['B2B Strategy', 'Buying Committees']

@@ -3,7 +3,7 @@ title: 'Animation'
 template: service-detail-c
 eyebrow: 'Video & Motion'
 headline: "When live-action isn't the right format"
-summary: '2D and simple 3D animation for concepts that live-action video can''t easily show.'
+tagline: '2D and simple 3D animation for concepts that live-action video can''t easily show.'
 primary_intent: 'informational - concept explainer'
 entities: ['2D Animation', 'Simple 3D Animation', 'Illustrated Explainer', 'Style Frames', 'Animatic', 'Voiceover Synchronisation']
 tools: ['2D Animation', 'Simple 3D Animation', 'Style Frame Development']

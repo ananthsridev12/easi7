@@ -4,7 +4,7 @@ template: services
 eyebrow: 'Digital Strategy'
 icon: "🗺️"
 headline: 'A sequenced plan, not a wishlist'
-summary: 'Digital transformation, roadmaps, and technology strategy built around dependencies and real resourcing.'
+tagline: 'Digital transformation, roadmaps, and technology strategy built around dependencies and real resourcing.'
 tools: ['Digital Transformation', Roadmapping]
 taxonomy:
     service: ['Digital Strategy']

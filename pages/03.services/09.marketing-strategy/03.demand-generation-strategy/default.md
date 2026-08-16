@@ -3,7 +3,7 @@ title: 'Demand Generation Strategy'
 template: service-detail-c
 eyebrow: 'Marketing Strategy'
 headline: 'A plan for creating demand, not just capturing it'
-summary: 'Demand generation strategy balancing brand-building with direct-response lead capture.'
+tagline: 'Demand generation strategy balancing brand-building with direct-response lead capture.'
 primary_intent: 'informational - concept explainer'
 entities: ['Demand Generation', 'Full-Funnel Marketing', 'Brand vs Direct Response', 'Category Education', 'Long-Cycle Nurture']
 tools: ['Demand Generation', 'Full-funnel Strategy']

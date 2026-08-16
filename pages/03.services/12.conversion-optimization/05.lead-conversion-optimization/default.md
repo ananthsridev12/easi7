@@ -3,7 +3,7 @@ title: 'Lead Conversion Optimization'
 template: service-detail-b
 eyebrow: 'Lead Conversion Optimization'
 headline: 'More leads that actually turn into customers'
-summary: 'Optimisation focused specifically on lead-to-customer conversion, not just form-fill rate.'
+tagline: 'Optimisation focused specifically on lead-to-customer conversion, not just form-fill rate.'
 primary_intent: 'commercial - service research'
 entities: ['Lead Scoring', 'Sales Handoff', 'Follow-Up Cadence', 'Lead-to-Customer Rate', 'CRM Attribution']
 tools: ['Lead-to-Customer', 'Sales Handoff', 'CRM Attribution']

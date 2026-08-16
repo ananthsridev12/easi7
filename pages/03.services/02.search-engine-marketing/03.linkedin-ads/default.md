@@ -3,7 +3,7 @@ title: 'LinkedIn Ads'
 template: service-detail-c
 eyebrow: 'LinkedIn Ads'
 headline: 'The highest-CPC platform, spent with precision'
-summary: 'LinkedIn campaign management for B2B - targeting precise enough to justify the cost per click.'
+tagline: 'LinkedIn campaign management for B2B - targeting precise enough to justify the cost per click.'
 primary_intent: 'commercial - service research'
 entities: ['LinkedIn Campaign Manager', 'Account-Based Targeting', 'Sponsored Content', 'Message Ads', 'Lead Gen Forms', 'Firmographic Targeting']
 tools: ['LinkedIn Campaign Manager', 'ABM Targeting']

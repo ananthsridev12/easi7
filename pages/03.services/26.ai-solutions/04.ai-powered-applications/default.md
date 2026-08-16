@@ -3,7 +3,7 @@ title: 'AI-Powered Applications'
 template: service-detail-a
 eyebrow: 'AI Solutions'
 headline: 'Applications with AI doing real work, not a chatbot bolted on'
-summary: "AI-powered application development where AI is core to the product's function, not a superficial add-on."
+tagline: "AI-powered application development where AI is core to the product's function, not a superficial add-on."
 primary_intent: 'commercial - service research'
 entities: ['Model Integration', 'Application Architecture', 'AI Feature Scoping', 'Cost Monitoring', 'Iterative Rollout']
 tools: ['AI Applications', 'Product Integration']

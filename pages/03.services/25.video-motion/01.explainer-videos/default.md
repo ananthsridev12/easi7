@@ -3,7 +3,7 @@ title: 'Explainer Videos'
 template: service-detail-a
 eyebrow: 'Video & Motion'
 headline: 'Sixty seconds to explain what your product actually does'
-summary: 'Explainer video production that turns a complex product or service into a script simple enough to follow in one watch.'
+tagline: 'Explainer video production that turns a complex product or service into a script simple enough to follow in one watch.'
 primary_intent: 'commercial - service research'
 entities: ['Explainer Video Script', 'Storyboarding', 'Voiceover Direction', 'Animated Explainer', 'Live-Action Explainer', 'Silent Autoplay Captioning']
 tools: ['Storyboarding', 'Voiceover Casting', 'Animation Production', 'Live-Action Production']

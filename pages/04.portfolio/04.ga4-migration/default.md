@@ -4,7 +4,7 @@ template: portfolio-detail
 client: 'Enterprise fintech client'
 industry: Fintech
 service_url: /services/analytics-tracking
-summary: 'Migrated an enterprise client from Universal Analytics to GA4 with custom event tracking and BigQuery integration.'
+tagline: 'Migrated an enterprise client from Universal Analytics to GA4 with custom event tracking and BigQuery integration.'
 metrics:
     - { value: 'GA4', label: Platform }
     - { value: '0', label: 'History gaps' }

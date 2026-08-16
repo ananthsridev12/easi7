@@ -1,7 +1,7 @@
 ---
 title: "MQL vs SQL: What's the Difference?"
 template: glossary-term
-summary: 'An MQL has shown interest; an SQL has been vetted as ready for a sales conversation. Confusing the two inflates funnel metrics.'
+tagline: 'An MQL has shown interest; an SQL has been vetted as ready for a sales conversation. Confusing the two inflates funnel metrics.'
 service_url: /services/marketing-automation
 taxonomy:
     topic: [Strategy]

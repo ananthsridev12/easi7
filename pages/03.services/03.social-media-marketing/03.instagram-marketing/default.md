@@ -3,7 +3,7 @@ title: 'Instagram Marketing'
 template: service-detail-c
 eyebrow: 'Instagram Marketing'
 headline: 'Visual-first content for visual-first buyers'
-summary: 'Instagram content strategy and community management for brands where visual proof matters.'
+tagline: 'Instagram content strategy and community management for brands where visual proof matters.'
 primary_intent: 'commercial - service research'
 entities: ['Content Pillars', 'Reels', 'Instagram Stories', 'UGC', 'Community Management', 'Instagram Grid']
 tools: ['Reels', 'Content Pillars', 'Instagram Insights']

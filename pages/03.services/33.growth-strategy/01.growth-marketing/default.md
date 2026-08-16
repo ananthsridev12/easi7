@@ -3,7 +3,7 @@ title: 'Growth Marketing'
 template: service-detail-a
 eyebrow: 'Growth Strategy'
 headline: 'Experiments run fast, scaled only when they hold up'
-summary: 'Growth marketing built on a structured experimentation process across acquisition, activation, and retention.'
+tagline: 'Growth marketing built on a structured experimentation process across acquisition, activation, and retention.'
 primary_intent: 'commercial - service research'
 entities: ['North Star Metric', 'Growth Experimentation', 'ICE Scoring', 'Activation Rate', 'Retention Cohorts', 'A/B Testing']
 tools: ['Experiment Backlog', 'A/B Testing', 'Cohort Analysis', 'North Star Metric Framework']

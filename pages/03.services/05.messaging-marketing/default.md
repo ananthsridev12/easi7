@@ -4,7 +4,7 @@ template: services
 eyebrow: 'Messaging Marketing'
 icon: "📱"
 headline: 'Reach people where they actually read messages'
-summary: 'SMS and WhatsApp campaigns for the moments email is too slow for - order updates, reminders, and time-sensitive offers.'
+tagline: 'SMS and WhatsApp campaigns for the moments email is too slow for - order updates, reminders, and time-sensitive offers.'
 tools: ['WhatsApp Business API', 'SMS Gateways']
 taxonomy:
     service: ['Messaging Marketing']

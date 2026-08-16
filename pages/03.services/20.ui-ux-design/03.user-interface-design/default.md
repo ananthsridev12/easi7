@@ -3,7 +3,7 @@ title: 'User Interface Design'
 template: service-detail-c
 eyebrow: 'UI/UX Design'
 headline: 'Visual design that serves the interaction, not the portfolio'
-summary: 'User interface design covering layout, visual hierarchy, and component design for web and app interfaces.'
+tagline: 'User interface design covering layout, visual hierarchy, and component design for web and app interfaces.'
 service_url: /services/ui-ux-design/user-interface-design
 taxonomy:
     service: ['User Interface Design']

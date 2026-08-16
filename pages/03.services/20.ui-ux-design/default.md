@@ -4,7 +4,7 @@ template: services
 eyebrow: 'UI/UX Design'
 icon: "🎛️"
 headline: 'Design decisions backed by research, not opinion'
-summary: 'UX research, interface design, and design systems for products and websites that need to be used, not just seen.'
+tagline: 'UX research, interface design, and design systems for products and websites that need to be used, not just seen.'
 tools: [Figma, 'Design Systems', Prototyping]
 taxonomy:
     service: ['UI/UX Design']

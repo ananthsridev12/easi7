@@ -3,7 +3,7 @@ title: 'Financial Services'
 template: service-detail
 eyebrow: 'Financial Services'
 headline: 'The stack we run in production, for a lending platform'
-summary: "Analytics, paid media, and automation for financial services - the exact stack we've operated for a lending platform client since 2022."
+tagline: "Analytics, paid media, and automation for financial services - the exact stack we've operated for a lending platform client since 2022."
 tools: [GA4, 'Google Ads', 'CRM Automation']
 service_url: /services/analytics-tracking
 taxonomy:

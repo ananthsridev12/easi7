@@ -3,7 +3,7 @@ title: 'Analytics Strategy'
 template: service-detail-b
 eyebrow: 'Analytics Strategy'
 headline: 'An analytics practice, not just a set of dashboards'
-summary: 'Analytics strategy covering tooling, team structure, ownership, and reporting cadence - not just which platform to use.'
+tagline: 'Analytics strategy covering tooling, team structure, ownership, and reporting cadence - not just which platform to use.'
 primary_intent: 'commercial - service research'
 entities: ['Analytics Strategy', 'Reporting Cadence', 'Data Literacy', 'Analytics Maturity Model', 'Ownership Model']
 tools: ['Analytics Strategy', 'Reporting Cadence']

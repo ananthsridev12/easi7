@@ -4,7 +4,7 @@ template: services
 eyebrow: SEO
 icon: "🔍"
 headline: 'Organic visibility that compounds'
-summary: 'Technical foundations and AI-era search readiness - traffic that keeps paying off long after a campaign ends.'
+tagline: 'Technical foundations and AI-era search readiness - traffic that keeps paying off long after a campaign ends.'
 tools: [Ahrefs, SEMrush, 'Screaming Frog']
 taxonomy:
     service: [SEO]

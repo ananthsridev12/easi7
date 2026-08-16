@@ -4,7 +4,7 @@ menu: 'Knowledge Hub'
 template: knowledge-hub
 metadata:
     description: 'A glossary of marketing and analytics terms, plus in-depth guides on GA4, technical SEO, and answer engine optimisation.'
-summary: 'Plain-language definitions and in-depth guides - the reference material we wish someone had handed us earlier.'
+tagline: 'Plain-language definitions and in-depth guides - the reference material we wish someone had handed us earlier.'
 content:
     items: '@self.children'
     order:

@@ -3,7 +3,7 @@ title: 'Off-Page SEO'
 template: service-detail-a
 eyebrow: 'Off-Page SEO'
 headline: 'Authority built deliberately, not accumulated by accident'
-summary: "Link building and digital PR focused on relevance and editorial placement, not volume."
+tagline: "Link building and digital PR focused on relevance and editorial placement, not volume."
 primary_intent: 'commercial - service research'
 entities: ['Digital PR', 'Backlink Profile', 'Domain Authority', 'Guest Content', 'Brand Mentions']
 tools: ['Digital PR', 'Link Building', 'Ahrefs']

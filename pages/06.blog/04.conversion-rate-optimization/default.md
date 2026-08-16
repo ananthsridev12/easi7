@@ -4,7 +4,7 @@ date: '01-15-2026 00:00'
 template: blog-item
 author: 'Ananth Sridev, Founder'
 read_time: '9 min read'
-summary: 'A data-driven CRO framework: diagnostics, prioritisation, hypotheses, and clean experiments.'
+tagline: 'A data-driven CRO framework: diagnostics, prioritisation, hypotheses, and clean experiments.'
 taxonomy:
     category: [Analytics]
     tag: [CRO, 'Landing Pages']

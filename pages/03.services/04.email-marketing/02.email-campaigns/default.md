@@ -3,7 +3,7 @@ title: 'Email Campaigns'
 template: service-detail-b
 eyebrow: 'Email Marketing'
 headline: 'Sends people actually open'
-summary: 'One-off and broadcast email campaigns built around segmentation and subject-line testing, not batch-and-blast.'
+tagline: 'One-off and broadcast email campaigns built around segmentation and subject-line testing, not batch-and-blast.'
 primary_intent: 'commercial - service research'
 entities: ['List Segmentation', 'Subject Line Testing', 'Send-Time Optimisation', 'Campaign Calendar', 'Deliverability Monitoring']
 tools: ['Segmentation', 'Subject Line Testing', 'Send-Time Testing']

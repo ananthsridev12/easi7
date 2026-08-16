@@ -3,7 +3,7 @@ title: 'Display Advertising'
 template: service-detail-b
 eyebrow: 'Display Advertising'
 headline: 'Awareness spend that still gets measured properly'
-summary: 'Google Display Network and programmatic campaigns for upper-funnel reach, tracked against downstream conversion.'
+tagline: 'Google Display Network and programmatic campaigns for upper-funnel reach, tracked against downstream conversion.'
 primary_intent: 'commercial - service research'
 entities: ['Google Display Network', 'Programmatic Advertising', 'Contextual Targeting', 'Viewability', 'View-Through Conversion']
 tools: ['Google Display Network', 'Programmatic']

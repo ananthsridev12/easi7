@@ -3,7 +3,7 @@ title: 'Brand Guidelines'
 template: service-detail-a
 eyebrow: 'Branding'
 headline: 'So the brand stays consistent without you in the room'
-summary: 'Brand guideline documentation covering every visual and voice rule for consistent application by any team.'
+tagline: 'Brand guideline documentation covering every visual and voice rule for consistent application by any team.'
 tools: ['Style Guide Documentation', 'Brand Templates']
 service_url: /services/branding/brand-guidelines
 taxonomy:

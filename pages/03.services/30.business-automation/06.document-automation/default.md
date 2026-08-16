@@ -3,7 +3,7 @@ title: 'Document Automation'
 template: service-detail-c
 eyebrow: 'Business Automation'
 headline: 'Contracts, proposals, and invoices generated, not typed'
-summary: 'Document automation for contracts, proposals, and recurring paperwork generated from templates and data.'
+tagline: 'Document automation for contracts, proposals, and recurring paperwork generated from templates and data.'
 primary_intent: 'commercial - service research'
 entities: ['Template-Based Generation', 'Data-Driven Contracts', 'E-Signature Workflow', 'Version Control', 'Audit Trails', 'Approval Workflows']
 tools: ['Document Templates', 'E-Signature Platforms', 'Data Merge']

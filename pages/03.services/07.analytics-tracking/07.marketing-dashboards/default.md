@@ -3,7 +3,7 @@ title: 'Marketing Dashboards'
 template: service-detail-c
 eyebrow: 'Marketing Dashboards'
 headline: 'One dashboard, not five exported spreadsheets'
-summary: 'Looker Studio dashboards that answer specific business questions, refreshed automatically.'
+tagline: 'Looker Studio dashboards that answer specific business questions, refreshed automatically.'
 primary_intent: 'commercial - service research'
 entities: ['Looker Studio', 'BigQuery', 'Marketing Dashboards', 'Data Pipeline', 'KPI Reporting']
 tools: ['Looker Studio', 'BigQuery']

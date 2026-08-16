@@ -3,7 +3,7 @@ title: 'Internal Knowledge Assistants'
 template: service-detail-a
 eyebrow: 'AI Chatbots'
 headline: 'Stop searching six tools for one answer'
-summary: 'Internal knowledge assistants that answer employee questions from your existing documentation and tools.'
+tagline: 'Internal knowledge assistants that answer employee questions from your existing documentation and tools.'
 primary_intent: 'informational - concept explainer'
 entities: ['Internal Knowledge Assistants', 'Access Control', 'Documentation Grounding', 'Slack Integration', 'Source Citation']
 service_url: /services/ai-chatbots/internal-knowledge-assistants

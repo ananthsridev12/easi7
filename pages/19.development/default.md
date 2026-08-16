@@ -4,7 +4,7 @@ menu: false
 template: pillar
 eyebrow: Development
 headline: 'Sites and applications, built with tracking already in mind'
-summary: 'Website development, web apps, e-commerce, CMS, frontend engineering, integrations, and ongoing optimisation.'
+tagline: 'Website development, web apps, e-commerce, CMS, frontend engineering, integrations, and ongoing optimisation.'
 metadata:
     description: 'Development services covering website development, web applications, e-commerce, CMS development, frontend engineering, integrations, and web optimization.'
 overview: "<p>A marketing team can only do so much with a site that's slow, hard to update, or missing basic tracking. Development done alongside marketing, instead of handed off to a separate team with no context, is how conversion goals and technical decisions stay connected instead of fighting each other after launch.</p>"

@@ -4,7 +4,7 @@ date: '02-05-2026 00:00'
 template: blog-item
 author: 'Ananth Sridev, Founder'
 read_time: '8 min read'
-summary: 'When Google Ads automation helps and when manual control still wins.'
+tagline: 'When Google Ads automation helps and when manual control still wins.'
 taxonomy:
     category: [PPC]
     tag: ['Google Ads', Automation]

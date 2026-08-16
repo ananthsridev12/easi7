@@ -3,7 +3,7 @@ title: 'Generative AI Solutions'
 template: service-detail-c
 eyebrow: 'AI Solutions'
 headline: 'Generative AI applied to a specific, measurable outcome'
-summary: 'Generative AI implementation for content, code, or creative workflows, scoped to a specific business outcome.'
+tagline: 'Generative AI implementation for content, code, or creative workflows, scoped to a specific business outcome.'
 primary_intent: 'informational - concept explainer'
 entities: ['LLM Applications', 'Prompt Engineering', 'Retrieval-Augmented Generation', 'Human-in-the-Loop Review', 'Content Pipeline Integration']
 tools: ['Generative AI', 'LLM Applications']

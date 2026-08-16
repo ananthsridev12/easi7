@@ -1,7 +1,7 @@
 ---
 title: 'What Is Schema Markup?'
 template: glossary-term
-summary: 'Schema markup is structured data added to a page''s code that explicitly tells search engines what the content means.'
+tagline: 'Schema markup is structured data added to a page''s code that explicitly tells search engines what the content means.'
 service_url: /services/seo/technical-seo
 taxonomy:
     topic: [SEO]

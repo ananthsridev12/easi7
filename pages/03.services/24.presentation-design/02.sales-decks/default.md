@@ -3,7 +3,7 @@ title: 'Sales Decks'
 template: service-detail-b
 eyebrow: 'Presentation Design'
 headline: 'Built to move a deal forward, not just inform'
-summary: 'Sales deck design structured around objection handling and a clear next step.'
+tagline: 'Sales deck design structured around objection handling and a clear next step.'
 primary_intent: 'commercial - service research'
 entities: ['Sales Decks', 'Objection Handling', 'Deal Progression', 'Proof Points', 'Template Systems']
 tools: ['Sales Decks', 'Deal Progression']

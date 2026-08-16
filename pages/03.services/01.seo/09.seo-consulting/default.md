@@ -3,7 +3,7 @@ title: 'SEO Consulting'
 template: service-detail-c
 eyebrow: 'SEO Consulting'
 headline: "A second opinion from someone who has run the campaigns"
-summary: "Fractional SEO strategy and team training for businesses that want in-house capability, not permanent dependency."
+tagline: "Fractional SEO strategy and team training for businesses that want in-house capability, not permanent dependency."
 primary_intent: 'commercial - service research'
 entities: ['Fractional Strategy', 'Team Training', 'Vendor Oversight', 'Algorithm Updates', 'SEO Roadmap']
 tools: ['Strategy', 'Team Training', 'Advisory']

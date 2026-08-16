@@ -3,7 +3,7 @@ title: 'Wireframing'
 template: service-detail-a
 eyebrow: 'UI/UX Design'
 headline: 'Structure agreed on before a single pixel is styled'
-summary: 'Low and mid-fidelity wireframing to align on structure and flow before visual design begins.'
+tagline: 'Low and mid-fidelity wireframing to align on structure and flow before visual design begins.'
 service_url: /services/ui-ux-design/wireframing
 taxonomy:
     service: ['Wireframing']

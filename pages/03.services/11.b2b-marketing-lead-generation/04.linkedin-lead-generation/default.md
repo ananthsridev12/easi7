@@ -3,7 +3,7 @@ title: 'LinkedIn Lead Generation'
 template: service-detail-a
 eyebrow: 'B2B Marketing & Lead Generation'
 headline: "LinkedIn's targeting, used properly"
-summary: 'LinkedIn-specific lead generation combining Sales Navigator targeting, lead gen forms, organic coordination, and outreach follow-up.'
+tagline: 'LinkedIn-specific lead generation combining Sales Navigator targeting, lead gen forms, organic coordination, and outreach follow-up.'
 service_url: /services/b2b-marketing-lead-generation/linkedin-lead-generation
 primary_intent: 'commercial - service research'
 entities: ['LinkedIn Lead Gen Forms', 'Sales Navigator', 'InMail Sequencing', 'Organic and Paid Coordination', 'CRM Sync']

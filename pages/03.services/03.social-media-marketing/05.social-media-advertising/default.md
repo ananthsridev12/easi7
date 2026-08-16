@@ -3,7 +3,7 @@ title: 'Social Media Advertising'
 template: service-detail-b
 eyebrow: 'Social Media Advertising'
 headline: 'Paid social budget, allocated by what actually converts'
-summary: 'Cross-platform social ad management spanning Meta, LinkedIn, and emerging platforms, unified under one reporting view.'
+tagline: 'Cross-platform social ad management spanning Meta, LinkedIn, and emerging platforms, unified under one reporting view.'
 primary_intent: 'commercial - service research'
 entities: ['Cross-Platform Advertising', 'Unified Reporting', 'Lookalike Audiences', 'Creative Testing', 'Budget Allocation']
 tools: ['Meta Ads Manager', 'LinkedIn Campaign Manager', 'Unified Reporting']

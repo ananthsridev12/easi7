@@ -3,7 +3,7 @@ title: 'Automated Insights'
 template: service-detail-b
 eyebrow: 'AI Analytics'
 headline: 'The recommendation, delivered alongside the report'
-summary: "Automated change detection, root-cause surfacing, and recommended-action generation delivered wherever your team already works, not buried in a dashboard nobody opens."
+tagline: "Automated change detection, root-cause surfacing, and recommended-action generation delivered wherever your team already works, not buried in a dashboard nobody opens."
 primary_intent: 'commercial - service research'
 entities: ['Change Detection', 'Root-Cause Analysis', 'Recommendation Engines', 'Automated Alerting', 'Feedback Loops']
 tools: ['Automated Insights', 'Recommendation Engines', 'Change Detection']

@@ -3,7 +3,7 @@ title: 'Programmatic SEO'
 template: service-detail-c
 eyebrow: 'Programmatic SEO'
 headline: 'Hundreds of pages, one system, real quality'
-summary: "Template-driven page generation for long-tail keyword coverage, built to avoid the thin-content trap."
+tagline: "Template-driven page generation for long-tail keyword coverage, built to avoid the thin-content trap."
 primary_intent: 'commercial - service research'
 entities: ['Programmatic Pages', 'Long-Tail Keywords', 'Content Templates', 'Quality Gates', 'Internal Linking at Scale']
 tools: ['Templated Pages', 'Data-Driven Content', 'Quality Gates']

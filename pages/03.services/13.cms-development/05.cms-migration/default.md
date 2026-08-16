@@ -3,7 +3,7 @@ title: 'CMS Migration'
 template: service-detail-b
 eyebrow: 'CMS Development'
 headline: 'Moving platforms without losing rankings or data'
-summary: 'CMS migrations planned around SEO preservation, content integrity, and minimal downtime.'
+tagline: 'CMS migrations planned around SEO preservation, content integrity, and minimal downtime.'
 primary_intent: 'commercial - service research'
 entities: ['CMS Migration', 'URL Mapping', '301 Redirects', 'SEO Equity', 'Content Migration']
 tools: ['301 Redirects', 'URL Mapping', 'Google Search Console']

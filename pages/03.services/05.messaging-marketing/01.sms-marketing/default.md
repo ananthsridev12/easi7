@@ -3,7 +3,7 @@ title: 'SMS Marketing'
 template: service-detail-a
 eyebrow: 'SMS Marketing'
 headline: 'Short, timely, and impossible to miss'
-summary: 'SMS campaigns for order updates, abandoned-cart recovery, and time-sensitive offers - used sparingly enough that people keep opting in.'
+tagline: 'SMS campaigns for order updates, abandoned-cart recovery, and time-sensitive offers - used sparingly enough that people keep opting in.'
 service_url: /services/messaging-marketing/sms-marketing
 taxonomy:
     service: ['SMS Marketing']

@@ -4,7 +4,7 @@ template: services
 eyebrow: 'Frontend Development'
 icon: "💻"
 headline: 'Interfaces built with the right tool for the job'
-summary: 'React, Next.js, and vanilla JavaScript - chosen based on what the interface actually needs, not habit.'
+tagline: 'React, Next.js, and vanilla JavaScript - chosen based on what the interface actually needs, not habit.'
 tools: [React, 'Next.js', JavaScript]
 taxonomy:
     service: ['Frontend Development']

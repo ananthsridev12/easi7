@@ -4,7 +4,7 @@ menu: Portfolio
 template: portfolio
 metadata:
     description: 'Digital marketing portfolio featuring SEO, PPC, analytics, and automation projects delivered by EASI7.'
-summary: "Real projects, real results. A selection of the campaigns and implementations we've led."
+tagline: "Real projects, real results. A selection of the campaigns and implementations we've led."
 content:
     items: '@self.children'
     order:

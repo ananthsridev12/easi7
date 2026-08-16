@@ -3,7 +3,7 @@ title: 'Technology Strategy'
 template: service-detail-c
 eyebrow: 'Digital Strategy'
 headline: 'Technology decisions made for the next three years, not just this quarter'
-summary: 'Technology strategy for platform, tooling, and architecture decisions with long-term implications.'
+tagline: 'Technology strategy for platform, tooling, and architecture decisions with long-term implications.'
 primary_intent: 'informational - concept explainer'
 entities: ['Technology Strategy', 'Build vs Buy', 'Platform Evaluation', 'Technical Debt', 'Vendor Strategy', 'Architecture Decisions']
 tools: ['Platform Evaluation Frameworks', 'Build-vs-Buy Analysis', 'Technical Debt Assessment']

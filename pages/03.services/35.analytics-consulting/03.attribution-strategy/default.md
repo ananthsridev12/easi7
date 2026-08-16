@@ -3,7 +3,7 @@ title: 'Attribution Strategy'
 template: service-detail-c
 eyebrow: 'Attribution Strategy'
 headline: 'Credit assigned in a way the business can actually trust'
-summary: 'Attribution strategy consulting: choosing and defending an attribution model that matches your actual sales cycle and channel mix.'
+tagline: 'Attribution strategy consulting: choosing and defending an attribution model that matches your actual sales cycle and channel mix.'
 primary_intent: 'informational - concept explainer'
 entities: ['Attribution Strategy', 'Attribution Model Selection', 'Multi-Touch Attribution', 'Channel Mix', 'Sales Cycle Length']
 tools: ['Attribution Strategy', 'Modelling']

@@ -3,7 +3,7 @@ title: 'Meta Ads'
 template: service-detail-b
 eyebrow: 'Meta Ads'
 headline: 'Meta campaign buying, built for ROAS not reach'
-summary: 'Facebook and Instagram ad buying focused on bidding strategy, budget pacing, and creative testing velocity.'
+tagline: 'Facebook and Instagram ad buying focused on bidding strategy, budget pacing, and creative testing velocity.'
 primary_intent: 'commercial - service research'
 entities: ['Meta Ads Manager', 'ROAS Bidding', 'Cost Cap Bidding', 'Conversions API', 'Creative Testing', 'Ad Account Health']
 tools: ['Meta Ads Manager', 'ROAS Bidding']

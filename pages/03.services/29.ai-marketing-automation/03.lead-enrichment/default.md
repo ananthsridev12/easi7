@@ -3,7 +3,7 @@ title: 'Lead Enrichment'
 template: service-detail-c
 eyebrow: 'Lead Enrichment'
 headline: 'Complete lead data without manual research'
-summary: 'Automated lead enrichment pulling firmographic and contact data before sales ever sees the lead.'
+tagline: 'Automated lead enrichment pulling firmographic and contact data before sales ever sees the lead.'
 primary_intent: 'commercial - service research'
 entities: ['Firmographic Enrichment', 'Contact Enrichment', 'Data Quality Rules', 'Deduplication', 'Provider Integration']
 tools: ['Firmographic Enrichment', 'Contact Enrichment', 'Deduplication Rules']

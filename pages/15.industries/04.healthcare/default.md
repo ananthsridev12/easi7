@@ -3,7 +3,7 @@ title: Healthcare
 template: service-detail
 eyebrow: Healthcare
 headline: 'Compliant, trust-first marketing for a regulated industry'
-summary: 'Healthcare marketing that respects regulatory constraints and leads with trust, not just conversion tactics.'
+tagline: 'Healthcare marketing that respects regulatory constraints and leads with trust, not just conversion tactics.'
 tools: [Compliance, 'Trust Signals', 'Content Strategy']
 taxonomy:
     industry: [Healthcare]

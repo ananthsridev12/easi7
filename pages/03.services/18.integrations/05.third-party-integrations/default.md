@@ -3,7 +3,7 @@ title: 'Third-party Integrations'
 template: service-detail-b
 eyebrow: 'Integrations'
 headline: 'Whatever tool you already rely on, connected properly'
-summary: 'Custom integrations with the specific third-party tools your business already runs on, including the ones nobody else builds connectors for.'
+tagline: 'Custom integrations with the specific third-party tools your business already runs on, including the ones nobody else builds connectors for.'
 primary_intent: 'commercial - service research'
 entities: ['Custom Connectors', 'Legacy System Integration', 'Data Synchronisation', 'Fallback Handling', 'Integration Testing']
 tools: ['Third-party Tools', 'Custom Connectors']

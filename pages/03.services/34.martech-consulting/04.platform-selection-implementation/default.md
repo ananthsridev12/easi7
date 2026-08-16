@@ -3,7 +3,7 @@ title: 'Platform Selection & Implementation'
 template: service-detail-a
 eyebrow: 'Platform Selection & Implementation'
 headline: 'Chosen against your requirements, not a vendor''s demo'
-summary: 'Platform selection and implementation oversight for marketing technology purchases, evaluated against your actual use cases.'
+tagline: 'Platform selection and implementation oversight for marketing technology purchases, evaluated against your actual use cases.'
 primary_intent: 'commercial - service research'
 entities: ['Requirements Definition', 'Vendor Evaluation', 'Proof-of-Concept', 'Implementation Oversight', 'Adoption Review']
 tools: ['Platform Selection', 'Implementation Oversight']

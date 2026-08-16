@@ -4,7 +4,7 @@ menu: false
 template: pillar
 eyebrow: 'Strategy & Consulting'
 headline: 'Clarity on what to fix first'
-summary: 'Digital strategy, marketing strategy, growth strategy, MarTech consulting, and analytics consulting - for teams that need a second, sharper opinion.'
+tagline: 'Digital strategy, marketing strategy, growth strategy, MarTech consulting, and analytics consulting - for teams that need a second, sharper opinion.'
 metadata:
     description: 'Strategy and consulting services covering digital strategy, marketing strategy, growth strategy, MarTech consulting, and analytics consulting.'
 overview: "<p>Most strategy engagements fail before they start, because nobody agreed on what to measure or what problem is actually being solved. We treat strategy as the layer that has to be right before any execution budget gets spent - audits and frameworks before recommendations, not after.</p>"

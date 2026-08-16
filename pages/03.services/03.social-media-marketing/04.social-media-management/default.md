@@ -3,7 +3,7 @@ title: 'Social Media Management'
 template: service-detail-a
 eyebrow: 'Social Media Management'
 headline: 'Consistent posting is the floor, not the strategy'
-summary: 'Full social media management - calendars, publishing, community management, and monthly reporting handled end-to-end.'
+tagline: 'Full social media management - calendars, publishing, community management, and monthly reporting handled end-to-end.'
 primary_intent: 'commercial - service research'
 entities: ['Content Calendar', 'Community Management', 'Brand Voice Guidelines', 'Crisis Monitoring', 'Multi-Platform Publishing']
 tools: ['Content Calendars', 'Community Management', 'Brand Voice Guidelines']

@@ -4,7 +4,7 @@ template: services
 eyebrow: 'AI Solutions'
 icon: "🤖"
 headline: 'AI applied where it actually earns its cost'
-summary: 'Strategy, consulting, and generative AI applications scoped to specific, measurable outcomes - not AI for its own sake.'
+tagline: 'Strategy, consulting, and generative AI applications scoped to specific, measurable outcomes - not AI for its own sake.'
 tools: ['AI Strategy', 'Generative AI']
 taxonomy:
     service: ['AI Solutions']

@@ -3,7 +3,7 @@ title: 'Landing Page Design'
 template: service-detail-c
 eyebrow: 'Website Design'
 headline: 'One goal, designed with nothing competing for attention'
-summary: 'Landing page design built around a single conversion goal, tested and iterated.'
+tagline: 'Landing page design built around a single conversion goal, tested and iterated.'
 primary_intent: 'commercial - service research'
 entities: ['Single-Goal Design', 'Above-the-Fold Hierarchy', 'Trust Signals', 'Mobile-First Design', 'A/B Testing']
 tools: ['Landing Pages', 'Conversion Design']

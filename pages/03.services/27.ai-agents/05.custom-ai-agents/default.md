@@ -3,7 +3,7 @@ title: 'Custom AI Agents'
 template: service-detail-b
 eyebrow: 'Custom AI Agents'
 headline: 'Built around your specific workflow, not a generic template'
-summary: "Custom AI agent development for internal or customer-facing workflows that off-the-shelf agent platforms don't fit."
+tagline: "Custom AI agent development for internal or customer-facing workflows that off-the-shelf agent platforms don't fit."
 primary_intent: 'commercial - service research'
 entities: ['Workflow-Specific Agents', 'Tool Access Scoping', 'Agent Guardrails', 'Agent Evaluation', 'Custom Integrations']
 tools: ['Custom Agents', 'Workflow-specific AI', 'Agent Evaluation']

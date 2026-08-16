@@ -3,7 +3,7 @@ title: 'Drip Campaigns'
 template: service-detail-a
 eyebrow: 'Email Marketing'
 headline: 'A sequence, not a single email'
-summary: 'Time-based drip sequences that nurture a lead or onboard a customer over a defined period.'
+tagline: 'Time-based drip sequences that nurture a lead or onboard a customer over a defined period.'
 primary_intent: 'commercial - service research'
 entities: ['Drip Sequencing', 'Lead Nurturing', 'Onboarding Sequences', 'Cadence Design', 'Exit Triggers']
 tools: ['Drip Sequencing Platforms', 'Cadence Testing', 'CRM Integration']

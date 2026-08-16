@@ -3,7 +3,7 @@ title: 'Blog & Article Writing'
 template: service-detail-b
 eyebrow: 'Content Marketing'
 headline: 'Written by someone who actually understands the topic'
-summary: 'SEO-briefed articles researched and written with real subject knowledge, not keyword-stuffed filler.'
+tagline: 'SEO-briefed articles researched and written with real subject knowledge, not keyword-stuffed filler.'
 primary_intent: 'commercial - service research'
 entities: ['SEO Briefing', 'Search Intent', 'Subject-Matter Research', 'Internal Linking', 'Editorial Voice', 'Fact-Checking']
 tools: ['SEO Briefing', 'Editorial Workflow', 'Internal Linking']

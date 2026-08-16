@@ -3,7 +3,7 @@ title: 'Landing Page Development'
 template: service-detail-a
 eyebrow: 'Website Development'
 headline: 'One page, one goal, built to prove it works'
-summary: 'Landing page development for campaigns, built with testing and iteration in mind from day one.'
+tagline: 'Landing page development for campaigns, built with testing and iteration in mind from day one.'
 primary_intent: 'commercial - service research'
 entities: ['Landing Page', 'A/B Testing', 'Conversion Tracking', 'Campaign Page', 'Mobile-First Build']
 tools: ['A/B Test-Ready Architecture', 'Conversion Tracking Setup', 'Mobile-First Build']

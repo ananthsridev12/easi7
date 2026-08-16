@@ -3,7 +3,7 @@ title: 'Reporting & Insights'
 template: service-detail-a
 eyebrow: 'Reporting & Insights'
 headline: 'A report that says what to do next'
-summary: 'Regular reporting that includes analysis and recommendations, not just a wall of numbers.'
+tagline: 'Regular reporting that includes analysis and recommendations, not just a wall of numbers.'
 primary_intent: 'commercial - service research'
 entities: ['Marketing Reporting', 'Anomaly Detection', 'Performance Analysis', 'Stakeholder Reporting', 'Trend Benchmarking']
 service_url: /services/analytics-tracking/reporting-insights

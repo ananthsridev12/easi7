@@ -3,7 +3,7 @@ title: E-Commerce
 template: service-detail
 eyebrow: E-Commerce
 headline: 'Multi-channel performance marketing at catalogue scale'
-summary: 'E-commerce marketing spanning technical SEO, Shopping campaigns, and social ads across large product catalogues.'
+tagline: 'E-commerce marketing spanning technical SEO, Shopping campaigns, and social ads across large product catalogues.'
 tools: ['Google Shopping', 'Technical SEO', 'Facebook Ads']
 service_url: /services/search-engine-marketing
 taxonomy:

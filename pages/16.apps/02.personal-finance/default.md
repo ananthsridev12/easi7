@@ -3,7 +3,7 @@ title: 'Personal Finance'
 template: app-detail
 eyebrow: 'Personal Finance'
 headline: 'Know where your money actually goes'
-summary: 'A personal finance manager for tracking spending, budgets, and savings goals in one straightforward view.'
+tagline: 'A personal finance manager for tracking spending, budgets, and savings goals in one straightforward view.'
 tools: [Budgeting, 'Expense Tracking', 'Savings Goals']
 metadata:
     description: 'Personal Finance is a self-finance management app for tracking spending, budgets, and savings goals.'

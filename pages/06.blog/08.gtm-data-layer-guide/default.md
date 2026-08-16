@@ -4,7 +4,7 @@ date: '02-01-2026 00:00'
 template: blog-item
 author: 'Ananth Sridev, Founder'
 read_time: '11 min read'
-summary: 'How to design a clean data layer for GA4, ads, and reporting - naming, parameters, and governance.'
+tagline: 'How to design a clean data layer for GA4, ads, and reporting - naming, parameters, and governance.'
 taxonomy:
     category: [Analytics]
     tag: [GTM, 'Data Layer']

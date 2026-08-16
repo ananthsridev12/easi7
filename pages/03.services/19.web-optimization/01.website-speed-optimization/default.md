@@ -3,7 +3,7 @@ title: 'Website Speed Optimization'
 template: service-detail-a
 eyebrow: 'Web Optimization'
 headline: 'Every second of load time is a conversion cost'
-summary: 'Website speed optimisation covering hosting, code, and asset delivery - fixed at the source, not patched with a caching plugin.'
+tagline: 'Website speed optimisation covering hosting, code, and asset delivery - fixed at the source, not patched with a caching plugin.'
 service_url: /services/web-optimization/website-speed-optimization
 taxonomy:
     service: ['Website Speed Optimization']

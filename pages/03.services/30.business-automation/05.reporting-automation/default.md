@@ -3,7 +3,7 @@ title: 'Reporting Automation'
 template: service-detail-b
 eyebrow: 'Business Automation'
 headline: 'Reports that generate themselves on schedule'
-summary: 'Automated reporting pipelines pulling from source systems into scheduled, formatted reports.'
+tagline: 'Automated reporting pipelines pulling from source systems into scheduled, formatted reports.'
 primary_intent: 'commercial - service research'
 entities: ['Automated Data Pull', 'Scheduled Reporting', 'Report Distribution', 'Custom Formatting', 'Anomaly Flagging', 'Pipeline Maintenance']
 tools: ['Scheduled Report Pipelines', 'Dashboarding Tools', 'API Data Pulls']

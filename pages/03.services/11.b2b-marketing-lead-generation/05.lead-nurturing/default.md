@@ -3,7 +3,7 @@ title: 'Lead Nurturing'
 template: service-detail-b
 eyebrow: 'B2B Marketing & Lead Generation'
 headline: "Most leads aren't ready yet - that's fine"
-summary: 'Multi-touch, behavior-triggered nurture sequences that keep not-yet-ready leads warm until they are, instead of dropping them after one or two emails.'
+tagline: 'Multi-touch, behavior-triggered nurture sequences that keep not-yet-ready leads warm until they are, instead of dropping them after one or two emails.'
 tools: ['Nurture Sequences', 'Lifecycle Stages']
 service_url: /services/b2b-marketing-lead-generation/lead-nurturing
 primary_intent: 'commercial - service research'

@@ -3,7 +3,7 @@ title: 'Customer Insights'
 template: service-detail-a
 eyebrow: 'AI Analytics'
 headline: 'Segments and patterns pulled from data you already have'
-summary: "AI-assisted analysis of behavioural, transactional, and support data that turns what you already collect into segments and decisions, not just a bigger spreadsheet."
+tagline: "AI-assisted analysis of behavioural, transactional, and support data that turns what you already collect into segments and decisions, not just a bigger spreadsheet."
 primary_intent: 'commercial - service research'
 entities: ['Behavioural Segmentation', 'Sentiment Analysis', 'Customer Lifetime Value', 'Transactional Analysis', 'Support Ticket Analysis']
 tools: ['Customer Insights', 'Segmentation', 'Sentiment Analysis', 'CLV Modelling']

@@ -4,7 +4,7 @@ menu: false
 template: pillar
 eyebrow: 'AI & Automation'
 headline: 'AI applied where it actually earns its cost'
-summary: 'AI strategy, agents, chatbots, AI-powered marketing automation, business automation, and AI analytics - scoped narrowly, not deployed for its own sake.'
+tagline: 'AI strategy, agents, chatbots, AI-powered marketing automation, business automation, and AI analytics - scoped narrowly, not deployed for its own sake.'
 metadata:
     description: 'AI and automation services covering AI strategy, AI agents, chatbots, AI-powered marketing automation, business automation, and AI analytics.'
 overview: "<p>\"Add AI\" is not a use case, and most AI initiatives that underdeliver were scoped exactly that vaguely from the start. Every AI or automation project here starts from a specific, measurable problem - hours saved, a bottleneck removed, a response time cut - not a broad mandate to use AI more.</p>"

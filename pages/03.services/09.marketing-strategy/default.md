@@ -4,7 +4,7 @@ template: services
 eyebrow: 'Marketing Strategy'
 icon: "🧭"
 headline: 'Clarity on what to fix first'
-summary: "Full-stack marketing audits and KPI frameworks for teams that need a second, sharper opinion."
+tagline: "Full-stack marketing audits and KPI frameworks for teams that need a second, sharper opinion."
 tools: [Audits, 'KPI Frameworks', 'GTM Strategy']
 taxonomy:
     service: ['Marketing Strategy', 'Strategy & Consulting']

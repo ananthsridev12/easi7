@@ -3,7 +3,7 @@ title: 'Social Media Strategy'
 template: service-detail-c
 eyebrow: 'Social Media Strategy'
 headline: 'A plan before a posting calendar'
-summary: 'Platform selection, positioning, and content strategy built before a single post goes out.'
+tagline: 'Platform selection, positioning, and content strategy built before a single post goes out.'
 primary_intent: 'commercial - service research'
 entities: ['Platform Prioritisation', 'Brand Positioning', 'Competitive Audit', 'Content Pillars', 'KPI Framework']
 tools: ['Platform Strategy', 'Positioning', 'Competitive Audits']

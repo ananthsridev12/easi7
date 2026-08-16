@@ -3,7 +3,7 @@ title: 'Business Websites'
 template: service-detail-c
 eyebrow: 'Website Development'
 headline: 'A professional web presence, done right the first time'
-summary: 'Small and mid-sized business website builds - professional, fast, and easy to update.'
+tagline: 'Small and mid-sized business website builds - professional, fast, and easy to update.'
 primary_intent: 'commercial - service research'
 entities: ['Business Website', 'Mobile-First Build', 'On-Page SEO Foundations', 'Lead Capture', 'Content Management System']
 tools: ['Mobile-First Development', 'On-Page SEO Foundations', 'Conversion-Focused Lead Capture']

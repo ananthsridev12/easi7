@@ -3,7 +3,7 @@ title: 'Content Automation'
 template: service-detail-a
 eyebrow: 'Content Automation'
 headline: 'First drafts generated, humans editing for judgment'
-summary: 'AI-assisted content automation that produces first drafts and variations at volume, with a defined human review step before anything publishes.'
+tagline: 'AI-assisted content automation that produces first drafts and variations at volume, with a defined human review step before anything publishes.'
 primary_intent: 'commercial - service research'
 entities: ['First-Draft Generation', 'Content Variation', 'Template Automation', 'Human Review Workflow', 'Brand Voice Consistency']
 tools: ['AI Drafting', 'Template Automation', 'Brand Voice Checks']

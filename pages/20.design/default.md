@@ -4,7 +4,7 @@ menu: false
 template: pillar
 eyebrow: Design
 headline: 'Design built on research, not just a moodboard'
-summary: 'UI/UX, website design, branding, graphic design, presentation design, and video - each built against a specific audience and goal.'
+tagline: 'UI/UX, website design, branding, graphic design, presentation design, and video - each built against a specific audience and goal.'
 metadata:
     description: 'Design services covering UI/UX design, website design, branding, graphic design, presentation design, and video and motion.'
 overview: "<p>Design work that looks polished in a portfolio and design work that actually performs for a specific audience are not automatically the same thing. Every discipline here starts from the same question: who is this for, and what do they need to do next - not what looks good in isolation.</p>"

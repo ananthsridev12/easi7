@@ -1,12 +1,12 @@
 {#
-  Expects: item (a Grav Page with header.client / header.industry / header.summary / header.metrics)
+  Expects: item (a Grav Page with header.client / header.industry / header.tagline / header.metrics)
 #}
 <a class="cs-card" href="{{ item.url }}">
   <div class="cs-top">
     <span class="cs-client">{{ item.header.client ?? item.title }}</span>
     {% if item.header.industry %}<span class="tag">{{ item.header.industry }}</span>{% endif %}
   </div>
-  {% if item.header.summary %}<p>{{ item.header.summary }}</p>{% endif %}
+  {% if item.header.tagline %}<p>{{ item.header.tagline }}</p>{% endif %}
   {% if item.header.metrics %}
   <div class="cs-metrics">
     {% for m in item.header.metrics %}

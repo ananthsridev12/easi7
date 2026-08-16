@@ -3,7 +3,7 @@ title: 'Content Distribution'
 template: service-detail-c
 eyebrow: 'Content Marketing'
 headline: "Content doesn't distribute itself"
-summary: 'Syndication, outreach, and paid amplification so published content actually reaches an audience.'
+tagline: 'Syndication, outreach, and paid amplification so published content actually reaches an audience.'
 primary_intent: 'commercial - service research'
 entities: ['Content Syndication', 'Paid Amplification', 'Owned Channel Distribution', 'Influencer Seeding', 'Community Seeding', 'Distribution Tracking']
 tools: ['Syndication Networks', 'Paid Amplification', 'Owned Channel Distribution']

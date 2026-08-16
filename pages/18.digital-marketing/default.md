@@ -4,7 +4,7 @@ menu: false
 template: pillar
 eyebrow: 'Digital Marketing'
 headline: 'The full marketing stack, run as one system'
-summary: 'SEO, paid media, social, content, lead generation, email, automation, and analytics - connected, not run as nine separate vendors.'
+tagline: 'SEO, paid media, social, content, lead generation, email, automation, and analytics - connected, not run as nine separate vendors.'
 metadata:
     description: 'Digital marketing services covering SEO, paid marketing, social media, content, B2B lead generation, email, automation, and analytics.'
 overview: "<p>Most businesses don't have a marketing problem so much as a marketing-infrastructure problem: nine channels, nine vendors, and no single person accountable for how they connect. A paid campaign that ignores what SEO is already ranking for wastes budget. An email sequence that isn't informed by lead scoring nurtures the wrong people. Digital marketing done as a connected system, instead of nine disconnected line items, is the entire premise behind how we work.</p>"

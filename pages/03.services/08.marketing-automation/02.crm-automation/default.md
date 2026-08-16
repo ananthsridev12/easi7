@@ -3,7 +3,7 @@ title: 'CRM Automation'
 template: service-detail-a
 eyebrow: 'CRM Automation'
 headline: 'Your CRM should do the follow-up for you'
-summary: 'CRM workflow automation that moves deals forward without manual data entry or reminders.'
+tagline: 'CRM workflow automation that moves deals forward without manual data entry or reminders.'
 primary_intent: 'commercial - service research'
 entities: ['Deal Stage Triggers', 'Task Automation', 'Data Hygiene', 'Deduplication Rules', 'Workflow Integration', 'Pipeline Automation']
 tools: ['HubSpot', 'Zoho CRM', 'Salesforce', 'Deal Stage Triggers']

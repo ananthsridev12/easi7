@@ -1,7 +1,7 @@
 ---
 title: 'What Is GA4?'
 template: glossary-term
-summary: 'GA4 (Google Analytics 4) is an event-based analytics platform that replaced Universal Analytics, built around user actions rather than sessions.'
+tagline: 'GA4 (Google Analytics 4) is an event-based analytics platform that replaced Universal Analytics, built around user actions rather than sessions.'
 service_url: /services/analytics-tracking
 taxonomy:
     topic: [Analytics]

@@ -3,7 +3,7 @@ title: 'Professional Services'
 template: service-detail
 eyebrow: 'Professional Services'
 headline: 'Authority-building content for expertise-led businesses'
-summary: 'Marketing for consultancies, agencies, and expertise-led firms where trust and reputation drive the sale.'
+tagline: 'Marketing for consultancies, agencies, and expertise-led firms where trust and reputation drive the sale.'
 tools: ['Thought Leadership', 'Content Marketing', SEO]
 service_url: /services/content-marketing
 taxonomy:

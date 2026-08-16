@@ -5,7 +5,7 @@ client: 'Peppers Media'
 industry: B2B
 portfolio_url: /portfolio/b2b-lead-gen
 service_url: /services/social-media-marketing/facebook-ads
-summary: 'Peppers Media - B2B, PPC, lead generation. 250+ qualified leads in six months through audience-segmented Facebook and Google campaigns, with lead scoring before sales handoff.'
+tagline: 'Peppers Media - B2B, PPC, lead generation. 250+ qualified leads in six months through audience-segmented Facebook and Google campaigns, with lead scoring before sales handoff.'
 metrics:
     - { value: '250+', label: 'Qualified leads' }
     - { value: '−60%', label: 'Lower CPL' }

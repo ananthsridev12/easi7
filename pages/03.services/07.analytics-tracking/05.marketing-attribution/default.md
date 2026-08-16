@@ -3,7 +3,7 @@ title: 'Marketing Attribution'
 template: service-detail-a
 eyebrow: 'Marketing Attribution'
 headline: 'Credit assigned to what actually worked'
-summary: 'Attribution modelling that reflects your actual sales cycle, not a default last-click assumption.'
+tagline: 'Attribution modelling that reflects your actual sales cycle, not a default last-click assumption.'
 primary_intent: 'commercial - service research'
 entities: ['Marketing Attribution', 'Multi-Touch Attribution', 'Last-Click Attribution', 'Attribution Modelling', 'Touchpoint Tracking']
 service_url: /services/analytics-tracking/marketing-attribution

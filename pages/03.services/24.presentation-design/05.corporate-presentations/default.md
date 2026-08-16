@@ -3,7 +3,7 @@ title: 'Corporate Presentations'
 template: service-detail-b
 eyebrow: 'Presentation Design'
 headline: 'Consistent, on-brand, ready for any team to use'
-summary: 'Corporate presentation templates and design systems for consistent internal and external use.'
+tagline: 'Corporate presentation templates and design systems for consistent internal and external use.'
 primary_intent: 'commercial - service research'
 entities: ['Corporate Templates', 'Master Slide Library', 'Brand Consistency', 'Department Variants', 'Non-Designer Usability']
 tools: ['Corporate Templates', 'Brand Consistency']

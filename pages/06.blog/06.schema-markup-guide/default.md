@@ -4,7 +4,7 @@ date: '01-25-2026 00:00'
 template: blog-item
 author: 'Ananth Sridev, Founder'
 read_time: '10 min read'
-summary: 'A complete implementation guide to schema markup - entity types, JSON-LD structure, and QA steps.'
+tagline: 'A complete implementation guide to schema markup - entity types, JSON-LD structure, and QA steps.'
 taxonomy:
     category: [SEO]
     tag: [Schema, 'Structured Data']

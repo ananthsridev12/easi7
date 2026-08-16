@@ -3,7 +3,7 @@ title: 'Payment Gateway Integration'
 template: service-detail-a
 eyebrow: 'Integrations'
 headline: 'Payments that just work, in the markets that matter'
-summary: 'Payment gateway integration for e-commerce and subscription businesses, tested across every payment path before launch.'
+tagline: 'Payment gateway integration for e-commerce and subscription businesses, tested across every payment path before launch.'
 primary_intent: 'commercial - service research'
 entities: ['Payment Gateway', 'PCI Compliance', 'Recurring Billing', 'Multi-Currency Checkout', 'Failed Payment Recovery']
 tools: ['Stripe', 'PayPal', 'Recurring Billing APIs', 'Webhooks']

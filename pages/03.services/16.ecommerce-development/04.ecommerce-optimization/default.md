@@ -3,7 +3,7 @@ title: 'E-commerce Optimization'
 template: service-detail-a
 eyebrow: 'E-commerce Optimization'
 headline: 'More revenue from the traffic already showing up'
-summary: 'E-commerce conversion optimisation across product pages, cart, and checkout.'
+tagline: 'E-commerce conversion optimisation across product pages, cart, and checkout.'
 primary_intent: 'commercial - service research'
 entities: ['Conversion Rate Optimization', 'Cart Abandonment', 'Checkout Flow', 'Site Search', 'A/B Testing']
 service_url: /services/ecommerce-development/ecommerce-optimization

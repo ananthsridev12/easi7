@@ -3,7 +3,7 @@ title: 'Website Maintenance & Support'
 template: service-detail-b
 eyebrow: 'Web Optimization'
 headline: 'A site that keeps working after launch'
-summary: 'Ongoing website maintenance and support covering updates, monitoring, and small fixes - the recurring work that keeps a site from quietly degrading.'
+tagline: 'Ongoing website maintenance and support covering updates, monitoring, and small fixes - the recurring work that keeps a site from quietly degrading.'
 tools: ['Maintenance', 'Ongoing Support']
 service_url: /services/web-optimization/website-maintenance-support
 taxonomy:

@@ -3,7 +3,7 @@ title: Technology
 template: service-detail
 eyebrow: Technology
 headline: 'Positioning for a fast-moving, competitive category'
-summary: 'Technology marketing built for categories where positioning and differentiation shift every quarter.'
+tagline: 'Technology marketing built for categories where positioning and differentiation shift every quarter.'
 tools: [Positioning, 'Content Strategy', 'Paid Marketing']
 taxonomy:
     industry: [Technology]

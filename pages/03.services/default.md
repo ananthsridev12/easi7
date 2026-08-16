@@ -4,7 +4,7 @@ menu: Services
 template: services
 metadata:
     description: 'SEO, AI SEO, search engine marketing, social media marketing, email and messaging marketing, analytics, automation, web development, and strategy consulting.'
-summary: "Every discipline a modern marketing stack needs, run as one connected system instead of nine disconnected vendors."
+tagline: "Every discipline a modern marketing stack needs, run as one connected system instead of nine disconnected vendors."
 content:
     items: '@self.children'
     order:

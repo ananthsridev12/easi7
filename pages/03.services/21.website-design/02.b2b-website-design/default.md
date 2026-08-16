@@ -3,7 +3,7 @@ title: 'B2B Website Design'
 template: service-detail-b
 eyebrow: 'Website Design'
 headline: 'Designed for a considered, multi-person decision'
-summary: 'B2B website design structured for long sales cycles and content-heavy decision journeys.'
+tagline: 'B2B website design structured for long sales cycles and content-heavy decision journeys.'
 primary_intent: 'commercial - service research'
 entities: ['Content-first Layout', 'Case Study Design', 'Gated Content', 'Multi-stakeholder Buying', 'Conversion Path']
 tools: ['B2B Design', 'Content-first Layout']

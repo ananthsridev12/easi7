@@ -4,7 +4,7 @@ date: '12-30-2025 00:00'
 template: blog-item
 author: 'Ananth Sridev, Founder'
 read_time: '10 min read'
-summary: 'A three-layer B2B lead gen system combining ICP targeting, LinkedIn + Google, lead scoring, and follow-up sequencing.'
+tagline: 'A three-layer B2B lead gen system combining ICP targeting, LinkedIn + Google, lead scoring, and follow-up sequencing.'
 taxonomy:
     category: [Strategy]
     tag: [B2B, 'Lead Generation']

@@ -4,7 +4,7 @@ template: services
 eyebrow: 'Growth Strategy'
 icon: "🚀"
 headline: 'Disciplined experimentation, not random tactics'
-summary: 'Growth marketing, funnel strategy, and acquisition planning built on structured testing, not luck.'
+tagline: 'Growth marketing, funnel strategy, and acquisition planning built on structured testing, not luck.'
 tools: ['Growth Marketing', 'Funnel Design']
 taxonomy:
     service: ['Growth Strategy']

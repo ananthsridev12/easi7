@@ -3,7 +3,7 @@ title: 'Whitepapers & Guides'
 template: service-detail-a
 eyebrow: 'Content Marketing'
 headline: 'Depth for a purchase that takes months to decide'
-summary: 'Original-research whitepapers and long-form guides built for buying committees who research extensively before committing.'
+tagline: 'Original-research whitepapers and long-form guides built for buying committees who research extensively before committing.'
 primary_intent: 'commercial - service research'
 entities: ['Whitepaper', 'Original Research', 'Buying Committee', 'Sales Enablement', 'Gated Long-Form Content', 'Lead Capture']
 tools: ['Original Research', 'Long-Form Design', 'Gating Strategy']

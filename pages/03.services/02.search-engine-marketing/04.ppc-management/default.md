@@ -3,7 +3,7 @@ title: 'PPC Management'
 template: service-detail-a
 eyebrow: 'PPC Management'
 headline: 'Full-account management, not campaign babysitting'
-summary: 'End-to-end paid search and social account management - structure, bidding, creative, and reporting under one owner.'
+tagline: 'End-to-end paid search and social account management - structure, bidding, creative, and reporting under one owner.'
 primary_intent: 'commercial - service research'
 entities: ['Cross-Platform PPC', 'Bid Management', 'Budget Pacing', 'Unified Reporting', 'Account Hygiene']
 tools: ['Multi-platform PPC', 'Account Management']

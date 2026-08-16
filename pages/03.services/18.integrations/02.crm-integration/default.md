@@ -3,7 +3,7 @@ title: 'CRM Integration'
 template: service-detail-b
 eyebrow: 'Integrations'
 headline: 'Leads that land in the CRM automatically, correctly'
-summary: 'CRM integration connecting your website, ads, and marketing tools so leads never require manual entry.'
+tagline: 'CRM integration connecting your website, ads, and marketing tools so leads never require manual entry.'
 primary_intent: 'commercial - service research'
 entities: ['CRM Integration', 'Lead Sync', 'Field Mapping', 'Duplicate Prevention', 'Bidirectional Sync']
 tools: ['CRM Integration', 'Lead Sync']

@@ -3,7 +3,7 @@ title: 'Google Ads'
 template: service-detail-a
 eyebrow: 'Google Ads'
 headline: 'Search, Shopping, and Display, run deliberately'
-summary: 'Google Ads campaigns built on high-intent keywords, tight account structure, and bidding strategies backed by real conversion data.'
+tagline: 'Google Ads campaigns built on high-intent keywords, tight account structure, and bidding strategies backed by real conversion data.'
 primary_intent: 'commercial - service research'
 entities: ['Search Campaigns', 'Google Shopping', 'Smart Bidding', 'Negative Keywords', 'Display Remarketing', 'Landing Page Alignment']
 tools: ['Search', 'Shopping', 'Display', 'Smart Bidding']

@@ -3,7 +3,7 @@ title: 'Magento Development'
 template: service-detail-b
 eyebrow: 'Magento Development'
 headline: 'Enterprise catalogue complexity, handled properly'
-summary: 'Magento development and management for larger, more complex product catalogues.'
+tagline: 'Magento development and management for larger, more complex product catalogues.'
 primary_intent: 'commercial - service research'
 entities: ['Magento', 'Adobe Commerce', 'Multi-Store Configuration', 'Extension Management', 'Catalogue Performance']
 tools: ['Magento', 'Adobe Commerce', 'Multi-Currency Configuration']

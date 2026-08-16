@@ -3,7 +3,7 @@ title: 'Customer Portals'
 template: service-detail-c
 eyebrow: 'Customer Portals'
 headline: 'Self-service, without the support ticket'
-summary: 'Customer portal development for account management, order tracking, and self-service support.'
+tagline: 'Customer portal development for account management, order tracking, and self-service support.'
 primary_intent: 'commercial - service research'
 entities: ['Customer Portal', 'Self-Service Support', 'Account Management', 'Authentication', 'CRM Integration', 'Order Tracking']
 tools: ['Authentication & Access Control', 'CRM Integration', 'Responsive Frontend Design']

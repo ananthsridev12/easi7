@@ -3,7 +3,7 @@ title: 'Marketing Platform Integration'
 template: service-detail-c
 eyebrow: 'Integrations'
 headline: 'Your stack, working as one system'
-summary: 'Integration across email, ads, analytics, and automation platforms so data flows without manual exports.'
+tagline: 'Integration across email, ads, analytics, and automation platforms so data flows without manual exports.'
 primary_intent: 'informational - concept explainer'
 entities: ['MarTech Stack', 'Data Warehouse', 'Marketing Automation', 'Attribution Data', 'Integration Monitoring']
 tools: ['MarTech Integration', 'Data Flow']

@@ -3,7 +3,7 @@ title: 'Technical SEO'
 template: service-detail-a
 eyebrow: 'Technical SEO'
 headline: 'Fix what stops a site from ranking at all'
-summary: "The foundation layer - crawl access, indexation, speed, and schema - that has to be right before any other SEO work can compound."
+tagline: "The foundation layer - crawl access, indexation, speed, and schema - that has to be right before any other SEO work can compound."
 primary_intent: 'commercial - service research'
 entities: ['Crawl Budget', 'Indexation', 'Core Web Vitals', 'Schema Markup', 'Site Architecture', 'XML Sitemaps']
 tools: ['Screaming Frog', 'Google Search Console', 'Ahrefs', 'Core Web Vitals']

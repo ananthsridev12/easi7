@@ -3,7 +3,7 @@ title: 'Prototyping'
 template: service-detail-b
 eyebrow: 'UI/UX Design'
 headline: 'Test the interaction before building it'
-summary: 'Interactive prototyping for validating flows and interactions before development investment.'
+tagline: 'Interactive prototyping for validating flows and interactions before development investment.'
 service_url: /services/ui-ux-design/prototyping
 taxonomy:
     service: ['Prototyping']

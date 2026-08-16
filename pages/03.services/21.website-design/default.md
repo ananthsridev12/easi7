@@ -4,7 +4,7 @@ template: services
 eyebrow: 'Website Design'
 icon: "🖥️"
 headline: 'Visual design built around who has to be convinced'
-summary: 'Corporate, B2B, landing page, and e-commerce design - matched to the audience and the conversion goal.'
+tagline: 'Corporate, B2B, landing page, and e-commerce design - matched to the audience and the conversion goal.'
 tools: [Figma, 'Responsive Design']
 taxonomy:
     service: ['Website Design']

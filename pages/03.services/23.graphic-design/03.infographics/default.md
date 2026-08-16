@@ -3,7 +3,7 @@ title: 'Infographics'
 template: service-detail-c
 eyebrow: 'Graphic Design'
 headline: 'Data made scannable in ten seconds'
-summary: 'Infographic design turning data and process into visually clear, shareable assets.'
+tagline: 'Infographic design turning data and process into visually clear, shareable assets.'
 primary_intent: 'informational - concept explainer'
 entities: ['Infographics', 'Data Visualisation', 'Process Diagrams', 'Statistic Summaries', 'Template Systems']
 tools: ['Infographics', 'Data Visualisation']

@@ -4,7 +4,7 @@ menu: 'Apps & Tools'
 template: services
 eyebrow: 'Apps & Tools'
 headline: 'Products we build and use ourselves'
-summary: "Small, focused tools we've built to solve our own problems first - before offering them to clients."
+tagline: "Small, focused tools we've built to solve our own problems first - before offering them to clients."
 metadata:
     description: "Apps and tools built by EASI7: Family Manager, Personal Finance, Post Pilot, and IntegrateAI Tracking."
 content:

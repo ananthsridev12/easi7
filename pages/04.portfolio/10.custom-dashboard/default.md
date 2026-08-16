@@ -4,7 +4,7 @@ template: portfolio-detail
 client: 'Fintech platform'
 industry: Fintech
 service_url: /services/analytics-tracking
-summary: 'Built an automated marketing dashboard using Looker Studio, BigQuery, and custom API integrations.'
+tagline: 'Built an automated marketing dashboard using Looker Studio, BigQuery, and custom API integrations.'
 metrics:
     - { value: 'Daily', label: 'Auto-refresh' }
     - { value: 'SQL', label: 'Query layer' }

@@ -4,7 +4,7 @@ date: '01-10-2026 00:00'
 template: blog-item
 author: 'Ananth Sridev, Founder'
 read_time: '8 min read'
-summary: "What's actually working on Meta Ads in 2026 - first-party data, CAPI, and creative testing."
+tagline: "What's actually working on Meta Ads in 2026 - first-party data, CAPI, and creative testing."
 taxonomy:
     category: [PPC]
     tag: ['Meta Ads', 'Paid Social']

@@ -3,7 +3,7 @@ title: 'Email Automation'
 template: service-detail-c
 eyebrow: 'Email Marketing'
 headline: 'The right email, triggered at the right moment'
-summary: 'Behaviour-triggered automated email flows that run without manual sends.'
+tagline: 'Behaviour-triggered automated email flows that run without manual sends.'
 primary_intent: 'commercial - service research'
 entities: ['Behaviour-Triggered Automation', 'Welcome Flows', 'Cart Abandonment', 'Win-Back Sequences', 'Klaviyo', 'HubSpot']
 tools: ['Klaviyo', 'HubSpot', 'Mailchimp', 'Automated Flows']

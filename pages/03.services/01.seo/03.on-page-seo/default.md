@@ -3,7 +3,7 @@ title: 'On-Page SEO'
 template: service-detail-c
 eyebrow: 'On-Page SEO'
 headline: 'Every page optimised for the query it should win'
-summary: "Title tags, headers, internal linking, and content structure aligned to search intent, page by page - not applied as a template."
+tagline: "Title tags, headers, internal linking, and content structure aligned to search intent, page by page - not applied as a template."
 primary_intent: 'commercial - service research'
 entities: ['Title Tags', 'Header Structure', 'Internal Linking', 'Search Intent', 'Content Structure', 'Alt Text']
 tools: ['Title Tags', 'Internal Linking', 'Content Structure']

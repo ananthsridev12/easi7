@@ -3,7 +3,7 @@ title: 'CRM Automation'
 template: service-detail-c
 eyebrow: 'Business Automation'
 headline: 'CRM data that stays accurate without manual upkeep'
-summary: 'CRM automation extending beyond marketing use cases into company-wide data hygiene and workflow.'
+tagline: 'CRM automation extending beyond marketing use cases into company-wide data hygiene and workflow.'
 primary_intent: 'informational - concept explainer'
 entities: ['Data Hygiene', 'Deduplication', 'Custom Field Validation', 'Cross-Team Workflow Triggers', 'Finance & Ops Integration', 'CRM Health Monitoring']
 tools: ['HubSpot', 'Zoho CRM', 'Salesforce']

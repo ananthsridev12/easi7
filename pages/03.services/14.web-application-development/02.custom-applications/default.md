@@ -3,7 +3,7 @@ title: 'Custom Applications'
 template: service-detail-b
 eyebrow: 'Custom Applications'
 headline: 'Software built around your process, not the other way round'
-summary: 'Custom application builds for internal processes and customer-facing tools alike.'
+tagline: 'Custom application builds for internal processes and customer-facing tools alike.'
 primary_intent: 'commercial - service research'
 entities: ['Process Mapping', 'Role-Based Access', 'System Integration', 'Iterative Delivery', 'Custom Software']
 tools: ['Custom Software Architecture', 'Role-Based Access Control', 'API Integration']

@@ -3,7 +3,7 @@ title: 'API Integration'
 template: service-detail-a
 eyebrow: 'Integrations'
 headline: 'Systems that actually talk to each other'
-summary: 'Custom API integration connecting your website, CRM, and marketing tools into one working system instead of five disconnected ones.'
+tagline: 'Custom API integration connecting your website, CRM, and marketing tools into one working system instead of five disconnected ones.'
 primary_intent: 'commercial - service research'
 entities: ['REST APIs', 'Webhooks', 'Data Mapping', 'OAuth', 'API Integration', 'Custom Connectors']
 tools: ['REST APIs', 'Webhooks', 'OAuth', 'Postman']

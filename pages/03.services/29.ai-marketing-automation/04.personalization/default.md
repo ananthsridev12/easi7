@@ -3,7 +3,7 @@ title: 'Personalization'
 template: service-detail-a
 eyebrow: 'Personalization'
 headline: 'Relevant, without feeling manually built for one person'
-summary: 'AI-driven personalisation for email, web content, and offers based on behaviour and segment data, not demographic guesswork.'
+tagline: 'AI-driven personalisation for email, web content, and offers based on behaviour and segment data, not demographic guesswork.'
 primary_intent: 'commercial - service research'
 entities: ['Behavioural Personalisation', 'Dynamic Content', 'Segment Rules', 'Personalisation Testing', 'Privacy-Conscious Data Use']
 tools: ['Behavioural Segmentation', 'Dynamic Content Blocks', 'A/B Testing']

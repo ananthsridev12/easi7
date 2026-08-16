@@ -3,7 +3,7 @@ title: 'Newsletter Marketing'
 template: service-detail-b
 eyebrow: 'Email Marketing'
 headline: 'A newsletter people would miss'
-summary: 'Recurring newsletter strategy and production for staying top-of-mind with an owned audience.'
+tagline: 'Recurring newsletter strategy and production for staying top-of-mind with an owned audience.'
 primary_intent: 'commercial - service research'
 entities: ['Newsletter Strategy', 'Subscriber Growth', 'Send Cadence', 'Engagement Tracking', 'Template Design']
 tools: ['Newsletter Strategy', 'Subscriber Growth', 'Template Systems']

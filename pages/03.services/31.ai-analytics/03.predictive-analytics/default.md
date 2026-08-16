@@ -3,7 +3,7 @@ title: 'Predictive Analytics'
 template: service-detail-c
 eyebrow: 'AI Analytics'
 headline: 'Forecasts based on your actual historical data'
-summary: "Predictive models for revenue, churn, and campaign performance, validated against your own historical outcomes rather than a generic template."
+tagline: "Predictive models for revenue, churn, and campaign performance, validated against your own historical outcomes rather than a generic template."
 primary_intent: 'informational - concept explainer'
 entities: ['Predictive Modelling', 'Churn Prediction', 'Revenue Forecasting', 'Backtesting', 'Model Recalibration']
 tools: ['Predictive Analytics', 'Forecasting', 'Backtesting']

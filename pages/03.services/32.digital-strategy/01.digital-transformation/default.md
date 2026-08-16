@@ -3,7 +3,7 @@ title: 'Digital Transformation'
 template: service-detail-a
 eyebrow: 'Digital Strategy'
 headline: 'Modernising how the business actually operates, not just its website'
-summary: 'Digital transformation strategy covering process, tooling, and capability changes beyond a website redesign.'
+tagline: 'Digital transformation strategy covering process, tooling, and capability changes beyond a website redesign.'
 primary_intent: 'commercial - service research'
 entities: ['Digital Maturity Assessment', 'Process Reengineering', 'Change Management', 'Digital Transformation Roadmap', 'Technology Adoption', 'Capability Building']
 tools: ['Digital Maturity Assessment', 'Process Mapping', 'Change Management Frameworks', 'Capability Gap Analysis']

@@ -3,7 +3,7 @@ title: 'Customer Support Chatbots'
 template: service-detail-b
 eyebrow: 'AI Chatbots'
 headline: "First-line support that's actually accurate"
-summary: 'Customer support chatbots grounded in your documentation, reducing repetitive ticket volume.'
+tagline: 'Customer support chatbots grounded in your documentation, reducing repetitive ticket volume.'
 primary_intent: 'commercial - service research'
 entities: ['Customer Support Chatbots', 'Knowledge Grounding', 'Confidence Thresholds', 'Ticket Deflection', 'Escalation Design']
 tools: ['Support Chatbots', 'Knowledge Grounding']

@@ -3,7 +3,7 @@ title: 'Facebook & Instagram Ads'
 template: service-detail-a
 eyebrow: 'Facebook & Instagram Ads'
 headline: 'Full-funnel Meta campaigns, not just boosted posts'
-summary: 'Facebook and Instagram campaigns structured by funnel stage - cold, warm, and hot audiences each get a different message and budget.'
+tagline: 'Facebook and Instagram campaigns structured by funnel stage - cold, warm, and hot audiences each get a different message and budget.'
 primary_intent: 'commercial - service research'
 entities: ['Meta Ads Manager', 'Conversions API', 'Meta Pixel', 'Lookalike Audiences', 'Funnel Segmentation', 'Retargeting']
 tools: ['Meta Ads Manager', 'Meta Pixel', 'Conversions API', 'Lookalike Audiences']

@@ -3,7 +3,7 @@ title: 'Shopify Development'
 template: service-detail-a
 eyebrow: 'Shopify Development'
 headline: 'Fast to launch, built to actually convert'
-summary: 'Shopify store development and theme customisation built around conversion, not just launch speed.'
+tagline: 'Shopify store development and theme customisation built around conversion, not just launch speed.'
 primary_intent: 'commercial - service research'
 entities: ['Shopify', 'Shopify Plus', 'Theme Customisation', 'App Integration', 'Checkout Optimization', 'Liquid']
 tools: ['Shopify', 'Shopify Plus', 'Liquid', 'Theme Customisation']

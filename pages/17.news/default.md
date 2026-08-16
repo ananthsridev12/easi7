@@ -4,7 +4,7 @@ menu: News
 template: news
 metadata:
     description: 'EASI7 news and updates - company announcements, product updates, and short takes on marketing and tech developments.'
-summary: 'Short updates from us, and short takes on developments worth knowing about.'
+tagline: 'Short updates from us, and short takes on developments worth knowing about.'
 content:
     items: '@self.children'
     order:

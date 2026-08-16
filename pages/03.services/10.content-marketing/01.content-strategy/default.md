@@ -3,7 +3,7 @@ title: 'Content Strategy'
 template: service-detail-a
 eyebrow: 'Content Marketing'
 headline: 'A content plan built on keyword data, not guesswork'
-summary: 'Editorial strategy mapped to real search demand and funnel stage before a single article gets written.'
+tagline: 'Editorial strategy mapped to real search demand and funnel stage before a single article gets written.'
 primary_intent: 'commercial - service research'
 entities: ['Keyword Clusters', 'Funnel Mapping', 'Editorial Calendar', 'Content Gap Analysis', 'Topic Clustering', 'Repurposing Strategy']
 tools: ['Keyword Clustering', 'Funnel Mapping', 'Competitive Gap Analysis']

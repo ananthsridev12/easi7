@@ -4,7 +4,7 @@ template: services
 eyebrow: 'Email Marketing'
 icon: "✉️"
 headline: 'The channel you already own'
-summary: 'Lifecycle sequences and cold outreach that read like a real person wrote them, because someone did.'
+tagline: 'Lifecycle sequences and cold outreach that read like a real person wrote them, because someone did.'
 tools: ['Email Platforms', 'Deliverability Tools']
 taxonomy:
     service: ['Email Marketing']

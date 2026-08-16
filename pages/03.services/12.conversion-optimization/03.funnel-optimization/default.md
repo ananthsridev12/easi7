@@ -3,7 +3,7 @@ title: 'Funnel Optimization'
 template: service-detail-c
 eyebrow: 'Funnel Optimization'
 headline: "Fix the step that's actually losing people"
-summary: 'Full-funnel analysis to find and fix the specific stage where prospects drop off.'
+tagline: 'Full-funnel analysis to find and fix the specific stage where prospects drop off.'
 primary_intent: 'informational - concept explainer'
 entities: ['Funnel Analysis', 'Drop-off Rate', 'Multi-Step Checkout', 'Cross-Device Tracking', 'Friction Points']
 tools: ['Funnel Analysis', 'Drop-off', 'Session Recordings']

@@ -4,7 +4,7 @@ date: '07-13-2026 10:52'
 template: blog-item
 author: 'Ananth Sridev, Founder'
 read_time: '11 min read'
-summary: 'How to write clear, comprehensive Standard Operating Procedures - planning, drafting, and maintenance.'
+tagline: 'How to write clear, comprehensive Standard Operating Procedures - planning, drafting, and maintenance.'
 taxonomy:
     category: [Strategy]
     tag: [SOPs, Operations]

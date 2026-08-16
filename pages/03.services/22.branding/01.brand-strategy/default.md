@@ -3,7 +3,7 @@ title: 'Brand Strategy'
 template: service-detail-a
 eyebrow: 'Branding'
 headline: 'Positioning before a single visual decision'
-summary: 'Positioning, voice, and competitive differentiation defined before any visual identity work begins.'
+tagline: 'Positioning, voice, and competitive differentiation defined before any visual identity work begins.'
 tools: ['Positioning Workshops', 'Competitive Brand Audits', 'Messaging Frameworks']
 service_url: /services/branding/brand-strategy
 taxonomy:

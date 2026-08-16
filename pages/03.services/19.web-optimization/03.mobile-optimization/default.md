@@ -3,7 +3,7 @@ title: 'Mobile Optimization'
 template: service-detail-c
 eyebrow: 'Web Optimization'
 headline: 'Built and tested on the devices your customers use'
-summary: 'Mobile-specific optimisation for load time, layout, and usability - verified on real devices and real networks, not a desktop browser emulator.'
+tagline: 'Mobile-specific optimisation for load time, layout, and usability - verified on real devices and real networks, not a desktop browser emulator.'
 tools: ['Mobile Performance', 'Real-device Testing']
 service_url: /services/web-optimization/mobile-optimization
 taxonomy:

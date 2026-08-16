@@ -3,7 +3,7 @@ title: 'Logo Design'
 template: service-detail-c
 eyebrow: 'Branding'
 headline: 'A mark that works small, in black and white, and at scale'
-summary: 'Logo design tested for legibility and versatility across every real-world application.'
+tagline: 'Logo design tested for legibility and versatility across every real-world application.'
 tools: ['Legibility Testing', 'Monochrome Variants', 'Competitive Distinctiveness Review']
 service_url: /services/branding/logo-design
 taxonomy:

@@ -3,7 +3,7 @@ title: 'JavaScript Development'
 template: service-detail-c
 eyebrow: 'Frontend Development'
 headline: 'Custom interactivity, without unnecessary framework weight'
-summary: "Vanilla and lightweight JavaScript development for interactive features that don't need a full framework."
+tagline: "Vanilla and lightweight JavaScript development for interactive features that don't need a full framework."
 tools: ['JavaScript', 'Lightweight Interactivity']
 service_url: /services/frontend-development/javascript-development
 primary_intent: 'informational - concept explainer'

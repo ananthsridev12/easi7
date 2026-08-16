@@ -3,7 +3,7 @@ title: 'Local SEO'
 template: service-detail-b
 eyebrow: 'Local SEO'
 headline: 'Win the map pack, not just the search results page'
-summary: "Google Business Profile optimisation and location-specific SEO for multi-location and local-service businesses."
+tagline: "Google Business Profile optimisation and location-specific SEO for multi-location and local-service businesses."
 primary_intent: 'commercial - service research'
 entities: ['Google Business Profile', 'Map Pack', 'NAP Consistency', 'Local Citations', 'Location Pages', 'Review Management']
 tools: ['Google Business Profile', 'Local Citations', 'Map Pack Tracking']

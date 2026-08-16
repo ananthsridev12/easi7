@@ -4,7 +4,7 @@ date: '02-10-2026 00:00'
 template: blog-item
 author: 'Ananth Sridev, Founder'
 read_time: '10 min read'
-summary: 'A practical GA4 migration guide with clean tracking, reporting, and conversion integrity.'
+tagline: 'A practical GA4 migration guide with clean tracking, reporting, and conversion integrity.'
 taxonomy:
     category: [Analytics]
     tag: [GA4, Migration]

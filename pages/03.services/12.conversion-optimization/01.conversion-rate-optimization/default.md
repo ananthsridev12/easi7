@@ -3,7 +3,7 @@ title: 'Conversion Rate Optimization'
 template: service-detail-a
 eyebrow: 'Conversion Rate Optimization'
 headline: 'Evidence first, redesign second'
-summary: 'A systematic CRO process - diagnose with data, form hypotheses, test, and iterate.'
+tagline: 'A systematic CRO process - diagnose with data, form hypotheses, test, and iterate.'
 primary_intent: 'commercial - service research'
 entities: ['CRO', 'Hypothesis Testing', 'Heatmaps', 'Session Recordings', 'Statistical Significance', 'ICE Prioritization']
 tools: ['Heatmaps', 'Session Recordings', 'A/B Testing Platforms', 'Statistical Significance Calculators']

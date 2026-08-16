@@ -3,7 +3,7 @@ title: 'AI Research Agents'
 template: service-detail-c
 eyebrow: 'AI Research Agents'
 headline: 'Hours of research, compressed to minutes'
-summary: "AI research agents for competitive analysis, market research, and account research, run at a depth and scale manual digging can't match."
+tagline: "AI research agents for competitive analysis, market research, and account research, run at a depth and scale manual digging can't match."
 primary_intent: 'informational - concept explainer'
 entities: ['Competitive Intelligence', 'Account Research', 'Source Verification', 'Structured Output', 'Research Automation']
 tools: ['Research Agents', 'Competitive Intelligence', 'Source Verification']

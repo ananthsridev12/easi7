@@ -3,7 +3,7 @@ title: 'Social Media Videos'
 template: service-detail-c
 eyebrow: 'Video & Motion'
 headline: 'Built for sound-off, thumb-stopping viewing'
-summary: 'Social media video production optimised for short attention spans and native platform formats.'
+tagline: 'Social media video production optimised for short attention spans and native platform formats.'
 primary_intent: 'commercial - service research'
 entities: ['Short-Form Video', 'Sound-Off Viewing', 'Vertical Video', 'Caption Design', 'Platform-Native Format', 'Content Calendar']
 tools: ['Short-Form Editing', 'Caption Design', 'Batch Production']

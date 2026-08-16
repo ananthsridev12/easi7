@@ -3,7 +3,7 @@ title: 'UTM Management'
 template: service-detail-b
 eyebrow: 'UTM Management'
 headline: 'Consistent tagging is the whole point'
-summary: 'UTM naming conventions and governance so campaign data stays clean and comparable over time.'
+tagline: 'UTM naming conventions and governance so campaign data stays clean and comparable over time.'
 primary_intent: 'commercial - service research'
 entities: ['UTM Tagging', 'Campaign Naming Convention', 'UTM Governance', 'Campaign Attribution', 'Tagging Audit']
 tools: ['UTM Governance', 'Naming Conventions']

@@ -3,7 +3,7 @@ title: 'Responsive Design'
 template: service-detail-b
 eyebrow: 'Website Design'
 headline: 'One design, every screen, no compromises'
-summary: 'Responsive design ensuring layouts adapt cleanly from mobile to desktop without losing intent.'
+tagline: 'Responsive design ensuring layouts adapt cleanly from mobile to desktop without losing intent.'
 primary_intent: 'commercial - service research'
 entities: ['Breakpoint Design', 'Touch Interface Sizing', 'Responsive Images', 'Cross-device QA', 'Mobile-First Layout']
 tools: ['Responsive Layouts', 'Cross-device Design']

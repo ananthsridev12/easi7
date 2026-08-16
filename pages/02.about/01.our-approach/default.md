@@ -3,7 +3,7 @@ title: 'Our Approach'
 template: default
 metadata:
     description: "EASI7's approach: data infrastructure first, then execution - clean tracking before campaigns, proper attribution before budget decisions."
-summary: 'Data infrastructure first, then execution. Slower in week one, faster in every week after.'
+tagline: 'Data infrastructure first, then execution. Slower in week one, faster in every week after.'
 sitemap:
     changefreq: monthly
     priority: !!float 0.6

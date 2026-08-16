@@ -3,7 +3,7 @@ title: 'Cold Email'
 template: service-detail-a
 eyebrow: 'Cold Email'
 headline: 'Outreach that gets replies, not spam complaints'
-summary: 'Cold email systems built on deliverability fundamentals first, then personalisation and sequencing - in that order.'
+tagline: 'Cold email systems built on deliverability fundamentals first, then personalisation and sequencing - in that order.'
 primary_intent: 'commercial - service research'
 entities: ['SPF', 'DKIM', 'DMARC', 'Domain Warming', 'Cold Email Sequencing', 'Deliverability', 'List Verification']
 tools: ['SPF/DKIM/DMARC', 'Domain Warming Tools', 'Sequencing Platforms', 'List Verification']

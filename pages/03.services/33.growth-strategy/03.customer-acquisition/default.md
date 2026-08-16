@@ -3,7 +3,7 @@ title: 'Customer Acquisition'
 template: service-detail-c
 eyebrow: 'Growth Strategy'
 headline: "Growth that doesn't outpace your ability to serve it"
-summary: 'Customer acquisition strategy balanced against retention capacity and unit economics.'
+tagline: 'Customer acquisition strategy balanced against retention capacity and unit economics.'
 primary_intent: 'commercial - service research'
 entities: ['Customer Acquisition Cost', 'Payback Period', 'Channel Mix', 'Cohort Analysis', 'Unit Economics', 'Retention Capacity']
 tools: ['CAC Modelling', 'Cohort Analysis', 'Channel Mix Planning']

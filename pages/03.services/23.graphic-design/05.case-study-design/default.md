@@ -3,7 +3,7 @@ title: 'Case Study Design'
 template: service-detail-b
 eyebrow: 'Graphic Design'
 headline: 'Proof that looks as credible as it reads'
-summary: 'Case study visual design turning results and narrative into a polished, shareable document.'
+tagline: 'Case study visual design turning results and narrative into a polished, shareable document.'
 primary_intent: 'commercial - service research'
 entities: ['Case Study Design', 'Results Visualisation', 'Sales Collateral', 'Proof Documents', 'Template Systems']
 tools: ['Case Study Design', 'Proof Documents']

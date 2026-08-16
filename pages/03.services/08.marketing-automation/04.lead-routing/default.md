@@ -3,7 +3,7 @@ title: 'Lead Routing'
 template: service-detail-c
 eyebrow: 'Lead Routing'
 headline: 'The right lead, to the right rep, immediately'
-summary: 'Automated lead routing rules by territory, product, or rep capacity - no manual assignment queue.'
+tagline: 'Automated lead routing rules by territory, product, or rep capacity - no manual assignment queue.'
 primary_intent: 'commercial - service research'
 entities: ['Territory Rules', 'Round-Robin Assignment', 'Speed-to-Lead', 'Lead Leakage', 'Capacity-Based Routing']
 tools: ['Speed-to-Lead', 'Territory Rules', 'Round-Robin Assignment']

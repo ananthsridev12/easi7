@@ -3,7 +3,7 @@ title: 'Social Media Creatives'
 template: service-detail-b
 eyebrow: 'Graphic Design'
 headline: 'Designed for the feed it actually lives in'
-summary: "Social media creative design tailored to each platform's format and audience expectations."
+tagline: "Social media creative design tailored to each platform's format and audience expectations."
 primary_intent: 'commercial - service research'
 entities: ['Social Creatives', 'Carousel Design', 'Story and Reel Covers', 'Template Systems', 'Content Calendars']
 tools: ['Social Creatives', 'Platform-native Design']

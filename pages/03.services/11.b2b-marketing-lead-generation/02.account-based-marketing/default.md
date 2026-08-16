@@ -3,7 +3,7 @@ title: 'Account-Based Marketing (ABM)'
 template: service-detail-b
 eyebrow: 'B2B Marketing & Lead Generation'
 headline: 'Target the account, not just the individual'
-summary: 'Coordinated marketing and sales plays aimed at a named list of target accounts, built and agreed jointly rather than handed off after launch.'
+tagline: 'Coordinated marketing and sales plays aimed at a named list of target accounts, built and agreed jointly rather than handed off after launch.'
 tools: ['ABM', 'Target Accounts']
 service_url: /services/b2b-marketing-lead-generation/account-based-marketing
 primary_intent: 'commercial - service research'

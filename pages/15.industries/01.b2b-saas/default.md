@@ -3,7 +3,7 @@ title: 'B2B & SaaS'
 template: service-detail
 eyebrow: 'B2B & SaaS'
 headline: 'Demand generation for a considered, multi-stakeholder purchase'
-summary: 'B2B and SaaS marketing built around long sales cycles and buying committees, not single-buyer assumptions.'
+tagline: 'B2B and SaaS marketing built around long sales cycles and buying committees, not single-buyer assumptions.'
 tools: ['Demand Gen', ABM, 'Lifecycle Marketing']
 taxonomy:
     industry: ['B2B & SaaS']

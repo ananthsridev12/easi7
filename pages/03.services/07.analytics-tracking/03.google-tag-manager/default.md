@@ -3,7 +3,7 @@ title: 'Google Tag Manager'
 template: service-detail-b
 eyebrow: 'Google Tag Manager'
 headline: 'One place to manage every tag, cleanly'
-summary: 'GTM implementation and container management so every tracking tag is documented, tested, and reliable.'
+tagline: 'GTM implementation and container management so every tracking tag is documented, tested, and reliable.'
 primary_intent: 'commercial - service research'
 entities: ['Google Tag Manager', 'Data Layer', 'Container Documentation', 'Tag QA', 'Trigger Configuration']
 tools: ['GTM', 'Data Layer']

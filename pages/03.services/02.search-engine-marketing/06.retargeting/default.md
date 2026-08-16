@@ -3,7 +3,7 @@ title: 'Retargeting'
 template: service-detail-c
 eyebrow: 'Retargeting'
 headline: 'Bring back the visitors who almost converted'
-summary: 'Retargeting campaigns segmented by intent signal, not one generic "everyone who visited" audience.'
+tagline: 'Retargeting campaigns segmented by intent signal, not one generic "everyone who visited" audience.'
 primary_intent: 'commercial - service research'
 entities: ['Dynamic Retargeting', 'Behavioural Segmentation', 'Frequency Capping', 'Sequential Messaging', 'Cross-Platform Retargeting']
 tools: ['Dynamic Retargeting', 'Segmentation']

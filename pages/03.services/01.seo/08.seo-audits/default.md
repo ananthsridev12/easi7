@@ -3,7 +3,7 @@ title: 'SEO Audits'
 template: service-detail-b
 eyebrow: 'SEO Audits'
 headline: "Know exactly what's broken before you fix anything"
-summary: "Full technical, on-page, and off-page audits that prioritise fixes by impact instead of listing every issue."
+tagline: "Full technical, on-page, and off-page audits that prioritise fixes by impact instead of listing every issue."
 primary_intent: 'commercial - service research'
 entities: ['Crawl Analysis', 'Core Web Vitals', 'Backlink Profile', 'Content Gap Analysis', 'Fix Roadmap']
 tools: ['Screaming Frog', 'Ahrefs', 'Google Search Console']

@@ -3,7 +3,7 @@ title: 'Demand Generation'
 template: service-detail-c
 eyebrow: 'B2B Marketing & Lead Generation'
 headline: 'Build demand before someone starts searching'
-summary: 'Awareness and education campaigns that create demand for a category, ahead of the direct-response lead gen that later captures it.'
+tagline: 'Awareness and education campaigns that create demand for a category, ahead of the direct-response lead gen that later captures it.'
 tools: ['Category Education', 'Multi-touch Nurture']
 service_url: /services/b2b-marketing-lead-generation/demand-generation
 primary_intent: 'informational - concept explainer'

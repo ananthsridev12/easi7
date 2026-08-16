@@ -3,7 +3,7 @@ title: 'AI SEO'
 template: service-detail-c
 eyebrow: 'AI SEO'
 headline: 'Get cited by AI, not just ranked by Google'
-summary: "Answer Engine Optimisation (AEO) and Generative Engine Optimisation (GEO) - structuring content so AI Overviews, ChatGPT, and Perplexity cite you directly instead of skipping you."
+tagline: "Answer Engine Optimisation (AEO) and Generative Engine Optimisation (GEO) - structuring content so AI Overviews, ChatGPT, and Perplexity cite you directly instead of skipping you."
 primary_intent: 'informational - concept explainer'
 entities: ['AEO', 'GEO', 'Schema Markup', 'Entity SEO', 'LLM Visibility', 'AI Overviews', 'Structured Data']
 tools: ['AEO', 'GEO', 'Structured Data', 'LLM Visibility Monitoring']

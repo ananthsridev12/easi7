@@ -1,7 +1,7 @@
 ---
 title: 'What Is ROAS?'
 template: glossary-term
-summary: 'ROAS (Return On Ad Spend) measures revenue generated per unit of ad spend - useful, but incomplete without margin attached.'
+tagline: 'ROAS (Return On Ad Spend) measures revenue generated per unit of ad spend - useful, but incomplete without margin attached.'
 service_url: /services/search-engine-marketing
 taxonomy:
     topic: [Strategy]

@@ -3,7 +3,7 @@ title: 'Brochures'
 template: service-detail-a
 eyebrow: 'Graphic Design'
 headline: 'Print collateral that still gets designed properly'
-summary: 'Brochure design for sales collateral, trade shows, and print marketing materials, prepared correctly for production.'
+tagline: 'Brochure design for sales collateral, trade shows, and print marketing materials, prepared correctly for production.'
 primary_intent: 'commercial - service research'
 entities: ['Brochures', 'Print Collateral', 'Print-Ready Files', 'Trade Show Materials', 'Dual-Format Design']
 tools: ['Brochures', 'Print Collateral']

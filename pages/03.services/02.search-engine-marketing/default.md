@@ -4,7 +4,7 @@ template: services
 eyebrow: 'Paid Marketing'
 icon: "📢"
 headline: 'Capture demand that already exists'
-summary: 'Search, social, and display campaigns built around high-intent targeting and disciplined bidding, not broad-match guesswork.'
+tagline: 'Search, social, and display campaigns built around high-intent targeting and disciplined bidding, not broad-match guesswork.'
 tools: ['Google Ads', 'Meta Ads Manager', 'LinkedIn Campaign Manager']
 taxonomy:
     service: ['Search Engine Marketing', 'Paid Marketing']

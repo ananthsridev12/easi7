@@ -1,5 +1,5 @@
 {#
-  Expects: item (Page with header.eyebrow / header.headline / header.summary / header.tools / header.icon)
+  Expects: item (Page with header.eyebrow / header.headline / header.tagline / header.tools / header.icon)
   Optional: variant ('alt' = icon chip + top accent bar; default = bordered hover-lift)
 #}
 {% if variant == 'alt' %}
@@ -8,7 +8,7 @@
   <div class="body">
     <div class="icon-chip">{{ item.header.icon ?? '•' }}</div>
     <h3>{{ item.header.headline ?? item.title }}</h3>
-    {% if item.header.summary %}<p>{{ item.header.summary }}</p>{% endif %}
+    {% if item.header.tagline %}<p>{{ item.header.tagline }}</p>{% endif %}
     {% if item.header.tools %}
     <div class="tools">{% for t in item.header.tools %}<span>{{ t }}</span>{% endfor %}</div>
     {% endif %}
@@ -18,7 +18,7 @@
 <a class="svc-card" href="{{ item.url }}">
   <span class="svc-tag">{{ item.header.eyebrow ?? item.title }}</span>
   <h3>{{ item.header.headline ?? item.title }}</h3>
-  {% if item.header.summary %}<p>{{ item.header.summary }}</p>{% endif %}
+  {% if item.header.tagline %}<p>{{ item.header.tagline }}</p>{% endif %}
   {% if item.header.tools %}
   <div class="tools">{% for t in item.header.tools %}<span>{{ t }}</span>{% endfor %}</div>
   {% endif %}

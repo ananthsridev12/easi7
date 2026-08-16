@@ -3,7 +3,7 @@ title: 'Marketing Intelligence'
 template: service-detail-b
 eyebrow: 'AI Analytics'
 headline: 'Patterns across channels a human would take days to find'
-summary: "Cross-channel data aggregation and AI-assisted pattern detection that surfaces what's actually shifting in your marketing performance before it shows up in a quarterly review."
+tagline: "Cross-channel data aggregation and AI-assisted pattern detection that surfaces what's actually shifting in your marketing performance before it shows up in a quarterly review."
 primary_intent: 'commercial - service research'
 entities: ['Cross-Channel Aggregation', 'Pattern Detection', 'Competitive Intelligence', 'Automated Alerting', 'Anomaly Detection']
 tools: ['Marketing Intelligence', 'Pattern Detection', 'Competitive Monitoring']

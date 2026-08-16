@@ -3,7 +3,7 @@ title: 'Investor Presentations'
 template: service-detail-a
 eyebrow: 'Presentation Design'
 headline: 'Credibility signalled through design discipline'
-summary: 'Investor presentation design for board meetings, funding rounds, and stakeholder updates.'
+tagline: 'Investor presentation design for board meetings, funding rounds, and stakeholder updates.'
 primary_intent: 'commercial - service research'
 entities: ['Investor Decks', 'Board Presentations', 'Financial Visualisation', 'Recurring Templates', 'Confidential Formatting']
 tools: ['Investor Decks', 'Board Presentations']

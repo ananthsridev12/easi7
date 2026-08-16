@@ -3,7 +3,7 @@ title: 'Marketing Automation Strategy'
 template: service-detail-c
 eyebrow: 'Marketing Automation Strategy'
 headline: 'Automation strategy before automation tooling'
-summary: 'Marketing automation strategy defining what should be automated and why, before platform selection.'
+tagline: 'Marketing automation strategy defining what should be automated and why, before platform selection.'
 primary_intent: 'informational - concept explainer'
 entities: ['Automation Opportunity Assessment', 'Workflow Prioritisation', 'Platform-Agnostic Strategy', 'Automation Governance', 'ROI Framework']
 tools: ['Automation Strategy', 'Platform-Agnostic Planning']

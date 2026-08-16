@@ -3,7 +3,7 @@ title: 'Custom CMS'
 template: service-detail-a
 eyebrow: 'CMS Development'
 headline: "When off-the-shelf doesn't fit the content model"
-summary: "Custom CMS builds for content structures that don't map cleanly onto WordPress, Shopify, or any off-the-shelf platform."
+tagline: "Custom CMS builds for content structures that don't map cleanly onto WordPress, Shopify, or any off-the-shelf platform."
 primary_intent: 'commercial - service research'
 entities: ['Custom CMS', 'Grav', 'Flat-file CMS', 'Content Modelling', 'Admin Interface Design']
 tools: ['Grav', 'Flat-file CMS', 'Custom Content Modelling']

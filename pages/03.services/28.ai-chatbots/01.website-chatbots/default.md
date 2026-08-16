@@ -3,7 +3,7 @@ title: 'Website Chatbots'
 template: service-detail-a
 eyebrow: 'AI Chatbots'
 headline: 'Answers visitors get before they leave to search elsewhere'
-summary: 'Website chatbot implementation for answering visitor questions and capturing leads in real time.'
+tagline: 'Website chatbot implementation for answering visitor questions and capturing leads in real time.'
 primary_intent: 'commercial - service research'
 entities: ['Website Chatbots', 'Knowledge Grounding', 'Lead Capture', 'Live Chat Handoff', 'Conversation Analytics']
 service_url: /services/ai-chatbots/website-chatbots

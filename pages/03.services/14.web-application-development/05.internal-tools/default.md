@@ -3,7 +3,7 @@ title: 'Internal Tools'
 template: service-detail-b
 eyebrow: 'Internal Tools'
 headline: 'Built for the ten people who use it every day'
-summary: "Internal tool development for operational workflows that off-the-shelf software doesn't quite cover."
+tagline: "Internal tool development for operational workflows that off-the-shelf software doesn't quite cover."
 primary_intent: 'commercial - service research'
 entities: ['Internal Tools', 'Operational Dashboards', 'Process Automation', 'Lightweight Architecture', 'Data Entry Tools']
 tools: ['Lightweight Web Architecture', 'Internal Dashboards', 'Process Automation']

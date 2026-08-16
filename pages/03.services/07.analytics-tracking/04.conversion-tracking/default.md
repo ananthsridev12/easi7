@@ -3,7 +3,7 @@ title: 'Conversion Tracking'
 template: service-detail-c
 eyebrow: 'Conversion Tracking'
 headline: 'Know which conversions actually count'
-summary: 'Conversion tracking configured across ad platforms and analytics so spend decisions are based on real outcomes.'
+tagline: 'Conversion tracking configured across ad platforms and analytics so spend decisions are based on real outcomes.'
 primary_intent: 'commercial - service research'
 entities: ['Conversion Tracking', 'Offline Conversion Import', 'Value-Based Bidding', 'Cross-Platform Attribution', 'CRM Reconciliation']
 tools: ['Cross-platform Conversions', 'Offline Import']

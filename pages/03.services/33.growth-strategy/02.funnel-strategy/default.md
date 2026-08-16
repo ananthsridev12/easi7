@@ -3,7 +3,7 @@ title: 'Funnel Strategy'
 template: service-detail-b
 eyebrow: 'Growth Strategy'
 headline: 'Designed end to end, not optimised stage by stage in isolation'
-summary: 'Funnel strategy covering the full path from awareness to retention as one connected system.'
+tagline: 'Funnel strategy covering the full path from awareness to retention as one connected system.'
 primary_intent: 'commercial - service research'
 entities: ['Funnel Mapping', 'Stage Conversion Rate', 'Channel Attribution', 'Retention Funnel', 'Expansion Funnel', 'Funnel Metrics']
 tools: ['Funnel Mapping', 'Stage Conversion Analysis', 'Cohort Tracking']

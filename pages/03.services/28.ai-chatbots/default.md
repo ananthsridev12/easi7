@@ -4,7 +4,7 @@ template: services
 eyebrow: 'AI Chatbots'
 icon: "💭"
 headline: 'Chatbots grounded in your actual content'
-summary: 'Website, support, lead-gen, and internal chatbots built on your documentation - not general model knowledge.'
+tagline: 'Website, support, lead-gen, and internal chatbots built on your documentation - not general model knowledge.'
 tools: ['AI Chatbots', 'Knowledge Grounding']
 taxonomy:
     service: ['AI Chatbots']

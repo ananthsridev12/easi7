@@ -3,7 +3,7 @@ title: 'AI Customer Support Agents'
 template: service-detail-a
 eyebrow: 'AI Customer Support Agents'
 headline: 'Resolve the repeatable tickets, escalate the rest'
-summary: 'AI customer support agents that close out the tickets that repeat constantly and hand off anything genuinely novel cleanly.'
+tagline: 'AI customer support agents that close out the tickets that repeat constantly and hand off anything genuinely novel cleanly.'
 primary_intent: 'commercial - service research'
 entities: ['Knowledge Base Grounding', 'Ticket Escalation', 'Helpdesk Integration', 'Response Accuracy Monitoring', 'Support Automation']
 tools: ['Support Agents', 'Ticket Automation', 'Helpdesk Integration']

@@ -3,7 +3,7 @@ title: 'Video Editing'
 template: service-detail-b
 eyebrow: 'Video & Motion'
 headline: 'Raw footage, turned into something worth publishing'
-summary: 'Video editing services for raw footage - pacing, colour, sound, and structure.'
+tagline: 'Video editing services for raw footage - pacing, colour, sound, and structure.'
 primary_intent: 'commercial - service research'
 entities: ['Video Editing', 'Colour Grading', 'Sound Design', 'Multi-Format Export', 'Caption Integration']
 tools: ['Narrative Editing', 'Colour Grading', 'Sound Design', 'Multi-Format Export']

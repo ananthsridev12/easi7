@@ -3,7 +3,7 @@ title: 'Pitch Decks'
 template: service-detail-c
 eyebrow: 'Presentation Design'
 headline: 'Ten slides that need to work perfectly'
-summary: 'Pitch deck design for fundraising and high-stakes new business pitches.'
+tagline: 'Pitch deck design for fundraising and high-stakes new business pitches.'
 primary_intent: 'commercial - service research'
 entities: ['Pitch Decks', 'Fundraising', 'Narrative Arc', 'Traction Visualisation', 'Investor Readiness']
 tools: ['Pitch Decks', 'Fundraising']

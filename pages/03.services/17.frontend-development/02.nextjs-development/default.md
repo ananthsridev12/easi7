@@ -3,7 +3,7 @@ title: 'Next.js Development'
 template: service-detail-b
 eyebrow: 'Frontend Development'
 headline: 'React with the SEO and performance defaults handled'
-summary: 'Next.js development for sites and applications that need both interactivity and strong SEO performance.'
+tagline: 'Next.js development for sites and applications that need both interactivity and strong SEO performance.'
 tools: ['Next.js', 'SSR / SSG']
 service_url: /services/frontend-development/nextjs-development
 primary_intent: 'commercial - service research'

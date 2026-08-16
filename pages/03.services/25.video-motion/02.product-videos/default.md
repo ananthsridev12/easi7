@@ -3,7 +3,7 @@ title: 'Product Videos'
 template: service-detail-b
 eyebrow: 'Video & Motion'
 headline: "Show the product doing the thing it's good at"
-summary: 'Product video production demonstrating real use cases and outcomes, not just feature lists.'
+tagline: 'Product video production demonstrating real use cases and outcomes, not just feature lists.'
 primary_intent: 'commercial - service research'
 entities: ['Product Demo Video', 'Use-Case Video', 'Screen Recording', 'Live-Action Product Capture', 'Short-Form Cutdown']
 tools: ['Screen Recording', 'Live-Action Capture', 'Shot Planning', 'Short-Form Editing']

@@ -3,7 +3,7 @@ title: 'Measurement Strategy'
 template: service-detail-a
 eyebrow: 'Measurement Strategy'
 headline: 'Decide what to measure before deciding how to track it'
-summary: 'Measurement strategy that defines the metrics which actually matter before any tracking implementation begins.'
+tagline: 'Measurement strategy that defines the metrics which actually matter before any tracking implementation begins.'
 primary_intent: 'commercial - service research'
 entities: ['Measurement Strategy', 'KPI Hierarchy', 'Measurement Plan', 'Business Question Mapping', 'Stakeholder Alignment']
 service_url: /services/analytics-consulting/measurement-strategy

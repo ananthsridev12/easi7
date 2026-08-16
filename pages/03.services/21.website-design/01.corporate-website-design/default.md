@@ -3,7 +3,7 @@ title: 'Corporate Website Design'
 template: service-detail-a
 eyebrow: 'Website Design'
 headline: 'Visual design that reads as established, not new'
-summary: 'Corporate website design built to project credibility and stability for B2B and enterprise audiences.'
+tagline: 'Corporate website design built to project credibility and stability for B2B and enterprise audiences.'
 primary_intent: 'commercial - service research'
 entities: ['Brand Consistency', 'Credibility Design', 'Information Architecture', 'Design QA', 'Multi-department Templates']
 service_url: /services/website-design/corporate-website-design

@@ -4,7 +4,7 @@ date: '01-28-2026 00:00'
 template: blog-item
 author: 'Ananth Sridev, Founder'
 read_time: '9 min read'
-summary: 'A practical framework for choosing the right attribution model for your funnel.'
+tagline: 'A practical framework for choosing the right attribution model for your funnel.'
 taxonomy:
     category: [Strategy]
     tag: [Attribution, Analytics]

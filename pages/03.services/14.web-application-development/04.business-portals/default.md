@@ -3,7 +3,7 @@ title: 'Business Portals'
 template: service-detail-a
 eyebrow: 'Business Portals'
 headline: "Internal-facing tools that don't feel internal-facing"
-summary: 'Business portal development for partners, vendors, and internal teams to access shared data and workflows.'
+tagline: 'Business portal development for partners, vendors, and internal teams to access shared data and workflows.'
 primary_intent: 'commercial - service research'
 entities: ['Partner Portal', 'Vendor Portal', 'Role-Based Dashboards', 'Document Sharing', 'System Integration', 'Usage Analytics']
 tools: ['Role-Based Dashboards', 'Document & Data Sharing Workflows', 'API Integration']

@@ -5,7 +5,7 @@ client: 'Giri Trading Agency'
 industry: E-Commerce
 portfolio_url: /portfolio/ecommerce-seo
 service_url: /services/search-engine-marketing/google-ads
-summary: 'Giri Trading Agency - e-commerce, PPC, SEO. Scaled monthly ad spend from ₹0.5L to ₹3L across India, the US, and Canada while protecting margin.'
+tagline: 'Giri Trading Agency - e-commerce, PPC, SEO. Scaled monthly ad spend from ₹0.5L to ₹3L across India, the US, and Canada while protecting margin.'
 metrics:
     - { value: '6×', label: 'Budget scaled' }
     - { value: '+180%', label: 'Traffic growth' }

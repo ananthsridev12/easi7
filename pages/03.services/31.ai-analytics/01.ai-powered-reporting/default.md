@@ -3,7 +3,7 @@ title: 'AI-Powered Reporting'
 template: service-detail-a
 eyebrow: 'AI Analytics'
 headline: 'Reports that explain the number, not just show it'
-summary: "AI-generated narrative summaries and anomaly explanations layered onto your existing dashboards, so reporting time goes to the decision instead of the write-up."
+tagline: "AI-generated narrative summaries and anomaly explanations layered onto your existing dashboards, so reporting time goes to the decision instead of the write-up."
 primary_intent: 'commercial - service research'
 entities: ['AI-Generated Reporting', 'Anomaly Detection', 'Narrative Insights', 'BI Integration', 'Automated Summarisation']
 tools: ['AI Reporting', 'Narrative Insights', 'Anomaly Detection', 'BI Tool Integration']

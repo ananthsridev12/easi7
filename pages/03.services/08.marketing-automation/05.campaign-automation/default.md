@@ -3,7 +3,7 @@ title: 'Campaign Automation'
 template: service-detail-a
 eyebrow: 'Campaign Automation'
 headline: "Campaigns that run themselves once they're built"
-summary: 'Multi-step campaign automation across email, ads, and CRM triggered by a single workflow build.'
+tagline: 'Multi-step campaign automation across email, ads, and CRM triggered by a single workflow build.'
 primary_intent: 'commercial - service research'
 entities: ['Multi-Channel Workflows', 'Trigger-Based Campaigns', 'Cross-Platform Automation', 'Campaign Dashboards']
 tools: ['HubSpot', 'Google Ads', 'Meta Ads', 'Multi-Channel Triggers']

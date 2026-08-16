@@ -3,7 +3,7 @@ title: 'Custom E-commerce'
 template: service-detail-c
 eyebrow: 'Custom E-commerce'
 headline: "When your commerce model doesn't fit a platform"
-summary: "Custom e-commerce builds for business models that standard platforms don't accommodate cleanly."
+tagline: "Custom e-commerce builds for business models that standard platforms don't accommodate cleanly."
 primary_intent: 'informational - concept explainer'
 entities: ['Headless Commerce', 'Custom Pricing Logic', 'Subscription Commerce', 'Marketplace Architecture', 'Commerce API']
 tools: ['Headless Commerce', 'Custom Commerce APIs', 'Payment Gateway Integration']

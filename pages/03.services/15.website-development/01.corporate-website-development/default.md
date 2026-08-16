@@ -3,7 +3,7 @@ title: 'Corporate Website Development'
 template: service-detail-a
 eyebrow: 'Website Development'
 headline: 'A site that reads as credible in the first five seconds'
-summary: 'Corporate website builds that establish credibility fast for B2B and enterprise audiences.'
+tagline: 'Corporate website builds that establish credibility fast for B2B and enterprise audiences.'
 primary_intent: 'commercial - service research'
 entities: ['Corporate Website', 'Information Architecture', 'Trust Signals', 'Multi-Department CMS', 'Brand Consistency']
 tools: ['Information Architecture Mapping', 'Trust Signal Audits', 'Role-Based CMS Permissions']

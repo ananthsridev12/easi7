@@ -3,7 +3,7 @@ title: 'Lead Magnets'
 template: service-detail-c
 eyebrow: 'Content Marketing'
 headline: 'Something narrow enough to be worth an email address'
-summary: 'Checklists, templates, and guides designed around one specific promise, not a broad ebook nobody opens.'
+tagline: 'Checklists, templates, and guides designed around one specific promise, not a broad ebook nobody opens.'
 primary_intent: 'informational - concept explainer'
 entities: ['Lead Magnet', 'Gated Content', 'Landing Page Pairing', 'Email Nurture Sequence', 'Checklist Design', 'Conversion Rate']
 tools: ['Gated Content', 'Landing Page Pairing', 'Email Nurture Sequences']

@@ -3,7 +3,7 @@ title: 'Digital Roadmaps'
 template: service-detail-b
 eyebrow: 'Digital Strategy'
 headline: 'A sequenced plan, not a wishlist of initiatives'
-summary: 'Digital roadmap development sequencing initiatives by dependency and impact, not just priority score.'
+tagline: 'Digital roadmap development sequencing initiatives by dependency and impact, not just priority score.'
 primary_intent: 'commercial - service research'
 entities: ['Digital Roadmap', 'Initiative Sequencing', 'Dependency Mapping', 'Resource Planning', 'Stakeholder Alignment']
 tools: ['Digital Roadmaps', 'Sequencing', 'Impact Scoring']

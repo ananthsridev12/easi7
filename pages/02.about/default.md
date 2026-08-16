@@ -8,7 +8,7 @@ sitemap:
     changefreq: monthly
     priority: !!float 0.8
 
-summary: "We're a small, founder-led studio that treats marketing like an engineering problem - clean data, honest measurement, then execution."
+tagline: "We're a small, founder-led studio that treats marketing like an engineering problem - clean data, honest measurement, then execution."
 
 founder:
     initials: AS

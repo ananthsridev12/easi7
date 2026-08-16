@@ -3,7 +3,7 @@ title: 'GA4'
 template: service-detail-a
 eyebrow: 'GA4'
 headline: 'Set up properly, not just installed'
-summary: 'GA4 implementation with the event structure and custom dimensions your business actually needs.'
+tagline: 'GA4 implementation with the event structure and custom dimensions your business actually needs.'
 primary_intent: 'commercial - service research'
 entities: ['GA4', 'Event Tracking', 'Custom Dimensions', 'BigQuery Export', 'E-Commerce Tracking']
 service_url: /services/analytics-tracking/ga4

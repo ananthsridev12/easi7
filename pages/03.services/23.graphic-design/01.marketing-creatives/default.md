@@ -3,7 +3,7 @@ title: 'Marketing Creatives'
 template: service-detail-a
 eyebrow: 'Graphic Design'
 headline: 'Ad creative that stops the scroll and matches the message'
-summary: 'Marketing creative design for paid ads, landing pages, and campaign assets, built for the platform it actually runs on.'
+tagline: 'Marketing creative design for paid ads, landing pages, and campaign assets, built for the platform it actually runs on.'
 primary_intent: 'commercial - service research'
 entities: ['Ad Creative', 'Carousel Ads', 'A/B Variant Testing', 'Format Adaptation', 'Campaign Assets']
 tools: ['Ad Creative Design', 'A/B Variant Testing', 'Platform Format Specs']

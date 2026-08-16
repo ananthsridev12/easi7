@@ -4,7 +4,7 @@ template: services
 eyebrow: 'Content Marketing'
 icon: "✍️"
 headline: 'Content built to rank, convert, and get cited'
-summary: 'Strategy-led content mapped to keywords and funnel stage - not a blog for the sake of having one.'
+tagline: 'Strategy-led content mapped to keywords and funnel stage - not a blog for the sake of having one.'
 tools: ['Content Strategy', 'SEO Writing', Distribution]
 taxonomy:
     service: ['Content Marketing']

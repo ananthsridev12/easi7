@@ -3,7 +3,7 @@ title: 'E-commerce Design'
 template: service-detail-a
 eyebrow: 'Website Design'
 headline: 'Design that reduces friction between browsing and buying'
-summary: 'E-commerce design covering product pages, category browsing, and checkout flow.'
+tagline: 'E-commerce design covering product pages, category browsing, and checkout flow.'
 primary_intent: 'commercial - service research'
 entities: ['Product Page Design', 'Checkout Flow', 'Category & Filter UX', 'Trust Signals', 'Mobile Commerce']
 service_url: /services/website-design/ecommerce-design

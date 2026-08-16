@@ -3,7 +3,7 @@ title: 'Data Strategy'
 template: service-detail-b
 eyebrow: 'Data Strategy'
 headline: 'A plan for the data, not just the dashboards built on top of it'
-summary: 'Data strategy covering collection, storage, governance, and access across the marketing and business stack.'
+tagline: 'Data strategy covering collection, storage, governance, and access across the marketing and business stack.'
 primary_intent: 'informational - concept explainer'
 entities: ['Data Strategy', 'Data Governance', 'Data Warehouse', 'Access Controls', 'Privacy Compliance']
 tools: ['Data Strategy', 'Data Governance']

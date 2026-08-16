@@ -3,7 +3,7 @@ title: 'LinkedIn Marketing'
 template: service-detail-b
 eyebrow: 'LinkedIn Marketing'
 headline: 'The B2B platform your buyers are already on'
-summary: 'Organic LinkedIn strategy for founders and companies - thought leadership content that actually builds pipeline.'
+tagline: 'Organic LinkedIn strategy for founders and companies - thought leadership content that actually builds pipeline.'
 primary_intent: 'commercial - service research'
 entities: ['Personal Branding', 'Thought Leadership', 'Employee Advocacy', 'LinkedIn Newsletter', 'Organic Reach']
 tools: ['Personal Branding', 'Company Pages', 'LinkedIn Newsletter']

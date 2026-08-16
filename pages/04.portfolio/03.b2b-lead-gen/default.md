@@ -4,7 +4,7 @@ template: portfolio-detail
 client: 'Peppers Media'
 industry: B2B
 service_url: /services/search-engine-marketing
-summary: 'Multi-channel PPC strategy targeting the US market with Facebook, LinkedIn, and Google Ads working together.'
+tagline: 'Multi-channel PPC strategy targeting the US market with Facebook, LinkedIn, and Google Ads working together.'
 metrics:
     - { value: '250+', label: 'Qualified leads' }
     - { value: '−60%', label: CPL }

@@ -3,7 +3,7 @@ title: 'B2B Website Development'
 template: service-detail-b
 eyebrow: 'Website Development'
 headline: 'Built for a buying committee, not a single buyer'
-summary: 'B2B website development structured around long sales cycles and multiple stakeholders.'
+tagline: 'B2B website development structured around long sales cycles and multiple stakeholders.'
 primary_intent: 'commercial - service research'
 entities: ['Buying Committee', 'Lead Capture', 'Gated Content', 'CRM Integration', 'Marketing Automation', 'Case Studies']
 tools: ['Stakeholder Content Mapping', 'CRM Integration', 'Marketing Automation Integration']

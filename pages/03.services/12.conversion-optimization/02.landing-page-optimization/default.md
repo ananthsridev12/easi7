@@ -3,7 +3,7 @@ title: 'Landing Page Optimization'
 template: service-detail-b
 eyebrow: 'Landing Page Optimization'
 headline: 'One goal per page, executed properly'
-summary: 'Landing page structure, copy, and design optimised against a single conversion goal.'
+tagline: 'Landing page structure, copy, and design optimised against a single conversion goal.'
 primary_intent: 'commercial - service research'
 entities: ['Landing Page Anatomy', 'Above-the-Fold', 'Form Optimization', 'Trust Signals', 'Mobile Conversion']
 tools: ['Landing Pages', 'Trust Signals', 'Heatmaps']

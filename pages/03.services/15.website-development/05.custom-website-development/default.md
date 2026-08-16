@@ -3,7 +3,7 @@ title: 'Custom Website Development'
 template: service-detail-b
 eyebrow: 'Website Development'
 headline: "When a template genuinely won't do"
-summary: 'Fully custom website builds for brands and functionality that off-the-shelf templates cannot support.'
+tagline: 'Fully custom website builds for brands and functionality that off-the-shelf templates cannot support.'
 primary_intent: 'commercial - service research'
 entities: ['Custom Development', 'Design System', 'Bespoke Functionality', 'Performance Architecture', 'Scalability']
 tools: ['Custom Design Systems', 'Performance-First Architecture', 'Bespoke Functionality Development']

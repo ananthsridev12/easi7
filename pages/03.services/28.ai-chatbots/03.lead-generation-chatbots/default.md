@@ -3,7 +3,7 @@ title: 'Lead Generation Chatbots'
 template: service-detail-c
 eyebrow: 'AI Chatbots'
 headline: 'Qualification, handled in the conversation itself'
-summary: 'Lead generation chatbots that qualify visitors conversationally before handing off to sales.'
+tagline: 'Lead generation chatbots that qualify visitors conversationally before handing off to sales.'
 primary_intent: 'commercial - service research'
 entities: ['Lead Generation Chatbots', 'Conversational Qualification', 'CRM Integration', 'Lead Scoring', 'Calendar Booking']
 tools: ['Lead Gen Chatbots', 'Conversational Qualification']

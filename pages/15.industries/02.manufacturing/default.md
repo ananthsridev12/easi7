@@ -3,7 +3,7 @@ title: Manufacturing
 template: service-detail
 eyebrow: Manufacturing
 headline: 'Lead generation that respects a technical buyer'
-summary: 'Long sales cycles, technical decision-makers, and lead generation built around genuine product understanding.'
+tagline: 'Long sales cycles, technical decision-makers, and lead generation built around genuine product understanding.'
 tools: ['B2B Lead Gen', 'Technical Content', SEO]
 taxonomy:
     industry: [Manufacturing]

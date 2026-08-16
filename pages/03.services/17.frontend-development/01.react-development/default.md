@@ -3,7 +3,7 @@ title: 'React Development'
 template: service-detail-a
 eyebrow: 'Frontend Development'
 headline: 'Component-based front ends that scale with the product'
-summary: 'React development for interfaces that are genuinely interactive and stateful, not just popular to build with.'
+tagline: 'React development for interfaces that are genuinely interactive and stateful, not just popular to build with.'
 service_url: /services/frontend-development/react-development
 primary_intent: 'commercial - service research'
 entities: ['React', 'Component Architecture', 'State Management', 'Context API', 'React Query', 'Code Splitting']

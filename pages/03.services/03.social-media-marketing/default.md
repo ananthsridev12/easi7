@@ -4,7 +4,7 @@ template: services
 eyebrow: 'Social Media Marketing'
 icon: "💬"
 headline: 'Build demand before someone searches for you'
-summary: 'Paid and organic social built around where your buyers actually spend attention, not just Instagram trends.'
+tagline: 'Paid and organic social built around where your buyers actually spend attention, not just Instagram trends.'
 tools: ['Meta Ads Manager', 'LinkedIn Campaign Manager']
 taxonomy:
     service: ['Social Media Marketing']

@@ -1,7 +1,7 @@
 ---
 title: 'What Is a Data Layer?'
 template: glossary-term
-summary: 'A data layer is a structured JavaScript object that passes information from your website to Google Tag Manager in a consistent format.'
+tagline: 'A data layer is a structured JavaScript object that passes information from your website to Google Tag Manager in a consistent format.'
 service_url: /services/analytics-tracking
 taxonomy:
     topic: [Analytics]

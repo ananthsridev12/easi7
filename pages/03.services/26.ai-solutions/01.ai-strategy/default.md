@@ -3,7 +3,7 @@ title: 'AI Strategy'
 template: service-detail-a
 eyebrow: 'AI Solutions'
 headline: 'Where AI actually fits your business, before any build'
-summary: 'AI strategy work identifying realistic, high-value use cases before recommending any specific tool or build.'
+tagline: 'AI strategy work identifying realistic, high-value use cases before recommending any specific tool or build.'
 primary_intent: 'commercial - service research'
 entities: ['AI Readiness Assessment', 'Use Case Prioritisation', 'Build-vs-Buy', 'AI Adoption Roadmap', 'Data Privacy Risk']
 tools: ['AI Strategy', 'Use Case Mapping']

@@ -3,7 +3,7 @@ title: 'AI Marketing Agents'
 template: service-detail-a
 eyebrow: 'AI Marketing Agents'
 headline: 'Agents that execute marketing tasks, not just suggest them'
-summary: 'AI marketing agents scoped to one repeatable task at a time - drafting, monitoring, or flagging - with a human checkpoint before anything ships.'
+tagline: 'AI marketing agents scoped to one repeatable task at a time - drafting, monitoring, or flagging - with a human checkpoint before anything ships.'
 primary_intent: 'commercial - service research'
 entities: ['Marketing Agents', 'Human-in-the-Loop Review', 'Campaign Monitoring', 'Content Variation Testing', 'Agent Guardrails', 'Task Automation']
 tools: ['Marketing Agents', 'Task Automation', 'Human-in-the-Loop Review']

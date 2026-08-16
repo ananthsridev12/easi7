@@ -6,7 +6,7 @@
   <div class="wrap">
     <span class="eyebrow">{{ page.header.eyebrow ?? 'App' }}</span>
     <h1>{{ page.header.headline ?? page.title }}</h1>
-    {% if page.header.summary %}<p class="lede">{{ page.header.summary }}</p>{% endif %}
+    {% if page.header.tagline %}<p class="lede">{{ page.header.tagline }}</p>{% endif %}
     <div class="hero-ctas">
       {% if page.header.app_url %}<a class="btn brass" href="{{ page.header.app_url }}" rel="noopener" target="_blank">Open {{ page.title }} &rarr;</a>{% endif %}
       <a class="btn ghost" href="{{ url('/contact') }}">Ask us about this &rarr;</a>

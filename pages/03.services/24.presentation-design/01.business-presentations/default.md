@@ -3,7 +3,7 @@ title: 'Business Presentations'
 template: service-detail-a
 eyebrow: 'Presentation Design'
 headline: 'Slides that support the speaker, not compete with them'
-summary: 'Business presentation design for internal and external meetings, built around clarity over decoration.'
+tagline: 'Business presentation design for internal and external meetings, built around clarity over decoration.'
 primary_intent: 'commercial - service research'
 entities: ['Slide Design', 'Visual Hierarchy', 'Data Visualisation', 'Template Systems', 'Speaker Notes']
 tools: ['Presentation Design', 'Slide Decks']

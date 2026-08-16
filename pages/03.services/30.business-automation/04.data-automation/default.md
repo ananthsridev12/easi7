@@ -3,7 +3,7 @@ title: 'Data Automation'
 template: service-detail-a
 eyebrow: 'Business Automation'
 headline: 'Data that moves between systems without anyone touching it'
-summary: 'Data automation for syncing, transforming, and validating data across business systems.'
+tagline: 'Data automation for syncing, transforming, and validating data across business systems.'
 primary_intent: 'commercial - service research'
 entities: ['Data Sync', 'ETL', 'Data Transformation', 'Scheduled Pipelines', 'Event-Triggered Pipelines', 'Error Alerting']
 tools: ['ETL Pipelines', 'API Integration', 'Scheduled Jobs']

@@ -4,7 +4,7 @@ template: services
 eyebrow: Integrations
 icon: "🔗"
 headline: 'Your stack, working as one system'
-summary: 'API, CRM, marketing platform, and payment integrations so nothing requires manual copy-pasting between tools.'
+tagline: 'API, CRM, marketing platform, and payment integrations so nothing requires manual copy-pasting between tools.'
 tools: [API, CRM, Webhooks]
 taxonomy:
     service: [Integrations]

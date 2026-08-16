@@ -3,7 +3,7 @@ title: 'E-E-A-T & Content Strategy'
 template: service-detail-a
 eyebrow: 'E-E-A-T & Content Strategy'
 headline: 'Experience, expertise, authority, and trust - demonstrated, not claimed'
-summary: "Content and site signals built to satisfy Google's E-E-A-T framework for competitive, expertise-driven categories."
+tagline: "Content and site signals built to satisfy Google's E-E-A-T framework for competitive, expertise-driven categories."
 primary_intent: 'commercial - service research'
 entities: ['E-E-A-T', 'Author Credentials', 'Content Depth', 'Trust Signals', 'Source Transparency']
 tools: ['Author Signals', 'Trust Signals', 'Content Depth Benchmarking']

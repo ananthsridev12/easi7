@@ -3,7 +3,7 @@ title: 'Lead Scoring'
 template: service-detail-b
 eyebrow: 'Lead Scoring'
 headline: 'Not all leads deserve the same follow-up speed'
-summary: 'Point-based lead scoring models combining fit and intent signals to prioritise sales follow-up.'
+tagline: 'Point-based lead scoring models combining fit and intent signals to prioritise sales follow-up.'
 primary_intent: 'commercial - service research'
 entities: ['ICP Fit Scoring', 'Intent Signals', 'Threshold Rules', 'Score Decay', 'Lead Qualification', 'MQL to SQL']
 tools: ['Fit Scoring', 'Intent Signals', 'HubSpot', 'Zoho CRM']

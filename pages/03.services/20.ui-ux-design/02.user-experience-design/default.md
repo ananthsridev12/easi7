@@ -3,7 +3,7 @@ title: 'User Experience Design'
 template: service-detail-b
 eyebrow: 'UI/UX Design'
 headline: 'The flow, not just the screens'
-summary: 'User experience design focused on task flow, information architecture, and reducing friction end to end.'
+tagline: 'User experience design focused on task flow, information architecture, and reducing friction end to end.'
 service_url: /services/ui-ux-design/user-experience-design
 taxonomy:
     service: ['User Experience Design']

@@ -3,7 +3,7 @@ title: 'Web Applications'
 template: service-detail-a
 eyebrow: 'Web Applications'
 headline: 'Custom-built for a specific workflow'
-summary: "Web application development for workflows that don't fit an off-the-shelf tool."
+tagline: "Web application development for workflows that don't fit an off-the-shelf tool."
 primary_intent: 'commercial - service research'
 entities: ['Custom Web Applications', 'Workflow Mapping', 'API Integration', 'React', 'Role-Based Access', 'Iterative Delivery']
 tools: ['React', 'REST & GraphQL APIs', 'Custom Backend Architecture']

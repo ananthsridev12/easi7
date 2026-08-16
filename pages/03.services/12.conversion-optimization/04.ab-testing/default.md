@@ -3,7 +3,7 @@ title: 'A/B Testing'
 template: service-detail-a
 eyebrow: 'A/B Testing'
 headline: 'Tests run long enough and clean enough to trust'
-summary: 'Statistically sound A/B and multivariate testing programmes, not tests called early because a number looked good.'
+tagline: 'Statistically sound A/B and multivariate testing programmes, not tests called early because a number looked good.'
 primary_intent: 'commercial - service research'
 entities: ['A/B Testing', 'Multivariate Testing', 'Statistical Significance', 'Sample Size', 'VWO', 'Optimizely']
 service_url: /services/conversion-optimization/ab-testing

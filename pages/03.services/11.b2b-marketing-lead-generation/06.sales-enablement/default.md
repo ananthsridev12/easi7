@@ -3,7 +3,7 @@ title: 'Sales Enablement'
 template: service-detail-c
 eyebrow: 'B2B Marketing & Lead Generation'
 headline: 'Give sales what marketing already knows'
-summary: 'Battle cards, case studies, and competitive positioning built for the sales team to use inside a live deal, not just for marketing to publish.'
+tagline: 'Battle cards, case studies, and competitive positioning built for the sales team to use inside a live deal, not just for marketing to publish.'
 tools: ['Battle Cards', 'Case Study Libraries']
 service_url: /services/b2b-marketing-lead-generation/sales-enablement
 primary_intent: 'commercial - service research'

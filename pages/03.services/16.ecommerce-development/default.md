@@ -4,7 +4,7 @@ template: services
 eyebrow: 'E-commerce Development'
 icon: "🛒"
 headline: 'Stores built to sell, not just display a catalogue'
-summary: 'Shopify, Magento, and custom e-commerce builds, optimised for conversion from day one.'
+tagline: 'Shopify, Magento, and custom e-commerce builds, optimised for conversion from day one.'
 tools: [Shopify, Magento, 'Custom Commerce']
 taxonomy:
     service: ['E-commerce Development']

@@ -3,7 +3,7 @@ title: Partners
 template: default
 metadata:
     description: 'The platforms and tools EASI7 builds on: Google, Meta, WordPress, Shopify, Grav, and the rest of the stack.'
-summary: "We don't claim formal agency partnerships we don't have - here's the platform ecosystem we actually build on."
+tagline: "We don't claim formal agency partnerships we don't have - here's the platform ecosystem we actually build on."
 sitemap:
     changefreq: yearly
     priority: !!float 0.4

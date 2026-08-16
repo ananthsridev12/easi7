@@ -3,7 +3,7 @@ title: 'Lead Qualification'
 template: service-detail-b
 eyebrow: 'Lead Qualification'
 headline: 'AI-assisted scoring that improves with more data'
-summary: 'AI-powered lead qualification combining traditional fit scoring with model-based intent signals that improve as more closed-deal data comes in.'
+tagline: 'AI-powered lead qualification combining traditional fit scoring with model-based intent signals that improve as more closed-deal data comes in.'
 primary_intent: 'commercial - service research'
 entities: ['AI Lead Scoring', 'Intent Signals', 'Model Recalibration', 'Explainable Scoring', 'CRM Integration']
 tools: ['AI Lead Scoring', 'Intent Signal Detection', 'Model Recalibration']

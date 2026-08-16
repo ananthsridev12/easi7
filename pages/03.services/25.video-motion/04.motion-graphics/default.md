@@ -3,7 +3,7 @@ title: 'Motion Graphics'
 template: service-detail-a
 eyebrow: 'Video & Motion'
 headline: 'Movement that clarifies, not just decorates'
-summary: 'Motion graphics for data visualisation, brand animation, and interface micro-interactions.'
+tagline: 'Motion graphics for data visualisation, brand animation, and interface micro-interactions.'
 primary_intent: 'informational - concept explainer'
 entities: ['Motion Graphics', 'Data Visualisation Animation', 'Brand Motion', 'Micro-Interaction Design', 'Kinetic Typography', 'Motion Style Guide']
 tools: ['Motion Design', 'Kinetic Typography', 'Data Visualisation Animation']

@@ -3,7 +3,7 @@ title: 'Headless CMS'
 template: service-detail-b
 eyebrow: 'CMS Development'
 headline: 'Content management, decoupled from presentation'
-summary: 'Headless CMS implementations for teams that need content flexibility across web, app, and other channels.'
+tagline: 'Headless CMS implementations for teams that need content flexibility across web, app, and other channels.'
 primary_intent: 'commercial - service research'
 entities: ['Headless CMS', 'Content API', 'Multi-channel Content', 'Content Modelling', 'Editor Workflow']
 tools: ['Headless CMS', 'API-driven Content', 'Content Modelling']

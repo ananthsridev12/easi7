@@ -3,7 +3,7 @@ title: 'B2B Lead Generation'
 template: service-detail-a
 eyebrow: 'B2B Marketing & Lead Generation'
 headline: 'Leads scored before they reach sales'
-summary: 'Full-funnel B2B lead generation combining content, paid, and outbound - with a scoring model built in before handoff, not bolted on after.'
+tagline: 'Full-funnel B2B lead generation combining content, paid, and outbound - with a scoring model built in before handoff, not bolted on after.'
 service_url: /services/b2b-marketing-lead-generation/b2b-lead-generation
 primary_intent: 'commercial - service research'
 entities: ['ICP Definition', 'Lead Scoring', 'Multi-Channel Lead Capture', 'MQL/SQL Thresholds', 'Funnel Attribution']

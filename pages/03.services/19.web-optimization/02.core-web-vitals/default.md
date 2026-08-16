@@ -3,7 +3,7 @@ title: 'Core Web Vitals'
 template: service-detail-b
 eyebrow: 'Web Optimization'
 headline: 'The three metrics Google actually measures'
-summary: 'Core Web Vitals optimisation targeting LCP, INP, and CLS specifically - not generic speed advice that misses the metrics that count.'
+tagline: 'Core Web Vitals optimisation targeting LCP, INP, and CLS specifically - not generic speed advice that misses the metrics that count.'
 tools: ['LCP', 'INP', 'CLS']
 service_url: /services/web-optimization/core-web-vitals
 taxonomy:

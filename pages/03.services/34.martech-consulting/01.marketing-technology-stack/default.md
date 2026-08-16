@@ -3,7 +3,7 @@ title: 'Marketing Technology Stack'
 template: service-detail-a
 eyebrow: 'Marketing Technology Stack'
 headline: 'A stack chosen for what you need, not what''s trending'
-summary: 'Marketing technology stack audits and recommendations based on actual workflow requirements, not feature checklists.'
+tagline: 'Marketing technology stack audits and recommendations based on actual workflow requirements, not feature checklists.'
 primary_intent: 'commercial - service research'
 entities: ['MarTech Stack Audit', 'Tool Overlap', 'Stack Consolidation', 'Workflow Requirements', 'Stack Governance']
 tools: ['MarTech Stack Audits', 'Tool Rationalisation']

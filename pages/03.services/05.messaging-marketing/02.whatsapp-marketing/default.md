@@ -3,7 +3,7 @@ title: 'WhatsApp Marketing'
 template: service-detail-b
 eyebrow: 'WhatsApp Marketing'
 headline: "The channel Indian customers actually respond to"
-summary: 'WhatsApp Business API automation for lead nurturing, order updates, and support - built for markets where WhatsApp is the primary inbox.'
+tagline: 'WhatsApp Business API automation for lead nurturing, order updates, and support - built for markets where WhatsApp is the primary inbox.'
 tools: ['WhatsApp Business API', Automation, 'Lead Nurturing']
 service_url: /services/messaging-marketing/whatsapp-marketing
 taxonomy:

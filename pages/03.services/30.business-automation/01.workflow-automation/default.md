@@ -3,7 +3,7 @@ title: 'Workflow Automation'
 template: service-detail-a
 eyebrow: 'Business Automation'
 headline: 'Fewer manual steps across every department, not just marketing'
-summary: 'Business-wide workflow automation connecting tools and teams beyond the marketing function.'
+tagline: 'Business-wide workflow automation connecting tools and teams beyond the marketing function.'
 primary_intent: 'commercial - service research'
 entities: ['Workflow Mapping', 'Tool Integration', 'Approval Workflows', 'Handoff Automation', 'Change Management', 'Cross-Department Automation']
 tools: ['Zapier', 'Make', 'Microsoft Power Automate']

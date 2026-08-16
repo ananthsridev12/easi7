@@ -3,7 +3,7 @@ title: Careers
 template: default
 metadata:
     description: "Careers at EASI7 - not actively hiring for full-time roles, but open to hearing from specialist collaborators."
-summary: "We're small and growing deliberately - not always hiring, but always open to the right person."
+tagline: "We're small and growing deliberately - not always hiring, but always open to the right person."
 sitemap:
     changefreq: yearly
     priority: !!float 0.3

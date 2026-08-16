@@ -3,7 +3,7 @@ title: 'Go-to-Market Strategy'
 template: service-detail-a
 eyebrow: 'Marketing Strategy'
 headline: 'A launch plan, not just a launch date'
-summary: 'Go-to-market strategy covering positioning, channel selection, and sequencing for a new product or market entry.'
+tagline: 'Go-to-market strategy covering positioning, channel selection, and sequencing for a new product or market entry.'
 primary_intent: 'commercial - service research'
 entities: ['Go-to-Market Strategy', 'Product Launch', 'Positioning', 'Channel Sequencing', 'Launch Timeline', 'Cross-Functional Alignment']
 tools: ['GTM Strategy', 'Launch Planning', 'Positioning Frameworks']

@@ -3,7 +3,7 @@ title: 'Jekyll'
 template: service-detail-c
 eyebrow: 'CMS Development'
 headline: "Static-site simplicity where it's the right fit"
-summary: 'Jekyll site builds for teams that want speed, security, and simplicity over a full database-backed CMS.'
+tagline: 'Jekyll site builds for teams that want speed, security, and simplicity over a full database-backed CMS.'
 primary_intent: 'informational - concept explainer'
 entities: ['Jekyll', 'Static Site Generation', 'Markdown', 'JAMstack', 'CI/CD Deployment']
 tools: ['Jekyll', 'Markdown', 'Static Site Generation']

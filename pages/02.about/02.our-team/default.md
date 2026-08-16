@@ -3,7 +3,7 @@ title: 'Our Team'
 template: default
 metadata:
     description: 'EASI7 is a founder-led studio built around Ananth Sridev, working with trusted specialists on design, development, and content as projects need.'
-summary: 'A founder-led studio, deliberately - with trusted specialists brought in as each project needs them.'
+tagline: 'A founder-led studio, deliberately - with trusted specialists brought in as each project needs them.'
 sitemap:
     changefreq: monthly
     priority: !!float 0.5

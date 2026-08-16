@@ -4,7 +4,7 @@ template: portfolio-detail
 client: 'Multi-location retailer'
 industry: Retail
 service_url: /services/seo/technical-seo
-summary: 'Optimised 15 location pages with schema markup, Google Business Profile optimisation, and a local link-building strategy.'
+tagline: 'Optimised 15 location pages with schema markup, Google Business Profile optimisation, and a local link-building strategy.'
 metrics:
     - { value: '+320%', label: 'Local traffic' }
     - { value: 'Top 3', label: 'Map pack' }

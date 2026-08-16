@@ -3,7 +3,7 @@ title: 'Revenue Growth'
 template: service-detail-a
 eyebrow: 'Growth Strategy'
 headline: 'Growth measured in revenue, not just top-of-funnel metrics'
-summary: 'Revenue growth strategy connecting marketing activity directly to pipeline and revenue outcomes.'
+tagline: 'Revenue growth strategy connecting marketing activity directly to pipeline and revenue outcomes.'
 primary_intent: 'commercial - service research'
 entities: ['Revenue Attribution', 'Pipeline Velocity', 'Cross-Functional Alignment', 'Expansion Revenue', 'Revenue Forecasting']
 tools: ['Revenue Attribution Modelling', 'Pipeline Velocity Analysis', 'Revenue Forecasting']

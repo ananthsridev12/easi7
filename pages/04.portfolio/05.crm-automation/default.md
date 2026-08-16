@@ -4,7 +4,7 @@ template: portfolio-detail
 client: 'Fintech platform'
 industry: Fintech
 service_url: /services/marketing-automation
-summary: 'Designed and implemented automated lead nurturing workflows, email sequences, and CRM integration for a fintech platform.'
+tagline: 'Designed and implemented automated lead nurturing workflows, email sequences, and CRM integration for a fintech platform.'
 metrics:
     - { value: '14-day', label: 'Nurture sequence' }
     - { value: 'Auto', label: 'Lead scoring' }

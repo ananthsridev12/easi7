@@ -4,7 +4,7 @@ template: services
 eyebrow: 'Business Automation'
 icon: "🔄"
 headline: 'The manual work outside marketing, automated too'
-summary: 'Workflow, process, data, reporting, and document automation across departments - not just the marketing function.'
+tagline: 'Workflow, process, data, reporting, and document automation across departments - not just the marketing function.'
 tools: ['Workflow Automation', 'Process Automation']
 taxonomy:
     service: ['Business Automation']

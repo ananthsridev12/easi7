@@ -3,7 +3,7 @@ title: 'Visual Identity'
 template: service-detail-b
 eyebrow: 'Branding'
 headline: 'Every touchpoint recognisably the same brand'
-summary: 'Visual identity application across web, print, social, and product touchpoints.'
+tagline: 'Visual identity application across web, print, social, and product touchpoints.'
 tools: ['Cross-Channel Application', 'Template Systems', 'Consistency Audits']
 service_url: /services/branding/visual-identity
 taxonomy:

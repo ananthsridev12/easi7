@@ -3,7 +3,7 @@ title: 'Workflow Automation'
 template: service-detail-b
 eyebrow: 'Workflow Automation'
 headline: 'Fewer manual steps, fewer dropped handoffs'
-summary: 'Internal marketing operations workflows automated end-to-end, from asset requests to reporting.'
+tagline: 'Internal marketing operations workflows automated end-to-end, from asset requests to reporting.'
 primary_intent: 'commercial - service research'
 entities: ['Marketing Ops Workflows', 'Approval Automation', 'Cross-Tool Integration', 'Handoff Automation', 'Zapier', 'Make']
 tools: ['Marketing Ops', 'Zapier', 'Make']

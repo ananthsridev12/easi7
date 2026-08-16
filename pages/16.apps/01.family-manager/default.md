@@ -3,7 +3,7 @@ title: 'Family Manager'
 template: app-detail
 eyebrow: 'Family Manager'
 headline: 'One place to run the household'
-summary: 'A family organisation app for shared schedules, tasks, and responsibilities - built so nothing falls on one person to remember.'
+tagline: 'A family organisation app for shared schedules, tasks, and responsibilities - built so nothing falls on one person to remember.'
 tools: [Tasks, Scheduling, 'Shared Access']
 metadata:
     description: 'Family Manager is an app for organising household tasks, schedules, and responsibilities across family members.'

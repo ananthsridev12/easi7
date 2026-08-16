@@ -4,7 +4,7 @@ template: portfolio-detail
 client: 'Giri Trading Agency'
 industry: E-Commerce
 service_url: /services/search-engine-marketing/google-ads
-summary: 'Restructured the product feed, implemented smart bidding, and optimised Shopping campaigns for an e-commerce client.'
+tagline: 'Restructured the product feed, implemented smart bidding, and optimised Shopping campaigns for an e-commerce client.'
 metrics:
     - { value: '+220%', label: ROAS }
     - { value: '−38%', label: CPA }

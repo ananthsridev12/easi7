@@ -3,7 +3,7 @@ title: 'Tracking Architecture'
 template: service-detail-a
 eyebrow: 'Tracking Architecture'
 headline: 'A tracking foundation designed to last, not patched repeatedly'
-summary: 'Tracking architecture covering data layer structure, tool integration, naming governance, and cross-platform design.'
+tagline: 'Tracking architecture covering data layer structure, tool integration, naming governance, and cross-platform design.'
 primary_intent: 'commercial - service research'
 entities: ['Tracking Architecture', 'Data Layer', 'GTM', 'GA4', 'Naming Convention Governance', 'Cross-Domain Tracking']
 service_url: /services/analytics-consulting/tracking-architecture

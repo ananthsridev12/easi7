@@ -4,7 +4,7 @@ menu: false
 template: tech-stack
 metadata:
     description: 'Marketing technologies and tools EASI7 uses: GA4, GTM, Google Ads, SEMrush, Ahrefs, WordPress, and more.'
-summary: "The marketing and analytics tools we use to build scalable, data-driven growth systems."
+tagline: "The marketing and analytics tools we use to build scalable, data-driven growth systems."
 sitemap:
     changefreq: monthly
     priority: !!float 0.5

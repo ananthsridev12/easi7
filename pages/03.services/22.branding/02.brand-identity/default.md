@@ -3,7 +3,7 @@ title: 'Brand Identity'
 template: service-detail-b
 eyebrow: 'Branding'
 headline: 'A consistent visual language, not just a logo'
-summary: 'Brand identity design covering the full visual system - colour, type, imagery, and application.'
+tagline: 'Brand identity design covering the full visual system - colour, type, imagery, and application.'
 tools: ['Colour & Type Systems', 'Identity Documentation', 'Application Design']
 service_url: /services/branding/brand-identity
 taxonomy:

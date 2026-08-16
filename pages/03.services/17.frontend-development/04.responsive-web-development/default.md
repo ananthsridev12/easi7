@@ -3,7 +3,7 @@ title: 'Responsive Web Development'
 template: service-detail-a
 eyebrow: 'Frontend Development'
 headline: 'Mobile-first as the actual default, not an afterthought'
-summary: 'Responsive web development that starts from the smallest screen, ensuring a consistent, fast experience across every device size.'
+tagline: 'Responsive web development that starts from the smallest screen, ensuring a consistent, fast experience across every device size.'
 service_url: /services/frontend-development/responsive-web-development
 primary_intent: 'commercial - service research'
 entities: ['Mobile-First Design', 'Responsive Images', 'Touch Targets', 'Cross-Browser Testing', 'CSS Grid', 'Flexbox']

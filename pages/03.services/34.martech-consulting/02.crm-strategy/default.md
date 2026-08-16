@@ -3,7 +3,7 @@ title: 'CRM Strategy'
 template: service-detail-b
 eyebrow: 'CRM Strategy'
 headline: 'The CRM as a strategic asset, not a contact database'
-summary: 'CRM strategy covering platform selection, data architecture, and adoption across sales and marketing.'
+tagline: 'CRM strategy covering platform selection, data architecture, and adoption across sales and marketing.'
 primary_intent: 'commercial - service research'
 entities: ['CRM Platform Selection', 'Data Architecture', 'Adoption Planning', 'Legacy Migration', 'CRM Governance']
 tools: ['CRM Strategy', 'Data Architecture Review']

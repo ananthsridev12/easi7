@@ -3,7 +3,7 @@ title: 'Design Systems'
 template: service-detail-c
 eyebrow: 'UI/UX Design'
 headline: "Consistency that doesn't depend on memory"
-summary: 'Design system creation - component libraries, tokens, and documentation for consistent product design at scale.'
+tagline: 'Design system creation - component libraries, tokens, and documentation for consistent product design at scale.'
 service_url: /services/ui-ux-design/design-systems
 taxonomy:
     service: ['Design Systems']

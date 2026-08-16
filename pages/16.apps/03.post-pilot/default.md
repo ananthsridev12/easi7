@@ -3,7 +3,7 @@ title: 'Post Pilot'
 template: app-detail
 eyebrow: 'Post Pilot'
 headline: 'LinkedIn content, drafted and scheduled automatically'
-summary: 'An AI-assisted LinkedIn content creator and auto-poster that drafts posts with images and keeps a posting schedule running.'
+tagline: 'An AI-assisted LinkedIn content creator and auto-poster that drafts posts with images and keeps a posting schedule running.'
 tools: ['LinkedIn Automation', 'AI Content', 'Image Generation']
 metadata:
     description: 'Post Pilot is a LinkedIn auto-poster and AI content creator that generates posts with images and manages posting schedules.'

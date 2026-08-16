@@ -3,7 +3,7 @@ title: 'WordPress'
 template: service-detail-a
 eyebrow: 'CMS Development'
 headline: "The world's most common CMS, built to actually hold up"
-summary: 'WordPress development built around plugin discipline and page speed, not just theme customisation.'
+tagline: 'WordPress development built around plugin discipline and page speed, not just theme customisation.'
 primary_intent: 'commercial - service research'
 entities: ['WordPress', 'WooCommerce', 'Core Web Vitals', 'Plugin Architecture', 'Custom Theme Development']
 tools: ['WordPress', 'WooCommerce', 'Core Web Vitals', 'Query Monitor']

@@ -3,7 +3,7 @@ title: 'Thought Leadership'
 template: service-detail-b
 eyebrow: 'Content Marketing'
 headline: 'A point of view, not a summary of the news'
-summary: 'Founder and company authority content built around an actual opinion, not a recap of industry headlines.'
+tagline: 'Founder and company authority content built around an actual opinion, not a recap of industry headlines.'
 primary_intent: 'commercial - service research'
 entities: ['Founder Voice', 'Byline Placement', 'LinkedIn Content', 'Industry Commentary', 'Op-Ed Writing', 'Speaking Pitches']
 tools: ['Founder Interviews', 'Byline Placement', 'LinkedIn Publishing']

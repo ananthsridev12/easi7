@@ -3,7 +3,7 @@ title: 'UX Research'
 template: service-detail-a
 eyebrow: 'UI/UX Design'
 headline: "Design decisions backed by what users actually do, not what stakeholders assume"
-summary: 'UX research combining user interviews, usability testing, and behavioural data before any design work starts.'
+tagline: 'UX research combining user interviews, usability testing, and behavioural data before any design work starts.'
 service_url: /services/ui-ux-design/ux-research
 taxonomy:
     service: ['UX Research']

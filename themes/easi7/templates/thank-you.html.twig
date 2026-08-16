@@ -5,7 +5,7 @@
   <div class="wrap">
     <span class="eyebrow" style="justify-content:center;">Message received</span>
     <h1>{{ page.title }}</h1>
-    {% if page.header.summary %}<p class="lede" style="margin-left:auto;margin-right:auto;">{{ page.header.summary }}</p>{% endif %}
+    {% if page.header.tagline %}<p class="lede" style="margin-left:auto;margin-right:auto;">{{ page.header.tagline }}</p>{% endif %}
     {{ page.content|raw }}
     <div class="hero-ctas" style="justify-content:center;margin-top:1.6em;">
       <a class="btn brass" href="{{ url('/') }}">Back to home</a>

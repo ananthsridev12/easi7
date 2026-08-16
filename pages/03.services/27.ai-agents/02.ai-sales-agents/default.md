@@ -3,7 +3,7 @@ title: 'AI Sales Agents'
 template: service-detail-b
 eyebrow: 'AI Sales Agents'
 headline: 'First-touch qualification, handled automatically'
-summary: 'AI sales agents for lead qualification, follow-up, and scheduling, handed off to a human rep at the right moment rather than run end to end.'
+tagline: 'AI sales agents for lead qualification, follow-up, and scheduling, handed off to a human rep at the right moment rather than run end to end.'
 primary_intent: 'commercial - service research'
 entities: ['Lead Qualification', 'CRM Handoff', 'Meeting Scheduling', 'Follow-Up Sequencing', 'Escalation Rules']
 tools: ['Sales Agents', 'Lead Qualification', 'CRM Integration']

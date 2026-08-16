@@ -3,7 +3,7 @@ title: 'Process Automation'
 template: service-detail-b
 eyebrow: 'Business Automation'
 headline: 'Repeatable processes, executed the same way every time'
-summary: 'Business process automation for recurring operational tasks prone to manual error or delay.'
+tagline: 'Business process automation for recurring operational tasks prone to manual error or delay.'
 primary_intent: 'commercial - service research'
 entities: ['Recurring Process Mapping', 'Zapier', 'Make', 'Exception Handling', 'Process Documentation', 'Audit Trails']
 tools: ['Zapier', 'Make', 'Custom Automation']
