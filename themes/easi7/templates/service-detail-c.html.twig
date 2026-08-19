@@ -27,12 +27,6 @@
     <span class="eyebrow">What it is</span>
     <h2>{{ page.header.definition_heading ?? ('What is ' ~ page.title ~ '?') }}</h2>
     <div>{{ page.header.definition|raw }}</div>
-    {% if page.header.definition_answer %}
-    <div class="answer-box">
-      <span class="answer-label">In simple terms</span>
-      <p>{{ page.header.definition_answer }}</p>
-    </div>
-    {% endif %}
   </div>
 </section>
 {% endif %}
@@ -75,17 +69,6 @@
 </section>
 {% endif %}
 
-{% if page.header.deliverables %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}">
-  <div class="wrap">
-    <span class="eyebrow">What we deliver</span>
-    <h2>Scope, area by area</h2>
-    {% include 'partials/data-table.html.twig' with { headers: ['Area', 'What we deliver'], rows: page.header.deliverables } %}
-  </div>
-</section>
-{% endif %}
-
 {% if page.header.methodology %}
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
@@ -102,30 +85,6 @@
 </section>
 {% endif %}
 
-{% if page.header.comparison %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}">
-  <div class="wrap">
-    <span class="eyebrow">In context</span>
-    <h2>{{ page.header.comparison.heading ?? 'How this compares' }}</h2>
-    {% include 'partials/data-table.html.twig' with { headers: page.header.comparison.headers, rows: page.header.comparison.rows, note: page.header.comparison.note ?? null } %}
-  </div>
-</section>
-{% endif %}
-
-{% if page.header.key_metrics %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}">
-  <div class="wrap">
-    <span class="eyebrow">Evaluation criteria</span>
-    <h2>What we measure this against</h2>
-    <ul>
-      {% for k in page.header.key_metrics %}<li>{{ k }}</li>{% endfor %}
-    </ul>
-  </div>
-</section>
-{% endif %}
-
 {% if page.header.who_needs_this %}
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
@@ -133,19 +92,6 @@
     <span class="eyebrow">Who this is for</span>
     <h2>Who needs this</h2>
     {% include 'partials/persona-grid.html.twig' with { items: page.header.who_needs_this } %}
-  </div>
-</section>
-{% endif %}
-
-{% if page.header.use_cases %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}">
-  <div class="wrap">
-    <span class="eyebrow">Use cases</span>
-    <h2>Where this applies</h2>
-    <ul>
-      {% for u in page.header.use_cases %}<li>{{ u }}</li>{% endfor %}
-    </ul>
   </div>
 </section>
 {% endif %}
@@ -193,5 +139,13 @@
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}
 
+{% include 'partials/ai-reference.html.twig' with {
+  page: page,
+  answer: page.header.definition_answer ?? null,
+  deliverables: page.header.deliverables ?? null,
+  comparison: page.header.comparison ?? null,
+  key_metrics: page.header.key_metrics ?? null,
+  use_cases: page.header.use_cases ?? null
+} %}
 {% include 'partials/page-metadata.html.twig' with { page: page } %}
 {% endblock %}

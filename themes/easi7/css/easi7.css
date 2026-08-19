@@ -459,8 +459,14 @@ section.block.alt .persona-card{background:var(--paper);}
 .persona-card h3{font-size:1rem;margin:0 0 8px;}
 .persona-card p,.persona-card ul{font-size:0.88rem;margin:0;max-width:none;}
 
-/* ---------- Page metadata / LLMO block: structured summary for AI crawlers (GEO/AEO), sits directly above the footer ---------- */
-.page-meta{background:#0A0C11;color:#9BA1AF;padding:32px 0;border-top:1px solid #1B1F29;}
+/* ---------- AI/search reference block: real, visible, consolidated detail above the footer ---------- */
+.ai-reference{background:var(--paper-raised);border-top:1px solid var(--line);}
+.ai-reference h2{font-size:1.3rem;}
+.ai-reference h3{font-size:1rem;margin:1.6em 0 0.6em;color:var(--ink);}
+.ai-reference h3:first-of-type{margin-top:1.2em;}
+
+/* ---------- Page metadata / LLMO block (kept in the HTML for crawlers, hidden from visual display) ---------- */
+.page-meta{display:none;background:#0A0C11;color:#9BA1AF;padding:32px 0;border-top:1px solid #1B1F29;}
 .page-meta h2{color:#6B7284;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:18px;font-weight:600;}
 .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;}
 .meta-field dt{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.06em;color:#6B7284;margin-bottom:6px;}

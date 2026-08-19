@@ -27,12 +27,6 @@
   <div class="wrap">
     <span class="eyebrow">Overview</span>
     <div>{{ page.header.overview|raw }}</div>
-    {% if page.header.overview_answer %}
-    <div class="answer-box">
-      <span class="answer-label">In simple terms</span>
-      <p>{{ page.header.overview_answer }}</p>
-    </div>
-    {% endif %}
   </div>
 </section>
 {% endif %}
@@ -44,17 +38,6 @@
     <span class="eyebrow">Capabilities</span>
     <h2>What we bring to this</h2>
     {% include 'partials/framework-grid.html.twig' with { items: page.header.capabilities } %}
-  </div>
-</section>
-{% endif %}
-
-{% if page.header.included %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}">
-  <div class="wrap">
-    <span class="eyebrow">What's included</span>
-    <h2>Scope of work</h2>
-    {% include 'partials/data-table.html.twig' with { headers: ['Area', "What's included"], rows: page.header.included } %}
   </div>
 </section>
 {% endif %}
@@ -71,30 +54,6 @@
       <div class="step"><h3>{{ step.title }}</h3><p>{{ step.body }}</p></div>
       {% endfor %}
     </div>
-  </div>
-</section>
-{% endif %}
-
-{% if page.header.comparison %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}">
-  <div class="wrap">
-    <span class="eyebrow">In context</span>
-    <h2>{{ page.header.comparison.heading ?? 'How this compares' }}</h2>
-    {% include 'partials/data-table.html.twig' with { headers: page.header.comparison.headers, rows: page.header.comparison.rows, note: page.header.comparison.note ?? null } %}
-  </div>
-</section>
-{% endif %}
-
-{% if page.header.use_cases %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}">
-  <div class="wrap">
-    <span class="eyebrow">Use cases</span>
-    <h2>Where this fits</h2>
-    <ul>
-      {% for u in page.header.use_cases %}<li>{{ u }}</li>{% endfor %}
-    </ul>
   </div>
 </section>
 {% endif %}
@@ -169,5 +128,12 @@
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}
 
+{% include 'partials/ai-reference.html.twig' with {
+  page: page,
+  answer: page.header.overview_answer ?? null,
+  deliverables: page.header.included ?? null,
+  comparison: page.header.comparison ?? null,
+  use_cases: page.header.use_cases ?? null
+} %}
 {% include 'partials/page-metadata.html.twig' with { page: page } %}
 {% endblock %}

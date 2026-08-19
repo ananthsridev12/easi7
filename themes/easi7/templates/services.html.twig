@@ -17,12 +17,6 @@
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     {{ page.content|raw }}
-    {% if page.header.overview_answer %}
-    <div class="answer-box">
-      <span class="answer-label">In simple terms</span>
-      <p>{{ page.header.overview_answer }}</p>
-    </div>
-    {% endif %}
   </div>
 </section>
 {% endif %}
@@ -104,5 +98,9 @@
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}
 
+{% include 'partials/ai-reference.html.twig' with {
+  page: page,
+  answer: page.header.overview_answer ?? null
+} %}
 {% include 'partials/page-metadata.html.twig' with { page: page } %}
 {% endblock %}

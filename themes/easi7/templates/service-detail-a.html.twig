@@ -38,12 +38,6 @@
     <span class="eyebrow">What we fix</span>
     <h2>{{ page.header.solution_heading ?? 'What this service actually solves' }}</h2>
     <div>{{ page.header.solution|raw }}</div>
-    {% if page.header.solution_answer %}
-    <div class="answer-box">
-      <span class="answer-label">In simple terms</span>
-      <p>{{ page.header.solution_answer }}</p>
-    </div>
-    {% endif %}
   </div>
 </section>
 {% endif %}
@@ -70,17 +64,6 @@
 </section>
 {% endif %}
 
-{% if page.header.deliverables %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}">
-  <div class="wrap">
-    <span class="eyebrow">Scope</span>
-    <h2>What's in scope, area by area</h2>
-    {% include 'partials/data-table.html.twig' with { headers: ['Area', 'What we deliver'], rows: page.header.deliverables } %}
-  </div>
-</section>
-{% endif %}
-
 {% if page.header.process %}
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
@@ -97,17 +80,6 @@
 </section>
 {% endif %}
 
-{% if page.header.comparison %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}">
-  <div class="wrap">
-    <span class="eyebrow">In context</span>
-    <h2>{{ page.header.comparison.heading ?? 'How this compares' }}</h2>
-    {% include 'partials/data-table.html.twig' with { headers: page.header.comparison.headers, rows: page.header.comparison.rows, note: page.header.comparison.note ?? null } %}
-  </div>
-</section>
-{% endif %}
-
 {% if page.header.tools %}
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
@@ -116,19 +88,6 @@
     <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
       {% for t in page.header.tools %}<span class="tag">{{ t }}</span>{% endfor %}
     </div>
-  </div>
-</section>
-{% endif %}
-
-{% if page.header.outcomes %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}">
-  <div class="wrap">
-    <span class="eyebrow">Outcomes</span>
-    <h2>What this changes for the business</h2>
-    <ul>
-      {% for o in page.header.outcomes %}<li>{{ o }}</li>{% endfor %}
-    </ul>
   </div>
 </section>
 {% endif %}
@@ -177,5 +136,12 @@
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}
 
+{% include 'partials/ai-reference.html.twig' with {
+  page: page,
+  answer: page.header.solution_answer ?? null,
+  deliverables: page.header.deliverables ?? null,
+  comparison: page.header.comparison ?? null,
+  outcomes: page.header.outcomes ?? null
+} %}
 {% include 'partials/page-metadata.html.twig' with { page: page } %}
 {% endblock %}

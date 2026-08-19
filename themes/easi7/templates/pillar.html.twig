@@ -24,12 +24,6 @@
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <div>{{ page.header.overview|raw }}</div>
-    {% if page.header.overview_answer %}
-    <div class="answer-box">
-      <span class="answer-label">In simple terms</span>
-      <p>{{ page.header.overview_answer }}</p>
-    </div>
-    {% endif %}
   </div>
 </section>
 {% endif %}
@@ -96,19 +90,6 @@
 </section>
 {% endif %}
 
-{% if page.header.use_cases %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}">
-  <div class="wrap">
-    <span class="eyebrow">Use cases</span>
-    <h2>Where this shows up in practice</h2>
-    <ul>
-      {% for u in page.header.use_cases %}<li>{{ u }}</li>{% endfor %}
-    </ul>
-  </div>
-</section>
-{% endif %}
-
 {% if page.header.industries %}
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
@@ -161,5 +142,10 @@
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}
 
+{% include 'partials/ai-reference.html.twig' with {
+  page: page,
+  answer: page.header.overview_answer ?? null,
+  use_cases: page.header.use_cases ?? null
+} %}
 {% include 'partials/page-metadata.html.twig' with { page: page } %}
 {% endblock %}

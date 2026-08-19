@@ -1,0 +1,49 @@
+{#
+  Consolidated technical/reference detail for a service page - definitions, direct answers,
+  comparison tables, scope tables, outcomes. This content isn't deleted, just moved out of the
+  main persuasive flow (which should read like an agency pitch, not a spec sheet) and grouped
+  here, directly above the footer, where it's still fully crawlable for search and AI answer
+  engines (AEO/GEO) without breaking up the sales narrative above it.
+  Expects: answer, deliverables[{a,b}], comparison{heading,headers,rows,note}, outcomes[],
+  key_metrics[], use_cases[]
+#}
+{% if answer or deliverables or comparison or outcomes or key_metrics or use_cases %}
+<section class="block ai-reference">
+  <div class="wrap">
+    <span class="eyebrow">Reference</span>
+    <h2>{{ page.title }}, in detail</h2>
+
+    {% if answer %}
+    <div class="answer-box">
+      <span class="answer-label">Direct answer</span>
+      <p>{{ answer }}</p>
+    </div>
+    {% endif %}
+
+    {% if deliverables %}
+    <h3>Scope, area by area</h3>
+    {% include 'partials/data-table.html.twig' with { headers: ['Area', 'What we deliver'], rows: deliverables } %}
+    {% endif %}
+
+    {% if comparison %}
+    <h3>{{ comparison.heading ?? 'How this compares' }}</h3>
+    {% include 'partials/data-table.html.twig' with { headers: comparison.headers, rows: comparison.rows, note: comparison.note ?? null } %}
+    {% endif %}
+
+    {% if outcomes %}
+    <h3>What this changes for the business</h3>
+    <ul>{% for o in outcomes %}<li>{{ o }}</li>{% endfor %}</ul>
+    {% endif %}
+
+    {% if key_metrics %}
+    <h3>What we measure this against</h3>
+    <ul>{% for k in key_metrics %}<li>{{ k }}</li>{% endfor %}</ul>
+    {% endif %}
+
+    {% if use_cases %}
+    <h3>Where this applies</h3>
+    <ul>{% for u in use_cases %}<li>{{ u }}</li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
