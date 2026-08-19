@@ -390,9 +390,13 @@ section.block:last-of-type{border-bottom:none;}
 .process-line{position:relative;height:1px;background:var(--line);margin-bottom:26px;}
 .step::before{
   counter-increment:step;content:counter(step,decimal-leading-zero);
-  font-family:'Inter',sans-serif;font-size:0.85rem;color:var(--brass);
-  display:block;margin-bottom:10px;letter-spacing:0.05em;
+  font-family:'Inter',sans-serif;font-size:0.78rem;font-weight:600;color:var(--brass);
+  display:flex;align-items:center;justify-content:center;
+  width:34px;height:34px;border-radius:50%;
+  background:var(--paper-raised);border:1px solid var(--line);
+  margin-bottom:14px;letter-spacing:0.02em;
 }
+section.block.alt .step::before{background:var(--paper);}
 .step h3{font-size:1.05rem;margin-bottom:0.3em;}
 .step p{font-size:0.9rem;max-width:none;}
 
@@ -433,6 +437,20 @@ table.compare td:first-child{color:var(--ink);font-weight:600;}
 /* ---------- Framework / entity diagram ---------- */
 .diagram{background:var(--ink);color:#C9CEDA;border-radius:var(--radius);padding:22px 26px;margin:1.2em 0;overflow-x:auto;}
 .diagram pre{margin:0;font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:0.82rem;line-height:1.55;color:#C9CEDA;white-space:pre;}
+
+/* ---------- Engagement models (ways of working) ---------- */
+.engagement-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:1.2em;}
+@media (max-width:900px){.engagement-grid{grid-template-columns:1fr;}}
+.engagement-card{
+  background:var(--paper);border:1px solid var(--line);border-radius:16px;
+  padding:26px 24px;box-shadow:0 2px 10px rgba(20,20,30,0.05);
+  transition:border-color .18s ease,transform .18s ease;
+}
+.engagement-card:hover{border-color:var(--brass);transform:translateY(-4px);}
+section.block.alt .engagement-card{background:var(--paper-raised);}
+.engagement-card .tag{display:inline-block;margin-bottom:12px;}
+.engagement-card h3{font-size:1.1rem;margin:0 0 8px;}
+.engagement-card p{font-size:0.9rem;margin:0;max-width:none;}
 
 /* ---------- Persona / audience grid ---------- */
 .persona-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:1.2em;}

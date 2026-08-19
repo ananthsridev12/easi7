@@ -153,6 +153,15 @@
   </div>
 </section>
 
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">Ways of working</span>
+    <h2>How to engage us for this</h2>
+    {% include 'partials/engagement-models.html.twig' %}
+  </div>
+</section>
+
 {% if page.header.faqs %}
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">

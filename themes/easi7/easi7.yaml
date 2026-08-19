@@ -38,6 +38,11 @@ company:
   location: 'Chennai, India'
   founder: 'Ananth Sridev'
 
+engagement_models:
+  - { title: 'Project-based', tag: 'Fixed scope', body: 'A defined outcome with a start and end date - an audit, a migration, a campaign build, a tracking overhaul. Fixed scope, fixed price, agreed upfront.' }
+  - { title: 'Ongoing retainer', tag: 'Monthly', body: 'Continuous management and optimization once the initial build is live - campaigns, SEO, reporting, and iteration run every month under one accountable team.' }
+  - { title: 'Advisory', tag: 'Fractional', body: "Strategy and oversight without full delivery - we review what's already running, unblock decisions, and point an in-house or existing team in the right direction." }
+
 proof_stats:
   - { num: '8+', label: 'Years in market' }
   - { num: '15+', label: 'Engagements delivered' }

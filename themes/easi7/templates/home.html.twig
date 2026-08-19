@@ -145,6 +145,24 @@
 </section>
 {% endif %}
 
+{% if page.header.faqs %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">FAQs</span>
+    <h2>Common questions</h2>
+    {% include 'partials/faq.html.twig' with { faqs: page.header.faqs } %}
+  </div>
+</section>
+{% endif %}
+
+<section class="block alt">
+  <div class="wrap">
+    <span class="eyebrow">Ways of working</span>
+    <h2>How to engage us</h2>
+    {% include 'partials/engagement-models.html.twig' %}
+  </div>
+</section>
+
 {% if page.header.cta %}
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}

@@ -1,0 +1,13 @@
+{# Global "ways of working with us" tiers - same 3 cards on every service/pillar page, not per-page content #}
+{% set models = config.themes.easi7.engagement_models ?? [] %}
+{% if models|length %}
+<div class="engagement-grid">
+  {% for m in models %}
+  <div class="engagement-card">
+    <span class="tag">{{ m.tag }}</span>
+    <h3>{{ m.title }}</h3>
+    <p>{{ m.body }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
