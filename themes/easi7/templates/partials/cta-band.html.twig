@@ -1,12 +1,45 @@
 {#
   Expects: heading, body, button_label, button_url
+  Closing stats + lead-capture split panel - reused verbatim on every page (home, services, apps, case studies, etc.)
 #}
+{% set proof = config.themes.easi7.proof_stats ?? [] %}
 <section class="block cta-band">
-  <div class="wrap cta-inner">
-    <h2>{{ heading }}</h2>
-    <div class="cta-copy">
+  <div class="wrap cta-split">
+    <div class="cta-stats-panel">
+      <span class="eyebrow" style="color:var(--brass-on-dark);">Get in touch</span>
+      <h2>{{ heading }}</h2>
       <p>{{ body }}</p>
-      <a class="btn brass" href="{{ url(button_url) }}">{{ button_label }} &rarr;</a>
+      {% if proof|length %}
+      <div class="cta-stats-row">
+        {% for s in proof %}
+        <div class="cta-stat">
+          <span class="num mono">{{ s.num }}</span>
+          <span class="lbl">{{ s.label }}</span>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <div class="socials" style="margin-top:26px;">
+        {% for social in config.themes.easi7.socials %}
+          <a href="{{ social.url }}" rel="noopener" target="_blank">{{ social.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="cta-form-panel">
+      <h3>Ready to get started?</h3>
+      <p class="cta-form-note">We usually reply within 24 hours.</p>
+      <form action="https://formsubmit.co/{{ config.themes.easi7.company.email }}" method="POST">
+        <input type="hidden" name="_subject" value="New Contact Form Submission - EASI7 Website">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://easi7.in/thank-you">
+        <input type="hidden" name="page" value="{{ page.title }}">
+        <label>Name<input type="text" name="name" placeholder="Jane Doe" required></label>
+        <label>Email<input type="email" name="email" placeholder="jane@company.com" required></label>
+        <label>Message<textarea name="message" rows="3" placeholder="What are you working on?" required></textarea></label>
+        <button class="btn brass" type="submit">{{ button_label ?? 'Send message' }} &rarr;</button>
+      </form>
+      <p class="cta-form-consent">We only use this to reply to you - no spam, unsubscribe any time.</p>
     </div>
   </div>
 </section>
