@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Inconsistent UTM tagging is the single most common reason campaign reporting does not add up. One team member tags a campaign 'Spring_Sale,' another tags the same campaign 'spring-sale-2024,' and GA4 dutifully reports two separate campaigns that were actually one. Nobody notices until someone tries to compare this quarter's performance to last quarter's and the numbers refuse to reconcile.</p><p>Governance fixes this before it starts - a documented naming convention, a template that removes guesswork, and an audit of what already exists so historical fragmentation gets cleaned up rather than compounding.</p>"
+overview: "<p>Inconsistent UTM tagging is the single most common reason campaign reporting does not add up - one campaign tagged two different ways becomes two campaigns in GA4, and nobody notices until the quarterly numbers refuse to reconcile. We build the naming convention, the template, and the governance that stops this before it starts.</p>"
 overview_answer: "UTM management is establishing and enforcing a consistent naming convention for campaign links, so traffic and conversion data can be reliably grouped and compared over time."
 capabilities:
     - { title: 'Naming Convention Design', items: ['Documented taxonomy for source, medium, campaign, content, and term', 'Case and delimiter standards that remove ambiguity'] }

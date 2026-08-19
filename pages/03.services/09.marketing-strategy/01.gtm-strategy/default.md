@@ -2,8 +2,8 @@
 title: 'Go-to-Market Strategy'
 template: service-detail-a
 eyebrow: 'Marketing Strategy'
-headline: 'A launch plan, not just a launch date'
-tagline: 'Go-to-market strategy covering positioning, channel selection, and sequencing for a new product or market entry.'
+headline: 'Launch With a Sequenced Plan, Not Just a Date on the Calendar'
+tagline: 'We build positioning, channel sequencing, and cross-team alignment before we lock in a launch date.'
 primary_intent: 'commercial - service research'
 entities: ['Go-to-Market Strategy', 'Product Launch', 'Positioning', 'Channel Sequencing', 'Launch Timeline', 'Cross-Functional Alignment']
 tools: ['GTM Strategy', 'Launch Planning', 'Positioning Frameworks']
@@ -15,8 +15,8 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most launch planning starts backward - a date gets picked first, usually to hit a board meeting or a fiscal quarter, and the plan gets built to fit whatever time is left. Positioning gets drafted the week before launch, channels get chosen based on who's available rather than where the buyer actually is, and the teams that need to coordinate - product, sales, support - find out the launch is happening around the same time customers do.</p><p>The result isn't usually a failed launch in any dramatic sense. It's a quiet one - activity happens across marketing, sales, and product, but none of it is sequenced, so the momentum that a coordinated launch is supposed to generate never actually builds.</p>"
-solution: "<p>A go-to-market strategy reverses the order: positioning and channel sequencing get decided first, and the launch date gets set once there's a real plan to hit it against. Every function involved knows what happens before, during, and after launch, and the measurement framework exists before the first message goes out, not after someone asks whether it worked.</p>"
+problem: "<p>Most launch planning starts backward - a date gets picked first, usually to hit a board meeting or a fiscal quarter, and the plan gets built to fit whatever time is left. Positioning gets drafted the week before launch, channels get chosen based on who's available rather than where the buyer actually is, and product, sales, and support find out the launch is happening around the same time customers do - so activity happens everywhere, but none of it is sequenced and the momentum never actually builds.</p>"
+solution: "<p>A go-to-market strategy reverses the order - positioning and channel sequencing get decided first, and the launch date gets set once there's a real plan to hit it against. Every function involved knows what happens before, during, and after launch, and the measurement framework exists before the first message goes out, not after someone asks whether it worked.</p>"
 solution_answer: "Go-to-market strategy is the plan for how a product or market entry gets positioned, which channels carry that message in what order, and how cross-functional teams coordinate around a launch date - built before the date is set, not after."
 approach: "<p>We start with positioning, because a channel plan built on unclear positioning just spreads the confusion faster. Once the message is settled, we sequence channels deliberately - which one earns attention first, which one closes the loop - rather than launching everywhere simultaneously and hoping something lands. Cross-functional coordination gets mapped explicitly, so sales and support know what's coming before a customer asks them about it.</p>"
 capabilities:
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Timeline', b: 'A milestone-based launch timeline with ownership assigned per function' }
     - { a: 'Measurement', b: 'A KPI framework and review checkpoints set before launch day' }
 process:
-    - { title: 'Market & Competitive Read', body: 'We look at how the category is currently positioned and where a genuine gap exists before drafting anything.' }
-    - { title: 'Positioning & Messaging', body: 'Positioning is drafted and tested against how real buyers describe the problem, not how the internal team describes the product.' }
-    - { title: 'Channel Sequencing', body: 'Channels are selected and ordered so early activity builds the audience that later channels convert, rather than everything launching at once.' }
-    - { title: 'Cross-Functional Alignment', body: 'Sales, support, and product are briefed on the plan and their role in it before the launch date, not during launch week.' }
-    - { title: 'Launch Coordination', body: 'The sequenced plan runs against the shared timeline, with a single point of ownership for what happens if something slips.' }
-    - { title: 'Post-Launch Measurement', body: "Results get reviewed against the KPIs set before launch, at defined checkpoints, so 'did it work' has a real answer instead of a guess." }
+    - { title: 'Research', body: 'We look at how the category is currently positioned and where a genuine gap exists before drafting anything.' }
+    - { title: 'Positioning', body: 'Positioning is drafted and tested against how real buyers describe the problem, not how the internal team describes the product.' }
+    - { title: 'Sequencing', body: 'Channels are selected and ordered so early activity builds the audience that later channels convert, rather than everything launching at once.' }
+    - { title: 'Alignment', body: 'Sales, support, and product are briefed on the plan and their role in it before the launch date, not during launch week.' }
+    - { title: 'Launch', body: 'The sequenced plan runs against the shared timeline, with a single point of ownership for what happens if something slips.' }
+    - { title: 'Measurement', body: "Results get reviewed against the KPIs set before launch, at defined checkpoints, so 'did it work' has a real answer instead of a guess." }
 comparison:
     headers: ['Sequenced GTM Strategy', 'Date-First Launch']
     rows:

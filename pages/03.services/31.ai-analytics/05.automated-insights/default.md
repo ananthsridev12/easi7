@@ -2,8 +2,8 @@
 title: 'Automated Insights'
 template: service-detail-b
 eyebrow: 'AI Analytics'
-headline: 'The recommendation, delivered alongside the report'
-tagline: "Automated change detection, root-cause surfacing, and recommended-action generation delivered wherever your team already works, not buried in a dashboard nobody opens."
+headline: 'Get The Recommendation, Not Just The Report'
+tagline: "We detect the change, surface the likely cause, and deliver a recommended action wherever your team already works."
 primary_intent: 'commercial - service research'
 entities: ['Change Detection', 'Root-Cause Analysis', 'Recommendation Engines', 'Automated Alerting', 'Feedback Loops']
 tools: ['Automated Insights', 'Recommendation Engines', 'Change Detection']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>The last step in most analytics workflows - turning a number into a decision - is the one that stays manual even after everything upstream gets automated. A metric moves, someone notices eventually, someone investigates the likely cause, someone decides what to do about it. Automated insight generation closes that gap by pairing each detected change with a plausible cause and a recommended action, delivered automatically instead of waiting for someone to open a dashboard.</p><p>It works alongside the reporting and analytics you already have - it's the layer that turns 'this number moved' into 'here's the likely reason and here's what we'd suggest doing about it', delivered to Slack, email, or a dashboard rather than requiring someone to go looking for it.</p>"
+overview: "<p>Turning a number into a decision is the one step that stays manual even after everything upstream gets automated - a metric moves, someone eventually notices, someone investigates, someone decides. We close that gap: pairing each detected change with a plausible cause and a recommended action, delivered to Slack, email, or a dashboard automatically.</p>"
 overview_answer: "Automated insights are a layer that detects a significant change in a key metric, surfaces a likely cause, and generates a recommended action automatically, delivered to wherever your team already works."
 capabilities:
     - { title: 'Automated Change Detection', items: ['Monitoring key metrics for statistically significant shifts', 'Thresholds tuned to your actual variance, not generic defaults'] }

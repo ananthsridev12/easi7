@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>An internal tool doesn't need to be pretty - it needs to save the specific ten, twenty, or fifty people who use it every day real time, every single day. That changes what matters in the build: fast to ship, fast to load, and matched exactly to the operational step it's replacing, rather than polished for an audience that will never see it.</p><p>Most internal tools exist because a process outgrew a spreadsheet or a manual workaround, not because the business set out to build software. The goal is to close that specific gap without over-engineering a tool that a handful of people use for one recurring task.</p>"
+overview: "<p>An internal tool doesn't need to be pretty - it needs to save the ten, twenty, or fifty people who use it every day real time. We build fast to ship, fast to load, and matched exactly to the operational step it's replacing, so the process that outgrew a spreadsheet finally gets software that fits it.</p>"
 overview_answer: "An internal tool is a lightweight, purpose-built application designed to save time on a specific operational, reporting, or data-entry task for the internal team that uses it daily."
 capabilities:
     - { title: 'Operational Workflow Tools', items: ['Tools built around one specific recurring task', 'Designed with the daily users, not just a manager describing the task secondhand'] }

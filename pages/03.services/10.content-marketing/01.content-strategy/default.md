@@ -2,8 +2,8 @@
 title: 'Content Strategy'
 template: service-detail-a
 eyebrow: 'Content Marketing'
-headline: 'A content plan built on keyword data, not guesswork'
-tagline: 'Editorial strategy mapped to real search demand and funnel stage before a single article gets written.'
+headline: 'Stop Publishing Content That Was Never Going to Rank'
+tagline: 'We map every topic to real search demand and funnel stage before a single article gets written.'
 primary_intent: 'commercial - service research'
 entities: ['Keyword Clusters', 'Funnel Mapping', 'Editorial Calendar', 'Content Gap Analysis', 'Topic Clustering', 'Repurposing Strategy']
 tools: ['Keyword Clustering', 'Funnel Mapping', 'Competitive Gap Analysis']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most editorial calendars start from a list of topics someone thought sounded interesting, not from evidence that anyone is searching for them. The result is a blog that publishes consistently and still doesn't move rankings or leads, because volume was never the constraint - direction was.</p><p>The same gap shows up at the funnel level. A site can have plenty of top-of-funnel awareness content and nothing for someone who's already comparing vendors, or the reverse - heavy bottom-of-funnel pages with no early-stage content bringing anyone into the pipeline in the first place.</p>"
+problem: "<p>Most editorial calendars start from a list of topics someone thought sounded interesting, not from evidence that anyone is searching for them - so the blog publishes consistently and still doesn't move rankings or leads, because volume was never the constraint, direction was. The same gap shows up at the funnel level, where a site often has plenty of top-of-funnel awareness content and nothing for someone who's already comparing vendors, or the reverse.</p>"
 solution: "<p>Content strategy is the layer that decides what gets written and why, before anyone opens a document. It starts with keyword clusters tied to actual search demand, maps each cluster to a funnel stage, and only then produces a calendar - so every piece has a defined job rather than existing because it seemed timely.</p>"
 solution_answer: "Content strategy is mapping topics to keyword demand and funnel stage first, then building a publishing calendar against that map instead of an arbitrary topic list."
 approach: "<p>We build the keyword and funnel map before we talk about a single headline. That map gets checked against what competitors are already ranking for, so we're not planning to compete for a term nobody realistically wins in year one, and it gets checked against your actual funnel stages so early, middle, and late-stage content stays in proportion instead of skewing toward whatever's easiest to write.</p>"
@@ -30,12 +30,12 @@ deliverables:
     - { a: 'Editorial Calendar', b: 'A publishing schedule sequenced against the map, with format assigned per topic' }
     - { a: 'Gap Analysis', b: "A ranked list of topics competitors cover that you currently don't" }
 process:
-    - { title: 'Keyword & Topic Research', body: 'We build keyword clusters from real search data, grouped into topics rather than a flat list of terms.' }
-    - { title: 'Funnel-Stage Mapping', body: 'Each topic is classified by where it sits in the buyer journey, and gaps between stages are flagged.' }
-    - { title: 'Competitive Gap Analysis', body: 'We check what competitors already rank for and separate realistic opportunities from long shots.' }
-    - { title: 'Calendar Construction', body: 'A publishing calendar is built against the map, sequenced by priority and matched to production capacity.' }
-    - { title: 'Format Assignment', body: 'Each topic is assigned the format that actually fits it - article, lead magnet, or long-form guide.' }
-    - { title: 'Review & Iteration', body: 'The map gets revisited on a set cadence as rankings and search demand shift, rather than being treated as fixed.' }
+    - { title: 'Research', body: 'We build keyword clusters from real search data, grouped into topics rather than a flat list of terms.' }
+    - { title: 'Mapping', body: 'Each topic is classified by where it sits in the buyer journey, and gaps between stages are flagged.' }
+    - { title: 'Gap Analysis', body: 'We check what competitors already rank for and separate realistic opportunities from long shots.' }
+    - { title: 'Calendar', body: 'A publishing calendar is built against the map, sequenced by priority and matched to production capacity.' }
+    - { title: 'Format', body: 'Each topic is assigned the format that actually fits it - article, lead magnet, or long-form guide.' }
+    - { title: 'Review', body: 'The map gets revisited on a set cadence as rankings and search demand shift, rather than being treated as fixed.' }
 comparison:
     headers: ['Mapped Content Strategy', 'Ad-Hoc Publishing']
     rows:

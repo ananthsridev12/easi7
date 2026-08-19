@@ -2,8 +2,8 @@
 title: 'Process Automation'
 template: service-detail-b
 eyebrow: 'Business Automation'
-headline: 'Repeatable processes, executed the same way every time'
-tagline: 'Business process automation for recurring operational tasks prone to manual error or delay.'
+headline: 'Run Every Repeatable Process The Exact Same Way'
+tagline: 'We automate recurring operational tasks that manual execution leaves prone to error and delay.'
 primary_intent: 'commercial - service research'
 entities: ['Recurring Process Mapping', 'Zapier', 'Make', 'Exception Handling', 'Process Documentation', 'Audit Trails']
 tools: ['Zapier', 'Make', 'Custom Automation']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Process automation takes a recurring operational task - one that follows the same steps every time it runs - and removes the manual execution, so it happens the same way on the tenth run as it did on the first. It applies to the kind of work that is repetitive by nature: invoice processing, onboarding checklists, recurring compliance checks, routine data entry between systems.</p><p>It becomes worth doing once a process is both frequent and consistent enough that a person executing it manually is really just performing the same sequence a computer could run without the drift a human introduces over the hundredth repetition.</p>"
+overview: "<p>Invoice processing, onboarding checklists, recurring compliance checks, routine data entry between systems - work that's repetitive by nature is exactly where manual execution introduces drift a computer never would. We take the recurring task and remove the manual execution, so it runs the same way on the hundredth pass as it did on the first.</p>"
 overview_answer: "Process automation is the automated execution of a recurring, well-defined operational task, using tools like Zapier, Make, or custom scripts, so the same steps run consistently without manual repetition."
 capabilities:
     - { title: 'Recurring Process Identification', items: ['Mapping of candidate processes across departments', 'Frequency and consistency checks before recommending automation', 'Prioritisation by time cost and error risk'] }

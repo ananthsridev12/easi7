@@ -2,8 +2,8 @@
 title: 'React Development'
 template: service-detail-a
 eyebrow: 'Frontend Development'
-headline: 'Component-based front ends that scale with the product'
-tagline: 'React development for interfaces that are genuinely interactive and stateful, not just popular to build with.'
+headline: 'Build Interfaces That Scale With Your Product'
+tagline: 'React development for interfaces that are genuinely interactive and stateful, built to stay maintainable as they grow.'
 service_url: /services/frontend-development/react-development
 primary_intent: 'commercial - service research'
 entities: ['React', 'Component Architecture', 'State Management', 'Context API', 'React Query', 'Code Splitting']
@@ -15,10 +15,10 @@ sitemap:
     changefreq: monthly
     priority: !!float 0.6
 
-problem: "<p>Interfaces that involve filtering, live calculation, multi-step flows, or real-time updates get complicated fast when built with hand-rolled DOM manipulation. Every new feature means threading state through more places by hand, and because nothing enforces a single source of truth for what the screen should show, small changes start breaking things that look unrelated.</p><p>The opposite mistake is just as common - reaching for React on a site that's mostly static content. That adds a build step, a JavaScript bundle, and hydration overhead to pages that would render faster and simpler without any of it.</p>"
-solution: "<p>React structures an interface into components with explicit state and props, so data flows in one direction and the UI re-renders predictably whenever that data changes. That discipline is what makes dashboards, portals, and calculators maintainable as they grow - new features extend existing components instead of tangling with them.</p><p>The tradeoff is real: React adds a build pipeline, a bundle, and concepts a team has to actually understand to avoid re-introducing the same mess in component form. It's worth that cost exactly when the interface is stateful enough to need it, and not before.</p>"
+problem: "<p>Interfaces with filtering, live calculation, multi-step flows, or real-time updates get complicated fast when built with hand-rolled DOM manipulation - every new feature means threading state through more places by hand, and small changes start breaking things that look unrelated. The opposite mistake is just as common: reaching for React on a site that's mostly static content, adding a build step and bundle overhead to pages that would render faster without any of it.</p>"
+solution: "<p>React structures an interface into components with explicit state and props, so data flows in one direction and the UI re-renders predictably whenever that data changes. That discipline is what makes dashboards, portals, and calculators maintainable as they grow - new features extend existing components instead of tangling with them. It earns its cost exactly when the interface is stateful enough to need it, and not before.</p>"
 solution_answer: 'React is a JavaScript library for building interactive, component-based user interfaces where the screen updates automatically as underlying data changes - it earns its complexity on stateful interfaces like dashboards and portals, and is unnecessary overhead on content that mostly does not change.'
-approach: "<p>We start by checking whether React is actually the right call for the specific interface, not assuming it by default. Where it is, we plan component boundaries and state ownership before writing implementation code, because a wrong split there is what causes prop drilling and duplicated state later. Data fetching, loading states, and error handling get built in from the start rather than patched on, and we optimise for load performance - code splitting and lazy loading - as part of the build, not as cleanup afterward.</p>"
+approach: "<p>We start by checking whether React is actually the right call for the specific interface, not assuming it by default. Where it is, we plan component boundaries and state ownership before writing implementation code, because a wrong split there is what causes prop drilling and duplicated state later. Performance work - code splitting, lazy loading - happens as part of the build, not as cleanup afterward.</p>"
 capabilities:
     - { title: 'Component Architecture', items: ['Reusable component design', 'Composition over inheritance', 'Prop and state boundary planning'] }
     - { title: 'State Management', items: ['Context API for shared state', 'Redux or Zustand where warranted', 'Avoiding unnecessary prop drilling'] }
@@ -31,11 +31,11 @@ deliverables:
     - { a: 'API layer', b: 'Data fetching, caching, and error handling wired into the UI' }
     - { a: 'Performance pass', b: 'Code splitting and load-time optimisation before launch' }
 process:
-    - { title: 'Framework fit check', body: 'We confirm the interface is stateful enough to justify React before committing to it.' }
-    - { title: 'Component and state planning', body: 'Component boundaries and state ownership get mapped before any implementation starts.' }
+    - { title: 'Assess', body: 'We confirm the interface is stateful enough to justify React before committing to it.' }
+    - { title: 'Plan', body: 'Component boundaries and state ownership get mapped before any implementation starts.' }
     - { title: 'Build', body: 'Components, data fetching, and interaction logic get built against the plan.' }
-    - { title: 'Integration', body: 'The front end connects to APIs and backend services, with error and loading states handled explicitly.' }
-    - { title: 'Performance pass', body: 'Code splitting, lazy loading, and bundle review happen before launch, not after complaints.' }
+    - { title: 'Integrate', body: 'The front end connects to APIs and backend services, with error and loading states handled explicitly.' }
+    - { title: 'Optimize', body: 'Code splitting, lazy loading, and bundle review happen before launch, not after complaints.' }
     - { title: 'Handover', body: 'Component documentation and architecture notes go to your team or ours for ongoing work.' }
 comparison:
     headers: ['React', 'Plain JavaScript']

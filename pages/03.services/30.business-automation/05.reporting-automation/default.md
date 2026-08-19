@@ -2,8 +2,8 @@
 title: 'Reporting Automation'
 template: service-detail-b
 eyebrow: 'Business Automation'
-headline: 'Reports that generate themselves on schedule'
-tagline: 'Automated reporting pipelines pulling from source systems into scheduled, formatted reports.'
+headline: 'Get Reports That Generate Themselves On Schedule'
+tagline: 'Automated pipelines that pull from your source systems and deliver formatted reports without a spreadsheet marathon.'
 primary_intent: 'commercial - service research'
 entities: ['Automated Data Pull', 'Scheduled Reporting', 'Report Distribution', 'Custom Formatting', 'Anomaly Flagging', 'Pipeline Maintenance']
 tools: ['Scheduled Report Pipelines', 'Dashboarding Tools', 'API Data Pulls']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Reporting automation pulls data directly from the source systems a business already uses, formats it into the report each stakeholder actually needs, and delivers it on a schedule - without anyone opening five different tools and assembling a spreadsheet by hand every month. The report itself does not usually change much between cycles; what changes is the data, which is exactly the kind of variability automation handles well.</p><p>It is worth doing once a report is both recurring and assembled from data that already lives somewhere automatable - most operational and financial reporting qualifies, since the source systems being pulled from rarely change even when the numbers do.</p>"
+overview: "<p>Nobody should still be opening five different tools and assembling a spreadsheet by hand every month. We pull data directly from the source systems you already use, format it into the report each stakeholder actually needs, and deliver it on a schedule - the report structure barely changes cycle to cycle, so it's exactly the kind of work automation handles well.</p>"
 overview_answer: "Reporting automation is a scheduled pipeline that pulls data from source systems, formats it per stakeholder, and distributes the finished report automatically instead of someone assembling it by hand each cycle."
 capabilities:
     - { title: 'Automated Data Pull', items: ['Direct pulls from source systems - CRM, finance, analytics tools', 'No manual export step between the source and the report', 'Consistent pull logic every cycle, regardless of who is on leave'] }

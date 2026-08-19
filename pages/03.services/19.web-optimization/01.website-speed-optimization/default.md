@@ -2,7 +2,7 @@
 title: 'Website Speed Optimization'
 template: service-detail-a
 eyebrow: 'Web Optimization'
-headline: 'Every second of load time is a conversion cost'
+headline: 'Stop Losing Conversions To Load Time'
 tagline: 'Website speed optimisation covering hosting, code, and asset delivery - fixed at the source, not patched with a caching plugin.'
 service_url: /services/web-optimization/website-speed-optimization
 taxonomy:
@@ -16,10 +16,10 @@ sitemap:
 primary_intent: 'commercial - service research'
 entities: ['Page Speed', 'CDN Configuration', 'Lazy Loading', 'Code Splitting', 'Image Compression', 'Caching', 'Render-Blocking Resources']
 
-problem: "<p>Most slow sites did not start slow. A theme gets swapped, a few marketing scripts get added, product images go up at full resolution because nobody resized them first, and six months later the homepage takes four seconds to paint. None of these changes looks like a problem on its own - the damage is cumulative, and nobody is watching the total.</p><p>The usual fix - a caching plugin - hides some of this without addressing it. Caching makes a repeat visit faster; it does nothing for the first-time visitor who is deciding, in the first few seconds, whether to stay.</p>"
-solution: "<p>We treat speed as a set of specific bottlenecks to find and remove, not a score to game. That means auditing what is actually shipped to the browser - image weight, script count, hosting response time, and how much of the page is blocked from rendering by resources that do not need to block it - and fixing the ones costing the most time first.</p>"
+problem: "<p>Most slow sites did not start slow. A theme gets swapped, a few marketing scripts get added, product images go up at full resolution because nobody resized them first, and six months later the homepage takes four seconds to paint. The usual fix - a caching plugin - hides some of this without addressing it: caching makes a repeat visit faster, but does nothing for the first-time visitor deciding, in the first few seconds, whether to stay.</p>"
+solution: "<p>We treat speed as a set of specific bottlenecks to find and remove, not a score to game. That means auditing what is actually shipped to the browser - image weight, script count, hosting response time, render-blocking resources - and fixing the ones costing the most time first.</p>"
 solution_answer: "Website speed optimisation is the process of reducing how long a page takes to load and become usable, by fixing the specific technical causes - oversized assets, inefficient code, slow hosting, and render-blocking resources - rather than masking them with a cache."
-approach: "<p>We start with a real audit of the current site under real conditions, not just a single Lighthouse score, then work through fixes in order of impact - hosting and server response first, since nothing downstream matters if the server is slow to answer, followed by asset weight, code efficiency, and delivery. Every change is measured before and after, so we know what actually moved the number and what did not.</p>"
+approach: "<p>We start with a real audit of the current site under real conditions, not just a single Lighthouse score, then work through fixes in order of impact - hosting and server response first, since nothing downstream matters if the server is slow to answer. Every change is measured before and after, so we know what actually moved the number.</p>"
 capabilities:
     - { title: 'Asset Optimisation', items: ['Image compression and modern format conversion (WebP/AVIF)', 'Lazy loading for below-the-fold content', 'Video and font weight reduction'] }
     - { title: 'Code Efficiency', items: ['Code splitting and tree-shaking', 'Minification and dead code removal', 'Third-party script auditing'] }
@@ -30,11 +30,11 @@ deliverables:
     - { a: 'Implementation', b: 'Direct fixes to code, assets, hosting, and delivery configuration' }
     - { a: 'Monitoring Setup', b: 'Alerts that flag regressions before they compound' }
 process:
-    - { title: 'Baseline audit', body: 'Measure current load time under realistic conditions, not a single best-case test run.' }
-    - { title: 'Bottleneck ranking', body: 'Identify which specific issues are costing the most time, from server response to render-blocking scripts.' }
-    - { title: 'Fix implementation', body: 'Work through fixes in priority order - hosting and server-side first, then assets and code.' }
-    - { title: 'Verification', body: 'Re-measure against the same conditions to confirm the fix actually moved the number.' }
-    - { title: 'Ongoing monitoring', body: 'Track for regressions as new content, plugins, or scripts get added over time.' }
+    - { title: 'Audit', body: 'Measure current load time under realistic conditions, not a single best-case test run.' }
+    - { title: 'Rank', body: 'Identify which specific issues are costing the most time, from server response to render-blocking scripts.' }
+    - { title: 'Fix', body: 'Work through fixes in priority order - hosting and server-side first, then assets and code.' }
+    - { title: 'Verify', body: 'Re-measure against the same conditions to confirm the fix actually moved the number.' }
+    - { title: 'Monitor', body: 'Track for regressions as new content, plugins, or scripts get added over time.' }
 comparison:
     headers: ['Root-Cause Optimisation', 'Caching Plugin Only']
     rows:

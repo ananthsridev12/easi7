@@ -3,7 +3,7 @@ title: 'Digital Strategy'
 template: services
 eyebrow: 'Digital Strategy'
 icon: "🗺️"
-headline: 'A sequenced plan, not a wishlist'
+headline: 'A roadmap sequenced by dependency, not enthusiasm'
 tagline: 'Digital transformation, roadmaps, and technology strategy built around dependencies and real resourcing.'
 tools: ['Digital Transformation', Roadmapping]
 taxonomy:
@@ -47,8 +47,6 @@ faqs:
       a: "No - the scale of the assessment changes, but the underlying discipline of sequencing by dependency instead of by wishlist applies just as much to a fifty-person company choosing its next platform as it does to a multi-division enterprise."
 ---
 
-"Digital transformation" gets reduced to "redesign the website" more often than it should - the real work usually sits in process and tooling decisions that never show up on the front end at all, and are far more consequential to how the business actually operates.
+'Digital transformation' gets reduced to 'redesign the website' more often than it should - the real work usually sits in process and tooling decisions that never show up on the front end at all.
 
-We start with an honest assessment of current digital maturity - what's actually working, what's a workaround, and what's a genuine gap - before building a roadmap. That roadmap gets sequenced by dependency, not by which initiative sounds most exciting; a roadmap where everything is marked high priority isn't a roadmap. Technology strategy decisions - platform choices, build-vs-buy calls - get weighed against where the business is heading over the next few years, not just the current quarter's deadline.
-
-The output is a plan with a realistic order of operations attached, not a wishlist.
+We start with an honest assessment of current digital maturity, then build a roadmap sequenced by dependency, not by which initiative sounds most exciting - a roadmap where everything is marked high priority isn't a roadmap. The output is a plan with a realistic order of operations attached, not a wishlist.

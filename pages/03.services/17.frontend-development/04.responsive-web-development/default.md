@@ -2,8 +2,8 @@
 title: 'Responsive Web Development'
 template: service-detail-a
 eyebrow: 'Frontend Development'
-headline: 'Mobile-first as the actual default, not an afterthought'
-tagline: 'Responsive web development that starts from the smallest screen, ensuring a consistent, fast experience across every device size.'
+headline: 'Design For Mobile First, Not As An Afterthought'
+tagline: 'Responsive web development that starts from the smallest screen, for a fast, consistent experience on every device.'
 service_url: /services/frontend-development/responsive-web-development
 primary_intent: 'commercial - service research'
 entities: ['Mobile-First Design', 'Responsive Images', 'Touch Targets', 'Cross-Browser Testing', 'CSS Grid', 'Flexbox']
@@ -15,10 +15,10 @@ sitemap:
     changefreq: monthly
     priority: !!float 0.6
 
-problem: "<p>A site designed on a large desktop monitor and then squeezed down to fit a phone screen tends to carry desktop assumptions it never sheds - text sized for reading distance that's too small on a handheld screen, touch targets sized for a mouse cursor, images sized for a monitor being downloaded in full over mobile data. The layout technically works at every breakpoint, but nothing about it was actually designed for the device most visitors are using.</p><p>Given that the majority of traffic on most sites we build is mobile, that mismatch isn't a minor visual issue - it directly affects load time, usability, and how long someone stays before leaving.</p>"
-solution: "<p>Mobile-first development flips the order: the smallest viewport is the actual design target, and larger screens get progressively enhanced from there, rather than desktop being the target and mobile being an adaptation. Touch targets, type sizes, and image weights get chosen for a phone first, which means the mobile experience was never an afterthought to begin with.</p><p>Responsive images and asset loading follow the same logic - a phone on a mobile connection should never be downloading a desktop-sized image just to display it at a quarter of the size.</p>"
+problem: "<p>A site designed on a desktop monitor and squeezed down to fit a phone screen tends to carry desktop assumptions it never sheds - touch targets sized for a mouse cursor, images sized for a monitor and downloaded in full over mobile data. It technically works at every breakpoint, but nothing about it was actually designed for the device most visitors are using, and since most traffic is mobile, that mismatch directly hits load time and how long someone stays.</p>"
+solution: "<p>Mobile-first development flips the order: the smallest viewport is the actual design target, and larger screens get progressively enhanced from there. Touch targets, type sizes, and image weights get chosen for a phone first, and responsive images follow the same logic - a phone on a mobile connection never downloads a desktop-sized image just to display it at a quarter of the size.</p>"
 solution_answer: 'Responsive web development, done mobile-first, means designing and building for the smallest screen first and enhancing upward for larger viewports - the opposite of designing for desktop and shrinking the result down to fit a phone.'
-approach: "<p>We build every layout starting from the mobile viewport, since that's where most real traffic lands, and treat larger breakpoints as progressive enhancement rather than the baseline. Images and assets are served at the size the device actually needs, not the largest size the design happens to use anywhere. Before launch, we test on real devices and real mobile network conditions - not just a resized browser window - because a layout that looks correct in a simulator can still behave differently on an actual phone with real latency.</p>"
+approach: "<p>We build every layout starting from the mobile viewport, since that's where most real traffic lands, and treat larger breakpoints as progressive enhancement rather than the baseline. Before launch, we test on real devices and real mobile network conditions, because a layout that looks correct in a simulator can still behave differently on an actual phone with real latency.</p>"
 capabilities:
     - { title: 'Mobile-First Layout', items: ['Layouts designed for the smallest viewport first', 'Progressive enhancement for larger breakpoints', 'CSS Grid and Flexbox-based structure'] }
     - { title: 'Cross-Device & Cross-Browser Testing', items: ['Testing across the actual device and browser mix your traffic uses', 'Verification on real hardware, not just simulators'] }
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Device and browser test coverage', b: 'Verification across the mix your actual traffic uses' }
     - { a: 'Mobile network performance report', b: 'Load-time results under realistic mobile conditions' }
 process:
-    - { title: 'Traffic and device audit', body: "We check what devices, screen sizes, and browsers your actual traffic uses before assuming a target." }
-    - { title: 'Mobile-first layout build', body: 'The layout is built and styled for the smallest viewport first, then enhanced for larger screens.' }
-    - { title: 'Touch and interaction pass', body: 'Interactive elements get sized and spaced for touch input specifically, not adapted from a desktop pointer design.' }
-    - { title: 'Responsive asset setup', body: 'Images and other assets are configured to load at the size each device actually needs.' }
-    - { title: 'Cross-device testing', body: 'The build is verified on real devices and browsers, not only in a resized desktop window.' }
-    - { title: 'Real-network performance testing', body: 'Load performance is checked under realistic mobile network conditions before launch.' }
+    - { title: 'Audit', body: "We check what devices, screen sizes, and browsers your actual traffic uses before assuming a target." }
+    - { title: 'Build', body: 'The layout is built and styled for the smallest viewport first, then enhanced for larger screens.' }
+    - { title: 'Refine', body: 'Interactive elements get sized and spaced for touch input specifically, not adapted from a desktop pointer design.' }
+    - { title: 'Optimize', body: 'Images and other assets are configured to load at the size each device actually needs.' }
+    - { title: 'Test', body: 'The build is verified on real devices and browsers, not only in a resized desktop window.' }
+    - { title: 'Verify', body: 'Load performance is checked under realistic mobile network conditions before launch.' }
 comparison:
     headers: ['Mobile-First', 'Desktop-First, Adapted Down']
     rows:

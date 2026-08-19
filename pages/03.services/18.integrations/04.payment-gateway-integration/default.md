@@ -2,7 +2,7 @@
 title: 'Payment Gateway Integration'
 template: service-detail-a
 eyebrow: 'Integrations'
-headline: 'Payments that just work, in the markets that matter'
+headline: 'Make Payments Work In Every Market That Matters'
 tagline: 'Payment gateway integration for e-commerce and subscription businesses, tested across every payment path before launch.'
 primary_intent: 'commercial - service research'
 entities: ['Payment Gateway', 'PCI Compliance', 'Recurring Billing', 'Multi-Currency Checkout', 'Failed Payment Recovery']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A failed payment integration costs revenue silently. Unlike a broken contact form, nobody files a support ticket when checkout fails - they just leave, and try a competitor instead. The businesses most exposed to this are the ones that tested the happy path thoroughly and never tried the failure cases: an expired card, a currency the gateway doesn't support cleanly, a webhook that arrives out of order.</p><p>Subscription businesses face a second version of the same problem after launch - a card that fails on a renewal, not the initial purchase, can quietly churn a customer who never intended to cancel, if the recovery flow isn't built to catch it.</p>"
-solution: "<p>Payment gateway integration is the work of connecting a checkout or billing flow to a payment provider correctly - handling the currencies and markets that are actually relevant, structuring recurring billing so renewals behave predictably, and building recovery flows for the failed-payment cases that will happen regardless of how well the happy path works. It also means taking PCI compliance seriously at the architecture level, not bolting it on as an afterthought.</p>"
+problem: "<p>A failed payment integration costs revenue silently. Unlike a broken contact form, nobody files a support ticket when checkout fails - they just leave and try a competitor instead. The businesses most exposed are the ones that tested the happy path thoroughly and never tried the failure cases: an expired card, an unsupported currency, a webhook that arrives out of order. Subscription businesses face a second version after launch - a failed renewal can quietly churn a customer who never intended to cancel.</p>"
+solution: "<p>We connect your checkout or billing flow to a payment provider correctly - handling the currencies and markets that are actually relevant, structuring recurring billing so renewals behave predictably, and building recovery flows for the failed-payment cases that will happen regardless of how well the happy path works. That includes taking PCI compliance seriously at the architecture level, not bolting it on as an afterthought.</p>"
 solution_answer: "Payment gateway integration is connecting a checkout or billing system to a payment provider's API so transactions, currencies, and recurring charges process correctly and failures are recovered rather than silently lost."
-approach: "<p>We test every payment path before launch, not just the one that processes cleanly - expired cards, declined transactions, unsupported currencies, and webhook race conditions all get exercised deliberately. For subscription flows, we build failed-payment recovery in from the start rather than adding it after churn shows up in the numbers, since a card decline on renewal is a predictable event, not an edge case.</p>"
+approach: "<p>We test every payment path before launch, not just the one that processes cleanly - expired cards, declined transactions, unsupported currencies, and webhook race conditions all get exercised deliberately. For subscription flows, we build failed-payment recovery in from the start, since a card decline on renewal is a predictable event, not an edge case.</p>"
 capabilities:
     - { title: 'Gateway Selection & Setup', items: ['Provider evaluation against your markets and volume', 'Checkout flow implementation and testing'] }
     - { title: 'Multi-Currency & Multi-Market Configuration', items: ['Currency and locale-specific checkout logic', 'Local payment method support where relevant'] }
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Recovery Flow', b: 'Automated retry and communication sequence for failed renewal payments' }
     - { a: 'Compliance Review', b: 'Confirmation the integration pattern meets the relevant PCI requirements for your setup' }
 process:
-    - { title: 'Gateway & Market Review', body: 'We confirm which gateway actually fits your markets, currencies, and volume before building anything.' }
-    - { title: 'Checkout Integration', body: "The checkout flow is connected to the gateway's API, covering the currencies and payment methods relevant to your customers." }
-    - { title: 'Recurring Billing Setup', body: 'For subscription businesses, we configure renewal scheduling, proration, and plan-change logic.' }
-    - { title: 'Failed Payment Testing', body: 'We deliberately test declines, expired cards, and edge cases most launches skip, before they happen to a real customer.' }
-    - { title: 'Recovery Flow Build', body: 'Retry logic and dunning communication are set up for renewal failures, since some percentage of them are inevitable regardless of setup quality.' }
-    - { title: 'Compliance Check & Launch', body: 'We confirm the integration pattern avoids unnecessary exposure to raw card data before going live.' }
+    - { title: 'Review', body: 'We confirm which gateway actually fits your markets, currencies, and volume before building anything.' }
+    - { title: 'Integrate', body: "The checkout flow is connected to the gateway's API, covering the currencies and payment methods relevant to your customers." }
+    - { title: 'Configure', body: 'For subscription businesses, we configure renewal scheduling, proration, and plan-change logic.' }
+    - { title: 'Test', body: 'We deliberately test declines, expired cards, and edge cases most launches skip, before they happen to a real customer.' }
+    - { title: 'Build', body: 'Retry logic and dunning communication are set up for renewal failures, since some percentage of them are inevitable regardless of setup quality.' }
+    - { title: 'Launch', body: 'We confirm the integration pattern avoids unnecessary exposure to raw card data before going live.' }
 comparison:
     headers: ['Tested Payment Integration', 'Happy-Path-Only Setup']
     rows:

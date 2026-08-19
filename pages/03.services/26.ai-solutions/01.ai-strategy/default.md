@@ -2,8 +2,8 @@
 title: 'AI Strategy'
 template: service-detail-a
 eyebrow: 'AI Solutions'
-headline: 'Where AI actually fits your business, before any build'
-tagline: 'AI strategy work identifying realistic, high-value use cases before recommending any specific tool or build.'
+headline: 'Find Where AI Actually Pays Off, Before You Build Anything'
+tagline: 'AI strategy that pinpoints the highest-value use cases for your business before recommending a single tool.'
 primary_intent: 'commercial - service research'
 entities: ['AI Readiness Assessment', 'Use Case Prioritisation', 'Build-vs-Buy', 'AI Adoption Roadmap', 'Data Privacy Risk']
 tools: ['AI Strategy', 'Use Case Mapping']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most AI initiatives that stall started with a mandate instead of a use case - a board member or competitor mentioned AI, and the instruction that came down was some version of \"figure out how we use this,\" with no specific problem attached. Teams respond by evaluating tools, running a pilot, or hiring for an AI role, and months later there's activity but no clear answer to what actually got better.</p><p>The second common failure is the opposite instinct: treating every part of the business as a candidate use case at once. A long list of possible applications, none prioritised against actual cost or difficulty, produces the same outcome as no list at all - nothing gets built because nothing was ever the clear next step.</p>"
-solution: "<p>Strategy work exists to close that gap before any money gets spent on a build. That means identifying the two or three places where AI would save real time or money, checking each one against what's actually feasible with your data and systems, and being explicit about what should happen first, second, and not at all yet.</p>"
+problem: "<p>Most AI initiatives stall because they start with a mandate instead of a use case - \"figure out how we use this,\" with no specific problem attached. Teams respond by piloting a tool or hiring for an AI role, and months later there's activity but no clear answer to what actually got better.</p>"
+solution: "<p>Strategy work closes that gap before any money gets spent on a build. We identify the two or three places AI would save real time or money, check each against what's feasible with your data and systems, and say plainly what should happen first, second, and not yet.</p>"
 solution_answer: "AI strategy is the process of identifying which specific business problems AI can realistically solve for you, in what order, and whether to build, buy, or leave a given use case alone for now."
-approach: "<p>We start with an honest readiness assessment - what data actually exists, how clean it is, and what systems it would need to connect to - because a use case that looks promising on a whiteboard often depends on data that doesn't exist in a usable form yet. From there we prioritise candidates against effort and expected value rather than novelty, and hand over a phased roadmap that says plainly what to do first and what to leave until the foundation is ready.</p>"
+approach: "<p>We start with an honest readiness assessment - what data exists, how clean it is, what systems it needs to connect to - because a promising use case often depends on data that isn't usable yet. From there we prioritise candidates against effort and value rather than novelty, and hand over a phased roadmap that says plainly what to do first.</p>"
 capabilities:
     - { title: 'AI Readiness & Opportunity Assessment', items: ['Review of existing data, systems, and workflows for AI fit', 'Identification of where AI would save real time or money', 'Honest flag on where the business is not ready yet'] }
     - { title: 'Use Case Identification & Prioritisation', items: ['Candidate use cases scored against feasibility and value', 'Ranking rather than an undifferentiated wish list', 'Clear cut line on what does not make the list yet'] }

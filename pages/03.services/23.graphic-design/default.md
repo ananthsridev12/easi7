@@ -3,7 +3,7 @@ title: 'Graphic Design'
 template: services
 eyebrow: 'Graphic Design'
 icon: "🎨"
-headline: 'Creative that supports the campaign, not just the portfolio'
+headline: 'Creative built to perform, not just impress'
 tagline: 'Marketing creatives, social assets, infographics, and print collateral designed to perform, not just look good.'
 tools: ['Marketing Creatives', 'Social Assets']
 taxonomy:
@@ -44,8 +44,6 @@ faqs:
       a: "No - creative is one variable in a result that also depends on targeting, offer, and budget, none of which we control. What we can guarantee is that the creative is built to the platform's actual format and tested in variations, which puts it in the best position to perform."
 ---
 
-Creative that's designed in isolation from the campaign it's meant to support tends to look polished and perform poorly - a beautiful ad that doesn't match the offer, or a social post that ignores what the platform's format actually rewards.
+Creative designed in isolation from the campaign it's meant to support tends to look polished and perform poorly - a beautiful ad that doesn't match the offer, or a social post that ignores what the platform's format actually rewards.
 
-Every piece we design starts from the channel and the message it's carrying. Marketing creatives are built and tested for the specific ad platform and audience, not a single asset stretched across every channel. Social creatives are designed natively per platform - a LinkedIn carousel and an Instagram Reel cover need fundamentally different treatments. Infographics and case study design exist to make information scannable, not decorative; if a chart needs a paragraph to explain it, the chart hasn't done its job.
-
-Print collateral gets the same rigour as digital, which is precisely why well-designed print still stands out at a trade show table full of generic brochures.
+Every piece we design starts from the channel and the message it's carrying - social creatives built natively per platform, infographics made to be scannable rather than decorative, print collateral held to the same rigour as digital. That's why well-designed print still stands out at a trade show table full of generic brochures.

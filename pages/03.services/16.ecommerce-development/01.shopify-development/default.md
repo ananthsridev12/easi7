@@ -2,7 +2,7 @@
 title: 'Shopify Development'
 template: service-detail-a
 eyebrow: 'Shopify Development'
-headline: 'Fast to launch, built to actually convert'
+headline: 'Launch A Shopify Store Built To Actually Convert'
 tagline: 'Shopify store development and theme customisation built around conversion, not just launch speed.'
 primary_intent: 'commercial - service research'
 entities: ['Shopify', 'Shopify Plus', 'Theme Customisation', 'App Integration', 'Checkout Optimization', 'Liquid']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Shopify's real advantage is speed to launch, and that's also where most stores go wrong - a store gets live on a stock theme with a dozen apps bolted on for features the theme should have handled natively, and six months later the site is slow, the checkout has friction nobody planned for, and no one can say why conversion is lower than it should be.</p><p>App sprawl is the most common version of this. Each app solves one problem and adds one more script to the page, and the cumulative effect on load time and cart abandonment is rarely traced back to the actual cause.</p>"
-solution: "<p>A Shopify build that's meant to convert starts with the theme, not the app store - customising the theme to do what a generic app would otherwise bolt on, and being deliberate about which apps genuinely earn their place versus which ones are a shortcut with a long-term cost. Product feed structure, cart logic, and checkout flow get the same scrutiny as the visual design, because that's where the actual revenue decisions happen.</p>"
+problem: "<p>Shopify's real advantage is speed to launch, and that's also where most stores go wrong - live on a stock theme with a dozen apps bolted on for features the theme should have handled natively. Six months later the site is slow, checkout has friction nobody planned for, and no one can say why conversion is lower than it should be. Each app adds one more script, and the cumulative cost rarely gets traced back to its actual cause.</p>"
+solution: "<p>We start a Shopify build with the theme, not the app store - customising it to do what a generic app would otherwise bolt on, and being deliberate about which apps genuinely earn their place. Product feed structure, cart logic, and checkout flow get the same scrutiny as the visual design, because that's where the actual revenue decisions happen.</p>"
 solution_answer: "Shopify development is building and customising a Shopify store - theme, apps, catalogue, and checkout - so it's fast to launch and structured to convert, not just to look finished."
-approach: "<p>We start by establishing what the theme genuinely needs to do out of the box before reaching for an app to cover the gap, then build the catalogue and checkout structure around how your specific products actually get bought. For larger or higher-volume catalogues we build on Shopify Plus, where the extra platform capability is worth the added cost.</p>"
+approach: "<p>We establish what the theme genuinely needs to do out of the box before reaching for an app to cover the gap, then build the catalogue and checkout structure around how your products actually get bought. For larger or higher-volume catalogues, we build on Shopify Plus, where the extra platform capability earns its added cost.</p>"
 capabilities:
     - { title: 'Theme Customisation & Store Design', items: ['Custom theme development and modification', 'Mobile-first layout and navigation structure', 'Brand-specific design implementation'] }
     - { title: 'App Selection & Integration', items: ['Auditing which functionality belongs in the theme versus an app', 'Third-party app integration and configuration', 'Removing redundant or conflicting apps'] }
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Catalogue', b: 'Structured collections and product data ready for search and feed syndication' }
     - { a: 'Checkout', b: 'Cart and checkout flow configured to remove avoidable friction' }
 process:
-    - { title: 'Discovery & Platform Fit', body: 'We confirm Shopify (or Shopify Plus) is the right fit for your catalogue size and business model before building anything.' }
-    - { title: 'Theme Build & Customisation', body: 'The theme is built or customised around your actual product set and brand, not adapted from a generic template.' }
-    - { title: 'App & Integration Setup', body: "Apps are added only where the theme genuinely can't cover the need, and existing app stacks are audited for redundancy." }
-    - { title: 'Catalogue & Checkout Configuration', body: 'Collections, product data, cart logic, and checkout are structured around how your products actually get bought.' }
-    - { title: 'QA & Launch', body: 'The store is tested across devices and payment paths before going live.' }
-    - { title: 'Post-Launch Review', body: "We check real usage data shortly after launch to catch friction that wasn't visible during testing." }
+    - { title: 'Audit', body: 'We confirm Shopify (or Shopify Plus) is the right fit for your catalogue size and business model before building anything.' }
+    - { title: 'Build', body: 'The theme is built or customised around your actual product set and brand, not adapted from a generic template.' }
+    - { title: 'Integrate', body: "Apps are added only where the theme genuinely can't cover the need, and existing app stacks are audited for redundancy." }
+    - { title: 'Configure', body: 'Collections, product data, cart logic, and checkout are structured around how your products actually get bought.' }
+    - { title: 'Launch', body: 'The store is tested across devices and payment paths before going live.' }
+    - { title: 'Review', body: "We check real usage data shortly after launch to catch friction that wasn't visible during testing." }
 comparison:
     headers: ['Customised Shopify Build', 'Stock Theme + App Stack']
     rows:

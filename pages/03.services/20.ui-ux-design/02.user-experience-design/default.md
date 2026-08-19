@@ -2,8 +2,8 @@
 title: 'User Experience Design'
 template: service-detail-b
 eyebrow: 'UI/UX Design'
-headline: 'The flow, not just the screens'
-tagline: 'User experience design focused on task flow, information architecture, and reducing friction end to end.'
+headline: 'Fix The Flow People Abandon, Not Just The Screens'
+tagline: 'We design the task flow and information architecture so people complete what they came to do.'
 service_url: /services/ui-ux-design/user-experience-design
 taxonomy:
     service: ['User Experience Design']
@@ -16,7 +16,7 @@ sitemap:
 primary_intent: 'commercial - service research'
 entities: ['Information Architecture', 'User Flow Design', 'Task Completion', 'Friction Reduction', 'Accessibility', 'Cross-Device Consistency']
 
-overview: "<p>User experience design is the structural layer underneath the interface - the information architecture, the sequence of steps a task takes, and the points where people currently get stuck or give up. It's finished before visual design starts, because a confusing flow doesn't get fixed by making it look nicer.</p><p>A business needs this when a product or site is easy enough to look at but hard enough to use that people abandon a task partway through - a signup that loses people at step three, a checkout with an unclear next action, a navigation structure that makes sense to whoever built it and no one else.</p>"
+overview: "<p>A signup that loses people at step three, a checkout with an unclear next action, a navigation that only makes sense to whoever built it - these are structure problems, and no amount of visual polish fixes them. We map the information architecture and task flow first, so the underlying structure works before a single screen gets styled.</p>"
 overview_answer: "User experience design is the practice of structuring how someone moves through a product or site - the information architecture and task flow - independent of how it's visually styled, so the underlying structure works before any screen gets designed."
 capabilities:
     - { title: 'Information Architecture', items: ['Site and app structure mapping', 'Content grouping and labelling', 'Navigation hierarchy design'] }

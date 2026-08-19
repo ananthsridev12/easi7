@@ -2,8 +2,8 @@
 title: 'Marketing Attribution'
 template: service-detail-a
 eyebrow: 'Marketing Attribution'
-headline: 'Credit assigned to what actually worked'
-tagline: 'Attribution modelling that reflects your actual sales cycle, not a default last-click assumption.'
+headline: 'Stop Cutting Channels That Were Actually Working'
+tagline: "We model attribution around your real sales cycle, so upper-funnel channels get credit for the work they're actually doing."
 primary_intent: 'commercial - service research'
 entities: ['Marketing Attribution', 'Multi-Touch Attribution', 'Last-Click Attribution', 'Attribution Modelling', 'Touchpoint Tracking']
 service_url: /services/analytics-tracking/marketing-attribution
@@ -14,8 +14,8 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most analytics platforms default to last-click attribution, which gives one hundred percent of the credit to whatever channel happened to be clicked right before a conversion. In a funnel with any real length - a prospect who saw a paid social ad, later found the site through organic search, and converted three weeks later after an email - last-click hands all the credit to the email and none to the channels that actually built awareness and consideration.</p><p>Teams then make budget decisions based on that distortion, cutting spend from channels that look unproductive when they were doing real work higher in the funnel the whole time.</p>"
-solution: "<p>A better attribution model starts by mapping how the actual sales cycle behaves - how many touchpoints a typical buyer has, how long the cycle runs, and which channels tend to show up early versus late. From there, a multi-touch model spreads credit across the touchpoints that genuinely contributed, instead of defaulting to whichever one happened to be last.</p>"
+problem: "<p>Most analytics platforms default to last-click attribution, which gives all the credit to whatever channel happened to be clicked right before a conversion. In a funnel with any real length - paid social builds awareness, organic search gets researched, an email closes it three weeks later - last-click hands everything to the email and nothing to the channels that actually did the work, and teams end up cutting budget from channels that only looked unproductive.</p>"
+solution: "<p>A better attribution model starts by mapping how the actual sales cycle behaves - how many touchpoints a typical buyer has, how long the cycle runs, and which channels show up early versus late. From there, a multi-touch model spreads credit across the touchpoints that genuinely contributed, instead of defaulting to whichever one happened to be last.</p>"
 solution_answer: "Marketing attribution is assigning credit for a conversion across every touchpoint that contributed to it, using a model that matches your actual sales cycle instead of a default last-click assumption."
 approach: "<p>We start by documenting the real buyer journey - not the assumed one - before choosing a model, since a data-driven or position-based model applied to the wrong funnel shape produces numbers that are precise but still wrong. Once implemented, the model is checked against known deals and revisited whenever the channel mix or sales cycle changes materially.</p>"
 capabilities:
@@ -25,12 +25,12 @@ capabilities:
     - { title: 'Reporting & Visualisation', items: ['Attribution reporting built in Looker Studio', 'Channel credit breakdowns stakeholders can actually use'] }
     - { title: 'Model Recalibration', items: ['Periodic re-check as the funnel or channel mix changes', 'Validation against known, closed deals'] }
 process:
-    - { title: 'Funnel & Touchpoint Mapping', body: 'We document the actual path buyers take and how long the sales cycle really runs, not the assumed version.' }
-    - { title: 'Model Selection', body: 'An attribution model is chosen to match that funnel shape, rather than defaulted to last-click.' }
-    - { title: 'Cross-Channel Data Unification', body: 'Touchpoints from ad platforms, CRM, and analytics are stitched into a single view of the buyer journey.' }
-    - { title: 'Implementation', body: 'The model is configured and validated against a sample of known, closed deals before being trusted at scale.' }
+    - { title: 'Mapping', body: 'We document the actual path buyers take and how long the sales cycle really runs, not the assumed version.' }
+    - { title: 'Model', body: 'An attribution model is chosen to match that funnel shape, rather than defaulted to last-click.' }
+    - { title: 'Unify', body: 'Touchpoints from ad platforms, CRM, and analytics are stitched into a single view of the buyer journey.' }
+    - { title: 'Build', body: 'The model is configured and validated against a sample of known, closed deals before being trusted at scale.' }
     - { title: 'Reporting', body: 'Channel credit is reported in a format stakeholders can act on, not just a dashboard nobody opens.' }
-    - { title: 'Recalibration', body: 'The model is revisited whenever the funnel, sales cycle, or channel mix changes materially.' }
+    - { title: 'Recalibrate', body: 'The model is revisited whenever the funnel, sales cycle, or channel mix changes materially.' }
 comparison:
     headers: ['Modelled Attribution', 'Default Last-Click']
     rows:

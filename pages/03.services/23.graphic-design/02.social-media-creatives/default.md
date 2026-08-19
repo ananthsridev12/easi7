@@ -2,8 +2,8 @@
 title: 'Social Media Creatives'
 template: service-detail-b
 eyebrow: 'Graphic Design'
-headline: 'Designed for the feed it actually lives in'
-tagline: "Social media creative design tailored to each platform's format and audience expectations."
+headline: 'Design Creative Built For The Feed It Lives In'
+tagline: "Native-feeling creative for every platform, sized and paced for how that feed actually gets consumed."
 primary_intent: 'commercial - service research'
 entities: ['Social Creatives', 'Carousel Design', 'Story and Reel Covers', 'Template Systems', 'Content Calendars']
 tools: ['Social Creatives', 'Platform-native Design']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Social media creative design covers the visual assets a brand posts natively on each platform - feed posts, carousels, Story and Reel covers, and templated formats for ongoing content calendars. The design requirements differ meaningfully by platform: a LinkedIn carousel is read like a slide deck, while an Instagram Reel cover has to work as a thumbnail competing against dozens of others in a scroll.</p><p>Treating every platform the same - one visual style resized across all of them - usually means the asset is technically present everywhere and genuinely native nowhere.</p>"
+overview: "<p>A LinkedIn carousel gets read like a slide deck. An Instagram Reel cover has to win as a thumbnail against dozens of others in a scroll. Treat every platform the same and the asset ends up technically present everywhere and genuinely native nowhere. We design feed posts, carousels, and covers built for the specific platform and format they run in.</p>"
 overview_answer: "Social media creative design is building visual assets specifically for how each platform displays and is consumed, rather than one design resized across every channel."
 capabilities:
     - { title: 'Platform-Native Templates', items: ['Feed post design per platform', 'Story and Reel cover design', 'Carousel and multi-slide layouts'] }

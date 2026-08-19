@@ -2,8 +2,8 @@
 title: 'Funnel Strategy'
 template: service-detail-b
 eyebrow: 'Growth Strategy'
-headline: 'Designed end to end, not optimised stage by stage in isolation'
-tagline: 'Funnel strategy covering the full path from awareness to retention as one connected system.'
+headline: 'Design The Whole Funnel, Not Just One Stage'
+tagline: 'We map the full path from awareness to retention as one connected system, so a fix upstream never breaks something downstream.'
 primary_intent: 'commercial - service research'
 entities: ['Funnel Mapping', 'Stage Conversion Rate', 'Channel Attribution', 'Retention Funnel', 'Expansion Funnel', 'Funnel Metrics']
 tools: ['Funnel Mapping', 'Stage Conversion Analysis', 'Cohort Tracking']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Most funnel work happens one stage at a time - a landing page test here, an email sequence fix there - with nobody checking whether a fix upstream just moved the same problem one stage downstream. A funnel treated as a set of unrelated projects behaves like one: conversion improves in the spot being measured and quietly drops somewhere else nobody is watching yet.</p><p>We map the funnel end to end first, from the first touch through to renewal or expansion, before touching a single stage, so a fix to top-of-funnel volume gets checked against what happens to it three stages later.</p>"
+overview: "<p>Most funnel work happens one stage at a time - a landing page test here, an email fix there - with nobody checking whether a fix upstream just moved the same problem one stage downstream. We map the funnel end to end first, from first touch through renewal and expansion, so a fix at one stage gets checked against its effect on the stages after it.</p>"
 overview_answer: "Funnel strategy is mapping and designing the full customer journey, from first touch to retention, as one connected system, so a fix at one stage is checked against its effect on the stages after it rather than treated in isolation."
 capabilities:
     - { title: 'Full-Funnel Mapping', items: ['Stage-by-stage journey mapping', 'Drop-off diagnosis at each transition', 'Visibility into where volume is actually lost'] }

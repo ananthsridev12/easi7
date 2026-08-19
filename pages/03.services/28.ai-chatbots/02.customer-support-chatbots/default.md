@@ -2,8 +2,8 @@
 title: 'Customer Support Chatbots'
 template: service-detail-b
 eyebrow: 'AI Chatbots'
-headline: "First-line support that's actually accurate"
-tagline: 'Customer support chatbots grounded in your documentation, reducing repetitive ticket volume.'
+headline: "Give First-Line Support That's Actually Accurate"
+tagline: 'Support chatbots grounded in your real documentation, cutting repetitive ticket volume without guessing.'
 primary_intent: 'commercial - service research'
 entities: ['Customer Support Chatbots', 'Knowledge Grounding', 'Confidence Thresholds', 'Ticket Deflection', 'Escalation Design']
 tools: ['Support Chatbots', 'Knowledge Grounding']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Support teams spend a disproportionate amount of time answering the same handful of questions - how to reset a password, where a setting lives, what a specific error message means - questions that are already fully documented somewhere but that customers don't find or don't bother searching for. A support chatbot's job is narrow but specific: resolve those repeatable questions instantly and accurately, and pass everything else to a person without pretending to know the answer.</p><p>The distinction that actually matters here is grounding. A chatbot answering from your real documentation gives the same answer your support team would give. A chatbot answering from general model knowledge might sound just as confident while being subtly, sometimes damagingly, wrong - and an inaccurate support bot erodes trust faster than no bot at all.</p>"
+overview: "<p>Support teams spend a disproportionate amount of time answering the same handful of already-documented questions - a password reset, a setting location, an error message. A chatbot answering from general model knowledge can sound just as confident while being subtly wrong, and that erodes trust faster than no bot at all. We ground every answer in your real documentation and escalate everything else to a person.</p>"
 overview_answer: "A customer support chatbot is a documentation-grounded first line of support that resolves repetitive questions automatically and escalates anything it can't answer confidently to a human agent."
 capabilities:
     - { title: 'Documentation Grounding', items: ['Responses built from your actual help docs and knowledge base', 'No answers drawn from general model knowledge', 'Regular sync as documentation changes'] }

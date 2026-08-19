@@ -46,8 +46,6 @@ faqs:
       a: "Distribution is its own service line within this category rather than an automatic add-on to writing - some clients want it bundled from the start, others already have channels handling it. We'll flag it as a gap if writing without any distribution plan looks likely to waste the output."
 ---
 
-Most content programmes fail quietly - not because the writing is bad, but because there was never a plan connecting topics to keywords, funnel stage, or a distribution plan beyond hitting publish. A blog with forty posts and no strategy behind them is a cost centre, not an asset.
+Most content programmes fail quietly - not because the writing is bad, but because there was never a plan connecting topics to keywords, funnel stage, or distribution beyond hitting publish. A blog with forty posts and no strategy behind them is a cost centre, not an asset.
 
-We start with the map: keyword clusters and funnel stages first, then a calendar built against that map rather than whatever topic seems interesting this week. Every format after that - articles, lead magnets, whitepapers, thought leadership - gets built to serve a specific stage of that map, and gets a distribution plan before it gets written, not after.
-
-The output compounds when it's structured this way. Content built without the map underneath it just accumulates.
+We start with the map - keyword clusters and funnel stages first, then a calendar built against that map rather than whatever topic seems interesting this week. Every format after that (articles, lead magnets, whitepapers, thought leadership) gets built to serve a specific stage and gets a distribution plan before it gets written, not after - content built without that map underneath it just accumulates instead of compounding.

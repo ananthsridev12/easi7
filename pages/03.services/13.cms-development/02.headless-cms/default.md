@@ -2,7 +2,7 @@
 title: 'Headless CMS'
 template: service-detail-b
 eyebrow: 'CMS Development'
-headline: 'Content management, decoupled from presentation'
+headline: 'One Content Source, Every Channel You Ship To'
 tagline: 'Headless CMS implementations for teams that need content flexibility across web, app, and other channels.'
 primary_intent: 'commercial - service research'
 entities: ['Headless CMS', 'Content API', 'Multi-channel Content', 'Content Modelling', 'Editor Workflow']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A headless CMS separates content storage from content presentation - editors manage content in one place, and it gets delivered via API to whatever needs it: a website, a mobile app, a kiosk, a partner integration. That separation is the entire point, and it matters the moment content needs to power more than one front end without duplicating the CMS or copy-pasting between systems.</p><p>It's not automatically the better choice. A single website with no plans to expand into other channels is usually simpler and cheaper to run on a traditional CMS. Headless earns its added complexity when the multi-channel need is real, not hypothetical.</p>"
+overview: "<p>A headless CMS separates content storage from content presentation - editors manage content in one place, and it gets delivered via API to whatever needs it: a website, a mobile app, a kiosk, a partner integration. We build it when that multi-channel need is real, not hypothetical - a single website with no expansion plans is usually simpler and cheaper on a traditional CMS.</p>"
 overview_answer: "A headless CMS stores and manages content independently of how it's displayed, delivering it via API to a website, app, or any other channel that needs it."
 capabilities:
     - { title: 'Platform Selection', items: ['Evaluation against your actual channel requirements', 'Build-vs-buy assessment for the content layer'] }

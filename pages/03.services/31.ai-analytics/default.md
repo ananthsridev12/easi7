@@ -3,7 +3,7 @@ title: 'AI Analytics'
 template: services
 eyebrow: 'AI Analytics'
 icon: "🔮"
-headline: 'Analysis that starts further along'
+headline: 'Reporting that explains the number, not just shows it'
 tagline: 'AI-powered reporting, marketing intelligence, predictive analytics, and automated insights that explain the number, not just show it.'
 tools: ['AI Reporting', 'Predictive Analytics']
 taxonomy:
@@ -48,8 +48,6 @@ faqs:
       a: "Reporting and automated-insight layers can show value within weeks of setup since they work with data you already have. Predictive models take longer because they need proper validation against historical outcomes before being trusted - rushing that step is how you end up with a confident-sounding forecast that's wrong."
 ---
 
-A dashboard shows what happened. It doesn't explain why, and it definitely doesn't tell you what to do next - which is where most reporting stops short of being useful and just becomes another tab nobody opens.
+A dashboard shows what happened. It doesn't explain why, and it doesn't tell you what to do next - which is where most reporting stops short of useful and just becomes another tab nobody opens.
 
-AI-powered reporting closes part of that gap: narrative summaries and anomaly explanations alongside the usual charts, marketing intelligence that surfaces cross-channel patterns a person would take days to find manually, predictive models for forecasting revenue and churn validated against your actual historical data rather than a generic template, and automated insight generation that pairs a detected change with a recommended action instead of leaving that step to whoever opens the dashboard next.
-
-None of this replaces analysis - it moves the starting point further along, so the person looking at the report spends their time on the decision instead of the data-gathering.
+We close that gap with narrative summaries and anomaly explanations alongside the usual charts, cross-channel pattern detection, and predictive models validated against your actual historical data. None of it replaces analysis - it moves the starting point further along, so the person looking at the report spends their time on the decision instead of the data-gathering.

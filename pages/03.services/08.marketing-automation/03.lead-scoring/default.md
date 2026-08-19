@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Lead scoring assigns a numeric value to each lead based on how closely it matches an ideal customer profile and how much genuine buying intent it has shown, so sales can prioritise the leads worth calling first instead of working every inbound form fill in the order it arrived. Without a scoring layer, a downloaded whitepaper from someone with no budget or authority gets the same follow-up urgency as a demo request from a director at a target account.</p><p>It becomes necessary once lead volume outpaces what a sales team can manually judge - past a certain point, treating every lead equally is functionally the same as treating none of them as a priority.</p>"
+overview: "<p>Without a scoring layer, a downloaded whitepaper from someone with no budget or authority gets the same follow-up urgency as a demo request from a director at a target account. We build a point-based model on fit and intent so sales knows who's actually worth calling first, not just who filled out a form first.</p>"
 overview_answer: "Lead scoring is a point-based model that ranks leads by fit and intent so sales follow-up is prioritised toward the leads most likely to close."
 capabilities:
     - { title: 'ICP Fit Scoring', items: ['Firmographic and demographic scoring criteria', 'Weighting based on what actually predicts a close, not assumptions', 'Disqualification rules for clear non-fits'] }

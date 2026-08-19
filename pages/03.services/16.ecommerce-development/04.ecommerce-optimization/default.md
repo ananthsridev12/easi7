@@ -2,8 +2,8 @@
 title: 'E-commerce Optimization'
 template: service-detail-a
 eyebrow: 'E-commerce Optimization'
-headline: 'More revenue from the traffic already showing up'
-tagline: 'E-commerce conversion optimisation across product pages, cart, and checkout.'
+headline: 'Turn Your Existing Traffic Into More Revenue'
+tagline: 'E-commerce conversion optimisation across product pages, cart, and checkout - no extra ad spend required.'
 primary_intent: 'commercial - service research'
 entities: ['Conversion Rate Optimization', 'Cart Abandonment', 'Checkout Flow', 'Site Search', 'A/B Testing']
 service_url: /services/ecommerce-development/ecommerce-optimization
@@ -14,8 +14,8 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most e-commerce teams respond to a flat conversion rate by spending more on acquisition, which is the expensive way to solve a problem that's usually sitting on the site itself. A slow product page, a cart that loses items on refresh, or a checkout that asks for an account before it asks for a payment method are all quietly turning away visitors who already decided to buy.</p><p>These are the steps in the funnel where a visitor has the most intent and the least patience - friction here doesn't get a second chance the way a weak ad does.</p>"
-solution: "<p>Optimisation work here means going through the buying path in the order a customer actually experiences it - product page, cart, checkout, search and filtering - and fixing what's measurably costing conversions before touching anything cosmetic. Site search and mobile checkout usually carry more overlooked friction than the homepage does, simply because fewer teams think to check them.</p>"
+problem: "<p>Most e-commerce teams respond to a flat conversion rate by spending more on acquisition, which is the expensive way to solve a problem usually sitting on the site itself. A slow product page, a cart that loses items on refresh, or a checkout that asks for an account before a payment method are quietly turning away visitors who already decided to buy - and friction here doesn't get a second chance the way a weak ad does.</p>"
+solution: "<p>We go through the buying path in the order a customer actually experiences it - product page, cart, checkout, search and filtering - and fix what's measurably costing conversions before touching anything cosmetic. Site search and mobile checkout usually carry more overlooked friction than the homepage does, simply because fewer teams think to check them.</p>"
 solution_answer: "E-commerce optimisation is identifying and fixing the specific points in the product-to-checkout path - page speed, cart friction, checkout steps, search relevance - that are losing conversions from traffic you already have."
 approach: "<p>We start with actual behaviour data - session recordings, funnel drop-off points, and cart abandonment patterns - rather than guessing which page needs attention. Changes are tested against real traffic where the volume supports it, so decisions are based on what visitors actually do, not on a redesign preference.</p>"
 capabilities:
@@ -29,12 +29,12 @@ deliverables:
     - { a: 'Fix Roadmap', b: 'A sequenced list of changes to product pages, cart, and checkout' }
     - { a: 'Testing', b: 'A/B tests on higher-impact changes where traffic volume supports a valid result' }
 process:
-    - { title: 'Funnel & Behaviour Analysis', body: 'We map the actual buying path using session data and analytics to find where visitors are dropping off.' }
-    - { title: 'Friction Diagnosis', body: 'Each drop-off point is checked against likely causes - speed, clarity, trust, or unnecessary steps.' }
-    - { title: 'Prioritised Fix Plan', body: 'Fixes are ranked by estimated impact and ease, not addressed in an arbitrary order.' }
-    - { title: 'Implementation', body: 'Changes are made to product pages, cart, checkout, or search, depending on where the audit points.' }
-    - { title: 'Testing & Validation', body: 'Where traffic supports it, changes are A/B tested rather than shipped on assumption alone.' }
-    - { title: 'Ongoing Monitoring', body: 'Conversion metrics are tracked after changes ship to confirm the fix held under real traffic.' }
+    - { title: 'Analyze', body: 'We map the actual buying path using session data and analytics to find where visitors are dropping off.' }
+    - { title: 'Diagnose', body: 'Each drop-off point is checked against likely causes - speed, clarity, trust, or unnecessary steps.' }
+    - { title: 'Prioritize', body: 'Fixes are ranked by estimated impact and ease, not addressed in an arbitrary order.' }
+    - { title: 'Implement', body: 'Changes are made to product pages, cart, checkout, or search, depending on where the audit points.' }
+    - { title: 'Test', body: 'Where traffic supports it, changes are A/B tested rather than shipped on assumption alone.' }
+    - { title: 'Monitor', body: 'Conversion metrics are tracked after changes ship to confirm the fix held under real traffic.' }
 comparison:
     headers: ['Continuous Optimisation', 'One-Off Redesign']
     rows:

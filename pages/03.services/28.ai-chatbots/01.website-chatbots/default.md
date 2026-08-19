@@ -2,8 +2,8 @@
 title: 'Website Chatbots'
 template: service-detail-a
 eyebrow: 'AI Chatbots'
-headline: 'Answers visitors get before they leave to search elsewhere'
-tagline: 'Website chatbot implementation for answering visitor questions and capturing leads in real time.'
+headline: 'Answer the Question Before They Leave to Google It'
+tagline: 'Website chatbots that answer visitor questions and capture leads in real time, grounded in your actual content.'
 primary_intent: 'commercial - service research'
 entities: ['Website Chatbots', 'Knowledge Grounding', 'Lead Capture', 'Live Chat Handoff', 'Conversation Analytics']
 service_url: /services/ai-chatbots/website-chatbots
@@ -14,10 +14,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A visitor lands on a pricing page with one specific question - does this work with their existing stack, is there a setup fee, what happens after the trial - and when the answer isn't visible in the next ten seconds, they leave to search for it elsewhere or check a competitor instead. Most sites have no mechanism to catch that moment at all; the only options are digging through a nav menu or submitting a contact form and waiting.</p><p>The chatbots that get bolted on to fix this often make it worse. A bot that answers confidently from general knowledge instead of your actual site content will occasionally get something wrong in a way a human would never fall for - the wrong price, a discontinued feature, a policy that changed last quarter - and one bad answer erodes trust faster than the static FAQ page it replaced.</p>"
+problem: "<p>A visitor with one specific question - does this work with our stack, is there a setup fee - leaves to search elsewhere the moment the answer isn't visible in ten seconds, and most sites have no way to catch that moment. The chatbots bolted on to fix this often make it worse: one wrong answer, pulled from general knowledge instead of your actual site, erodes trust faster than the static FAQ page it replaced.</p>"
 solution: "<p>A website chatbot scoped correctly does one job well: answer the handful of questions visitors actually ask, pulled from content that's really on your site, and hand off cleanly the moment a question falls outside that scope. It's a narrow tool by design, not a general-purpose assistant wearing your logo.</p>"
 solution_answer: "A website chatbot is a scoped conversational tool that answers visitor questions from your actual site content in real time, capturing lead information along the way and escalating anything it can't answer confidently."
-approach: "<p>We start by reviewing what visitors actually ask - support tickets, sales call notes, and site search queries usually reveal the same ten to fifteen questions repeating constantly - and scope the chatbot to answer those well before expanding coverage. The knowledge base it draws from is built from your real content, not general model training, and every response carries a confidence check so a low-certainty answer routes to a human instead of guessing.</p>"
+approach: "<p>We start by reviewing what visitors actually ask - support tickets, sales notes, and site search usually reveal the same ten to fifteen questions repeating constantly - and scope the chatbot to answer those well first. The knowledge base is built from your real content, and every response carries a confidence check so uncertain answers route to a human instead of guessing.</p>"
 capabilities:
     - { title: 'Scoping & Knowledge Base', items: ['Chatbot scoped to your most common visitor questions', 'Knowledge base built from your actual site and documentation content', 'Ongoing scope expansion based on real conversation data'] }
     - { title: 'Lead Capture', items: ['Contact and qualification fields captured mid-conversation', 'Integration with your existing CRM or lead inbox', 'No forced form fill before a visitor gets an answer'] }

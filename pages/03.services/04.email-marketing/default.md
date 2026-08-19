@@ -50,6 +50,4 @@ faqs:
 
 Email is the channel most businesses already own and most underuse. The list exists, the platform is paid for, and yet most sends are one-off broadcasts with no lifecycle logic behind them - no welcome flow, no abandonment recovery, no re-engagement sequence for people who've gone quiet.
 
-We treat email as two distinct disciplines that need different skills. Campaigns and newsletters are editorial work - segmentation, subject lines, and a reason to open that isn't just "here's our monthly update." Automation and drip sequences are systems work - behaviour-triggered flows that run without anyone remembering to send them, timed to match how long a decision actually takes. Cold email is a third discipline entirely, built on deliverability fundamentals before a single word of copy matters.
-
-Most list underperformance traces back to one of these being missing entirely, not to the copy being bad.
+We treat it as distinct disciplines that need different skills: campaigns and newsletters are editorial work, automation and drip sequences are systems work built on behaviour-triggered flows, and cold email is a third discipline entirely, built on deliverability fundamentals before a single word of copy matters. Most list underperformance traces back to one of these being missing, not to the copy being bad.

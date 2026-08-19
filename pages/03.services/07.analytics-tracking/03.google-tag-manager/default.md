@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>An undocumented GTM container is a liability the moment the person who built it leaves. Tags get named after whoever requested them, triggers overlap in ways nobody remembers the reason for, and adding one new pixel becomes a risk instead of a five-minute task. A properly built container solves this with naming conventions, a real data layer, and documentation that lets someone other than the original builder maintain it safely.</p><p>This matters most at the moment something needs to change - a new ad platform, a redesigned checkout, a rebrand - because that is exactly when an undocumented container breaks in ways nobody can quickly diagnose.</p>"
+overview: "<p>An undocumented GTM container is a liability the moment the person who built it leaves - tags named after whoever requested them, triggers nobody remembers the reason for, and adding one new pixel turning into a risk instead of a five-minute task. We build containers with naming conventions, a real data layer, and documentation, so anyone on your team can maintain it safely.</p>"
 overview_answer: "Google Tag Manager implementation is building a documented, well-structured container - naming conventions, a proper data layer, and QA'd tags - so tracking can be maintained without depending on whoever originally built it."
 capabilities:
     - { title: 'Container Architecture & Naming', items: ['Consistent naming conventions across tags, triggers, and variables', 'Folder and workspace structuring for larger containers'] }

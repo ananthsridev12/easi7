@@ -15,9 +15,9 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-definition: "<p>Funnel optimisation is the practice of analysing each stage of a multi-step conversion path separately - rather than treating the whole path as one blended conversion rate - to identify the specific stage causing the most drop-off, and fixing that stage before touching anything else.</p>"
+definition: "<p>We analyse each stage of your multi-step conversion path separately - rather than treating the whole path as one blended conversion rate - to find the specific stage causing the most drop-off, and fix that stage before touching anything else.</p>"
 definition_answer: "Funnel optimisation is analysing each stage of a multi-step conversion path separately to identify the specific stage causing the most drop-off, then fixing that stage first."
-why_it_matters: "<p>Optimising the wrong stage of a funnel wastes effort on a step that was never the bottleneck. A blended top-of-funnel-to-bottom conversion rate can look stable for months while one specific stage - a checkout step, a verification email, a pricing page - is quietly bleeding the majority of prospects who would otherwise have converted.</p><p>This matters more as a funnel adds steps. Every additional step in a signup or checkout flow is a new place for someone to leave, and a fix applied to the wrong stage does nothing except delay finding the real one.</p>"
+why_it_matters: "<p>Optimising the wrong stage wastes effort on a step that was never the bottleneck. A blended top-of-funnel-to-bottom conversion rate can look stable for months while one specific stage - a checkout step, a verification email, a pricing page - is quietly bleeding the majority of prospects who would otherwise have converted. That gets worse as a funnel adds steps: every additional step is a new place for someone to leave, and a fix applied to the wrong stage does nothing except delay finding the real one.</p>"
 challenges:
     - 'Aggregate conversion rate numbers hide which specific stage is actually leaking'
     - "Cross-device funnels break simple last-click attribution, making drop-off look like it happens somewhere it doesn't"

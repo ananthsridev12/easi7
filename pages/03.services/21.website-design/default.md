@@ -3,8 +3,8 @@ title: 'Website Design'
 template: services
 eyebrow: 'Website Design'
 icon: "🖥️"
-headline: 'Visual design built around who has to be convinced'
-tagline: 'Corporate, B2B, landing page, and e-commerce design - matched to the audience and the conversion goal.'
+headline: 'Design built to convince, not just to look good'
+tagline: 'Corporate, B2B, landing page, and e-commerce design - matched to the audience and the exact action you need them to take.'
 tools: [Figma, 'Responsive Design']
 taxonomy:
     service: ['Website Design']
@@ -46,8 +46,6 @@ faqs:
       a: "A single landing page can be a matter of days; a multi-department corporate or B2B site with several page templates is usually measured in weeks. The main variable is page count and how many stakeholders need to sign off, not the design work itself."
 ---
 
-Visual design that looks good in a portfolio and visual design that converts for a specific audience are not automatically the same thing. A corporate buyer needs credibility cues; a landing page visitor needs zero distraction from one goal; an e-commerce shopper needs friction removed between browsing and buying. Same design discipline, different priorities each time.
+Visual design that looks good in a portfolio and visual design that converts for a specific audience are not automatically the same thing. A corporate buyer needs credibility cues, a landing page visitor needs zero distraction from one goal, and an e-commerce shopper needs friction removed between browsing and buying - same discipline, different priorities each time.
 
-We design against the actual audience and conversion goal rather than a generic aesthetic. Corporate and B2B design leans on trust signals and content-first hierarchy for a considered, multi-person decision. Landing page design strips out anything competing with the single goal. E-commerce design is judged on how much friction it removes between a product page and a completed purchase. Responsive design underlies all of it, treated as a real layout decision per breakpoint rather than a shrunk-down version of desktop.
-
-Every design ships with a rationale attached - why this hierarchy, why this proof placement - not just a Figma file.
+We design against your actual audience and conversion goal rather than a generic aesthetic, across corporate sites, landing pages, e-commerce, and every breakpoint in between. Every design ships with a rationale attached - why this hierarchy, why this proof placement - not just a Figma file.

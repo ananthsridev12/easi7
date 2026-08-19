@@ -16,7 +16,7 @@ sitemap:
     changefreq: monthly
     priority: !!float 0.6
 
-overview: "<p>Account-based marketing flips the standard funnel. Instead of casting wide and filtering down to qualified accounts after the fact, ABM starts with a short, named list of companies worth pursuing and builds every campaign around getting attention inside them specifically - across ads, content, and direct outreach at once.</p><p>It works best when marketing and sales agree on that list before the first campaign launches, not after the first batch of results comes in and someone asks why a given account was even on it.</p>"
+overview: "<p>ABM flips the standard funnel - instead of casting wide and filtering down after the fact, we start with a short, named list of companies worth pursuing and build every campaign around getting attention inside them specifically, across ads, content, and direct outreach at once. Sales agrees on that list with us before the first campaign launches, not after.</p>"
 overview_answer: 'ABM is a B2B marketing approach that targets a defined list of named accounts with coordinated, personalized campaigns across channels, rather than generating leads broadly and qualifying them afterward.'
 capabilities:
     - { title: 'Target Account List Building', items: ['Firmographic and technographic account scoring', 'Tiering into 1:1, 1:few, and 1:many treatment', 'Sales input on account selection'] }

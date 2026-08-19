@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>The fastest way to make a good process worse is to force it to match a generic tool's assumptions about how the work should happen. Custom application development flips that order - the process comes first, and the software is designed to fit it, whether the end user is an internal team or an external customer.</p><p>This applies equally to internal process tools and customer-facing applications. The distinction that actually matters isn't who uses the software, it's whether an existing process is well enough understood to build around it accurately.</p>"
+overview: "<p>The fastest way to make a good process worse is to force it to match a generic tool's assumptions about how the work should happen. We flip that order - the process comes first, and we design the software to fit it, whether the end user is an internal team or an external customer.</p>"
 overview_answer: "Custom application development is building software designed around an existing business process, rather than adapting the process to fit generic, pre-built software."
 capabilities:
     - { title: 'Process Mapping Before Architecture', items: ['Documenting the process as it actually runs, not as it was originally designed', 'Identifying which steps are exceptions versus the standard path'] }

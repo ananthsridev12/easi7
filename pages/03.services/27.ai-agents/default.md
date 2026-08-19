@@ -3,7 +3,7 @@ title: 'AI Agents'
 template: services
 eyebrow: 'AI Agents'
 icon: "🕹️"
-headline: 'Agents that do one job reliably'
+headline: 'Agents scoped narrow enough to trust'
 tagline: 'Marketing, sales, research, and support agents scoped narrowly enough to actually trust in production.'
 tools: ['AI Agents', 'Task Automation']
 taxonomy:
@@ -47,8 +47,6 @@ faqs:
       a: "A single-task agent with a clear scope - one integration, one review workflow - usually takes four to eight weeks including a monitored pilot period. Multi-step agents or ones requiring several system integrations take longer, and we scope that specifically rather than quoting a blanket timeline."
 ---
 
-The useful version of an AI agent handles one narrow, repeatable task reliably - not a general-purpose assistant that needs constant correction. Scope is the entire game here; a broad mandate produces an agent nobody trusts enough to actually rely on.
+The useful version of an AI agent handles one narrow, repeatable task reliably - not a general-purpose assistant that needs constant correction. Scope is the entire game here; a broad mandate produces an agent nobody trusts enough to rely on.
 
-We build agents around specific functions: marketing agents that execute repeatable campaign tasks with human review built in, sales agents that qualify and schedule with clear rules for when to hand off to a person, research agents that compress hours of competitive digging into minutes, and support agents that resolve the tickets that repeat constantly while escalating anything genuinely novel. Custom agents get built when none of these off-the-shelf patterns fit the actual workflow.
-
-Every agent ships with guardrails and a defined escalation path - the failure mode we design against is an agent confidently doing the wrong thing, not an agent that occasionally says "I'm not sure, let me get a person."
+We build agents around specific functions - marketing, sales, research, and support - and reach for a custom build only when none of those patterns fit the actual workflow. Every agent ships with guardrails and a defined escalation path, because the failure mode we design against is an agent confidently doing the wrong thing, not one that says 'I'm not sure, let me get a person.'

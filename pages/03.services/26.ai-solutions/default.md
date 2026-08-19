@@ -3,7 +3,7 @@ title: 'AI Solutions'
 template: services
 eyebrow: 'AI Solutions'
 icon: "🤖"
-headline: 'AI applied where it actually earns its cost'
+headline: 'AI applied only where it earns its cost'
 tagline: 'Strategy, consulting, and generative AI applications scoped to specific, measurable outcomes - not AI for its own sake.'
 tools: ['AI Strategy', 'Generative AI']
 taxonomy:
@@ -47,8 +47,6 @@ faqs:
       a: "Then that's what we'll tell you, and it happens more often than people expect. AI adds cost, maintenance, and often a dependency on a third-party model provider - if a simpler rule-based tool or a straightforward process fix solves the actual problem, that's the cheaper and more reliable answer."
 ---
 
-"Add AI" is not a use case, and most AI initiatives that fail were scoped exactly that vaguely from the start. The businesses getting real value from AI right now picked two or three specific, measurable problems - hours saved, output increased, a specific bottleneck removed - rather than a broad mandate to "use AI more."
+'Add AI' is not a use case, and most AI initiatives that fail were scoped exactly that vaguely. The businesses getting real value picked two or three specific, measurable problems - hours saved, a bottleneck removed - instead of a broad mandate to 'use AI more.'
 
-We start with strategy: an honest assessment of where AI genuinely fits your business before recommending any specific tool or build, including telling you plainly where it doesn't fit yet. Consulting work covers vendor evaluation and build-vs-buy decisions once a use case is identified. Generative AI and AI-powered application work only starts once there's a specific, scoped outcome to build toward - a measurable one, not a vague aspiration.
-
-If the honest answer to "why do you want AI here" is "everyone else is doing it," that's usually a sign to slow down before spending on it.
+We start with an honest assessment of where AI genuinely fits your business, including telling you plainly where it doesn't. Consulting covers vendor evaluation and build-vs-buy calls, and build work only starts once there's a specific, scoped outcome to aim at - not a vague aspiration.

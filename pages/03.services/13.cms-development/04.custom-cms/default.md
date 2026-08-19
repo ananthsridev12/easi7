@@ -2,8 +2,8 @@
 title: 'Custom CMS'
 template: service-detail-a
 eyebrow: 'CMS Development'
-headline: "When off-the-shelf doesn't fit the content model"
-tagline: "Custom CMS builds for content structures that don't map cleanly onto WordPress, Shopify, or any off-the-shelf platform."
+headline: "Build The CMS Your Content Actually Needs"
+tagline: "A custom or flat-file CMS built around how your content really works, not bent to fit a platform that wasn't built for it."
 primary_intent: 'commercial - service research'
 entities: ['Custom CMS', 'Grav', 'Flat-file CMS', 'Content Modelling', 'Admin Interface Design']
 tools: ['Grav', 'Flat-file CMS', 'Custom Content Modelling']
@@ -15,13 +15,13 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most content management problems get solved by forcing an unusual content structure into a platform that wasn't built for it - a listings site jammed into custom fields, a multi-dimensional catalogue flattened to fit assumptions the platform makes about what a 'product' looks like. It usually ships, but every workaround adds fragility, and the editor experience degrades as the mismatch compounds.</p><p>The tell is usually a support pattern - the same confusing workaround explained to a new hire every few months, or a 'quick edit' that actually requires touching three unrelated fields because the content model never matched how the content actually works.</p>"
-solution: "<p>Sometimes the right answer is to build a CMS around the content instead of the other way around. That doesn't mean a full custom application from scratch every time - flat-file systems like Grav, the platform running this site, give you a real admin interface and clean content modelling without the overhead of a database, and for genuinely unusual structures, a fully custom build gets the content model exactly right instead of approximately right.</p>"
+problem: "<p>Most content problems get solved by forcing an unusual structure into a platform that wasn't built for it - a listings site jammed into custom fields, a catalogue flattened to fit what the platform assumes a 'product' looks like. It ships, but every workaround adds fragility, and editors end up explaining the same confusing quick-fix to a new hire every few months.</p>"
+solution: "<p>We build the CMS around your content instead of the other way around. That doesn't always mean a full custom application - flat-file systems like Grav give you a real admin interface and clean content modelling without database overhead, and for genuinely unusual structures, a fully custom build gets the content model exactly right instead of approximately right.</p>"
 solution_answer: "A custom CMS is a content management system, often flat-file like Grav, built around a specific content structure that off-the-shelf platforms would otherwise force into an awkward workaround."
-approach: "<p>We start by mapping the actual content relationships before picking a technology, because the content model is the hard part - the admin interface and hosting are comparatively easy once that's right. Where a flat-file system like Grav fits, we use it, since reinventing a CMS from scratch when a proven flat-file framework already does most of the job is wasted effort.</p>"
+approach: "<p>We map the actual content relationships before picking a technology, because the content model is the hard part - the admin interface and hosting are easy once that's right. Where a flat-file system like Grav fits, we use it rather than reinventing a CMS from scratch.</p>"
 capabilities:
     - { title: 'Content Model Design', items: ['Mapping real content relationships before choosing a platform', 'Custom taxonomies that match how the content actually works', 'Avoiding forced workarounds from day one'] }
-    - { title: 'Flat-File CMS Builds', items: ['Grav and comparable flat-file platform builds', 'No database dependency where it is not needed', 'Version-controllable content'] }
+    - { title: 'Flat-File CMS Builds', items: ['Grav and comparable flat-file platforms, built without database overhead you do not need', 'No database dependency where it is not needed', 'Version-controllable content, so changes are traceable and reversible'] }
     - { title: 'Admin Interface Design', items: ['Editor interfaces designed for non-technical users', 'Custom fields that match the real content structure', 'Preview and workflow tooling'] }
     - { title: 'Long-Term Maintainability', items: ['Documentation of the content model and admin setup', 'Architecture decisions made for a five-year horizon, not just launch'] }
 deliverables:
@@ -29,12 +29,12 @@ deliverables:
     - { a: 'Admin Interface', b: "A working editor experience non-technical staff can use without a developer's help" }
     - { a: 'Platform', b: 'A built and deployed flat-file or custom CMS matched to the content model' }
 process:
-    - { title: 'Content Relationship Mapping', body: 'We document how content actually relates - categories, taxonomies, cross-references - before touching any platform decision.' }
-    - { title: 'Platform Decision', body: 'We decide between a flat-file framework like Grav and a fully custom build based on how far the content model departs from what an existing framework handles.' }
-    - { title: 'Content Model Build', body: 'The taxonomy and content structure are implemented to match the mapping exactly, not approximately.' }
-    - { title: 'Admin Interface Design', body: 'The editor experience is built around how your non-technical team actually needs to work day to day.' }
-    - { title: 'Testing & Handover', body: 'We test the admin experience with the actual people who will use it, not just internally, before handover.' }
-    - { title: 'Documentation & Maintainability Planning', body: 'You get documentation of the content model and admin setup so a future developer is not starting from zero.' }
+    - { title: 'Map', body: 'We document how content actually relates - categories, taxonomies, cross-references - before touching any platform decision.' }
+    - { title: 'Decide', body: 'We decide between a flat-file framework like Grav and a fully custom build based on how far the content model departs from what an existing framework handles.' }
+    - { title: 'Build', body: 'The taxonomy and content structure are implemented to match the mapping exactly, not approximately.' }
+    - { title: 'Design', body: 'The editor experience is built around how your non-technical team actually needs to work day to day.' }
+    - { title: 'Test', body: 'We test the admin experience with the actual people who will use it, not just internally, before handover.' }
+    - { title: 'Document', body: 'You get documentation of the content model and admin setup so a future developer is not starting from zero.' }
 comparison:
     headers: ['Custom-Fit CMS', 'Forced Off-the-Shelf Platform']
     rows:

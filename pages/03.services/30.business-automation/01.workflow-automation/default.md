@@ -2,7 +2,7 @@
 title: 'Workflow Automation'
 template: service-detail-a
 eyebrow: 'Business Automation'
-headline: 'Fewer manual steps across every department, not just marketing'
+headline: 'Fewer Manual Handoffs, In Every Department'
 tagline: 'Business-wide workflow automation connecting tools and teams beyond the marketing function.'
 primary_intent: 'commercial - service research'
 entities: ['Workflow Mapping', 'Tool Integration', 'Approval Workflows', 'Handoff Automation', 'Change Management', 'Cross-Department Automation']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Every department has its own version of the same problem: a task passes from one person or tool to another, and the handoff itself is the weak point. An approval sits in someone's inbox until they remember to act on it. A request gets re-typed into a second system because the first one does not talk to it. None of this shows up as a single dramatic failure - it shows up as everything taking slightly longer than it should, indefinitely.</p><p>Marketing usually gets automated first because the tools are built for it. Finance, operations, and HR are left running the same manual handoffs on spreadsheets, email threads, and shared inboxes, often for processes that repeat daily and would be straightforward to automate once mapped properly.</p>"
-solution: "<p>Workflow automation replaces a manual handoff with a direct one - when a task reaches a defined trigger point, it moves to the next person or system on its own, with the right data already attached. The work is mostly in the mapping: understanding what actually happens at each step before building anything, so the automation reflects the real process rather than an idealised version of it.</p>"
+problem: "<p>Every department has the same problem: a task passes from one person or tool to another, and the handoff is the weak point - an approval sits in an inbox until someone remembers it, a request gets re-typed into a second system because the first one doesn't talk to it. Marketing usually gets automated first because the tools are built for it, while finance, ops, and HR keep running the same manual handoffs on spreadsheets and email threads.</p>"
+solution: "<p>Workflow automation replaces a manual handoff with a direct one - when a task hits a defined trigger point, it moves to the next person or system on its own, with the right data already attached. The work is mostly in the mapping: understanding what actually happens at each step before building anything.</p>"
 solution_answer: "Workflow automation is the practice of connecting tools and defining triggers so a task, approval, or request moves between people and systems automatically instead of depending on someone remembering to act."
-approach: "<p>We start by mapping the workflow as it actually runs today, including the informal workarounds nobody wrote down, before proposing what to automate. A workflow that changes shape every time it runs is not ready for automation - it needs to be stabilised first, otherwise the build just encodes the inconsistency permanently.</p>"
+approach: "<p>We start by mapping the workflow as it actually runs today, including the informal workarounds nobody wrote down, before proposing what to automate. A workflow that changes shape every time it runs isn't ready for automation - it needs to be stabilised first.</p>"
 capabilities:
     - { title: 'Cross-Department Workflow Mapping', items: ['Process discovery across finance, ops, and HR', 'Identification of manual handoffs worth automating', 'Flagging of processes too inconsistent to automate yet'] }
     - { title: 'Tool & Handoff Integration', items: ['Direct integration between systems that currently require manual re-entry', 'Trigger-based data handoff between tools', 'Notification routing to the right person automatically'] }

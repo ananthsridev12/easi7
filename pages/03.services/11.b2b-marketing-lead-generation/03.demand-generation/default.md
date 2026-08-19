@@ -16,9 +16,9 @@ sitemap:
     changefreq: monthly
     priority: !!float 0.6
 
-definition: "<p>Demand generation is the set of marketing activities that build awareness of and interest in a problem category before a buyer starts actively searching for a solution to it. It sits upstream of direct-response lead generation, which only captures demand that already exists in the form of an active search or a filled-out form.</p>"
+definition: "<p>We build awareness of and interest in your problem category before a buyer starts actively searching for a solution to it. It sits upstream of direct-response lead generation, which only captures demand that already exists in the form of an active search or a filled-out form.</p>"
 definition_answer: 'Demand generation is marketing that builds awareness of a problem and its solution category ahead of active buying intent, as distinct from lead generation, which captures intent that already exists.'
-why_it_matters: "<p>Most of a B2B buying committee is not actively searching at any given moment - they're early, unaware they have a named problem, or aware but not yet evaluating vendors. A program that only runs direct-response lead gen is competing for the small, expensive pool of people who are already searching, and ignoring everyone who will search eventually once the category becomes clear to them.</p><p>Demand generation is how that later search demand gets created in the first place, rather than waited on.</p>"
+why_it_matters: "<p>Most of a B2B buying committee isn't actively searching at any given moment - they're early, unaware they have a named problem, or aware but not yet evaluating vendors. A program that only runs direct-response lead gen competes for the small, expensive pool already searching, and ignores everyone who will search eventually once the category becomes clear to them. Demand generation is how that later search demand gets created in the first place, rather than waited on.</p>"
 diagram: "Category Education -> Awareness -> Consideration -> Active Search -> Direct-Response Capture"
 challenges:
     - 'Attribution is harder because the impact shows up as later-stage conversion lift, not immediate form fills.'

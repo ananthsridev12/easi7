@@ -2,8 +2,8 @@
 title: 'Investor Presentations'
 template: service-detail-a
 eyebrow: 'Presentation Design'
-headline: 'Credibility signalled through design discipline'
-tagline: 'Investor presentation design for board meetings, funding rounds, and stakeholder updates.'
+headline: 'Investor Decks That Build Confidence, Not Doubt'
+tagline: 'Investor and board presentation design that makes your numbers easy to trust at a glance.'
 primary_intent: 'commercial - service research'
 entities: ['Investor Decks', 'Board Presentations', 'Financial Visualisation', 'Recurring Templates', 'Confidential Formatting']
 tools: ['Investor Decks', 'Board Presentations']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Investors and board members read a cluttered, inconsistent deck as a signal about the business itself, not just the design - if the numbers can't be presented clearly, it raises the question of whether they're being managed clearly either. A deck stuffed with dense tables and decorative elements competing with the actual data undermines credibility before a single question gets asked.</p><p>Recurring investor updates carry an additional problem: without a consistent template, each quarterly deck looks like it came from a different company, making it harder for investors to track progress over time.</p>"
-solution: "<p>We design investor and board decks around data clarity first - metrics presented so the trend is visible immediately, without decoration competing for attention. For recurring updates, a consistent quarterly template means investors can compare period to period without relearning the format every time.</p>"
+problem: "<p>A cluttered, inconsistent deck makes investors question the business itself, not just the design. Recurring updates make it worse: without a consistent template, every quarterly deck looks like it came from a different company, and investors lose the thread on your progress.</p>"
+solution: "<p>We design investor and board decks around data clarity first, so the trend is obvious at a glance instead of buried under decoration. For recurring updates, a consistent template means investors can compare period to period without relearning the format every time.</p>"
 solution_answer: "Investor presentation design is structuring financial and metric data for immediate clarity, in a consistent format investors can track update over update."
-approach: "<p>We start with the metrics that actually matter to the specific update - fundraising, board meeting, or quarterly review each emphasise different data. Charts are simplified to the trend that matters, board-ready structure is applied consistently, and confidential material is handled with print and distribution safety in mind from the start.</p>"
+approach: "<p>We start with the metrics that actually matter for the specific update - fundraising, board meeting, or quarterly review each call for a different emphasis. Charts get simplified to the trend that matters, structure follows board-ready pacing, and confidential material is handled with print and distribution safety in mind from day one.</p>"
 capabilities:
     - { title: 'Financial & Metric Visualisation', items: ['Chart and data visualisation prioritising trend clarity', 'Consistent metric formatting across periods'] }
     - { title: 'Board-Ready Structure', items: ['Structure suited to board meeting pacing and scrutiny', 'Clear separation of headline metrics and supporting detail'] }

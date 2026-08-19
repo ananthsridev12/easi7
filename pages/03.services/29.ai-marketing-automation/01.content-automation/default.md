@@ -2,8 +2,8 @@
 title: 'Content Automation'
 template: service-detail-a
 eyebrow: 'Content Automation'
-headline: 'First drafts generated, humans editing for judgment'
-tagline: 'AI-assisted content automation that produces first drafts and variations at volume, with a defined human review step before anything publishes.'
+headline: 'Scale Content Production Without Losing Your Brand Voice'
+tagline: 'Produce content at volume without sacrificing brand voice or the review that catches what matters.'
 primary_intent: 'commercial - service research'
 entities: ['First-Draft Generation', 'Content Variation', 'Template Automation', 'Human Review Workflow', 'Brand Voice Consistency']
 tools: ['AI Drafting', 'Template Automation', 'Brand Voice Checks']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Repetitive content production is where marketing teams lose the most hours to the least judgment - product description variants, ad copy permutations, social captions, and subject-line tests all need to exist in volume, but none of them require a person to originate every version from a blank page. When a writer spends an afternoon manually drafting fifteen versions of the same product description, the actual creative decision happened once; the other fourteen were mechanical repetition dressed up as writing.</p><p>Avoiding AI drafting entirely because \"the brand voice will slip\" trades one problem for a worse one - a backlog of content that never gets made, or a rushed version made without review. The real question isn't whether to use AI for first drafts, it's whether a defined review step stands between a generated draft and anything that actually publishes.</p>"
-solution: "<p>Content automation here means AI-generated first drafts and variations produced against a defined template and brand voice ruleset, with human review built into the workflow rather than treated as an afterthought. The system handles volume - the fifteenth product description, the sixth subject-line test - and a person makes the calls that actually require judgment: does this sound like us, is this claim accurate, does this fit the campaign.</p>"
+problem: "<p>Product descriptions, ad variants, and subject-line tests all need to exist in volume, but writers end up drafting the same idea fifteen times instead of making one creative decision and letting a system handle the repetition. Avoiding AI here just trades one problem for a worse one: a content backlog that never clears.</p>"
+solution: "<p>Content automation means AI-generated first drafts and variations produced against a defined template and brand voice ruleset, with human review built into the workflow rather than treated as an afterthought. The system handles volume; a person makes the calls that require judgment - does this sound like us, is this accurate.</p>"
 solution_answer: "Content automation uses AI to generate first drafts and variations at volume, with a human review step confirming brand voice and accuracy before anything publishes."
-approach: "<p>We start by defining the templates and brand voice rules the generation runs against, because a model producing drafts with no constraints just produces generic content faster. Review checkpoints get built into the workflow itself - not a separate step someone has to remember - so nothing generated goes out without a person confirming it actually fits.</p>"
+approach: "<p>We start by defining the templates and brand voice rules the generation runs against, because a model with no constraints just produces generic content faster. Review checkpoints get built into the workflow itself, not a separate step someone has to remember, so nothing generated goes out unchecked.</p>"
 capabilities:
     - { title: 'First-Draft Generation', items: ['AI-assisted drafting for repetitive content types - product copy, ad variants, captions', 'Prompt and template design specific to your content types', 'Output volume scaled to actual production need, not maximum output'] }
     - { title: 'Content Variation', items: ['Multiple on-brand variants generated for A/B and multivariate testing', 'Variation across headline, body, and call-to-action independently', 'Variant tracking tied back to test results'] }

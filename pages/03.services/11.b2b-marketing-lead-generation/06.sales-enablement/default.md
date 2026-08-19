@@ -16,9 +16,9 @@ sitemap:
     changefreq: monthly
     priority: !!float 0.6
 
-definition: "<p>Sales enablement is the practice of packaging what marketing already knows - competitive positioning, proof points, objection responses - into material a sales rep can actually use inside a live deal, rather than leaving that knowledge sitting in a content calendar or a marketing team's head.</p>"
+definition: "<p>We package what marketing already knows - competitive positioning, proof points, objection responses - into material a sales rep can actually use inside a live deal, instead of leaving that knowledge sitting in a content calendar or a marketing team's head.</p>"
 definition_answer: 'Sales enablement is the process of turning marketing and product knowledge into battle cards, case studies, and deal-stage content that a sales rep can use directly in a conversation with a prospect.'
-why_it_matters: "<p>Marketing frequently has more current, more accurate competitive information than a rep does on a call, simply because marketing does the research and reps are busy running deals. Without a deliberate handoff mechanism, that knowledge never reaches the room where it would actually change an outcome.</p><p>Mapping content to deal stage and building a real feedback loop from reps back to marketing is what keeps that knowledge current and actually used, instead of published once and forgotten.</p>"
+why_it_matters: "<p>Marketing frequently has more current, more accurate competitive information than a rep does on a call, simply because marketing does the research and reps are busy running deals. Without a deliberate handoff mechanism, that knowledge never reaches the room where it would actually change an outcome - mapping content to deal stage and building a real feedback loop from reps back to marketing is what keeps it current and actually used, instead of published once and forgotten.</p>"
 challenges:
     - "Content goes stale fast without a feedback loop from reps back to whoever maintains it."
     - "Reps won't use material that doesn't match how they actually talk in a call, however accurate it is."

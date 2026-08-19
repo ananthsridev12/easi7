@@ -2,8 +2,8 @@
 title: 'Measurement Strategy'
 template: service-detail-a
 eyebrow: 'Measurement Strategy'
-headline: 'Decide what to measure before deciding how to track it'
-tagline: 'Measurement strategy that defines the metrics which actually matter before any tracking implementation begins.'
+headline: 'Decide What to Measure Before You Decide How to Track It'
+tagline: 'Measurement strategy that defines the metrics that actually matter before any tracking implementation begins.'
 primary_intent: 'commercial - service research'
 entities: ['Measurement Strategy', 'KPI Hierarchy', 'Measurement Plan', 'Business Question Mapping', 'Stakeholder Alignment']
 service_url: /services/analytics-consulting/measurement-strategy
@@ -14,10 +14,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most tracking projects start with a tool - GA4, a dashboard, a reporting suite - and only ask what to measure after the tool is already half-configured. That order produces plenty of events firing and plenty of charts rendering, with nobody able to say which of them the business actually needs to see. A dashboard gets built, reviewed twice, then quietly ignored because it was never tied to a decision anyone had to make.</p><p>The failure is rarely technical. The tracking usually works fine - it just measures things nobody asked for, while the metric that would actually change a decision was never defined in the first place.</p>"
-solution: "<p>A measurement strategy inverts that order: business questions get mapped to specific metrics before any implementation work starts. Every KPI on the resulting list has to trace back to a decision it would inform - if it doesn't, it doesn't make the list, no matter how easy it would be to track.</p>"
+problem: "<p>Most tracking projects start with a tool and only ask what to measure after it's half-configured, producing plenty of events firing and charts rendering that nobody actually needs. The failure is rarely technical - the tracking usually works fine, it just measures things nobody asked for, while the metric that would actually change a decision was never defined.</p>"
+solution: "<p>A measurement strategy inverts that order: business questions get mapped to specific metrics before any implementation starts. Every KPI on the resulting list has to trace back to a decision it would inform - if it doesn't, it doesn't make the list, no matter how easy it would be to track.</p>"
 solution_answer: "Measurement strategy is the process of defining which metrics actually answer the business's real questions, documented before any tracking or dashboard work begins."
-approach: "<p>We start with the decisions the business needs to make, not the data currently available, then work backward to the specific metrics that inform those decisions and the KPI hierarchy that ties them together. The resulting measurement plan gets documented and signed off by whoever owns each decision, so there's no ambiguity later about what a number is supposed to mean.</p>"
+approach: "<p>We start with the decisions the business needs to make, not the data currently available, then work backward to the specific metrics and KPI hierarchy that ties them together. The resulting plan gets documented and signed off by whoever owns each decision, so there's no ambiguity later.</p>"
 capabilities:
     - { title: 'Business Question Mapping', items: ['Translating strategic questions into measurable proxies', 'Prioritising which questions actually need a metric'] }
     - { title: 'KPI Hierarchy & Definition', items: ['North-star metric selection', 'Supporting and diagnostic metric layers', 'Precise definitions that remove ambiguity'] }

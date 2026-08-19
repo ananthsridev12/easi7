@@ -3,7 +3,7 @@ title: 'Analytics Consulting'
 template: services
 eyebrow: 'Analytics Consulting'
 icon: "🧮"
-headline: 'Decide what to measure before deciding how'
+headline: 'Know what to measure before you decide how'
 tagline: 'Measurement strategy, attribution, tracking architecture, and data strategy built before implementation, not after.'
 tools: ['Measurement Strategy', 'Data Governance']
 taxonomy:
@@ -49,6 +49,4 @@ faqs:
 
 Tracking implementation without a measurement strategy behind it produces plenty of data and very few decisions - dashboards get built, nobody agreed in advance what they were supposed to answer, and they quietly stop getting checked.
 
-We start by deciding what to measure before deciding how: mapping business questions to specific KPIs, then building the measurement plan around that. Attribution strategy follows the same order - there's no universally correct model, only the one that's defensible given your actual sales cycle and channel mix, chosen deliberately rather than left at whatever a platform defaults to. Tracking architecture and data strategy underpin both, because tracking patched together incrementally over years without an underlying architecture becomes fragile and hard to trust.
-
-The recalibration matters as much as the initial setup - a measurement plan built for last year's funnel doesn't necessarily fit this year's.
+We decide what to measure before deciding how, mapping business questions to specific KPIs and choosing an attribution model that's defensible for your actual sales cycle rather than whatever a platform defaults to. The recalibration matters as much as the initial setup - a measurement plan built for last year's funnel doesn't necessarily fit this year's.

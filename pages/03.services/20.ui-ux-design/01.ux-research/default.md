@@ -2,7 +2,7 @@
 title: 'UX Research'
 template: service-detail-a
 eyebrow: 'UI/UX Design'
-headline: "Design decisions backed by what users actually do, not what stakeholders assume"
+headline: 'Base Design Decisions On What Users Actually Do'
 tagline: 'UX research combining user interviews, usability testing, and behavioural data before any design work starts.'
 service_url: /services/ui-ux-design/ux-research
 taxonomy:
@@ -16,10 +16,10 @@ sitemap:
 primary_intent: 'commercial - service research'
 entities: ['User Interviews', 'Usability Testing', 'Contextual Inquiry', 'Behavioural Analytics', 'Persona Development', 'User Journey Mapping']
 
-problem: "<p>Most redesign briefs start from an internal opinion - a stakeholder doesn't like how a page looks, or a competitor shipped something newer. That's not evidence of a problem users actually have, and building on it means the new version can fail the same people the old one did, just in a different way.</p><p>Analytics tell you where people drop off. They don't tell you why. A team staring at a funnel chart can guess at five different explanations for the same drop-off point, and without talking to actual users, the redesign ends up solving the wrong one.</p>"
-solution: "<p>UX research closes that gap by putting real usage in front of the decision instead of behind it. Interviews and usability sessions surface the reasoning people apply in the moment - what they expected, what confused them, where they gave up - which no dashboard captures on its own.</p><p>Done properly, research isn't a report that gets filed away. It becomes the brief the design work is built against, so structural decisions are traceable back to something a real person said or did, not to whoever argued loudest in the review meeting.</p>"
+problem: "<p>Most redesign briefs start from an internal opinion - a stakeholder doesn't like how a page looks, or a competitor shipped something newer. That's not evidence of a problem users actually have, and building on it means the new version can fail the same people the old one did, just in a different way. Analytics tell you where people drop off, but not why, and a team staring at a funnel chart can guess at five explanations without ever finding the right one.</p>"
+solution: "<p>UX research puts real usage in front of the decision instead of behind it. Interviews and usability sessions surface the reasoning people apply in the moment - what they expected, what confused them, where they gave up - and the findings become the brief the design work is built against, so decisions trace back to something a real person said or did, not whoever argued loudest in the review meeting.</p>"
 solution_answer: 'UX research is the process of finding out how people actually use a product or site - through interviews, usability testing, and behavioural data - before committing to a design direction, so decisions are based on observed behaviour rather than internal assumptions.'
-approach: "<p>We run research proportionate to the decision it's informing - a handful of moderated interviews and a session-recording review for a focused feature, a fuller programme of usability testing and journey mapping ahead of a full redesign. Every engagement ends the same way: findings synthesised into a design brief the next phase can actually work from, not a slide deck that gets read once.</p>"
+approach: "<p>We run research proportionate to the decision it's informing - a handful of moderated interviews for a focused feature, a fuller programme of usability testing and journey mapping ahead of a full redesign. Every engagement ends the same way: findings synthesised into a design brief the next phase can actually work from.</p>"
 capabilities:
     - { title: 'User Interviews & Contextual Inquiry', items: ['Moderated one-on-one interviews', 'Task-based observation in context', 'Stakeholder assumption interviews'] }
     - { title: 'Usability Testing', items: ['Testing on live products or prototypes', 'Task completion and error rate review', 'Think-aloud protocol sessions'] }
@@ -32,12 +32,12 @@ deliverables:
     - { a: 'Synthesis', b: 'Findings grouped into patterns, not a raw transcript dump' }
     - { a: 'Handoff', b: 'A design brief with prioritised findings the next phase is built against' }
 process:
-    - { title: 'Scope the question', body: 'Define what decision the research needs to inform before choosing a method - this determines whether interviews, testing, or analytics review is the right tool.' }
+    - { title: 'Scope', body: 'Define what decision the research needs to inform before choosing a method - this determines whether interviews, testing, or analytics review is the right tool.' }
     - { title: 'Recruit', body: 'Source participants who match the real user base, not whoever is easiest to reach.' }
-    - { title: 'Run sessions', body: 'Conduct interviews or usability tests, recorded where consent allows, with a consistent script across participants.' }
-    - { title: 'Review behavioural data', body: 'Cross-check what people said against what analytics and session recordings show them actually doing.' }
-    - { title: 'Synthesise', body: 'Group findings into patterns and prioritise which ones actually change the design direction.' }
-    - { title: 'Hand off', body: 'Deliver a brief the design team can act on directly, with the reasoning behind each finding intact.' }
+    - { title: 'Test', body: 'Conduct interviews or usability tests, recorded where consent allows, with a consistent script across participants.' }
+    - { title: 'Review', body: 'Cross-check what people said against what analytics and session recordings show them actually doing.' }
+    - { title: 'Synthesize', body: 'Group findings into patterns and prioritise which ones actually change the design direction.' }
+    - { title: 'Handoff', body: 'Deliver a brief the design team can act on directly, with the reasoning behind each finding intact.' }
 comparison:
     headers: ['Research-Led Design', 'Opinion-Led Design']
     rows:

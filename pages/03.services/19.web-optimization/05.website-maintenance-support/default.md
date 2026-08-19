@@ -2,8 +2,8 @@
 title: 'Website Maintenance & Support'
 template: service-detail-b
 eyebrow: 'Web Optimization'
-headline: 'A site that keeps working after launch'
-tagline: 'Ongoing website maintenance and support covering updates, monitoring, and small fixes - the recurring work that keeps a site from quietly degrading.'
+headline: 'Keep Your Site Running Long After Launch Day'
+tagline: 'Ongoing updates, monitoring, and small fixes so your site never quietly degrades between projects.'
 tools: ['Maintenance', 'Ongoing Support']
 service_url: /services/web-optimization/website-maintenance-support
 taxonomy:
@@ -17,7 +17,7 @@ sitemap:
 primary_intent: 'commercial - service research'
 entities: ['CMS Maintenance', 'Uptime Monitoring', 'Broken Link Audits', 'Content Support', 'Health Reporting']
 
-overview: "<p>Website maintenance is the recurring work of keeping a launched site running correctly - applying updates, watching for downtime or errors, fixing broken links, and handling the small content changes that come up between larger projects. None of it is a single deliverable; it's a standing arrangement, because a site that isn't actively maintained accumulates small problems that eventually become large ones.</p><p>Teams without this in place usually notice it in reverse - a plugin conflict nobody caught, a page that's been throwing errors for weeks, a broken link buried three levels deep that a customer finally reports. Maintenance is what catches these before a customer does.</p>"
+overview: "<p>A site that isn't actively maintained accumulates small problems until they become large ones - a plugin conflict nobody caught, a page throwing errors for weeks, a broken link a customer finally reports. We handle the recurring work - updates, monitoring, small fixes, and content changes - so problems get caught before your customers find them.</p>"
 overview_answer: "Website maintenance and support is ongoing, recurring work - updates, monitoring, small fixes, and content support - that keeps a site running correctly after launch instead of degrading unnoticed."
 capabilities:
     - { title: 'Updates', items: ['Regular CMS core and plugin updates', 'Compatibility checks before updates are applied'] }

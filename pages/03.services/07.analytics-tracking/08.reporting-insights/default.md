@@ -2,8 +2,8 @@
 title: 'Reporting & Insights'
 template: service-detail-a
 eyebrow: 'Reporting & Insights'
-headline: 'A report that says what to do next'
-tagline: 'Regular reporting that includes analysis and recommendations, not just a wall of numbers.'
+headline: 'Get Reports That End in a Decision, Not a Wall of Numbers'
+tagline: 'Every report we send pairs the numbers with a clear, specific recommendation - not just data.'
 primary_intent: 'commercial - service research'
 entities: ['Marketing Reporting', 'Anomaly Detection', 'Performance Analysis', 'Stakeholder Reporting', 'Trend Benchmarking']
 service_url: /services/analytics-tracking/reporting-insights
@@ -14,8 +14,8 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most recurring marketing reports are a wall of numbers with no interpretation attached. Traffic is up, conversions are down, spend moved a certain percentage - the recipient is left to work out on their own whether any of that matters, and what, if anything, should happen next. Reports in that format tend to get skimmed at best, and the genuinely useful signal buried inside them - an anomaly, an early trend, a channel quietly underperforming - goes unnoticed until it has compounded over several reporting periods.</p><p>The problem is not a lack of data. Most organisations already have more numbers than anyone reads. The gap is between the numbers and a specific, stated next action.</p>"
-solution: "<p>A report that is worth reading pairs the numbers with an explanation of what changed and why, flags anomalies before they get buried in a routine update, and ends with a specific recommendation rather than a summary. It is also formatted differently depending on who is reading it - an executive summary and a practitioner-level breakdown of the same data are not the same document.</p>"
+problem: "<p>Most recurring marketing reports are a wall of numbers with no interpretation attached - traffic is up, conversions are down, spend moved, and the recipient is left to work out on their own whether any of it matters. The genuinely useful signal buried inside - an anomaly, an early trend, a channel quietly underperforming - goes unnoticed until it has compounded over several reporting periods, and the gap usually isn't a lack of data, it's the absence of a specific, stated next action.</p>"
+solution: "<p>A report worth reading pairs the numbers with an explanation of what changed and why, flags anomalies before they get buried in a routine update, and ends with a specific recommendation rather than a summary. It's also formatted differently depending on who's reading it - an executive summary and a practitioner-level breakdown of the same data are not the same document.</p>"
 solution_answer: "Reporting and insights means pairing performance numbers with analysis and a specific recommendation, formatted for the stakeholder reading it, instead of handing over raw metrics."
 approach: "<p>Every report we produce is built to end in a decision. That means checking for anomalies before anything goes into the report rather than waiting for someone to ask about a strange number, explaining the movement in the data rather than just stating it happened, and matching the format to the audience so an executive gets a summary and a practitioner gets the detail behind it.</p>"
 capabilities:
@@ -25,12 +25,12 @@ capabilities:
     - { title: 'Stakeholder-Specific Formats', items: ['Executive summary versus practitioner-level detail', 'Format matched to how each audience actually reads a report'] }
     - { title: 'Historical Trend & Benchmarking', items: ['Comparing current performance to a historical baseline, not just period-over-period', 'Flagging seasonality so it is not mistaken for a real trend'] }
 process:
-    - { title: 'Data Collection', body: 'Performance data is pulled from every relevant platform and reconciled against a source of truth.' }
+    - { title: 'Collection', body: 'Performance data is pulled from every relevant platform and reconciled against a source of truth.' }
     - { title: 'Anomaly Check', body: 'Unusual shifts are flagged and investigated before anything goes into the report, not after someone asks about it.' }
     - { title: 'Analysis', body: 'Movement in the numbers is explained, not just stated - what changed and the most likely reason why.' }
     - { title: 'Recommendation', body: 'Every report ends with a specific next action, not just a summary of what happened.' }
-    - { title: 'Stakeholder Formatting', body: 'The same underlying data is packaged differently for an executive summary versus a practitioner deep-dive.' }
-    - { title: 'Delivery & Review', body: 'Reports are walked through rather than only emailed, so questions get answered in real time.' }
+    - { title: 'Formatting', body: 'The same underlying data is packaged differently for an executive summary versus a practitioner deep-dive.' }
+    - { title: 'Delivery', body: 'Reports are walked through rather than only emailed, so questions get answered in real time.' }
 comparison:
     headers: ['Analysis-Led Reporting', 'Raw Metrics Reporting']
     rows:

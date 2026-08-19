@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A newsletter is the one recurring reason your audience hears from you that isn't tied to a sale or a launch. Done well, it's the channel that keeps a brand top-of-mind between purchases or between projects, which is exactly the gap most businesses have no other mechanism for filling. Done poorly, it's a recurring obligation that exists because someone decided it should, with no clear reason for the reader to open the tenth issue after skipping the first three.</p><p>The difference between the two usually isn't production quality - it's whether the newsletter has a specific, repeatable reason to open built into its format, rather than being whatever content happened to be available that month.</p>"
+overview: "<p>A newsletter is the one recurring reason your audience hears from you that isn't tied to a sale or a launch - done well, it keeps you top-of-mind between purchases or projects. We build the format, the template, and the cadence to give the newsletter a specific reason to open every issue, not just whatever content happened to be around that month.</p>"
 overview_answer: "Newsletter marketing is building and running a recurring, non-promotional email that gives a business a consistent reason to stay in front of its audience between sales."
 capabilities:
     - { title: 'Format & Content Planning', items: ['Recurring content format with a defined, repeatable structure', "Content sourcing plan so issues don't run dry after the first few"] }

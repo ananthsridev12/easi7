@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Meta rewards accounts that test fast and react faster than the algorithm can drift away from what's working. Treating an ad account as a live experiment, not a set-and-forget budget line, is what separates accounts that hold a stable ROAS from ones that spike and decay every few weeks.</p><p>That means bid strategy selection tied to the actual campaign objective, a creative testing cadence fast enough to catch fatigue before it shows up in the numbers, and tracking accuracy - Conversions API and pixel setup - solid enough that the platform's own optimisation isn't working from bad data.</p>"
+overview: "<p>Meta rewards accounts that test fast and react faster than the algorithm can drift away from what's working. We treat your ad account as a live experiment, not a set-and-forget budget line - bid strategy matched to the objective, creative rotated before fatigue shows up in the numbers, and tracking accurate enough that the platform is optimising on real data.</p>"
 overview_answer: "Meta Ads management is running Facebook and Instagram campaigns with a bid strategy, budget structure, and creative testing cadence built around holding ROAS steady, not just maximising reach."
 capabilities:
     - { title: 'Campaign Structure & Budget Allocation', items: ['Campaign and ad set structure by objective', 'Budget pacing across active campaigns'] }

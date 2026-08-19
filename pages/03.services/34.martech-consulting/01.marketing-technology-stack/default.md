@@ -2,8 +2,8 @@
 title: 'Marketing Technology Stack'
 template: service-detail-a
 eyebrow: 'Marketing Technology Stack'
-headline: 'A stack chosen for what you need, not what''s trending'
-tagline: 'Marketing technology stack audits and recommendations based on actual workflow requirements, not feature checklists.'
+headline: 'Choose Your Stack for What You Need, Not What''s Trending'
+tagline: 'Marketing technology stack audits based on actual workflow requirements, not feature checklists.'
 primary_intent: 'commercial - service research'
 entities: ['MarTech Stack Audit', 'Tool Overlap', 'Stack Consolidation', 'Workflow Requirements', 'Stack Governance']
 tools: ['MarTech Stack Audits', 'Tool Rationalisation']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most marketing stacks are the product of years of individual purchase decisions, not one coherent plan. A tool gets bought to solve one team's problem, another gets added when someone changes jobs and brings a preference with them, and nobody goes back to check whether the earlier tool is still needed once the new one is in place. The result is overlap that nobody notices because each tool technically has a user - just not enough of one to justify the license.</p><p>The usual response to a workflow gap is to buy something new rather than audit what's already paid for. That's backwards more often than not: the capability being shopped for frequently already exists somewhere in the current stack, unused or half-configured.</p>"
-solution: "<p>A stack audit starts from actual usage and workflow requirements, not a feature comparison spreadsheet. We map what every tool in the stack is supposed to do, what it's actually being used for, and where two or three tools are quietly doing the same job. That map becomes the basis for consolidation decisions - and for whether a new purchase is genuinely justified or just easier than fixing what's already there.</p>"
+problem: "<p>Most marketing stacks are the product of years of individual purchase decisions, not one coherent plan - a tool bought to solve one team's problem, another added when someone brought a preference from a past job, with nobody checking whether the earlier tool is still needed. The usual response to a workflow gap is buying something new rather than auditing what's already paid for, and the capability being shopped for often already exists somewhere in the stack, unused.</p>"
+solution: "<p>A stack audit starts from actual usage and workflow requirements, not a feature comparison. We map what every tool is supposed to do, what it's actually used for, and where two or three tools are quietly doing the same job - and that map becomes the basis for consolidation or a genuinely justified new purchase.</p>"
 solution_answer: "A marketing technology stack audit is a structured review of every tool a marketing team pays for, measured against real workflow needs, to find overlap, underused licenses, and genuine gaps before any new purchase is considered."
-approach: "<p>We start with a full inventory - every tool, every license, every integration - because most audits stall at this step simply due to nobody having a current list. From there, usage data and interviews with the people actually working in each tool tell us more than a vendor's feature page ever will. Recommendations get prioritised by what saves money or unblocks a workflow fastest, not by what's most interesting to implement.</p>"
+approach: "<p>We start with a full inventory - every tool, license, and integration - because most audits stall simply because nobody has a current list. Usage data and interviews with the people actually working in each tool tell us more than a vendor's feature page ever will, and recommendations get prioritised by what saves money or unblocks a workflow fastest.</p>"
 capabilities:
     - { title: 'Stack Discovery & Inventory', items: ['Full audit of every active marketing and sales tool', 'License, contract, and renewal timeline mapping'] }
     - { title: 'Overlap & Redundancy Analysis', items: ['Tool-by-tool comparison of actual function versus intended function', 'Identification of duplicated capability across the stack'] }

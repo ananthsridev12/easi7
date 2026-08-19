@@ -2,7 +2,7 @@
 title: 'Brand Strategy'
 template: service-detail-a
 eyebrow: 'Branding'
-headline: 'Positioning before a single visual decision'
+headline: 'Define Your Positioning Before Any Visual Decision'
 tagline: 'Positioning, voice, and competitive differentiation defined before any visual identity work begins.'
 tools: ['Positioning Workshops', 'Competitive Brand Audits', 'Messaging Frameworks']
 service_url: /services/branding/brand-strategy
@@ -15,10 +15,10 @@ sitemap:
     priority: !!float 0.6
 primary_intent: 'commercial - service research'
 entities: ['Brand Positioning', 'Brand Voice', 'Competitive Brand Audit', 'Messaging Pillars', 'Audience Segmentation', 'Brand Strategy Documentation']
-problem: "<p>Most branding requests arrive as a visual brief - \"we need a new logo\" or \"our website looks dated\" - when the actual problem sits one level up. If the sales team describes the company one way, the website says something else, and the founder has a third version in their head, no amount of visual polish fixes that. The mismatch shows up as inconsistent messaging, a value proposition that sounds like every competitor's, and a sales process where prospects ask questions the marketing should have already answered.</p><p>This gets worse the longer it's left unaddressed. Each new hire, agency, or freelancer fills the positioning gap with their own interpretation, and the brand drifts further from anything coherent - not because anyone did bad work, but because nobody defined what the brand was supposed to say in the first place.</p>"
-solution: "<p>Brand strategy is the work of deciding, deliberately and in writing, what the business stands for, who it's for, and why that should matter to the person deciding whether to buy. It covers positioning against named competitors rather than a generic SWOT, a voice specific enough to rule things out, and messaging that holds up whether it's said by a founder, a salesperson, or a website.</p>"
+problem: "<p>Most branding requests arrive as a visual brief - \"we need a new logo\" - when the actual problem sits one level up. If the sales team describes the company one way, the website says something else, and the founder has a third version in their head, no amount of visual polish fixes that. The mismatch shows up as inconsistent messaging, a value proposition that sounds like every competitor's, and a sales process where prospects ask questions marketing should have already answered.</p>"
+solution: "<p>We decide, deliberately and in writing, what the business stands for, who it's for, and why that should matter to the person deciding whether to buy. That covers positioning against named competitors rather than a generic SWOT, a voice specific enough to rule things out, and messaging that holds up whether it's said by a founder, a salesperson, or a website.</p>"
 solution_answer: "Brand strategy is the process of defining a business's positioning, voice, and competitive differentiation in writing, so every downstream decision - visual identity, website copy, sales messaging - works from the same foundation."
-approach: "<p>We start with stakeholder interviews and a competitive audit before writing anything, because a positioning statement built on assumptions instead of evidence rarely survives contact with a sales call. From there we draft positioning and messaging pillars, test the language against how the team actually talks to prospects, and document the result so it can be handed to a designer, a copywriter, or a new hire without a briefing call.</p>"
+approach: "<p>We start with stakeholder interviews and a competitive audit before writing anything, because a positioning statement built on assumptions rarely survives contact with a sales call. From there we draft positioning and messaging pillars, test the language against how the team actually talks to prospects, and document the result so it can be handed off without a briefing call.</p>"
 capabilities:
     - { title: 'Positioning & Differentiation', items: ['Competitive positioning analysis', 'Value proposition development', 'Category and market framing'] }
     - { title: 'Brand Voice & Messaging', items: ['Voice and tone definition', 'Messaging pillars and proof points', 'Tagline and boilerplate language'] }
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Competitive Audit', b: "A review of direct competitors' positioning and where genuine whitespace exists" }
     - { a: 'Documentation', b: 'A single strategy document usable by designers, copywriters, and new hires without a briefing call' }
 process:
-    - { title: 'Stakeholder Interviews', body: 'We talk to founders, sales, and customer-facing staff to find out where the current story is inconsistent or unclear.' }
-    - { title: 'Competitive Audit', body: 'We review how direct and indirect competitors position themselves, to avoid landing on language that sounds like everyone else.' }
-    - { title: 'Positioning Workshop', body: 'Findings are worked through with the team to agree on a positioning direction before any copy is drafted.' }
-    - { title: 'Draft Positioning & Messaging', body: 'We write the positioning statement, voice definition, and messaging pillars, then test them against real sales scenarios.' }
-    - { title: 'Review & Refine', body: 'Language is revised based on stakeholder feedback until it holds up under actual use, not just on paper.' }
-    - { title: 'Documentation & Handoff', body: 'The finished strategy is documented in a single reference, ready to brief designers, copywriters, or new hires.' }
+    - { title: 'Interview', body: 'We talk to founders, sales, and customer-facing staff to find out where the current story is inconsistent or unclear.' }
+    - { title: 'Audit', body: 'We review how direct and indirect competitors position themselves, to avoid landing on language that sounds like everyone else.' }
+    - { title: 'Workshop', body: 'Findings are worked through with the team to agree on a positioning direction before any copy is drafted.' }
+    - { title: 'Draft', body: 'We write the positioning statement, voice definition, and messaging pillars, then test them against real sales scenarios.' }
+    - { title: 'Refine', body: 'Language is revised based on stakeholder feedback until it holds up under actual use, not just on paper.' }
+    - { title: 'Handoff', body: 'The finished strategy is documented in a single reference, ready to brief designers, copywriters, or new hires.' }
 comparison:
     headers: ['With Defined Positioning', 'Without It']
     rows:

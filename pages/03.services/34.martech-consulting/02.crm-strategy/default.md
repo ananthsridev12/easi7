@@ -2,8 +2,8 @@
 title: 'CRM Strategy'
 template: service-detail-b
 eyebrow: 'CRM Strategy'
-headline: 'The CRM as a strategic asset, not a contact database'
-tagline: 'CRM strategy covering platform selection, data architecture, and adoption across sales and marketing.'
+headline: 'Turn Your CRM Into a Strategic Asset, Not a Chore'
+tagline: 'We cover platform selection, data architecture, and real adoption across sales and marketing.'
 primary_intent: 'commercial - service research'
 entities: ['CRM Platform Selection', 'Data Architecture', 'Adoption Planning', 'Legacy Migration', 'CRM Governance']
 tools: ['CRM Strategy', 'Data Architecture Review']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A CRM strategy engagement covers platform selection and data architecture, but the part that most implementations skip is adoption - getting the sales team to actually log activity in the system rather than around it. A CRM that sales doesn't trust turns into a compliance exercise: data gets entered because it's required, not because anyone believes it's useful, and the reporting built on top of it inherits that unreliability.</p><p>The technical build - fields, pipelines, integrations - is usually the easier half. The harder half is designing a system people want to use because it actually helps them sell, not just one that satisfies a reporting requirement from above.</p>"
+overview: "<p>A CRM that sales doesn't trust turns into a compliance exercise - data gets entered because it's required, not because anyone believes it's useful, and the reporting built on top of it inherits that unreliability. We cover platform selection and data architecture, but we treat adoption as the harder, more important half: a system people actually want to use because it helps them sell.</p>"
 overview_answer: "CRM strategy is the planning work that determines which platform to use, how data is structured inside it, and how sales and marketing teams actually adopt it - done before or alongside implementation, not as an afterthought once the system is already live."
 capabilities:
     - { title: 'Platform Selection & Evaluation', items: ['Requirements gathering across sales, marketing, and support', 'Vendor shortlisting and evaluation against actual workflow'] }

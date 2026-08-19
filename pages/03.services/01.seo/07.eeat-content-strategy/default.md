@@ -2,8 +2,8 @@
 title: 'E-E-A-T & Content Strategy'
 template: service-detail-a
 eyebrow: 'E-E-A-T & Content Strategy'
-headline: 'Experience, expertise, authority, and trust - demonstrated, not claimed'
-tagline: "Content and site signals built to satisfy Google's E-E-A-T framework for competitive, expertise-driven categories."
+headline: 'Prove Your Expertise So Google (and Readers) Actually Trust It'
+tagline: "We build the author credentials, first-hand detail, and sourcing that make your content read as genuinely expert - not just correct."
 primary_intent: 'commercial - service research'
 entities: ['E-E-A-T', 'Author Credentials', 'Content Depth', 'Trust Signals', 'Source Transparency']
 tools: ['Author Signals', 'Trust Signals', 'Content Depth Benchmarking']
@@ -15,8 +15,8 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A lot of content reads as generated to rank rather than genuinely informed - correct on the surface, thin underneath, with no indication of who actually wrote it or why they are qualified to. In competitive or expertise-sensitive categories, that gap is exactly what separates content that ranks and holds from content that gets outranked the moment a more credible competitor publishes on the same topic.</p><p>The problem compounds because it is often invisible to the team producing the content - it reads fine internally, and the missing signals (a named, credentialed author, a first-hand example, a cited source) only become obvious when compared directly against what is actually winning in the category.</p>"
-solution: "<p>E-E-A-T is not a checklist to satisfy - it is the difference between content that demonstrates real experience and expertise and content that merely asserts it. We build the actual signals: named authors with real credentials, first-hand experience woven into the content itself, transparent sourcing, and site-level trust markers that back up what the content claims.</p>"
+problem: "<p>A lot of content reads as generated to rank rather than genuinely informed - correct on the surface, thin underneath, with no sign of who wrote it or why they're qualified to. In competitive or expertise-sensitive categories, that gap is exactly what separates content that ranks and holds from content that gets outranked the moment a more credible competitor publishes on the same topic.</p>"
+solution: "<p>E-E-A-T isn't a checklist to satisfy - it's the difference between content that demonstrates real experience and expertise and content that merely claims it. We build the actual signals: named authors with real credentials, first-hand experience woven into the content, transparent sourcing, and site-level trust markers that back up what the content says.</p>"
 solution_answer: "E-E-A-T content strategy is building real, verifiable experience, expertise, authority, and trust signals into content and site structure, rather than relying on generic claims of credibility."
 approach: "<p>We start by benchmarking your content against what is currently winning in your category on the specific dimensions Google's guidelines describe - author credentials, depth, first-hand detail, and sourcing. From there we prioritise the gaps most likely to matter for your specific niche, since E-E-A-T weight varies significantly between a recipe blog and a medical or financial site.</p>"
 capabilities:
@@ -26,11 +26,11 @@ capabilities:
     - { title: 'Trust Signals', items: ['Reviews and testimonials displayed accurately', 'Security, privacy, and business legitimacy signals'] }
     - { title: 'Content Depth Benchmarking', items: ['Comparing content depth against top-ranking competitors', 'Identifying where competitors demonstrate expertise more convincingly'] }
 process:
-    - { title: 'Category Benchmarking', body: 'We compare your content against what already ranks well in your niche on each E-E-A-T dimension.' }
-    - { title: 'Author & Credential Audit', body: 'We check whether content is attributed to real, credentialed people and fix gaps where it is not.' }
-    - { title: 'Experience & Depth Review', body: 'Content is assessed for genuine first-hand detail versus generic, aggregated coverage.' }
-    - { title: 'Source & Citation Cleanup', body: 'Claims are checked against sources and citations are added where they are missing.' }
-    - { title: 'Trust Signal Implementation', body: 'Site-level trust markers are added or corrected where they are inconsistent or missing.' }
+    - { title: 'Benchmark', body: 'We compare your content against what already ranks well in your niche on each E-E-A-T dimension.' }
+    - { title: 'Audit', body: 'We check whether content is attributed to real, credentialed people and fix gaps where it is not.' }
+    - { title: 'Depth Review', body: 'Content is assessed for genuine first-hand detail versus generic, aggregated coverage.' }
+    - { title: 'Sourcing', body: 'Claims are checked against sources and citations are added where they are missing.' }
+    - { title: 'Trust', body: 'Site-level trust markers are added or corrected where they are inconsistent or missing.' }
 comparison:
     headers: ['Content With Real E-E-A-T Signals', 'Generic, Unattributed Content']
     rows:

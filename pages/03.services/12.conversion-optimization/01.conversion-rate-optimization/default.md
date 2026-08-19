@@ -2,8 +2,8 @@
 title: 'Conversion Rate Optimization'
 template: service-detail-a
 eyebrow: 'Conversion Rate Optimization'
-headline: 'Evidence first, redesign second'
-tagline: 'A systematic CRO process - diagnose with data, form hypotheses, test, and iterate.'
+headline: 'Stop Redesigning Pages Based on a Hunch'
+tagline: 'We diagnose with real visitor data before we test anything, so every change is backed by evidence, not opinion.'
 primary_intent: 'commercial - service research'
 entities: ['CRO', 'Hypothesis Testing', 'Heatmaps', 'Session Recordings', 'Statistical Significance', 'ICE Prioritization']
 tools: ['Heatmaps', 'Session Recordings', 'A/B Testing Platforms', 'Statistical Significance Calculators']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Changing a button colour and calling it CRO is how most \"optimisation\" fails quietly. Teams under pressure to move a number reach for whatever change feels obvious - a new hero image, a reworded headline, a brighter call-to-action - and ship it without ever confirming that was the thing actually stopping people from converting.</p><p>The deeper problem is that a redesign based on internal opinion treats every visitor drop-off as the same kind of problem, when in practice a confusing form, a slow page, and a mismatched offer all look identical in a top-line conversion rate but need completely different fixes.</p>"
+problem: "<p>Changing a button colour and calling it CRO is how most \"optimisation\" fails quietly. Teams under pressure to move a number reach for whatever change feels obvious - a new hero image, a reworded headline, a brighter call-to-action - and ship it without ever confirming that was the thing actually stopping people from converting, treating every drop-off as the same problem when a confusing form, a slow page, and a mismatched offer all need completely different fixes.</p>"
 solution: "<p>Conversion rate optimisation done properly starts with evidence - heatmaps, session recordings, and funnel data that show what visitors actually did, not what the team assumes they did. A hypothesis gets formed from that evidence, prioritised against the effort it takes to test, and only then does a variant get built.</p>"
 solution_answer: "Conversion rate optimisation is the systematic process of diagnosing where and why visitors fail to convert, then testing specific, evidence-backed hypotheses instead of redesigning on instinct."
 approach: "<p>We run diagnostics before we run tests. That means heatmaps and session recordings on the pages losing the most people, a funnel breakdown to confirm where the actual leak is, and a prioritised backlog of hypotheses scored by expected impact against effort to implement. Every test that follows has a sample size calculated before launch and a minimum run time long enough to capture a full weekly traffic pattern - a test called early because a number looked good creates false confidence, which is worse than no test at all.</p>"
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Test Execution', b: 'Build, QA, and launch of each test with a pre-calculated sample size' }
     - { a: 'Reporting', b: 'Statistical readout at test end with a clear rollout, iterate, or kill recommendation' }
 process:
-    - { title: 'Diagnostic Audit', body: 'Heatmaps, session recordings, and funnel data establish where visitors are actually dropping off before anything is proposed.' }
-    - { title: 'Hypothesis Formation', body: 'Each finding gets turned into a specific, testable hypothesis about why the drop-off is happening.' }
+    - { title: 'Diagnose', body: 'Heatmaps, session recordings, and funnel data establish where visitors are actually dropping off before anything is proposed.' }
+    - { title: 'Hypothesis', body: 'Each finding gets turned into a specific, testable hypothesis about why the drop-off is happening.' }
     - { title: 'Prioritisation', body: 'Hypotheses are scored by expected impact against effort, so the highest-leverage tests run first.' }
-    - { title: 'Test Design & Sample Size', body: 'Sample size and minimum run time are calculated before a single line of the test is built.' }
-    - { title: 'Test Execution & Monitoring', body: 'The test runs to its planned duration - we do not call it early because an early number looks good.' }
-    - { title: 'Rollout & Documentation', body: 'Winning variants get rolled out, and the result - win, loss, or inconclusive - is documented for the next test.' }
+    - { title: 'Design', body: 'Sample size and minimum run time are calculated before a single line of the test is built.' }
+    - { title: 'Execution', body: 'The test runs to its planned duration - we do not call it early because an early number looks good.' }
+    - { title: 'Rollout', body: 'Winning variants get rolled out, and the result - win, loss, or inconclusive - is documented for the next test.' }
 comparison:
     headers: ['Diagnostic-Led CRO', 'Redesign by Instinct']
     rows:

@@ -2,8 +2,8 @@
 title: 'Facebook & Instagram Ads'
 template: service-detail-a
 eyebrow: 'Facebook & Instagram Ads'
-headline: 'Full-funnel Meta campaigns, not just boosted posts'
-tagline: 'Facebook and Instagram campaigns structured by funnel stage - cold, warm, and hot audiences each get a different message and budget.'
+headline: 'Stop Showing the Same Ad to Everyone on Facebook and Instagram'
+tagline: 'Cold, warm, and hot audiences get their own message and budget, so spend goes where it actually converts.'
 primary_intent: 'commercial - service research'
 entities: ['Meta Ads Manager', 'Conversions API', 'Meta Pixel', 'Lookalike Audiences', 'Funnel Segmentation', 'Retargeting']
 tools: ['Meta Ads Manager', 'Meta Pixel', 'Conversions API', 'Lookalike Audiences']
@@ -15,8 +15,8 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.7
-problem: "<p>Most Meta accounts run one message to everyone - the same ad shown to a cold stranger and a cart abandoner, with the budget split however it happened to land rather than where it actually converts. Boosting a post that performed well organically feels productive, but it isn't a funnel, it's a guess repeated at scale.</p><p>The tracking side compounds the problem. Since iOS 14's App Tracking Transparency changes, browser-only pixel data under-reports conversions, which means budget decisions made on that data alone are already working from an incomplete picture before a single dollar moves.</p>"
-solution: "<p>Full-funnel Meta advertising means cold, warm, and hot audiences each get creative and messaging matched to where they actually are - problem-framing content for people who have never heard of you, comparison and proof content for people who have visited but not converted, and a direct offer for people who are already close. Layered on top of that is Conversions API tracking, which restores conversion visibility that the browser pixel alone now misses.</p>"
+problem: "<p>Most Meta accounts run one message to everyone - the same ad shown to a cold stranger and a cart abandoner, with budget split however it happened to land. Boosting a post that did well organically feels productive, but it isn't a funnel, it's a guess repeated at scale, and since iOS 14 the pixel alone under-reports conversions, so those budget decisions are already working from an incomplete picture.</p>"
+solution: "<p>Full-funnel Meta advertising means cold, warm, and hot audiences each get creative matched to where they actually are - problem-framing content for people who've never heard of you, proof for people who've visited but not converted, and a direct offer for people who are already close. Conversions API tracking layered on top restores the conversion visibility the browser pixel alone now misses.</p>"
 solution_answer: "Full-funnel Meta advertising is running separate campaigns for cold, warm, and hot audiences, each with creative suited to that stage, tracked through both the Meta Pixel and Conversions API so budget decisions are based on complete data."
 approach: "<p>We start by mapping your actual audience data - website visitors, video viewers, past customers - into cold, warm, and hot segments before writing a single ad. Budget is reviewed weekly rather than set once and left alone, and creative is rotated on a testing cadence so fatigue gets caught before it quietly erodes performance. Reporting focuses on what moved between funnel stages, not just impressions.</p>"
 capabilities:
@@ -30,12 +30,12 @@ deliverables:
     - { a: 'Tracking Setup', b: 'Pixel and Conversions API implementation, validated for accuracy' }
     - { a: 'Reporting', b: 'Monthly performance report broken down by funnel stage, not a blended average' }
 process:
-    - { title: 'Account & Pixel Audit', body: 'We check existing tracking, past campaign structure, and audience data quality before building anything new.' }
-    - { title: 'Funnel Segmentation', body: 'Cold, warm, and hot audiences are built from your actual site and customer data, not generic interest targeting.' }
-    - { title: 'Creative Brief & Testing Plan', body: 'Creative is briefed per funnel stage, with a testing plan across formats rather than a single hero ad.' }
-    - { title: 'Campaign Launch & Tracking Validation', body: 'Campaigns go live with Pixel and Conversions API events checked for accuracy before spend scales.' }
-    - { title: 'Weekly Budget Reallocation', body: 'Budget shifts toward whichever stage and creative is actually converting, reviewed weekly rather than quarterly.' }
-    - { title: 'Monthly Reporting & Creative Refresh', body: 'Performance is reported by funnel stage, and fatigued creative gets replaced before it drags down results.' }
+    - { title: 'Audit', body: 'We check existing tracking, past campaign structure, and audience data quality before building anything new.' }
+    - { title: 'Segment', body: 'Cold, warm, and hot audiences are built from your actual site and customer data, not generic interest targeting.' }
+    - { title: 'Creative', body: 'Creative is briefed per funnel stage, with a testing plan across formats rather than a single hero ad.' }
+    - { title: 'Launch', body: 'Campaigns go live with Pixel and Conversions API events checked for accuracy before spend scales.' }
+    - { title: 'Optimise', body: 'Budget shifts toward whichever stage and creative is actually converting, reviewed weekly rather than quarterly.' }
+    - { title: 'Refresh', body: 'Performance is reported by funnel stage, and fatigued creative gets replaced before it drags down results.' }
 comparison:
     headers: ['Full-Funnel Campaigns', 'Boosted Posts']
     rows:

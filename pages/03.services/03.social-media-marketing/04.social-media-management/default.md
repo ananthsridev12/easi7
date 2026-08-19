@@ -2,8 +2,8 @@
 title: 'Social Media Management'
 template: service-detail-a
 eyebrow: 'Social Media Management'
-headline: 'Consistent posting is the floor, not the strategy'
-tagline: 'Full social media management - calendars, publishing, community management, and monthly reporting handled end-to-end.'
+headline: "Get Social Media That Runs Every Week, Not Just When There's Time"
+tagline: "We run your calendar, publishing, replies, and reporting every week, so it never depends on who's free."
 primary_intent: 'commercial - service research'
 entities: ['Content Calendar', 'Community Management', 'Brand Voice Guidelines', 'Crisis Monitoring', 'Multi-Platform Publishing']
 tools: ['Content Calendars', 'Community Management', 'Brand Voice Guidelines']
@@ -15,8 +15,8 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Someone has to own the calendar, the publishing, the replies, and the reporting - every week, not just when there's time. In practice, that ownership usually falls to whoever is least busy that month, which means posting frequency and response times swing depending on internal workload rather than staying consistent.</p><p>Reporting is often the first thing to slip. Publishing keeps happening in some form, but a monthly read on what actually worked stops getting produced, so decisions about what to post next end up based on habit rather than data.</p>"
-solution: "<p>Full-service social media management puts one owner behind the entire operational loop - calendar planning, multi-platform publishing, community management, brand voice guidelines, and monthly reporting - so none of it depends on who happens to be available that week. Crisis and reputation monitoring sit alongside the day-to-day work so a spike in negative sentiment gets flagged before it becomes a bigger problem.</p>"
+problem: "<p>Someone has to own the calendar, the publishing, the replies, and the reporting - every week, not just when there's time. In practice that ownership usually falls to whoever is least busy that month, so posting frequency and response times swing with internal workload, and reporting is often the first thing to slip, leaving decisions based on habit instead of data.</p>"
+solution: "<p>Full-service social media management puts one owner behind the entire loop - calendar planning, multi-platform publishing, community management, brand voice, and monthly reporting - so none of it depends on who happens to be available that week. Crisis and reputation monitoring run alongside the day-to-day work so a spike in negative sentiment gets flagged before it becomes a bigger problem.</p>"
 solution_answer: "Social media management is the ongoing operational work of planning, publishing, and responding across social platforms on a consistent schedule, with monthly reporting so performance is actually visible rather than assumed."
 approach: "<p>We document brand voice and response guidelines up front so replies stay consistent whether we're handling them or your team is stepping in. Publishing runs on an agreed calendar with an approval workflow that fits how your team actually reviews content, and reporting happens monthly against metrics that were agreed at the start, not whatever happened to be easy to pull.</p>"
 capabilities:
@@ -30,12 +30,12 @@ deliverables:
     - { a: 'Reporting', b: 'Monthly performance report against agreed metrics' }
     - { a: 'Monitoring', b: 'Ongoing brand mention and sentiment tracking' }
 process:
-    - { title: 'Onboarding & Voice Documentation', body: 'Brand voice, response guidelines, and escalation rules are documented before any publishing starts.' }
-    - { title: 'Calendar Planning & Approval Workflow', body: 'A calendar and an approval process are set up around how your team actually reviews content.' }
-    - { title: 'Daily Publishing & Community Monitoring', body: 'Content goes out on schedule, and comments and DMs are monitored within the agreed response window.' }
-    - { title: 'Weekly Check-ins', body: 'Short check-ins catch anything that needs a faster decision than the monthly report allows.' }
-    - { title: 'Monthly Reporting', body: 'Performance is reported against the metrics agreed at the start, not whatever is easiest to pull.' }
-    - { title: 'Quarterly Strategy Review', body: 'The calendar and pillars are revisited quarterly so the work does not run on autopilot indefinitely.' }
+    - { title: 'Onboarding', body: 'Brand voice, response guidelines, and escalation rules are documented before any publishing starts.' }
+    - { title: 'Planning', body: 'A calendar and an approval process are set up around how your team actually reviews content.' }
+    - { title: 'Publishing', body: 'Content goes out on schedule, and comments and DMs are monitored within the agreed response window.' }
+    - { title: 'Check-ins', body: 'Short check-ins catch anything that needs a faster decision than the monthly report allows.' }
+    - { title: 'Reporting', body: 'Performance is reported against the metrics agreed at the start, not whatever is easiest to pull.' }
+    - { title: 'Review', body: 'The calendar and pillars are revisited quarterly so the work does not run on autopilot indefinitely.' }
 comparison:
     headers: ['Managed as One Ownership Loop', 'Split Across Whoever Has Time']
     rows:

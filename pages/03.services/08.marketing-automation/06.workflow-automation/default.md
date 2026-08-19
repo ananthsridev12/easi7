@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Marketing operations workflow automation targets the handoffs between tools and teams - an asset request that sits in someone's inbox for three days, an approval that requires four separate messages to track down, a report that gets manually assembled from several platforms every month. None of this is campaign work, but it consumes the time that campaign work needs.</p><p>Most of it is genuinely mechanical - move a request from one state to the next, notify the right person, log what happened - which makes it a strong automation candidate even for teams that have never automated anything before.</p>"
+overview: "<p>An asset request that sits in someone's inbox for three days, an approval that takes four messages to track down, a report manually assembled from several platforms every month - none of it is campaign work, but it eats the time campaign work needs. We automate the handoffs between your tools and teams so requests move on their own.</p>"
 overview_answer: "Workflow automation for marketing operations connects the tools and teams involved in a process - like an asset request or an approval - so handoffs happen automatically instead of through manual follow-up."
 capabilities:
     - { title: 'Workflow Mapping', items: ['Documenting how a process actually runs today, including informal workarounds', 'Identifying where handoffs currently break down'] }

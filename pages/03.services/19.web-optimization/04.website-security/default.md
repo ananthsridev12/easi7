@@ -2,8 +2,8 @@
 title: 'Website Security'
 template: service-detail-a
 eyebrow: 'Web Optimization'
-headline: 'Prevention is cheaper than a breach'
-tagline: 'Website security hardening covering SSL, updates, backups, and vulnerability monitoring - built around the fact that most compromises exploit known, unpatched holes.'
+headline: 'Close The Holes Before Someone Finds Them'
+tagline: 'Website security hardening - SSL, updates, backups, and vulnerability monitoring - built around how most compromises actually happen.'
 service_url: /services/web-optimization/website-security
 taxonomy:
     service: ['Website Security']
@@ -16,10 +16,10 @@ sitemap:
 primary_intent: 'commercial - service research'
 entities: ['SSL/HTTPS', 'CMS Updates', 'Backup and Recovery', 'Vulnerability Scanning', 'Firewall Configuration', 'Access Control']
 
-problem: "<p>Most website compromises are not sophisticated attacks - they're automated scans exploiting a known vulnerability in an outdated plugin or an unpatched CMS core, weeks or months after a fix was already published. The attacker didn't need to find anything new; the site just hadn't been updated.</p><p>The second common failure is discovering this after the fact, with no recent backup to restore from and no record of what changed. A site that's been compromised without anyone noticing for weeks is a much harder cleanup than one caught on day one.</p>"
-solution: "<p>Security here is mostly about discipline, not exotic defence - keeping the CMS, plugins, and dependencies current, configuring SSL and access controls correctly, maintaining backups that actually restore, and scanning regularly enough to catch a problem early rather than months later. None of this is glamorous, which is exactly why it gets skipped until something breaks.</p>"
+problem: "<p>Most website compromises are not sophisticated attacks - they're automated scans exploiting a known vulnerability in an outdated plugin or an unpatched CMS core, weeks after a fix was already published. The attacker didn't need to find anything new; the site just hadn't been updated. The second common failure shows up after the fact: no recent backup to restore from and no record of what changed.</p>"
+solution: "<p>Security here is mostly about discipline, not exotic defence - keeping the CMS, plugins, and dependencies current, configuring SSL and access controls correctly, maintaining backups that actually restore, and scanning regularly enough to catch a problem early rather than months later.</p>"
 solution_answer: "Website security is the ongoing practice of keeping software current, access locked down, and backups verified - since most breaches exploit a known, already-patched vulnerability that simply wasn't applied in time."
-approach: "<p>We run security as a standing, scheduled practice rather than a one-time hardening pass. Updates get applied on a regular cadence and tested before going live, backups are checked to confirm they actually restore rather than just exist, and vulnerability scans run continuously so an emerging issue gets flagged before it's exploited rather than after.</p>"
+approach: "<p>We run security as a standing, scheduled practice rather than a one-time hardening pass. Updates get applied on a regular cadence and tested before going live, backups are checked to confirm they actually restore, and vulnerability scans run continuously so an emerging issue gets flagged before it's exploited.</p>"
 capabilities:
     - { title: 'SSL & Access Control', items: ['SSL and HTTPS configuration and renewal management', 'User access and permission auditing', 'Firewall and login-attempt protection'] }
     - { title: 'Update Management', items: ['CMS core and plugin update scheduling', 'Compatibility testing before updates go live', 'Deprecated or abandoned plugin identification'] }
@@ -31,11 +31,11 @@ deliverables:
     - { a: 'Backups', b: 'Automated backups with periodic restore verification, not just a backup that has never been tested' }
     - { a: 'Monitoring', b: 'Ongoing vulnerability and file-integrity scanning with alerts' }
 process:
-    - { title: 'Security audit', body: 'We check current SSL configuration, update status, access controls, and whether backups exist and actually restore.' }
-    - { title: 'Hardening', body: 'Known gaps get closed first - outdated software, weak access controls, missing or unverified backups.' }
-    - { title: 'Update scheduling', body: 'A regular, tested cadence is put in place for CMS and plugin updates, instead of ad hoc or skipped updates.' }
-    - { title: 'Backup verification', body: 'Backups are tested by actually restoring from them, not just confirmed to exist in a dashboard.' }
-    - { title: 'Ongoing monitoring', body: 'Vulnerability scanning runs continuously, flagging new issues as they appear rather than at the next scheduled check-in.' }
+    - { title: 'Audit', body: 'We check current SSL configuration, update status, access controls, and whether backups exist and actually restore.' }
+    - { title: 'Harden', body: 'Known gaps get closed first - outdated software, weak access controls, missing or unverified backups.' }
+    - { title: 'Schedule', body: 'A regular, tested cadence is put in place for CMS and plugin updates, instead of ad hoc or skipped updates.' }
+    - { title: 'Verify', body: 'Backups are tested by actually restoring from them, not just confirmed to exist in a dashboard.' }
+    - { title: 'Monitor', body: 'Vulnerability scanning runs continuously, flagging new issues as they appear rather than at the next scheduled check-in.' }
 comparison:
     headers: ['Ongoing Security Practice', 'Reactive Cleanup After a Breach']
     rows:

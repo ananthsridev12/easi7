@@ -2,8 +2,8 @@
 title: 'Brand Identity'
 template: service-detail-b
 eyebrow: 'Branding'
-headline: 'A consistent visual language, not just a logo'
-tagline: 'Brand identity design covering the full visual system - colour, type, imagery, and application.'
+headline: 'Build a Brand System, Not Just Another Logo'
+tagline: 'A complete visual system - colour, type, imagery, and application - so your brand never looks improvised.'
 tools: ['Colour & Type Systems', 'Identity Documentation', 'Application Design']
 service_url: /services/branding/brand-identity
 taxonomy:
@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 primary_intent: 'commercial - service research'
 entities: ['Visual Identity System', 'Colour Palette', 'Typography System', 'Iconography', 'Brand Application', 'Identity Documentation']
-overview: "<p>Brand identity is the complete visual system a business uses to look and feel like itself everywhere it shows up - not a single asset, but a set of interdependent decisions about colour, typography, imagery, and iconography that hold together whether the touchpoint is a business card or a mobile app icon. A logo is one output of this system, not the system itself.</p><p>Businesses that skip straight to a logo often end up rebuilding it a year later, because nobody defined the type system or colour rules the logo was supposed to sit inside. Building the system first means the logo, and everything after it, has somewhere consistent to live.</p>"
+overview: "<p>A logo is one output of a brand identity, not the whole thing. Businesses that skip straight to a logo often end up rebuilding it a year later, because nobody defined the colour and type system it was supposed to sit inside. We build the full visual system first - colour, typography, imagery, and iconography - so the logo, and everything after it, has somewhere consistent to live.</p>"
 overview_answer: "Brand identity is the full visual system - colour, typography, imagery, and logo - that keeps a business recognisable across every application, built as one coherent set of decisions rather than isolated assets."
 capabilities:
     - { title: 'Colour & Typography System', items: ['Primary and secondary colour palette', 'Typography hierarchy for print and digital', 'Accessible contrast and pairing rules'] }

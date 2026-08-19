@@ -2,8 +2,8 @@
 title: 'Product Videos'
 template: service-detail-b
 eyebrow: 'Video & Motion'
-headline: "Show the product doing the thing it's good at"
-tagline: 'Product video production demonstrating real use cases and outcomes, not just feature lists.'
+headline: "Show Your Product Doing The Thing It's Actually Good At"
+tagline: 'Product videos built around a real use case and outcome, not a feature list nobody asked for.'
 primary_intent: 'commercial - service research'
 entities: ['Product Demo Video', 'Use-Case Video', 'Screen Recording', 'Live-Action Product Capture', 'Short-Form Cutdown']
 tools: ['Screen Recording', 'Live-Action Capture', 'Shot Planning', 'Short-Form Editing']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A product video demonstrates the product actually doing something a prospective buyer cares about, rather than narrating a feature list over cutaway shots. The distinction matters because a feature tour answers a question almost nobody asks first - what does this have - instead of the one that actually drives a decision: does this solve my specific problem.</p><p>The strongest product videos pick one real use case and follow it start to finish, showing the before state, the action, and the result. A viewer who has that same problem recognises it immediately; a viewer who doesn't can still follow the logic of what changed and why it mattered.</p>"
+overview: "<p>A feature tour answers a question almost nobody asks first - what does this have - instead of the one that actually drives a decision: does this solve my problem. We pick one real use case and follow it start to finish - the before state, the action, the result - so a viewer with that same problem recognises it immediately.</p>"
 overview_answer: "A product video shows a product being used to solve a specific, real problem, filmed or screen-recorded start to finish, rather than a narrated tour of every feature it has."
 capabilities:
     - { title: 'Demo Scripting & Planning', items: ['Use-case selection based on what the product is actually good at', 'Shot planning for screen and live-action capture'] }

@@ -2,8 +2,8 @@
 title: 'Campaign Automation'
 template: service-detail-a
 eyebrow: 'Campaign Automation'
-headline: "Campaigns that run themselves once they're built"
-tagline: 'Multi-step campaign automation across email, ads, and CRM triggered by a single workflow build.'
+headline: 'Stop Rebuilding the Same Campaign From Scratch Every Month'
+tagline: 'One workflow triggers your email, ads, and CRM together, so campaigns run the same way every time.'
 primary_intent: 'commercial - service research'
 entities: ['Multi-Channel Workflows', 'Trigger-Based Campaigns', 'Cross-Platform Automation', 'Campaign Dashboards']
 tools: ['HubSpot', 'Google Ads', 'Meta Ads', 'Multi-Channel Triggers']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Recreating the same campaign logic by hand every month - the same segment logic, the same sequence of touches, the same manual trigger to launch - throws away the one real advantage automation offers over doing it manually: consistency without the repeated effort. Most teams don't realise how much of their campaign work is actually just rebuilding the same mechanics with new creative dropped in.</p><p>The bigger cost shows up across channels. A workflow that works fine in email but has no equivalent trigger on the ad platform or in the CRM creates a customer experience that looks coordinated by accident rather than by design.</p>"
+problem: "<p>Recreating the same campaign logic by hand every month - the same segments, the same sequence of touches, the same manual trigger to launch - throws away the one real advantage automation offers: consistency without repeated effort. The cost shows up most across channels, where a workflow that works fine in email but has no equivalent trigger on the ad platform or in the CRM creates a customer experience that looks coordinated by accident rather than by design.</p>"
 solution: "<p>Campaign automation replaces the manual rebuild with a single workflow that triggers consistently across email, ads, and CRM from one defined event - a form fill, a purchase, a stage change. The logic gets built once and runs the same way every time, freeing the team to focus on what actually changes month to month - the creative and the offer, not the mechanics underneath it.</p>"
 solution_answer: "Campaign automation is a trigger-based workflow that launches and coordinates a multi-step campaign across channels - email, ads, CRM - from a single event, without a manual rebuild each cycle."
 approach: "<p>We start with the campaign that gets rebuilt most often, because that's where the automation pays back fastest, and map every channel it touches before building a single trigger. The workflow gets tested against a real audience segment before it replaces the manual process, so the first fully automated run isn't also the first real-world test.</p>"
@@ -30,12 +30,12 @@ deliverables:
     - { a: 'Dashboards', b: 'A single view of campaign performance across channels instead of separate platform reports' }
     - { a: 'Maintenance', b: 'Ongoing upkeep as offers, audiences, or platforms change' }
 process:
-    - { title: 'Campaign Selection', body: 'We identify the campaign that gets manually rebuilt most often - that is where automation pays back fastest.' }
-    - { title: 'Channel Mapping', body: 'Every channel the campaign touches gets mapped, including the handoffs between them that usually happen manually.' }
-    - { title: 'Trigger Design', body: 'A single triggering event is defined, along with the branching logic for how different audience segments move through it.' }
-    - { title: 'Workflow Build', body: 'The automation is built directly in the connected platforms, not as a separate system that needs manual syncing.' }
-    - { title: 'Test Run', body: 'The workflow runs against a real but limited audience before fully replacing the manual process.' }
-    - { title: 'Dashboard & Handoff', body: 'Performance is consolidated into one view, and the team gets a plain description of what now runs automatically.' }
+    - { title: 'Selection', body: 'We identify the campaign that gets manually rebuilt most often - that is where automation pays back fastest.' }
+    - { title: 'Mapping', body: 'Every channel the campaign touches gets mapped, including the handoffs between them that usually happen manually.' }
+    - { title: 'Design', body: 'A single triggering event is defined, along with the branching logic for how different audience segments move through it.' }
+    - { title: 'Build', body: 'The automation is built directly in the connected platforms, not as a separate system that needs manual syncing.' }
+    - { title: 'Test', body: 'The workflow runs against a real but limited audience before fully replacing the manual process.' }
+    - { title: 'Handoff', body: 'Performance is consolidated into one view, and the team gets a plain description of what now runs automatically.' }
 comparison:
     headers: ['Automated Campaigns', 'Manually Rebuilt Campaigns']
     rows:

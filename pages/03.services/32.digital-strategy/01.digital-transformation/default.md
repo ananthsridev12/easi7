@@ -2,8 +2,8 @@
 title: 'Digital Transformation'
 template: service-detail-a
 eyebrow: 'Digital Strategy'
-headline: 'Modernising how the business actually operates, not just its website'
-tagline: 'Digital transformation strategy covering process, tooling, and capability changes beyond a website redesign.'
+headline: 'Modernise How the Business Runs, Not Just How It Looks'
+tagline: 'Digital transformation strategy covering process, tooling, and capability, beyond a website redesign.'
 primary_intent: 'commercial - service research'
 entities: ['Digital Maturity Assessment', 'Process Reengineering', 'Change Management', 'Digital Transformation Roadmap', 'Technology Adoption', 'Capability Building']
 tools: ['Digital Maturity Assessment', 'Process Mapping', 'Change Management Frameworks', 'Capability Gap Analysis']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>\"Digital transformation\" gets reduced to \"redesign the website\" more often than it should, because a redesign is visible and a process fix isn't. The result is a new front end sitting on top of the same manual handoffs, the same disconnected spreadsheets, and the same tooling gaps that were slowing the business down before the redesign shipped. Nothing about how the work actually gets done has changed - it just looks different from the outside.</p><p>The second failure mode is scope creep in the opposite direction - a transformation initiative that tries to touch every system and every team at once, with no sequencing and no way to tell what's actually blocking what. Momentum stalls somewhere around month four, and the program quietly becomes a collection of half-finished pilots.</p>"
-solution: "<p>A transformation program that holds up starts with an honest read of current digital maturity - what's genuinely working, what's a workaround people have gotten used to, and what's a real capability gap - before a single tool gets shortlisted. From there, the work gets scoped as specific process and tooling changes with an owner and a measurable definition of done, not a broad mandate to \"modernise.\"</p>"
+problem: "<p>\"Digital transformation\" gets reduced to \"redesign the website\" more often than it should, leaving the same manual handoffs and disconnected spreadsheets underneath a new front end. The opposite failure is just as common: a program that tries to touch every system and team at once, with no sequencing, stalling around month four into a collection of half-finished pilots.</p>"
+solution: "<p>A transformation program that holds up starts with an honest read of current digital maturity - what's genuinely working, what's a workaround, what's a real capability gap - before a single tool gets shortlisted. From there, the work gets scoped as specific changes with an owner and a measurable definition of done.</p>"
 solution_answer: "Digital transformation is the deliberate redesign of a business's processes, tooling, and capabilities to match how it actually needs to operate - assessed honestly first, then sequenced and executed in a defined order, rather than treated as a website or software refresh."
-approach: "<p>We start on the operations side, not the interface side - talking to the people actually running the process being \"transformed\" before recommending a system to replace it. That surfaces the workarounds nobody wrote down anywhere, which are usually the real reason a previous tooling change didn't stick. From there we scope a phased set of changes with success measured against what actually changed operationally, not against a launch date.</p>"
+approach: "<p>We start on the operations side, not the interface side - talking to the people actually running the process before recommending a system to replace it. That surfaces the workarounds nobody wrote down, which is usually why a previous tooling change didn't stick. From there we scope a phased set of changes measured against what actually changed operationally.</p>"
 capabilities:
     - { title: 'Digital Maturity Assessment', items: ['Current-state review across process, tooling, and team capability', 'Identification of workarounds masking real gaps', 'Benchmarking against comparable organisations at your scale'] }
     - { title: 'Process & Tooling Gap Analysis', items: ["Mapping how work actually flows versus how it's assumed to flow", 'Identifying redundant or conflicting tools', 'Flagging manual steps that a working system should be doing'] }

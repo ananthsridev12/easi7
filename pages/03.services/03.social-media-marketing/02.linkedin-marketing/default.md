@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A founder's personal LinkedIn profile routinely reaches further than the company page it's attached to, because the platform's algorithm favours individual accounts over brand pages by a wide margin. That's not a reason to skip the company page - it's a reason to build both deliberately instead of treating the page as the only asset worth investing in.</p><p>Organic LinkedIn works on a longer, more honest timeline than paid social. It rewards a consistent point of view held over months, not a single post that happens to land - which is why the content and posting cadence matter more here than almost any other platform.</p>"
+overview: "<p>A founder's personal profile routinely reaches further than the company page it's attached to, because LinkedIn's algorithm favours individual accounts by a wide margin. We build both deliberately, with a consistent point of view held over months rather than a single post hoping to land, because that's what organic LinkedIn actually rewards.</p>"
 overview_answer: "LinkedIn marketing here means building organic reach for founders, executives, and company pages through consistent thought-leadership content and employee advocacy, not just a scheduled posting calendar."
 capabilities:
     - { title: 'Founder & Executive Personal Branding', items: ['Voice and positioning strategy', 'Weekly content planning tied to real expertise', 'Comment and engagement strategy to build reach beyond followers'] }

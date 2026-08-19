@@ -2,8 +2,8 @@
 title: 'Visual Identity'
 template: service-detail-b
 eyebrow: 'Branding'
-headline: 'Every touchpoint recognisably the same brand'
-tagline: 'Visual identity application across web, print, social, and product touchpoints.'
+headline: 'Make Every Touchpoint Unmistakably Your Brand'
+tagline: 'We apply your visual identity consistently across web, print, social, and product touchpoints.'
 tools: ['Cross-Channel Application', 'Template Systems', 'Consistency Audits']
 service_url: /services/branding/visual-identity
 taxonomy:
@@ -15,7 +15,7 @@ sitemap:
     priority: !!float 0.6
 primary_intent: 'commercial - service research'
 entities: ['Visual Identity Application', 'Touchpoint Design', 'Social Media Templates', 'Email Branding', 'Packaging Design', 'Brand Consistency Review']
-overview: "<p>Visual identity application is the ongoing work of taking an already-defined brand system and applying it correctly everywhere the business actually shows up - the website, the Instagram grid, email footers, printed materials, packaging, and anything else a customer might encounter. It's easy to get a logo and colour palette right in isolation and still end up with a brand that looks like three different companies depending on the channel.</p><p>This work is different from building the identity system itself - it's the discipline of applying that system consistently, channel by channel, and catching drift before it becomes the new normal.</p>"
+overview: "<p>It's easy to get a logo and colour palette right in isolation and still end up with a brand that looks like three different companies depending on the channel. We take your already-defined brand system and apply it correctly everywhere you show up - website, social, email, print, packaging - catching drift before it becomes the new normal.</p>"
 overview_answer: "Visual identity application is applying an established brand system - colour, type, imagery, logo - consistently across every real touchpoint a customer encounters, from the website to social media to packaging."
 capabilities:
     - { title: 'Cross-Channel Application', items: ['Website and digital product application', 'Print and physical material application'] }

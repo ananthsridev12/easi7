@@ -2,8 +2,8 @@
 title: 'Marketing Creatives'
 template: service-detail-a
 eyebrow: 'Graphic Design'
-headline: 'Ad creative that stops the scroll and matches the message'
-tagline: 'Marketing creative design for paid ads, landing pages, and campaign assets, built for the platform it actually runs on.'
+headline: 'Create Ad Creative That Stops The Scroll'
+tagline: 'Marketing creative for paid ads, landing pages, and campaign assets, built for the platform it actually runs on.'
 primary_intent: 'commercial - service research'
 entities: ['Ad Creative', 'Carousel Ads', 'A/B Variant Testing', 'Format Adaptation', 'Campaign Assets']
 tools: ['Ad Creative Design', 'A/B Variant Testing', 'Platform Format Specs']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A campaign can have precise targeting and a strong media budget and still fail at the first hurdle - the creative. Most marketing creative gets designed once, resized generically for every platform, and run until someone notices performance has dropped. By the time fatigue shows up in the numbers, the asset has usually been live for weeks longer than it should have been.</p><p>The other common failure is a mismatch between message and format - a static ad built for a feed doesn't automatically work as a carousel, and a visual optimised for desktop display often loses its focal point when cropped for a mobile placement.</p>"
+problem: "<p>A campaign can have precise targeting and a strong media budget and still fail at the first hurdle - the creative. Most marketing creative gets designed once, resized generically for every platform, and run until someone notices performance has dropped, usually weeks after fatigue set in. The other common failure is a mismatch between message and format - a static ad built for a feed doesn't automatically work as a carousel, and a visual optimised for desktop often loses its focal point cropped for mobile.</p>"
 solution: "<p>We design marketing creative against the specific platform, placement, and message it needs to carry, not as one master asset stretched across every channel. Variations are built in from the start so testing isn't an afterthought, and formats are adapted properly rather than resized on autopilot.</p>"
 solution_answer: "Marketing creative design is building ad and campaign visuals for the specific platform and message they need to carry, with variations built in for testing rather than one asset reused everywhere."
-approach: "<p>We start from the campaign brief and the platform it's running on, not a generic creative concept. Static and carousel sets are built with testable variations from the outset, formats are adapted to each platform's actual display specs, and once a campaign is live we track which variations are showing fatigue and refresh them before performance drops rather than after.</p>"
+approach: "<p>We start from the campaign brief and the platform it's running on, not a generic creative concept. Static and carousel sets are built with testable variations from the outset, and once a campaign is live we track which variations are showing fatigue and refresh them before performance drops rather than after.</p>"
 capabilities:
     - { title: 'Ad Creative Design', items: ['Static image ad design', 'Carousel and multi-frame ad sets', 'Landing page visual alignment'] }
     - { title: 'Campaign Variation Sets', items: ['Message-led variation testing', 'Audience-specific creative angles', 'Offer and seasonal refreshes'] }
@@ -30,11 +30,11 @@ deliverables:
     - { a: 'A/B Variant Sets', b: 'Multiple creative variations built against the same offer for testing' }
     - { a: 'Format Adaptation', b: 'Resized, reformatted versions matched to each platform spec' }
 process:
-    - { title: 'Brief & Message Alignment', body: 'We confirm the offer, audience, and platform before any concepting starts.' }
-    - { title: 'Platform & Format Mapping', body: 'We map out which formats and placements the campaign actually needs.' }
-    - { title: 'Concept & Variation Design', body: 'Initial concepts are built with testable variations from the start, not added later.' }
-    - { title: 'Format Adaptation', body: 'Approved concepts are adapted to every required platform and placement spec.' }
-    - { title: 'Performance Review & Refresh', body: 'Once live, we track fatigue signals and refresh underperforming variants.' }
+    - { title: 'Align', body: 'We confirm the offer, audience, and platform before any concepting starts.' }
+    - { title: 'Map', body: 'We map out which formats and placements the campaign actually needs.' }
+    - { title: 'Design', body: 'Initial concepts are built with testable variations from the start, not added later.' }
+    - { title: 'Adapt', body: 'Approved concepts are adapted to every required platform and placement spec.' }
+    - { title: 'Refresh', body: 'Once live, we track fatigue signals and refresh underperforming variants.' }
 comparison:
     headers: ['Platform-Native Creative', 'One Asset Stretched Everywhere']
     rows:

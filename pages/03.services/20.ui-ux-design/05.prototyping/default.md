@@ -2,8 +2,8 @@
 title: 'Prototyping'
 template: service-detail-b
 eyebrow: 'UI/UX Design'
-headline: 'Test the interaction before building it'
-tagline: 'Interactive prototyping for validating flows and interactions before development investment.'
+headline: 'Test The Interaction Before You Build It'
+tagline: 'Clickable prototypes that validate flows and interactions before development time gets spent on them.'
 service_url: /services/ui-ux-design/prototyping
 taxonomy:
     service: ['Prototyping']
@@ -16,7 +16,7 @@ sitemap:
 primary_intent: 'commercial - service research'
 entities: ['Click-Through Prototypes', 'Usability Testing', 'Micro-Interactions', 'Stakeholder Walkthroughs', 'Interaction Design']
 
-overview: "<p>A prototype is a clickable simulation of a flow - built from wireframes or interface designs - that behaves enough like the real product to test whether the interaction actually works, before any development time gets spent on it. It sits between design and build, and its whole job is to surface problems while they're still cheap to fix.</p><p>A business needs this when a flow is complex or unfamiliar enough that reviewing static screens isn't enough to know if it'll work - a multi-step checkout, a new onboarding sequence, or an interaction pattern the team hasn't used before.</p>"
+overview: "<p>Static screens can't tell you whether a complex or unfamiliar flow actually works - a multi-step checkout, a new onboarding sequence, an interaction pattern you haven't used before. We build a clickable simulation of the flow and test it, so problems surface while they're still cheap to fix, not mid-development.</p>"
 overview_answer: "Prototyping is building a clickable, interactive simulation of a product flow so it can be tested and reviewed by real users or stakeholders before development starts, surfacing interaction problems while they're still cheap to fix."
 capabilities:
     - { title: 'Click-Through Prototypes', items: ['Multi-screen interactive flows', 'Linked from wireframes or interface designs'] }

@@ -2,7 +2,7 @@
 title: 'Brand Guidelines'
 template: service-detail-a
 eyebrow: 'Branding'
-headline: 'So the brand stays consistent without you in the room'
+headline: 'Keep Your Brand Consistent Without You In The Room'
 tagline: 'Brand guideline documentation covering every visual and voice rule for consistent application by any team.'
 tools: ['Style Guide Documentation', 'Brand Templates']
 service_url: /services/branding/brand-guidelines
@@ -15,10 +15,10 @@ sitemap:
     priority: !!float 0.6
 primary_intent: 'commercial - service research'
 entities: ['Brand Guidelines', 'Style Guide', 'Voice and Tone Documentation', 'Usage Rules', 'Brand Templates']
-problem: "<p>A brand identity that only lives in the designer's head, or in a folder of loose files, degrades the moment someone else has to apply it - a marketing hire uses the wrong logo file, an agency substitutes a similar-looking font because the licensed one wasn't specified, a franchisee stretches the mark to fit a banner. None of these are big mistakes individually, but they compound into a brand that looks different depending on who last touched it.</p><p>This gets more expensive to fix the longer it's ignored, because by the time someone notices, dozens of assets across multiple teams and vendors already need correcting.</p>"
-solution: "<p>Brand guidelines document the whole system - visual and voice - in enough detail that someone who has never spoken to the original designer can apply the brand correctly on their own. That means specific rules, not vague inspiration: exact colour values, minimum logo sizes, approved and rejected examples side by side, and voice guidance concrete enough to write from.</p>"
+problem: "<p>A brand identity that only lives in the designer's head, or in a folder of loose files, degrades the moment someone else has to apply it - a marketing hire uses the wrong logo file, an agency substitutes a similar-looking font, a franchisee stretches the mark to fit a banner. None of these are big mistakes individually, but they compound into a brand that looks different depending on who last touched it, and it gets more expensive to fix the longer it's ignored.</p>"
+solution: "<p>We document the whole system - visual and voice - in enough detail that someone who has never spoken to the original designer can apply the brand correctly on their own. That means specific rules, not vague inspiration: exact colour values, minimum logo sizes, approved and rejected examples side by side, and voice guidance concrete enough to write from.</p>"
 solution_answer: "Brand guidelines are a documented set of rules - visual and voice - that let anyone apply a brand correctly without direct input from the people who originally designed it."
-approach: "<p>We start by auditing what already exists - approved assets, existing inconsistencies, informal rules that live only in someone's memory - and turn that into explicit documentation rather than starting from a blank template. Every rule is paired with a real do and don't example, because abstract guidance gets reinterpreted differently by every person who reads it.</p>"
+approach: "<p>We audit what already exists - approved assets, inconsistencies, informal rules that live only in someone's memory - and turn that into explicit documentation rather than starting from a blank template. Every rule is paired with a real do and don't example, because abstract guidance gets reinterpreted differently by every person who reads it.</p>"
 capabilities:
     - { title: 'Visual System Documentation', items: ['Logo usage, minimum size, and clear space rules', 'Colour values across print and digital formats', 'Typography hierarchy and pairing rules'] }
     - { title: 'Voice & Tone Guidelines', items: ['Tone definition with real examples', 'Vocabulary to use and avoid'] }
@@ -31,12 +31,12 @@ deliverables:
     - { a: "Do's and Don'ts", b: 'Side-by-side correct and incorrect usage examples across common scenarios' }
     - { a: 'Templates', b: 'A starter set of templates built to the documented system' }
 process:
-    - { title: 'Audit Existing Assets', body: 'We collect every current brand asset and identify where informal rules and inconsistencies already exist.' }
-    - { title: 'Document Visual Rules', body: 'Logo, colour, typography, and imagery rules are written explicitly, with correct and incorrect examples for each.' }
-    - { title: 'Document Voice Rules', body: 'Tone and vocabulary guidance are written with real sample copy, not abstract adjectives.' }
-    - { title: 'Build Templates', body: 'A starter set of common templates is built directly against the documented rules.' }
-    - { title: 'Team Review', body: 'The draft is reviewed with the people who will actually use it day to day, to catch gaps before it ships.' }
-    - { title: 'Finalise & Distribute', body: 'The finished guidelines are formatted for quick reference and distributed to internal teams and vendors.' }
+    - { title: 'Audit', body: 'We collect every current brand asset and identify where informal rules and inconsistencies already exist.' }
+    - { title: 'Codify', body: 'Logo, colour, typography, and imagery rules are written explicitly, with correct and incorrect examples for each.' }
+    - { title: 'Write', body: 'Tone and vocabulary guidance are written with real sample copy, not abstract adjectives.' }
+    - { title: 'Build', body: 'A starter set of common templates is built directly against the documented rules.' }
+    - { title: 'Review', body: 'The draft is reviewed with the people who will actually use it day to day, to catch gaps before it ships.' }
+    - { title: 'Distribute', body: 'The finished guidelines are formatted for quick reference and distributed to internal teams and vendors.' }
 comparison:
     headers: ['Documented Guidelines', 'Undocumented Knowledge']
     rows:

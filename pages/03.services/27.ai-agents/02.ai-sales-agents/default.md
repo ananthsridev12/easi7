@@ -2,8 +2,8 @@
 title: 'AI Sales Agents'
 template: service-detail-b
 eyebrow: 'AI Sales Agents'
-headline: 'First-touch qualification, handled automatically'
-tagline: 'AI sales agents for lead qualification, follow-up, and scheduling, handed off to a human rep at the right moment rather than run end to end.'
+headline: 'Never Let a Lead Wait Hours For a First Response'
+tagline: 'AI sales agents that qualify, follow up, and schedule, then hand off to a human rep at exactly the right moment.'
 primary_intent: 'commercial - service research'
 entities: ['Lead Qualification', 'CRM Handoff', 'Meeting Scheduling', 'Follow-Up Sequencing', 'Escalation Rules']
 tools: ['Sales Agents', 'Lead Qualification', 'CRM Integration']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>The first response to a new lead usually happens on the lead's schedule, not the sales team's - a form submitted at 11pm, a chat message during a rep's lunch, a reply to a nurture email over the weekend. Every hour that response waits is an hour the lead's interest has to survive on its own, and a lot of it doesn't.</p><p>An AI sales agent handles that first-touch window: asking the qualifying questions a rep would ask, logging the answers, and either booking a meeting directly or routing the conversation to a human once it's clear the lead is real and ready. It's not meant to replace the sales conversation - it's meant to make sure a lead never sits untouched waiting for one.</p>"
+overview: "<p>A lead's interest has to survive every hour it waits for a first response - a form submitted at 11pm, a chat message during a rep's lunch, a reply over the weekend. Our AI sales agents handle that first-touch window: asking the qualifying questions a rep would ask, logging the answers, and either booking a meeting or routing to a human once the lead is real and ready.</p>"
 overview_answer: "An AI sales agent is software that qualifies inbound leads through a structured conversation, logs the result to your CRM, and either books a meeting or hands off to a human rep - handling the immediate first-touch response a lead would otherwise wait hours for."
 capabilities:
     - { title: 'Lead Qualification Conversation Flows', items: ['Structured qualifying questions built around your actual ICP', 'Conversational, not form-like, interaction design', 'Disqualification handled cleanly instead of ignored'] }

@@ -2,8 +2,8 @@
 title: 'Motion Graphics'
 template: service-detail-a
 eyebrow: 'Video & Motion'
-headline: 'Movement that clarifies, not just decorates'
-tagline: 'Motion graphics for data visualisation, brand animation, and interface micro-interactions.'
+headline: 'Motion That Clarifies Instead of Just Decorating'
+tagline: 'Motion graphics built to make data, brand, and interface moments clearer, not just busier.'
 primary_intent: 'informational - concept explainer'
 entities: ['Motion Graphics', 'Data Visualisation Animation', 'Brand Motion', 'Micro-Interaction Design', 'Kinetic Typography', 'Motion Style Guide']
 tools: ['Motion Design', 'Kinetic Typography', 'Data Visualisation Animation']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Motion graphics get commissioned for the wrong reason surprisingly often - because a video 'needs some animation' rather than because movement is actually solving a communication problem. An animated chart that moves for the sake of moving can make a trend harder to follow than a static version, not easier, if the motion isn't disciplined around what the data is actually showing.</p><p>The same problem shows up in brand motion and interface micro-interactions - animation added as decoration rather than function tends to look busy rather than polished, and it dates quickly once the novelty wears off.</p>"
-solution: "<p>Motion graphics done well start from the information or interaction being clarified, not from a style reference. An animated chart is built to draw the eye exactly where the trend changes; a micro-interaction is built to confirm an action happened, not to show off what the software can do. Visual style gets layered on afterward, in service of that function.</p>"
+problem: "<p>Motion graphics get commissioned for the wrong reason surprisingly often - because a video 'needs some animation,' not because movement solves a real communication problem. An animated chart that moves for its own sake can make a trend harder to follow than a static version, and the same goes for brand motion and interface micro-interactions added as decoration rather than function.</p>"
+solution: "<p>Motion graphics done well start from the information or interaction being clarified, not a style reference. An animated chart draws the eye exactly where the trend changes; a micro-interaction confirms an action happened rather than showing off. Visual style gets layered on afterward, in service of that function.</p>"
 solution_answer: "Motion graphics are animated visual content - data visualisation, brand animation, interface micro-interactions, kinetic typography - built to make information or interaction clearer, not to add movement for its own sake."
-approach: "<p>We start every motion piece by defining what the movement needs to accomplish - draw attention to a specific data point, confirm an action, reinforce a message beat - before deciding on style. A motion style guide gets built once patterns repeat across a brand's assets, so future animation stays consistent without redesigning the motion language from scratch each time.</p>"
+approach: "<p>We start every motion piece by defining what the movement needs to accomplish - draw attention, confirm an action, reinforce a message beat - before deciding on style. A motion style guide gets built once patterns repeat across a brand's assets, so future work stays consistent without reinventing the language each time.</p>"
 capabilities:
     - { title: 'Data Visualisation', items: ['Animated charts and graphs built around the trend being shown', 'Complex data simplified into a sequence that builds understanding step by step'] }
     - { title: 'Brand Motion', items: ['Logo animation and brand transitions', 'Motion language that extends existing brand identity rather than replacing it'] }

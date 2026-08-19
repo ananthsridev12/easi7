@@ -2,8 +2,8 @@
 title: 'AI SEO'
 template: service-detail-c
 eyebrow: 'AI SEO'
-headline: 'Get cited by AI, not just ranked by Google'
-tagline: "Answer Engine Optimisation (AEO) and Generative Engine Optimisation (GEO) - structuring content so AI Overviews, ChatGPT, and Perplexity cite you directly instead of skipping you."
+headline: 'Get cited by AI answers, not just ranked in search'
+tagline: "We structure your content so AI Overviews, ChatGPT, and Perplexity cite your business directly, instead of skipping it for a source that's easier to extract."
 primary_intent: 'informational - concept explainer'
 entities: ['AEO', 'GEO', 'Schema Markup', 'Entity SEO', 'LLM Visibility', 'AI Overviews', 'Structured Data']
 tools: ['AEO', 'GEO', 'Structured Data', 'LLM Visibility Monitoring']
@@ -15,9 +15,9 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.7
-definition: "<p>AI SEO is the practice of structuring a website's content, markup, and entity signals so that AI systems - Google's AI Overviews, ChatGPT, Perplexity, Claude, and voice assistants - can accurately extract, verify, and cite it inside a generated answer. It sits on top of traditional SEO rather than replacing it, and it splits into two related disciplines: Answer Engine Optimisation (AEO), which structures content to directly answer specific questions, and Generative Engine Optimisation (GEO), which optimises for being selected and quoted inside an AI-generated summary.</p>"
+definition: "<p>AI SEO structures your content so answer engines like ChatGPT and Google's AI Overviews can extract it and cite your business directly, not just rank it in a list of blue links. As more search happens inside AI interfaces instead of a results page, content that isn't built for extraction gets skipped even when it would otherwise rank well.</p>"
 definition_answer: "AI SEO is structuring content and data so AI-generated answers cite your site as the source, rather than only ranking your site in a traditional list of links."
-why_it_matters: "<p>A meaningful share of searches now end without a click - the answer arrives directly inside an AI Overview, a chat response, or a voice reply, and the underlying pages never get visited at all. When that happens, being the source the AI actually cites is the only visibility left; ranking third on a results page that nobody scrolls to is functionally invisible.</p><p>This also changes what search engines and AI models value. Keyword density and backlink volume matter less than whether a claim is stated plainly, backed by a verifiable source, and structured so a language model can lift it out of the page without misreading it. Sites that haven't adapted to that shift are being quietly skipped, not penalised - which makes the problem easy to miss until someone checks.</p>"
+why_it_matters: "<p>A growing share of searches now end without a click - the answer arrives inside an AI Overview or a chat response, and the page behind it never gets visited. When that happens, being the source the AI cites is the only visibility left; ranking third on a results page nobody scrolls to is effectively invisible. Sites that haven't adapted to this shift aren't being penalised, they're just being skipped - which makes it an easy problem to miss until you actually check.</p>"
 challenges:
     - 'Content written to rank for a keyword often buries the direct answer under introductory paragraphs an AI system has to work harder to parse'
     - 'AI citation behaviour is not fully transparent and changes without public changelogs, unlike traditional ranking factors'

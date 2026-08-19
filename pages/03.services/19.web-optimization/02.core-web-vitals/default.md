@@ -2,8 +2,8 @@
 title: 'Core Web Vitals'
 template: service-detail-b
 eyebrow: 'Web Optimization'
-headline: 'The three metrics Google actually measures'
-tagline: 'Core Web Vitals optimisation targeting LCP, INP, and CLS specifically - not generic speed advice that misses the metrics that count.'
+headline: 'Fix The Metrics Google Actually Measures, Not Generic "Speed"'
+tagline: 'We target LCP, INP, and CLS individually, so your pages pass the exact thresholds Google checks.'
 tools: ['LCP', 'INP', 'CLS']
 service_url: /services/web-optimization/core-web-vitals
 taxonomy:
@@ -17,7 +17,7 @@ sitemap:
 primary_intent: 'informational - concept explainer'
 entities: ['Largest Contentful Paint', 'Interaction to Next Paint', 'Cumulative Layout Shift', 'Search Console Field Data', 'Core Web Vitals']
 
-overview: "<p>Core Web Vitals are three specific, named metrics Google uses to judge a page's real-world experience: Largest Contentful Paint (how fast the main content appears), Interaction to Next Paint (how quickly the page responds when someone actually clicks or taps), and Cumulative Layout Shift (whether elements jump around while the page loads). A page can score well on a generic speed test and still fail one of these, because they measure specific moments a generic test doesn't isolate.</p><p>This distinction matters because fixing the wrong thing is common. A team that shrinks images to improve 'speed' may do nothing for INP if the actual problem is a heavy JavaScript bundle blocking the main thread when a user taps a button. Each metric has its own cause and its own fix.</p>"
+overview: "<p>Core Web Vitals are three specific metrics Google uses to judge real-world page experience - how fast content appears, how quickly the page responds to a tap, and whether elements jump around while loading. A page can pass a generic speed test and still fail one of these, because each metric has its own cause and needs its own fix. We diagnose and fix LCP, INP, and CLS individually instead of treating \"speed\" as one problem.</p>"
 overview_answer: "Core Web Vitals optimisation is the process of diagnosing and fixing the three specific metrics Google measures for page experience - LCP, INP, and CLS - individually, rather than applying general speed advice and hoping it covers all three."
 capabilities:
     - { title: 'LCP Diagnosis & Fixes', items: ['Identifying the actual largest content element and what delays it', 'Server response time and render-path fixes', 'Preloading and prioritising the correct resource'] }

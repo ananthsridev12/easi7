@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>An email campaign is a one-off or scheduled broadcast send - a product launch, a sale, a company update - as opposed to an automated flow that runs continuously in the background. The two need different skills: automation is systems work, campaigns are editorial work, built around who's on the list and what would actually make them want to open this particular email.</p><p>The same message sent to an entire list regardless of behaviour or lifecycle stage is the fastest way to train people to stop opening. A recent purchaser and a lapsed subscriber need different messages even when the underlying offer is identical.</p>"
+overview: "<p>The same message sent to an entire list regardless of behaviour or lifecycle stage is the fastest way to train people to stop opening. We build campaigns around who's actually on the list - segmented by behaviour and purchase history, tested before the full send goes out - so a recent purchaser and a lapsed subscriber never get treated the same way.</p>"
 overview_answer: "Email campaigns are one-off or scheduled broadcast sends - built on segmentation, subject-line testing, and a defined calendar - as distinct from always-on automated flows."
 capabilities:
     - { title: 'List Segmentation', items: ['Segmentation by behaviour, purchase history, and lifecycle stage', 'Suppression logic so over-emailed segments get skipped'] }

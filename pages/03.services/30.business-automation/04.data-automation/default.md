@@ -2,7 +2,7 @@
 title: 'Data Automation'
 template: service-detail-a
 eyebrow: 'Business Automation'
-headline: 'Data that moves between systems without anyone touching it'
+headline: 'Data That Moves Between Systems Without Anyone Touching It'
 tagline: 'Data automation for syncing, transforming, and validating data across business systems.'
 primary_intent: 'commercial - service research'
 entities: ['Data Sync', 'ETL', 'Data Transformation', 'Scheduled Pipelines', 'Event-Triggered Pipelines', 'Error Alerting']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Manual data exports and imports are where errors and delays quietly accumulate. Someone exports a spreadsheet from one system, reformats a few columns by hand because the two tools structure dates differently, and imports it into another - and does this every week, hoping they format it the same way each time. They usually do not, and a subtly malformed row breaks a downstream report three weeks later with no obvious cause.</p><p>The failure is rarely caught immediately, because a manual export/import loop looks like it is working right up until the data drifts enough to be noticed - by which point it has been feeding decisions for a while.</p>"
-solution: "<p>Data automation replaces the export/import loop with a pipeline that moves data directly between systems, transforming it into the format each side expects and validating it before it lands. It runs on a schedule or fires the moment a triggering event happens, and it fails loudly - with an alert - instead of silently passing bad data through.</p>"
+problem: "<p>Manual data exports and imports are where errors and delays quietly accumulate - someone reformats a spreadsheet by hand every week, hoping to do it the same way each time, and a subtly malformed row breaks a downstream report weeks later with no obvious cause. The failure is rarely caught immediately, because the loop looks like it's working right up until the data drifts enough to notice.</p>"
+solution: "<p>Data automation replaces the export/import loop with a pipeline that moves data directly between systems, transforming it into the format each side expects and validating it before it lands. It runs on a schedule or event trigger, and it fails loudly, with an alert, instead of silently passing bad data through.</p>"
 solution_answer: "Data automation is a pipeline that syncs, transforms, and validates data directly between systems, on a schedule or event trigger, removing the manual export/import step where errors typically accumulate."
-approach: "<p>We start by tracing exactly where a manual export/import currently happens and why, because the transformation logic hiding in someone's spreadsheet habits is usually the actual specification for the pipeline. Validation rules go in from the start, since a pipeline that moves bad data faster is a worse outcome than the manual process it replaced.</p>"
+approach: "<p>We start by tracing exactly where a manual export/import happens today and why, because the transformation logic hiding in someone's spreadsheet habits is usually the real specification for the pipeline. Validation rules go in from the start, since a pipeline that moves bad data faster is worse than the process it replaces.</p>"
 capabilities:
     - { title: 'Automated Data Sync', items: ['Direct system-to-system sync, no manual export/import', 'Two-way sync where both systems need current data', 'Field mapping across systems with different data models'] }
     - { title: 'Transformation & Validation', items: ['Data transformed into the format each destination system expects', 'Validation rules applied before data lands, not after', 'Format and type consistency checks across the pipeline'] }

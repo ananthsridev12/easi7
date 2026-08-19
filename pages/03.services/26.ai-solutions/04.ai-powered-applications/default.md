@@ -2,8 +2,8 @@
 title: 'AI-Powered Applications'
 template: service-detail-a
 eyebrow: 'AI Solutions'
-headline: 'Applications with AI doing real work, not a chatbot bolted on'
-tagline: "AI-powered application development where AI is core to the product's function, not a superficial add-on."
+headline: 'AI That Does Real Work Inside Your Product, Not Beside It'
+tagline: "AI application development where the model is core to the product, not a chatbot bolted onto the side."
 primary_intent: 'commercial - service research'
 entities: ['Model Integration', 'Application Architecture', 'AI Feature Scoping', 'Cost Monitoring', 'Iterative Rollout']
 tools: ['AI Applications', 'Product Integration']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A lot of products have added an AI feature the same way - a chat icon in the corner, disconnected from the rest of the interface, answering questions the product's own UI could usually answer faster. It signals that AI was involved somewhere, but it rarely changes what the product actually does for the user, and users tend to notice the difference between a feature and a decoration.</p><p>The harder version of the problem shows up after launch: AI features that were fun to demo turn out to be expensive to run at real usage volume, slow enough to frustrate users, or wrong often enough that support tickets increase instead of decrease. None of that shows up in a five-minute demo with clean inputs.</p>"
-solution: "<p>Building AI into a product properly means treating it as core application architecture, not a widget - deciding early where AI genuinely improves the core workflow, choosing a model and integration pattern that holds up at real usage volume and cost, and designing around the cases where the model gets it wrong, because it will.</p>"
+problem: "<p>A lot of products bolt on an AI feature the same way - a chat icon in the corner, disconnected from the interface, answering questions the product's own UI could answer faster. It signals AI was involved somewhere, but it rarely changes what the product does, and users notice the difference between a feature and a decoration.</p>"
+solution: "<p>Building AI into a product properly means treating it as core architecture, not a widget - deciding early where it genuinely improves the workflow, choosing a model that holds up at real usage volume and cost, and designing around the cases where it gets things wrong, because it will.</p>"
 solution_answer: "An AI-powered application is a product where an AI model performs a core function inside the actual user workflow - not a separate assistant bolted onto the side of an otherwise unchanged product."
-approach: "<p>We start by scoping exactly which part of the product AI is meant to improve, and being explicit about the parts it isn't - a specific feature usually benefits more than a vague AI layer across the whole product. From there, model selection, application architecture, and cost monitoring get built as part of the core engineering work, and we roll features out iteratively against real usage data rather than shipping a fully-built AI feature to every user on day one.</p>"
+approach: "<p>We start by scoping exactly which part of the product AI should improve, and being explicit about what it isn't. Model selection, architecture, and cost monitoring get built as part of the core engineering work, and we roll features out iteratively against real usage data rather than shipping to every user on day one.</p>"
 capabilities:
     - { title: 'AI Feature Scoping', items: ['Identifying which specific product workflows genuinely benefit from AI', 'Being explicit about what stays outside the AI feature'] }
     - { title: 'Model Selection & Integration', items: ['Model choice matched to latency, cost, and accuracy requirements', 'Integration patterns that keep AI calls from becoming a performance bottleneck'] }

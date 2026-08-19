@@ -2,8 +2,8 @@
 title: 'Data Strategy'
 template: service-detail-b
 eyebrow: 'Data Strategy'
-headline: 'A plan for the data, not just the dashboards built on top of it'
-tagline: 'Data strategy covering collection, storage, governance, and access across the marketing and business stack.'
+headline: 'Get a Plan For The Data, Not Just The Dashboard'
+tagline: 'We cover collection, storage, governance, and access, so every dashboard built on top actually holds up.'
 primary_intent: 'informational - concept explainer'
 entities: ['Data Strategy', 'Data Governance', 'Data Warehouse', 'Access Controls', 'Privacy Compliance']
 tools: ['Data Strategy', 'Data Governance']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Most reporting problems that look like a dashboard problem are actually a data problem several layers down. Collection is inconsistent across tools, nobody owns data quality, and access is either too locked down for anyone to self-serve or so open that nobody trusts what they're looking at. Building a better dashboard on top of that foundation just presents the same unreliable numbers more attractively.</p><p>Data strategy addresses the layer underneath the dashboard: how data gets collected and stored, who is responsible for its quality, who can access what, and whether the underlying warehouse and pipelines can actually support what the business is asking of them.</p>"
+overview: "<p>Most reporting problems that look like a dashboard problem are actually a data problem several layers down - collection is inconsistent, nobody owns data quality, and access is either too locked down or too open to trust. Building a better dashboard on top of that foundation just presents the same unreliable numbers more attractively. We fix the layer underneath: collection, storage, quality ownership, and access.</p>"
 overview_answer: "Data strategy is the plan for how data gets collected, stored, governed, and accessed across the business - the foundation that determines whether any dashboard built on top of it can actually be trusted."
 capabilities:
     - { title: 'Collection & Storage Strategy', items: ['Auditing what data is currently collected and where it lives', 'Consolidating fragmented sources into a coherent structure'] }

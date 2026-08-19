@@ -2,7 +2,7 @@
 title: 'Business Presentations'
 template: service-detail-a
 eyebrow: 'Presentation Design'
-headline: 'Slides that support the speaker, not compete with them'
+headline: 'Design Slides That Support The Speaker, Not Compete'
 tagline: 'Business presentation design for internal and external meetings, built around clarity over decoration.'
 primary_intent: 'commercial - service research'
 entities: ['Slide Design', 'Visual Hierarchy', 'Data Visualisation', 'Template Systems', 'Speaker Notes']
@@ -15,21 +15,21 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>The most common failure in business presentation design isn't bad visuals, it's density - a slide trying to carry every point the speaker might make, which forces the audience to choose between reading the slide and listening to the person presenting it. By the third dense slide, most audiences have quietly picked reading, and the speaker has lost the room without realising it.</p><p>The second common issue is inconsistency - decks assembled from old slides, mismatched templates, and copy-pasted charts that look like they came from three different companies.</p>"
+problem: "<p>The most common failure in business presentation design isn't bad visuals, it's density - a slide trying to carry every point the speaker might make, forcing the audience to choose between reading the slide and listening to the person presenting it. By the third dense slide, most audiences have quietly picked reading, and the speaker has lost the room without realising it. The second common issue is inconsistency - decks assembled from old slides and copy-pasted charts that look like they came from three different companies.</p>"
 solution: "<p>We design each slide to carry one idea clearly, with the speaker's narration doing the explaining rather than the slide trying to be self-sufficient. Structure and visual hierarchy are worked out before any slide gets styled, so the deck supports the argument instead of competing with it.</p>"
 solution_answer: "Business presentation design is structuring and designing slides so they support what the speaker is saying, rather than trying to contain the entire argument in text."
-approach: "<p>We start with the structure - what the deck needs to argue and in what order - before touching layout or colour. Each slide is then designed to carry one idea, with data and charts simplified to what actually needs to be seen rather than everything that could be shown. Speaker notes and structure guidance are included so the person presenting knows what each slide is actually there to do.</p>"
+approach: "<p>We start with the structure - what the deck needs to argue and in what order - before touching layout or colour. Each slide is then designed to carry one idea, with data and charts simplified to what actually needs to be seen. Speaker notes are included so the person presenting knows what each slide is actually there to do.</p>"
 capabilities:
     - { title: 'Slide Layout & Hierarchy', items: ['One-idea-per-slide structure', 'Visual hierarchy that guides the eye to the point that matters'] }
     - { title: 'Data & Chart Visualisation', items: ['Chart simplification for on-slide use', 'Consistent data visualisation style across the deck'] }
     - { title: 'Template Systems', items: ['Brand-consistent, reusable slide templates', 'Master slide library for repeat use'] }
     - { title: 'Speaker Support', items: ['Speaker notes structuring', 'Guidance on pacing and slide sequencing'] }
 process:
-    - { title: 'Structure & Narrative Mapping', body: 'We map what the deck needs to argue and in what order before any slide gets designed.' }
-    - { title: 'Content Simplification', body: 'Dense source material is cut down to what actually needs to appear on a slide.' }
-    - { title: 'Slide Design', body: 'Each slide is designed around a single idea with clear visual hierarchy.' }
-    - { title: 'Data Visualisation', body: 'Charts and data are simplified into a form that reads instantly, not one that needs explaining.' }
-    - { title: 'Speaker Notes & Review', body: 'Speaker notes and pacing guidance are added, then the deck is reviewed as a full run-through.' }
+    - { title: 'Map', body: 'We map what the deck needs to argue and in what order before any slide gets designed.' }
+    - { title: 'Simplify', body: 'Dense source material is cut down to what actually needs to appear on a slide.' }
+    - { title: 'Design', body: 'Each slide is designed around a single idea with clear visual hierarchy.' }
+    - { title: 'Visualize', body: 'Charts and data are simplified into a form that reads instantly, not one that needs explaining.' }
+    - { title: 'Review', body: 'Speaker notes and pacing guidance are added, then the deck is reviewed as a full run-through.' }
 comparison:
     headers: ['Speaker-Supporting Deck', 'Self-Sufficient Deck']
     rows:

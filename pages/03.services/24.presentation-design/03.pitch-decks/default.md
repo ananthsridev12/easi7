@@ -15,9 +15,9 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-definition: "<p>A pitch deck is a short, tightly disciplined presentation used to secure a specific decision - typically funding or a new business win - within a compressed window of attention. The discipline that defines a good pitch deck is scarcity: something closer to ten slides, where every single one has to justify its place, rather than a document that tries to cover everything about the business.</p>"
+definition: "<p>We build your pitch deck to secure one specific decision - funding or a new business win - within a compressed window of attention. The discipline that defines a good deck is scarcity: something closer to ten slides, where every single one has to justify its place, rather than a document that tries to cover everything about the business.</p>"
 definition_answer: "A pitch deck is a short, high-discipline presentation - typically around ten slides - built to secure a specific decision like funding or a new business win, where every slide has to earn its place."
-why_it_matters: "<p>A pitch deck usually gets a narrow window of genuine attention, whether that's a few minutes in an investor meeting or the first several slides before someone mentally checks out. There is very little room in that window for a slide that doesn't advance the argument, which is precisely why length discipline matters more here than in almost any other presentation format.</p><p>Investors and evaluators also read design quality as a signal - a cluttered, inconsistent deck raises questions about operational discipline that the actual numbers can't answer on their own.</p>"
+why_it_matters: "<p>A pitch deck gets a narrow window of genuine attention, whether that's a few minutes in an investor meeting or the first several slides before someone mentally checks out, so there's very little room for a slide that doesn't advance the argument. Investors also read design quality as a signal - a cluttered, inconsistent deck raises questions about operational discipline that the numbers alone can't answer.</p>"
 challenges:
     - 'Deciding what to cut is usually harder than deciding what to include, especially for a founder close to every detail of the business'
     - 'Balancing enough detail to be credible against the discipline of staying near ten slides'

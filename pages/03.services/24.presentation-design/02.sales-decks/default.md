@@ -2,8 +2,8 @@
 title: 'Sales Decks'
 template: service-detail-b
 eyebrow: 'Presentation Design'
-headline: 'Built to move a deal forward, not just inform'
-tagline: 'Sales deck design structured around objection handling and a clear next step.'
+headline: 'Build a Deck That Moves The Deal, Not Just Informs'
+tagline: 'A sales deck structured around your real objections and a clear next step, not a generic overview.'
 primary_intent: 'commercial - service research'
 entities: ['Sales Decks', 'Objection Handling', 'Deal Progression', 'Proof Points', 'Template Systems']
 tools: ['Sales Decks', 'Deal Progression']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A sales deck has one job that's different from most other presentations: moving a specific deal to its next stage. That means the structure needs to follow the sales process itself - the objections that actually come up, the proof points that actually land, and a clear next step at the end - rather than a generic company overview that could be handed to anyone.</p><p>A deck built around 'everything about us' instead of 'why this deal should move forward' tends to generate polite interest and no next meeting.</p>"
+overview: "<p>A deck built around \"everything about us\" instead of \"why this deal should move forward\" tends to generate polite interest and no next meeting. A sales deck has one job: moving a specific deal to its next stage. We structure it around the objections that actually come up, the proof points that actually land, and a clear next step at the end.</p>"
 overview_answer: "A sales deck is a presentation structured around the specific stages of a sales process - built to handle real objections and end with a clear next step, rather than a general company overview."
 capabilities:
     - { title: 'Narrative Structure', items: ['Sales-process-aligned slide sequencing', 'Objection-handling built into the flow, not bolted on at the end'] }

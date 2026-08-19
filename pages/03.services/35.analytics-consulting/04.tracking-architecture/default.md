@@ -2,8 +2,8 @@
 title: 'Tracking Architecture'
 template: service-detail-a
 eyebrow: 'Tracking Architecture'
-headline: 'A tracking foundation designed to last, not patched repeatedly'
-tagline: 'Tracking architecture covering data layer structure, tool integration, naming governance, and cross-platform design.'
+headline: 'Build a Tracking Foundation That Actually Lasts'
+tagline: 'Tracking architecture covering data layer structure, tool integration, and naming governance.'
 primary_intent: 'commercial - service research'
 entities: ['Tracking Architecture', 'Data Layer', 'GTM', 'GA4', 'Naming Convention Governance', 'Cross-Domain Tracking']
 service_url: /services/analytics-consulting/tracking-architecture
@@ -14,10 +14,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Tracking that grows organically - a tag added here for one campaign, an event renamed there for one report - eventually turns into something nobody fully understands. Each addition made sense in isolation at the time, but nobody was working from an underlying architecture, so naming is inconsistent, some events fire twice, others don't fire at all on certain pages, and every new integration risks quietly breaking something that was working before.</p><p>At that point, small requests become disproportionately expensive. Adding a single new event means first figuring out what is already there and why, because nothing was documented and the person who set most of it up may not even be around anymore.</p>"
-solution: "<p>Tracking architecture starts from the data layer up: a defined structure for what data gets captured and how, a naming convention that scales past whoever set it up, and a documented plan for how tools plug into that structure rather than each other. Once that foundation exists, adding a new tool or event is a matter of following the pattern, not reverse-engineering the last five years of ad-hoc additions.</p>"
+problem: "<p>Tracking that grows organically - a tag added here, an event renamed there - eventually turns into something nobody fully understands, with inconsistent naming and events that fire twice or not at all. At that point, small requests become disproportionately expensive, because adding one event means first figuring out what's already there and why.</p>"
+solution: "<p>Tracking architecture starts from the data layer up: a defined structure for what data gets captured, a naming convention that scales past whoever set it up, and a documented plan for how tools plug into that structure. Once that foundation exists, adding a new tool or event means following the pattern, not reverse-engineering years of ad-hoc additions.</p>"
 solution_answer: "Tracking architecture is the underlying data layer structure, naming convention, and integration plan that tracking tools get built on top of, designed so new tracking can be added without breaking what already exists."
-approach: "<p>We design the data layer and naming convention before touching any specific tool implementation, then map how GA4, GTM, the CRM, and ad platforms should each plug into that shared structure. The result gets documented well enough that someone who wasn't in the room for the original build can still maintain it correctly.</p>"
+approach: "<p>We design the data layer and naming convention before touching any specific tool implementation, then map how GA4, GTM, the CRM, and ad platforms should each plug into that shared structure. The result gets documented well enough that someone who wasn't in the room for the original build can still maintain it.</p>"
 capabilities:
     - { title: 'Data Layer Design', items: ['A structured data layer schema covering key events and parameters', 'Consistent object and variable naming across the site or app'] }
     - { title: 'Tool Integration Planning', items: ['GA4, GTM, CRM, and ad platform integration mapped to the shared data layer', 'Server-side tagging evaluation where client-side limits become a problem'] }

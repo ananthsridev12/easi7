@@ -2,7 +2,7 @@
 title: 'Corporate Website Design'
 template: service-detail-a
 eyebrow: 'Website Design'
-headline: 'Visual design that reads as established, not new'
+headline: 'Design A Site That Reads As Established'
 tagline: 'Corporate website design built to project credibility and stability for B2B and enterprise audiences.'
 primary_intent: 'commercial - service research'
 entities: ['Brand Consistency', 'Credibility Design', 'Information Architecture', 'Design QA', 'Multi-department Templates']
@@ -14,10 +14,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A corporate site is usually judged by someone who has never met the company and is deciding, in a few seconds, whether it looks like a business worth trusting with a contract, a partnership, or a large purchase. Dated layouts, inconsistent styling between departments, and generic stock-template design all read as risk signals before a single word of copy gets read.</p><p>The problem compounds at scale. A ten-page site can get away with minor inconsistency; a corporate site with dozens of department, product, and investor pages built up over years usually shows the seams - different header styles, mismatched spacing, three versions of the same button - and each inconsistency chips away at the impression of a well-run organisation.</p>"
-solution: "<p>Corporate website design is the discipline of building visual credibility into the layout itself - hierarchy that signals what matters, consistent styling across every department and page template, and a design system that holds up as the site grows rather than degrading page by page. It's less about a striking visual statement and more about removing every small reason a buyer might hesitate.</p>"
+problem: "<p>A corporate site is usually judged by someone who has never met the company and is deciding, in a few seconds, whether it looks like a business worth trusting with a contract or a large purchase. Dated layouts, inconsistent styling between departments, and generic stock-template design all read as risk signals before a single word of copy gets read - and a site with dozens of pages built up over years usually shows the seams, chipping away at the impression of a well-run organisation.</p>"
+solution: "<p>We build visual credibility into the layout itself - hierarchy that signals what matters, consistent styling across every department and page template, and a design system that holds up as the site grows rather than degrading page by page. It's less about a striking visual statement and more about removing every small reason a buyer might hesitate.</p>"
 solution_answer: "Corporate website design is visual design work focused on credibility and consistency across a multi-page corporate site, so the site reduces a buyer's perceived risk rather than just looking current."
-approach: "<p>We start by auditing what already exists - brand guidelines, existing page templates, inconsistencies that have crept in - before proposing new layouts, because a corporate rebuild that ignores what's already working tends to introduce new inconsistencies rather than fixing old ones. From there we build a small set of reusable templates rather than one-off pages, so consistency is structural rather than something that has to be manually maintained.</p>"
+approach: "<p>We audit what already exists - brand guidelines, existing page templates, inconsistencies that have crept in - before proposing new layouts, because ignoring what's already working tends to introduce new inconsistencies rather than fixing old ones. From there we build a small set of reusable templates rather than one-off pages, so consistency is structural.</p>"
 capabilities:
     - { title: 'Brand-Aligned Layout', items: ['Visual design mapped to existing brand guidelines', 'Typography and colour systems applied consistently', 'Component library for repeatable page building'] }
     - { title: 'Credibility-Focused Hierarchy', items: ['Trust signal placement (certifications, leadership, partners)', 'Content-first layout for considered decisions', 'Clear information hierarchy per page type'] }
@@ -30,11 +30,11 @@ deliverables:
     - { a: 'Design System', b: 'Style guide covering type, colour, components, and spacing rules' }
     - { a: 'QA', b: 'Visual QA report across desktop, tablet, and mobile breakpoints' }
 process:
-    - { title: 'Audit & Discovery', body: 'We review existing brand guidelines, current site inconsistencies, and stakeholder priorities before designing anything.' }
-    - { title: 'Information Architecture', body: 'Page structure and navigation are mapped around how a buyer actually needs to move through the site, not around the org chart.' }
-    - { title: 'Visual Design & Credibility Mapping', body: 'Layouts are designed with trust signals and hierarchy placed deliberately, not decoratively.' }
-    - { title: 'Template Rollout', body: 'A small set of templates is built and applied across departments, so new pages stay consistent without a fresh design pass each time.' }
-    - { title: 'Design QA', body: 'Every template is checked across breakpoints and against the style guide before handoff.' }
+    - { title: 'Audit', body: 'We review existing brand guidelines, current site inconsistencies, and stakeholder priorities before designing anything.' }
+    - { title: 'Architect', body: 'Page structure and navigation are mapped around how a buyer actually needs to move through the site, not around the org chart.' }
+    - { title: 'Design', body: 'Layouts are designed with trust signals and hierarchy placed deliberately, not decoratively.' }
+    - { title: 'Build', body: 'A small set of templates is built and applied across departments, so new pages stay consistent without a fresh design pass each time.' }
+    - { title: 'QA', body: 'Every template is checked across breakpoints and against the style guide before handoff.' }
 comparison:
     headers: ['Template-Based Design System', 'One-Off Page Design']
     rows:

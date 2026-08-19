@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Display gets dismissed as unmeasurable awareness spend more often than it deserves. The problem usually isn't the channel, it's that view-through impact never gets connected back to what happened downstream, so display ends up judged purely on click-through rate, a metric it was never built to win.</p><p>Run properly, display is contextual and audience targeting placed where a brand needs presence between the first search and the eventual conversion, with viewability and brand safety controls that keep spend off placements nobody should be advertising on in the first place.</p>"
+overview: "<p>Display gets written off as unmeasurable more often than it deserves - usually because view-through impact never gets connected back to what happened downstream. We run display with contextual and audience targeting placed where your brand needs presence between the first search and the eventual conversion, with viewability and brand safety controls in place from day one.</p>"
 overview_answer: "Display advertising is running Google Display Network and programmatic campaigns for upper-funnel reach, with view-through impact tracked against downstream conversions rather than judged on click-through rate alone."
 capabilities:
     - { title: 'GDN Campaign Setup', items: ['Placement and audience targeting setup', 'Creative sizing and format management'] }

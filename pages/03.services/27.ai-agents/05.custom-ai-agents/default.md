@@ -2,8 +2,8 @@
 title: 'Custom AI Agents'
 template: service-detail-b
 eyebrow: 'Custom AI Agents'
-headline: 'Built around your specific workflow, not a generic template'
-tagline: "Custom AI agent development for internal or customer-facing workflows that off-the-shelf agent platforms don't fit."
+headline: 'Get an Agent Built Around Your Workflow, Not a Template'
+tagline: "Custom AI agents for internal or customer-facing workflows off-the-shelf platforms can't handle."
 primary_intent: 'commercial - service research'
 entities: ['Workflow-Specific Agents', 'Tool Access Scoping', 'Agent Guardrails', 'Agent Evaluation', 'Custom Integrations']
 tools: ['Custom Agents', 'Workflow-specific AI', 'Agent Evaluation']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Off-the-shelf agent platforms cover the common patterns well - support, sales qualification, basic research - because those patterns repeat across enough businesses to build a product around. Plenty of workflows don't fit that mold: an internal process specific to how your operations team actually works, a customer-facing task tied to a proprietary system, or a decision flow that depends on data no generic platform has access to.</p><p>Custom AI agent development is for exactly that gap - a workflow specific enough that adapting an off-the-shelf tool would mean bending the workflow to fit the tool, instead of the other way around.</p>"
+overview: "<p>Off-the-shelf agent platforms cover the common patterns well, but plenty of workflows don't fit that mold - an internal process specific to your operations team, a task tied to a proprietary system, a decision flow that depends on data no generic platform can reach. We build the agent around your actual workflow instead of bending the workflow to fit someone else's tool.</p>"
 overview_answer: "Custom AI agent development is building an agent from the ground up around a specific internal or customer-facing workflow that off-the-shelf agent platforms don't support natively - including the tool access, data connections, and guardrails that workflow actually requires."
 capabilities:
     - { title: 'Workflow-Specific Agent Design', items: ['Agent scope and logic built around your actual process, not a generic template', 'Decision boundaries mapped directly from how the workflow works today'] }

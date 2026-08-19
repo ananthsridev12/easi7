@@ -3,7 +3,7 @@ title: 'Technical SEO'
 template: service-detail-a
 eyebrow: 'Technical SEO'
 headline: 'Fix what stops a site from ranking at all'
-tagline: "The foundation layer - crawl access, indexation, speed, and schema - that has to be right before any other SEO work can compound."
+tagline: "Fix the crawl, indexation, speed, and schema issues that quietly cap your rankings before any other SEO work can pay off."
 primary_intent: 'commercial - service research'
 entities: ['Crawl Budget', 'Indexation', 'Core Web Vitals', 'Schema Markup', 'Site Architecture', 'XML Sitemaps']
 tools: ['Screaming Frog', 'Google Search Console', 'Ahrefs', 'Core Web Vitals']
@@ -14,8 +14,8 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.7
-problem: "<p>Most technical SEO problems are invisible from the front end - a page can look complete and still be unreadable to a crawler, excluded from the index, or slow enough that Google deprioritises it before ranking is even a question. We regularly find sites that have invested heavily in content while a robots.txt misconfiguration, a broken canonical tag, or an infinite-scroll pattern quietly keeps half the site out of search results.</p><p>These problems compound with scale. A crawl budget issue that costs a 50-page site nothing can effectively hide thousands of pages on a larger catalogue or content library, and nobody notices until organic traffic plateaus for reasons the content team can't explain.</p>"
-solution: "<p>Technical SEO is the layer that makes a site eligible to rank in the first place - clean crawl paths, correct indexation, fast load times, and structured data that tells search engines and AI crawlers exactly what a page is. It's not glamorous work, but it's the work that determines whether everything built on top of it - content, links, authority - actually gets credit.</p>"
+problem: "<p>Most technical SEO problems are invisible from the front end - a page can look complete and still be unreadable to a crawler, excluded from the index, or too slow to rank. We regularly find sites that have invested heavily in content while a robots.txt error or a broken canonical tag quietly keeps half the site out of search results, and the damage only grows as the site scales.</p>"
+solution: "<p>Technical SEO makes a site eligible to rank in the first place - clean crawl paths, correct indexation, fast load times, and structured data that tells search engines and AI crawlers exactly what a page is. It's not glamorous work, but it decides whether everything you build on top of it - content, links, authority - actually gets credit.</p>"
 solution_answer: "Technical SEO is the set of fixes to a site's crawlability, indexation, speed, and markup that determine whether search engines and AI systems can access, understand, and rank its pages at all."
 approach: "<p>We start with a full crawl before touching anything, because guessing at technical issues wastes more time than finding them properly. From there we prioritise by impact - a canonical error affecting your ten highest-traffic pages gets fixed before a minor alt-text gap on a page nobody visits - and we re-crawl after each round of fixes to confirm the change actually took effect, not just that it was deployed.</p>"
 capabilities:
@@ -30,12 +30,12 @@ deliverables:
     - { a: 'Structured Data', b: 'Schema implementation across priority page types, validated in Search Console' }
     - { a: 'Architecture', b: 'Internal linking and URL structure recommendations, sequenced by effort and impact' }
 process:
-    - { title: 'Full Crawl & Baseline', body: 'We crawl the entire site the way a search engine would, capturing crawl errors, indexation status, and structural issues before recommending anything.' }
-    - { title: 'Issue Prioritisation', body: 'Findings are ranked by how much organic potential each one is actually costing, not by how many issues exist in a category.' }
-    - { title: 'Fix Implementation', body: 'We implement fixes directly or hand off a developer-ready spec, depending on how your team is set up.' }
-    - { title: 'Schema & Markup', body: 'Structured data is added for the page types that benefit most - product, article, FAQ, and organisation-level entity markup.' }
-    - { title: 'Re-crawl & Verification', body: "We re-crawl after deployment to confirm fixes actually resolved, not just that code shipped." }
-    - { title: 'Ongoing Monitoring', body: 'Recurring crawls flag regressions before they erode months of ranking progress.' }
+    - { title: 'Audit', body: 'We crawl the entire site the way a search engine would, capturing crawl errors, indexation status, and structural issues before recommending anything.' }
+    - { title: 'Prioritise', body: 'Findings are ranked by how much organic potential each one is actually costing, not by how many issues exist in a category.' }
+    - { title: 'Fix', body: 'We implement fixes directly or hand off a developer-ready spec, depending on how your team is set up.' }
+    - { title: 'Markup', body: 'Structured data is added for the page types that benefit most - product, article, FAQ, and organisation-level entity markup.' }
+    - { title: 'Verify', body: "We re-crawl after deployment to confirm fixes actually resolved, not just that code shipped." }
+    - { title: 'Monitor', body: 'Recurring crawls flag regressions before they erode months of ranking progress.' }
 comparison:
     headers: ['With a Fixed Technical Foundation', 'Without One']
     rows:

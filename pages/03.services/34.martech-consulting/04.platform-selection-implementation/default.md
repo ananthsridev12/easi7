@@ -2,8 +2,8 @@
 title: 'Platform Selection & Implementation'
 template: service-detail-a
 eyebrow: 'Platform Selection & Implementation'
-headline: 'Chosen against your requirements, not a vendor''s demo'
-tagline: 'Platform selection and implementation oversight for marketing technology purchases, evaluated against your actual use cases.'
+headline: 'Choose Against Your Requirements, Not the Vendor''s Demo'
+tagline: 'Platform selection and implementation oversight evaluated against your actual use cases, not a sales pitch.'
 primary_intent: 'commercial - service research'
 entities: ['Requirements Definition', 'Vendor Evaluation', 'Proof-of-Concept', 'Implementation Oversight', 'Adoption Review']
 tools: ['Platform Selection', 'Implementation Oversight']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A vendor demo is built to make the platform look good, not to reveal how it performs against your specific edge cases. Sales engineers know which scenarios to show and which to route around, and by the time a contract is signed, the gap between the demo and the daily reality only becomes visible once real data and real workflows hit the system.</p><p>That gap gets expensive fast - contracts are often annual, implementation partners charge by the hour regardless of whether the platform was the right choice, and switching a year in means re-running the whole selection process while also unwinding whatever got built on the wrong foundation.</p>"
-solution: "<p>Requirements get defined before any vendor conversation starts, based on actual use cases pulled from the teams who'll use the platform daily - not a generic feature checklist. Vendors get evaluated against those specific requirements, proof-of-concept work is structured to stress-test the scenarios that actually matter to your business, and implementation gets overseen through go-live so the build matches what was actually promised in the sales process.</p>"
+problem: "<p>A vendor demo is built to make the platform look good, not to reveal how it performs against your edge cases - sales engineers know which scenarios to show and which to route around. That gap gets expensive fast: contracts are annual, and switching a year in means re-running the whole selection process while unwinding whatever got built on the wrong foundation.</p>"
+solution: "<p>Requirements get defined before any vendor conversation starts, based on actual use cases from the teams who'll use the platform daily. Vendors get evaluated against those requirements, proof-of-concept work stress-tests the scenarios that matter to your business, and implementation gets overseen through go-live.</p>"
 solution_answer: "Platform selection and implementation is defining what a marketing technology platform actually needs to do for your business before evaluating vendors, then overseeing the buying and build process so the delivered system matches the requirement, not the demo."
-approach: "<p>We treat requirements definition as the highest-leverage step in the whole process, since a flawed requirement list makes every later decision worse regardless of how good the vendor evaluation is. Proof-of-concept and trial periods get structured around your actual edge cases rather than the vendor's suggested demo script, and once a platform is selected, we stay through implementation so the handoff between sales promises and technical delivery doesn't quietly drop anything.</p>"
+approach: "<p>We treat requirements definition as the highest-leverage step in the process, since a flawed requirement list makes every later decision worse. Proof-of-concept periods get structured around your actual edge cases rather than the vendor's script, and we stay through implementation so the handoff doesn't quietly drop anything.</p>"
 capabilities:
     - { title: 'Requirements Definition', items: ['Use case gathering across every team that will touch the platform', 'Prioritised requirements list before any vendor outreach begins'] }
     - { title: 'Vendor Evaluation & Shortlisting', items: ['Structured evaluation against your requirements, not marketing materials', 'Reference checks with comparable companies where available'] }

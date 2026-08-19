@@ -2,8 +2,8 @@
 title: 'GA4'
 template: service-detail-a
 eyebrow: 'GA4'
-headline: 'Set up properly, not just installed'
-tagline: 'GA4 implementation with the event structure and custom dimensions your business actually needs.'
+headline: 'Get GA4 Data You Can Actually Trust and Act On'
+tagline: 'We build the events and dimensions that answer your real business questions, not just the GA4 defaults.'
 primary_intent: 'commercial - service research'
 entities: ['GA4', 'Event Tracking', 'Custom Dimensions', 'BigQuery Export', 'E-Commerce Tracking']
 service_url: /services/analytics-tracking/ga4
@@ -14,8 +14,8 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A GA4 property with the default setup looks complete even when it is not. Enhanced measurement fires automatically, a handful of events show up in reports, and it is easy to assume the platform is working. What it is usually missing is anything tied to how the business actually operates - custom conversion events, dimensions that map to real segments, and e-commerce data that reconciles against actual orders.</p><p>The result is a property that reports activity without reporting meaning. Traffic and engagement numbers look fine, but nobody can answer a specific question like which lead source produces customers who actually renew, because the dimension needed to answer it was never configured.</p>"
-solution: "<p>A proper GA4 implementation starts from the business questions that need answering, not from the list of events GA4 collects by default. Custom events, dimensions, and metrics are built to capture the actions that actually matter - a demo request, a return customer, a specific product category - and e-commerce tracking is validated against the systems that process real transactions, not assumed to be correct because it fires.</p>"
+problem: "<p>A GA4 property with the default setup looks complete even when it isn't - enhanced measurement fires automatically, a handful of events show up in reports, and it's easy to assume the platform is working. What's usually missing is anything tied to how the business actually operates, so traffic and engagement numbers look fine but nobody can answer a specific question like which lead source produces customers who actually renew.</p>"
+solution: "<p>A proper GA4 implementation starts from the business questions that need answering, not the list of events GA4 collects by default. Custom events, dimensions, and metrics are built to capture the actions that actually matter, and e-commerce tracking is validated against the systems that process real transactions, not assumed correct because it fires.</p>"
 solution_answer: "GA4 implementation is configuring events, dimensions, and e-commerce tracking to match your specific business model, not just installing the default tag."
 approach: "<p>We start by mapping the questions the business actually needs the data to answer, then design the event and dimension architecture backwards from those questions. Every implementation is validated in debug view before it goes live, and e-commerce and conversion numbers are checked against order or CRM data rather than trusted on faith - a tag that fires is not the same thing as data that is correct.</p>"
 capabilities:
@@ -25,12 +25,12 @@ capabilities:
     - { title: 'E-Commerce & Enhanced Measurement', items: ['Enhanced measurement configuration and cleanup', 'Purchase funnel and item-scoped event tracking', 'Refund and return event handling'] }
     - { title: 'Data Validation', items: ['Validation against CRM or order-management data', 'Debug view QA before anything goes live'] }
 process:
-    - { title: 'Discovery & Question Mapping', body: 'We document the specific business questions the property needs to answer before touching any configuration.' }
-    - { title: 'Event & Dimension Architecture', body: 'Events, dimensions, and metrics are designed backwards from those questions, not from the default event list.' }
-    - { title: 'Implementation', body: 'Configuration is built through GTM or gtag, whichever the existing setup calls for.' }
-    - { title: 'Debug View QA', body: 'Every event is checked in debug view before it is allowed to go live.' }
-    - { title: 'Validation Against Source Systems', body: 'E-commerce and conversion numbers are checked against CRM or order data, not assumed correct because they fire.' }
-    - { title: 'Handover & Documentation', body: 'The final event and dimension map is documented so it survives beyond whoever built it.' }
+    - { title: 'Discovery', body: 'We document the specific business questions the property needs to answer before touching any configuration.' }
+    - { title: 'Architecture', body: 'Events, dimensions, and metrics are designed backwards from those questions, not from the default event list.' }
+    - { title: 'Build', body: 'Configuration is built through GTM or gtag, whichever the existing setup calls for.' }
+    - { title: 'QA', body: 'Every event is checked in debug view before it is allowed to go live.' }
+    - { title: 'Validate', body: 'E-commerce and conversion numbers are checked against CRM or order data, not assumed correct because they fire.' }
+    - { title: 'Handover', body: 'The final event and dimension map is documented so it survives beyond whoever built it.' }
 comparison:
     headers: ['Configured GA4 Property', 'Default Installation']
     rows:

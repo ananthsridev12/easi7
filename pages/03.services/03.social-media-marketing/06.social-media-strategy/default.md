@@ -15,9 +15,9 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-definition: "<p>Social media strategy is the decision layer that happens before any content gets made - which platforms actually fit the audience and the business model, what the brand should sound like once it's there, and which metrics will genuinely indicate progress toward a business outcome rather than a number that looks good in a slide.</p>"
+definition: "<p>Social media strategy is the decision layer that happens before any content gets made - which platforms actually fit your audience and business model, what the brand should sound like once it's there, and which metrics genuinely indicate progress toward a business outcome rather than a number that looks good in a slide.</p>"
 definition_answer: "Social media strategy is deciding which platforms to prioritise, what the brand's voice and positioning should be, and which KPIs actually reflect business progress, before any content is produced."
-why_it_matters: "<p>Being on every platform is not a strategy - it's a way to be mediocre everywhere. Most accounts inherit their platform presence from whoever set them up years ago, not from a deliberate decision about where the audience actually is and how much can realistically be produced well.</p><p>Without a KPI framework tied to business outcomes, teams end up optimising for whatever is easiest to report - usually reach or follower count - and that framework gets exposed the first time someone in finance asks what it actually bought.</p>"
+why_it_matters: "<p>Being on every platform isn't a strategy, it's a way to be mediocre everywhere - most accounts inherit their platform presence from whoever set them up years ago, not a deliberate decision about where the audience actually is. Without a KPI framework tied to business outcomes, teams end up optimising for whatever's easiest to report, usually reach or follower count, and that gets exposed the first time someone in finance asks what it actually bought.</p>"
 challenges:
     - 'Platform choice is often inherited from whoever set up the accounts years ago, not decided deliberately'
     - "A KPI framework that isn't tied to revenue or pipeline gets ignored the first time budget is questioned"

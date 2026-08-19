@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Manual lead entry is where leads get lost, delayed, or duplicated. A form fills out on the website, and someone has to notice it, copy the details into the CRM, and hope they didn't mistype the email address - and that's the version where nothing goes wrong. CRM integration removes that step entirely: a lead source captures the data once, and the connection carries it into the CRM correctly, without a person in between.</p><p>This matters most for businesses pulling leads from more than one place - a website form, paid ad platforms, a chat widget - since each additional manual source is another point where something can be missed or duplicated.</p>"
+overview: "<p>Manual lead entry is where leads get lost, delayed, or duplicated - someone has to notice a form fill, copy the details into the CRM, and hope they didn't mistype the email. We remove that step entirely: every lead source, from your website to ad platforms, connects straight into the CRM correctly, without a person in between.</p>"
 overview_answer: "CRM integration is the connection between a CRM and the tools that generate or use customer data - forms, ad platforms, email tools - so that data flows in automatically and stays consistent everywhere it lives."
 capabilities:
     - { title: 'Website & Form-to-CRM', items: ['Direct form submission routing into the CRM', 'Field mapping between form fields and CRM properties'] }

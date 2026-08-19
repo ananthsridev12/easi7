@@ -2,7 +2,7 @@
 title: 'E-commerce Design'
 template: service-detail-a
 eyebrow: 'Website Design'
-headline: 'Design that reduces friction between browsing and buying'
+headline: 'Remove The Friction Between Browsing And Buying'
 tagline: 'E-commerce design covering product pages, category browsing, and checkout flow.'
 primary_intent: 'commercial - service research'
 entities: ['Product Page Design', 'Checkout Flow', 'Category & Filter UX', 'Trust Signals', 'Mobile Commerce']
@@ -14,10 +14,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Every extra click, unclear label, or slow-loading step between a product page and a completed order is a chance for a shopper to abandon the cart, and most of them will. Poor category navigation buries products a customer already wants to buy; a cluttered product page leaves basic questions - size, shipping cost, return policy - unanswered until the shopper gives up looking; a checkout flow with unnecessary steps adds hesitation right when momentum matters most.</p><p>These issues are often invisible to the business because the traffic still arrives - it's the conversion that quietly leaks out at each friction point, which is harder to diagnose than a traffic problem.</p>"
-solution: "<p>E-commerce design treats every screen between discovery and purchase as part of one continuous decision, and designs to remove hesitation at each step rather than polishing screens in isolation. That means product pages structured around the questions a shopper actually asks, category and filter experiences that get to the right product fast, and a checkout flow stripped down to what's actually required to complete an order.</p>"
+problem: "<p>Every extra click, unclear label, or slow-loading step between a product page and a completed order is a chance for a shopper to abandon the cart, and most of them will. Poor category navigation buries products a customer already wants; a cluttered product page leaves basic questions - size, shipping, returns - unanswered; a checkout with unnecessary steps adds hesitation right when momentum matters most. The traffic still arrives - it's the conversion that quietly leaks out.</p>"
+solution: "<p>We treat every screen between discovery and purchase as part of one continuous decision, designing to remove hesitation at each step rather than polishing screens in isolation. Product pages get structured around the questions a shopper actually asks, category and filter experiences get shoppers to the right product fast, and checkout gets stripped down to what's actually required to complete an order.</p>"
 solution_answer: "E-commerce design is the design work applied to product pages, category browsing, and checkout, aimed specifically at removing friction between a shopper's decision to buy and completing that purchase."
-approach: "<p>We look at the full path a shopper takes, not each page in isolation, because a beautifully designed product page still loses the sale if the checkout that follows it adds three unnecessary steps. Design decisions get made against how much friction they add or remove at that specific point in the path, not against how the screen looks on its own.</p>"
+approach: "<p>We look at the full path a shopper takes, not each page in isolation, because a beautifully designed product page still loses the sale if the checkout that follows it adds unnecessary steps. Design decisions get made against how much friction they add or remove at that point in the path, not against how the screen looks on its own.</p>"
 capabilities:
     - { title: 'Product Page Design', items: ['Layout answering size, price, shipping, and return questions clearly', 'Visual hierarchy for imagery, description, and add-to-cart action', "Cross-sell and related product placement that doesn't distract from the primary decision"] }
     - { title: 'Category & Search Experience', items: ['Filter and sort design that gets shoppers to relevant products fast', 'Category page layout for both broad browsing and targeted search'] }
@@ -30,12 +30,12 @@ deliverables:
     - { a: 'Checkout', b: 'Checkout flow redesign with step and field reduction' }
     - { a: 'Mobile', b: 'Mobile-specific layout adjustments across the above' }
 process:
-    - { title: 'Funnel Audit', body: 'We review the current browsing-to-checkout path to find where shoppers are most likely dropping off.' }
-    - { title: 'Product & Category Design', body: 'Product page and category browsing layouts are redesigned around the questions and decisions shoppers actually need answered.' }
-    - { title: 'Checkout Simplification', body: 'Unnecessary steps and form fields are identified and removed or consolidated.' }
-    - { title: 'Trust Signal Placement', body: 'Reviews, guarantees, and security signals are placed at the specific points where shoppers hesitate, not scattered generically.' }
-    - { title: 'Mobile Design Pass', body: 'Every redesigned screen is checked and adjusted specifically for mobile commerce behaviour, not just shrunk from desktop.' }
-    - { title: 'QA & Handoff', body: 'Final designs are checked against platform constraints (Shopify, WooCommerce, or other) before handoff to development.' }
+    - { title: 'Audit', body: 'We review the current browsing-to-checkout path to find where shoppers are most likely dropping off.' }
+    - { title: 'Design', body: 'Product page and category browsing layouts are redesigned around the questions and decisions shoppers actually need answered.' }
+    - { title: 'Simplify', body: 'Unnecessary steps and form fields are identified and removed or consolidated.' }
+    - { title: 'Reinforce', body: 'Reviews, guarantees, and security signals are placed at the specific points where shoppers hesitate, not scattered generically.' }
+    - { title: 'Adapt', body: 'Every redesigned screen is checked and adjusted specifically for mobile commerce behaviour, not just shrunk from desktop.' }
+    - { title: 'Handoff', body: 'Final designs are checked against platform constraints (Shopify, WooCommerce, or other) before handoff to development.' }
 comparison:
     headers: ['Friction-Reduced Flow', 'Unoptimised Default Flow']
     rows:

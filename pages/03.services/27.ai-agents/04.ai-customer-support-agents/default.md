@@ -2,8 +2,8 @@
 title: 'AI Customer Support Agents'
 template: service-detail-a
 eyebrow: 'AI Customer Support Agents'
-headline: 'Resolve the repeatable tickets, escalate the rest'
-tagline: 'AI customer support agents that close out the tickets that repeat constantly and hand off anything genuinely novel cleanly.'
+headline: 'Close the Repeat Tickets. Escalate What Needs a Human.'
+tagline: 'AI support agents that close out tickets that repeat constantly and hand off anything genuinely novel cleanly.'
 primary_intent: 'commercial - service research'
 entities: ['Knowledge Base Grounding', 'Ticket Escalation', 'Helpdesk Integration', 'Response Accuracy Monitoring', 'Support Automation']
 tools: ['Support Agents', 'Ticket Automation', 'Helpdesk Integration']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Support queues fill up with the same handful of questions asked in slightly different words - password resets, order status, plan changes, policy clarifications - and a human agent spends a large share of their day answering things that don't require judgment, just access to the right information. That's time not spent on the tickets that actually need a person thinking.</p><p>The failure mode on the automation side is a bot that tries to handle everything and instead handles nothing well - it answers confidently from a stale knowledge base, misreads a nuanced complaint as a simple one, or loops a frustrated customer through menu options with no path to an actual person. That kind of automation makes support worse, not faster.</p>"
-solution: "<p>A support agent scoped to the genuinely repeatable queries, grounded in a maintained knowledge base, and built with a clear line for what counts as \"too complex to answer\" solves the actual problem without creating the bot-loop experience customers already distrust. It resolves what it can verify, and it escalates the moment a ticket falls outside that verified territory.</p>"
+problem: "<p>Support queues fill up with the same handful of questions in slightly different words - password resets, order status, plan changes - and agents spend a large share of their day answering things that need access to information, not judgment. The usual fix makes it worse: a bot that tries to handle everything answers confidently from a stale knowledge base and loops frustrated customers through menus with no path to a person.</p>"
+solution: "<p>A support agent scoped to the genuinely repeatable queries, grounded in a maintained knowledge base, with a clear line for \"too complex to answer,\" solves the actual problem without the bot-loop experience customers already distrust. It resolves what it can verify and escalates the moment a ticket falls outside that territory.</p>"
 solution_answer: "An AI customer support agent is software that answers common, repeatable customer queries by drawing directly from your knowledge base, and escalates to a human the moment a ticket falls outside what it can verify - rather than attempting to resolve everything itself."
-approach: "<p>We start by identifying which ticket categories actually repeat often enough to justify automating, using your existing ticket history rather than guessing. The agent is grounded in your real knowledge base and current policies, not a static script, and every escalation path is defined explicitly so a customer with a genuinely complex issue reaches a person quickly instead of getting stuck in an automated loop.</p>"
+approach: "<p>We start by identifying which ticket categories actually repeat often enough to justify automating, using your real ticket history rather than guessing. The agent is grounded in your current knowledge base and policies, and every escalation path is defined explicitly so a genuinely complex issue reaches a person quickly.</p>"
 capabilities:
     - { title: 'Common Query Identification & Automation', items: ['Ticket history analysis to find genuinely repeatable categories', 'Automation scoped to verified, high-confidence answers only'] }
     - { title: 'Knowledge Base-Grounded Response Agents', items: ['Responses sourced directly from your current documentation', 'Automatic flagging when the knowledge base is out of date or missing an answer'] }

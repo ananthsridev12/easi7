@@ -2,7 +2,7 @@
 title: 'Wireframing'
 template: service-detail-a
 eyebrow: 'UI/UX Design'
-headline: 'Structure agreed on before a single pixel is styled'
+headline: 'Agree On Structure Before A Single Pixel Is Styled'
 tagline: 'Low and mid-fidelity wireframing to align on structure and flow before visual design begins.'
 service_url: /services/ui-ux-design/wireframing
 taxonomy:
@@ -16,10 +16,10 @@ sitemap:
 primary_intent: 'commercial - service research'
 entities: ['Low-Fidelity Wireframes', 'Mid-Fidelity Wireframes', 'Content Hierarchy', 'Stakeholder Review', 'Responsive Wireframes']
 
-problem: "<p>Debating colour choices before the layout is agreed wastes everyone's time - and it happens constantly, because visual design is easier to react to than a structural decision, so reviews drift toward the part that's easiest to have an opinion about.</p><p>Skipping straight to a styled comp also means structural changes get expensive fast. Moving a section on a wireframe takes minutes. Moving it once it's fully designed, or worse, once it's built, means redoing work that didn't need to exist yet.</p>"
-solution: "<p>Wireframes force the structural conversation to happen first, cheaply, in a format nobody can mistake for finished. Because they're deliberately unstyled, stakeholder feedback stays on layout, content priority, and flow - not on whether someone likes the shade of blue.</p><p>Once structure is agreed at wireframe stage, visual design and development both proceed against a stable target instead of a moving one.</p>"
+problem: "<p>Debating colour choices before the layout is agreed wastes everyone's time - and it happens constantly, because visual design is easier to react to than a structural decision. Skipping straight to a styled comp also makes structural changes expensive fast: moving a section on a wireframe takes minutes, but moving it once it's fully designed or built means redoing work that didn't need to exist yet.</p>"
+solution: "<p>Wireframes force the structural conversation to happen first, cheaply, in a format nobody can mistake for finished. Because they're deliberately unstyled, stakeholder feedback stays on layout, content priority, and flow - not on whether someone likes the shade of blue - and once structure is agreed, visual design and development both proceed against a stable target.</p>"
 solution_answer: "Wireframing is the practice of laying out a page or screen's structure and content hierarchy in low or mid fidelity, deliberately without visual styling, so structural decisions get agreed before the more expensive visual design phase begins."
-approach: "<p>We start low-fidelity to nail down structure and content priority without any styling distraction, then move to mid-fidelity with real content once the structure holds up - because wireframing with placeholder text hides problems that only show up once actual headlines and copy lengths are in place.</p>"
+approach: "<p>We start low-fidelity to nail down structure and content priority without any styling distraction, then move to mid-fidelity with real content once the structure holds up - because placeholder text hides problems that only show up once actual headlines and copy lengths are in place.</p>"
 capabilities:
     - { title: 'Low-Fidelity Wireframes', items: ['Structural layout without visual styling', 'Content block and priority mapping', 'Fast iteration before any design investment'] }
     - { title: 'Mid-Fidelity Wireframes', items: ['Real content substituted for placeholder text', 'Component placement and spacing logic', 'Interaction notes for key elements'] }
@@ -31,11 +31,11 @@ deliverables:
     - { a: 'Responsive variants', b: 'Mobile and desktop versions of each key template' }
     - { a: 'Review documentation', b: "Feedback and iteration history so decisions aren't re-litigated later" }
 process:
-    - { title: 'Content inventory', body: 'Establish what content actually needs to appear before deciding how to lay it out.' }
-    - { title: 'Low-fidelity structure', body: 'Block out layout and hierarchy with placeholder content to agree the skeleton fast.' }
-    - { title: 'Stakeholder review', body: 'Review structure with the people who need to sign off, before any visual investment.' }
-    - { title: 'Mid-fidelity with real content', body: 'Rebuild the agreed structure with actual copy and content lengths, which often surfaces problems placeholder text hides.' }
-    - { title: 'Responsive pass', body: 'Adapt the structure for mobile and desktop, resolving what changes rather than just shrinking the layout.' }
+    - { title: 'Inventory', body: 'Establish what content actually needs to appear before deciding how to lay it out.' }
+    - { title: 'Structure', body: 'Block out layout and hierarchy with placeholder content to agree the skeleton fast.' }
+    - { title: 'Review', body: 'Review structure with the people who need to sign off, before any visual investment.' }
+    - { title: 'Refine', body: 'Rebuild the agreed structure with actual copy and content lengths, which often surfaces problems placeholder text hides.' }
+    - { title: 'Adapt', body: 'Adapt the structure for mobile and desktop, resolving what changes rather than just shrinking the layout.' }
     - { title: 'Handoff', body: 'Pass the finished wireframes into visual design with the structural reasoning intact.' }
 comparison:
     headers: ['Wireframe First', 'Visual Design First']

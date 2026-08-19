@@ -2,8 +2,8 @@
 title: 'Growth Marketing'
 template: service-detail-a
 eyebrow: 'Growth Strategy'
-headline: 'Experiments run fast, scaled only when they hold up'
-tagline: 'Growth marketing built on a structured experimentation process across acquisition, activation, and retention.'
+headline: 'Run Fast, Scale Only What Actually Holds Up'
+tagline: 'Growth marketing built on structured experimentation across acquisition, activation, and retention.'
 primary_intent: 'commercial - service research'
 entities: ['North Star Metric', 'Growth Experimentation', 'ICE Scoring', 'Activation Rate', 'Retention Cohorts', 'A/B Testing']
 tools: ['Experiment Backlog', 'A/B Testing', 'Cohort Analysis', 'North Star Metric Framework']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most growth marketing programmes fail for the same reason: someone reads a case study about a tactic that worked for a completely different business, tries a version of it with no clear hypothesis, and calls whatever happens next a result. When it doesn't move anything, \"growth hacking\" gets blamed instead of the actual cause - there was never a metric being tested against, so there was no way to tell a real signal from noise.</p><p>The second failure mode is scaling before the signal is real - a test shows a mild uplift on a small sample and gets rolled out to the whole funnel before anyone checks whether it holds up, burning a channel or a segment on a result that was never real to begin with.</p>"
-solution: "<p>Growth marketing done properly is a repeatable cycle: form a specific hypothesis, run the smallest test that can validate or kill it, and only scale what actually holds up against a real sample size. Acquisition, activation, and retention get tested as connected stages rather than one channel in isolation, because a win in acquisition that quietly damages activation isn't a win.</p>"
+problem: "<p>Most growth programmes fail the same way: someone tries a tactic that worked for a different business with no clear hypothesis, and whatever happens next gets called a result. The second failure is scaling before the signal is real - a mild uplift on a small sample gets rolled out to the whole funnel before anyone checks whether it holds up.</p>"
+solution: "<p>Growth marketing done properly is a repeatable cycle: form a specific hypothesis, run the smallest test that can validate or kill it, and only scale what holds up against a real sample size. Acquisition, activation, and retention get tested as connected stages, because a win in acquisition that damages activation isn't a win.</p>"
 solution_answer: "Growth marketing is structured experimentation - testing specific hypotheses against a defined North Star metric across acquisition, activation, and retention, then scaling only what a real sample size actually supports."
-approach: "<p>We run growth work off a prioritised experiment backlog rather than a wish list, scoring each idea on the effort it takes versus the impact it could plausibly have, so the queue reflects what's actually worth testing next. Every experiment gets a hypothesis and a defined success metric before it launches, and nothing gets scaled off a result that hasn't cleared a real sample size.</p>"
+approach: "<p>We run growth work off a prioritised experiment backlog, scoring each idea on effort versus plausible impact so the queue reflects what's actually worth testing next. Every experiment gets a hypothesis and a defined success metric before it launches, and nothing scales off a result that hasn't cleared a real sample size.</p>"
 capabilities:
     - { title: 'Experiment Design & Prioritisation', items: ['Hypothesis-driven experiment briefs', 'ICE-style scoring for the experiment backlog', 'Clear success metrics defined before launch'] }
     - { title: 'Full-Funnel Testing', items: ['Acquisition channel experiments', 'Activation flow testing', 'Retention and re-engagement experiments'] }

@@ -2,8 +2,8 @@
 title: 'Responsive Design'
 template: service-detail-b
 eyebrow: 'Website Design'
-headline: 'One design, every screen, no compromises'
-tagline: 'Responsive design ensuring layouts adapt cleanly from mobile to desktop without losing intent.'
+headline: 'One Design, Every Screen, Zero Compromises'
+tagline: 'Layouts that adapt cleanly from mobile to desktop without losing what they were built to do.'
 primary_intent: 'commercial - service research'
 entities: ['Breakpoint Design', 'Touch Interface Sizing', 'Responsive Images', 'Cross-device QA', 'Mobile-First Layout']
 tools: ['Responsive Layouts', 'Cross-device Design']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A responsive design that just shrinks the desktop layout down usually fails on mobile, because what works as a three-column layout on a wide screen rarely translates into a usable single-column experience without rethinking the hierarchy. Text gets cramped, tap targets end up too small, and the priority order of information that made sense on desktop stops making sense once the screen forces everything into a vertical stack.</p><p>Responsive design done properly treats each major breakpoint - mobile, tablet, desktop - as its own layout decision, connected by the same content and brand system but not the same literal arrangement of elements.</p>"
+overview: "<p>A design that just shrinks the desktop layout down usually fails on mobile - text gets cramped, tap targets end up too small, and the information priority that made sense on a wide screen stops making sense in a vertical stack. We treat each breakpoint as its own layout decision, connected by the same content and brand system but never the same literal arrangement of elements.</p>"
 overview_answer: "Responsive design is the practice of designing distinct, deliberate layouts for each screen size breakpoint, rather than mechanically scaling one fixed layout down or up."
 capabilities:
     - { title: 'Breakpoint-Specific Layout', items: ['Distinct layout decisions for mobile, tablet, and desktop', 'Content priority re-ordered per breakpoint where needed'] }

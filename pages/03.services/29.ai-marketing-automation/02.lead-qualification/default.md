@@ -2,8 +2,8 @@
 title: 'Lead Qualification'
 template: service-detail-b
 eyebrow: 'Lead Qualification'
-headline: 'AI-assisted scoring that improves with more data'
-tagline: 'AI-powered lead qualification combining traditional fit scoring with model-based intent signals that improve as more closed-deal data comes in.'
+headline: 'Score Leads With a Model That Gets Smarter Over Time'
+tagline: 'AI lead scoring layered on your existing fit criteria, improving as more closed-deal data comes in.'
 primary_intent: 'commercial - service research'
 entities: ['AI Lead Scoring', 'Intent Signals', 'Model Recalibration', 'Explainable Scoring', 'CRM Integration']
 tools: ['AI Lead Scoring', 'Intent Signal Detection', 'Model Recalibration']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A fixed scoring rule assigns the same points every time a specific action happens, which works fine until the pattern that actually predicts a close is more nuanced than any single rule can capture - a visitor who reads three technical docs and skips the pricing page can convert better than one who visits pricing once and leaves. AI-assisted qualification looks for combinations of signals rather than isolated triggers, and updates its weighting as more closed-deal outcomes accumulate, without someone manually rewriting the rule set every quarter.</p><p>This isn't a replacement for a rule-based scoring foundation - it's a layer on top of one. The model needs fit and intent criteria to build from, and it earns its keep by catching the patterns those fixed rules miss, not by discarding them.</p>"
+overview: "<p>A fixed scoring rule works fine until the pattern that actually predicts a close is more nuanced than any single rule can capture - a visitor who reads three technical docs and skips pricing can convert better than one who visits pricing once and leaves. We add a model-based scoring layer on top of your existing fit criteria, one that catches signal combinations a fixed rule misses and updates as closed-deal outcomes accumulate.</p>"
 overview_answer: "AI-powered lead qualification adds a model-based scoring layer on top of rule-based fit and intent criteria, so scoring adapts to patterns in actual closed-deal data instead of relying on manually maintained point rules alone."
 capabilities:
     - { title: 'AI-Enhanced Scoring Models', items: ['Model trained on actual closed-deal outcomes, not assumptions', "Pattern detection across signal combinations a fixed rule can't isolate", 'Scoring that updates as new outcome data accumulates'] }

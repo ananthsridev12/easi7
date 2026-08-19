@@ -2,8 +2,8 @@
 title: 'PPC Management'
 template: service-detail-a
 eyebrow: 'PPC Management'
-headline: 'Full-account management, not campaign babysitting'
-tagline: 'End-to-end paid search and social account management - structure, bidding, creative, and reporting under one owner.'
+headline: 'One Accountable Team for Every Paid Platform You Run'
+tagline: "One team owns your Google, Meta, and LinkedIn accounts end to end, so budget goes where it's actually working."
 primary_intent: 'commercial - service research'
 entities: ['Cross-Platform PPC', 'Bid Management', 'Budget Pacing', 'Unified Reporting', 'Account Hygiene']
 tools: ['Multi-platform PPC', 'Account Management']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Fragmented PPC management - a different vendor or freelancer per platform - makes it nobody's job to see the whole account picture. Google gets optimised in isolation from Meta, budget reallocation decisions get made on partial data, and by the time anyone produces a combined report, the numbers are already a month stale and nobody agrees on which platform actually drove the result.</p><p>The cost isn't just inefficiency, it's blind spots. A lead that converts might have touched Google Search and then a Meta retargeting ad before converting, and vendor-siloed reporting will happily give each platform full credit for the same lead.</p>"
+problem: "<p>Fragmented PPC management - a different vendor per platform - makes it nobody's job to see the whole picture. Google gets optimised in isolation from Meta, budget decisions get made on partial data, and reporting happily gives each platform full credit for the same lead that actually touched two or three before it converted.</p>"
 solution: "<p>PPC management as a single, accountable function means one team owns account structure, bid management, budget pacing, and reporting across every platform in the mix. Budget moves toward what's actually working across the whole account, not toward whichever platform's manager is in the room advocating for it.</p>"
 solution_answer: "PPC management is running paid search and social accounts - structure, bidding, budget, and reporting - across every platform under one accountable owner instead of siloed, platform-by-platform vendors."
 approach: "<p>We start by auditing every active account for structure and hygiene issues before touching budget, since a reallocation decision built on a messy account just moves the mess around. From there, bid management and pacing are reviewed weekly across all platforms together, and reporting is unified into one view so a lead's actual path, not just its last-click platform, is visible before anyone claims credit for it.</p>"
@@ -29,12 +29,12 @@ deliverables:
     - { a: 'Bidding & Budget', b: 'Cross-platform bid strategy and weekly reallocation' }
     - { a: 'Reporting', b: 'Unified dashboard covering all platforms under management' }
 process:
-    - { title: 'Cross-Platform Audit', body: 'Every active account is reviewed for structure and hygiene before any budget decision is made.' }
-    - { title: 'Unified Tracking Setup', body: 'Conversion tracking and naming conventions are standardised so performance is comparable across platforms.' }
-    - { title: 'Bid & Budget Strategy', body: 'A cross-platform plan sets how budget should move based on combined performance, not platform-by-platform advocacy.' }
-    - { title: 'Weekly Optimisation', body: 'Bids, budgets, and targeting are reviewed weekly across every platform in the same sitting.' }
-    - { title: 'Unified Reporting', body: 'One report shows the full picture, including how leads actually moved across platforms before converting.' }
-    - { title: 'Quarterly Strategy Review', body: "Platform mix itself gets reassessed periodically, since what worked last quarter may not deserve the same budget split now." }
+    - { title: 'Audit', body: 'Every active account is reviewed for structure and hygiene before any budget decision is made.' }
+    - { title: 'Tracking', body: 'Conversion tracking and naming conventions are standardised so performance is comparable across platforms.' }
+    - { title: 'Strategy', body: 'A cross-platform plan sets how budget should move based on combined performance, not platform-by-platform advocacy.' }
+    - { title: 'Optimise', body: 'Bids, budgets, and targeting are reviewed weekly across every platform in the same sitting.' }
+    - { title: 'Reporting', body: 'One report shows the full picture, including how leads actually moved across platforms before converting.' }
+    - { title: 'Review', body: "Platform mix itself gets reassessed periodically, since what worked last quarter may not deserve the same budget split now." }
 comparison:
     headers: ['Single-Owner Account', 'Siloed Vendors']
     rows:

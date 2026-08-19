@@ -2,8 +2,8 @@
 title: 'Drip Campaigns'
 template: service-detail-a
 eyebrow: 'Email Marketing'
-headline: 'A sequence, not a single email'
-tagline: 'Time-based drip sequences that nurture a lead or onboard a customer over a defined period.'
+headline: 'Pace Your Follow-Ups to How Long Leads Actually Take to Decide'
+tagline: 'We build multi-email sequences timed to your real sales or onboarding cycle, not a generic daily rhythm.'
 primary_intent: 'commercial - service research'
 entities: ['Drip Sequencing', 'Lead Nurturing', 'Onboarding Sequences', 'Cadence Design', 'Exit Triggers']
 tools: ['Drip Sequencing Platforms', 'Cadence Testing', 'CRM Integration']
@@ -15,8 +15,8 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A single follow-up email asks a lead to be ready to decide right now, which most of them aren't. The opposite mistake is just as common - a drip sequence that fires every message on a fixed daily schedule regardless of what the recipient actually needs to know first, which reads as automated the moment the second email lands.</p><p>Cadence gets treated as an afterthought more often than message content does, even though a well-written email sent at the wrong pace performs worse than an average email sent at the right one.</p>"
-solution: "<p>A drip campaign is a pre-written sequence of emails released on a schedule tied to how long the actual decision or onboarding process takes - not an arbitrary daily or weekly rhythm applied to every audience the same way. The pacing is the strategy as much as the content is.</p>"
+problem: "<p>A single follow-up email asks a lead to decide right now, which most of them aren't ready to do. The opposite mistake is just as common - a sequence that fires every message on a fixed daily schedule regardless of what the recipient needs to know first, which reads as automated the moment the second email lands. Cadence gets treated as an afterthought more often than message content does, even though a well-written email sent at the wrong pace performs worse than an average one sent at the right pace.</p>"
+solution: "<p>A drip campaign is a pre-written sequence released on a schedule tied to how long the actual decision or onboarding process takes - not an arbitrary daily or weekly rhythm applied to every audience the same way. The pacing is the strategy as much as the content is.</p>"
 solution_answer: "A drip campaign is a multi-email sequence sent on a fixed schedule to nurture a lead or onboard a customer over time, with cadence tuned to match the length of the actual decision cycle."
 approach: "<p>We start by mapping the decision or onboarding timeline itself - how long does someone typically take to decide, or how long does it take to get real value from a product - before writing a single email. The sequence length and spacing come from that timeline, not from a template. Segments that behave differently get their own variation rather than one sequence stretched to fit everyone.</p>"
 capabilities:
@@ -29,12 +29,12 @@ deliverables:
     - { a: 'Segmentation', b: 'Variant sequences for meaningfully different entry points or audiences' }
     - { a: 'Tracking', b: 'Performance measured by sequence step, so a weak step is identified rather than blended into an average' }
 process:
-    - { title: 'Decision Cycle Mapping', body: "We establish how long the actual decision or onboarding process takes before designing anything, since that timeline sets the pacing." }
-    - { title: 'Sequence Drafting', body: 'Emails are drafted to match each stage of that cycle, with a clear reason for the message to exist at that point.' }
-    - { title: 'Cadence Design', body: 'Spacing between emails is set to match the decision timeline, then tested rather than assumed correct.' }
-    - { title: 'Segment Variations', body: 'Where audiences behave meaningfully differently, separate sequence variants are built instead of one generic version.' }
-    - { title: 'Exit Trigger Setup', body: 'Goal-based exits are configured so someone who converts, replies, or opts out stops receiving further nurture emails.' }
-    - { title: 'Performance Tracking', body: 'Each step is tracked individually to find where engagement drops rather than judging the sequence as a single unit.' }
+    - { title: 'Mapping', body: "We establish how long the actual decision or onboarding process takes before designing anything, since that timeline sets the pacing." }
+    - { title: 'Drafting', body: 'Emails are drafted to match each stage of that cycle, with a clear reason for the message to exist at that point.' }
+    - { title: 'Cadence', body: 'Spacing between emails is set to match the decision timeline, then tested rather than assumed correct.' }
+    - { title: 'Segment', body: 'Where audiences behave meaningfully differently, separate sequence variants are built instead of one generic version.' }
+    - { title: 'Exit Triggers', body: 'Goal-based exits are configured so someone who converts, replies, or opts out stops receiving further nurture emails.' }
+    - { title: 'Tracking', body: 'Each step is tracked individually to find where engagement drops rather than judging the sequence as a single unit.' }
 comparison:
     headers: ['Time-Based Drip Sequence', 'Single Follow-Up Email']
     rows:

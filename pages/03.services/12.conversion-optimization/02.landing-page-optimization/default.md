@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A landing page trying to do five things converts worse than one doing exactly one thing well. Every additional call-to-action, every extra offer bolted onto the same page, is a decision the visitor has to make before they take the one action that actually matters - and every extra decision is a chance to leave without taking any action at all.</p><p>Landing page optimisation starts by cutting scope, not adding it: defining the single goal a given page exists to drive, then testing the headline, layout, form, and trust signals against that one goal specifically.</p>"
+overview: "<p>A landing page trying to do five things converts worse than one doing exactly one thing well - every extra call-to-action is a decision the visitor has to make before taking the one action that matters. We start by cutting scope, not adding it: define the single goal, then test the headline, layout, form, and trust signals against that goal specifically.</p>"
 overview_answer: "Landing page optimisation is structuring a page's headline, layout, form, and trust signals around a single conversion goal, then testing each element against that goal."
 capabilities:
     - { title: 'Structure & Layout', items: ['Landing page anatomy audits', 'Above-the-fold hierarchy review', 'Scroll-depth analysis'] }

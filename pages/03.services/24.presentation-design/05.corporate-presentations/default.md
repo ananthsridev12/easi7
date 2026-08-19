@@ -2,8 +2,8 @@
 title: 'Corporate Presentations'
 template: service-detail-b
 eyebrow: 'Presentation Design'
-headline: 'Consistent, on-brand, ready for any team to use'
-tagline: 'Corporate presentation templates and design systems for consistent internal and external use.'
+headline: 'Give Every Department One On-Brand Deck System'
+tagline: 'A master template and slide library that any team can use, consistently, without a designer on call.'
 primary_intent: 'commercial - service research'
 entities: ['Corporate Templates', 'Master Slide Library', 'Brand Consistency', 'Department Variants', 'Non-Designer Usability']
 tools: ['Corporate Templates', 'Brand Consistency']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Without a shared template, every department's deck ends up looking like it came from a different company - different fonts, mismatched colours, charts styled three different ways. Corporate presentation design solves that once, building a master template and slide library the whole organisation can use, rather than leaving every team to solve brand consistency on their own.</p><p>The system needs to survive contact with non-designers, since most of the people actually using it day to day are not designers - which is a different design problem than a one-off pitch deck.</p>"
+overview: "<p>Without a shared template, every department's deck ends up looking like it came from a different company - different fonts, mismatched colours, charts styled three different ways. We solve that once, building a master template and slide library the whole organisation can use, tested with actual non-designers since that's who uses it every day.</p>"
 overview_answer: "Corporate presentation design is building a reusable master template and slide library so every department can produce on-brand decks without a designer involved each time."
 capabilities:
     - { title: 'Master Template & Slide Library', items: ['Core template covering common slide types', 'Slide library for teams to pull from rather than build from scratch'] }

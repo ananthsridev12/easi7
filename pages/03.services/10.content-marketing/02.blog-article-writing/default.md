@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A lot of SEO-optimised writing reads like it was assembled to satisfy a checklist rather than answer a question - the keyword's in the title, the word count's hit, and the piece still doesn't say anything a reader couldn't get faster elsewhere. Blog and article writing, done properly, starts with the same SEO brief but gets written by someone who understands the subject well enough to add something to it.</p><p>This matters most for businesses where the audience can tell the difference - technical buyers, specialist B2B categories, anything where a generic take reads as thin the moment someone who actually knows the space reads it.</p>"
+overview: "<p>A lot of SEO-optimised writing reads like it was assembled to satisfy a checklist - keyword in the title, word count hit, and it still doesn't say anything a reader couldn't get faster elsewhere. We start with the same SEO brief but hand it to a writer who understands the subject well enough to actually add something to it.</p>"
 overview_answer: "Blog and article writing is producing SEO-briefed content that's researched and written with genuine subject knowledge, so it satisfies both search intent and a reader who actually knows the topic."
 capabilities:
     - { title: 'SEO-Briefed Writing', items: ['Briefs built against real search intent, not just a target keyword', 'Structure aligned to what the query actually requires - list, guide, comparison, explainer'] }

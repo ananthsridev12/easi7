@@ -2,7 +2,7 @@
 title: 'Revenue Growth'
 template: service-detail-a
 eyebrow: 'Growth Strategy'
-headline: 'Growth measured in revenue, not just top-of-funnel metrics'
+headline: 'Measure Growth in Revenue, Not Just Traffic and Leads'
 tagline: 'Revenue growth strategy connecting marketing activity directly to pipeline and revenue outcomes.'
 primary_intent: 'commercial - service research'
 entities: ['Revenue Attribution', 'Pipeline Velocity', 'Cross-Functional Alignment', 'Expansion Revenue', 'Revenue Forecasting']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Marketing dashboards often look great while revenue stays flat - traffic is up, leads are up, MQLs are up - and the gap between those metrics and actual revenue is where a lot of strategy quietly goes to die. Top-of-funnel metrics move because they are the easiest things to move, not because they are what the business is actually trying to grow.</p><p>The disconnect gets worse when marketing, sales, and customer success each report their own numbers with no shared view of how a lead actually becomes revenue. A lead that looks qualified to marketing can stall in sales for reasons marketing never sees, and an account that expands after the sale never gets credited back to the campaign that originally won it.</p>"
-solution: "<p>Revenue growth strategy ties marketing activity directly to pipeline and revenue outcomes, tracking a lead through to closed revenue and expansion rather than stopping the measurement at a lead or MQL count. It requires marketing, sales, and success to share a single view of how revenue actually gets made, instead of three separate reports that don't reconcile.</p>"
+problem: "<p>Marketing dashboards often look great while revenue stays flat - traffic, leads, and MQLs are up because they're the easiest things to move, not because they're what the business is trying to grow. The disconnect gets worse when marketing, sales, and success each report their own numbers with no shared view of how a lead actually becomes revenue.</p>"
+solution: "<p>Revenue growth strategy ties marketing activity directly to pipeline and revenue outcomes, tracking a lead through to closed revenue and expansion rather than stopping at a lead count. It requires marketing, sales, and success to share a single view of how revenue actually gets made.</p>"
 solution_answer: "Revenue growth strategy is planning and measuring marketing activity against pipeline and closed revenue, not top-of-funnel metrics, with marketing, sales, and success aligned to the same numbers."
-approach: "<p>We start by tracing how a lead actually becomes revenue in your specific business - where it stalls, where sales creates its own pipeline, where expansion revenue comes from - before proposing any new campaign or channel. Forecasting is tied to marketing input explicitly, so a plan gets judged against pipeline and revenue contribution, not activity volume.</p>"
+approach: "<p>We start by tracing how a lead actually becomes revenue in your specific business - where it stalls, where sales creates its own pipeline, where expansion comes from - before proposing any new campaign. Forecasting is tied to marketing input explicitly, so a plan gets judged on revenue contribution, not activity volume.</p>"
 capabilities:
     - { title: 'Revenue-Attributed Marketing Planning', items: ['Campaign planning judged against pipeline contribution', 'Deprioritisation of activity that only moves top-of-funnel metrics'] }
     - { title: 'Pipeline Velocity Analysis', items: ['Stage-by-stage pipeline speed measurement', 'Identification of where deals stall longest'] }

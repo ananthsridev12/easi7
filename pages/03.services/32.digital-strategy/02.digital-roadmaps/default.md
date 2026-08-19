@@ -2,8 +2,8 @@
 title: 'Digital Roadmaps'
 template: service-detail-b
 eyebrow: 'Digital Strategy'
-headline: 'A sequenced plan, not a wishlist of initiatives'
-tagline: 'Digital roadmap development sequencing initiatives by dependency and impact, not just priority score.'
+headline: 'Get a Sequenced Plan, Not a Wishlist of Initiatives'
+tagline: 'We sequence your digital initiatives by dependency and impact, tested against what your team can actually carry.'
 primary_intent: 'commercial - service research'
 entities: ['Digital Roadmap', 'Initiative Sequencing', 'Dependency Mapping', 'Resource Planning', 'Stakeholder Alignment']
 tools: ['Digital Roadmaps', 'Sequencing', 'Impact Scoring']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A digital roadmap is the working plan that turns a list of initiatives into an actual order of operations - what happens first, what depends on what, and what realistically fits inside the team's existing capacity. Most roadmaps fail before execution even starts, because everything on them is marked high priority and nothing is sequenced against what genuinely has to come first.</p><p>A business needs this when the list of digital initiatives has grown past what any team can reasonably run in parallel - new platform, new integration, a content overhaul, a reporting rebuild - and nobody has decided which of those actually has to happen before the others make sense.</p>"
+overview: "<p>Most roadmaps fail before execution even starts, because everything on them is marked high priority and nothing is sequenced against what genuinely has to come first. We turn a growing list of initiatives - new platform, new integration, a content overhaul - into an actual order of operations, tested against what your team can realistically carry.</p>"
 overview_answer: "A digital roadmap is a sequenced, dependency-aware plan for executing a set of digital initiatives in a realistic order, built against actual team capacity rather than a flat list of priorities."
 capabilities:
     - { title: 'Initiative Inventory & Scoring', items: ['Full inventory of proposed and in-flight initiatives', 'Impact scoring against defined business goals', 'Effort estimation grounded in actual team capacity'] }

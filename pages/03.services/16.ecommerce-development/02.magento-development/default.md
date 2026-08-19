@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Magento earns its extra complexity when a catalogue genuinely needs it - multiple stores under one platform, currency and pricing rules that vary by region, or product relationships too intricate for a simpler platform to model cleanly. Where it goes wrong is running Magento for a catalogue that never needed that complexity in the first place, or running it with an unmanaged extension stack that turns every update into a risk.</p><p>Magento development, done properly, is as much about restraint as capability - knowing which extensions genuinely add value, which native features to use instead, and how to keep a large catalogue performant as it grows.</p>"
+overview: "<p>Magento earns its extra complexity when a catalogue genuinely needs it - multiple stores under one platform, region-specific pricing, or product relationships too intricate for a simpler platform. We bring as much restraint as capability to it: knowing which extensions actually add value, which native features to use instead, and how to keep a large catalogue performant as it grows.</p>"
 overview_answer: "Magento development is building and managing a Magento (Adobe Commerce) store for catalogues that need multi-store, multi-currency, or complex pricing capability beyond what simpler platforms support."
 capabilities:
     - { title: 'Store Setup & Customisation', items: ['Custom theme and storefront development', 'Catalogue architecture for large or complex product sets'] }

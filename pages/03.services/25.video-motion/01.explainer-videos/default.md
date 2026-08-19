@@ -2,8 +2,8 @@
 title: 'Explainer Videos'
 template: service-detail-a
 eyebrow: 'Video & Motion'
-headline: 'Sixty seconds to explain what your product actually does'
-tagline: 'Explainer video production that turns a complex product or service into a script simple enough to follow in one watch.'
+headline: 'One Video That Finally Explains What You Actually Do'
+tagline: 'Explainer videos that turn a complex product into a script anyone understands in one watch.'
 primary_intent: 'commercial - service research'
 entities: ['Explainer Video Script', 'Storyboarding', 'Voiceover Direction', 'Animated Explainer', 'Live-Action Explainer', 'Silent Autoplay Captioning']
 tools: ['Storyboarding', 'Voiceover Casting', 'Animation Production', 'Live-Action Production']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most explainer video briefs start with a feature list and end with a video that mentions everything the product does and demonstrates none of it clearly. A viewer who finishes watching and still can't say what the product does in one sentence has watched a video that failed, regardless of how polished the animation or voiceover was.</p><p>The second failure shows up in length. A ninety-second script trying to cover onboarding, pricing, and three feature sets loses the one thing that made it worth watching in the first place - a single, clearly resolved idea. Attention drops fast once a video wanders past the point it was made to prove.</p>"
-solution: "<p>An explainer video works when the script picks one problem and resolves it, and everything else - visuals, voiceover, pacing - exists to support that narrative rather than compete with it. The script gets written and tested before a single frame is animated, because a weak script animated well is still a weak explainer.</p>"
+problem: "<p>Most explainer briefs start with a feature list and end with a video that mentions everything and demonstrates nothing clearly. A ninety-second script trying to cover onboarding, pricing, and three feature sets loses the one thing that made it worth watching: a single, clearly resolved idea.</p>"
+solution: "<p>An explainer works when the script picks one problem and resolves it, and every visual, voiceover, and pacing choice supports that narrative instead of competing with it. We write and test the script before a single frame gets animated, because a weak script animated well is still a weak explainer.</p>"
 solution_answer: "An explainer video is a short, scripted video - usually animated, sometimes live-action - that reduces a product or service down to the one problem it solves and how, built to be understood in a single watch."
-approach: "<p>We write the script first and treat it as the deliverable that actually determines whether the video works, before any storyboard or animation frame gets produced. Voiceover casting happens against the finished script, not a placeholder, so pacing and tone are set once rather than re-timed after the fact. Every video ships with a version cut for silent autoplay, since a meaningful share of explainer views happen with the sound off by default.</p>"
+approach: "<p>We write the script first and treat it as the deliverable that determines whether the video works, before any storyboard or animation begins. Voiceover casting happens against the finished script so pacing and tone are set once, and every video ships with a version cut for silent autoplay from the start.</p>"
 capabilities:
     - { title: 'Script & Story Development', items: ['One-problem-one-resolution script structure', 'Tone and pacing built for a single watch', 'Revisions scoped before production starts, not after'] }
     - { title: 'Production', items: ['Animated production for abstract or fast-moving concepts', 'Live-action production where a real product or person carries the message better', 'Style frame approval before full animation begins'] }

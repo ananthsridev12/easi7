@@ -3,7 +3,7 @@ title: 'Growth Strategy'
 template: services
 eyebrow: 'Growth Strategy'
 icon: "🚀"
-headline: 'Disciplined experimentation, not random tactics'
+headline: 'Growth built on tested hypotheses, not tactics'
 tagline: 'Growth marketing, funnel strategy, and acquisition planning built on structured testing, not luck.'
 tools: ['Growth Marketing', 'Funnel Design']
 taxonomy:
@@ -47,8 +47,6 @@ faqs:
       a: "CRO usually targets a single page or step; growth strategy looks at the whole system - acquisition, activation, retention, and revenue - and how those stages affect each other. A CRO test can sit inside a broader growth strategy without the two being the same discipline."
 ---
 
-"Growth hacking" earned a bad reputation from tactics tried without a hypothesis behind them - a random test here, a viral tactic there, none of it building toward anything cumulative. Real growth strategy is structured experimentation against a specific metric, not a grab bag of tricks.
+'Growth hacking' earned a bad reputation from tactics tried without a hypothesis behind them - a random test here, a viral tactic there, none of it building toward anything cumulative.
 
-We build growth work around the full funnel rather than one isolated stage - acquisition, activation, and retention tested as a connected system, because optimising one stage in isolation can just move the bottleneck to the next one without actually fixing anything. Customer acquisition gets planned against unit economics and real retention capacity, not just how fast leads can be generated. Revenue growth strategy ties marketing activity directly to pipeline and revenue outcomes, because traffic and lead growth that never converts to revenue is a vanity win dressed up as progress.
-
-Every growth initiative gets a North Star metric attached before it starts, so "did this work" has an actual answer.
+We build growth work around the full funnel - acquisition, activation, and retention tested as a connected system, because fixing one stage in isolation can just move the bottleneck to the next. Every initiative gets a North Star metric attached before it starts, so 'did this work' has an actual answer.

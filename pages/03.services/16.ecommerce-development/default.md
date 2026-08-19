@@ -47,8 +47,6 @@ faqs:
       a: "No - a rebuild removes structural friction (speed, checkout steps, catalogue structure), but conversion also depends on traffic quality, pricing, and product fit, which are outside the build itself. We won't promise a specific outcome we don't control."
 ---
 
-The platform matters less than most e-commerce owners think - Shopify, Magento, and custom builds all fail in the same predictable ways when the product data, checkout flow, or performance basics are ignored. Picking the right platform for your catalogue size and complexity is step one; building it properly is where most of the value actually sits.
+The platform matters less than most e-commerce owners think - Shopify, Magento, and custom builds all fail in the same predictable ways when the product data, checkout flow, or performance basics are ignored. Shopify suits most catalogues that don't need heavy customisation, Magento earns its complexity for larger catalogues with genuine multi-store or pricing-rule needs, and custom builds make sense when the commerce model doesn't fit a standard platform at all.
 
-Shopify suits most catalogues that don't need heavy customisation - fast to launch, with the real differentiation coming from theme customisation and app choices rather than the platform itself. Magento earns its complexity for larger catalogues with genuine multi-store or pricing-rule needs. Custom builds make sense when the commerce model - subscriptions, marketplace dynamics, unusual pricing logic - doesn't fit a standard platform at all.
-
-Whichever platform, the same optimisation work applies afterward: product pages, checkout flow, and site search are where revenue is actually won or lost, far more than the initial platform decision.
+Picking the right platform for your catalogue size is step one; building it properly is where most of the value sits. Whichever platform you land on, the same optimisation work applies afterward - product pages, checkout flow, and site search are where revenue is actually won or lost, far more than the initial platform decision.

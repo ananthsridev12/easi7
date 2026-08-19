@@ -16,7 +16,7 @@ sitemap:
     changefreq: monthly
     priority: !!float 0.6
 
-overview: "<p>Most leads that don't convert on the first touch aren't dead - they're just not ready yet. Without a nurture system, though, they get treated the same as leads who will never buy, and dropped from follow-up after one or two emails go unanswered.</p><p>A proper nurture program maps content to lifecycle stage, triggers messages off actual behavior rather than a fixed calendar, and hands a lead to sales when engagement crosses a real threshold - not on an arbitrary timer.</p>"
+overview: "<p>Most leads that don't convert on the first touch aren't dead - they're just not ready yet. We build the system that keeps them warm instead of dropping them after one or two unanswered emails: content mapped to lifecycle stage, messages triggered by actual behavior, and a handoff to sales when engagement crosses a real threshold, not an arbitrary timer.</p>"
 overview_answer: "Lead nurturing is the practice of staying in front of leads who aren't sales-ready yet with content matched to where they are in the buying cycle, until a behavioral signal indicates they're ready to talk to sales."
 capabilities:
     - { title: 'Lifecycle-Stage Sequences', items: ['Stage definitions agreed with sales', 'Stage-specific messaging', 'Sequence branching logic'] }

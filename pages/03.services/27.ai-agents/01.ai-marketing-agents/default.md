@@ -2,8 +2,8 @@
 title: 'AI Marketing Agents'
 template: service-detail-a
 eyebrow: 'AI Marketing Agents'
-headline: 'Agents that execute marketing tasks, not just suggest them'
-tagline: 'AI marketing agents scoped to one repeatable task at a time - drafting, monitoring, or flagging - with a human checkpoint before anything ships.'
+headline: 'Agents That Actually Do the Work, Not Just Suggest It'
+tagline: 'AI marketing agents scoped to one repeatable task at a time, with a human checkpoint before anything ships.'
 primary_intent: 'commercial - service research'
 entities: ['Marketing Agents', 'Human-in-the-Loop Review', 'Campaign Monitoring', 'Content Variation Testing', 'Agent Guardrails', 'Task Automation']
 tools: ['Marketing Agents', 'Task Automation', 'Human-in-the-Loop Review']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most \"AI marketing\" pitches promise a system that plans the campaign, writes the copy, sets the budget, and optimises spend end to end with minimal supervision. That scope is exactly what makes marketers stop trusting the output after the first bad send - an agent given that much latitude eventually does something confidently wrong, and by the time anyone notices, it has already gone out under the brand's name.</p><p>The second failure mode shows up in content specifically. A drafting agent left unsupervised at volume will drift off brand voice, restate a competitor's claim as fact, or repeat the same structure so often that the output becomes obviously synthetic - none of which shows up until someone reviews a batch after the fact instead of before.</p>"
-solution: "<p>The fix isn't a smarter model, it's a narrower job description. An agent that only drafts ad copy variations, only monitors spend for anomalies, or only flags underperforming creative can be checked against a short, specific list of things it's allowed to do - which makes its mistakes rare and its review fast, instead of open-ended and exhausting.</p>"
+problem: "<p>Most \"AI marketing\" pitches promise a system that plans, writes, and optimises end to end with minimal supervision - and that scope is exactly what makes marketers stop trusting the output after the first bad send. An agent given that much latitude eventually does something confidently wrong, and it goes out under the brand's name before anyone notices.</p>"
+solution: "<p>The fix isn't a smarter model, it's a narrower job description. An agent that only drafts ad copy, only monitors spend, or only flags underperforming creative can be checked against a short, specific list of what it's allowed to do - which makes its mistakes rare and its review fast.</p>"
 solution_answer: "An AI marketing agent is software that executes one specific, repeatable marketing task - drafting content variations, monitoring campaign performance, or flagging anomalies - with a human checkpoint before anything ships, rather than an autonomous system running campaigns end to end."
-approach: "<p>We start by identifying the single highest-volume repeatable task actually eating your team's time, not the most impressive-sounding use case. The agent gets built around that one job, with explicit rules for what it can act on versus what it has to flag, and a review queue sits between its output and anything customer-facing until the pilot period proves the error rate is low enough to loosen that gate.</p>"
+approach: "<p>We start by identifying the single highest-volume repeatable task actually eating your team's time, not the most impressive use case. The agent gets built around that one job with explicit rules for what it can act on versus flag, and a review queue sits between its output and anything customer-facing until the pilot proves the error rate is low.</p>"
 capabilities:
     - { title: 'Task-Specific Agent Scoping', items: ['Defining the exact inputs, outputs, and boundaries for one task', 'Documenting what the agent is explicitly not allowed to do', 'Failure-mode mapping before any build work starts'] }
     - { title: 'Campaign Monitoring & Alerting Agents', items: ['Spend and performance anomaly detection', 'Threshold tuning to avoid alert fatigue', 'Routing alerts to the right owner automatically'] }

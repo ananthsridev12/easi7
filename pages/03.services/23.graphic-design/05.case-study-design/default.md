@@ -2,8 +2,8 @@
 title: 'Case Study Design'
 template: service-detail-b
 eyebrow: 'Graphic Design'
-headline: 'Proof that looks as credible as it reads'
-tagline: 'Case study visual design turning results and narrative into a polished, shareable document.'
+headline: 'Turn Your Results Into Proof People Actually Trust'
+tagline: 'We design case studies that look as credible as the results they present.'
 primary_intent: 'commercial - service research'
 entities: ['Case Study Design', 'Results Visualisation', 'Sales Collateral', 'Proof Documents', 'Template Systems']
 tools: ['Case Study Design', 'Proof Documents']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Case study design turns a results narrative - the problem, the approach, and the outcome - into a document credible enough to match what it's claiming. A case study with genuinely strong results still undersells itself if the layout looks like an afterthought, because the reader makes a quality judgment about the work itself before they've even read the numbers.</p><p>This applies whether the final format is a PDF for outreach, a page on the website, or both - the visual design is doing real work in how credible the proof reads.</p>"
+overview: "<p>A case study with genuinely strong results still undersells itself if the layout looks like an afterthought - readers judge the quality of the work before they've even read the numbers. We turn the problem, approach, and outcome into a document credible enough to match what it's claiming, ready for a PDF, a web page, or both.</p>"
 overview_answer: "Case study design is the visual layout and formatting of a results narrative - problem, approach, outcome - built to read as credible as the results it's presenting."
 capabilities:
     - { title: 'Layout & Visual Hierarchy', items: ['Narrative structure - problem, approach, outcome', 'Visual hierarchy that highlights the result, not just the process'] }

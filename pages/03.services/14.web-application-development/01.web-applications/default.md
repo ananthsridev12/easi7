@@ -2,8 +2,8 @@
 title: 'Web Applications'
 template: service-detail-a
 eyebrow: 'Web Applications'
-headline: 'Custom-built for a specific workflow'
-tagline: "Web application development for workflows that don't fit an off-the-shelf tool."
+headline: 'Get Software Built Around How You Actually Work'
+tagline: "A custom web application built around your real workflow, not the one a generic tool assumed you'd have."
 primary_intent: 'commercial - service research'
 entities: ['Custom Web Applications', 'Workflow Mapping', 'API Integration', 'React', 'Role-Based Access', 'Iterative Delivery']
 tools: ['React', 'REST & GraphQL APIs', 'Custom Backend Architecture']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Off-the-shelf software is right most of the time - it's cheaper, faster to deploy, and someone else maintains it. The problem shows up when a workflow is specific enough that the generic tool only fits after enough workarounds that the workaround becomes the actual process: a spreadsheet bolted onto the SaaS tool, a manual export-and-reformat step every week, a step nobody remembers is happening until it breaks.</p><p>At that point the off-the-shelf tool isn't saving time anymore - it's costing it, just quietly, spread across enough small frictions that no single one looks worth fixing on its own.</p>"
-solution: "<p>A custom web application is built around how the workflow actually runs, not how a vendor assumed it would run for every customer at once. That means the data model matches the real process, the permissions match who actually needs to see what, and the integrations connect directly to the systems already in use instead of routing through a spreadsheet in the middle.</p>"
+problem: "<p>Off-the-shelf software is right most of the time - it's cheaper, faster to deploy, and someone else maintains it. The problem shows up when a workflow is specific enough that the generic tool only fits after enough workarounds that the workaround becomes the actual process: a spreadsheet bolted on, a manual export-and-reformat step every week nobody remembers is happening until it breaks. At that point the tool isn't saving time anymore - it's quietly costing it.</p>"
+solution: "<p>We build the application around how the workflow actually runs, not how a vendor assumed it would run for every customer at once. The data model matches the real process, permissions match who actually needs to see what, and integrations connect directly to the systems already in use instead of routing through a spreadsheet in the middle.</p>"
 solution_answer: "A custom web application is a purpose-built tool designed around one specific business workflow, used instead of forcing that workflow into generic software it wasn't designed to fit."
-approach: "<p>We map the actual workflow before writing a line of architecture - who touches the process, in what order, and where the current tool (or spreadsheet) breaks down. That mapping becomes the spec. We'd rather spend an extra week confirming the process than build a fast, clean application for the wrong workflow.</p>"
+approach: "<p>We map the actual workflow before writing a line of architecture - who touches the process, in what order, and where the current tool breaks down. That mapping becomes the spec, because we'd rather spend an extra week confirming the process than build a fast, clean application for the wrong workflow.</p>"
 capabilities:
     - { title: 'Requirements & Workflow Mapping', items: ['Process mapping with the people who actually run it', 'Identifying which steps are genuinely custom versus reusable'] }
     - { title: 'Application Architecture', items: ['Data model built around the real process, not a generic schema', 'Scalability decisions matched to actual expected use'] }
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Integration', b: 'Direct connections to the systems the workflow already depends on' }
     - { a: 'Support', b: 'Maintenance and iteration as the process changes after launch' }
 process:
-    - { title: 'Workflow Mapping', body: 'We sit with the people who run the process today and map every step, including the workarounds nobody put in the original spec.' }
-    - { title: 'Architecture', body: 'The data model and system design are built around that real process, not adapted from a generic template.' }
-    - { title: 'Frontend & Backend Build', body: 'Development happens against the spec, with the interface built for the specific people who will use it every day.' }
-    - { title: 'Integration', body: 'The application connects directly to CRM, billing, or operational systems already in place, removing the manual handoff step.' }
-    - { title: 'Testing & Launch', body: 'The build is tested against the real workflow, not just against generic test cases, before going live.' }
-    - { title: 'Maintenance & Iteration', body: "The process keeps evolving after launch, and the application gets updated with it rather than becoming outdated software within a year." }
+    - { title: 'Map', body: 'We sit with the people who run the process today and map every step, including the workarounds nobody put in the original spec.' }
+    - { title: 'Architect', body: 'The data model and system design are built around that real process, not adapted from a generic template.' }
+    - { title: 'Build', body: 'Development happens against the spec, with the interface built for the specific people who will use it every day.' }
+    - { title: 'Integrate', body: 'The application connects directly to CRM, billing, or operational systems already in place, removing the manual handoff step.' }
+    - { title: 'Launch', body: 'The build is tested against the real workflow, not just against generic test cases, before going live.' }
+    - { title: 'Iterate', body: "The process keeps evolving after launch, and the application gets updated with it rather than becoming outdated software within a year." }
 comparison:
     headers: ['Custom Web Application', 'Off-the-Shelf Tool Plus Workarounds']
     rows:

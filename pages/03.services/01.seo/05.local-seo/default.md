@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Local SEO is its own discipline with its own ranking factors - proximity, Google Business Profile completeness, citation consistency, and review signals matter far more here than the factors that drive national organic rankings. Ranking on page one nationally means nothing to someone typing \"near me\" if your business does not appear in the map pack for their actual location.</p><p>For multi-location and local-service businesses, this compounds - each location competes independently, and inconsistent business information across the web undermines every location at once rather than just one.</p>"
+overview: "<p>Ranking on page one nationally means nothing to someone searching \"near me\" if your business does not show up in the map pack. We build out your Google Business Profile, clean up citations, and structure location pages so each of your locations competes on its own - not as a copy of the flagship.</p>"
 overview_answer: "Local SEO is optimising a business's Google Business Profile, citations, and location-specific pages so it appears in local map pack and near-me search results."
 capabilities:
     - { title: 'Google Business Profile Optimisation', items: ['Profile completeness and category selection', 'Photo and post cadence', 'Q&A and attribute management'] }

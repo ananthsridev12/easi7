@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Off-page SEO usually goes wrong in one of two directions - either it is ignored entirely because it feels harder to control than on-site work, or it is treated as a numbers game, chasing link volume from low-relevance sites that add measurable risk without adding real authority. A hundred links from unrelated directories move the needle less than five earned placements from sites your actual customers already trust.</p><p>The volume approach also carries downside risk that the relevance approach does not - link profiles that look manufactured are exactly what search engines have spent years learning to discount or penalise.</p>"
+problem: "<p>Off-page SEO usually goes wrong one of two ways - it gets ignored because it feels harder to control than on-site work, or it turns into a numbers game chasing link volume from low-relevance sites. A hundred links from unrelated directories move the needle less than five earned placements from sites your customers already trust, and a manufactured-looking link profile is exactly what search engines have learned to penalise.</p>"
 solution: "<p>Off-page SEO done properly is closer to relationship-based PR than to outreach at scale. It means finding the publications, partners, and communities that are already relevant to your category, and earning placement through something worth citing - original data, a genuine expert perspective, or a resource that solves a real problem - rather than a templated pitch sent to a thousand inboxes.</p>"
 solution_answer: "Off-page SEO is building relevant, editorially earned authority signals - primarily backlinks and brand mentions - from sites your actual audience already trusts."
 approach: "<p>We start by mapping which sites in your category actually carry weight with your audience, not just which sites have a high domain score. From there, outreach is built around something genuinely worth linking to, and every placement is checked for relevance before it counts toward the campaign - a link from an unrelated site does not appear in our reporting as a win.</p>"
@@ -25,11 +25,11 @@ capabilities:
     - { title: 'Competitor Gap Analysis', items: ['Identifying where competitors earn links you do not', 'Prioritising gaps by relevance and feasibility'] }
     - { title: 'Brand Mention Monitoring', items: ['Tracking unlinked brand mentions across the web', 'Reclamation outreach to convert mentions into links'] }
 process:
-    - { title: 'Backlink Profile Audit', body: 'We assess your current link profile for relevance, risk, and gaps against competitors.' }
-    - { title: 'Competitor Gap Analysis', body: 'We identify where competitors are earning links and mentions that you are not.' }
-    - { title: 'Outreach Targeting', body: 'Sites and publications are shortlisted by actual relevance to your audience, not domain metrics alone.' }
-    - { title: 'Pitch & Placement', body: 'We develop an angle worth covering and manage outreach through to placement.' }
-    - { title: 'Mention Monitoring & Reclamation', body: 'Unlinked brand mentions are tracked and converted into links where possible.' }
+    - { title: 'Audit', body: 'We assess your current link profile for relevance, risk, and gaps against competitors.' }
+    - { title: 'Benchmark', body: 'We identify where competitors are earning links and mentions that you are not.' }
+    - { title: 'Targeting', body: 'Sites and publications are shortlisted by actual relevance to your audience, not domain metrics alone.' }
+    - { title: 'Placement', body: 'We develop an angle worth covering and manage outreach through to placement.' }
+    - { title: 'Reclamation', body: 'Unlinked brand mentions are tracked and converted into links where possible.' }
     - { title: 'Reporting', body: 'Placements are reported with relevance context, not just a raw link count.' }
 comparison:
     headers: ['Relevance-First Link Building', 'Volume-Based Link Building']

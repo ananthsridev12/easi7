@@ -2,7 +2,7 @@
 title: 'Internal Knowledge Assistants'
 template: service-detail-a
 eyebrow: 'AI Chatbots'
-headline: 'Stop searching six tools for one answer'
+headline: 'Stop Searching Six Tools for One Answer'
 tagline: 'Internal knowledge assistants that answer employee questions from your existing documentation and tools.'
 primary_intent: 'informational - concept explainer'
 entities: ['Internal Knowledge Assistants', 'Access Control', 'Documentation Grounding', 'Slack Integration', 'Source Citation']
@@ -14,10 +14,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>The answer usually already exists. Someone wrote it up in a Notion page, a Confluence doc, a pinned Slack message, or a wiki article eighteen months ago - and it's still correct, it's just impossible to find without knowing exactly where to look or who to ask. The employee who wrote it may have left. The channel it was posted in may be muted. So the same question gets asked again in a different channel, answered again from memory, and the cycle repeats.</p><p>Bolting a general-purpose AI assistant onto this doesn't fix it either. Without being grounded in your actual internal documentation, it either declines to answer anything company-specific or, worse, produces a plausible-sounding answer pulled from nowhere - which is a bigger liability internally than externally, because employees tend to trust an internal tool by default.</p>"
-solution: "<p>An internal knowledge assistant indexes documentation you already have - wherever it actually lives - and answers employee questions from it directly, citing the source so the answer can be verified rather than just trusted. It respects existing access permissions, so it never surfaces something a given employee shouldn't see.</p>"
+problem: "<p>The answer usually already exists - written up in a Notion page or a pinned Slack message months ago - but it's impossible to find without knowing exactly where to look or who to ask. The employee who wrote it may have left, so the same question gets asked again in a different channel and answered again from memory.</p>"
+solution: "<p>An internal knowledge assistant indexes documentation you already have, wherever it lives, and answers employee questions from it directly, citing the source so the answer can be verified rather than just trusted. It respects existing access permissions, so it never surfaces something an employee shouldn't see.</p>"
 solution_answer: "An internal knowledge assistant is a chatbot that answers employee questions by searching your existing internal documentation and tools, citing its source, and respecting the same access controls already in place."
-approach: "<p>We start by mapping where your documentation actually lives - it's rarely just one tool - and connect the assistant to those real sources rather than asking anyone to migrate content first. Access control is built in from the same permissions system you already use, and every answer carries a citation back to the source document, so an employee can verify it in one click instead of taking it on faith.</p>"
+approach: "<p>We start by mapping where your documentation actually lives - it's rarely just one tool - and connect the assistant to those real sources rather than asking anyone to migrate content first. Access control inherits your existing permissions system, and every answer carries a citation back to the source.</p>"
 capabilities:
     - { title: 'Documentation & Tool Integration', items: ['Indexing across your existing internal documentation and tools', 'No requirement to migrate content into a new system first', 'Ongoing sync as documentation gets updated'] }
     - { title: 'Access Control', items: ['Permissions aligned to your existing access system', 'No answer surfaces content a given employee should not see', 'Audit trail of what was accessed and by whom'] }

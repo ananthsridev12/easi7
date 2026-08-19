@@ -47,8 +47,6 @@ faqs:
 
 ### Why it comes first
 
-Every engagement starts with a measurement audit. We've seen too many accounts where the "traffic increase" or "lead volume" being reported was actually a tracking bug. Clean infrastructure isn't a nice-to-have - it's the only way to know if anything else we do is working.
+Every engagement starts with a measurement audit. We've seen too many accounts where the "traffic increase" or "lead volume" being reported was actually a tracking bug - clean infrastructure isn't a nice-to-have, it's the only way to know if anything else we do is working. That starts with GA4 and Google Tag Manager configured to reflect how the business actually operates, not the default event set most properties ship with.
 
-That starts with GA4 and Google Tag Manager configured to reflect how the business actually operates, not the default event set most properties ship with. From there, conversion tracking has to be reconciled against ad platforms and CRM data so bidding decisions are based on real outcomes, and attribution modelled against the actual sales cycle rather than a last-click default that quietly starves every channel that isn't the final touch.
-
-Consistent UTM tagging keeps all of that comparable over time, and dashboards and recurring reporting turn the resulting data into something a stakeholder can act on - not another wall of numbers nobody has time to interpret.
+From there, conversion tracking gets reconciled against ad platforms and CRM data so bidding decisions are based on real outcomes, and attribution gets modelled against the actual sales cycle instead of a last-click default that starves every channel that isn't the final touch. Consistent UTM tagging keeps it all comparable over time, and dashboards turn the result into something a stakeholder can act on - not another wall of numbers.

@@ -2,8 +2,8 @@
 title: 'SMS Marketing'
 template: service-detail-a
 eyebrow: 'SMS Marketing'
-headline: 'Short, timely, and impossible to miss'
-tagline: 'SMS campaigns for order updates, abandoned-cart recovery, and time-sensitive offers - used sparingly enough that people keep opting in.'
+headline: 'Send Fewer Texts That People Actually Want to Read'
+tagline: "We use SMS only for what's genuinely urgent, so your list stays opted in instead of tuning out."
 service_url: /services/messaging-marketing/sms-marketing
 taxonomy:
     service: ['SMS Marketing']
@@ -15,8 +15,8 @@ sitemap:
 
 primary_intent: 'commercial - service research'
 entities: ['SMS Marketing', 'Transactional SMS', 'Abandoned-Cart Recovery', 'Opt-in Compliance', 'Frequency Capping', 'SMS Gateway']
-problem: "<p>SMS gets read within minutes of arriving, which is exactly why lists burn out so fast on this channel. A business gets a taste of a 95%+ open rate, starts routing every promotion through it, and within a couple of months the unsubscribe rate climbs past what email ever produced. The channel didn't stop working - it got used for things it was never suited to.</p><p>The underlying issue is almost always the same: no one drew a hard line between what's genuinely time-sensitive and what's just convenient to send. Once that line disappears, SMS turns into a second inbox nobody asked for.</p>"
-solution: "<p>We treat SMS as a narrow-purpose channel and build the campaign calendar around that constraint rather than around it. Transactional messages - order confirmations, delivery updates, appointment reminders - go out because they reduce support load and genuinely help the recipient. Promotional sends are capped, scheduled around real urgency, and never used as filler.</p><p>Consent management and opt-in tracking are built in from the start, not bolted on after a compliance complaint. That's what keeps the channel's open rate high enough to be worth the sending cost.</p>"
+problem: "<p>SMS gets read within minutes of arriving, which is exactly why lists burn out so fast on this channel. A business gets a taste of a 95%+ open rate, starts routing every promotion through it, and within a couple of months the unsubscribe rate climbs past what email ever produced. The channel didn't stop working - nobody drew a hard line between what's genuinely time-sensitive and what's just convenient to send.</p>"
+solution: "<p>We treat SMS as a narrow-purpose channel and build the campaign calendar around that constraint. Transactional messages - order confirmations, delivery updates, appointment reminders - go out because they genuinely help the recipient, while promotional sends are capped and scheduled around real urgency, never used as filler. Consent management and opt-in tracking are built in from the start, which is what keeps the open rate high enough to be worth the sending cost.</p>"
 solution_answer: 'SMS marketing is short, high-open-rate text messaging used for transactional updates and time-sensitive offers - it works because usage stays narrow, not because the channel is inherently more effective than email.'
 approach: "<p>We start by auditing what's actually being sent today and cutting anything that isn't transactional or genuinely time-bound. From there we set up the gateway integration, build opt-in and consent tracking, and configure frequency caps before a single promotional campaign goes live. Abandoned-cart sequences are timed for the window right after drop-off, when a text still has a shot at catching someone before they've moved on.</p>"
 capabilities:
@@ -24,11 +24,11 @@ capabilities:
     - { title: 'Cart & Offer Recovery', items: ['Abandoned-cart sequences timed to the first hour', 'Limited-window promotional offers', 'Post-purchase follow-up'] }
     - { title: 'Compliance & List Health', items: ['Opt-in and consent tracking', 'Frequency capping', 'Unsubscribe and preference management'] }
 process:
-    - { title: 'Audit current sending', body: 'Review what is currently sent by SMS and flag anything that is not genuinely transactional or time-sensitive.' }
-    - { title: 'Set up gateway and compliance', body: 'Connect the SMS gateway, configure opt-in capture, and set frequency caps before launch.' }
-    - { title: 'Build core sequences', body: 'Build the abandoned-cart, order-update, and reminder sequences that make up the bulk of the sending volume.' }
-    - { title: 'Layer in promotional sends', body: 'Add limited-window offers on top, scheduled around real urgency rather than a fixed calendar.' }
-    - { title: 'Monitor list health', body: 'Track unsubscribe and opt-out rates as the leading indicator of whether sending discipline is holding.' }
+    - { title: 'Audit', body: 'Review what is currently sent by SMS and flag anything that is not genuinely transactional or time-sensitive.' }
+    - { title: 'Setup', body: 'Connect the SMS gateway, configure opt-in capture, and set frequency caps before launch.' }
+    - { title: 'Build', body: 'Build the abandoned-cart, order-update, and reminder sequences that make up the bulk of the sending volume.' }
+    - { title: 'Layer', body: 'Add limited-window offers on top, scheduled around real urgency rather than a fixed calendar.' }
+    - { title: 'Monitor', body: 'Track unsubscribe and opt-out rates as the leading indicator of whether sending discipline is holding.' }
 comparison:
     headers: ['SMS (used narrowly)', 'SMS (used as a promo blast list)']
     rows:

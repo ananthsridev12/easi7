@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Most SEO audits hand back a document listing every issue the tool could find, with no indication of which ten actually matter and which two hundred are cosmetic. That approach produces a report, not a plan - our audits end with a ranked list of what to fix first, second, and what can reasonably wait, based on how much organic potential each issue is actually costing.</p><p>An audit is also the right starting point when you are not sure which layer of SEO is holding you back - technical, content, or authority - since guessing wrong wastes budget on the wrong fix.</p>"
+overview: "<p>Most SEO audits hand back a document listing every issue a tool could find, with no sense of what actually matters. Ours end with a ranked fix list instead - what to tackle first, what can wait, and why - so you know exactly which layer, technical, content, or authority, is really holding you back.</p>"
 overview_answer: "An SEO audit is a full technical, on-page, and off-page review that identifies what is limiting organic performance and ranks the fixes by actual impact."
 capabilities:
     - { title: 'Crawl & Indexation Analysis', items: ['Full site crawl for errors and blockers', 'Indexation status review against Search Console data'] }

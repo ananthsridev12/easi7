@@ -46,6 +46,6 @@ faqs:
 
 Reaching for React by default is one of the most common ways a simple site becomes an expensive, slow-to-load one. Frontend framework choice should follow from what the interface actually needs to do, not from what's currently popular.
 
-React earns its complexity on genuinely interactive, stateful interfaces - dashboards, calculators, portals - where component reuse and state management save real development time. Next.js adds server-side rendering on top of that, which matters the moment SEO or fast initial load is a requirement alongside interactivity. Plain JavaScript, meanwhile, is often the right call for a handful of interactive page elements that don't justify a framework's overhead at all.
+React earns its complexity on genuinely interactive, stateful interfaces, Next.js adds server-side rendering when SEO or fast initial load matters alongside interactivity, and plain JavaScript is often the right call for a handful of elements that don't justify a framework's overhead at all.
 
 Responsive behaviour underlies all of it - most of the traffic on the sites we build is mobile, so layouts get designed mobile-first rather than adapted down from desktop after the fact.

@@ -2,8 +2,8 @@
 title: 'JavaScript Development'
 template: service-detail-c
 eyebrow: 'Frontend Development'
-headline: 'Custom interactivity, without unnecessary framework weight'
-tagline: "Vanilla and lightweight JavaScript development for interactive features that don't need a full framework."
+headline: "Interactive Features That Load Fast, Not Bloated Frameworks You Don't Need"
+tagline: "We build interactive features in lightweight JavaScript so your site stays fast, without dragging in a framework it doesn't need."
 tools: ['JavaScript', 'Lightweight Interactivity']
 service_url: /services/frontend-development/javascript-development
 primary_intent: 'informational - concept explainer'
@@ -16,9 +16,9 @@ sitemap:
     changefreq: monthly
     priority: !!float 0.6
 
-definition: "<p>Vanilla JavaScript development means building interactive functionality directly against browser APIs, without a UI framework's runtime, build step, or component model sitting between the code and the page. It's the same language a React or Vue app is ultimately compiled down to - written directly, for cases where that extra layer isn't earning its cost.</p>"
+definition: "<p>We build your interactive features - dropdowns, validators, carousels, filters - directly in JavaScript, skipping the framework runtime that would otherwise slow every visitor down before that feature even runs. It's the same language a React or Vue app compiles down to anyway, written straight, for the cases where that extra layer isn't earning its cost.</p>"
 definition_answer: "Vanilla JavaScript development is writing interactive features using the language and browser APIs directly, without a framework such as React or Vue - the right choice when a page needs a handful of interactive elements rather than an entire application's worth of state."
-why_it_matters: "<p>Every framework added to a page is a runtime cost paid by every visitor, before a single line of the feature it's implementing has run. For a site that needs a dropdown, a form validator, a carousel, and a filter widget, shipping a framework to build those four things is often slower to load than writing them directly ever would be.</p><p>It matters more now than it used to, because page weight and JavaScript execution time are directly tied to Core Web Vitals and mobile performance, and mobile is where most traffic on the sites we build actually happens. Lightweight, dependency-light code is a performance decision as much as an architectural one.</p>"
+why_it_matters: "<p>Every framework you ship is a load-time cost your visitors pay before the feature it powers has even run - and on mobile, where most traffic actually happens, that cost shows up directly in your Core Web Vitals and conversion rate. Keeping the code lightweight and dependency-light isn't just tidier engineering, it's a performance decision that protects your site speed as it grows.</p>"
 challenges:
     - 'Avoiding the same tangled, hard-to-trace state problems that frameworks were built to prevent'
     - 'Handling browser compatibility differences without a framework abstracting them away'

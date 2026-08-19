@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Running Meta and LinkedIn ads as separate silos means budget decisions get made without the full picture - each platform team optimises its own numbers, and nobody is deciding whether the next incremental dollar should actually go to Meta, LinkedIn, or an emerging platform being tested. Cross-platform advertising treats the budget as one pool moved by performance, not fixed splits agreed once and left alone.</p><p>This matters most for businesses testing where paid social budget performs best for a specific offer, or running the same campaign logic across platforms with very different audiences and cost structures.</p>"
+overview: "<p>Running Meta and LinkedIn ads as separate silos means budget decisions get made without the full picture - each platform optimises its own numbers, and nobody decides where the next dollar should actually go. We treat your budget as one pool moved by performance, not fixed splits agreed once and left alone.</p>"
 overview_answer: "Social media advertising here means managing paid campaigns across Meta, LinkedIn, and other relevant platforms as one connected budget and reporting system, rather than as separate, disconnected accounts."
 capabilities:
     - { title: 'Cross-Platform Budget Allocation', items: ['Shared budget pool moved to whichever platform is converting', 'Platform-specific bid and format management'] }

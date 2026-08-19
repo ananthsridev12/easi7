@@ -2,8 +2,8 @@
 title: 'AI-Powered Reporting'
 template: service-detail-a
 eyebrow: 'AI Analytics'
-headline: 'Reports that explain the number, not just show it'
-tagline: "AI-generated narrative summaries and anomaly explanations layered onto your existing dashboards, so reporting time goes to the decision instead of the write-up."
+headline: 'Reports That Explain the Number, Not Just Show It'
+tagline: "AI-generated narrative summaries layered on your dashboards, so reporting time goes to decisions instead of the write-up."
 primary_intent: 'commercial - service research'
 entities: ['AI-Generated Reporting', 'Anomaly Detection', 'Narrative Insights', 'BI Integration', 'Automated Summarisation']
 tools: ['AI Reporting', 'Narrative Insights', 'Anomaly Detection', 'BI Tool Integration']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A dashboard shows that a number moved. It doesn't say why, and someone still has to work that out by hand - checking three other charts, remembering whether a campaign launched that week, then writing up a paragraph that reads differently depending on who's writing it that cycle. Do that across a dozen recurring reports for different stakeholders, each wanting a different angle on the same numbers, and the write-up becomes the actual bottleneck, not the analysis.</p><p>The alternative is worse: nobody does the dig, and the report goes out as a stack of charts. Whoever reads it either guesses at the cause or books a meeting to ask someone to explain it - a meeting a one-paragraph explanation could have prevented.</p>"
-solution: "<p>AI-powered reporting adds a narrative layer on top of the dashboards you already use - an automatically generated first-pass explanation of what changed and a plausible reason why, sitting next to the chart instead of replacing it. Anomalies get flagged and described in plain language before a person even opens the report, and the same underlying data can be reframed automatically for different stakeholders without someone rewriting it by hand each time.</p>"
+problem: "<p>A dashboard shows that a number moved, but someone still has to work out why by hand - checking other charts, remembering what launched that week, then writing a paragraph that reads differently depending on who's writing it. Do that across a dozen recurring reports and the write-up becomes the actual bottleneck, not the analysis.</p>"
+solution: "<p>AI-powered reporting adds a narrative layer on top of the dashboards you already use - an automatically generated explanation of what changed and why, sitting next to the chart instead of replacing it. Anomalies get flagged and described in plain language before a person even opens the report.</p>"
 solution_answer: "AI-powered reporting is automated narrative generation and anomaly explanation layered on top of your existing dashboards, so a report arrives with a first-pass explanation attached instead of just a chart."
-approach: "<p>We start with the dashboards and BI tools you already have rather than replacing them, since the reporting infrastructure usually isn't the problem - the missing narrative layer is. From there we set up anomaly detection tuned to what actually matters for your business, not every statistical blip, connect it to a summarisation layer that writes the explanation in plain language, and configure separate report formats for the stakeholders who need different levels of detail from the same data.</p>"
+approach: "<p>We start with the dashboards and BI tools you already have, since the missing piece is usually the narrative layer, not the infrastructure. We set up anomaly detection tuned to what matters for your business, connect it to plain-language summarisation, and configure separate formats for stakeholders who need different levels of detail.</p>"
 capabilities:
     - { title: 'AI-Generated Narrative Summaries', items: ['Plain-language write-up of what changed and why, generated automatically', 'Consistent tone and framing across every reporting cycle'] }
     - { title: 'Automated Anomaly Explanation', items: ['Detection tuned to metrics that actually matter for your business', 'A plausible explanation attached to the anomaly, not just a flag'] }

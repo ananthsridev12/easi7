@@ -46,8 +46,6 @@ faqs:
 
 ### The 30-40% problem
 
-Most teams we work with are surprised to find that 30-40% of their "leads" were never real opportunities - they just looked like leads because no scoring system existed. We build the minimum viable scoring model first: ICP fit, intent signals, and recency, then automate the follow-through.
+Most teams we work with are surprised to find that 30-40% of their "leads" were never real opportunities - they just looked like leads because no scoring system existed. We build the minimum viable scoring model first (ICP fit, intent signals, recency), then automate the follow-through across CRM workflows, routing, campaigns, and broader workflow automation.
 
-The five pieces below - CRM workflows, lead scoring, routing, campaign automation, and workflow automation - solve different parts of the same problem: manual effort spent on tasks a system could handle consistently. Most businesses do not need all five built at once. The right starting point is whichever manual task is currently costing the most time or losing the most leads, and the rest gets sequenced from there.
-
-Sequencing actually matters here. Automating campaign delivery on top of a CRM with duplicate records and no scoring model just moves bad data faster. We typically start with CRM hygiene and a scoring model, then layer routing, campaigns, and broader workflow automation on top once that foundation holds.
+Most businesses don't need all five built at once - the right starting point is whichever manual task is costing the most time or losing the most leads, and the rest gets sequenced from there. Sequencing matters: automating campaign delivery on top of a CRM with duplicate records and no scoring model just moves bad data faster, so we start with CRM hygiene and scoring before layering the rest on top.

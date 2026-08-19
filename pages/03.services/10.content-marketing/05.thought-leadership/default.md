@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Most content labelled thought leadership is really industry news with a company logo attached - a summary of what already happened, restated without adding a position on it. That doesn't build authority, because anyone can summarise; having an actual, defensible opinion is what's scarce and what people remember. Thought leadership work starts by finding that opinion, then builds content around defending it.</p><p>This is founder-led by nature. A company account can publish commentary, but a named person with a consistent point of view builds recognition faster than an institutional voice, which is why most of this work centres on developing and sharpening one person's perspective rather than producing generic brand content.</p>"
+overview: "<p>Most content labelled thought leadership is really industry news with a company logo attached - a summary of what already happened, restated without a position on it. Anyone can summarise; a real, defensible opinion is what's scarce and what people remember. We find that opinion through founder interviews, then build content that actually defends it.</p>"
 overview_answer: "Thought leadership is content built around a genuine, defensible point of view on a topic, usually voiced by a founder or named expert, rather than a neutral summary of industry news."
 capabilities:
     - { title: 'Point-of-View Development', items: ['Interviews to extract and sharpen an actual opinion, not just topics', 'Position-testing against likely counterarguments before publishing'] }

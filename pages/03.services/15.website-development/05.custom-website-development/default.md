@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Most sites do not need a fully custom build - a well-implemented template or CMS theme covers the vast majority of business needs at a fraction of the cost and time. Custom development earns its cost specifically when the design or functionality genuinely cannot be achieved within a template's constraints, and forcing it into one turns every future change into a fight against the template's assumptions instead of a straightforward update.</p><p>That threshold is usually clear once you hit it - unusual interaction patterns, performance requirements a page-builder cannot meet, or a brand experience that a templated layout visibly compromises. Custom development is the right call when the requirement is real, not when a template is merely inconvenient.</p>"
+overview: "<p>Most sites do not need a fully custom build - a well-implemented template covers the vast majority of business needs at a fraction of the cost. We recommend custom development only when the design or functionality genuinely cannot be achieved within a template's constraints - unusual interactions, performance requirements a page builder can't meet, a brand experience a templated layout visibly compromises.</p>"
 overview_answer: "Custom website development is building a site from the ground up, without a pre-built theme or template, when the design or functionality genuinely exceeds what a CMS template can deliver."
 capabilities:
     - { title: 'Custom Design & Development', items: ['Design built from the brand and requirement, not adapted from a theme', 'Full front-end and back-end development as needed'] }

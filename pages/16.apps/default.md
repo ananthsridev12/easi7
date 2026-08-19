@@ -3,8 +3,8 @@ title: 'Apps & Tools'
 menu: 'Apps & Tools'
 template: services
 eyebrow: 'Apps & Tools'
-headline: 'Products we build and use ourselves'
-tagline: "Small, focused tools we've built to solve our own problems first - before offering them to clients."
+headline: 'Tools we built because we needed them first'
+tagline: "Small, focused tools we built to solve our own problems - proven on our own operations before we ever offered them to clients."
 metadata:
     description: "Apps and tools built by EASI7: Personal Finance, Post Pilot, AI UTM Generator, and Intelligent Outreach."
 content:
@@ -37,6 +37,6 @@ cta:
     button_url: /contact
 ---
 
-<p>Most of what we build for clients starts as something we needed ourselves first. A spreadsheet that kept breaking. A subscription that cost more than it saved. A manual process that ate an afternoon every week. Rather than work around the gap, we built the tool - and kept using it until it was solid enough to trust with real operations, not just a demo.</p>
+<p>Most of what we build for clients started as something we needed ourselves first - a spreadsheet that kept breaking, a subscription that cost more than it saved, a manual process that ate an afternoon every week. Instead of working around the gap, we built the tool and kept using it until it held up under real operations, not just a demo.</p>
 
-<p>That's the thread connecting everything below: a LinkedIn content system, a UTM and tracking platform, a self-hosted personal finance app, a B2B intent signal engine. Different problems, same approach - self-hosted where it makes sense, no subscription stacked on top of subscription, and built around how the work actually happens instead of a generic feature checklist.</p>
+<p>That's the thread running through everything below: a LinkedIn content system, a UTM and tracking platform, a self-hosted finance app, a B2B intent signal engine - different problems, same approach. Self-hosted where it makes sense, no subscription stacked on subscription, built around how the work actually happens.</p>

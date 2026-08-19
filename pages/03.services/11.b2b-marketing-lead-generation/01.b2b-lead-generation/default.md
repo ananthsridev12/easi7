@@ -2,8 +2,8 @@
 title: 'B2B Lead Generation'
 template: service-detail-a
 eyebrow: 'B2B Marketing & Lead Generation'
-headline: 'Leads scored before they reach sales'
-tagline: 'Full-funnel B2B lead generation combining content, paid, and outbound - with a scoring model built in before handoff, not bolted on after.'
+headline: 'Stop Handing Sales 200 Leads to Find the Dozen That Matter'
+tagline: 'We score every lead for fit and intent before it reaches sales, so reps work leads worth their time.'
 service_url: /services/b2b-marketing-lead-generation/b2b-lead-generation
 primary_intent: 'commercial - service research'
 entities: ['ICP Definition', 'Lead Scoring', 'Multi-Channel Lead Capture', 'MQL/SQL Thresholds', 'Funnel Attribution']
@@ -15,8 +15,8 @@ sitemap:
     changefreq: monthly
     priority: !!float 0.6
 
-problem: "<p>Volume without qualification doesn't solve the lead generation problem - it just moves the sorting problem downstream to sales. A campaign that produces two hundred form fills a month looks like a win in a dashboard, but if a rep has to work through all two hundred to find the dozen worth calling, the campaign has quietly become sales's job instead of marketing's.</p><p>That's usually where the 'our leads are garbage' conversation comes from, and it's rarely a targeting problem alone. It's the absence of a shared, enforced definition of what counts as qualified before a lead ever reaches a CRM.</p>"
-solution: "<p>The fix is building the scoring model before the first campaign launches, not after sales complains. That starts with pulling the actual ICP from your last twenty closed-won deals and last ten churned accounts - not a guess based on job title and company size - and then scoring every lead against fit and intent before it ever hits a rep's queue.</p><p>Channel mix comes second: paid, content, and outbound each capture a different type of demand, and none of them should be scaled past the point where the scoring model can still keep up with the volume.</p>"
+problem: "<p>Volume without qualification doesn't solve the lead generation problem - it just moves the sorting problem downstream to sales. A campaign that produces two hundred form fills a month looks like a win in a dashboard, but if a rep has to work through all two hundred to find the dozen worth calling, the campaign has quietly become sales's job instead of marketing's - and that's usually where the 'our leads are garbage' conversation starts.</p>"
+solution: "<p>The fix is building the scoring model before the first campaign launches, not after sales complains. That starts with pulling the actual ICP from your closed-won and churned accounts, not a guess based on job title and company size, and scoring every lead against fit and intent before it ever hits a rep's queue.</p>"
 solution_answer: 'B2B lead generation is the process of identifying, attracting, and qualifying prospects who match a defined ideal customer profile, then scoring them for fit and intent before handing them to sales - so the leads a rep works are ones actually worth their time.'
 approach: "<p>We start with the ICP, not the campaign - pulling patterns from your closed-won and churned accounts before deciding where to spend a dollar. The scoring model gets built and wired into the CRM before any channel goes live, so there's no period where leads arrive unscored. From there we track the funnel all the way to closed-won by channel, because a channel's real cost is what it costs per customer, not per lead.</p>"
 capabilities:
@@ -30,11 +30,11 @@ deliverables:
     - { a: 'Scoring model', b: 'A fit-plus-intent scoring rubric integrated with your CRM' }
     - { a: 'Reporting', b: 'A funnel dashboard tracking lead to closed-won by channel' }
 process:
-    - { title: 'ICP & Account Research', body: 'Pull patterns from closed-won and churned accounts rather than starting from assumptions.' }
-    - { title: 'Channel Mix Design', body: 'Decide the paid, content, and outbound split based on where your ICP actually spends attention.' }
-    - { title: 'Scoring Model Build', body: 'Define fit and intent criteria and set the MQL/SQL thresholds sales agrees to.' }
-    - { title: 'Campaign Launch', body: 'Stand up channels with scoring wired into the CRM from the first lead, not added later.' }
-    - { title: 'Funnel Tracking Setup', body: 'Connect lead source through pipeline stage to closed-won so channel performance is visible end to end.' }
+    - { title: 'Research', body: 'Pull patterns from closed-won and churned accounts rather than starting from assumptions.' }
+    - { title: 'Channel Mix', body: 'Decide the paid, content, and outbound split based on where your ICP actually spends attention.' }
+    - { title: 'Scoring', body: 'Define fit and intent criteria and set the MQL/SQL thresholds sales agrees to.' }
+    - { title: 'Launch', body: 'Stand up channels with scoring wired into the CRM from the first lead, not added later.' }
+    - { title: 'Tracking', body: 'Connect lead source through pipeline stage to closed-won so channel performance is visible end to end.' }
     - { title: 'Iteration', body: 'Review channel-level CAC and payback period and reallocate budget toward what is actually working.' }
 comparison:
     headers: ['Scored Lead Generation', 'Volume-Only Lead Generation']

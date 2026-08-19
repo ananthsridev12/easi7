@@ -2,8 +2,8 @@
 title: 'Marketing Intelligence'
 template: service-detail-b
 eyebrow: 'AI Analytics'
-headline: 'Patterns across channels a human would take days to find'
-tagline: "Cross-channel data aggregation and AI-assisted pattern detection that surfaces what's actually shifting in your marketing performance before it shows up in a quarterly review."
+headline: 'Catch Cross-Channel Patterns Before Your Next Review'
+tagline: "We aggregate every channel and surface what's actually shifting in your marketing performance, before it shows up in a quarterly review."
 primary_intent: 'commercial - service research'
 entities: ['Cross-Channel Aggregation', 'Pattern Detection', 'Competitive Intelligence', 'Automated Alerting', 'Anomaly Detection']
 tools: ['Marketing Intelligence', 'Pattern Detection', 'Competitive Monitoring']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Marketing intelligence pulls performance and audience data from every channel you run into one place, then applies AI-assisted pattern detection to surface things a person would need days of manual cross-referencing to find - a creative fatiguing faster on one platform than another, a keyword cluster quietly underperforming for one segment, a competitor's message shift showing up in your own conversion data before anyone noticed the change directly.</p><p>It's most useful for businesses running enough channels that nobody can hold the whole picture in their head at once, and where a real pattern is currently getting missed simply because checking for it manually isn't anyone's full-time job.</p>"
+overview: "<p>Once you're running enough channels that nobody can hold the whole picture in their head, real patterns get missed simply because checking for them manually isn't anyone's full-time job. We pull performance and audience data from every channel into one place and apply pattern detection to surface what would otherwise take days of manual cross-referencing to find.</p>"
 overview_answer: "Marketing intelligence is AI-assisted analysis of data aggregated across every marketing channel you run, surfacing cross-channel patterns and competitive shifts that manual review would take too long to catch."
 capabilities:
     - { title: 'Cross-Channel Data Aggregation', items: ['Performance and audience data pulled from every active channel', 'One consolidated view instead of per-platform dashboards'] }

@@ -2,8 +2,8 @@
 title: 'Personalization'
 template: service-detail-a
 eyebrow: 'Personalization'
-headline: 'Relevant, without feeling manually built for one person'
-tagline: 'AI-driven personalisation for email, web content, and offers based on behaviour and segment data, not demographic guesswork.'
+headline: 'Relevant to Every Visitor, Without Building It by Hand'
+tagline: 'AI-driven personalisation for email, web, and offers based on real behaviour, not demographic guesswork.'
 primary_intent: 'commercial - service research'
 entities: ['Behavioural Personalisation', 'Dynamic Content', 'Segment Rules', 'Personalisation Testing', 'Privacy-Conscious Data Use']
 tools: ['Behavioural Segmentation', 'Dynamic Content Blocks', 'A/B Testing']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most \"personalisation\" is inserting a first name into an email subject line, which isn't personalisation - it's a mail merge. Real relevance comes from what someone actually did - which pages they visited, what they downloaded, what they ignored - not from demographic assumptions about their job title or industry. Demographic-only personalisation guesses at relevance; behavioural personalisation responds to evidence.</p><p>The opposite failure is just as common - personalisation that feels invasive because it references something a visitor didn't consciously realise was being tracked. The line between useful and creepy isn't about how much data gets used, it's whether the resulting experience matches what a reasonable person would expect.</p>"
-solution: "<p>Personalisation built on behavioural and segment data adapts email content, on-site messaging, and offers to what someone has actually done - pages viewed, content downloaded, actions taken - rather than static demographic buckets. The same email template can surface a different product, message, or offer depending on documented behaviour, without a separate campaign built manually for each variation.</p>"
+problem: "<p>Most \"personalisation\" is inserting a first name into a subject line, which isn't personalisation - it's a mail merge. Real relevance comes from what someone actually did, not demographic assumptions about their job title, and the opposite failure is just as common: personalisation that feels invasive because it references something a visitor didn't realise was being tracked.</p>"
+solution: "<p>Personalisation built on behavioural and segment data adapts email, on-site messaging, and offers to what someone has actually done, rather than static demographic buckets. The same template can surface a different product or offer depending on documented behaviour, without a separate campaign built manually for each variation.</p>"
 solution_answer: "Personalisation adapts email, on-site content, and offers based on a visitor's actual behaviour and segment data, rather than demographic assumptions or a single static experience for everyone."
-approach: "<p>We start with what data is actually available and reliable before designing any personalised experience - a rule built on incomplete or unreliable behavioural data produces worse results than no personalisation at all. Testing runs alongside every personalised variant, because personalisation that isn't measured is just a guess with extra steps.</p>"
+approach: "<p>We start with what data is actually available and reliable before designing any personalised experience, because a rule built on thin data produces worse results than no personalisation at all. Testing runs alongside every variant, because personalisation that isn't measured is just a guess with extra steps.</p>"
 capabilities:
     - { title: 'Behavioural Content Personalisation', items: ['Content and messaging adapted to pages visited and content engaged with', 'Segment-based content rules for cases where behavioural data is thin', 'A defined fallback experience when no reliable signal exists'] }
     - { title: 'Dynamic Email Personalisation', items: ['Email content blocks that vary by segment or behaviour within a single template', 'Send-time and subject-line variation tied to engagement history', 'Reduced manual campaign duplication for each variant'] }

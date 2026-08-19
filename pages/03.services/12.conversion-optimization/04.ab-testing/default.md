@@ -2,8 +2,8 @@
 title: 'A/B Testing'
 template: service-detail-a
 eyebrow: 'A/B Testing'
-headline: 'Tests run long enough and clean enough to trust'
-tagline: 'Statistically sound A/B and multivariate testing programmes, not tests called early because a number looked good.'
+headline: 'Stop Trusting Test Results That Were Never Statistically Real'
+tagline: 'We calculate sample size and run time before launch, so you get a result you can trust, not a number that looked good on day two.'
 primary_intent: 'commercial - service research'
 entities: ['A/B Testing', 'Multivariate Testing', 'Statistical Significance', 'Sample Size', 'VWO', 'Optimizely']
 service_url: /services/conversion-optimization/ab-testing
@@ -14,7 +14,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A test called early because the number looked good is worse than no test at all - it creates false confidence in a result that was likely noise. Teams under pressure to show wins often check a test daily and stop the moment the variant pulls ahead, without a sample size calculated in advance to say whether that lead is real or just early-run volatility.</p><p>The same problem shows up in reverse when a genuinely working variant gets killed too early because the first few days looked flat - weekly traffic patterns mean a test needs to run a full cycle before the result means anything.</p>"
+problem: "<p>A test called early because the number looked good is worse than no test at all - it creates false confidence in a result that was likely noise. Teams under pressure to show wins often check a test daily and stop the moment the variant pulls ahead, and the same problem shows up in reverse when a genuinely working variant gets killed too early because the first few days looked flat.</p>"
 solution: "<p>Run properly, A/B testing means a sample size and minimum run time calculated before launch, a result read only once both are satisfied, and guardrail metrics checked alongside the primary goal so a win on one number cannot hide a loss somewhere else.</p>"
 solution_answer: "A/B testing here means running a properly powered test, with sample size calculated in advance and the result read only once significance and a full weekly traffic cycle are both reached."
 approach: "<p>We calculate statistical power before a test launches, not after it's already running - that number sets both the sample size needed and the earliest date the result can be trusted. Tests run to that planned duration regardless of how the first few days look, and guardrail metrics are monitored throughout so a variant that wins on the primary goal but damages something else gets caught before rollout, not after.</p>"
@@ -30,12 +30,12 @@ deliverables:
     - { a: 'Statistical Readout', b: 'Significance result plus guardrail metric check at test end' }
     - { a: 'Knowledge Base', b: 'Documented result added to a searchable test history, win or lose' }
 process:
-    - { title: 'Hypothesis & Test Design', body: 'Each test starts from a specific, evidence-backed hypothesis rather than a general idea worth trying.' }
-    - { title: 'Sample Size Calculation', body: 'Statistical power sets the sample size and minimum run time before anything is built.' }
-    - { title: 'Build & QA', body: 'Variants are QA-checked across devices and browsers before the test goes live.' }
-    - { title: 'Launch & Monitor', body: 'The test runs to its planned duration - we track it but do not call it early because an early number looks good.' }
-    - { title: 'Statistical Readout', body: 'Significance and guardrail metrics are both checked before declaring a winner.' }
-    - { title: 'Documentation & Knowledge Base', body: 'The result, including inconclusive or negative ones, is documented so the next test builds on it.' }
+    - { title: 'Hypothesis', body: 'Each test starts from a specific, evidence-backed hypothesis rather than a general idea worth trying.' }
+    - { title: 'Sample Size', body: 'Statistical power sets the sample size and minimum run time before anything is built.' }
+    - { title: 'Build', body: 'Variants are QA-checked across devices and browsers before the test goes live.' }
+    - { title: 'Launch', body: 'The test runs to its planned duration - we track it but do not call it early because an early number looks good.' }
+    - { title: 'Readout', body: 'Significance and guardrail metrics are both checked before declaring a winner.' }
+    - { title: 'Documentation', body: 'The result, including inconclusive or negative ones, is documented so the next test builds on it.' }
 comparison:
     headers: ['Properly Powered Test', 'Test Called Early']
     rows:

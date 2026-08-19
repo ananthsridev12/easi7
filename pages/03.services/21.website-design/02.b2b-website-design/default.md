@@ -2,8 +2,8 @@
 title: 'B2B Website Design'
 template: service-detail-b
 eyebrow: 'Website Design'
-headline: 'Designed for a considered, multi-person decision'
-tagline: 'B2B website design structured for long sales cycles and content-heavy decision journeys.'
+headline: 'Build a Site Your Whole Buying Committee Actually Trusts'
+tagline: 'A B2B site structured for long sales cycles, multiple stakeholders, and repeat visits before a decision gets made.'
 primary_intent: 'commercial - service research'
 entities: ['Content-first Layout', 'Case Study Design', 'Gated Content', 'Multi-stakeholder Buying', 'Conversion Path']
 tools: ['B2B Design', 'Content-first Layout']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>B2B buying decisions rarely get made by one person in one visit. A champion inside the company finds the site, reads through it, forwards a link to a colleague, and the site gets scrutinised again a week later by someone who saw none of that first visit. A site designed like a consumer landing page - one glance, one impression, one action - doesn't hold up to that pattern.</p><p>B2B website design is built around that reality instead of against it: content-first pages that answer the questions a second and third reviewer will actually ask, proof placed where scrutiny happens, and a structure that supports someone coming back three times before a decision gets made.</p>"
+overview: "<p>B2B buying decisions rarely get made by one person in one visit - a champion finds the site, forwards it, and a colleague scrutinises it again a week later with none of that first context. A site built like a consumer landing page doesn't hold up to that pattern. We design content-first pages that answer what the second and third reviewer will actually ask, with proof placed exactly where scrutiny happens.</p>"
 overview_answer: "B2B website design is site design structured for a multi-person, multi-visit decision journey, prioritising content depth and proof over first-glance impact."
 capabilities:
     - { title: 'Content-First Layout', items: ['Page structures that support long-form explanation without becoming walls of text', 'Hierarchy that lets a skimmer and a deep reader both get what they need'] }

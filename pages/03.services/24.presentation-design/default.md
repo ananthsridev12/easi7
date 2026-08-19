@@ -3,7 +3,7 @@ title: 'Presentation Design'
 template: services
 eyebrow: 'Presentation Design'
 icon: "📽️"
-headline: 'Slides built to support the argument, not decorate it'
+headline: 'Slides that make the argument easier to follow'
 tagline: 'Sales decks, pitch decks, investor presentations, and corporate templates designed for clarity under pressure.'
 tools: ['Slide Design', Storytelling]
 taxonomy:
@@ -43,8 +43,6 @@ faqs:
       a: "No - a deck supports the argument and the person presenting it, but the decision itself depends on the offer, the market, and the pitch delivery, none of which design controls. What we can guarantee is a deck that does not get in the way of a strong argument."
 ---
 
-A deck's design should make the speaker look prepared, not compete with them for attention. The most common failure mode across business presentations is the opposite - dense slides that try to say everything, forcing the audience to choose between reading and listening.
+A deck's design should make the speaker look prepared, not compete with them for attention. The most common failure across business presentations is the opposite - dense slides trying to say everything, forcing the audience to choose between reading and listening.
 
-We design each type of deck against what it actually needs to do. Sales decks are structured around objection handling and a clear next step, not a generic company overview. Pitch decks get the discipline of a ten-slide format where every single one has to earn its place. Investor and board presentations lean on data clarity over decoration, because investors read design discipline as a signal of operational discipline. Corporate templates are built once as a reusable system so every department doesn't reinvent the format from scratch.
-
-The narrative structure gets worked out before a single slide is styled - the design only works once the argument underneath it is sound.
+We design each deck against what it actually needs to do - sales decks structured around objection handling, pitch decks held to a disciplined ten-slide format, investor decks built on data clarity over decoration. The narrative gets worked out before a single slide is styled, because the design only works once the argument underneath it is sound.

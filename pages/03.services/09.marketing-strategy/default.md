@@ -41,12 +41,8 @@ faqs:
     - { q: 'Do we need all three - GTM, B2B strategy, and demand generation - or just one?', a: "Most businesses need one, occasionally two. A new product launch calls for go-to-market strategy specifically; an existing B2B pipeline problem calls for B2B strategy or demand generation depending on whether the issue is targeting or volume. We scope which one fits before proposing anything." }
 ---
 
-Marketing stack audits, growth roadmaps, and KPI frameworks for businesses that want clarity on where to focus and what to fix first.
-
 ### Where most audits start
 
-We pull the last 20 closed-won deals and the last 10 churned accounts, and look for the pattern in between. That intersection - fits your offer and likely to succeed as a customer - is the real ICP, and it's usually different from the one currently being targeted.
+We pull the last 20 closed-won deals and the last 10 churned accounts and look for the pattern in between - that intersection, fits your offer and likely to succeed as a customer, is the real ICP, and it's usually different from the one currently being targeted. From there, the right work depends on what's actually broken: a product launch needs go-to-market strategy, a B2B pipeline that only speaks to one persona needs a strategy built around the whole buying committee, and a funnel that's exhausted its demand needs a plan for creating more.
 
-From there, the right strategy work depends on what's actually broken. A product launch without a sequenced plan needs go-to-market strategy. A B2B pipeline that only speaks to one persona in the buying committee needs a strategy built around all of them. A funnel that's exhausted its direct-response demand needs a plan for creating some. We scope which of these applies before proposing any of it, rather than selling a fixed package regardless of what the audit turns up.
-
-Every engagement ends with a KPI framework, because a strategy nobody can measure against tends to quietly stop being followed within a quarter.
+Every engagement ends with a KPI framework, because a strategy nobody can measure against tends to quietly stop being followed within a quarter. We scope which of these applies before proposing anything, rather than selling a fixed package regardless of what the audit turns up.

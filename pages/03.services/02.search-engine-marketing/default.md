@@ -45,8 +45,6 @@ faqs:
       a: "No - final CPL and ROAS depend on your offer, pricing, market competition, and your own site's conversion rate, none of which media buying controls on its own. What we control is account structure, targeting precision, and bid strategy, and we report honestly when something outside the media plan is setting the ceiling."
 ---
 
-Paid marketing spend gets wasted in predictable ways: broad targeting turned on before there's enough conversion data to support it, budget spread evenly across channels regardless of which one is actually working, and campaigns left running unreviewed for months because nobody owns the weekly optimisation.
+Paid marketing spend gets wasted in predictable ways - broad targeting turned on too early, budget spread evenly across channels regardless of what's working, and campaigns left running unreviewed for months. We run paid media as an ongoing discipline, not a launch-and-leave campaign: accounts structured around how buyers actually search and scroll, reviewed weekly, with budget moving toward what the data supports.
 
-We run paid media as an ongoing discipline, not a launch-and-leave campaign. That means structuring accounts around how buyers actually search and scroll, reviewing performance weekly rather than monthly, and moving budget toward what the data supports rather than what a stakeholder assumes is working. Google, Meta, and LinkedIn each reward different account structures and different testing cadences - we run each on its own logic instead of copy-pasting one playbook across all three.
-
-The channels below cover the full paid mix: search intent capture, social audience-building, and the display and retargeting layers that keep a brand present between the first click and the eventual conversion.
+Google, Meta, and LinkedIn each reward different account structures and testing cadences, so we run each on its own logic instead of one playbook copy-pasted across all three. Below is the full paid mix - search intent capture, social audience-building, and the display and retargeting layers that keep you present from first click to eventual conversion.

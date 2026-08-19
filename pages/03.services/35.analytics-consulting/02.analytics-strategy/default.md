@@ -2,8 +2,8 @@
 title: 'Analytics Strategy'
 template: service-detail-b
 eyebrow: 'Analytics Strategy'
-headline: 'An analytics practice, not just a set of dashboards'
-tagline: 'Analytics strategy covering tooling, team structure, ownership, and reporting cadence - not just which platform to use.'
+headline: 'Build an Analytics Practice, Not Just Dashboards'
+tagline: 'We define tooling, ownership, and reporting cadence, so reports actually get reviewed, not just built.'
 primary_intent: 'commercial - service research'
 entities: ['Analytics Strategy', 'Reporting Cadence', 'Data Literacy', 'Analytics Maturity Model', 'Ownership Model']
 tools: ['Analytics Strategy', 'Reporting Cadence']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Most businesses that feel like they have an analytics problem actually have a practice problem. The tooling is fine - GA4 or a warehouse is capturing data adequately - but nobody owns interpreting it, reports get built once and never revisited, and each new hire re-learns tribal knowledge about what the numbers mean instead of finding it documented anywhere.</p><p>An analytics strategy addresses the practice around the tooling: who is responsible for which numbers, how often they get reviewed, and what happens when a metric starts moving in a direction nobody expected.</p>"
+overview: "<p>Most businesses that feel like they have an analytics problem actually have a practice problem. The tooling is fine, but nobody owns interpreting it, reports get built once and never revisited, and each new hire re-learns tribal knowledge nobody wrote down. We build the practice around the tooling - who owns which numbers, how often they get reviewed, and what happens when one moves unexpectedly.</p>"
 overview_answer: "Analytics strategy is the practice built around your analytics tooling - who owns which reports, how often they get reviewed, and how the team's ability to use data improves over time."
 capabilities:
     - { title: 'Tooling & Platform Strategy', items: ['Assessing whether current tools match actual reporting needs', 'Platform consolidation where overlapping tools create confusion'] }

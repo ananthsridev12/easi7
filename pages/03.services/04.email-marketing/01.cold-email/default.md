@@ -3,7 +3,7 @@ title: 'Cold Email'
 template: service-detail-a
 eyebrow: 'Cold Email'
 headline: 'Outreach that gets replies, not spam complaints'
-tagline: 'Cold email systems built on deliverability fundamentals first, then personalisation and sequencing - in that order.'
+tagline: 'We fix deliverability first, so your outreach actually reaches the inbox before we worry about the perfect subject line.'
 primary_intent: 'commercial - service research'
 entities: ['SPF', 'DKIM', 'DMARC', 'Domain Warming', 'Cold Email Sequencing', 'Deliverability', 'List Verification']
 tools: ['SPF/DKIM/DMARC', 'Domain Warming Tools', 'Sequencing Platforms', 'List Verification']
@@ -15,8 +15,8 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.7
-problem: "<p>Most cold email campaigns fail before a single prospect reads a word of copy. A new domain sending unsolicited email at volume looks identical to spam infrastructure until it's proven otherwise, and mailbox providers err on the side of filtering it out. Teams that skip straight to writing the perfect opening line are often optimising a message that never reaches an inbox to be judged.</p><p>The second failure mode shows up after deliverability is fixed - generic, mail-merged outreach that ignores the account and role it's landing in. A message that could have been sent to anyone reads like it was sent to no one in particular, and gets treated that way.</p>"
-solution: "<p>Cold email done properly is a sequence of separate problems solved in order - reputation and authentication first, list quality second, message relevance third. Fixing the technical foundation before the copy means every message that gets read at least had the chance to be read in the first place.</p>"
+problem: "<p>Most cold email campaigns fail before a single prospect reads a word of copy - a new domain sending unsolicited email at volume looks identical to spam infrastructure until it's proven otherwise, so mailbox providers filter it out by default. Teams that skip straight to writing the perfect opening line are often optimising a message that never reaches an inbox to be judged, and generic mail-merged outreach gets treated the same way once deliverability is fixed.</p>"
+solution: "<p>Cold email done properly solves separate problems in order - reputation and authentication first, list quality second, message relevance third. Fixing the technical foundation before the copy means every message that gets read at least had the chance to be read in the first place.</p>"
 solution_answer: "Cold email is outbound outreach to people who haven't opted in, built on domain authentication and warming so messages reach the inbox, then sequenced and personalised at the account and role level to earn a reply."
 approach: "<p>We treat deliverability as a separate workstream from copy, because conflating them is how most cold email programmes stall. A dedicated sending domain gets warmed up gradually before it carries any real volume, authentication is verified rather than assumed, and only once the technical layer is stable do we start testing sequences and messaging - iterating on reply rate and positive response, not opens, since open tracking has become unreliable since Apple's Mail Privacy Protection.</p>"
 capabilities:
@@ -30,12 +30,12 @@ deliverables:
     - { a: 'Sequences', b: 'Multi-touch outreach sequences with personalisation fields mapped per segment' }
     - { a: 'Reporting', b: 'Reply-rate and positive-response tracking, not open-rate vanity metrics' }
 process:
-    - { title: 'Domain Setup & Warming', body: 'A dedicated sending domain is configured with SPF, DKIM, and DMARC, then warmed gradually before it carries real send volume.' }
-    - { title: 'List Building & Verification', body: 'Prospects are sourced against a defined ideal customer profile and verified to keep bounce rates low.' }
-    - { title: 'Sequence Design', body: 'A 3-5 touch sequence is written with a distinct reason to reply at each step, not a single pitch repeated with different subject lines.' }
-    - { title: 'Personalisation Layer', body: 'Messaging is tailored at the account and role level - what a VP of Ops sees is different from what an IC sees at the same company.' }
-    - { title: 'Launch & Deliverability Monitoring', body: 'Sends are staged and monitored for spam-complaint and bounce signals that could damage sender reputation.' }
-    - { title: 'Reply Tracking & Iteration', body: 'Sequences are refined based on positive-response rate, replacing steps that generate opens but no replies.' }
+    - { title: 'Warming', body: 'A dedicated sending domain is configured with SPF, DKIM, and DMARC, then warmed gradually before it carries real send volume.' }
+    - { title: 'List Building', body: 'Prospects are sourced against a defined ideal customer profile and verified to keep bounce rates low.' }
+    - { title: 'Sequence', body: 'A 3-5 touch sequence is written with a distinct reason to reply at each step, not a single pitch repeated with different subject lines.' }
+    - { title: 'Personalise', body: 'Messaging is tailored at the account and role level - what a VP of Ops sees is different from what an IC sees at the same company.' }
+    - { title: 'Launch', body: 'Sends are staged and monitored for spam-complaint and bounce signals that could damage sender reputation.' }
+    - { title: 'Iterate', body: 'Sequences are refined based on positive-response rate, replacing steps that generate opens but no replies.' }
 comparison:
     headers: ['Deliverability-First Cold Email', 'Spray-and-Pray Outreach']
     rows:

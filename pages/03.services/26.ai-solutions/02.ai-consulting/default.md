@@ -2,8 +2,8 @@
 title: 'AI Consulting'
 template: service-detail-b
 eyebrow: 'AI Solutions'
-headline: 'A second opinion before you commit budget'
-tagline: 'AI consulting and advisory for teams evaluating vendors, tools, or in-house AI builds.'
+headline: 'Get a Second Opinion Before You Commit Budget'
+tagline: 'Independent AI advisory for teams evaluating vendors, tools, or an in-house build.'
 primary_intent: 'commercial - service research'
 entities: ['Vendor Evaluation', 'Technical Feasibility', 'ROI Modelling', 'Build-vs-Buy', 'AI Advisory Retainer']
 tools: ['AI Advisory', 'Vendor Evaluation']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>AI vendor claims are hard to evaluate from the outside, and the market rewards confident marketing more than it rewards accuracy. A demo built to impress in thirty minutes and a tool that actually holds up against your real data, at your real volume, are frequently two different things - and the gap between them usually doesn't show up until after a contract is signed.</p><p>Consulting engagements exist for the moment a decision is close but a second, independent read is worth having first - before a vendor contract, before an in-house build gets greenlit, before a budget line is approved based on a pitch deck.</p>"
+overview: "<p>A demo built to impress in thirty minutes and a tool that holds up against your real data, at your real volume, are frequently two different things - and the gap doesn't show up until after a contract is signed. We give you an independent read before a vendor contract, an in-house build, or a budget line gets approved on a pitch deck.</p>"
 overview_answer: "AI consulting is an independent evaluation of a specific AI vendor, tool, or proposed build - assessing what's technically real, what's overstated, and whether it actually fits your existing systems - before you commit budget to it."
 capabilities:
     - { title: 'Vendor & Tool Evaluation', items: ['Independent assessment of vendor claims against your actual requirements', 'Comparison across shortlisted options on the same criteria'] }

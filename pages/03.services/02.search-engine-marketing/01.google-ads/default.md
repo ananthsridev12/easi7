@@ -2,8 +2,8 @@
 title: 'Google Ads'
 template: service-detail-a
 eyebrow: 'Google Ads'
-headline: 'Search, Shopping, and Display, run deliberately'
-tagline: 'Google Ads campaigns built on high-intent keywords, tight account structure, and bidding strategies backed by real conversion data.'
+headline: 'Stop Wasting Ad Spend on Clicks That Were Never Going to Convert'
+tagline: 'We build Google Ads accounts that spend on buyers ready to convert, not on guesswork.'
 primary_intent: 'commercial - service research'
 entities: ['Search Campaigns', 'Google Shopping', 'Smart Bidding', 'Negative Keywords', 'Display Remarketing', 'Landing Page Alignment']
 tools: ['Search', 'Shopping', 'Display', 'Smart Bidding']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.7
-problem: "<p>Most Google Ads accounts lose money in the same few places: broad match turned on before there's enough conversion data to support it, Smart Bidding handed control before it has anything real to learn from, and a Shopping feed dumped into one campaign regardless of margin or demand. Budget disappears into search terms nobody would have approved if they'd actually reviewed the list.</p><p>The account rarely fails because the product is uncompetitive. It fails because nobody owns the weekly discipline - reviewing search terms, tightening negative keywords, and checking that the landing page still matches what the ad promised three iterations ago.</p>"
+problem: "<p>Most Google Ads accounts lose money in the same few places - broad match turned on before there's conversion data to support it, Smart Bidding handed control too early, and a Shopping feed dumped into one campaign regardless of margin. Budget disappears into search terms nobody would approve if they actually reviewed the list, and the account rarely fails because the product is uncompetitive - it fails because nobody owns the weekly discipline of tightening it.</p>"
 solution: "<p>Google Ads works when account structure mirrors how people actually search - problem-aware, comparison, and category terms handled differently, not folded into one generic ad group - and when automation is introduced only once there's conversion history to train it on. That's a management discipline, not a one-time setup.</p>"
 solution_answer: "Google Ads management is structuring and running Search, Shopping, and Display campaigns around real search intent and conversion data, so budget goes toward keywords and audiences that are actually proven to convert."
 approach: "<p>We start with exact and phrase match, not broad, and build a real conversion history before handing anything to Smart Bidding. Search terms get reviewed weekly and negative keyword lists grow aggressively from day one, not as an afterthought once budget has already leaked. Shopping feeds are structured by margin and demand tier rather than uploaded as one flat catalogue, and every campaign gets checked against the landing page it actually sends traffic to, because a mismatched promise is often the real reason a well-targeted click doesn't convert.</p>"
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Display & Remarketing', b: 'Retargeting sequences for warm audiences' }
     - { a: 'Reporting', b: 'Weekly performance review with search-term and spend breakdown' }
 process:
-    - { title: 'Account & Keyword Audit', body: 'We review existing structure, or build fresh, mapping keywords to how buyers actually search rather than to a generic list.' }
-    - { title: 'Match Type & Negative Keyword Setup', body: 'Exact and phrase match go live first, with negative keyword lists built aggressively from the outset.' }
-    - { title: 'Shopping Feed Structuring', body: 'Products are grouped by margin and demand tier rather than treated as one undifferentiated catalogue.' }
-    - { title: 'Landing Page Alignment Check', body: 'Each campaign is checked against the page it sends traffic to, so the click and the page make the same promise.' }
-    - { title: 'Conversion History Build', body: 'We hold off on automated bidding until there is enough real conversion data for it to learn from.' }
-    - { title: 'Weekly Optimisation', body: 'Search terms, bids, and budget allocation are reviewed weekly, not left to run unattended between reports.' }
+    - { title: 'Audit', body: 'We review existing structure, or build fresh, mapping keywords to how buyers actually search rather than to a generic list.' }
+    - { title: 'Setup', body: 'Exact and phrase match go live first, with negative keyword lists built aggressively from the outset.' }
+    - { title: 'Structure', body: 'Products are grouped by margin and demand tier rather than treated as one undifferentiated catalogue.' }
+    - { title: 'Alignment', body: 'Each campaign is checked against the page it sends traffic to, so the click and the page make the same promise.' }
+    - { title: 'Build', body: 'We hold off on automated bidding until there is enough real conversion data for it to learn from.' }
+    - { title: 'Optimise', body: 'Search terms, bids, and budget allocation are reviewed weekly, not left to run unattended between reports.' }
 comparison:
     headers: ['Structured Account', 'Broad-Match Guesswork']
     rows:

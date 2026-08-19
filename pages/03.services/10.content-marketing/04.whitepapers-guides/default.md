@@ -2,8 +2,8 @@
 title: 'Whitepapers & Guides'
 template: service-detail-a
 eyebrow: 'Content Marketing'
-headline: 'Depth for a purchase that takes months to decide'
-tagline: 'Original-research whitepapers and long-form guides built for buying committees who research extensively before committing.'
+headline: 'Give Buying Committees Something Worth Circulating Internally'
+tagline: 'We build original-research whitepapers and long-form guides substantial enough for a buying committee to actually pass around.'
 primary_intent: 'commercial - service research'
 entities: ['Whitepaper', 'Original Research', 'Buying Committee', 'Sales Enablement', 'Gated Long-Form Content', 'Lead Capture']
 tools: ['Original Research', 'Long-Form Design', 'Gating Strategy']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A high-consideration purchase - enterprise software, a major services contract, a capital equipment decision - gets researched by a committee, not one person, and a 900-word blog post doesn't carry enough weight to satisfy that process. Buyers in this position actively look for something substantial enough to circulate internally, and a site with only short-form content has nothing to hand them.</p><p>The failure mode on the other side is just as common: a whitepaper that's long for the sake of being long, padded with generic industry background instead of an actual argument or original data, which a sophisticated buying committee recognises immediately and discounts.</p>"
+problem: "<p>A high-consideration purchase - enterprise software, a major services contract, a capital equipment decision - gets researched by a committee, not one person, and a 900-word blog post doesn't carry enough weight to satisfy that process. Buyers in this position actively look for something substantial enough to circulate internally, but a whitepaper padded with generic background instead of an actual argument gets recognised and discounted just as fast.</p>"
 solution: "<p>Whitepapers and guides exist to carry real depth - original research, a genuine point of view, or a comprehensive how-to that a considered buyer can act on directly. Done properly, the length is a byproduct of the substance, not a target word count applied to a thin idea.</p>"
 solution_answer: "A whitepaper or long-form guide is in-depth, research-backed content built to satisfy a high-consideration buying process that a short blog post can't carry."
 approach: "<p>We start by deciding whether the piece needs original research or a comprehensive synthesis of an existing process - those are different projects with different timelines, and treating them the same produces either an under-supported whitepaper or an over-engineered guide. From there the piece gets built with a gating and sales enablement plan attached from day one, not bolted on after the PDF is finished.</p>"
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Gating & Landing Page', b: 'A paired landing page and gating strategy for lead capture' }
     - { a: 'Sales Enablement', b: 'A sales-ready excerpt or talking points for active deal use' }
 process:
-    - { title: 'Scope & Format Decision', body: 'We decide upfront whether the piece needs original research or a comprehensive synthesis, since that changes the timeline and resourcing significantly.' }
-    - { title: 'Research & Argument Development', body: 'The core argument or research is developed before writing starts, so the piece has a real point of view to carry.' }
+    - { title: 'Scope', body: 'We decide upfront whether the piece needs original research or a comprehensive synthesis, since that changes the timeline and resourcing significantly.' }
+    - { title: 'Research', body: 'The core argument or research is developed before writing starts, so the piece has a real point of view to carry.' }
     - { title: 'Writing', body: 'The piece is written for a considered reader - structured, well-argued, and free of padding added just to hit a length.' }
-    - { title: 'Design & Layout', body: "The PDF is designed for readability at length, with an executive summary for reviewers who won't read it cover to cover." }
-    - { title: 'Gating & Landing Page', body: "A gating strategy and landing page are built to match the piece's actual value to the audience it's aimed at." }
-    - { title: 'Sales Enablement Handoff', body: 'We extract a sales-usable version or key talking points so the piece gets used in live deals, not just published and forgotten.' }
+    - { title: 'Design', body: "The PDF is designed for readability at length, with an executive summary for reviewers who won't read it cover to cover." }
+    - { title: 'Gating', body: "A gating strategy and landing page are built to match the piece's actual value to the audience it's aimed at." }
+    - { title: 'Handoff', body: 'We extract a sales-usable version or key talking points so the piece gets used in live deals, not just published and forgotten.' }
 comparison:
     headers: ['Whitepapers & Guides', 'Standard Blog Content']
     rows:

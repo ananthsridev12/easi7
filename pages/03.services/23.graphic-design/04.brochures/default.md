@@ -2,7 +2,7 @@
 title: 'Brochures'
 template: service-detail-a
 eyebrow: 'Graphic Design'
-headline: 'Print collateral that still gets designed properly'
+headline: 'Get Print Collateral That Actually Holds Up'
 tagline: 'Brochure design for sales collateral, trade shows, and print marketing materials, prepared correctly for production.'
 primary_intent: 'commercial - service research'
 entities: ['Brochures', 'Print Collateral', 'Print-Ready Files', 'Trade Show Materials', 'Dual-Format Design']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Print collateral gets treated as an afterthought at a lot of agencies - a PDF export of a web page, or a generic template with the logo swapped in. It shows immediately at a trade show table, where a poorly laid-out brochure sits next to competitors who put real thought into theirs.</p><p>The other common issue is print-readiness - files built for screen viewing often fail at the production stage, with colour shifts, missing bleed, or resolution problems that only surface once it's too late to fix cheaply.</p>"
+problem: "<p>Print collateral gets treated as an afterthought at a lot of agencies - a PDF export of a web page, or a generic template with the logo swapped in. It shows immediately at a trade show table, where a poorly laid-out brochure sits next to competitors who put real thought into theirs, and files built for screen viewing often fail at the production stage with colour shifts or missing bleed nobody catches until it's too late to fix cheaply.</p>"
 solution: "<p>We design brochures as their own format, not a repurposed web page, with layout and information hierarchy built for how someone actually flips through a printed piece. Files are prepared correctly for print production from the start - bleed, colour profile, and resolution handled upfront, not discovered as a problem at the printer.</p>"
 solution_answer: "Brochure design is building print-specific layout and information hierarchy for sales and marketing collateral, prepared correctly for print production rather than adapted from a digital file."
-approach: "<p>We start with how the piece will actually be used - handed out at a table, mailed, or left in a waiting room all call for different pacing and information density. Layout and hierarchy are built around that use case, and files are prepared to print specification before they're handed off, so there are no surprises at the print shop.</p>"
+approach: "<p>We start with how the piece will actually be used - handed out at a table, mailed, or left in a waiting room all call for different pacing and density. Layout and hierarchy are built around that use case, and files are prepared to print specification before they're handed off, so there are no surprises at the print shop.</p>"
 capabilities:
     - { title: 'Layout & Information Hierarchy', items: ['Multi-page layout design', 'Information sequencing for how a piece is actually read', 'Visual hierarchy for scan-and-decide use cases'] }
     - { title: 'Print Production Preparation', items: ['Print-ready file specification (bleed, colour profile, resolution)', 'Proofing before final production'] }
@@ -29,11 +29,11 @@ deliverables:
     - { a: 'Print Files', b: 'Print-ready files with correct bleed, colour, and resolution specification' }
     - { a: 'Digital Version', b: 'Web-ready version of the same collateral for digital distribution' }
 process:
-    - { title: 'Content & Structure Planning', body: 'We map out what information goes where before any layout work starts.' }
-    - { title: 'Layout Design', body: 'Multi-page layout is built around how the piece will actually be handled and read.' }
-    - { title: 'Review & Revisions', body: 'Design is reviewed against both brand and print production requirements.' }
-    - { title: 'Print File Preparation', body: 'Final files are prepared to exact print specification - bleed, colour, resolution.' }
-    - { title: 'Digital Adaptation', body: 'A web-ready version is produced alongside the print file where needed.' }
+    - { title: 'Plan', body: 'We map out what information goes where before any layout work starts.' }
+    - { title: 'Design', body: 'Multi-page layout is built around how the piece will actually be handled and read.' }
+    - { title: 'Review', body: 'Design is reviewed against both brand and print production requirements.' }
+    - { title: 'Prepare', body: 'Final files are prepared to exact print specification - bleed, colour, resolution.' }
+    - { title: 'Adapt', body: 'A web-ready version is produced alongside the print file where needed.' }
 comparison:
     headers: ['Print-Ready Design', 'Screen-Only File Sent to Print']
     rows:

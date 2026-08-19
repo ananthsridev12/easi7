@@ -2,8 +2,8 @@
 title: 'Landing Page Development'
 template: service-detail-a
 eyebrow: 'Website Development'
-headline: 'One page, one goal, built to prove it works'
-tagline: 'Landing page development for campaigns, built with testing and iteration in mind from day one.'
+headline: 'Launch A Landing Page Built To Prove Itself'
+tagline: 'A campaign landing page built for testing and fast iteration from the day it launches.'
 primary_intent: 'commercial - service research'
 entities: ['Landing Page', 'A/B Testing', 'Conversion Tracking', 'Campaign Page', 'Mobile-First Build']
 tools: ['A/B Test-Ready Architecture', 'Conversion Tracking Setup', 'Mobile-First Build']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Campaign landing pages often get built and treated as precious the moment they launch - too slow to change, too tangled with the rest of the site to test safely, and too disconnected from real conversion data to know whether they are actually working. By the time someone notices the page is underperforming, weeks of paid spend have already gone through it.</p><p>The underlying issue is usually architectural. A landing page bolted onto the main site's template inherits navigation, scripts, and page weight it does not need, which slows it down and makes even small copy changes a multi-step deployment instead of a quick edit.</p>"
-solution: "<p>A campaign landing page should be built lean, fast, and disposable by design - a single page with a single goal, isolated enough from the rest of the site that it can be tested and rebuilt quickly without a full development cycle. Conversion tracking gets built in from launch, not added retroactively once someone asks why the numbers do not add up.</p>"
+problem: "<p>Campaign landing pages often get treated as precious the moment they launch - too slow to change, too tangled with the main site to test safely, too disconnected from real conversion data to know if they're working. A page bolted onto the main site's template inherits navigation, scripts, and weight it doesn't need, and by the time someone notices it's underperforming, weeks of paid spend have already gone through it.</p>"
+solution: "<p>We build campaign pages lean, fast, and disposable by design - a single page with a single goal, isolated enough from the rest of the site that it can be tested and rebuilt quickly without a full development cycle. Conversion tracking is built in from launch, not added retroactively once someone asks why the numbers don't add up.</p>"
 solution_answer: "Landing page development for campaigns means building a fast, isolated, single-purpose page with conversion tracking and test-ready architecture in place from launch, so it can be measured and iterated on quickly."
-approach: "<p>We build the tracking and the test plan before we build the page itself, because a page nobody can measure is a page nobody can improve. From there the page is built lean and fast, stripped of anything that does not serve the one conversion goal it exists for, and structured so a headline, layout, or offer variant can be swapped and tested without waiting on a full deployment cycle.</p>"
+approach: "<p>We build the tracking and the test plan before we build the page itself, because a page nobody can measure is a page nobody can improve. From there the page is built lean and fast, stripped of anything that doesn't serve the one conversion goal it exists for.</p>"
 capabilities:
     - { title: 'Campaign-Specific Page Builds', items: ['Single-purpose pages built around one offer and one goal', 'Isolated from unrelated site navigation and scripts'] }
     - { title: 'A/B Test-Ready Architecture', items: ['Structure built to support variant testing from day one', 'Headline, layout, and offer elements built to swap cleanly'] }
@@ -26,12 +26,12 @@ capabilities:
     - { title: 'Conversion Tracking', items: ['Tracking implemented at launch, not retrofitted after the fact', 'Event tracking aligned to the actual conversion goal, not just pageviews'] }
     - { title: 'Mobile-First, Fast-Loading Pages', items: ['Built and tested mobile-first, since most paid traffic lands there', 'Stripped of anything that adds load time without adding conversion value'] }
 process:
-    - { title: 'Goal & Offer Definition', body: 'We confirm the single conversion goal and offer the page exists to support before designing anything.' }
-    - { title: 'Tracking Plan', body: 'Conversion tracking and any test plan are defined up front so the page can be measured from the first visitor.' }
-    - { title: 'Lean Page Build', body: 'The page is built fast and isolated from the main site, stripped of anything that does not serve the goal.' }
-    - { title: 'Mobile & Speed Testing', body: 'Load speed and mobile experience are tested before launch, since most paid traffic arrives on mobile.' }
+    - { title: 'Define', body: 'We confirm the single conversion goal and offer the page exists to support before designing anything.' }
+    - { title: 'Track', body: 'Conversion tracking and any test plan are defined up front so the page can be measured from the first visitor.' }
+    - { title: 'Build', body: 'The page is built fast and isolated from the main site, stripped of anything that does not serve the goal.' }
+    - { title: 'Test', body: 'Load speed and mobile experience are tested before launch, since most paid traffic arrives on mobile.' }
     - { title: 'Launch', body: 'The page goes live with tracking already active, not added after the campaign starts.' }
-    - { title: 'Test & Rebuild', body: 'Once data comes in, variants are tested or the page is rebuilt quickly based on what the numbers actually show.' }
+    - { title: 'Iterate', body: 'Once data comes in, variants are tested or the page is rebuilt quickly based on what the numbers actually show.' }
 comparison:
     headers: ['Built as a Campaign Page', 'Bolted Onto the Main Site']
     rows:

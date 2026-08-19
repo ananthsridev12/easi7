@@ -3,7 +3,7 @@ title: SEO
 template: services
 eyebrow: SEO
 icon: "🔍"
-headline: 'Organic visibility that compounds'
+headline: 'Turn Search Into a Channel That Compounds, Not One You Rebuild Every Quarter'
 tagline: 'Technical foundations and AI-era search readiness - traffic that keeps paying off long after a campaign ends.'
 tools: [Ahrefs, SEMrush, 'Screaming Frog']
 taxonomy:
@@ -45,8 +45,6 @@ cta:
     button_url: /contact
 ---
 
-SEO isn't one discipline anymore - it's a stack of related ones, and treating them as interchangeable is why most SEO work underperforms. Technical foundations, on-page structure, content depth, and now AI-era visibility all need attention, and they fail in different ways for different reasons.
+SEO isn't one discipline anymore - it's a stack of related ones, and treating them as interchangeable is why most SEO work underperforms. We work across the technical layer that determines whether a site can rank at all, the content layer that determines whether it ranks for the right things, and AI SEO, which determines whether your business gets cited in an AI-generated answer instead of skipped.
 
-We split SEO into the pieces that actually matter: the technical layer that determines whether a site can rank at all, the on-page and content layer that determines whether it ranks for the right things, and the newer AI SEO layer that determines whether your business gets cited in an AI-generated answer instead of skipped entirely. Most engagements need two or three of these at once, sequenced correctly rather than run in parallel and hoping they don't conflict.
-
-Start with an audit if you're not sure which of these is actually holding you back - most businesses assume it's content when it's technical, or assume it's technical when it's actually a content depth problem competitors have solved and they haven't.
+Not sure which layer is actually holding you back? Start with an audit - most businesses assume it's content when it's technical, or the other way around.

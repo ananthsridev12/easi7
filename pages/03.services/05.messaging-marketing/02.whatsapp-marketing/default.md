@@ -16,7 +16,7 @@ sitemap:
 
 primary_intent: 'commercial - service research'
 entities: ['WhatsApp Business API', 'Template Messages', 'Conversational Automation', 'Lead Nurturing', 'CRM Integration', 'Broadcast Campaigns']
-overview: "<p>For a large share of Indian consumers and SMBs, WhatsApp is the primary inbox - not email, and often not SMS either. A message sent there gets opened; one sent to an inbox someone checks twice a week does not. Building on the WhatsApp Business API means the automation lives inside a channel customers already have open, rather than asking them to go somewhere else to respond.</p><p>This is not the same thing as running a bulk-messaging tool through an unofficial number. The official API requires approved message templates and opt-in, which is slower to set up but is what keeps a business number from getting flagged or banned once volume picks up.</p>"
+overview: "<p>For a large share of Indian consumers and SMBs, WhatsApp is the primary inbox - not email, and often not SMS either. We build on the official WhatsApp Business API, with approved message templates and proper opt-in, so your automation lives inside the channel customers already have open without putting your number at risk.</p>"
 overview_answer: 'WhatsApp marketing uses the official WhatsApp Business API to send template messages, run automated conversational sequences, and handle two-way support - it is built for markets where WhatsApp, not email, is where customers actually check messages.'
 capabilities:
     - { title: 'API Setup & Templates', items: ['WhatsApp Business API provisioning', 'Message template drafting and Meta approval', 'Opt-in flow design'] }

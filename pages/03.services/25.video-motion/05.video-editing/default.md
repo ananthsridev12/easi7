@@ -2,8 +2,8 @@
 title: 'Video Editing'
 template: service-detail-b
 eyebrow: 'Video & Motion'
-headline: 'Raw footage, turned into something worth publishing'
-tagline: 'Video editing services for raw footage - pacing, colour, sound, and structure.'
+headline: 'Turn Raw Footage Into Something Worth Publishing'
+tagline: 'Editing that handles pacing, colour, sound, and structure so your footage feels professional.'
 primary_intent: 'commercial - service research'
 entities: ['Video Editing', 'Colour Grading', 'Sound Design', 'Multi-Format Export', 'Caption Integration']
 tools: ['Narrative Editing', 'Colour Grading', 'Sound Design', 'Multi-Format Export']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Editing is where a video's pacing, structure, and tone actually get decided, regardless of how strong the raw footage is. Two edits of the same footage can produce a video that holds attention start to finish or one that loses the viewer halfway through, and the difference is almost entirely in the cut, not the camera work.</p><p>Colour, sound, and format are usually treated as finishing touches, but they carry more of the final impression than most briefs account for - flat colour and unbalanced audio read as amateur even when the story and shots are strong.</p>"
+overview: "<p>Two edits of the same footage can produce a video that holds attention start to finish or one that loses the viewer halfway through - and the difference is almost entirely in the cut, not the camera work. We handle structure and pacing first, then colour and sound, so nothing gets treated as an afterthought that ends up reading as amateur.</p>"
 overview_answer: "Video editing is the post-production process of assembling raw footage into a finished piece - structure, pacing, colour, sound, and format - and it is usually the biggest single factor in whether a video feels professional."
 capabilities:
     - { title: 'Narrative Structure & Pacing', items: ['Structural edit built around what the video needs to communicate', 'Pacing adjustments so attention holds through the full runtime'] }

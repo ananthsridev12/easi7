@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A CMS migration is one of the highest-risk projects a website goes through, not because moving content is technically hard, but because every URL that changes without a proper redirect is a potential loss of ranking equity that took months or years to build. The risk isn't in the platform switch itself - it's in what gets skipped under deadline pressure, like a redirect map that's 90% complete instead of 100%, or a content field that doesn't map cleanly and gets dropped rather than fixed.</p><p>Done properly, a migration preserves what already works while fixing what didn't - it's also the natural moment to address technical debt that's been deferred because touching the old platform felt too risky.</p>"
+overview: "<p>A CMS migration is one of the highest-risk projects a website goes through - not because moving content is hard, but because every URL that changes without a proper redirect risks losing ranking equity that took years to build. We build the complete URL map, preserve what already works, and use the move as the moment to fix the technical debt nobody wanted to touch on the old platform.</p>"
 overview_answer: "A CMS migration moves a site's content and structure from one platform to another while preserving SEO equity through careful URL mapping and redirects, ideally with minimal downtime."
 capabilities:
     - { title: 'Migration Planning', items: ['Full content and data inventory before touching anything', 'Field-by-field mapping between old and new platforms'] }

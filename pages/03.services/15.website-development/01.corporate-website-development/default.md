@@ -2,8 +2,8 @@
 title: 'Corporate Website Development'
 template: service-detail-a
 eyebrow: 'Website Development'
-headline: 'A site that reads as credible in the first five seconds'
-tagline: 'Corporate website builds that establish credibility fast for B2B and enterprise audiences.'
+headline: 'Win A Skeptical Buyer In The First Five Seconds'
+tagline: 'A corporate website built to establish credibility fast with B2B and enterprise audiences.'
 primary_intent: 'commercial - service research'
 entities: ['Corporate Website', 'Information Architecture', 'Trust Signals', 'Multi-Department CMS', 'Brand Consistency']
 tools: ['Information Architecture Mapping', 'Trust Signal Audits', 'Role-Based CMS Permissions']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A corporate site usually has one real job in the first five seconds - convince a skeptical visitor this is a real, established business worth their time - and most corporate sites fail that test without realizing it. Credentials get buried on an about page nobody reaches. Client logos sit below the fold. The navigation reflects the company's internal org chart instead of the questions a visitor actually has.</p><p>The problem compounds at scale. A ten-page small business site can survive a messy structure; a corporate site spanning multiple departments, regions, or business lines cannot. Once dozens of pages exist, an unclear hierarchy stops being a minor annoyance and starts actively costing credibility with the exact audience the site was built to convince.</p>"
-solution: "<p>Corporate website development is the discipline of structuring a site around how a skeptical, often risk-averse visitor actually evaluates a business - what they need to see, in what order, before they trust it enough to act. That means deliberate trust signal placement, an information architecture built around stakeholder questions rather than internal structure, and a CMS setup that lets multiple departments keep their own sections current without funneling every update through one person.</p>"
+problem: "<p>A corporate site has one real job in the first five seconds - convince a skeptical visitor this is a real, established business worth their time - and most sites fail that test without realizing it. Credentials get buried on an about page nobody reaches, client logos sit below the fold, and navigation reflects the internal org chart instead of the questions a visitor actually has.</p>"
+solution: "<p>We structure the site around how a skeptical, risk-averse visitor actually evaluates a business - what they need to see, in what order, before they trust it enough to act. That means deliberate trust signal placement, navigation built around stakeholder questions instead of internal structure, and a CMS setup that lets each department keep its own section current without funnelling every update through one person.</p>"
 solution_answer: "Corporate website development is building a site structured to establish credibility quickly with B2B and enterprise visitors, through deliberate trust signal placement, stakeholder-driven navigation, and a CMS multiple departments can maintain independently."
-approach: "<p>We start by mapping who actually visits the site and what each of them needs to see before they'll take the site seriously - a procurement lead, a prospective partner, a journalist, and a job applicant are not looking for the same thing, and a single generic homepage rarely serves all of them well. From there we build the information architecture around those paths first, then layer in design and trust signals, rather than designing pages before anyone has agreed what they need to accomplish.</p>"
+approach: "<p>We map who actually visits the site and what each of them needs to see before they'll take it seriously - a procurement lead, a prospective partner, and a job applicant are not looking for the same thing, and one generic homepage rarely serves them all. We build the information architecture around those paths first, then layer in design and trust signals.</p>"
 capabilities:
     - { title: 'Information Architecture', items: ['Audience and stakeholder mapping', 'Page hierarchy built around visitor questions, not org charts', 'Navigation tested against how people actually search for information'] }
     - { title: 'Trust Signal Placement', items: ['Credentials, certifications, and compliance markers', 'Client and partner presence placed where skepticism is highest', 'Leadership and company history positioned for credibility, not vanity'] }
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Build', b: 'CMS-built site with department-level content ownership' }
     - { a: 'Trust Signals', b: 'Credentials, certifications, and client presence built into priority pages' }
 process:
-    - { title: 'Stakeholder & Audience Mapping', body: 'We identify who actually visits the site and what each group needs to see before they trust it.' }
-    - { title: 'Information Architecture', body: 'Page hierarchy and navigation are built around those visitor paths, not the internal org chart.' }
-    - { title: 'Design & Trust Signal Placement', body: 'Credentials, certifications, and proof points are placed where skepticism actually peaks, not wherever there was space.' }
-    - { title: 'Build & CMS Setup', body: 'The site is built with role-based access so each department can own its own section going forward.' }
-    - { title: 'Content Migration & Department Handoff', body: 'Existing content is migrated and each department is walked through updating its own pages.' }
-    - { title: 'Launch & Internal Training', body: 'We train internal staff on routine updates so the site does not depend on a developer for basic changes.' }
+    - { title: 'Map', body: 'We identify who actually visits the site and what each group needs to see before they trust it.' }
+    - { title: 'Architect', body: 'Page hierarchy and navigation are built around those visitor paths, not the internal org chart.' }
+    - { title: 'Design', body: 'Credentials, certifications, and proof points are placed where skepticism actually peaks, not wherever there was space.' }
+    - { title: 'Build', body: 'The site is built with role-based access so each department can own its own section going forward.' }
+    - { title: 'Migrate', body: 'Existing content is migrated and each department is walked through updating its own pages.' }
+    - { title: 'Launch', body: 'We train internal staff on routine updates so the site does not depend on a developer for basic changes.' }
 comparison:
     headers: ['Built for Corporate Credibility', 'Generic Template Approach']
     rows:

@@ -16,7 +16,7 @@ sitemap:
     changefreq: monthly
     priority: !!float 0.6
 
-overview: "<p>Pure client-side React renders content in the browser after the page loads, which is exactly the pattern that hurts both SEO and initial load time - crawlers and impatient visitors both see a blank page for longer than they should. Next.js addresses this by rendering on the server or at build time instead, so there's meaningful content in the initial response.</p><p>That's why Next.js has become the default choice for marketing-adjacent React builds: any product where interactivity and discoverability both matter, from public-facing SaaS marketing pages to content-heavy applications with logged-in dashboards.</p>"
+overview: "<p>Pure client-side React renders content in the browser after the page loads - crawlers and impatient visitors both see a blank page for longer than they should. We build on Next.js instead, rendering on the server or at build time so there's meaningful content in the initial response, from public-facing marketing pages to logged-in application dashboards.</p>"
 overview_answer: 'Next.js is a React framework that adds server-side rendering, static generation, routing, and API routes on top of React, so a site gets both React interactivity and the SEO and load-time performance of a traditionally rendered page.'
 capabilities:
     - { title: 'Rendering Strategy', items: ['Server-side rendering (SSR)', 'Static site generation (SSG)', 'Incremental static regeneration where it fits'] }

@@ -2,8 +2,8 @@
 title: 'Business Portals'
 template: service-detail-a
 eyebrow: 'Business Portals'
-headline: "Internal-facing tools that don't feel internal-facing"
-tagline: 'Business portal development for partners, vendors, and internal teams to access shared data and workflows.'
+headline: 'Give Partners And Vendors One Place To Get Answers'
+tagline: 'A business portal that replaces email and spreadsheet coordination with one shared, role-based place to work.'
 primary_intent: 'commercial - service research'
 entities: ['Partner Portal', 'Vendor Portal', 'Role-Based Dashboards', 'Document Sharing', 'System Integration', 'Usage Analytics']
 tools: ['Role-Based Dashboards', 'Document & Data Sharing Workflows', 'API Integration']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Internal-facing tools get neglected precisely because no customer ever sees them - but partners, vendors, and internal teams rely on them every single day to get real work done. When there's no dedicated portal, that reliance defaults to email threads, shared spreadsheets, and one-off document sends, and none of those scale past a handful of partners before something gets lost or sent to the wrong person.</p><p>The cost shows up as friction that's easy to underestimate because it's spread across many small interactions rather than one obvious failure - a vendor waiting on a document that got buried in an inbox, a partner asking a question that was already answered somewhere in an email chain nobody can find again.</p>"
-solution: "<p>A business portal gives partners, vendors, and internal teams a single place to see the data and documents relevant to them, scoped by role so each group sees only what applies to their relationship with you. It replaces the ad hoc email-and-spreadsheet system with something that scales past the point where personal relationships alone can manage the coordination.</p>"
+problem: "<p>Without a dedicated portal, partner and vendor coordination defaults to email threads, shared spreadsheets, and one-off document sends - and none of that scales past a handful of relationships before something gets lost or sent to the wrong person. The cost is friction that's easy to underestimate: a vendor waiting on a buried document, a partner re-asking a question that's already answered somewhere in a chain nobody can find.</p>"
+solution: "<p>A business portal gives partners, vendors, and internal teams a single place to see the data and documents relevant to them, scoped by role so each group sees only what applies to their relationship with you. It replaces the ad hoc email-and-spreadsheet system with something that scales past what personal relationships alone can coordinate.</p>"
 solution_answer: "A business portal is a role-based, authenticated platform where partners, vendors, or internal teams access shared data, documents, and workflows directly, instead of relying on email and spreadsheets to coordinate."
-approach: "<p>We start by mapping which groups need access to what - a vendor rarely needs the same view as an internal team, and treating them identically is a common reason business portals under-deliver. From there, access and workflow design follow the actual relationship structure, not a generic permissions template.</p>"
+approach: "<p>We start by mapping which groups need access to what - a vendor rarely needs the same view as an internal team, and treating them identically is a common reason portals under-deliver. Access and workflow design follow the actual relationship structure, not a generic permissions template.</p>"
 capabilities:
     - { title: 'Partner & Vendor Portal Design', items: ['Access scoped to the specific relationship, not a one-size-fits-all view', 'Onboarding flow for new partners or vendors'] }
     - { title: 'Role-Based Dashboards', items: ['Different views for different roles within the same portal', 'Data surfaced by relevance to the role, not everything at once'] }
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Integration', b: 'Direct connection to the internal systems holding the underlying data' }
     - { a: 'Analytics', b: 'Usage tracking to see who is actually using the portal and how' }
 process:
-    - { title: 'Relationship & Access Mapping', body: 'We identify the distinct groups who need access and what each one actually needs to see and do.' }
-    - { title: 'Role-Based Design', body: 'Dashboards and permissions are built around those distinct groups rather than a single generic view for everyone.' }
-    - { title: 'Document & Workflow Build', body: 'Shared document and data workflows replace the email-and-attachment pattern currently in use.' }
-    - { title: 'Integration', body: 'The portal connects directly to internal systems so shared data stays current without manual duplication.' }
-    - { title: 'Onboarding', body: 'Partners and vendors are onboarded with a clear path, since a portal nobody knows how to use gets ignored.' }
-    - { title: 'Usage Monitoring', body: 'We track actual usage after launch to see which groups have adopted it and which need more support.' }
+    - { title: 'Map', body: 'We identify the distinct groups who need access and what each one actually needs to see and do.' }
+    - { title: 'Design', body: 'Dashboards and permissions are built around those distinct groups rather than a single generic view for everyone.' }
+    - { title: 'Build', body: 'Shared document and data workflows replace the email-and-attachment pattern currently in use.' }
+    - { title: 'Integrate', body: 'The portal connects directly to internal systems so shared data stays current without manual duplication.' }
+    - { title: 'Onboard', body: 'Partners and vendors are onboarded with a clear path, since a portal nobody knows how to use gets ignored.' }
+    - { title: 'Monitor', body: 'We track actual usage after launch to see which groups have adopted it and which need more support.' }
 comparison:
     headers: ['Business Portal', 'Email & Spreadsheet Coordination']
     rows:

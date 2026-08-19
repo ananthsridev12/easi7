@@ -2,8 +2,8 @@
 title: 'Third-party Integrations'
 template: service-detail-b
 eyebrow: 'Integrations'
-headline: 'Whatever tool you already rely on, connected properly'
-tagline: 'Custom integrations with the specific third-party tools your business already runs on, including the ones nobody else builds connectors for.'
+headline: 'Connect Any Tool - Even the Ones No One Else Will Touch'
+tagline: 'Custom connectors for the specific tools your business runs on, including the ones nobody else builds for.'
 primary_intent: 'commercial - service research'
 entities: ['Custom Connectors', 'Legacy System Integration', 'Data Synchronisation', 'Fallback Handling', 'Integration Testing']
 tools: ['Third-party Tools', 'Custom Connectors']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Every business ends up with that one specialised tool nobody wants to migrate off - an industry-specific piece of software, a legacy system a whole department depends on, or a niche platform with no mainstream competitor. These tools rarely have a pre-built connector to whatever else you're running, and the standard advice is to switch platforms. That's usually the wrong answer when the tool itself works fine and the actual problem is just that it doesn't talk to anything.</p><p>Third-party integration is the alternative: building the connector to the specific tool you already use, instead of forcing a migration to solve a connectivity problem.</p>"
+overview: "<p>Every business has that one specialised tool nobody wants to migrate off - and no pre-built connector to make it talk to anything else. We build the custom connector your specific tool actually needs, so it starts exchanging data with the rest of your stack without forcing a disruptive platform switch.</p>"
 overview_answer: "Third-party integration is custom connector development for a specific tool your business already relies on, so it exchanges data with the rest of your stack without requiring a platform change."
 capabilities:
-    - { title: 'Custom Third-Party API Connectors', items: ['Point-to-point connections to niche or industry-specific tools', 'Authentication and data mapping tailored to the specific platform'] }
+    - { title: 'Custom Third-Party API Connectors', items: ['Point-to-point connections to niche or industry-specific tools, so isolated data becomes usable elsewhere', 'Authentication and data mapping tailored to the specific platform'] }
     - { title: 'Legacy System Integration', items: ['Connections to older systems with limited or non-standard APIs', 'Workarounds for platforms without modern API support'] }
     - { title: 'Data Synchronisation & Transformation', items: ['Format conversion between systems with different data structures', "Scheduled or real-time sync depending on the platform's capabilities"] }
     - { title: 'Integration Testing & Monitoring', items: ["Testing against the specific tool's actual behaviour, not just its documentation", 'Ongoing monitoring for sync failures'] }

@@ -2,8 +2,8 @@
 title: 'WordPress'
 template: service-detail-a
 eyebrow: 'CMS Development'
-headline: "The world's most common CMS, built to actually hold up"
-tagline: 'WordPress development built around plugin discipline and page speed, not just theme customisation.'
+headline: "Get a WordPress Site That Doesn't Slow Down as It Grows"
+tagline: 'We build with a disciplined plugin stack and performance baked in from day one, not bolted on after launch.'
 primary_intent: 'commercial - service research'
 entities: ['WordPress', 'WooCommerce', 'Core Web Vitals', 'Plugin Architecture', 'Custom Theme Development']
 tools: ['WordPress', 'WooCommerce', 'Core Web Vitals', 'Query Monitor']
@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>WordPress runs a large share of the web because it's flexible enough to fit almost any use case - which is exactly the problem. That flexibility invites a plugin for every feature request, and each one adds its own database queries, its own JavaScript, its own update schedule. Six months after launch, a site that started fast is loading a dozen plugins nobody remembers installing, several doing overlapping jobs, and the whole thing working around conflicts nobody planned for.</p><p>The failure mode is rarely dramatic. It's a slow page speed decline, a plugin update that silently breaks a layout, or a security patch that never gets applied because no one owns that responsibility. By the time someone notices, untangling it costs more than building it correctly would have.</p>"
+problem: "<p>WordPress runs a large share of the web because it's flexible enough to fit almost any use case - which is exactly the problem. That flexibility invites a plugin for every feature request, and six months after launch a site that started fast is loading a dozen plugins nobody remembers installing, several doing overlapping jobs. The failure mode is rarely dramatic - a slow page speed decline, a plugin update that silently breaks a layout, a security patch that never gets applied because no one owns that responsibility - and by the time someone notices, untangling it costs more than building it correctly would have.</p>"
 solution: "<p>We build WordPress sites the way the platform is supposed to work - a custom theme built for the actual content model, a short list of plugins chosen deliberately instead of accumulated, and a documented record of what's installed and why. Page speed and Core Web Vitals are treated as a build requirement, not a fix applied after launch.</p>"
 solution_answer: "WordPress development done properly means a custom-built theme, a minimal and documented plugin stack, and performance treated as part of the build rather than an afterthought."
 approach: "<p>We start by asking what the site actually needs to do before opening the plugin directory - most feature requests can be built directly into the theme with less code and no ongoing update risk than a third-party plugin carries. Where a plugin genuinely is the right call, we document why it was chosen and what it depends on, so the next person working on the site isn't reverse-engineering decisions made years earlier.</p>"
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Performance', b: 'A Core Web Vitals baseline and the fixes needed to hit it' }
     - { a: 'Security', b: 'Hardening measures and an update schedule someone actually owns' }
 process:
-    - { title: 'Audit & Discovery', body: 'We review the current install, if there is one, or the content requirements from scratch, and map out what the theme and plugin stack actually need to do.' }
-    - { title: 'Theme & Architecture', body: 'A custom theme is built around the real content model, with page-builder bloat avoided unless there is a genuine editorial reason for it.' }
-    - { title: 'Plugin Selection', body: "Every plugin earns its place - we choose deliberately and document the reason, instead of accumulating whatever solves today's small problem." }
-    - { title: 'Performance Tuning', body: 'Core Web Vitals are tested and tuned before launch, not treated as a post-launch cleanup.' }
-    - { title: 'Security Hardening', body: 'Update schedules, backup routines, and hardening measures are put in place before the site goes live.' }
-    - { title: 'Launch & Handover', body: "You get documentation of what was built and why, so a future developer - ours or otherwise - isn't starting from zero." }
+    - { title: 'Audit', body: 'We review the current install, if there is one, or the content requirements from scratch, and map out what the theme and plugin stack actually need to do.' }
+    - { title: 'Architecture', body: 'A custom theme is built around the real content model, with page-builder bloat avoided unless there is a genuine editorial reason for it.' }
+    - { title: 'Plugins', body: "Every plugin earns its place - we choose deliberately and document the reason, instead of accumulating whatever solves today's small problem." }
+    - { title: 'Performance', body: 'Core Web Vitals are tested and tuned before launch, not treated as a post-launch cleanup.' }
+    - { title: 'Security', body: 'Update schedules, backup routines, and hardening measures are put in place before the site goes live.' }
+    - { title: 'Handover', body: "You get documentation of what was built and why, so a future developer - ours or otherwise - isn't starting from zero." }
 comparison:
     headers: ['Built with Plugin Discipline', 'Accumulated Plugin Stack']
     rows:

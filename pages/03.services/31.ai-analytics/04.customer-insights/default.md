@@ -2,8 +2,8 @@
 title: 'Customer Insights'
 template: service-detail-a
 eyebrow: 'AI Analytics'
-headline: 'Segments and patterns pulled from data you already have'
-tagline: "AI-assisted analysis of behavioural, transactional, and support data that turns what you already collect into segments and decisions, not just a bigger spreadsheet."
+headline: 'Find the Segments Hiding in Data You Already Have'
+tagline: "AI-assisted analysis that turns the data you already collect into segments and decisions, not a bigger spreadsheet."
 primary_intent: 'commercial - service research'
 entities: ['Behavioural Segmentation', 'Sentiment Analysis', 'Customer Lifetime Value', 'Transactional Analysis', 'Support Ticket Analysis']
 tools: ['Customer Insights', 'Segmentation', 'Sentiment Analysis', 'CLV Modelling']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most businesses collect far more customer data than they actually use - behavioural events, transaction history, support tickets, review text - sitting in separate systems that nobody has time to cross-reference manually. The result is a customer base segmented on whatever's easiest to query, usually just spend tier or signup date, rather than on the behaviours that actually predict what a customer will do next.</p><p>Sentiment buried in support tickets and reviews is an even bigger blind spot - it's qualitative, unstructured, and rarely gets systematically reviewed at all, so patterns that are obvious in aggregate, a specific feature complaint spiking, a segment's tone shifting before they churn, go unnoticed until someone happens to read enough tickets in a row to notice.</p>"
-solution: "<p>AI-assisted customer insight work applies analysis to the behavioural, transactional, and support data you already have, rather than requiring a new data collection effort first. Segmentation gets built on actual behaviour patterns instead of easy-to-query proxies, sentiment analysis turns unstructured support and review text into a trackable signal, and lifetime value modelling gives a forward-looking number to sit alongside the historical spend figure everyone already has.</p>"
+problem: "<p>Most businesses collect far more customer data than they use - behavioural events, transactions, support tickets, review text - sitting in separate systems nobody has time to cross-reference. The result is a customer base segmented on whatever's easiest to query, usually spend tier or signup date, rather than what actually predicts what a customer does next.</p>"
+solution: "<p>AI-assisted insight work applies analysis to the behavioural, transactional, and support data you already have, rather than requiring new data collection first. Segmentation gets built on actual behaviour instead of easy-to-query proxies, and sentiment analysis turns unstructured support and review text into a trackable signal.</p>"
 solution_answer: "Customer insight work is AI-assisted analysis of the behavioural, transactional, and support data a business already holds, turning it into usable segments, sentiment signals, and lifetime value estimates."
-approach: "<p>We start with an inventory of what data actually exists across your systems, since the most valuable signal is often sitting in a support ticket system or a CRM field nobody's queried in years. From there, segmentation is built on real behavioural patterns rather than the easiest field to filter on, and sentiment analysis is applied to support and review text to surface what customers are actually saying, not just what a satisfaction score implies.</p>"
+approach: "<p>We start with an inventory of what data actually exists across your systems, since the most valuable signal is often sitting in a support ticket system nobody's queried in years. Segmentation gets built on real behavioural patterns, and sentiment analysis surfaces what customers are actually saying, not just what a satisfaction score implies.</p>"
 capabilities:
     - { title: 'Behavioural & Transactional Analysis', items: ['Analysis across purchase, usage, and engagement data', 'Pattern detection that goes beyond basic spend-tier segmentation'] }
     - { title: 'AI-Assisted Segmentation', items: ['Segments built on actual behaviour rather than easy-to-query proxies', 'Segments that update as behaviour changes, not a static one-time split'] }

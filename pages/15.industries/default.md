@@ -3,8 +3,8 @@ title: Industries
 menu: Industries
 template: services
 eyebrow: Industries
-headline: 'A handful of industries, not everywhere at once'
-tagline: "We work where the buying cycle and the marketing stack both matter - not everywhere at once."
+headline: 'A short list of industries, chosen on purpose'
+tagline: "We go deep in industries where the buying cycle and the marketing stack both matter, not wide across all of them."
 metadata:
     description: 'Industries EASI7 works with: B2B & SaaS, manufacturing, technology, healthcare, financial services, e-commerce, and professional services.'
 content:

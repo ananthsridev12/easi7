@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Optimising for more form fills alone can make lead quality worse - it's easy to increase submissions by loosening qualification, and just as easy to mistake that spike for progress. Lead conversion optimisation measures against the metric that actually matters: how many of those leads become customers.</p><p>That means looking past marketing's usual endpoint - the form submission - and into qualification, sales handoff timing, and follow-up speed, since a lead lost to a slow response or a mismatched handoff never shows up as a marketing problem in most dashboards.</p>"
+overview: "<p>Optimising for more form fills alone can make lead quality worse - it's easy to boost submissions by loosening qualification and mistake the spike for progress. We measure against the metric that actually matters: how many of those leads become customers, looking past the form fill into qualification, sales handoff timing, and follow-up speed.</p>"
 overview_answer: "Lead conversion optimisation is improving the rate at which captured leads become paying customers, rather than just increasing the number of leads or form fills."
 capabilities:
     - { title: 'Lead Qualification', items: ['Scoring criteria review', 'Qualification flow and question design', 'Routing rules'] }

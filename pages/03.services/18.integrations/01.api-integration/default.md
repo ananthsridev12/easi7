@@ -2,8 +2,8 @@
 title: 'API Integration'
 template: service-detail-a
 eyebrow: 'Integrations'
-headline: 'Systems that actually talk to each other'
-tagline: 'Custom API integration connecting your website, CRM, and marketing tools into one working system instead of five disconnected ones.'
+headline: 'Get Your Systems Talking To Each Other'
+tagline: 'Custom API integration that turns five disconnected tools into one working system.'
 primary_intent: 'commercial - service research'
 entities: ['REST APIs', 'Webhooks', 'Data Mapping', 'OAuth', 'API Integration', 'Custom Connectors']
 tools: ['REST APIs', 'Webhooks', 'OAuth', 'Postman']
@@ -15,10 +15,10 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>Most \"integration problems\" are really just systems that were never actually connected. Someone exports a spreadsheet from one tool, reformats it, and imports it into another, on a schedule that depends on them remembering to do it. That manual step is where records go stale, fields get mistyped, and two systems that should agree on a customer's status quietly stop agreeing.</p><p>The gap usually isn't a missing feature - it's that nobody built the connector. Two SaaS tools can each have a perfectly good API and still have no data flowing between them, because building that link requires someone to map the fields, handle the edge cases, and decide what happens when a request fails.</p>"
-solution: "<p>API integration is the work of building that connector - reading data out of one system, transforming it into the shape the other system expects, and moving it automatically, in real time or on a schedule that actually matches how the business operates. Done properly, it also accounts for what happens when a request times out or a field is missing, instead of assuming every call succeeds.</p>"
+problem: "<p>Most \"integration problems\" are really just systems that were never actually connected. Someone exports a spreadsheet from one tool, reformats it, and imports it into another, on a schedule that depends on them remembering to do it - and that manual step is where records go stale and two systems that should agree on a customer's status quietly stop agreeing. The gap usually isn't a missing feature, it's that nobody built the connector.</p>"
+solution: "<p>We build that connector - reading data out of one system, transforming it into the shape the other system expects, and moving it automatically, in real time or on a schedule that matches how the business operates. Done properly, it also accounts for what happens when a request times out or a field is missing, instead of assuming every call succeeds.</p>"
 solution_answer: "API integration is the custom development work that connects two or more systems' APIs so data moves between them automatically, without someone manually exporting and re-entering it."
-approach: "<p>We start by reading the actual API documentation for both systems before writing anything, because assumptions about what a field means or how a rate limit works are where integrations quietly break in production. From there we map fields explicitly, build the connector with error handling from the start rather than bolting it on afterward, and test against edge cases - missing fields, duplicate records, expired tokens - not just the clean data a demo environment provides.</p>"
+approach: "<p>We read the actual API documentation for both systems before writing anything, because assumptions about what a field means or how a rate limit works are where integrations quietly break in production. From there we map fields explicitly and build the connector with error handling from the start, then test against edge cases - missing fields, duplicate records, expired tokens - not just the clean data a demo environment provides.</p>"
 capabilities:
     - { title: 'Custom Connector Development', items: ['Point-to-point API integrations', 'Authentication handling (OAuth, API keys, tokens)', 'Rate-limit-aware request design'] }
     - { title: 'Data Mapping & Transformation', items: ['Field-level mapping between systems', 'Format and validation rules', 'Handling for partial or malformed data'] }
@@ -31,12 +31,12 @@ deliverables:
     - { a: 'Monitoring', b: 'Error alerting so a failed sync gets flagged, not discovered weeks later' }
     - { a: 'Documentation', b: "A written reference so future maintenance doesn't require rediscovering how it works" }
 process:
-    - { title: 'API Review', body: "We read both systems' API documentation and test their actual behaviour, since documentation and reality don't always match." }
-    - { title: 'Data Mapping', body: 'Every field that needs to move is mapped explicitly, including what happens when a value is missing or in the wrong format.' }
-    - { title: 'Connector Build', body: 'We build the integration with error handling and logging included from the start, not added after something breaks.' }
-    - { title: 'Webhook & Sync Setup', body: 'Where real-time sync matters, we set up webhooks rather than relying on scheduled polling that introduces delay.' }
-    - { title: 'Testing Against Edge Cases', body: 'We test with malformed data, expired tokens, and rate limits deliberately, not just the happy path.' }
-    - { title: 'Monitoring & Handover', body: 'The integration ships with monitoring in place and documentation so your team can maintain it going forward.' }
+    - { title: 'Review', body: "We read both systems' API documentation and test their actual behaviour, since documentation and reality don't always match." }
+    - { title: 'Map', body: 'Every field that needs to move is mapped explicitly, including what happens when a value is missing or in the wrong format.' }
+    - { title: 'Build', body: 'We build the integration with error handling and logging included from the start, not added after something breaks.' }
+    - { title: 'Sync', body: 'Where real-time sync matters, we set up webhooks rather than relying on scheduled polling that introduces delay.' }
+    - { title: 'Test', body: 'We test with malformed data, expired tokens, and rate limits deliberately, not just the happy path.' }
+    - { title: 'Handover', body: 'The integration ships with monitoring in place and documentation so your team can maintain it going forward.' }
 comparison:
     headers: ['Custom API Integration', 'Manual Export and Re-Import']
     rows:

@@ -15,7 +15,7 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>A B2B purchase rarely gets decided by the person browsing the site. There is usually a champion who found you, and behind them a committee - finance, IT, an end user, sometimes a legal reviewer - who never land on the site directly but still need to be convinced through what that champion brings back to them. A B2B site that only speaks to the visible visitor and ignores the invisible committee is optimizing for the wrong audience.</p><p>B2B website development builds for that reality directly - content structured so a champion can extract what each stakeholder needs, proof placed where it will actually get used in an internal pitch, and lead capture built around a sales cycle that might run for months, not a single-session purchase decision.</p>"
+overview: "<p>A B2B purchase rarely gets decided by the person browsing the site - there's a champion who found you, and behind them a committee who never land on the site directly but still need convincing. We build for that reality: content structured so a champion can extract what each stakeholder needs, proof placed where it gets used in an internal pitch, and lead capture built around a sales cycle that might run for months.</p>"
 overview_answer: "B2B website development is building a site structured for multi-stakeholder buying committees and long sales cycles, rather than for a single visitor making an immediate decision."
 capabilities:
     - { title: 'Multi-Stakeholder Content Structure', items: ['Content organized by role - buyer, technical evaluator, end user', 'Pages built to be forwarded internally, not just read once'] }
