@@ -1,0 +1,202 @@
+{#
+  Commercial service landing page (agency-style, not an explainer article).
+  Expects (frontmatter): eyebrow, headline, tagline, hero_cta{primary_label,primary_url,secondary_label,secondary_url},
+  definition (2-3 short <p> paragraphs: what it is / why it matters / how it differs),
+  problems[{title,body}] (4-6 cards), included[{title,body}] (4-6 cards),
+  methodology[{title,body}] (process steps), deliverables_checklist[{a,b}] (checklist table rows),
+  who_for[] (flat strings, shown as tags), faqs[{q,a}], final_cta{heading,body,primary_label,primary_url,secondary_label,secondary_url},
+  cta (closing stats+form panel - same as every other template),
+  Below-the-fold "full detail" zone (kept, not deleted, from the previous version of this page):
+  framework[{title,items[],related_label,related_url}], who_needs_this[{title,body}], expert_insight,
+  Routed to the Reference zone above the footer (unchanged): definition_answer, deliverables, comparison, key_metrics, use_cases
+#}
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{% include 'partials/breadcrumbs.html.twig' %}
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">{{ page.header.eyebrow ?? 'Service' }}</span>
+    <h1>{{ page.header.headline ?? page.title }}</h1>
+    {% if page.header.tagline %}<p class="lede">{{ page.header.tagline }}</p>{% endif %}
+    {% if page.header.hero_cta %}
+    <div class="hero-ctas">
+      <a class="btn brass" href="{{ url(page.header.hero_cta.primary_url ?? '/contact') }}">{{ page.header.hero_cta.primary_label ?? 'Get a quote' }}</a>
+      <a class="btn ghost" href="{{ url(page.header.hero_cta.secondary_url ?? '/contact') }}">{{ page.header.hero_cta.secondary_label ?? 'Talk to an expert' }}</a>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+{% set sc = 0 %}
+
+{% if page.header.definition %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">Overview</span>
+    <h2>What is {{ page.title }}?</h2>
+    <div>{{ page.header.definition|raw }}</div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.problems %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">The problem</span>
+    <h2>Common problems we solve</h2>
+    {% include 'partials/persona-grid.html.twig' with { items: page.header.problems } %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.included %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">What's included</span>
+    <h2>Everything covered in this service</h2>
+    {% include 'partials/persona-grid.html.twig' with { items: page.header.included } %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.methodology %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">Our process</span>
+    <h2>Our optimization framework</h2>
+    <div class="process-line"></div>
+    <div class="process">
+      {% for step in page.header.methodology %}
+      <div class="step"><h3>{{ step.title }}</h3><p>{{ step.body }}</p></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.deliverables_checklist %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">Deliverables</span>
+    <h2>What you get</h2>
+    {% include 'partials/data-table.html.twig' with { headers: ['Deliverable', 'Included'], rows: page.header.deliverables_checklist } %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.who_for %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">Who it's for</span>
+    <h2>Built for teams like yours</h2>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
+      {% for w in page.header.who_for %}<span class="tag">{{ w }}</span>{% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">Related services</span>
+    <h2>Related SEO services</h2>
+    {% include 'partials/related-services.html.twig' with { page: page } %}
+  </div>
+</section>
+
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">Ways of working</span>
+    <h2>How to engage us for this</h2>
+    {% include 'partials/engagement-models.html.twig' %}
+  </div>
+</section>
+
+{% if page.header.faqs %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <span class="eyebrow">FAQs</span>
+    <h2>Common questions</h2>
+    {% include 'partials/faq.html.twig' with { faqs: page.header.faqs } %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.final_cta %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}" style="text-align:center;">
+  <div class="wrap">
+    <h2>{{ page.header.final_cta.heading }}</h2>
+    {% if page.header.final_cta.body %}<p class="lede" style="margin-left:auto;margin-right:auto;">{{ page.header.final_cta.body }}</p>{% endif %}
+    <div class="hero-ctas" style="justify-content:center;margin-top:1.2em;">
+      <a class="btn brass" href="{{ url(page.header.final_cta.primary_url ?? '/contact') }}">{{ page.header.final_cta.primary_label ?? 'Get in touch' }}</a>
+      {% if page.header.final_cta.secondary_label %}<a class="btn ghost" href="{{ url(page.header.final_cta.secondary_url ?? '/contact') }}">{{ page.header.final_cta.secondary_label }}</a>{% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.cta %}
+{% include 'partials/cta-band.html.twig' with page.header.cta %}
+{% endif %}
+
+{% if page.header.framework or page.header.who_needs_this or page.header.expert_insight %}
+<section class="block" style="border-bottom:none;">
+  <div class="wrap">
+    <span class="eyebrow">Full detail</span>
+    <h2>{{ page.title }}, in depth</h2>
+  </div>
+</section>
+
+{% if page.header.framework %}
+<section class="block alt">
+  <div class="wrap">
+    <span class="eyebrow">Full framework</span>
+    <h2>How we approach it, step by step</h2>
+    {% include 'partials/framework-grid.html.twig' with { items: page.header.framework } %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.who_needs_this %}
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Fit, in more detail</span>
+    <h2>Is this actually right for you?</h2>
+    {% include 'partials/persona-grid.html.twig' with { items: page.header.who_needs_this } %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.expert_insight %}
+<section class="block alt">
+  <div class="wrap">
+    <span class="eyebrow">A closer look</span>
+    <blockquote>{{ page.header.expert_insight }}</blockquote>
+  </div>
+</section>
+{% endif %}
+{% endif %}
+
+{% include 'partials/ai-reference.html.twig' with {
+  page: page,
+  answer: page.header.definition_answer ?? null,
+  deliverables: page.header.deliverables ?? null,
+  comparison: page.header.comparison ?? null,
+  key_metrics: page.header.key_metrics ?? null,
+  use_cases: page.header.use_cases ?? null
+} %}
+{% include 'partials/service-schema.html.twig' with { page: page } %}
+{% include 'partials/page-metadata.html.twig' with { page: page } %}
+{% endblock %}
