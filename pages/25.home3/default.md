@@ -9,7 +9,7 @@ hero_variant: C
 badge: { value: '8+', label: 'Years in market' }
 hero:
     eyebrow: 'Data-driven digital marketing studio · Chennai, India'
-    headline: 'Marketing infrastructure that compounds.'
+    headline: 'Marketing infrastructure that compounds, not one you rebuild every quarter.'
     lede: 'EASI7 runs analytics, paid media, SEO, and automation as one connected system instead of five disconnected vendors - so every campaign makes the next one cheaper.'
     slides:
         - { tag: 'Analytics & Tracking', caption: 'GA4, GTM, and dashboards built from a clean baseline' }
