@@ -135,5 +135,6 @@
   comparison: page.header.comparison ?? null,
   use_cases: page.header.use_cases ?? null
 } %}
+{% include 'partials/service-schema.html.twig' with { page: page } %}
 {% include 'partials/page-metadata.html.twig' with { page: page } %}
 {% endblock %}

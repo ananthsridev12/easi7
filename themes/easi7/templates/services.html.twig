@@ -102,5 +102,6 @@
   page: page,
   answer: page.header.overview_answer ?? null
 } %}
+{% include 'partials/service-schema.html.twig' with { page: page } %}
 {% include 'partials/page-metadata.html.twig' with { page: page } %}
 {% endblock %}

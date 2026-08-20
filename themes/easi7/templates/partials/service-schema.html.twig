@@ -1,0 +1,17 @@
+{# Service structured data for a single service/category page. Expects: page #}
+{% set company = config.themes.easi7.company ?? {} %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ (page.header.headline ?? page.title)|json_encode(64)|raw }},
+  "description": {{ (page.header.tagline ?? page.header.metadata.description ?? '')|json_encode(64)|raw }},
+  "url": {{ page.url(true)|json_encode(64)|raw }},
+  "provider": {
+    "@type": "Organization",
+    "name": {{ (company.legal_name ?? company.name ?? config.site.title)|json_encode(64)|raw }},
+    "url": {{ url('/', true)|json_encode(64)|raw }}
+  },
+  "areaServed": "IN"
+}
+</script>

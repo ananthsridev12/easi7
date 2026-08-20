@@ -17,6 +17,6 @@
   </div>
 </nav>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{% for c in crumbs %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ c.name|json_encode|raw }},"item":{{ c.url|json_encode|raw }}}{% if not loop.last %},{% endif %}{% endfor %}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{% for c in crumbs %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ c.name|json_encode(64)|raw }},"item":{{ c.url|json_encode(64)|raw }}}{% if not loop.last %},{% endif %}{% endfor %}]}
 </script>
 {% endif %}

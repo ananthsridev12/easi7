@@ -14,6 +14,6 @@
   {% endfor %}
 </div>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in faqs %}{"@type":"Question","name":{{ item.q|json_encode|raw }},"acceptedAnswer":{"@type":"Answer","text":{{ item.a|json_encode|raw }}}}{% if not loop.last %},{% endif %}{% endfor %}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in faqs %}{"@type":"Question","name":{{ item.q|json_encode(64)|raw }},"acceptedAnswer":{"@type":"Answer","text":{{ item.a|json_encode(64)|raw }}}}{% if not loop.last %},{% endif %}{% endfor %}]}
 </script>
 {% endif %}
