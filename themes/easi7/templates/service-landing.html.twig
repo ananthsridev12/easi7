@@ -125,7 +125,7 @@
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <h2>Tools &amp; platforms</h2>
-    {% include 'partials/badge-grid.html.twig' with { items: page.header.tools_used } %}
+    {% include 'partials/icon-items.html.twig' with { items: page.header.tools_used, layout: 'grid-3' } %}
   </div>
 </section>
 {% endif %}
@@ -136,11 +136,11 @@
   <div class="wrap">
     {% if page.header.industries %}
     <h2>Industries we optimize for</h2>
-    {% include 'partials/badge-grid.html.twig' with { items: page.header.industries } %}
+    {% include 'partials/icon-items.html.twig' with { items: page.header.industries, layout: 'grid-2' } %}
     {% endif %}
     {% if page.header.who_for %}
     <h2 style="margin-top:{{ page.header.industries ? '1.8em' : '0' }};">Built for teams like yours</h2>
-    {% include 'partials/badge-grid.html.twig' with { items: page.header.who_for } %}
+    {% include 'partials/icon-items.html.twig' with { items: page.header.who_for, layout: 'list' } %}
     {% endif %}
   </div>
 </section>

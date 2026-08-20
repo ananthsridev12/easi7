@@ -1,0 +1,18 @@
+{#
+  Icon + label items in one of three distinct layouts.
+  Expects: items:[{label,icon,url}] or [plain strings], layout: 'grid-3' | 'grid-2' | 'list' (default grid-3)
+#}
+{% if items is defined and items|length %}
+<div class="icon-items icon-items-{{ layout ?? 'grid-3' }}">
+  {% for item in items %}
+    {% set label = item.label ?? item %}
+    {% set icon = item.icon ?? '&#8226;' %}
+    {% set link = item.url ?? null %}
+    {% if link %}
+    <a class="icon-item" href="{{ url(link) }}"><span class="icon-item-badge">{{ icon|raw }}</span><span class="icon-item-label">{{ label }}</span></a>
+    {% else %}
+    <div class="icon-item"><span class="icon-item-badge">{{ icon|raw }}</span><span class="icon-item-label">{{ label }}</span></div>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}

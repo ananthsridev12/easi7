@@ -76,21 +76,27 @@ deliverables_checklist:
     - { a: 'Internal linking', b: '✓' }
     - { a: 'Schema recommendations', b: '✓' }
 
-tools_used: ['Google Search Console', 'GA4', 'Google Tag Manager', 'Screaming Frog', 'Ahrefs', 'SEMrush']
+tools_used:
+    - { label: 'Google Search Console', icon: '&#128269;' }
+    - { label: 'GA4', icon: '&#128202;' }
+    - { label: 'Google Tag Manager', icon: '&#127991;&#65039;' }
+    - { label: 'Screaming Frog', icon: '&#128056;' }
+    - { label: 'Ahrefs', icon: '&#128279;' }
+    - { label: 'SEMrush', icon: '&#128200;' }
 
 industries:
-    - { label: 'B2B & SaaS', url: /industries/b2b-saas }
-    - { label: 'Manufacturing', url: /industries/manufacturing }
-    - { label: 'Healthcare', url: /industries/healthcare }
-    - { label: 'Professional Services', url: /industries/professional-services }
-    - { label: 'Technology', url: /industries/technology }
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas, icon: '&#128188;' }
+    - { label: 'Manufacturing', url: /industries/manufacturing, icon: '&#127981;' }
+    - { label: 'Healthcare', url: /industries/healthcare, icon: '&#127973;' }
+    - { label: 'Professional Services', url: /industries/professional-services, icon: '&#129309;' }
+    - { label: 'Technology', url: /industries/technology, icon: '&#128187;' }
 
 who_for:
-    - 'B2B websites'
-    - 'SaaS companies'
-    - 'Manufacturing companies'
-    - 'E-commerce stores'
-    - 'Corporate websites'
+    - { label: 'B2B websites', icon: '&#127760;' }
+    - { label: 'SaaS companies', icon: '&#9729;&#65039;' }
+    - { label: 'Manufacturing companies', icon: '&#127981;' }
+    - { label: 'E-commerce stores', icon: '&#128722;' }
+    - { label: 'Corporate websites', icon: '&#127970;' }
 
 why_us:
     - { title: 'We fix tracking before we touch rankings', body: "Every engagement starts with the same audit we'd run on our own accounts, so the numbers you're optimizing against are actually true." }
