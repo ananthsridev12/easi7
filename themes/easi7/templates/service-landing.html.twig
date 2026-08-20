@@ -1,14 +1,15 @@
 {#
   Commercial service landing page (agency-style, not an explainer article).
   Expects (frontmatter): eyebrow, headline, tagline, hero_cta{primary_label,primary_url,secondary_label,secondary_url},
+  definition_answer (1-2 sentence quick answer, shown near the top for AEO extraction),
   definition (2-3 short <p> paragraphs: what it is / why it matters / how it differs),
   problems[{title,body}] (4-6 cards), included[{title,body}] (4-6 cards),
-  methodology[{title,body}] (process steps), deliverables_checklist[{a,b}] (checklist table rows),
-  who_for[] (flat strings, shown as tags), faqs[{q,a}], final_cta{heading,body,primary_label,primary_url,secondary_label,secondary_url},
-  cta (closing stats+form panel - same as every other template),
-  Below-the-fold "full detail" zone (kept, not deleted, from the previous version of this page):
-  framework[{title,items[],related_label,related_url}], who_needs_this[{title,body}], expert_insight,
-  Routed to the Reference zone above the footer (unchanged): definition_answer, deliverables, comparison, key_metrics, use_cases
+  methodology[{title,body}] (process steps), before_after{headers,rows[{a,b}]},
+  results[{label,desc}] (metric categories - no invented numbers), proof_case_study{stat,label,url},
+  tools_used[] (flat strings, shown as tags), industries[{label,url}], who_for[] (flat strings, shown as tags),
+  why_us[{title,body}], ai_relationships{diagram, items[{title,body,url}]},
+  faqs[{q,a}], cta (closing stats+form panel - same as every other template),
+  Routed to the Reference zone above the footer (unchanged): deliverables, comparison, key_metrics, use_cases
 #}
 {% extends 'partials/base.html.twig' %}
 
@@ -29,6 +30,18 @@
 </section>
 
 {% set sc = 0 %}
+
+{% if page.header.definition_answer %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <div class="answer-box">
+      <span class="answer-label">Quick answer</span>
+      <p>{{ page.header.definition_answer }}</p>
+    </div>
+  </div>
+</section>
+{% endif %}
 
 {% if page.header.definition %}
 {% set sc = sc + 1 %}
@@ -75,24 +88,92 @@
 </section>
 {% endif %}
 
-{% if page.header.deliverables_checklist %}
+{% if page.header.before_after %}
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <h2>What you get</h2>
-    {% include 'partials/data-table.html.twig' with { headers: ['Deliverable', 'Included'], rows: page.header.deliverables_checklist } %}
+    <h2>What actually changes</h2>
+    {% include 'partials/data-table.html.twig' with { headers: page.header.before_after.headers ?? ['Before', 'After'], rows: page.header.before_after.rows } %}
   </div>
 </section>
 {% endif %}
 
-{% if page.header.who_for %}
+{% if page.header.results or page.header.proof_case_study %}
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <h2>Built for teams like yours</h2>
+    <h2>What we report on</h2>
+    {% if page.header.results %}
+    <div class="persona-grid">
+      {% for r in page.header.results %}
+      <div class="persona-card"><h3>{{ r.label }}</h3><p>{{ r.desc }}</p></div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if page.header.proof_case_study %}
+    <div class="answer-box" style="margin-top:1.2em;">
+      <span class="answer-label">Real results</span>
+      <p>{{ page.header.proof_case_study.stat }} <a href="{{ url(page.header.proof_case_study.url) }}">{{ page.header.proof_case_study.label }} &rarr;</a></p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.tools_used %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <h2>Tools &amp; platforms</h2>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
+      {% for t in page.header.tools_used %}<span class="tag">{{ t }}</span>{% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.industries or page.header.who_for %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    {% if page.header.industries %}
+    <h2>Industries we optimize for</h2>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
+      {% for ind in page.header.industries %}<a class="tag" href="{{ url(ind.url) }}">{{ ind.label }}</a>{% endfor %}
+    </div>
+    {% endif %}
+    {% if page.header.who_for %}
+    <h2 style="margin-top:{{ page.header.industries ? '1.6em' : '0' }};">Built for teams like yours</h2>
     <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
       {% for w in page.header.who_for %}<span class="tag">{{ w }}</span>{% endfor %}
     </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.why_us %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <h2>Why choose EASI7</h2>
+    {% include 'partials/persona-grid.html.twig' with { items: page.header.why_us } %}
+    {% if page.header.expert_insight %}<blockquote style="margin-top:1.4em;">{{ page.header.expert_insight }}</blockquote>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.header.ai_relationships %}
+{% set sc = sc + 1 %}
+<section class="block {{ cycle(['', 'alt'], sc) }}">
+  <div class="wrap">
+    <h2>How {{ page.title }} connects with AI search</h2>
+    {% if page.header.ai_relationships.diagram %}
+    <div class="diagram"><pre>{{ page.header.ai_relationships.diagram }}</pre></div>
+    {% endif %}
+    {% if page.header.ai_relationships.items %}
+    {% include 'partials/persona-grid.html.twig' with { items: page.header.ai_relationships.items } %}
+    {% endif %}
   </div>
 </section>
 {% endif %}
@@ -123,61 +204,12 @@
 </section>
 {% endif %}
 
-{% if page.header.final_cta %}
-{% set sc = sc + 1 %}
-<section class="block {{ cycle(['', 'alt'], sc) }}" style="text-align:center;">
-  <div class="wrap">
-    <h2>{{ page.header.final_cta.heading }}</h2>
-    {% if page.header.final_cta.body %}<p class="lede" style="margin-left:auto;margin-right:auto;">{{ page.header.final_cta.body }}</p>{% endif %}
-    <div class="hero-ctas" style="justify-content:center;margin-top:1.2em;">
-      <a class="btn brass" href="{{ url(page.header.final_cta.primary_url ?? '/contact') }}">{{ page.header.final_cta.primary_label ?? 'Get in touch' }}</a>
-      {% if page.header.final_cta.secondary_label %}<a class="btn ghost" href="{{ url(page.header.final_cta.secondary_url ?? '/contact') }}">{{ page.header.final_cta.secondary_label }}</a>{% endif %}
-    </div>
-  </div>
-</section>
-{% endif %}
-
 {% if page.header.cta %}
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}
 
-{% if page.header.framework or page.header.who_needs_this or page.header.expert_insight %}
-<section class="block" style="border-bottom:none;">
-  <div class="wrap">
-    <h2>{{ page.title }}, in depth</h2>
-  </div>
-</section>
-
-{% if page.header.framework %}
-<section class="block alt">
-  <div class="wrap">
-    <h2>How we approach it, step by step</h2>
-    {% include 'partials/framework-grid.html.twig' with { items: page.header.framework } %}
-  </div>
-</section>
-{% endif %}
-
-{% if page.header.who_needs_this %}
-<section class="block">
-  <div class="wrap">
-    <h2>Is this actually right for you?</h2>
-    {% include 'partials/persona-grid.html.twig' with { items: page.header.who_needs_this } %}
-  </div>
-</section>
-{% endif %}
-
-{% if page.header.expert_insight %}
-<section class="block alt">
-  <div class="wrap">
-    <blockquote>{{ page.header.expert_insight }}</blockquote>
-  </div>
-</section>
-{% endif %}
-{% endif %}
-
 {% include 'partials/ai-reference.html.twig' with {
   page: page,
-  answer: page.header.definition_answer ?? null,
   deliverables: page.header.deliverables ?? null,
   comparison: page.header.comparison ?? null,
   key_metrics: page.header.key_metrics ?? null,

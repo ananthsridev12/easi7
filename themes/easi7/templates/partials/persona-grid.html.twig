@@ -1,9 +1,9 @@
-{# Audience / use-case cards. Expects items:[{title, body, items:[bullets]}] #}
+{# Audience / use-case cards. Expects items:[{title, body, items:[bullets], url (optional, links the title)}] #}
 {% if items is defined and items|length %}
 <div class="persona-grid">
   {% for p in items %}
   <div class="persona-card">
-    <h3>{{ p.title }}</h3>
+    <h3>{% if p.url %}<a href="{{ url(p.url) }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
     {% if p.body %}<p>{{ p.body }}</p>{% endif %}
     {% if p.items %}<ul>{% for i in p.items %}<li>{{ i }}</li>{% endfor %}</ul>{% endif %}
   </div>

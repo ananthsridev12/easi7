@@ -457,6 +457,8 @@ section.block.alt .engagement-card{background:var(--paper-raised);}
 .persona-card{border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;background:var(--paper-raised);}
 section.block.alt .persona-card{background:var(--paper);}
 .persona-card h3{font-size:1rem;margin:0 0 8px;}
+.persona-card h3 a{color:var(--ink);text-decoration:none;}
+.persona-card h3 a:hover{color:var(--brass);}
 .persona-card p,.persona-card ul{font-size:0.88rem;margin:0;max-width:none;}
 
 /* ---------- Scroll-reveal: cards fade/slide in as they enter the viewport ---------- */

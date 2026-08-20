@@ -48,6 +48,25 @@ methodology:
     - { title: 'Internal Linking', body: 'Related pages are connected deliberately, with anchor text that reflects the destination.' }
     - { title: 'Performance Monitoring', body: 'We track rankings and click-through data after launch to confirm it actually moved.' }
 
+before_after:
+    headers: ['Before', 'After']
+    rows:
+        - { a: 'Generic title', b: 'Intent-driven title' }
+        - { a: 'Weak H2s', b: 'Structured heading hierarchy' }
+        - { a: 'No internal links', b: 'Topic-cluster internal links' }
+        - { a: 'Keyword-stuffed meta description', b: 'CTR-focused meta description' }
+        - { a: 'Content written for the wrong intent', b: 'Content matched to what the searcher actually wants' }
+
+results:
+    - { label: 'Organic traffic growth', desc: 'Tracked against your baseline from month one, not projected before we start.' }
+    - { label: 'Click-through rate', desc: 'Measured directly on the titles and meta descriptions we rewrite.' }
+    - { label: 'Pages optimized', desc: 'Reported by priority tier, not padded with a total page count.' }
+    - { label: 'Conversion impact', desc: "Tied back to the GA4 events we set up, not a vanity metric." }
+proof_case_study:
+    stat: "Giri Trading Agency saw 180% organic traffic growth and a 45% ROI improvement after a full SEO pass that included on-page work at scale."
+    label: 'Read the case study'
+    url: /case-studies/giri-trading-ecommerce-growth
+
 deliverables_checklist:
     - { a: 'Title tags', b: '✓' }
     - { a: 'Meta descriptions', b: '✓' }
@@ -57,12 +76,38 @@ deliverables_checklist:
     - { a: 'Internal linking', b: '✓' }
     - { a: 'Schema recommendations', b: '✓' }
 
+tools_used: ['Google Search Console', 'GA4', 'Google Tag Manager', 'Screaming Frog', 'Ahrefs', 'SEMrush']
+
+industries:
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas }
+    - { label: 'Manufacturing', url: /industries/manufacturing }
+    - { label: 'Healthcare', url: /industries/healthcare }
+    - { label: 'Professional Services', url: /industries/professional-services }
+    - { label: 'Technology', url: /industries/technology }
+
 who_for:
     - 'B2B websites'
     - 'SaaS companies'
     - 'Manufacturing companies'
     - 'E-commerce stores'
     - 'Corporate websites'
+
+why_us:
+    - { title: 'We fix tracking before we touch rankings', body: "Every engagement starts with the same audit we'd run on our own accounts, so the numbers you're optimizing against are actually true." }
+    - { title: 'On-page and technical SEO, one team', body: 'The same team that restructures your pages also owns your technical foundation - no handoff, no blame-shifting between vendors.' }
+    - { title: 'Built for how AI search actually works', body: 'Every page we touch is structured to be extractable by AI answer engines, not just ranked in a list of blue links.' }
+    - { title: 'Reporting tied to your own dashboard', body: "Every number we report ties back to GA4/GTM events you can see directly - not a screenshot from a tool you can't independently verify." }
+
+expert_insight: "This fix is almost always faster than a technical SEO overhaul or a new content push, because it doesn't wait on anything new - it makes pages you've already built finally earn the ranking they were meant for."
+
+ai_relationships:
+    diagram: "On-Page SEO\n├── Technical SEO\n├── AI SEO\n├── AEO\n├── Entity SEO\n└── Content Strategy"
+    items:
+        - { title: 'Technical SEO', url: /services/seo/technical-seo, body: 'Makes sure a page can be crawled and indexed before on-page work has anything to build on.' }
+        - { title: 'AI SEO', url: /services/seo/ai-seo, body: 'Extends the same intent-matching principle to how AI answer engines decide what to cite.' }
+        - { title: 'AEO (Answer Engine Optimization)', url: /knowledge-hub/what-is-answer-engine-optimization, body: 'Structures the same content so it can be extracted directly into an AI-generated answer.' }
+        - { title: 'Entity SEO', body: 'Reinforces the same topic through consistent, structured entity signals across every page that mentions it.' }
+        - { title: 'Content Strategy', url: /services/content-marketing/content-strategy, body: 'Decides what a page should say before on-page SEO decides how it should be structured to rank.' }
 
 deliverables:
     - { a: 'Intent Audit', b: 'Page-by-page classification of intent match versus current content and structure' }
@@ -78,19 +123,6 @@ comparison:
         - { a: 'Titles balance relevance and click-through', b: 'Titles are stuffed with keyword variants' }
     note: "Keyword-only optimisation can still rank in the short term, but it rarely holds a position once a competitor publishes a page that actually matches intent."
 
-framework:
-    - { title: 'Intent Mapping', items: ['Classifying each priority page by informational, commercial, or transactional intent', 'Comparing current content against what is already ranking for the target query', 'Flagging pages built for the wrong intent entirely'] }
-    - { title: 'Title & Meta Architecture', items: ['Title tags written for both relevance and click-through, not just keyword inclusion', 'Meta descriptions that set accurate expectations', 'Consistent structure across page types at scale'] }
-    - { title: 'Header & Content Structure', items: ['Logical H1-H6 hierarchy that mirrors how the page should actually be read', 'Content sequencing that answers the core question before the supporting detail', 'Keyword placement that reads naturally rather than mechanically'] }
-    - { title: 'Internal Linking Architecture', items: ['Deliberate linking between related priority pages', 'Anchor text that reflects the destination page, not generic phrases', 'Link depth review so important pages are not buried'] }
-    - { title: 'On-Page Technical Hygiene', items: ['Image alt text for accessibility and image search', 'URL structure alignment', 'Duplicate or near-duplicate content review'] }
-
-who_needs_this:
-    - { title: 'Your technical SEO is solid but rankings are still flat', body: "That gap is almost always an intent mismatch, not a technical or authority problem - and it's the cheapest of the three to fix." }
-    - { title: "You've got hundreds of pages built by different people over time", body: 'Without a deliberate on-page pass, pages built months or years apart rarely follow the same discipline, and it shows in which ones actually rank.' }
-
-expert_insight: "This fix is almost always faster than a technical SEO overhaul or a new content push, because it doesn't wait on anything new - it makes pages you've already built finally earn the ranking they were meant for."
-
 faqs:
     - { q: 'What is On-Page SEO?', a: "On-page SEO is optimising everything on a specific page - titles, headers, content, images, and internal links - so it matches the intent behind the query it should rank for." }
     - { q: 'How long does it take?', a: "Technical fixes and metadata changes can show up within weeks of re-crawling. Content and structure changes that need re-indexing and re-ranking typically take four to eight weeks to fully reflect in rankings." }
@@ -98,14 +130,6 @@ faqs:
     - { q: 'Do you optimize existing pages?', a: "Yes - most engagements start with existing pages rather than new ones, since that's where organic potential is already sitting unused." }
     - { q: 'Do you rewrite content?', a: "Only where the content itself doesn't answer the query, not by default. Sometimes a page just needs restructuring; other times the underlying content needs a rewrite. We tell you which before starting." }
     - { q: 'How many pages does an engagement typically cover?', a: "We prioritise by organic potential rather than a fixed page count - a site's ten highest-value pages usually matter more than a blanket pass across two hundred low-traffic ones." }
-
-final_cta:
-    heading: 'Ready to Improve Your Organic Visibility?'
-    body: 'Get a comprehensive on-page SEO audit and actionable recommendations.'
-    primary_label: 'Request an SEO Audit'
-    primary_url: /contact
-    secondary_label: 'Book Consultation'
-    secondary_url: /contact
 
 cta:
     heading: 'Want to know which pages are optimised for the wrong intent?'
