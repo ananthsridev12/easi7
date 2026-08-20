@@ -125,9 +125,7 @@
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
     <h2>Tools &amp; platforms</h2>
-    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
-      {% for t in page.header.tools_used %}<span class="tag">{{ t }}</span>{% endfor %}
-    </div>
+    {% include 'partials/badge-grid.html.twig' with { items: page.header.tools_used } %}
   </div>
 </section>
 {% endif %}
@@ -138,15 +136,11 @@
   <div class="wrap">
     {% if page.header.industries %}
     <h2>Industries we optimize for</h2>
-    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
-      {% for ind in page.header.industries %}<a class="tag" href="{{ url(ind.url) }}">{{ ind.label }}</a>{% endfor %}
-    </div>
+    {% include 'partials/badge-grid.html.twig' with { items: page.header.industries } %}
     {% endif %}
     {% if page.header.who_for %}
-    <h2 style="margin-top:{{ page.header.industries ? '1.6em' : '0' }};">Built for teams like yours</h2>
-    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
-      {% for w in page.header.who_for %}<span class="tag">{{ w }}</span>{% endfor %}
-    </div>
+    <h2 style="margin-top:{{ page.header.industries ? '1.8em' : '0' }};">Built for teams like yours</h2>
+    {% include 'partials/badge-grid.html.twig' with { items: page.header.who_for } %}
     {% endif %}
   </div>
 </section>
