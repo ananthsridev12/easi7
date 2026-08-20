@@ -13,7 +13,7 @@
       <div class="cta-stats-row">
         {% for s in proof %}
         <div class="cta-stat">
-          <span class="num mono">{{ s.num }}</span>
+          <span class="num mono" data-count-to="{{ s.value }}" data-count-suffix="{{ s.suffix }}">0{{ s.suffix }}</span>
           <span class="lbl">{{ s.label }}</span>
         </div>
         {% endfor %}

@@ -16,10 +16,10 @@ hero:
         - { tag: 'Brand & Web Design', caption: 'Identity and interfaces designed to convert' }
         - { tag: 'Automation & CRM', caption: 'Leads scored, routed, and nurtured automatically' }
 stats:
-    - { num: '8+', label: 'Years in market' }
-    - { num: '15+', label: 'Engagements delivered' }
-    - { num: '3×', label: 'Avg. traffic growth' }
-    - { num: '40%', label: 'Avg. CPL reduction' }
+    - { value: 8, suffix: '+', label: 'Years in market' }
+    - { value: 15, suffix: '+', label: 'Engagements delivered' }
+    - { value: 3, suffix: '×', label: 'Avg. traffic growth' }
+    - { value: 40, suffix: '%', label: 'Avg. CPL reduction' }
 services_teaser:
     - /services/seo
     - /services/search-engine-marketing

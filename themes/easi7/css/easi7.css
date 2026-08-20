@@ -459,6 +459,21 @@ section.block.alt .persona-card{background:var(--paper);}
 .persona-card h3{font-size:1rem;margin:0 0 8px;}
 .persona-card p,.persona-card ul{font-size:0.88rem;margin:0;max-width:none;}
 
+/* ---------- Scroll-reveal: cards fade/slide in as they enter the viewport ---------- */
+.svc-card,.svc-card-alt,.engagement-card,.framework-card,.cs-card,.pf-card,.kb-card,.persona-card{
+  opacity:0;transform:translateY(14px);
+  transition:opacity .5s ease,transform .5s ease;
+}
+.svc-card.is-visible,.svc-card-alt.is-visible,.engagement-card.is-visible,.framework-card.is-visible,
+.cs-card.is-visible,.pf-card.is-visible,.kb-card.is-visible,.persona-card.is-visible{
+  opacity:1;transform:translateY(0);
+}
+@media (prefers-reduced-motion: reduce){
+  .svc-card,.svc-card-alt,.engagement-card,.framework-card,.cs-card,.pf-card,.kb-card,.persona-card{
+    opacity:1;transform:none;transition:none;
+  }
+}
+
 /* ---------- AI/search reference block: real, visible, consolidated detail above the footer ---------- */
 .ai-reference{background:var(--paper-raised);border-top:1px solid var(--line);}
 .ai-reference h2{font-size:1.3rem;}

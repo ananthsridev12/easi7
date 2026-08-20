@@ -44,10 +44,10 @@ engagement_models:
   - { title: 'Advisory', tag: 'Fractional', body: "Strategy and oversight without full delivery - we review what's already running, unblock decisions, and point an in-house or existing team in the right direction." }
 
 proof_stats:
-  - { num: '8+', label: 'Years in market' }
-  - { num: '15+', label: 'Engagements delivered' }
-  - { num: '3×', label: 'Avg. traffic growth' }
-  - { num: '40%', label: 'Avg. CPL reduction' }
+  - { value: 8, suffix: '+', label: 'Years in market' }
+  - { value: 15, suffix: '+', label: 'Engagements delivered' }
+  - { value: 3, suffix: '×', label: 'Avg. traffic growth' }
+  - { value: 40, suffix: '%', label: 'Avg. CPL reduction' }
 
 nav:
   - label: 'Digital Marketing'

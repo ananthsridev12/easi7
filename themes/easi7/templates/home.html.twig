@@ -45,7 +45,7 @@
 <section class="stat-strip">
   <div class="wrap stat-grid">
     {% for stat in page.header.stats %}
-    <div class="stat"><span class="num mono">{{ stat.num }}</span><span class="lbl">{{ stat.label }}</span></div>
+    <div class="stat"><span class="num mono" data-count-to="{{ stat.value }}" data-count-suffix="{{ stat.suffix }}">0{{ stat.suffix }}</span><span class="lbl">{{ stat.label }}</span></div>
     {% endfor %}
   </div>
 </section>
