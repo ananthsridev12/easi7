@@ -49,8 +49,8 @@
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <span class="eyebrow">The landscape</span>
-    <h2>What makes this hard to get right</h2>
+    <span class="eyebrow">{{ page.header.challenges_eyebrow ?? 'The landscape' }}</span>
+    <h2>{{ page.header.challenges_heading ?? 'What makes this hard to get right' }}</h2>
     <ul>
       {% for c in page.header.challenges %}<li>{{ c }}</li>{% endfor %}
     </ul>

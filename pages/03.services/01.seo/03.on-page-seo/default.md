@@ -2,8 +2,8 @@
 title: 'On-Page SEO'
 template: service-detail-c
 eyebrow: 'On-Page SEO'
-headline: 'Every page optimised for the query it should win'
-tagline: "Title tags, headers, internal linking, and content structure aligned to search intent, page by page - not applied as a template."
+headline: "Get Every Page Ranking for the Query It's Actually Built to Win"
+tagline: "We rebuild your titles, headers, content structure, and internal links around real search intent - so pages with good content and solid technical SEO finally rank for what they're worth."
 primary_intent: 'commercial - service research'
 entities: ['Title Tags', 'Header Structure', 'Internal Linking', 'Search Intent', 'Content Structure', 'Alt Text']
 tools: ['Title Tags', 'Internal Linking', 'Content Structure']
@@ -15,13 +15,17 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-definition: "<p>On-page SEO aligns everything on a page - title tag, headers, content, internal links - to the specific intent it needs to satisfy. It works page by page, which is why sites with solid technical foundations and a strong backlink profile can still underperform: individual pages are simply built for the wrong query.</p>"
+definition_heading: "Why solid pages still aren't winning the query"
+definition: "<p>You've fixed the technical foundation. Content is going out regularly. Rankings are still flat. Nine times out of ten, the pages themselves are built for the wrong intent - a product page reading like a blog post, a comparison page buried under keyword-stuffed headers instead of the answer someone's actually searching for. We rebuild the page itself - title, structure, and internal links - around what the searcher wants, not just the keyword it targets.</p>"
 definition_answer: "On-page SEO is optimising the content and structure of a specific page so it matches what someone searching that query actually wants to find."
-why_it_matters: "<p>A product page written like a blog post loses to a competitor's page that answers the transactional question directly - price, availability, how to buy. That intent mismatch is one of the most common, and most fixable, reasons a page with decent content and decent links still underperforms. Good technical SEO gets a page crawled and indexed; good on-page SEO decides what it actually gets indexed for, so skipping this layer means the rest of your SEO investment is aimed imprecisely.</p>"
+why_it_matters_heading: "What intent mismatch is actually costing you"
+why_it_matters: "<p>Every page a competitor outranks you on for the right intent is qualified traffic going somewhere else. Good technical SEO gets a page crawled; on-page SEO decides what it actually ranks for - so skipping this step means the rest of your SEO budget is aimed at pages that can't convert it. It's also one of the few fixes that shows up in weeks, not quarters, because it doesn't wait on new content or new links - it makes the pages you've already built finally earn what they were meant to rank for.</p>"
+challenges_eyebrow: 'The signs'
+challenges_heading: 'Signs your pages are fighting the wrong intent'
 challenges:
-    - 'Title tags and headers are frequently optimised for a keyword the page does not actually satisfy the intent of'
-    - 'Internal linking is often an afterthought, added inconsistently rather than as a deliberate architecture'
-    - 'Content-to-intent mismatches are invisible without checking what is actually ranking for a given query'
+    - "Your title tags target a keyword the page doesn't actually satisfy the intent behind"
+    - 'Internal linking got added inconsistently, page by page, instead of built as a deliberate structure'
+    - "You can't tell which pages are mismatched without manually checking what's actually ranking for each query"
 framework:
     - { title: 'Intent Mapping', items: ['Classifying each priority page by informational, commercial, or transactional intent', 'Comparing current content against what is already ranking for the target query', 'Flagging pages built for the wrong intent entirely'] }
     - { title: 'Title & Meta Architecture', items: ['Title tags written for both relevance and click-through, not just keyword inclusion', 'Meta descriptions that set accurate expectations', 'Consistent structure across page types at scale'] }
@@ -47,8 +51,9 @@ comparison:
         - { a: 'Titles balance relevance and click-through', b: 'Titles are stuffed with keyword variants' }
     note: "Keyword-only optimisation can still rank in the short term, but it rarely holds a position once a competitor publishes a page that actually matches intent."
 who_needs_this:
-    - { title: 'Sites with strong technical SEO but flat rankings', body: 'If the foundation is solid and rankings still lag, on-page intent mismatch is a common cause.' }
-    - { title: 'Sites with a large page count and inconsistent structure', body: 'Pages built at different times by different people rarely follow the same on-page discipline without a deliberate pass.' }
+    - { title: 'Your technical SEO is solid but rankings are still flat', body: "That gap is almost always an intent mismatch, not a technical or authority problem - and it's the cheapest of the three to fix." }
+    - { title: "You've got hundreds of pages built by different people over time", body: 'Without a deliberate on-page pass, pages built months or years apart rarely follow the same discipline, and it shows in which ones actually rank.' }
+expert_insight: "This fix is almost always faster than a technical SEO overhaul or a new content push, because it doesn't wait on anything new - it makes pages you've already built finally earn the ranking they were meant for."
 faqs:
     - { q: 'How is on-page SEO different from content strategy?', a: "Content strategy decides what to write about and why. On-page SEO structures a page that already has content so it matches the intent behind the query it should win - titles, headers, sequencing, and internal links." }
     - { q: 'Can on-page SEO fix a page that has no backlinks?', a: "It can improve how well a page matches intent, which helps it rank better for what it deserves to rank for, but it will not substitute for authority signals a competitive query genuinely requires." }
