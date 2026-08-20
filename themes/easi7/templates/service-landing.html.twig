@@ -17,7 +17,6 @@
 
 <section class="page-hero">
   <div class="wrap">
-    <span class="eyebrow">{{ page.header.eyebrow ?? 'Service' }}</span>
     <h1>{{ page.header.headline ?? page.title }}</h1>
     {% if page.header.tagline %}<p class="lede">{{ page.header.tagline }}</p>{% endif %}
     {% if page.header.hero_cta %}
@@ -35,7 +34,6 @@
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <span class="eyebrow">Overview</span>
     <h2>What is {{ page.title }}?</h2>
     <div>{{ page.header.definition|raw }}</div>
   </div>
@@ -46,7 +44,6 @@
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <span class="eyebrow">The problem</span>
     <h2>Common problems we solve</h2>
     {% include 'partials/persona-grid.html.twig' with { items: page.header.problems } %}
   </div>
@@ -57,7 +54,6 @@
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <span class="eyebrow">What's included</span>
     <h2>Everything covered in this service</h2>
     {% include 'partials/persona-grid.html.twig' with { items: page.header.included } %}
   </div>
@@ -68,7 +64,6 @@
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <span class="eyebrow">Our process</span>
     <h2>Our optimization framework</h2>
     <div class="process-line"></div>
     <div class="process">
@@ -84,7 +79,6 @@
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <span class="eyebrow">Deliverables</span>
     <h2>What you get</h2>
     {% include 'partials/data-table.html.twig' with { headers: ['Deliverable', 'Included'], rows: page.header.deliverables_checklist } %}
   </div>
@@ -95,7 +89,6 @@
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <span class="eyebrow">Who it's for</span>
     <h2>Built for teams like yours</h2>
     <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1em;">
       {% for w in page.header.who_for %}<span class="tag">{{ w }}</span>{% endfor %}
@@ -107,7 +100,6 @@
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <span class="eyebrow">Related services</span>
     <h2>Related SEO services</h2>
     {% include 'partials/related-services.html.twig' with { page: page } %}
   </div>
@@ -116,7 +108,6 @@
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <span class="eyebrow">Ways of working</span>
     <h2>How to engage us for this</h2>
     {% include 'partials/engagement-models.html.twig' %}
   </div>
@@ -126,7 +117,6 @@
 {% set sc = sc + 1 %}
 <section class="block {{ cycle(['', 'alt'], sc) }}">
   <div class="wrap">
-    <span class="eyebrow">FAQs</span>
     <h2>Common questions</h2>
     {% include 'partials/faq.html.twig' with { faqs: page.header.faqs } %}
   </div>
@@ -154,7 +144,6 @@
 {% if page.header.framework or page.header.who_needs_this or page.header.expert_insight %}
 <section class="block" style="border-bottom:none;">
   <div class="wrap">
-    <span class="eyebrow">Full detail</span>
     <h2>{{ page.title }}, in depth</h2>
   </div>
 </section>
@@ -162,7 +151,6 @@
 {% if page.header.framework %}
 <section class="block alt">
   <div class="wrap">
-    <span class="eyebrow">Full framework</span>
     <h2>How we approach it, step by step</h2>
     {% include 'partials/framework-grid.html.twig' with { items: page.header.framework } %}
   </div>
@@ -172,7 +160,6 @@
 {% if page.header.who_needs_this %}
 <section class="block">
   <div class="wrap">
-    <span class="eyebrow">Fit, in more detail</span>
     <h2>Is this actually right for you?</h2>
     {% include 'partials/persona-grid.html.twig' with { items: page.header.who_needs_this } %}
   </div>
@@ -182,7 +169,6 @@
 {% if page.header.expert_insight %}
 <section class="block alt">
   <div class="wrap">
-    <span class="eyebrow">A closer look</span>
     <blockquote>{{ page.header.expert_insight }}</blockquote>
   </div>
 </section>
