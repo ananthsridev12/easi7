@@ -3,6 +3,15 @@
   Closing stats + lead-capture split panel - reused verbatim on every page (home, services, apps, case studies, etc.)
 #}
 {% set proof = config.themes.easi7.proof_stats ?? [] %}
+{% set page_service = page.header.taxonomy.service[0] ?? null %}
+{% set parent_service = (page.parent and page.parent.header.taxonomy.service is defined) ? (page.parent.header.taxonomy.service[0] ?? null) : null %}
+{% if parent_service %}
+  {% set cta_service = parent_service %}
+  {% set cta_subservice = page_service %}
+{% else %}
+  {% set cta_service = page_service %}
+  {% set cta_subservice = null %}
+{% endif %}
 <section class="block cta-band">
   <div class="wrap cta-split">
     <div class="cta-stats-panel">
@@ -30,6 +39,13 @@
       <p class="cta-form-note">We usually reply within 24 hours.</p>
       <form action="/submit-form.php" method="POST">
         <input type="hidden" name="page" value="{{ page.url() }}">
+        <input type="hidden" name="form_location" value="closing_cta_panel">
+        {% if cta_service %}<input type="hidden" name="service" value="{{ cta_service }}">{% endif %}
+        {% if cta_subservice %}<input type="hidden" name="subservice" value="{{ cta_subservice }}">{% endif %}
+        <input type="hidden" name="utm_source" value=""><input type="hidden" name="utm_medium" value="">
+        <input type="hidden" name="utm_campaign" value=""><input type="hidden" name="utm_term" value="">
+        <input type="hidden" name="utm_content" value=""><input type="hidden" name="gclid" value="">
+        <input type="hidden" name="fbclid" value="">
         <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;" aria-hidden="true">
         <label>Name<input type="text" name="name" placeholder="Jane Doe" required></label>
         <label>Email<input type="email" name="email" placeholder="jane@company.com" required></label>

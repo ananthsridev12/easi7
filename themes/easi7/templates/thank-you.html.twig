@@ -13,4 +13,22 @@
     </div>
   </div>
 </section>
+<script>
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  if (![...params.keys()].length) return;
+  var trackedKeys = ['lead_id', 'service', 'subservice', 'form_location', 'source_page',
+    'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid'];
+  var payload = { event: 'lead_submitted' };
+  trackedKeys.forEach(function (key) {
+    var value = params.get(key);
+    if (value) payload[key] = value;
+  });
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push(payload);
+  if (window.history && window.history.replaceState) {
+    window.history.replaceState({}, document.title, window.location.pathname);
+  }
+})();
+</script>
 {% endblock %}

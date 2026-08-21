@@ -14,6 +14,11 @@ sitemap:
 
 <form id="contact-form" class="contact-form" action="/submit-form.php" method="POST">
     <input type="hidden" name="page" value="/contact">
+    <input type="hidden" name="form_location" value="contact_page">
+    <input type="hidden" name="utm_source" value=""><input type="hidden" name="utm_medium" value="">
+    <input type="hidden" name="utm_campaign" value=""><input type="hidden" name="utm_term" value="">
+    <input type="hidden" name="utm_content" value=""><input type="hidden" name="gclid" value="">
+    <input type="hidden" name="fbclid" value="">
     <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;" aria-hidden="true">
 
     <div class="form-row">

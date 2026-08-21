@@ -193,6 +193,47 @@
     start();
   }
 
+  var ATTRIBUTION_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid'];
+  var ATTRIBUTION_STORAGE_KEY = 'easi7_attribution';
+
+  function initAttributionCapture() {
+    // First-touch attribution: capture UTM/click-id params the first time
+    // they appear in the URL, then keep them in localStorage untouched (even
+    // across separate visits) so a later direct/organic visit that fills out
+    // a form still credits the campaign that originally brought them in.
+    var stored;
+    try {
+      stored = JSON.parse(window.localStorage.getItem(ATTRIBUTION_STORAGE_KEY) || 'null');
+    } catch (e) {
+      stored = null;
+    }
+    if (!stored) {
+      var params = new URLSearchParams(window.location.search);
+      var found = {};
+      var hasAny = false;
+      ATTRIBUTION_KEYS.forEach(function (key) {
+        var value = params.get(key);
+        if (value) {
+          found[key] = value;
+          hasAny = true;
+        }
+      });
+      if (hasAny) {
+        try { window.localStorage.setItem(ATTRIBUTION_STORAGE_KEY, JSON.stringify(found)); } catch (e) { /* storage unavailable */ }
+        stored = found;
+      }
+    }
+    if (!stored) return;
+
+    // Fill in any matching hidden fields already present on the page's forms.
+    ATTRIBUTION_KEYS.forEach(function (key) {
+      if (!stored[key]) return;
+      document.querySelectorAll('input[name="' + key + '"]').forEach(function (input) {
+        if (!input.value) input.value = stored[key];
+      });
+    });
+  }
+
   function initTransparentHeader() {
     if (!document.body.classList.contains('header-transparent')) return;
     var header = document.querySelector('header.site');
@@ -212,5 +253,6 @@
     initScrollReveal();
     initHeroSlider();
     initTransparentHeader();
+    initAttributionCapture();
   });
 })();
