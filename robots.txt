@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /leads-admin.php
+Disallow: /submit-form.php
+Disallow: /thank-you
+
+Sitemap: https://easi7.in/sitemap.xml

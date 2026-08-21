@@ -13,4 +13,5 @@ deployment:
     - /bin/cp submit-form.php /home1/de2shrnx/public_html/submit-form.php
     - /bin/cp leads-admin.php /home1/de2shrnx/public_html/leads-admin.php
     - /bin/cp llms.txt /home1/de2shrnx/public_html/llms.txt
+    - /bin/cp robots.txt /home1/de2shrnx/public_html/robots.txt
     - /bin/rm -rf /home1/de2shrnx/public_html/cache/*

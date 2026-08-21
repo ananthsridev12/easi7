@@ -43,3 +43,24 @@
 {% include 'partials/cta-band.html.twig' with page.header.cta %}
 {% endif %}
 {% endblock %}
+
+{% block stylesheets %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": {{ (page.url(true) ~ '#article')|json_encode(64)|raw }},
+  "headline": {{ page.title|json_encode(64)|raw }},
+  "description": {{ description|json_encode(64)|raw }},
+  "datePublished": {{ page.date|date('c')|json_encode(64)|raw }},
+  "author": {
+    "@type": "Person",
+    "name": {{ (page.header.author ?? 'EASI7 Team')|json_encode(64)|raw }}
+  },
+  "publisher": { "@id": {{ (url('/', true) ~ '#organization')|json_encode(64)|raw }} },
+  "mainEntityOfPage": {{ page.url(true)|json_encode(64)|raw }}{% if page.taxonomy.category %},
+  "articleSection": {{ page.taxonomy.category[0]|json_encode(64)|raw }}{% endif %}{% if page.taxonomy.tag %},
+  "keywords": {{ page.taxonomy.tag|join(', ')|json_encode(64)|raw }}{% endif %}
+}
+</script>
+{% endblock %}

@@ -41,3 +41,29 @@
   </div>
 </section>
 {% endblock %}
+
+{% block stylesheets %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": {{ (page.url(true) ~ '#collection')|json_encode(64)|raw }},
+  "name": {{ page.title|json_encode(64)|raw }},
+  "url": {{ page.url(true)|json_encode(64)|raw }},
+  "isPartOf": { "@id": {{ (url('/', true) ~ '#website')|json_encode(64)|raw }} },
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {% for item in page.collection() %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "url": {{ item.url(true)|json_encode(64)|raw }},
+        "name": {{ item.title|json_encode(64)|raw }}
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+}
+</script>
+{% endblock %}
