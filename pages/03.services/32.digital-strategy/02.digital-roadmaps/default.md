@@ -1,6 +1,6 @@
 ---
 title: 'Digital Roadmaps'
-template: service-detail-b
+template: service-landing
 eyebrow: 'Digital Strategy'
 headline: 'Get a Sequenced Plan, Not a Wishlist of Initiatives'
 tagline: 'We sequence your digital initiatives by dependency and impact, tested against what your team can actually carry.'
@@ -15,47 +15,95 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Most roadmaps fail before execution even starts, because everything on them is marked high priority and nothing is sequenced against what genuinely has to come first. We turn a growing list of initiatives - new platform, new integration, a content overhaul - into an actual order of operations, tested against what your team can realistically carry.</p>"
-overview_answer: "A digital roadmap is a sequenced, dependency-aware plan for executing a set of digital initiatives in a realistic order, built against actual team capacity rather than a flat list of priorities."
-capabilities:
-    - { title: 'Initiative Inventory & Scoring', items: ['Full inventory of proposed and in-flight initiatives', 'Impact scoring against defined business goals', 'Effort estimation grounded in actual team capacity'] }
-    - { title: 'Dependency Mapping', items: ['Identifying what has to be built or decided before something else can start', 'Surfacing hidden technical and organisational dependencies', 'Flagging initiatives that conflict for the same resources'] }
-    - { title: 'Roadmap Structuring', items: ['Quarterly or phased roadmap structure', 'Realistic sequencing based on dependency, not preference', 'Built-in checkpoints for reprioritisation as conditions change'] }
-    - { title: 'Stakeholder Alignment', items: ['Facilitated sessions to align teams on sequencing decisions', 'A shared rationale document explaining why the order is what it is', 'A process for handling new requests without derailing the sequence'] }
+hero_cta:
+    primary_label: 'Get a Roadmap Session'
+    primary_url: /contact
+    secondary_label: 'Talk to an Expert'
+    secondary_url: /contact
+
+definition: "<p>A digital roadmap is a sequenced, dependency-aware plan for executing a set of digital initiatives in a realistic order, built against actual team capacity rather than a flat list of priorities. Most roadmaps fail before execution even starts, because everything on them is marked high priority and nothing is sequenced against what genuinely has to come first.</p><p>Skip the sequencing and initiatives compete for the same resources at the same time, hidden dependencies cause mid-project stalls, and a roadmap that assumes unlimited bandwidth stops functioning as a real plan.</p><p>It's different from a project plan, which details how one initiative gets executed. A digital roadmap sits a level above that - it decides which initiatives happen in what order and why, before any single one gets a detailed project plan.</p>"
+definition_answer: "A digital roadmap is a sequenced, dependency-aware plan for executing a set of digital initiatives in a realistic order, built against actual team capacity rather than a flat list of priorities."
+
+problems:
+    - { title: 'Growing, unsequenced backlog', body: 'A backlog of digital initiatives keeps growing with no agreed order to execute them in.' }
+    - { title: 'Everything marked high priority', body: 'Nothing is sequenced against what genuinely has to come first, so nothing is actually prioritised.' }
+    - { title: 'Hidden dependencies cause stalls', body: 'A core system replacement that other initiatives secretly depend on derails the schedule mid-project.' }
+    - { title: 'Leadership disagrees on order', body: 'Teams greenlight new projects without checking what they conflict with.' }
+    - { title: 'Roadmap assumes unlimited bandwidth', body: 'The plan is built against an idealised team capacity, not the real one.' }
+
 included:
-    - { a: 'Inventory & Scoring', b: 'A scored list of every initiative under consideration, with impact and effort estimates' }
-    - { a: 'Dependency Map', b: 'A visual and written map of what depends on what' }
-    - { a: 'Roadmap', b: 'A phased or quarterly roadmap with a documented rationale for the order' }
-    - { a: 'Alignment Sessions', b: 'Facilitated stakeholder sessions to get sign-off on the sequencing' }
-how_we_work:
-    - { title: 'Initiative Inventory', body: 'Every proposed and in-flight initiative gets logged in one place, often for the first time - a surprising number of roadmap exercises start by discovering duplicate or conflicting work already underway.' }
-    - { title: 'Impact & Effort Scoring', body: 'Each initiative is scored against defined business goals and realistic effort, replacing gut-feel prioritisation with a comparable measure.' }
+    - { title: 'Initiative Inventory & Scoring', body: 'A full inventory of proposed and in-flight initiatives, with impact scoring against defined business goals.' }
+    - { title: 'Dependency Mapping', body: 'Identifying what has to be built or decided before something else can start, including hidden dependencies.' }
+    - { title: 'Roadmap Structuring', body: 'A quarterly or phased roadmap structure with realistic sequencing based on dependency, not preference.' }
+    - { title: 'Stakeholder Alignment', body: 'Facilitated sessions and a shared rationale document explaining why the order is what it is.' }
+
+methodology:
+    - { title: 'Inventory', body: 'Every proposed and in-flight initiative gets logged in one place, often for the first time - a surprising number of roadmap exercises start by discovering duplicate or conflicting work already underway.' }
+    - { title: 'Scoring', body: 'Each initiative is scored against defined business goals and realistic effort, replacing gut-feel prioritisation with a comparable measure.' }
     - { title: 'Dependency Mapping', body: 'We map what genuinely has to happen before something else can - a CRM migration before automation can be built on top of it, for example.' }
-    - { title: 'Resourcing Reality Check', body: "The sequence gets tested against actual team capacity, not an idealised one - a roadmap that assumes unlimited bandwidth isn't a plan." }
-    - { title: 'Roadmap Structuring', body: 'Initiatives are organised into a phased or quarterly structure that reflects the dependency map, not a simple priority-ranked list.' }
-    - { title: 'Stakeholder Alignment', body: 'We walk stakeholders through the rationale for the sequence, so buy-in exists before execution starts rather than being negotiated mid-project.' }
+    - { title: 'Capacity Check', body: "The sequence gets tested against actual team capacity, not an idealised one - a roadmap that assumes unlimited bandwidth isn't a plan." }
+    - { title: 'Structuring', body: 'Initiatives are organised into a phased or quarterly structure that reflects the dependency map, not a simple priority-ranked list.' }
+    - { title: 'Alignment', body: 'We walk stakeholders through the rationale for the sequence, so buy-in exists before execution starts rather than being negotiated mid-project.' }
+
+before_after:
+    headers: ['Before', 'After']
+    rows:
+        - { a: 'Order reflects who advocated loudest', b: 'Order reflects what has to happen before what' }
+        - { a: 'Assumes unlimited bandwidth', b: 'Tested against actual team capacity' }
+        - { a: 'Most items get marked high priority', b: 'Everything cannot be top priority by definition' }
+        - { a: 'Initiatives conflict for the same resources mid-project', b: 'Resource conflicts get caught before scheduling, not during execution' }
+
+results:
+    - { label: 'Initiatives sequenced', desc: 'Reported against the full inventory scored and placed into the roadmap.' }
+    - { label: 'Dependency conflicts caught', desc: 'Tracked as hidden dependencies surfaced before they could cause a mid-project stall.' }
+    - { label: 'Stakeholder alignment', desc: 'Measured by sign-off secured through facilitated sessions before execution starts.' }
+    - { label: 'Roadmap adherence', desc: 'Reviewed at each checkpoint against how closely execution followed the sequenced plan.' }
+
+deliverables_checklist:
+    - { a: 'Inventory & Scoring', b: '✓' }
+    - { a: 'Dependency Map', b: '✓' }
+    - { a: 'Roadmap', b: '✓' }
+    - { a: 'Alignment Sessions', b: '✓' }
+
+tools_used:
+    - { label: 'GA4', icon: '&#128202;' }
+    - { label: 'HubSpot', icon: '&#128188;' }
+    - { label: 'Segment', icon: '&#128279;' }
+
+industries:
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas, icon: '&#128188;' }
+    - { label: 'Technology', url: /industries/technology, icon: '&#128187;' }
+    - { label: 'Professional Services', url: /industries/professional-services, icon: '&#129309;' }
+    - { label: 'Manufacturing', url: /industries/manufacturing, icon: '&#127981;' }
+
+who_for:
+    - { label: 'Teams with more initiatives than capacity', icon: '&#128203;' }
+    - { label: 'Leadership teams disagreeing on priorities', icon: '&#129309;' }
+    - { label: 'Organisations replacing a core system', icon: '&#9881;&#65039;' }
+    - { label: 'Scaling companies', icon: '&#128640;' }
+    - { label: 'Digital transformation teams', icon: '&#127919;' }
+
+why_us:
+    - { title: 'We fix tracking before we touch results', body: "Every engagement starts with the same audit we'd run on our own accounts, so the numbers you're optimizing against are actually true." }
+    - { title: 'One accountable team, not siloed vendors', body: 'The same team that does this also owns the rest of your stack - no handoff, no blame-shifting between vendors.' }
+    - { title: 'Built for how AI search actually works', body: 'Everything we build is structured to be extractable by AI answer engines, not just ranked in a list of blue links.' }
+    - { title: 'Reporting tied to your own dashboard', body: "Every number we report ties back to GA4/GTM events you can see directly - not a screenshot from a tool you can't independently verify." }
+
+expert_insight: "We document the rationale, so the roadmap survives a change in who's advocating for what."
+
 comparison:
     headers: ['Dependency-Sequenced Roadmap', 'Priority-Ranked Wishlist']
     rows:
         - { a: 'Order reflects what has to happen before what', b: 'Order reflects who advocated loudest' }
         - { a: 'Tested against actual team capacity', b: 'Assumes unlimited bandwidth' }
         - { a: 'Everything cannot be top priority by definition', b: 'Most items get marked high priority' }
-use_cases:
-    - 'A company with a growing backlog of digital initiatives and no agreed order to execute them in'
-    - 'A leadership team that keeps greenlighting new projects without checking what they conflict with'
-    - 'An organisation replacing a core system that several other initiatives secretly depend on'
-who_needs_this:
-    - { title: 'Teams with more initiatives than capacity', body: 'When the backlog keeps growing and nothing gets fully finished, sequencing is usually the missing piece, not more resourcing.' }
-    - { title: 'Leadership teams that disagree on what comes first', body: 'A documented dependency map turns a political debate into a factual one.' }
-benefits:
-    - 'Initiatives stop competing for the same resources at the same time'
-    - 'Teams can see why something is scheduled where it is, reducing pushback mid-execution'
-    - 'Hidden dependencies get caught before they cause a mid-project stall'
-    - 'Leadership gets a single reference document instead of competing verbal priorities'
-why_choose_us:
-    - "We sequence by dependency first, not by whichever initiative has the most internal momentum behind it"
-    - 'We test the roadmap against your actual team capacity rather than an idealised version of it'
-    - "We document the rationale, so the roadmap survives a change in who's advocating for what"
+
+deliverables:
+    - { a: 'Inventory & Scoring', b: 'A scored list of every initiative under consideration, with impact and effort estimates' }
+    - { a: 'Dependency Map', b: 'A visual and written map of what depends on what' }
+    - { a: 'Roadmap', b: 'A phased or quarterly roadmap with a documented rationale for the order' }
+    - { a: 'Alignment Sessions', b: 'Facilitated stakeholder sessions to get sign-off on the sequencing' }
+
 faqs:
     - { q: 'How is a digital roadmap different from a project plan?', a: "A project plan details how one initiative gets executed. A digital roadmap sits a level above that - it decides which initiatives happen in what order and why, before any single one gets a detailed project plan." }
     - { q: 'How often should a digital roadmap be revisited?', a: "Quarterly is typical for most organisations - frequent enough to absorb new priorities and changed conditions, infrequent enough that the plan actually gets a chance to be executed rather than constantly rewritten." }

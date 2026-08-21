@@ -1,12 +1,11 @@
 ---
 title: 'Corporate Website Development'
-template: service-detail-a
+template: service-landing
 eyebrow: 'Website Development'
 headline: 'Win A Skeptical Buyer In The First Five Seconds'
 tagline: 'A corporate website built to establish credibility fast with B2B and enterprise audiences.'
 primary_intent: 'commercial - service research'
 entities: ['Corporate Website', 'Information Architecture', 'Trust Signals', 'Multi-Department CMS', 'Brand Consistency']
-tools: ['Information Architecture Mapping', 'Trust Signal Audits', 'Role-Based CMS Permissions']
 service_url: /services/website-development/corporate-website-development
 taxonomy:
     service: ['Corporate Website Development']
@@ -15,28 +14,94 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-problem: "<p>A corporate site has one real job in the first five seconds - convince a skeptical visitor this is a real, established business worth their time - and most sites fail that test without realizing it. Credentials get buried on an about page nobody reaches, client logos sit below the fold, and navigation reflects the internal org chart instead of the questions a visitor actually has.</p>"
-solution: "<p>We structure the site around how a skeptical, risk-averse visitor actually evaluates a business - what they need to see, in what order, before they trust it enough to act. That means deliberate trust signal placement, navigation built around stakeholder questions instead of internal structure, and a CMS setup that lets each department keep its own section current without funnelling every update through one person.</p>"
-solution_answer: "Corporate website development is building a site structured to establish credibility quickly with B2B and enterprise visitors, through deliberate trust signal placement, stakeholder-driven navigation, and a CMS multiple departments can maintain independently."
-approach: "<p>We map who actually visits the site and what each of them needs to see before they'll take it seriously - a procurement lead, a prospective partner, and a job applicant are not looking for the same thing, and one generic homepage rarely serves them all. We build the information architecture around those paths first, then layer in design and trust signals.</p>"
-capabilities:
-    - { title: 'Information Architecture', items: ['Audience and stakeholder mapping', 'Page hierarchy built around visitor questions, not org charts', 'Navigation tested against how people actually search for information'] }
-    - { title: 'Trust Signal Placement', items: ['Credentials, certifications, and compliance markers', 'Client and partner presence placed where skepticism is highest', 'Leadership and company history positioned for credibility, not vanity'] }
-    - { title: 'Multi-Department Site Structure', items: ['Department and division-specific sections', 'Consistent structure maintained across dozens of pages', 'Separate paths for investor, press, partner, and buyer visitors'] }
-    - { title: 'Brand-Consistent Implementation', items: ['Design system applied uniformly sitewide', 'Reusable component library for future page additions'] }
-    - { title: 'CMS Setup for Internal Ownership', items: ['Editable templates built for non-technical staff', 'Role-based access so departments manage their own sections', 'Handoff documentation for internal teams'] }
+
+hero_cta:
+    primary_label: 'Get a Free Estimate'
+    primary_url: /contact
+    secondary_label: 'Talk to an Expert'
+    secondary_url: /contact
+
+definition: "<p>Corporate website development is building a multi-page site structured to establish credibility quickly with B2B and enterprise visitors - deliberate trust signal placement, stakeholder-driven navigation, and a CMS multiple departments can maintain independently.</p><p>Skip it and the cost shows up quietly: a skeptical visitor forms an impression in the first few seconds, and a site with buried credentials, org-chart navigation, and one CMS bottleneck loses that visitor before a single word of copy gets read.</p><p>It's different from a standard business website, which usually serves one visitor type deciding one thing. A corporate site serves buyers, press, investors, and job applicants at once, across dozens of pages, which is what actually drives the information architecture and CMS decisions.</p>"
+definition_answer: "Corporate website development is building a site structured to establish credibility quickly with B2B and enterprise visitors, through deliberate trust signal placement, stakeholder-driven navigation, and a CMS multiple departments can maintain independently."
+
+problems:
+    - { title: 'Buried credentials', body: 'Certifications and trust signals sit on an about page nobody reaches.' }
+    - { title: 'Org-chart navigation', body: 'Menu structure reflects internal departments instead of visitor questions.' }
+    - { title: 'One-person CMS bottleneck', body: 'Every update across the site routes through a single person.' }
+    - { title: 'Generic homepage for every visitor', body: 'A procurement lead, a partner, and a job applicant all land on the same undifferentiated page.' }
+    - { title: 'Inconsistent branding across sections', body: 'Pages built up over years read as stitched together from different eras.' }
+    - { title: 'Slow first impression', body: 'A skeptical visitor decides within seconds, and the site gives them nothing to trust in that window.' }
+
+included:
+    - { title: 'Information Architecture', body: 'Page hierarchy and navigation built around visitor questions, not the org chart.' }
+    - { title: 'Trust Signal Placement', body: 'Credentials, certifications, and client presence placed where skepticism is highest.' }
+    - { title: 'Multi-Department Site Structure', body: 'Consistent structure maintained across dozens of pages, with separate paths for buyer, press, and partner visitors.' }
+    - { title: 'Brand-Consistent Implementation', body: 'A design system and reusable component library applied uniformly sitewide.' }
+    - { title: 'CMS Setup for Internal Ownership', body: 'Role-based access so each department can maintain its own section without a developer.' }
+
+methodology:
+    - { title: Map, body: 'We identify who actually visits the site and what each group needs to see before they trust it.' }
+    - { title: Architect, body: 'Page hierarchy and navigation are built around those visitor paths, not the internal org chart.' }
+    - { title: Design, body: 'Credentials, certifications, and proof points are placed where skepticism actually peaks, not wherever there was space.' }
+    - { title: Build, body: 'The site is built with role-based access so each department can own its own section going forward.' }
+    - { title: Migrate, body: 'Existing content is migrated and each department is walked through updating its own pages.' }
+    - { title: Launch, body: 'We train internal staff on routine updates so the site does not depend on a developer for basic changes.' }
+
+before_after:
+    headers: ['Before', 'After']
+    rows:
+        - { a: 'Credentials buried on an about page', b: 'Trust signals placed where skepticism is highest' }
+        - { a: 'Navigation copied from a template', b: 'Navigation built around stakeholder questions' }
+        - { a: 'One CMS user manages everything', b: 'Each department owns and updates its own section' }
+        - { a: 'One generic homepage for every visitor', b: 'Paths built for buyer, press, partner, and applicant' }
+        - { a: 'Updates wait on a developer', b: 'Internal staff trained on routine updates' }
+
+results:
+    - { label: 'First-impression signals', desc: 'Whether trust signals and credentials appear before a visitor decides to leave, checked directly on the live pages.' }
+    - { label: 'CMS adoption by department', desc: 'Tracked by how many departments are actually publishing updates in their own section, not just granted access.' }
+    - { label: 'Navigation clarity', desc: 'Reviewed against how visitors actually move through the site, using the analytics already in place.' }
+    - { label: 'Page structure coverage', desc: 'Reported by stakeholder path completed - buyer, press, partner, applicant - not a raw page count.' }
+
+tools_used:
+    - { label: 'WordPress', icon: '&#128187;' }
+    - { label: 'Webflow', icon: '&#127760;' }
+    - { label: 'Figma', icon: '&#127912;' }
+    - { label: 'Google Search Console', icon: '&#128269;' }
+    - { label: 'GA4', icon: '&#128202;' }
+
+industries:
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas, icon: '&#128188;' }
+    - { label: 'Manufacturing', url: /industries/manufacturing, icon: '&#127981;' }
+    - { label: 'Financial Services', url: /industries/financial-services, icon: '&#127974;' }
+    - { label: 'Professional Services', url: /industries/professional-services, icon: '&#129309;' }
+    - { label: 'Technology', url: /industries/technology, icon: '&#128187;' }
+
+who_for:
+    - { label: 'Enterprises replacing an outdated site', icon: '&#127970;' }
+    - { label: 'Multi-department organizations', icon: '&#128101;' }
+    - { label: 'B2B and SaaS companies', icon: '&#128188;' }
+    - { label: 'Manufacturing companies', icon: '&#127981;' }
+    - { label: 'Professional services firms', icon: '&#129309;' }
+
+why_us:
+    - { title: 'We fix tracking before we touch results', body: "Every engagement starts with the same audit we'd run on our own accounts, so the numbers you're optimizing against are actually true." }
+    - { title: 'One accountable team, not siloed vendors', body: 'The same team that does this also owns the rest of your stack - no handoff, no blame-shifting between vendors.' }
+    - { title: 'Built for how AI search actually works', body: 'Everything we build is structured to be extractable by AI answer engines, not just ranked in a list of blue links.' }
+    - { title: 'Reporting tied to your own dashboard', body: "Every number we report ties back to GA4/GTM events you can see directly - not a screenshot from a tool you can't independently verify." }
+
+deliverables_checklist:
+    - { a: 'Information architecture & sitemap', b: '✓' }
+    - { a: 'Brand-consistent page templates', b: '✓' }
+    - { a: 'CMS build with department-level access', b: '✓' }
+    - { a: 'Trust signal placement', b: '✓' }
+    - { a: 'Content migration', b: '✓' }
+    - { a: 'Internal staff training', b: '✓' }
+
 deliverables:
     - { a: 'Information Architecture', b: 'Full sitemap and navigation structure mapped to stakeholder types' }
     - { a: 'Design', b: 'Brand-consistent templates covering every page type in the structure' }
     - { a: 'Build', b: 'CMS-built site with department-level content ownership' }
     - { a: 'Trust Signals', b: 'Credentials, certifications, and client presence built into priority pages' }
-process:
-    - { title: 'Map', body: 'We identify who actually visits the site and what each group needs to see before they trust it.' }
-    - { title: 'Architect', body: 'Page hierarchy and navigation are built around those visitor paths, not the internal org chart.' }
-    - { title: 'Design', body: 'Credentials, certifications, and proof points are placed where skepticism actually peaks, not wherever there was space.' }
-    - { title: 'Build', body: 'The site is built with role-based access so each department can own its own section going forward.' }
-    - { title: 'Migrate', body: 'Existing content is migrated and each department is walked through updating its own pages.' }
-    - { title: 'Launch', body: 'We train internal staff on routine updates so the site does not depend on a developer for basic changes.' }
 comparison:
     headers: ['Built for Corporate Credibility', 'Generic Template Approach']
     rows:
@@ -44,13 +109,6 @@ comparison:
         - { a: 'Navigation reflects how visitors actually decide', b: 'Navigation copied from a template regardless of audience' }
         - { a: 'Each department can own and update its own section', b: 'One CMS user manages everything, creating bottlenecks' }
     note: "A generic template can still look polished - the failure usually shows up in structure and trust signal placement, not visual design."
-outcomes:
-    - 'A skeptical visitor forms a credible impression within the first few seconds on the page, not several clicks in'
-    - 'Multiple departments can update their own sections without routing every change through one person'
-    - 'Trust signals are visible before a visitor has already decided to leave'
-who_needs_this:
-    - { title: 'Enterprises replacing an outdated or fragmented site', body: 'A site that grew page by page over years usually has a structure nobody would design on purpose today.' }
-    - { title: 'Organizations with multiple departments or business lines', body: 'Each needs a section it can actually maintain without becoming dependent on a central webmaster.' }
 faqs:
     - { q: 'How is a corporate website different from a standard business website?', a: "Scale and audience complexity, mainly. A standard business site usually serves one type of visitor deciding one thing. A corporate site often serves buyers, press, investors, and job applicants at once, across dozens of pages, which requires a more deliberate information architecture and often a more capable CMS." }
     - { q: 'Who updates the site after it launches - us or your internal team?', a: "Your team, for routine changes - that is a deliberate part of the build, not an afterthought. We set up role-based CMS access so departments can maintain their own sections, and we are available for anything beyond that scope." }

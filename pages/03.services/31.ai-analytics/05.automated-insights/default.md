@@ -1,6 +1,6 @@
 ---
 title: 'Automated Insights'
-template: service-detail-b
+template: service-landing
 eyebrow: 'AI Analytics'
 headline: 'Get The Recommendation, Not Just The Report'
 tagline: "We detect the change, surface the likely cause, and deliver a recommended action wherever your team already works."
@@ -15,38 +15,96 @@ metadata:
 sitemap:
     changefreq: monthly
     priority: !!float 0.6
-overview: "<p>Turning a number into a decision is the one step that stays manual even after everything upstream gets automated - a metric moves, someone eventually notices, someone investigates, someone decides. We close that gap: pairing each detected change with a plausible cause and a recommended action, delivered to Slack, email, or a dashboard automatically.</p>"
-overview_answer: "Automated insights are a layer that detects a significant change in a key metric, surfaces a likely cause, and generates a recommended action automatically, delivered to wherever your team already works."
-capabilities:
-    - { title: 'Automated Change Detection', items: ['Monitoring key metrics for statistically significant shifts', 'Thresholds tuned to your actual variance, not generic defaults'] }
-    - { title: 'Root-Cause Surfacing', items: ['Correlating a detected change against related data to surface a likely cause', 'Flagged with a confidence level, not stated as certain'] }
-    - { title: 'Recommended-Action Generation', items: ['A suggested next step attached to each detected change', 'Actions grounded in what similar past changes actually responded to'] }
-    - { title: 'Multi-Channel Delivery', items: ['Delivered via dashboard, email, or Slack depending on urgency', 'Routed to the person actually positioned to act, not a shared inbox'] }
+hero_cta:
+    primary_label: 'Get an Insights Layer Assessment'
+    primary_url: /contact
+    secondary_label: 'Talk to an Expert'
+    secondary_url: /contact
+
+definition: "<p>Automated insights are a layer that detects a significant change in a key metric, surfaces a likely cause, and generates a recommended action automatically, delivered to wherever your team already works. Turning a number into a decision is the one step that stays manual even after everything upstream gets automated - a metric moves, someone eventually notices, someone investigates, someone decides.</p><p>Skip it and that gap between a metric moving and someone deciding what to do about it stays entirely manual, no matter how good the detection or dashboards underneath it already are.</p><p>It's different from marketing intelligence, which aggregates and pattern-matches across channels, and from a BI tool's built-in alerting, which typically stops at telling you a threshold was crossed rather than adding a likely cause and a recommended next step.</p>"
+definition_answer: "Automated insights are a layer that detects a significant change in a key metric, surfaces a likely cause, and generates a recommended action automatically, delivered to wherever your team already works."
+
+problems:
+    - { title: 'Detection without decisions', body: 'A metric moves and gets flagged, but someone still has to manually work out what it means.' }
+    - { title: 'Changes caught too late', body: 'Significant shifts only surface at the next scheduled reporting cycle, not when they happen.' }
+    - { title: 'Alerts with no next step', body: 'Built-in BI alerting tells you a threshold was crossed but nothing about what to do next.' }
+    - { title: 'Recurring patterns rediscovered repeatedly', body: 'The same dip tied to the same recurring event gets investigated fresh every time it happens.' }
+    - { title: 'Generic alert sensitivity', body: 'Default thresholds flag routine variance as if it were a genuine, actionable change.' }
+
 included:
+    - { title: 'Automated Change Detection', body: 'Monitoring key metrics for statistically significant shifts, with thresholds tuned to your actual variance.' }
+    - { title: 'Root-Cause Surfacing', body: 'Correlating a detected change against related data to surface a likely cause, flagged with a confidence level.' }
+    - { title: 'Recommended-Action Generation', body: 'A suggested next step attached to each detected change, grounded in what similar past changes actually responded to.' }
+    - { title: 'Multi-Channel Delivery', body: 'Delivered via dashboard, email, or Slack depending on urgency, routed to the person actually positioned to act.' }
+
+methodology:
+    - { title: 'Threshold Setup', body: 'We identify which metrics warrant automated monitoring and tune detection thresholds against your actual historical variance.' }
+    - { title: 'Root-Cause Configuration', body: 'Related data sources are connected so a detected change can be correlated against likely causes automatically.' }
+    - { title: 'Recommendation Logic', body: 'Recommended actions are grounded in what similar past changes in your own data actually responded to, not a generic playbook.' }
+    - { title: 'Delivery Routing', body: 'Each alert type gets routed to the channel and person best positioned to act on it - dashboard, email, or Slack.' }
+    - { title: 'Feedback Loop', body: 'We track which recommendations get acted on and which get dismissed, and use that to improve future recommendation accuracy.' }
+
+before_after:
+    headers: ['Before', 'After']
+    rows:
+        - { a: 'A metric moves and someone eventually notices at the next review', b: 'A significant change is detected and flagged as it happens' }
+        - { a: 'An alert tells you something changed with no context', b: 'A likely cause and a recommended action arrive with the alert' }
+        - { a: 'The same recurring pattern gets re-investigated every time', b: 'A recurring pattern is recognised automatically going forward' }
+        - { a: 'Generic alert thresholds flag routine noise', b: 'Thresholds tuned to your own historical variance' }
+
+results:
+    - { label: 'Time to flag a significant change', desc: 'Measured from when a metric shifts to when the alert reaches the right person.' }
+    - { label: 'Recommendation acceptance rate', desc: 'Tracked by how often a suggested action gets acted on versus dismissed.' }
+    - { label: 'Root-cause accuracy', desc: 'Reviewed against how often the surfaced cause matches what actually happened.' }
+    - { label: 'Recurring pattern recognition', desc: 'How reliably a repeating pattern gets flagged automatically after its first occurrence.' }
+
+deliverables_checklist:
+    - { a: 'Change Detection', b: '✓' }
+    - { a: 'Root-Cause Analysis', b: '✓' }
+    - { a: 'Recommended Actions', b: '✓' }
+    - { a: 'Delivery & Feedback Loop', b: '✓' }
+
+tools_used:
+    - { label: 'GA4', icon: '&#128202;' }
+    - { label: 'Looker Studio', icon: '&#128200;' }
+    - { label: 'OpenAI API', icon: '&#129504;' }
+    - { label: 'Claude API', icon: '&#129504;' }
+
+industries:
+    - { label: 'B2B & SaaS', url: /industries/b2b-saas, icon: '&#128188;' }
+    - { label: 'E-Commerce', url: /industries/ecommerce, icon: '&#128722;' }
+    - { label: 'Technology', url: /industries/technology, icon: '&#128187;' }
+    - { label: 'Financial Services', url: /industries/financial-services, icon: '&#127974;' }
+
+who_for:
+    - { label: 'Teams on a fixed reporting cadence', icon: '&#128197;' }
+    - { label: 'Businesses with dashboards but no action layer', icon: '&#128200;' }
+    - { label: 'Marketing ops teams', icon: '&#9881;&#65039;' }
+    - { label: 'Finance teams tracking spend efficiency', icon: '&#128176;' }
+    - { label: 'Growth teams', icon: '&#127919;' }
+
+why_us:
+    - { title: 'We fix tracking before we touch results', body: "Every engagement starts with the same audit we'd run on our own accounts, so the numbers you're optimizing against are actually true." }
+    - { title: 'One accountable team, not siloed vendors', body: 'The same team that does this also owns the rest of your stack - no handoff, no blame-shifting between vendors.' }
+    - { title: 'Built for how AI search actually works', body: 'Everything we build is structured to be extractable by AI answer engines, not just ranked in a list of blue links.' }
+    - { title: 'Reporting tied to your own dashboard', body: "Every number we report ties back to GA4/GTM events you can see directly - not a screenshot from a tool you can't independently verify." }
+
+expert_insight: "Recommendations are flagged with a confidence level instead of presented as certain, which matches how much trust an automated suggestion should actually get."
+
+ai_relationships:
+    diagram: "Automated Insights\n├── Marketing Intelligence\n├── Predictive Analytics\n├── AI-Powered Reporting\n└── Process Automation"
+    items:
+        - { title: 'Marketing Intelligence', url: /services/ai-analytics/marketing-intelligence, body: 'Aggregates and pattern-matches across channels, feeding the detection this layer acts on.' }
+        - { title: 'Predictive Analytics', url: /services/ai-analytics/predictive-analytics, body: 'Forecasts what is likely to happen next, complementing this layer''s focus on what just changed.' }
+        - { title: 'AI-Powered Reporting', url: /services/ai-analytics/ai-powered-reporting, body: 'Delivers the underlying numbers this layer monitors into the reports stakeholders already read.' }
+        - { title: 'Process Automation', url: /services/business-automation/process-automation, body: 'Can execute a recommended action directly once a team is comfortable automating the response, not just the alert.' }
+
+deliverables:
     - { a: 'Change Detection', b: 'Ongoing monitoring of key metrics with thresholds tuned to your data' }
     - { a: 'Root-Cause Analysis', b: 'Automated correlation against related data to surface a likely cause' }
     - { a: 'Recommended Actions', b: 'A suggested next step generated alongside each significant change' }
     - { a: 'Delivery & Feedback Loop', b: 'Alerts routed to the right channel, with feedback tracked to improve future recommendations' }
-how_we_work:
-    - { title: 'Metric & Threshold Setup', body: 'We identify which metrics warrant automated monitoring and tune detection thresholds against your actual historical variance.' }
-    - { title: 'Root-Cause Model Configuration', body: 'Related data sources are connected so a detected change can be correlated against likely causes automatically.' }
-    - { title: 'Recommendation Logic', body: 'Recommended actions are grounded in what similar past changes in your own data actually responded to, not a generic playbook.' }
-    - { title: 'Delivery Routing', body: 'Each alert type gets routed to the channel and person best positioned to act on it - dashboard, email, or Slack.' }
-    - { title: 'Feedback Loop & Iteration', body: 'We track which recommendations get acted on and which get dismissed, and use that to improve future recommendation accuracy.' }
-use_cases:
-    - "A significant drop in conversion rate gets flagged with a likely cause and a suggested fix before the weekly reporting meeting"
-    - "A sudden spend spike on one channel gets surfaced to the person managing that budget within the hour, not at month-end"
-    - "A recurring pattern - a metric that dips every time a specific event happens - gets surfaced once and then recognised automatically going forward"
-who_needs_this:
-    - { title: 'Teams that only review metrics on a fixed reporting cadence', body: 'If something significant happens between reporting cycles, this catches it before the next scheduled review.' }
-    - { title: 'Businesses with the data and dashboards already in place but no action layer on top', body: "If detection already exists but someone still has to manually decide what it means, this is the missing layer." }
-benefits:
-    - "Significant changes get flagged and explained before the next scheduled reporting cycle, not after"
-    - "A recommended action arrives with the alert instead of requiring a separate investigation"
-    - "Recommendation accuracy improves over time as the feedback loop tracks what actually gets acted on"
-why_choose_us:
-    - "We tune detection thresholds against your actual data before turning anything on, rather than shipping default sensitivity settings"
-    - "Recommendations are flagged with a confidence level instead of presented as certain, which matches how much trust an automated suggestion should actually get"
+
 faqs:
     - { q: 'How confident should we be in the automatically recommended action?', a: "Treat it as a well-informed suggestion, not a directive - we attach a confidence level to each one for that reason. Higher-confidence recommendations are grounded in patterns that repeated reliably in your own historical data; lower-confidence ones are flagged as worth a human look before acting." }
     - { q: 'Can you guarantee the root cause surfaced is actually correct?', a: "No - root-cause surfacing works by correlation, and correlation isn't always causation, especially for a genuinely novel event. What we guarantee is that the surfaced cause is the most statistically plausible one given the connected data, clearly flagged as a hypothesis worth checking, not a certainty." }
