@@ -12,11 +12,9 @@ sitemap:
 
 ### Send us a message
 
-<form id="contact-form" class="contact-form" action="https://formsubmit.co/m.ananthsridev@gmail.com" method="POST">
-    <input type="hidden" name="_subject" value="New Contact Form Submission - EASI7 Website">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_next" value="https://easi7.in/thank-you">
+<form id="contact-form" class="contact-form" action="/submit-form.php" method="POST">
+    <input type="hidden" name="page" value="/contact">
+    <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;" aria-hidden="true">
 
     <div class="form-row">
         <div>
@@ -61,4 +59,4 @@ sitemap:
     <button class="btn brass" type="submit">Send Message &rarr;</button>
 </form>
 
-Your message goes directly to our inbox. We typically respond within 24 hours.
+Your message is saved directly to our system. We typically respond within 24 hours.

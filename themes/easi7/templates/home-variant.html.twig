@@ -67,11 +67,11 @@
       </div>
       <div class="hero-lead-form">
         <h3>Get a free audit call</h3>
-        <form action="https://formsubmit.co/{{ config.themes.easi7.company.email }}" method="POST">
-          <input type="hidden" name="_subject" value="New Homepage Lead - EASI7 Website">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_next" value="{{ url('/thank-you', true) }}">
+        <form action="/submit-form.php" method="POST">
+          <input type="hidden" name="subject" value="New Homepage Lead - EASI7 Website">
+          <input type="hidden" name="message" value="Requested a free audit call from the homepage.">
+          <input type="hidden" name="page" value="{{ page.url() }}">
+          <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;" aria-hidden="true">
           <div>
             <label for="hf-name">Name *</label>
             <input type="text" id="hf-name" name="name" placeholder="Your name" required>

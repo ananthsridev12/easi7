@@ -28,12 +28,9 @@
     <div class="cta-form-panel">
       <h3>Ready to get started?</h3>
       <p class="cta-form-note">We usually reply within 24 hours.</p>
-      <form action="https://formsubmit.co/{{ config.themes.easi7.company.email }}" method="POST">
-        <input type="hidden" name="_subject" value="New Contact Form Submission - EASI7 Website">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_next" value="https://easi7.in/thank-you">
-        <input type="hidden" name="page" value="{{ page.title }}">
+      <form action="/submit-form.php" method="POST">
+        <input type="hidden" name="page" value="{{ page.url() }}">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;" aria-hidden="true">
         <label>Name<input type="text" name="name" placeholder="Jane Doe" required></label>
         <label>Email<input type="email" name="email" placeholder="jane@company.com" required></label>
         <label>Message<textarea name="message" rows="3" placeholder="What are you working on?" required></textarea></label>
