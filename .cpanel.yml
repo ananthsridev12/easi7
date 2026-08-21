@@ -12,4 +12,5 @@ deployment:
     - /bin/cp -R themes/easi7/. /home1/de2shrnx/public_html/user/themes/easi7/
     - /bin/cp submit-form.php /home1/de2shrnx/public_html/submit-form.php
     - /bin/cp leads-admin.php /home1/de2shrnx/public_html/leads-admin.php
+    - /bin/cp llms.txt /home1/de2shrnx/public_html/llms.txt
     - /bin/rm -rf /home1/de2shrnx/public_html/cache/*

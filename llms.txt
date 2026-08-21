@@ -1,0 +1,34 @@
+# EASI7
+
+> EASI7 is a data-driven digital marketing and technology studio based in Chennai, India. We run analytics, paid media, SEO, content, marketing automation, web/app development, design, and AI solutions as one connected system rather than as separate vendors - so tracking is fixed before media spend, and every piece of work ties back to the same measurement baseline.
+
+## Services
+
+- [Digital Marketing](https://easi7.in/digital-marketing): SEO (technical, on-page, off-page, local, AI SEO/AEO, programmatic), search engine marketing, social media marketing, content marketing, B2B lead generation, email and messaging marketing, marketing automation, analytics and tracking, conversion optimization.
+- [Development](https://easi7.in/development): Website development, web application development, e-commerce development, CMS development, frontend development, integrations, web performance and security optimization.
+- [Design](https://easi7.in/design): UI/UX design, website design, branding, graphic design, presentation design, video and motion design.
+- [AI & Automation](https://easi7.in/ai-automation): AI strategy and consulting, AI agents, AI chatbots, AI-powered marketing automation, business process automation, AI analytics.
+- [Strategy & Consulting](https://easi7.in/strategy-consulting): Digital strategy, marketing strategy, growth strategy, MarTech consulting, analytics consulting.
+- [Full services index](https://easi7.in/services): every individual service EASI7 offers, organized by category.
+
+## Apps & Tools
+
+- [Apps & Tools](https://easi7.in/apps): Small, self-hosted tools EASI7 built to solve its own operational problems first, before offering them to clients - including a LinkedIn content system, a UTM/tracking platform, a personal finance app, and a B2B intent-signal engine.
+
+## Proof of work
+
+- [Case Studies](https://easi7.in/case-studies): Real client engagements with documented outcomes.
+- [Portfolio](https://easi7.in/portfolio): Project examples across marketing, development, and design work.
+- [Industries](https://easi7.in/industries): Sectors EASI7 has worked in, including B2B & SaaS, e-commerce, financial services, healthcare, manufacturing, professional services, and technology.
+
+## Resources
+
+- [Knowledge Hub](https://easi7.in/knowledge-hub): Short, direct-answer explainers of marketing and analytics concepts (GA4, AEO, data layers, Core Web Vitals, schema markup, and more).
+- [Blog](https://easi7.in/blog): In-depth guides on SEO, paid media, analytics, automation, and strategy.
+
+## Company
+
+- [About](https://easi7.in/about): Company background, approach, and team.
+- [Contact](https://easi7.in/contact): Get in touch for a project or an audit.
+
+Founded and led by Ananth Sridev. Based in Chennai, India.
