@@ -1,7 +1,26 @@
 User-agent: *
-Allow: /
+Disallow: /.github/
+Disallow: /.phan/
+Disallow: /assets/
+Disallow: /backup/
+Disallow: /bin/
+Disallow: /cache/
+Disallow: /logs/
+Disallow: /system/
+Disallow: /tests/
+Disallow: /tmp/
+Disallow: /user/
+Disallow: /vendor/
+Disallow: /webserver-configs/
 Disallow: /leads-admin.php
 Disallow: /submit-form.php
 Disallow: /thank-you
+Allow: /user/pages/
+Allow: /user/themes/
+Allow: /user/images/
+Allow: /
+Allow: *.css$
+Allow: *.js$
+Allow: /system/*.js$
 
 Sitemap: https://easi7.in/sitemap.xml
